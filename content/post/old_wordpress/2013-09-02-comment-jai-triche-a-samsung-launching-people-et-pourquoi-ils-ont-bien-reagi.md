@@ -23,7 +23,7 @@ Toujours en cours actuellement, un concours mis en place par Samsung a récolté
 
 Dans ma série de posts pour expliquer comment tricher sur le web, j&#8217;aimerais aujourd&#8217;hui vous parler du concours <a title="Concours Facebokk Samsung" href="https://apps.facebook.com/launchingpeople-fr/" target="_blank">Samsung Launching People</a>. La dernière fois que j&#8217;ai décrypté une technique de triche, c&#8217;était à l&#8217;occasion de <a title="Triche aux Golden Blog Awards" href="http://www.graphemeride.com/blog/comment-j-ai-triche-aux-golden-blog-awards" target="_blank">Golden Blog Awards</a>. A l&#8217;époque, la technique était très simple puisque les votes se faisaient par un simple clic. Dans le cas de Samsung, le jeu concours a été organisé sur Facebook. Il est en général plus difficile de tricher à ce genre de concours hébergés sur le géant des réseaux sociaux.
 
-<img class="aligncenter size-medium wp-image-1384" alt="Launching People" src="/images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png" width="300" height="230" />
+{{<img class="aligncenter size-medium wp-image-1384" alt="Launching People" src="images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png" width="300" height="230" >}}
 
 Cependant, jusqu&#8217;à présent (<a title="Nouveaux types de concours facebook" href="http://www.commentcamarche.net/news/5863033-concours-sur-facebook-les-applications-tierces-ne-sont-plus-requises" target="_blank">cela va changer</a>), il était nécessaire de créer une application tierce pour faire son concours, l&#8217;application étant hébergée par la société éditrice du concours. C&#8217;est là que le bât blesse dans 95% des cas : les jeux concours sur le Web sont TOUS craquables, piratables sans le moindre souci lorsqu&#8217;il s&#8217;agit d&#8217;un concours basé sur un score (nombre de points à obtenir, nombre de likes, etc). Pour ce que j&#8217;en pense, **les seuls jeux concours non craquables sont basés sur le système d&#8217;instants gagnants**. C&#8217;est la seule technique qui ne permet pas de piratage facile.
 
@@ -193,7 +193,7 @@ Sur ce nombre, en admettant que 5%  des votants furent attirés par le lot offe
 
 Je pense que Samsung a bien géré ce concours. Tout d&#8217;abord, il y avait une personne dédiée au concours qui approuvait les candidatures et répondait aux questions. Ensuite, le fait que le jury n&#8217;ait pas pris en compte les votes est &#8220;intelligent&#8221; même si c&#8217;est quand même un peu déplorable : j&#8217;ai passé environ cinq heures à faire du networking pour obtenir les seuls 300 vrais votes reliés à mon compte (j&#8217;avais fait publier des articles dans des blogs connus pour parler de moi et demander du soutien).
 
-[<img class="aligncenter size-medium wp-image-1385" alt="WordiZ sur Launching People" src="/images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png" width="300" height="182" />][1]
+[{{<img class="aligncenter size-medium wp-image-1385" alt="WordiZ sur Launching People" src="images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png" width="300" height="182" >}}][1]
 
 ## Les sociétés qui font des concours sur le web
 
@@ -203,5 +203,5 @@ Dans le passé je me suis souvent amusé à pirater les jeux concours de sociét
 
 Des questions? Laissez un commentaire ci-dessous je vous en prie.
 
- [1]: /images/posts/oldwordpress/uploads/2013/09/samsung.png
+ [1]: images/posts/oldwordpress/uploads/2013/09/samsung.png
  [2]: mailto:ref@wordiz.it "Commander des listing d'influenceurs bloggeurs"

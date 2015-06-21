@@ -5,7 +5,7 @@ author: Jice
 date: 2009-07-31
 url: /2009/08/guides-officiels-du-referencement/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg
+  - images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg
 categories:
   - SEO
 tags:
@@ -15,7 +15,7 @@ tags:
   - SEO
 ---
 <p style="text-align: justify;">
-  <a href="/images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg"><img class="alignleft size-full wp-image-740" style="margin: 5px;" title="referencement-internet" src="/images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg" alt="referencement-internet" width="172" height="175" /></a>Suite au marriage de Yahoo/Bing, le référencement va s&#8217;articuler autour de deux acteurs principalement : <strong>Google </strong>(<a title="Google" href="http://www.exalead.fr/search/" target="_blank">http://www.google.com</a>)<strong> </strong>et <strong>Bing</strong> (<a title="Bing" href="http://www.bing.com" target="_blank">http://www.bing.com</a>). Je souhaite citer l&#8217;alternative française, pas mauvaise,  <a title="Exalead" href="http://www.exalead.fr" target="_blank">Exalead</a>, qui, à ce que j&#8217;ai entendu, va se lancer dans du sémantique progressivement.<!--more-->
+  <a href="images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg">{{<img class="alignleft size-full wp-image-740" style="margin: 5px;" title="referencement-internet" src="images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg" alt="referencement-internet" width="172" height="175" >}}</a>Suite au marriage de Yahoo/Bing, le référencement va s&#8217;articuler autour de deux acteurs principalement : <strong>Google </strong>(<a title="Google" href="http://www.exalead.fr/search/" target="_blank">http://www.google.com</a>)<strong> </strong>et <strong>Bing</strong> (<a title="Bing" href="http://www.bing.com" target="_blank">http://www.bing.com</a>). Je souhaite citer l&#8217;alternative française, pas mauvaise,  <a title="Exalead" href="http://www.exalead.fr" target="_blank">Exalead</a>, qui, à ce que j&#8217;ai entendu, va se lancer dans du sémantique progressivement.<!--more-->
 </p>
 
 <p style="text-align: justify;">

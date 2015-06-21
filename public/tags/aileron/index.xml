@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aileron on Jice is Nice</title>
-    <link>http://localhost:1313/tags/aileron/</link>
-    <description>Recent content in Aileron on Jice is Nice</description>
+    <title>Aileron on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/aileron/</link>
+    <description>Recent content in Aileron on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 11 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/aileron/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/aileron/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>De l’intérêt d’un bon aileron</title>
-      <link>http://localhost:1313/2009/07/de-linteret-dun-bon-aileron/</link>
+      <link>http://localhost:1313/blog/2009/07/de-linteret-dun-bon-aileron/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/de-linteret-dun-bon-aileron/</guid>
+      <guid>http://localhost:1313/blog/2009/07/de-linteret-dun-bon-aileron/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-638&#34; style=&#34;margin: 5px;&#34; title=&#34;Twinzer MFC&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34; alt=&#34;Twinzer MFC&#34; width=&#34;250&#34; height=&#34;167&#34; /&gt;&lt;/a&gt;A quoi sert un aileron? A éviter de dériver. Avez-vous déjà essayer sans? Impossible de prendre de la vitesse et de rester stable. Vous êtes donc convaincus de son utilité&amp;#8230; mais d&amp;#8217;où provient le spin-out? Mauvais aileron, mauvais appui? Comment éviter le spin-out?
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-638&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34; alt=&#34;Twinzer MFC&#34; width=&#34;250&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Twinzer MFC&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;A quoi sert un aileron? A éviter de dériver. Avez-vous déjà essayer sans? Impossible de prendre de la vitesse et de rester stable. Vous êtes donc convaincus de son utilité&amp;#8230; mais d&amp;#8217;où provient le spin-out? Mauvais aileron, mauvais appui? Comment éviter le spin-out?
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moteur on Jice is Nice</title>
-    <link>http://localhost:1313/tags/moteur/</link>
-    <description>Recent content in Moteur on Jice is Nice</description>
+    <title>Moteur on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/moteur/</link>
+    <description>Recent content in Moteur on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 20 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/moteur/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/moteur/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Un nanomoteur électrique</title>
-      <link>http://localhost:1313/2010/11/un-nanomoteur-electrique/</link>
+      <link>http://localhost:1313/blog/2010/11/un-nanomoteur-electrique/</link>
       <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/11/un-nanomoteur-electrique/</guid>
+      <guid>http://localhost:1313/blog/2010/11/un-nanomoteur-electrique/</guid>
       <description>&lt;p&gt;Une équipe de l&amp;#8217;&lt;a title=&#34;TU Delft&#34; href=&#34;http://www.tudelft.nl/en/&#34; target=&#34;_blank&#34;&gt;université de Delft&lt;/a&gt; en Hollande (où est récemment arrivé mon ami &lt;a title=&#34;Pierre Bathelemy&#34; href=&#34;http://sites.google.com/site/barthelemyprofessional/&#34; target=&#34;_blank&#34;&gt;Pierre Bathelemy&lt;/a&gt; pour faire son Post-Doc) a récemment mis au point le concept de nanomoteur électrique. Celui-ci est encore théorique, mais pourrait voir le jour dans un proche futur.&lt;/p&gt;
 
 &lt;p&gt;Le concept, mis au point par &lt;strong&gt;Johannes S. Seldenthuis&lt;/strong&gt; et son équipe, se base sur une &lt;strong&gt;longue chaine moléculaire polaire&lt;/strong&gt;. Lors de l&amp;#8217;application d&amp;#8217;un champs électrique altérnatif, le &lt;a title=&#34;Dipole electrostatique&#34; href=&#34;http://fr.wikipedia.org/wiki/Moment_dipolaire&#34; target=&#34;_blank&#34;&gt;dipôle&lt;/a&gt; est attiré alternativement vers le haut ou le bas, mettant ainsi le moteur en rotation.&lt;/p&gt;
 
 &lt;p&gt;Comme une image vaut mieux qu&amp;#8217;un long discours, je vous laisse comprendre le principe par vous même :&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter&#34; alt=&#34;Nano-moteur&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/nn-2010-021499_0002-295x300.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/nn-2010-021499_0002-295x300.gif&#34; alt=&#34;Nano-moteur&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Pour en savoir plus : &lt;a title=&#34;Nanomoteur&#34; href=&#34;http://pubs.acs.org/doi/full/10.1021/nn1021499&#34; target=&#34;_blank&#34;&gt;http://pubs.acs.org/doi/full/10.1021/nn1021499&lt;/a&gt;

@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reggae on Jice is Nice</title>
-    <link>http://localhost:1313/tags/reggae/</link>
-    <description>Recent content in Reggae on Jice is Nice</description>
+    <title>Reggae on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/reggae/</link>
+    <description>Recent content in Reggae on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 28 Jan 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/reggae/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/reggae/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reggae Allemand</title>
-      <link>http://localhost:1313/2008/01/reggae-allemand/</link>
+      <link>http://localhost:1313/blog/2008/01/reggae-allemand/</link>
       <pubDate>Mon, 28 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/01/reggae-allemand/</guid>
+      <guid>http://localhost:1313/blog/2008/01/reggae-allemand/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-690&#34; style=&#34;margin: 5px;&#34; title=&#34;reggae-music&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-690&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;reggae-music&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Mon reggae préféré : le reggae von Deutschland!!!! Très Dancehall et en même temps ce n&amp;#8217;est pas du Dancehall jamaïcain. Très spirituel, et en même temps festif. A écouter!&lt;/p&gt;
 
@@ -61,13 +71,23 @@
     
     <item>
       <title>Reggae russe</title>
-      <link>http://localhost:1313/2008/01/reggae-russe/</link>
+      <link>http://localhost:1313/blog/2008/01/reggae-russe/</link>
       <pubDate>Mon, 28 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/01/reggae-russe/</guid>
+      <guid>http://localhost:1313/blog/2008/01/reggae-russe/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-690&#34; style=&#34;margin: 5px;&#34; title=&#34;reggae-music&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;270&#34; height=&#34;270&#34; /&gt;&lt;/a&gt;Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-690&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;270&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;reggae-music&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.&lt;/p&gt;
 
 &lt;p&gt;Avant de commencer je voulais vous donner ma source de nom de groupes : &lt;a onclick=&#34;window.open(this.href);return false;&#34; href=&#34;http://www.zhurnal.ru/music/rasta/bands.html&#34;&gt;&lt;a href=&#34;http://www.zhurnal.ru/music/rasta/bands.html&#34;&gt;http://www.zhurnal.ru/music/rasta/bands.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 

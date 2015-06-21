@@ -15,7 +15,7 @@ tags:
   - Installation
 ---
 <p style="text-align: justify;">
-  <img class="alignleft" style="margin-left: 20px; margin-right: 20px;" title="Drupal - CMS" src="http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif" alt="Drupal - CMS" width="250" height="250" />Petit article très rapide pour présenter la procédure d&#8217;installation d&#8217;un <a title="Drupal - CMS" href="http://drupal.org/" target="_blank">Drupal</a> multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
+  {{<img class="alignleft" style="margin-left: 20px; margin-right: 20px;" title="Drupal - CMS" src="http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif" alt="Drupal - CMS" width="250" height="250" >}}Petit article très rapide pour présenter la procédure d&#8217;installation d&#8217;un <a title="Drupal - CMS" href="http://drupal.org/" target="_blank">Drupal</a> multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
 </p>
 
 <p style="text-align: justify;">

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cerveau on Jice is Nice</title>
-    <link>http://localhost:1313/tags/cerveau/</link>
-    <description>Recent content in Cerveau on Jice is Nice</description>
+    <title>Cerveau on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/cerveau/</link>
+    <description>Recent content in Cerveau on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Thu, 10 Sep 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cerveau/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/cerveau/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Mind Machine – Chapitre 3 – Développement de la mémoire</title>
-      <link>http://localhost:1313/2009/09/the-mind-machine-e28093-chapitre-3-e28093-developpement-de-la-memoire/</link>
+      <link>http://localhost:1313/blog/2009/09/the-mind-machine-e28093-chapitre-3-e28093-developpement-de-la-memoire/</link>
       <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/09/the-mind-machine-e28093-chapitre-3-e28093-developpement-de-la-memoire/</guid>
+      <guid>http://localhost:1313/blog/2009/09/the-mind-machine-e28093-chapitre-3-e28093-developpement-de-la-memoire/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/09/MemoryB.jpg&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-925&#34; style=&#34;margin: 10px;&#34; title=&#34;Mémoire&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/09/MemoryB-150x150.jpg&#34; alt=&#34;Mémoire&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;&lt;em&gt;Dans ce chapitre sont introduits les modèles concernant la formation de la mémoire et les différents processus qui permettent de la conserver plus ou moins active. &lt;em&gt;On y apprend en particulier qu&amp;#8217;il existe deux types de mémoire (court terme et long terme) et que leur création n&amp;#8217;est pas similaire. &lt;/em&gt;&lt;/em&gt;&lt;span&gt;&lt;span&gt;&lt;em&gt;(&lt;a href=&#34;../2009/08/the-mind-machine-notes-de-lecture/&#34;&gt;Voir la liste des autres chapitres&lt;/a&gt;)&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/09/MemoryB.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-thumbnail wp-image-925&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/09/MemoryB-150x150.jpg&#34; alt=&#34;Mémoire&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Mémoire&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;em&gt;Dans ce chapitre sont introduits les modèles concernant la formation de la mémoire et les différents processus qui permettent de la conserver plus ou moins active. &lt;em&gt;On y apprend en particulier qu&amp;#8217;il existe deux types de mémoire (court terme et long terme) et que leur création n&amp;#8217;est pas similaire. &lt;/em&gt;&lt;/em&gt;&lt;span&gt;&lt;span&gt;&lt;em&gt;(&lt;a href=&#34;../2009/08/the-mind-machine-notes-de-lecture/&#34;&gt;Voir la liste des autres chapitres&lt;/a&gt;)&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

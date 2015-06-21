@@ -51,7 +51,7 @@ tags:
 </p>
 
 <p style="padding-left: 60px;">
-  <a href="/images/posts/oldwordpress/uploads/2010/06/comsol_plane.png"><img class="aligncenter size-medium wp-image-1077" title="Field Definition Comsol" src="/images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png" alt="" width="300" height="220" /></a>
+  <a href="images/posts/oldwordpress/uploads/2010/06/comsol_plane.png">{{<img class="aligncenter size-medium wp-image-1077" title="Field Definition Comsol" src="images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png" alt="" width="300" height="220" >}}</a>
 </p>
 
 <p style="padding-left: 60px;">

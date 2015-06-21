@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gothique on Jice is Nice</title>
-    <link>http://localhost:1313/tags/gothique/</link>
-    <description>Recent content in Gothique on Jice is Nice</description>
+    <title>Gothique on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/gothique/</link>
+    <description>Recent content in Gothique on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 19 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gothique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/gothique/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Musique Néo-Médiévale</title>
-      <link>http://localhost:1313/2009/07/musique-neo-medievale/</link>
+      <link>http://localhost:1313/blog/2009/07/musique-neo-medievale/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/musique-neo-medievale/</guid>
+      <guid>http://localhost:1313/blog/2009/07/musique-neo-medievale/</guid>
       <description>
 
 &lt;p&gt;Voilà quelques groupes et lien vers le site Deezer.com qui vous permettront de découvrir l&amp;#8217;univers de la musique médiévale! La plupart des chansons étant en latin, onest facilement plongé dans l&amp;#8217;univers.&lt;/p&gt;
@@ -29,7 +29,17 @@
 &lt;table border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img title=&#34;Corvus Corax&#34; src=&#34;http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg&#34; border=&#34;0&#34; alt=&#34;Corvus Corax&#34; width=&#34;300&#34; height=&#34;203&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg&#34; alt=&#34;Corvus Corax&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Corvus Corax&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -43,7 +53,17 @@
 &lt;table border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img title=&#34;Saltatio Mortis&#34; src=&#34;http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg&#34; border=&#34;0&#34; alt=&#34;Saltatio Mortis&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg&#34; alt=&#34;Saltatio Mortis&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Saltatio Mortis&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -62,11 +82,21 @@
     
     <item>
       <title>Art Tribal</title>
-      <link>http://localhost:1313/2009/07/art-tribal/</link>
+      <link>http://localhost:1313/blog/2009/07/art-tribal/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/art-tribal/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-655&#34; style=&#34;margin: 5px;&#34; title=&#34;bodyart&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34; alt=&#34;bodyart&#34; width=&#34;115&#34; height=&#34;95&#34; /&gt;&lt;/a&gt;Vu sur le site : &lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34;&gt;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2009/07/art-tribal/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-655&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34; alt=&#34;bodyart&#34; width=&#34;115&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;bodyart&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Vu sur le site : &lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34;&gt;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La suite du message reprend la liste de sites. Pour ma part je préfère&lt;/p&gt;
 
@@ -873,14 +903,24 @@
     
     <item>
       <title>EBM : politique érotique</title>
-      <link>http://localhost:1313/2009/07/ebm-politique-erotique/</link>
+      <link>http://localhost:1313/blog/2009/07/ebm-politique-erotique/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/ebm-politique-erotique/</guid>
+      <guid>http://localhost:1313/blog/2009/07/ebm-politique-erotique/</guid>
       <description>
 
 &lt;p align=&#34;justify&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Indochine.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-652&#34; style=&#34;margin: 5px;&#34; title=&#34;Indochine&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Indochine.jpg&#34; alt=&#34;Indochine&#34; width=&#34;150&#34; height=&#34;113&#34; /&gt;&lt;/a&gt;Les origines de l&amp;#8217;EBM datent de la guerre froide. Quels autres sujets pouvait-elle donc aborder si ce n&amp;#8217;est la politique.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/Indochine.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-652&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/Indochine.jpg&#34; alt=&#34;Indochine&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Indochine&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Les origines de l&amp;#8217;EBM datent de la guerre froide. Quels autres sujets pouvait-elle donc aborder si ce n&amp;#8217;est la politique.
 &lt;/p&gt;
 
 &lt;h2 id=&#34;les-origines:7e54db15cd4df20cb777ff2e22b59d39&#34;&gt;Les origines :&lt;/h2&gt;
@@ -909,16 +949,26 @@
     
     <item>
       <title>Playlist Darkwave</title>
-      <link>http://localhost:1313/2009/07/playlist-darkwave/</link>
+      <link>http://localhost:1313/blog/2009/07/playlist-darkwave/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/playlist-darkwave/</guid>
+      <guid>http://localhost:1313/blog/2009/07/playlist-darkwave/</guid>
       <description>&lt;p align=&#34;justify&#34;&gt;
   En me promenant sur myspace, je suis tombé sur le profil d&amp;#8217;une Demoiselle qui écoute exactement la même chose que moi en &lt;strong&gt;Darkwave&lt;/strong&gt;! Qu&amp;#8217;est-ce que cela signifie? Ne suis-je donc pas unique? Bref, je me poserai ces questions le moment venu, pour l&amp;#8217;instant je vous donne le lien pour avoir un aperçu des groupes influents en &lt;strong&gt;Darkwave/EBM&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p align=&#34;justify&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-648&#34; style=&#34;margin: 5px;&#34; title=&#34;Cyber_Goth_by_biohazardbitch&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34; alt=&#34;Cyber_Goth_by_biohazardbitch&#34; width=&#34;128&#34; height=&#34;170&#34; /&gt;&lt;/a&gt;Le Darkwave ou l&amp;#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&amp;#8217;aime la souffrance, ma copine/copain m&amp;#8217;a quitté je vais me suicider&amp;#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-648&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34; alt=&#34;Cyber_Goth_by_biohazardbitch&#34; width=&#34;128&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Cyber_Goth_by_biohazardbitch&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Le Darkwave ou l&amp;#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&amp;#8217;aime la souffrance, ma copine/copain m&amp;#8217;a quitté je vais me suicider&amp;#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.
 &lt;/p&gt;
 
 &lt;p align=&#34;justify&#34;&gt;

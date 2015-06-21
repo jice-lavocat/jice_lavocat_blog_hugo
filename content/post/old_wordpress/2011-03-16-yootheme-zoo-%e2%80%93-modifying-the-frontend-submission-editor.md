@@ -12,7 +12,7 @@ tags:
   - Joomla
   - Zoo
 ---
-[<img class="size-full wp-image-1212 alignleft" alt="zoo joomla module" src="/images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" height="120" />][1]A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &#8220;trusted mode&#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.
+[{{<img class="size-full wp-image-1212 alignleft" alt="zoo joomla module" src="images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" height="120" >}}][1]A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &#8220;trusted mode&#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.
 
 &nbsp;
 
@@ -34,4 +34,4 @@ should be commented :
 
 <span style="text-decoration: line-through;">[cc lang=&#8221;php&#8221;]if ($trusted_mod || !$trusted_mode) {[/cc]Or some other modification on the &#8220;if&#8221; instruction.That&#8217;s it, you are done with the hack.</span>
 
- [1]: /images/posts/oldwordpress/uploads/2011/08/zoo.png
+ [1]: images/posts/oldwordpress/uploads/2011/08/zoo.png

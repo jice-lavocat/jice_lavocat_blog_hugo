@@ -5,7 +5,7 @@ author: Jice
 date: 2009-06-16
 url: /2009/06/mise-a-jour-du-blog-ajout-photos/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/06/wordpress.jpg
+  - images/posts/oldwordpress/uploads/2009/06/wordpress.jpg
 categories:
   - Informatique
   - Ma_Life.com

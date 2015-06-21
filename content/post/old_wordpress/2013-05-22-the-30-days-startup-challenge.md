@@ -5,7 +5,7 @@ author: Jice
 date: 2013-05-22
 url: /2013/05/the-30-days-startup-challenge/
 Image:
-  - /images/posts/oldwordpress/uploads/2013/05/agenda.jpg
+  - images/posts/oldwordpress/uploads/2013/05/agenda.jpg
 categories:
   - Informatique
   - Management
@@ -19,7 +19,7 @@ tags:
 </p>
 
 <div id="attachment_1267" style="width: 310px" class="wp-caption aligncenter">
-  <a href="/images/posts/oldwordpress/uploads/2013/05/agenda.jpg"><img class="size-medium wp-image-1267" alt="30-days startup challenge" src="/images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg" width="300" height="214" /></a>
+  <a href="images/posts/oldwordpress/uploads/2013/05/agenda.jpg">{{<img class="size-medium wp-image-1267" alt="30-days startup challenge" src="images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg" width="300" height="214" >}}</a>
   
   <p class="wp-caption-text">
     30-days startup challenge

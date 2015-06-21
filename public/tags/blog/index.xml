@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Jice is Nice</title>
-    <link>http://localhost:1313/tags/blog/</link>
-    <description>Recent content in Blog on Jice is Nice</description>
+    <title>Blog on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/blog/</link>
+    <description>Recent content in Blog on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 24 Mar 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installation d’un Drupal multi-site</title>
-      <link>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</link>
+      <link>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</link>
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</guid>
+      <guid>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; title=&#34;Drupal - CMS&#34; src=&#34;http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; height=&#34;250&#34; /&gt;Petit article très rapide pour présenter la procédure d&amp;#8217;installation d&amp;#8217;un &lt;a title=&#34;Drupal - CMS&#34; href=&#34;http://drupal.org/&#34; target=&#34;_blank&#34;&gt;Drupal&lt;/a&gt; multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
+  &lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Drupal - CMS&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Petit article très rapide pour présenter la procédure d&amp;#8217;installation d&amp;#8217;un &lt;a title=&#34;Drupal - CMS&#34; href=&#34;http://drupal.org/&#34; target=&#34;_blank&#34;&gt;Drupal&lt;/a&gt; multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -68,17 +78,37 @@
     
     <item>
       <title>Devenir un entrepreuneur (US)</title>
-      <link>http://localhost:1313/2009/08/devenir-un-entrepreuneur-us/</link>
+      <link>http://localhost:1313/blog/2009/08/devenir-un-entrepreuneur-us/</link>
       <pubDate>Fri, 21 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/08/devenir-un-entrepreuneur-us/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-890&#34; style=&#34;margin: 10px;&#34; title=&#34;leader011&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;Un petit billet pour vous faire part de blogs dont la lecture réveille mon apétit pour l&amp;#8217;entrepreuneuriat. Je suis tombé un peu par hasard sur l&amp;#8217;un d&amp;#8217;eux, et me voilà accroc.&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2009/08/devenir-un-entrepreuneur-us/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-thumbnail wp-image-890&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;leader011&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Un petit billet pour vous faire part de blogs dont la lecture réveille mon apétit pour l&amp;#8217;entrepreuneuriat. Je suis tombé un peu par hasard sur l&amp;#8217;un d&amp;#8217;eux, et me voilà accroc.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://steveblank.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://steveblank.com&#34;&gt;http://steveblank.com&lt;/a&gt;&lt;/a&gt; : un retraité avec plusieurs société derrières lui. Silicon Valley&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.tobeanentrepreneur.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.tobeanentrepreneur.com&#34;&gt;http://www.tobeanentrepreneur.com&lt;/a&gt;&lt;/a&gt; : un actif, quelques sociétés à son actif. Prof à la LBS et à Standford&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/a&gt; : un actif, fondateur de IMVU &lt;a href=&#34;http://twitter.com/ericries&#34;&gt;Eric Ries&lt;/a&gt;{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Lean&#34;&gt;Lean&lt;/a&gt;{#aptureLink_7B1TdMgUWW} management (méthode Toyota).[&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-890&#34; style=&#34;margin: 10px;&#34; title=&#34;leader011&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;Un petit billet pour vous faire part de blogs dont la lecture réveille mon apétit pour l&amp;#8217;entrepreuneuriat. Je suis tombé un peu par hasard sur l&amp;#8217;un d&amp;#8217;eux, et me voilà accroc.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/a&gt; : un actif, fondateur de IMVU &lt;a href=&#34;http://twitter.com/ericries&#34;&gt;Eric Ries&lt;/a&gt;{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Lean&#34;&gt;Lean&lt;/a&gt;{#aptureLink_7B1TdMgUWW} management (méthode Toyota).[&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-thumbnail wp-image-890&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;leader011&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Un petit billet pour vous faire part de blogs dont la lecture réveille mon apétit pour l&amp;#8217;entrepreuneuriat. Je suis tombé un peu par hasard sur l&amp;#8217;un d&amp;#8217;eux, et me voilà accroc.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://steveblank.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://steveblank.com&#34;&gt;http://steveblank.com&lt;/a&gt;&lt;/a&gt; : un retraité avec plusieurs société derrières lui. Silicon Valley&lt;/p&gt;
 
@@ -92,10 +122,10 @@
     
     <item>
       <title>Modéliser la blogosphère</title>
-      <link>http://localhost:1313/2009/07/modeliser-la-blogosphere/</link>
+      <link>http://localhost:1313/blog/2009/07/modeliser-la-blogosphere/</link>
       <pubDate>Sun, 26 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/modeliser-la-blogosphere/</guid>
+      <guid>http://localhost:1313/blog/2009/07/modeliser-la-blogosphere/</guid>
       <description>&lt;p&gt;Je suis actuellement en train de lire le livre :  &amp;#8220;&lt;a href=&#34;http://www.morganclaypool.com/doi/abs/10.2200/S00213ED1V01Y200907DMK001&#34; target=&#34;_blank&#34;&gt;Modelling and Data Mining the Blogosphere&lt;/a&gt;&amp;#8221; de &lt;a href=&#34;http://www.public.asu.edu/~nagarwa6/&#34; target=&#34;_blank&#34;&gt;N.Agarwal&lt;/a&gt; et &lt;a href=&#34;http://www.public.asu.edu/%7Ehuanliu/&#34; target=&#34;_blank&#34;&gt;H.Liu&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Le livre est un condensé de maths appliquées au web, et spécialement au monde des blogs. Pour vous donner envie de lire le livre, voilà un petit extrait :&lt;/p&gt;
@@ -122,11 +152,21 @@
     
     <item>
       <title>Vivre du web</title>
-      <link>http://localhost:1313/2009/07/vivre-du-web/</link>
+      <link>http://localhost:1313/blog/2009/07/vivre-du-web/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/vivre-du-web/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-645&#34; title=&#34;make-money_blog&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; height=&#34;346&#34; /&gt;&lt;/a&gt;Je viens de tomber sur un fabuleux article , long et cru. Si vous êtes un idéaliste du web, ne lisez pas la suite.&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2009/07/vivre-du-web/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-645&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;make-money_blog&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Je viens de tomber sur un fabuleux article , long et cru. Si vous êtes un idéaliste du web, ne lisez pas la suite.&lt;/p&gt;
 
 &lt;p&gt;L&amp;#8217;article s&amp;#8217;intitule : &lt;a title=&#34;Permanent Link: Les 103 que je donnerais à tous ceux qui veulent se lancer sur le Web&#34; rel=&#34;bookmark&#34; href=&#34;http://visionary.wordpress.com/2009/07/10/les-103-que-je-donnerais-a-tous-ceux-qui-veulent-se-lancer-sur-le-web/&#34;&gt;Les 103 que je donnerais à tous ceux qui veulent se lancer sur le Web&lt;/a&gt; (l&amp;#8217;auteur ayant sûrement oublié un mot).&lt;/p&gt;
 
@@ -138,12 +178,22 @@
     
     <item>
       <title>Des blogs sur la neurologie</title>
-      <link>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</link>
+      <link>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</guid>
+      <guid>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-74&#34; title=&#34;Neurologie&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; height=&#34;92&#34; /&gt;Depuis un petit moment je m&amp;#8217;intéresse de plus en plus aux&lt;strong&gt; sciences du cerveau&lt;/strong&gt;, et à la &lt;strong&gt;conscience&lt;/strong&gt;. Je vous ai déjà parlé du livre &amp;#8220;&lt;em&gt;Quantum Aspects of Life&lt;/em&gt;&amp;#8221; dans un &lt;a title=&#34;Lectures de vacances&#34; href=&#34;http://localhost/oldblog/2008/12/lectures-de-vacances/&#34;&gt;précédent billet &lt;/a&gt;. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&amp;#8217;étude. Je vous en donne la liste ci-dessous.
+  &lt;figure class=&#34;alignleft size-full wp-image-74&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Neurologie&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Depuis un petit moment je m&amp;#8217;intéresse de plus en plus aux&lt;strong&gt; sciences du cerveau&lt;/strong&gt;, et à la &lt;strong&gt;conscience&lt;/strong&gt;. Je vous ai déjà parlé du livre &amp;#8220;&lt;em&gt;Quantum Aspects of Life&lt;/em&gt;&amp;#8221; dans un &lt;a title=&#34;Lectures de vacances&#34; href=&#34;http://localhost/oldblog/2008/12/lectures-de-vacances/&#34;&gt;précédent billet &lt;/a&gt;. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&amp;#8217;étude. Je vous en donne la liste ci-dessous.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -182,10 +232,10 @@
     
     <item>
       <title>Nouveau WordPress</title>
-      <link>http://localhost:1313/2008/12/nouveau-wordpress/</link>
+      <link>http://localhost:1313/blog/2008/12/nouveau-wordpress/</link>
       <pubDate>Mon, 22 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/12/nouveau-wordpress/</guid>
+      <guid>http://localhost:1313/blog/2008/12/nouveau-wordpress/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le nouveau WordPress est plutôt génial : installation automatisée de plugins, ergonomie plus avancée de l&amp;#8217;administration. Je suis très heureux de me remettre à WP dans ces conditions.
 &lt;/p&gt;
@@ -196,10 +246,10 @@
     
     <item>
       <title>Rentabiliser son site web</title>
-      <link>http://localhost:1313/2008/07/rentabiliser-son-site-web/</link>
+      <link>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</link>
       <pubDate>Tue, 22 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/07/rentabiliser-son-site-web/</guid>
+      <guid>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</guid>
       <description>
 
 &lt;h3 id=&#34;le-principe:1299d733f325b424f2fc042fd21c82e0&#34;&gt;Le principe :&lt;/h3&gt;

@@ -68,7 +68,7 @@ tags:
         </p>
         
         <p style="text-align: justify;">
-          Malheureusement encore destiné aux étudiants américains <img src="http://localhost/oldblog/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
+          Malheureusement encore destiné aux étudiants américains {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" >}}
         </p>
         
         <p style="text-align: justify;">

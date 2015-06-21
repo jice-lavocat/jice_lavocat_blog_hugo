@@ -5,7 +5,7 @@ author: Jice
 date: 2009-07-03
 url: /2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/07/clavierblack.gif
+  - images/posts/oldwordpress/uploads/2009/07/clavierblack.gif
 categories:
   - En vrac
 tags:
@@ -13,7 +13,7 @@ tags:
   - keyboard
 ---
 <p style="text-align: justify;">
-  <img class="alignleft size-full wp-image-563" style="margin: 5px;" title="clavierblack" src="/images/posts/oldwordpress/uploads/2009/07/clavierblack.gif" alt="clavierblack" width="100" height="100" />Si comme moi vous avez fait l&#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&#8217;est pas perdu. En effet, il vous est possible d&#8217;activer l&#8217;option : &#8220;Clavier qwerty international&#8221; en anglais &#8220;international qwerty keyboard&#8221; sur n&#8217;importe quel OS où vous travaillez.
+  {{<img class="alignleft size-full wp-image-563" style="margin: 5px;" title="clavierblack" src="images/posts/oldwordpress/uploads/2009/07/clavierblack.gif" alt="clavierblack" width="100" height="100" >}}Si comme moi vous avez fait l&#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&#8217;est pas perdu. En effet, il vous est possible d&#8217;activer l&#8217;option : &#8220;Clavier qwerty international&#8221; en anglais &#8220;international qwerty keyboard&#8221; sur n&#8217;importe quel OS où vous travaillez.
 </p>
 
 <p style="text-align: justify;">
@@ -60,7 +60,7 @@ tags:
     
     <p style="text-align: justify;">
       <div style="width: 610px" class="wp-caption aligncenter">
-        <img title="International Qwerty Keyboard chart" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png" alt="International Qwerty Keyboard Map ( src : wikipedia)" width="600" height="200" />
+        {{<img title="International Qwerty Keyboard chart" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png" alt="International Qwerty Keyboard Map ( src : wikipedia)" width="600" height="200" >}}
         
         <p class="wp-caption-text">
           International Qwerty Keyboard Map ( src : wikipedia)

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comsol on Jice is Nice</title>
-    <link>http://localhost:1313/tags/comsol/</link>
-    <description>Recent content in Comsol on Jice is Nice</description>
+    <title>Comsol on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/comsol/</link>
+    <description>Recent content in Comsol on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 07 Jun 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/comsol/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/comsol/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Nohup, Comsol and Matlab</title>
-      <link>http://localhost:1313/2010/06/nohup-comsol-and-matlab/</link>
+      <link>http://localhost:1313/blog/2010/06/nohup-comsol-and-matlab/</link>
       <pubDate>Mon, 07 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/06/nohup-comsol-and-matlab/</guid>
+      <guid>http://localhost:1313/blog/2010/06/nohup-comsol-and-matlab/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   When you want to use a &lt;strong&gt;Matlab &lt;/strong&gt;script to perform simulations with &lt;strong&gt;Comsol&lt;/strong&gt;,  a remote server is often used. This post is a quick note to help you creating matlab scripts that would be run on a remote server.
 &lt;/p&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>How to use the Scattered formalism using Comsol Multiphysics</title>
-      <link>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</link>
+      <link>http://localhost:1313/blog/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</link>
       <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</guid>
+      <guid>http://localhost:1313/blog/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   After my last post about &amp;#8216;&lt;a title=&#34;Far field Comsol&#34; href=&#34;http://localhost/oldblog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/&#34;&gt;getting the scattered far field using ComsolRF module&lt;/a&gt; &amp;#8216; a bunch of problems appeared. Actually, the definition of the incident field, using a line of current is wrong. It prevent the PML to work nicely, and thus, the overall field (and of course the scattered field) will be wrong.
 &lt;/p&gt;
@@ -97,7 +97,17 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;padding-left: 60px;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/06/comsol_plane.png&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1077&#34; title=&#34;Field Definition Comsol&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/06/comsol_plane.png&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1077&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Field Definition Comsol&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;padding-left: 60px;&#34;&gt;
@@ -116,10 +126,10 @@
     
     <item>
       <title>How-to get the electromagnetic scattered far field using Comsol RF Module</title>
-      <link>http://localhost:1313/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
+      <link>http://localhost:1313/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
       <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
+      <guid>http://localhost:1313/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -148,7 +158,17 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1053&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/setting_base.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1053&#34; title=&#34;setting_base&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/setting_base.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1053&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;setting_base&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Basic Setting
@@ -176,7 +196,17 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1055&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Setting_normal.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1055&#34; title=&#34;Setting_normal&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Setting_normal.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1055&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Setting_normal&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Normal Setting
@@ -204,7 +234,17 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1057&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Efar.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1057&#34; title=&#34;Efar&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Efar.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1057&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Efar&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Efar is defined on the big circle
@@ -243,7 +283,17 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1061&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1062&#34; title=&#34;Hfar_Comsol&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;261&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1062&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Hfar_Comsol&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Hfar using comsol
@@ -271,7 +321,17 @@
   &lt;em&gt;
   
   &lt;div id=&#34;attachment_1064&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-    &lt;em&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1064&#34; title=&#34;Hafr_Matlab&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;219&#34; /&gt;&lt;/a&gt;&lt;/em&gt;
+    &lt;em&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1064&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Hafr_Matlab&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/em&gt;
     
     &lt;p class=&#34;wp-caption-text&#34;&gt;
       Hfar of a scattering circle using Matlab

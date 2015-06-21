@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jice is Nice</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Jice is Nice</description>
+    <title>Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 21 Jun 2015 08:07:47 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/blog/about/</link>
       <pubDate>Sun, 21 Jun 2015 08:07:47 +0200</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/blog/about/</guid>
       <description>
 
 &lt;h2 id=&#34;passionate-for-the-world:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Passionate for the world&lt;/h2&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Moving from Ghost to HUGO</title>
-      <link>http://localhost:1313/newt/</link>
+      <link>http://localhost:1313/blog/newt/</link>
       <pubDate>Mon, 02 Mar 2015 16:08:29 +0100</pubDate>
       
-      <guid>http://localhost:1313/newt/</guid>
+      <guid>http://localhost:1313/blog/newt/</guid>
       <description>
 
 &lt;p&gt;I started to blog 11 years ago.
@@ -76,13 +76,24 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>Installer WordPress sur Webfaction</title>
-      <link>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</link>
+      <link>http://localhost:1313/blog/2014/03/installer-wordpress-sur-webfaction/</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</guid>
+      <guid>http://localhost:1313/blog/2014/03/installer-wordpress-sur-webfaction/</guid>
       <description>
 
-&lt;p&gt;J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; /&gt;
+    
+
+&lt;/figure&gt;
+J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Webfaction, en gros, c&amp;#8217;est &lt;em&gt;comme un hébergeur mutualisé&lt;/em&gt; (où on ne doit pas se concentrer sur la sécurité et l&amp;#8217;installation de toutes les dépendances du serveur) mais avec &lt;strong&gt;plein d&amp;#8217;options pour configurer automatiquement le serveur&lt;/strong&gt;. Par exemple, sur un mutu, impossible d&amp;#8217;installer des stacks complexes comme ruby on rails ou node, alors que sur webfaction cela est possible et il n&amp;#8217;y a pas besoin de passer 3 heures à trouver comment installer toutes les dépendances.&lt;/p&gt;
 
@@ -90,7 +101,12 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;Le panneau d&amp;#8217;administration de Webfaction est fait maison, il faut donc s&amp;#8217;habituer à la façon dont les informations sont présentées (c&amp;#8217;est pas long, mais voilà quoi) :&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1427&#34; alt=&#34;Dashboard Webfaction&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; width=&#34;600&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1427&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; alt=&#34;Dashboard Webfaction&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Dans la pratique (pas très grosse pour moi pour le moment), je trouve qu&amp;#8217;on perd un peu de temps entre les différents menus dans certains cas. Par exemple, dans domain/application/website, toutes les informations pourraient se trouver sur la même page avec un système d&amp;#8217;onglets. Bref, cela étant dit l&amp;#8217;ensemble reste quand même &lt;strong&gt;assez clair&lt;/strong&gt; et la &lt;strong&gt;prise en main est assez rapide&lt;/strong&gt;.&lt;/p&gt;
 
@@ -98,7 +114,12 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;Avant toute chose, allez vous créer un utilisateur qui a accès au ssh, ça sera beaucoup plus pratique dans le futur. Rendez-vous sur la page d&amp;#8217;&lt;a title=&#34;Création utilisateur ssh - webfaction&#34; href=&#34;https://my.webfaction.com/new-user&#34; target=&#34;_blank&#34;&gt;ajout d&amp;#8217;utilisateur&lt;/a&gt; et remplissez le formulaire (j&amp;#8217;ai pris &lt;em&gt;/bin/bash&lt;/em&gt; comme &lt;strong&gt;shell&lt;/strong&gt; mais ça n&amp;#8217;a pas de grosses implications). Vous verrez, même le choix du password est &amp;#8220;controlé&amp;#8221; et le système vous empêchera de créer un compte avec password &amp;#8220;faible&amp;#8221;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1428&#34; alt=&#34;Add SSH user&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; width=&#34;300&#34; height=&#34;154&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1428&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; alt=&#34;Add SSH user&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Une fois ce compte créer, vous pouvez vous connecter à votre serveur depuis chez vous en utilisant aussi bien des outils de ftp (comme winscp) ou ssh (comme putty) pour voir ce qui se passe dessus (j&amp;#8217;ai un vieil article sur &lt;a title=&#34;Les outils pour administrer un serveur à distance - SFTP et SSH - Adminoob&#34; href=&#34;http://www.adminoob.com/2008/08/18/les-outils-windows-indispensables-a-ladministration-serveur-a-distance/&#34; target=&#34;_blank&#34;&gt;les outils pour administrer un serveur à distance&lt;/a&gt; si vous débutez).&lt;/p&gt;
 
@@ -112,84 +133,62 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;Voilà  à quoi ressemblera votre &amp;#8220;site web&amp;#8221; après sa création :&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_website.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1431&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; width=&#34;600&#34; height=&#34;388&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1431&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Pour cela, donnez d&amp;#8217;abord un nom &amp;#8220;name&amp;#8221; à votre site web pour vous en rappeler facilement. Ensuite, il faut préciser quel domaine(s) et/ou sous-domaine(s) vont accéder à cette application. Pour cet exemple j&amp;#8217;en ai mis un seul :&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; width=&#34;600&#34; height=&#34;81&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Enfin, il faut dire au serveur quel application (WordPress) nous allons héberger sur ce nom de domaine. Pour cela on crée une nouvelle application, et on choisira WordPress dans la liste proposée.&lt;/p&gt;
 
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_application.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1432&#34; alt=&#34;Ajouter une application (webfaction)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;  &lt;img class=&#34;aligncenter  wp-image-1434&#34; alt=&#34;Détail création d&#39;une application&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/new_application.png&#34; width=&#34;600&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2014/03/create_application.png&#34;&gt;&lt;figure class=&#34;aligncenter  wp-image-1432&#34;&gt;
 
-&lt;h3 style=&#34;text-align: left;&#34;&gt;
-  Faire pointer ses DNS vers Webfaction
-&lt;/h3&gt;
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; alt=&#34;Ajouter une application (webfaction)&#34; width=&#34;600&#34; /&gt;
+    
 
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Après avoir sauvé cette configuration, il suffit d&amp;#8217;aller chez votre registar et faire pointer vos domaine vers votre serveur webfaction.L&amp;#8217;adresse IP du server est résumée dans votre liste d&amp;#8217;application :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_server.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1435&#34; alt=&#34;Adresse Ip de votre application sur webfaction&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_server.png&#34; width=&#34;600&#34; height=&#34;40&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Ci-dessus on voit que l&amp;#8217;adresse ip de mon nouveau serveur est &lt;em&gt;37.58.75.242&lt;/em&gt;. Je vais devoir aller pointer mon sous-domaine &lt;em&gt;wordpress.lavocat.name&lt;/em&gt; vers cette adresse IP. Vous allez créer un nouveau champ A qui pointera vers l&amp;#8217;adresse IP de votre serveur webfaction. Dans cet exemple, j&amp;#8217;utilise dreamhost comme registar (mais la manipulation se trouve expliquée facilement sur le web pour tous les registar) :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;img class=&#34;aligncenter size-full wp-image-1436&#34; alt=&#34;Configuration dns dreamhost&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_dreamhost.png&#34; width=&#34;600&#34; height=&#34;235&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Et comme beaucoup d&amp;#8217;entre vous sont aussi chez OVH, je mets ci-dessous à quoi ça ressemble :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_ovh.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1440&#34; alt=&#34;Configuration d&#39;un champs DNS A sous OVH&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_ovh.png&#34; width=&#34;479&#34; height=&#34;262&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Voilà, la configuration DNS et serveur est finie. Maintenant, passons à la base de données.
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: left;&#34;&gt;
-  Connexion à votre nouveau Wordress sur Webfaction
-&lt;/h2&gt;
-
-&lt;p&gt;Voilà, l&amp;#8217;ensemble des opérations ont été accomplies. Si la propagation de DNS est finie (peut prendre de 5 minutes à lpusieurs heures), vous allez pouvoir accéder à votre nouveau blog à l&amp;#8217;adresse que vous avez uutilisée. Chez moi ça marche donc ici : &lt;a title=&#34;Wordpress de test sur webfaction&#34; href=&#34;http://wordpress.lavocat.name/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://wordpress.lavocat.name/&#34;&gt;http://wordpress.lavocat.name/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Maintenant, l&amp;#8217;essentiel est de vous y connecter pour le configurer et ajouter du contenu. Pour cela, vous devez retourner dans &lt;em&gt;Domains / Applications&lt;/em&gt; puis &lt;em&gt;Applications&lt;/em&gt; et cliquer sur le nom du blog que vous venez de créer. Dessus vous avez toutes les informations concernant votre site et la base de données qui a été créée en même temps. Votre login initial est &amp;#8220;admin&amp;#8221; et le mot de passe est affiché dans le tableau dans la section &amp;#8220;extra info&amp;#8221; :&lt;/p&gt;
-
-&lt;h2 id=&#34;img-class-aligncenter-size-full-wp-image-1443-alt-login-de-wordpress-généré-automatiquement-src-images-posts-oldwordpress-uploads-2014-03-login-wordpress-png-width-600-height-339-4:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/login_wordpress.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1443&#34; alt=&#34;Login de WordPress généré automatiquement&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/login_wordpress.png&#34; width=&#34;600&#34; height=&#34;339&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&#34;voir-vos-fichiers:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Voir vos fichiers&lt;/h2&gt;
-
-&lt;p&gt;Pour voir vos fichiers, il faut vous connecter avec votre compte principal de FTP (et non pas celui créer spécialement pour le ssh au début). C&amp;#8217;est une situation un peu bizarre, mais j&amp;#8217;imagine que ça protège un peu plus vos one-click install.&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Web In Provence #1</title>
-      <link>http://localhost:1313/2014/02/web-in-provence-1/</link>
+      <link>http://localhost:1313/blog/2014/02/web-in-provence-1/</link>
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/02/web-in-provence-1/</guid>
+      <guid>http://localhost:1313/blog/2014/02/web-in-provence-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Je reprends la plume délaissée depuis un certain temps pour vous présenter un évènement auquel je viens d&amp;#8217;assister à Marseille. Il s&amp;#8217;agit du &lt;a title=&#34;Web In Provence&#34; href=&#34;http://www.webinprovence.fr/&#34; target=&#34;_blank&#34;&gt;Web In Provence&lt;/a&gt; , un apéro networking dédié aux acteur du web en &amp;#8230; Provence. L&amp;#8217;idée était d&amp;#8217;associer un apéro avec une conférence sur une tendance montante d&amp;#8217;internet. Pour cette première édition, les organisateurs (&lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://twitter.com/Flo__Hernandez&#34; target=&#34;_blank&#34;&gt;Florent&lt;/a&gt; &lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://plus.google.com/112373548303714842647/posts&#34; target=&#34;_blank&#34;&gt;Hernandez&lt;/a&gt; et &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://twitter.com/AlexDurain&#34; target=&#34;_blank&#34;&gt;Alexandre&lt;/a&gt; &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://plus.google.com/+AlexandreDurain_So-Buzz/posts&#34; target=&#34;_blank&#34;&gt;Durain&lt;/a&gt;) avaient choisi comme thème le &amp;#8220;&lt;strong&gt;Conception Web et Multi Device&lt;/strong&gt;&amp;#8221; . L&amp;#8217;invité de cet conférence était &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://twitter.com/stephane_m_&#34; target=&#34;_blank&#34;&gt;Stéphane&lt;/a&gt; &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://plus.google.com/102644824468826022899/about&#34; target=&#34;_blank&#34;&gt;Martin&lt;/a&gt; senior product designer chez &lt;a title=&#34;Stack Overflow&#34; href=&#34;http://stackoverflow.com/&#34; target=&#34;_blank&#34;&gt;Stack Overflow/Stack Exchange&lt;/a&gt; (la plateforme de questions/réponses dédiée aux programmeurs créé par &lt;a title=&#34;Jeff Atwood (Coding Horror)&#34; href=&#34;http://en.wikipedia.org/wiki/Jeff_Atwood&#34; target=&#34;_blank&#34;&gt;Jeff Atwood&lt;/a&gt;).
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1413&#34; alt=&#34;Stack Exchange Logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; width=&#34;300&#34; height=&#34;100&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1413&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;l-8217-avant-wip:0654f480a5355c245385ee4cb563f3ba&#34;&gt;L&amp;#8217;avant WIP&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;wp-image-1414 alignright&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Link Party&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; width=&#34;144&#34; height=&#34;150&#34; /&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
+  &lt;figure class=&#34;wp-image-1414 alignright&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
+    
+
+&lt;/figure&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
 &lt;/p&gt;
 
 &lt;h2 id=&#34;les-lieux:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les lieux&lt;/h2&gt;
@@ -213,7 +212,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;img class=&#34;size-medium wp-image-1415&#34; alt=&#34;Wip#1&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; width=&#34;300&#34; height=&#34;224&#34; /&gt;
+  &lt;figure class=&#34;size-medium wp-image-1415&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Stéphane Martin explique la conception de produit web au Wip14 -&lt;em&gt;Photo par &lt;a title=&#34;Jfeyraud&#34; href=&#34;https://twitter.com/jfeyraud&#34; target=&#34;_blank&#34;&gt;@jfeyraud&lt;/a&gt;&lt;/em&gt;
@@ -227,7 +231,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;h2 id=&#34;les-rencontres:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les rencontres&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;img class=&#34;size-medium wp-image-1417 alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Business Card&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
+  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;figure class=&#34;size-medium wp-image-1417 alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -272,7 +281,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -283,10 +297,10 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>Comment j’ai triché à Samsung Launching People et pourquoi ils ont bien réagi</title>
-      <link>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
+      <link>http://localhost:1313/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
       <pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
+      <guid>http://localhost:1313/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
       <description>
 
 &lt;p&gt;Toujours en cours actuellement, un concours mis en place par Samsung a récolté une très bonne visibilité sur la blogosphère française : Samsung Launching People. Dans cet article je vous explique comment il était possible de tricher à ce concours et comment Samsung gère la situation d&amp;#8217;une manière intelligente.&lt;/p&gt;
@@ -295,7 +309,12 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;Dans ma série de posts pour expliquer comment tricher sur le web, j&amp;#8217;aimerais aujourd&amp;#8217;hui vous parler du concours &lt;a title=&#34;Concours Facebokk Samsung&#34; href=&#34;https://apps.facebook.com/launchingpeople-fr/&#34; target=&#34;_blank&#34;&gt;Samsung Launching People&lt;/a&gt;. La dernière fois que j&amp;#8217;ai décrypté une technique de triche, c&amp;#8217;était à l&amp;#8217;occasion de &lt;a title=&#34;Triche aux Golden Blog Awards&#34; href=&#34;http://www.graphemeride.com/blog/comment-j-ai-triche-aux-golden-blog-awards&#34; target=&#34;_blank&#34;&gt;Golden Blog Awards&lt;/a&gt;. A l&amp;#8217;époque, la technique était très simple puisque les votes se faisaient par un simple clic. Dans le cas de Samsung, le jeu concours a été organisé sur Facebook. Il est en général plus difficile de tricher à ce genre de concours hébergés sur le géant des réseaux sociaux.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1384&#34; alt=&#34;Launching People&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; width=&#34;300&#34; height=&#34;230&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1384&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; alt=&#34;Launching People&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Cependant, jusqu&amp;#8217;à présent (&lt;a title=&#34;Nouveaux types de concours facebook&#34; href=&#34;http://www.commentcamarche.net/news/5863033-concours-sur-facebook-les-applications-tierces-ne-sont-plus-requises&#34; target=&#34;_blank&#34;&gt;cela va changer&lt;/a&gt;), il était nécessaire de créer une application tierce pour faire son concours, l&amp;#8217;application étant hébergée par la société éditrice du concours. C&amp;#8217;est là que le bât blesse dans 95% des cas : les jeux concours sur le Web sont TOUS craquables, piratables sans le moindre souci lorsqu&amp;#8217;il s&amp;#8217;agit d&amp;#8217;un concours basé sur un score (nombre de points à obtenir, nombre de likes, etc). Pour ce que j&amp;#8217;en pense, &lt;strong&gt;les seuls jeux concours non craquables sont basés sur le système d&amp;#8217;instants gagnants&lt;/strong&gt;. C&amp;#8217;est la seule technique qui ne permet pas de piratage facile.&lt;/p&gt;
 
@@ -471,7 +490,12 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;Je pense que Samsung a bien géré ce concours. Tout d&amp;#8217;abord, il y avait une personne dédiée au concours qui approuvait les candidatures et répondait aux questions. Ensuite, le fait que le jury n&amp;#8217;ait pas pris en compte les votes est &amp;#8220;intelligent&amp;#8221; même si c&amp;#8217;est quand même un peu déplorable : j&amp;#8217;ai passé environ cinq heures à faire du networking pour obtenir les seuls 300 vrais votes reliés à mon compte (j&amp;#8217;avais fait publier des articles dans des blogs connus pour parler de moi et demander du soutien).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/samsung.png&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1385&#34; alt=&#34;WordiZ sur Launching People&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; width=&#34;300&#34; height=&#34;182&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2013/09/samsung.png&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1385&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; alt=&#34;WordiZ sur Launching People&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;les-sociétés-qui-font-des-concours-sur-le-web:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Les sociétés qui font des concours sur le web&lt;/h2&gt;
 
@@ -485,10 +509,10 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>Business Model : A framework for innovation</title>
-      <link>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</link>
+      <link>http://localhost:1313/blog/2013/06/business-model-a-framework-for-innovation/</link>
       <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</guid>
+      <guid>http://localhost:1313/blog/2013/06/business-model-a-framework-for-innovation/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -499,7 +523,12 @@ This way all references like images keeps working.&lt;/p&gt;
   So let&amp;#8217;s start. If I am not clear and if you don&amp;#8217;t understand the core of the business, just post a comment at the end of the blog post.
 &lt;/p&gt;
 
-&lt;h2 id=&#34;img-class-alignright-size-full-wp-image-1368-alt-logo-wordiz-src-images-posts-oldwordpress-uploads-2013-06-logo-square-125-png-width-126-height-65-1-what-is-wordiz-for:bee392ce472234e8975e3927201fc468&#34;&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1368&#34; alt=&#34;Logo WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34; width=&#34;126&#34; height=&#34;65&#34; /&gt;&lt;/a&gt;What is WordiZ for?&lt;/h2&gt;
+&lt;h2 id=&#34;hugoshortcode-1-1-what-is-wordiz-for:bee392ce472234e8975e3927201fc468&#34;&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34;&gt;&lt;figure class=&#34;alignright size-full wp-image-1368&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34; alt=&#34;Logo WordiZ&#34; width=&#34;126&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;What is WordiZ for?&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Before entering into the topic, let me try to  briefly explain our application : &lt;em&gt;WordiZ is a job board dedicated to web copywriters journalists and bloggers.&lt;/em&gt;
@@ -514,7 +543,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;aligncenter size-full wp-image-1369&#34; alt=&#34;Content is King&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg&#34; width=&#34;520&#34; height=&#34;302&#34; /&gt;
+  &lt;figure class=&#34;aligncenter size-full wp-image-1369&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg&#34; alt=&#34;Content is King&#34; width=&#34;520&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -522,7 +556,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img class=&#34;aligncenter  wp-image-1370&#34; alt=&#34;SEO and SMO&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg&#34; width=&#34;360&#34; height=&#34;260&#34; /&gt;
+  &lt;figure class=&#34;aligncenter  wp-image-1370&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg&#34; alt=&#34;SEO and SMO&#34; width=&#34;360&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -538,7 +577,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft  wp-image-1371&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Happy Writer working on WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg&#34; width=&#34;200&#34; /&gt;By hiring professional bloggers and copywriters you get two things. First you get some &lt;strong&gt;content&lt;/strong&gt;, but this is not new (see &lt;a href=&#34;#competitors&#34;&gt;section below&lt;/a&gt;). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus&lt;strong&gt;, bring fans&lt;/strong&gt; to read your webpage. Even if it is not the case, John Doe is an &lt;strong&gt;influential blogger&lt;/strong&gt;, so, no doubt that your page will &lt;strong&gt;receive lots of coverage&lt;/strong&gt;.
+  &lt;figure class=&#34;alignleft  wp-image-1371&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg&#34; alt=&#34;Happy Writer working on WordiZ&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;/figure&gt;By hiring professional bloggers and copywriters you get two things. First you get some &lt;strong&gt;content&lt;/strong&gt;, but this is not new (see &lt;a href=&#34;#competitors&#34;&gt;section below&lt;/a&gt;). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus&lt;strong&gt;, bring fans&lt;/strong&gt; to read your webpage. Even if it is not the case, John Doe is an &lt;strong&gt;influential blogger&lt;/strong&gt;, so, no doubt that your page will &lt;strong&gt;receive lots of coverage&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;WordiZ is the platform which will allow you to do the following :&lt;/p&gt;
@@ -568,7 +612,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &amp;#8220;&lt;a href=&#34;http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=0470876417&amp;linkCode=as2&amp;tag=jicelavo-21&#34;&gt;Business Model Generation&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important;&#34; alt=&#34;&#34; src=&#34;http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;l=as2&amp;o=8&amp;a=0470876417&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;&amp;#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &amp;#8220;Matrix&amp;#8221;. It&amp;#8217;s visual, it&amp;#8217;s simple, and it allows flexibility (for creation and  interpretation).
+  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &amp;#8220;&lt;a href=&#34;http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=0470876417&amp;linkCode=as2&amp;tag=jicelavo-21&#34;&gt;Business Model Generation&lt;/a&gt;&lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;amp;l=as2&amp;amp;o=8&amp;amp;a=0470876417&#34; width=&#34;1&#34; /&gt;
+    
+
+&lt;/figure&gt;&amp;#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &amp;#8220;Matrix&amp;#8221;. It&amp;#8217;s visual, it&amp;#8217;s simple, and it allows flexibility (for creation and  interpretation).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -584,11 +633,16 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a title=&#34;Business Model WordiZ&#34; href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Business Model Generation for WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png&#34; width=&#34;600&#34; height=&#34;450&#34; /&gt;&lt;/a&gt;
+  &lt;a title=&#34;Business Model WordiZ&#34; href=&#34;images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;&lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png&#34; alt=&#34;Business Model Generation for WordiZ&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a title=&#34;Busines Model WordiZ&#34; href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;Click to download the PDF version&lt;/a&gt;
+  &lt;a title=&#34;Busines Model WordiZ&#34; href=&#34;images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;Click to download the PDF version&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;[/sociallocker]&lt;/p&gt;
@@ -601,10 +655,10 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>Creating a logo for the 30-days startup chalenge – 30DSTART – Day 7</title>
-      <link>http://localhost:1313/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</link>
+      <link>http://localhost:1313/blog/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</link>
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</guid>
+      <guid>http://localhost:1313/blog/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</guid>
       <description>
 
 &lt;p&gt;If you arrive on this post by a direct link or from Google, I suggest you to read the last two posts on the 30days startup challenge : &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a title=&#34;How to find a name for a startup&#34; href=&#34;http://localhost/oldblog/2013/05/30dstart-day-4-startup-name/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -615,17 +669,32 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;According to me, the font of a logo is a really important signal to express what is the &amp;#8220;character&amp;#8221; of the company. To find your ideal font there is one resource you should use : &lt;a title=&#34;Fonts Squirrel&#34; href=&#34;http://www.fontsquirrel.com/&#34; target=&#34;_blank&#34;&gt;Font Squirrel&lt;/a&gt; Font. It allows you to preview your text in different font and download them. They have only free fonts that are licensed for commercial work. So far so good right? The nice thing is also they have a nice classification system which allows to find what you need easily.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.fontsquirrel.com/&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1342&#34; alt=&#34;Font Squirrel&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/font_squirrel-300x246.png&#34; width=&#34;300&#34; height=&#34;246&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fontsquirrel.com/&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1342&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/font_squirrel-300x246.png&#34; alt=&#34;Font Squirrel&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What The Font is a very useful service if you like a font you have seen somewhere on the web, and want to know what font is used. I wanted to keep my font secret, and let you use &lt;a title=&#34;What The Font&#34; href=&#34;http://www.myfonts.com/WhatTheFont/&#34; target=&#34;_blank&#34;&gt;What The Font&lt;/a&gt; service to discover it&amp;#8230; but unfortunately WTF does not work for my logo (it is a bit modified).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.myfonts.com/WhatTheFont/&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1343&#34; alt=&#34;What the Font&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/what_the_font-300x257.png&#34; width=&#34;300&#34; height=&#34;257&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.myfonts.com/WhatTheFont/&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1343&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/what_the_font-300x257.png&#34; alt=&#34;What the Font&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;graphical-elements:a2cac112dde8b199720b50e158f79c27&#34;&gt;Graphical Elements&lt;/h2&gt;
 
 &lt;p&gt;Sometimes you need to add some graphical elements to your logo, like a flower or anything simple. For this, you have the main tool called &lt;a title=&#34;The Noun Project&#34; href=&#34;http://thenounproject.com/&#34; target=&#34;_blank&#34;&gt;The Noun Project&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://thenounproject.com/&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1341&#34; alt=&#34;The Noun Project&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/the_noun_project-300x239.png&#34; width=&#34;300&#34; height=&#34;239&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://thenounproject.com/&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1341&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/the_noun_project-300x239.png&#34; alt=&#34;The Noun Project&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;designing-the-final-logo:a2cac112dde8b199720b50e158f79c27&#34;&gt;Designing the final logo&lt;/h2&gt;
 
@@ -638,7 +707,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;p&gt;[sociallocker id=&amp;#8221;1346&amp;#8243;]&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1344&#34; alt=&#34;WordiZ logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;[/sociallocker]
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png&#34;&gt;&lt;figure class=&#34;aligncenter  wp-image-1344&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png&#34; alt=&#34;WordiZ logo&#34; width=&#34;500&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;[/sociallocker]
 &lt;/p&gt;
 
 &lt;h2 id=&#34;inspiration-for-your-logo:a2cac112dde8b199720b50e158f79c27&#34;&gt;? Inspiration for your logo&lt;/h2&gt;
@@ -651,10 +725,10 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>30DSTART – Day 4 – Startup Name</title>
-      <link>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</link>
+      <link>http://localhost:1313/blog/2013/05/30dstart-day-4-startup-name/</link>
       <pubDate>Sat, 25 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</guid>
+      <guid>http://localhost:1313/blog/2013/05/30dstart-day-4-startup-name/</guid>
       <description>
 
 &lt;p&gt;For those who don&amp;#8217;t know about the 30-days Startup Challenge, please have a look at my &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;explanation here&lt;/a&gt;. The post of today will explain in detail how I selected the &lt;strong&gt;name of the startup&lt;/strong&gt;, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.&lt;/p&gt;
@@ -693,7 +767,12 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;I left the question opened overnight. In addition to the result depicted below, I got some &lt;strong&gt;suggestions from people&lt;/strong&gt;. One had been added to the list : &lt;em&gt;scribens&lt;/em&gt; . Hat tip to &lt;a title=&#34;Arromazam Pepe&#34; href=&#34;https://plus.google.com/112241543943924051468/posts&#34; target=&#34;_blank&#34;&gt;Pepe Arromazam&lt;/a&gt; for the smart suggestion. Below is the graphical result of these votes :&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1276&#34; alt=&#34;Names suggested for the 30 days startup project&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; width=&#34;625&#34; height=&#34;320&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;figure class=&#34;aligncenter size-full wp-image-1276&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; alt=&#34;Names suggested for the 30 days startup project&#34; width=&#34;625&#34; /&gt;
+    
+
+&lt;/figure&gt;][1]&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
@@ -713,13 +792,23 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;p&gt;I found this last step of AB-testing your names very smart. I used the &lt;a title=&#34;Picking a name for a startup&#34; href=&#34;http://www.startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/&#34; target=&#34;_blank&#34;&gt;idea from Will Mitchell&lt;/a&gt; from StartupBros. The whole point is that the &lt;strong&gt;best choice&lt;/strong&gt; is the one that would do your &lt;strong&gt;clients&lt;/strong&gt;. So why not let &lt;strong&gt;the crowd deciding&lt;/strong&gt;?&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-  &lt;img class=&#34;size-medium wp-image-1280 aligncenter&#34; alt=&#34;Logo Header Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; width=&#34;300&#34; height=&#34;196&#34; /&gt;
+  &lt;figure class=&#34;size-medium wp-image-1280 aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; alt=&#34;Logo Header Unbounce&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/possible_names.zip&#34;&gt;four logos&lt;/a&gt; with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
+&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create [four logos][2] with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1281 aligncenter&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; width=&#34;300&#34; height=&#34;255&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1281 aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;The service is really nice because you can then follow which page received the &lt;strong&gt;highest conversion rate&lt;/strong&gt;. It also saves the email addresses so that you can use the database afterward. Also, &lt;a title=&#34;Oli Gardner&#34; href=&#34;https://plus.google.com/108308137946313926397/posts&#34; target=&#34;_blank&#34;&gt;Oli Gardner&lt;/a&gt; the co-founder and creative director is really nice and can sometime answer your questions if you have some.&lt;/p&gt;
@@ -758,118 +847,36 @@ This way all references like images keeps working.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
+&lt;p&gt;&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
   &lt;tr&gt;
     &lt;th scope=&#34;col&#34;&gt;
       Description
-    &lt;/th&gt;
-    
-    &lt;th scope=&#34;col&#34;&gt;
-      Number
-    &lt;/th&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
+    &lt;/th&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;th scope=&amp;quot;col&amp;quot;&amp;gt;
+  Number
+&amp;lt;/th&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/tr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;tr&gt;
     &lt;td colspan=&#34;2&#34;&gt;
-      &lt;em&gt;The above data were averaged, please do not sue me &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;br /&gt; &lt;/em&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      Time spent
-    &lt;/td&gt;
+      &lt;em&gt;The above data were averaged, please do not sue me &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
     
-    &lt;td&gt;
-      3 hours per night = 12 hours
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      Money spent
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      Facebook ads + Domain names = 40€ ($51)
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      People in the mailing list
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      35
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      Prospect
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      38
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  What next
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  As my creative skills are really poor,&lt;strong&gt; I am looking for someone to create a logo&lt;/strong&gt; that would correspond to the startup. If you are a designer and want to help me, just leave me a message and let&amp;#8217;s start interacting !
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  I also realized while writing my article that my English has become terrible, so if some native speaker could have the time to&lt;strong&gt; proofread my blogposts&lt;/strong&gt;, that would be very nice &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Having said that, the next steps for me are : &lt;strong&gt;creating a mock-up&lt;/strong&gt; of the application and&lt;strong&gt; decide which web framework&lt;/strong&gt; should be used. I currently have three frameworks in mind, but don&amp;#8217;t know which one to select : &lt;em&gt;Ruby on Rails, Django &lt;/em&gt;and&lt;em&gt; Symfony&lt;/em&gt;. I was quite attracted by Ruby, but I read in different places on the web that the code is difficult to maintain and to exchange. Web people, I need your help on this matter.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &amp;#8212;
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Edit : Finding competitors
-&lt;/h2&gt;
-
-&lt;p&gt;I did not want to start worrying about competitors at this stage, but this has come quicker than expected. While writing a tweet to Cezary to thanks him for the mashable article, I found him mentionning a potential competitor :&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet align-center&#34;&gt;
-  &lt;p&gt;
-    congrats to @&lt;a href=&#34;https://twitter.com/justinbelmont&#34;&gt;justinbelmont&lt;/a&gt; on launching @&lt;a href=&#34;https://twitter.com/prose&#34;&gt;prose&lt;/a&gt;, a service that helps brands write great content
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    — Cezary Pietrzak (@cezinho) &lt;a href=&#34;https://twitter.com/cezinho/status/337956437261156355&#34;&gt;May 24, 2013&lt;/a&gt;
-  &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  The service that &lt;a title=&#34;Prose&#34; href=&#34;http://www.prosemedia.com/&#34; target=&#34;_blank&#34;&gt;Prose&lt;/a&gt; is offering is slightly different than what we will offer. However, it&amp;#8217;s good to keep an eye on them, &amp;#8230; friendly &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt; Nice name by the way guys.
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The 30-days Startup Challenge</title>
-      <link>http://localhost:1313/2013/05/the-30-days-startup-challenge/</link>
+      <link>http://localhost:1313/blog/2013/05/the-30-days-startup-challenge/</link>
       <pubDate>Wed, 22 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/05/the-30-days-startup-challenge/</guid>
+      <guid>http://localhost:1313/blog/2013/05/the-30-days-startup-challenge/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -877,7 +884,12 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1267&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-1267&#34; alt=&#34;30-days startup challenge&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg&#34; width=&#34;300&#34; height=&#34;214&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/agenda.jpg&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1267&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg&#34; alt=&#34;30-days startup challenge&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     30-days startup challenge
@@ -941,10 +953,10 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>Elevage de Sentimancho</title>
-      <link>http://localhost:1313/2012/10/elevage-de-sentimancho/</link>
+      <link>http://localhost:1313/blog/2012/10/elevage-de-sentimancho/</link>
       <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2012/10/elevage-de-sentimancho/</guid>
+      <guid>http://localhost:1313/blog/2012/10/elevage-de-sentimancho/</guid>
       <description>
 
 &lt;p&gt;Je participe actuellement à une épreuve d&amp;#8217;élevage de &lt;a href=&#34;http://www.presstor.fr&#34; target=&#34;_blank&#34; title=&#34;Ma passion du Sentimancho&#34;&gt;sentimancho&lt;/a&gt;. J&amp;#8217;aimerais vous faire partager ma passion pour cette sous-branche du référencement et vous en dire un peu plus.&lt;/p&gt;
@@ -994,10 +1006,10 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>How to transfer money from USD ($) to EUR (€) accounts</title>
-      <link>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
+      <link>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
+      <guid>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
       <description>&lt;p&gt;Since I will soon have to &lt;strong&gt;transfer my money from an USD&lt;/strong&gt; ($) &lt;strong&gt;bank account&lt;/strong&gt; (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -1034,18 +1046,38 @@ This way all references like images keeps working.&lt;/p&gt;
     
     <item>
       <title>Implementing microdata schema.org in  Yootheme ZOO</title>
-      <link>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
+      <link>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
       <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
+      <guid>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-1211&#34; style=&#34;margin: 0pt 10px;&#34; title=&#34;schema-org-logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; alt=&#34;&#34; width=&#34;128&#34; height=&#34;80&#34; /&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-1211&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; width=&#34;128&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;schema-org-logo&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1212&#34; title=&#34;zoo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignright size-full wp-image-1212&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;zoo&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -1118,7 +1150,17 @@ You should now be able to :&lt;br /&gt;
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1214&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignright&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1214&#34; title=&#34;schemafield&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;245&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1214&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;schemafield&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     A new &#34;Schema.org Label&#34; appears now, where you can specify your content
@@ -1153,17 +1195,22 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>YOOtheme Zoo – Integration of Google &#43;1</title>
-      <link>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</link>
+      <link>http://localhost:1313/blog/2011/07/integration-of-google-1-in-yootheme-zoo/</link>
       <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</guid>
+      <guid>http://localhost:1313/blog/2011/07/integration-of-google-1-in-yootheme-zoo/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;I wanted to add a &lt;a title=&#34;Google plus&#34; href=&#34;http://www.google.com/webmasters/+1/button/&#34; target=&#34;_blank&#34;&gt;google +1 button&lt;/a&gt; to my website. As I am using YOOtheme zoo CCK component, I add to create a new &amp;#8220;element&amp;#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &amp;#8230; and custom applications).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;zoo joomla module&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;I wanted to add a &lt;a title=&#34;Google plus&#34; href=&#34;http://www.google.com/webmasters/+1/button/&#34; target=&#34;_blank&#34;&gt;google +1 button&lt;/a&gt; to my website. As I am using YOOtheme zoo CCK component, I add to create a new &amp;#8220;element&amp;#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &amp;#8230; and custom applications).&lt;/p&gt;
 
 &lt;h3 id=&#34;how-to-install:345b1b82bdef3219e2043f73275173d8&#34;&gt;How to install&lt;/h3&gt;
 
-&lt;p&gt;Download the archive : &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip&#34;&gt;ZOOelement Googleplus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download the archive : &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip&#34;&gt;ZOOelement Googleplus&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Then, unzip the files in your folder : &lt;em&gt;/base_installation_folder/media/zoo/elements.&lt;/em&gt; You will see a new folder named &amp;#8220;googleplus&amp;#8221;.&lt;/p&gt;
 
@@ -1185,11 +1232,16 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>Yootheme Zoo – Modifying the Frontend submission editor</title>
-      <link>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</link>
+      <link>http://localhost:1313/blog/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</link>
       <pubDate>Wed, 16 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-1212 alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &amp;#8220;trusted mode&amp;#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;size-full wp-image-1212 alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;zoo joomla module&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &amp;#8220;trusted mode&amp;#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
@@ -1215,13 +1267,18 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>Yootheme Zoo – Modifying the number of articles on Frontpage</title>
-      <link>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</link>
+      <link>http://localhost:1313/blog/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</link>
       <pubDate>Sat, 22 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</guid>
+      <guid>http://localhost:1313/blog/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;zoo joomla module&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.&lt;/p&gt;
 
 &lt;p&gt;Here is the line you have to change on &lt;strong&gt;line 232&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir/components/com_zoo/controllers/default.php&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 

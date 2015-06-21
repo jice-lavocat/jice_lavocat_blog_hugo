@@ -13,7 +13,7 @@ Pour clore ce concours refpowa, je vais mettre ici et là quelques liens qui poi
 
 <br class="spacer_" />
 
-Tout cela n&#8217;interessera pas des visiteurs normaux.. seuls des visiteurs pas très nets, et des MdR (moteurs de recherche  <img src="http://localhost/oldblog/wp-includes/images/smilies/icon_razz.gif" alt=":-P" class="wp-smiley" />).
+Tout cela n&#8217;interessera pas des visiteurs normaux.. seuls des visiteurs pas très nets, et des MdR (moteurs de recherche  {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_razz.gif" alt=":-P" class="wp-smiley" >}}).
 
 <!--more-->
 

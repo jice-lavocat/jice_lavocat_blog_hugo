@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Physique on Jice is Nice</title>
-    <link>http://localhost:1313/tags/physique/</link>
-    <description>Recent content in Physique on Jice is Nice</description>
+    <title>Physique on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/physique/</link>
+    <description>Recent content in Physique on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 01 Feb 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/physique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/physique/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</title>
-      <link>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</link>
+      <link>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</guid>
+      <guid>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</guid>
       <description>&lt;p&gt;Suite à ma recherche de stage à l&amp;#8217;étranger, voilà une jolie petite liste compilée par l&amp;#8217;université d&amp;#8217;Adelaide :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Liste jobs physique&#34; href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34;&gt;http://www.physics.adelaide.edu.au/jobs/Jobs.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;

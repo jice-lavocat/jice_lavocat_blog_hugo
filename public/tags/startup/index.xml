@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Startup on Jice is Nice</title>
-    <link>http://localhost:1313/tags/startup/</link>
-    <description>Recent content in Startup on Jice is Nice</description>
+    <title>Startup on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/startup/</link>
+    <description>Recent content in Startup on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 19 Feb 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/startup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web In Provence #1</title>
-      <link>http://localhost:1313/2014/02/web-in-provence-1/</link>
+      <link>http://localhost:1313/blog/2014/02/web-in-provence-1/</link>
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/02/web-in-provence-1/</guid>
+      <guid>http://localhost:1313/blog/2014/02/web-in-provence-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Je reprends la plume délaissée depuis un certain temps pour vous présenter un évènement auquel je viens d&amp;#8217;assister à Marseille. Il s&amp;#8217;agit du &lt;a title=&#34;Web In Provence&#34; href=&#34;http://www.webinprovence.fr/&#34; target=&#34;_blank&#34;&gt;Web In Provence&lt;/a&gt; , un apéro networking dédié aux acteur du web en &amp;#8230; Provence. L&amp;#8217;idée était d&amp;#8217;associer un apéro avec une conférence sur une tendance montante d&amp;#8217;internet. Pour cette première édition, les organisateurs (&lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://twitter.com/Flo__Hernandez&#34; target=&#34;_blank&#34;&gt;Florent&lt;/a&gt; &lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://plus.google.com/112373548303714842647/posts&#34; target=&#34;_blank&#34;&gt;Hernandez&lt;/a&gt; et &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://twitter.com/AlexDurain&#34; target=&#34;_blank&#34;&gt;Alexandre&lt;/a&gt; &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://plus.google.com/+AlexandreDurain_So-Buzz/posts&#34; target=&#34;_blank&#34;&gt;Durain&lt;/a&gt;) avaient choisi comme thème le &amp;#8220;&lt;strong&gt;Conception Web et Multi Device&lt;/strong&gt;&amp;#8221; . L&amp;#8217;invité de cet conférence était &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://twitter.com/stephane_m_&#34; target=&#34;_blank&#34;&gt;Stéphane&lt;/a&gt; &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://plus.google.com/102644824468826022899/about&#34; target=&#34;_blank&#34;&gt;Martin&lt;/a&gt; senior product designer chez &lt;a title=&#34;Stack Overflow&#34; href=&#34;http://stackoverflow.com/&#34; target=&#34;_blank&#34;&gt;Stack Overflow/Stack Exchange&lt;/a&gt; (la plateforme de questions/réponses dédiée aux programmeurs créé par &lt;a title=&#34;Jeff Atwood (Coding Horror)&#34; href=&#34;http://en.wikipedia.org/wiki/Jeff_Atwood&#34; target=&#34;_blank&#34;&gt;Jeff Atwood&lt;/a&gt;).
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1413&#34; alt=&#34;Stack Exchange Logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; width=&#34;300&#34; height=&#34;100&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1413&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;l-8217-avant-wip:0654f480a5355c245385ee4cb563f3ba&#34;&gt;L&amp;#8217;avant WIP&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;wp-image-1414 alignright&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Link Party&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; width=&#34;144&#34; height=&#34;150&#34; /&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
+  &lt;figure class=&#34;wp-image-1414 alignright&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
+    
+
+&lt;/figure&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
 &lt;/p&gt;
 
 &lt;h2 id=&#34;les-lieux:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les lieux&lt;/h2&gt;
@@ -51,7 +61,12 @@
 &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;img class=&#34;size-medium wp-image-1415&#34; alt=&#34;Wip#1&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; width=&#34;300&#34; height=&#34;224&#34; /&gt;
+  &lt;figure class=&#34;size-medium wp-image-1415&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Stéphane Martin explique la conception de produit web au Wip14 -&lt;em&gt;Photo par &lt;a title=&#34;Jfeyraud&#34; href=&#34;https://twitter.com/jfeyraud&#34; target=&#34;_blank&#34;&gt;@jfeyraud&lt;/a&gt;&lt;/em&gt;
@@ -65,7 +80,12 @@
 &lt;h2 id=&#34;les-rencontres:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les rencontres&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;img class=&#34;size-medium wp-image-1417 alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Business Card&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
+  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;figure class=&#34;size-medium wp-image-1417 alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -110,7 +130,12 @@
 &lt;/ul&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -121,10 +146,10 @@
     
     <item>
       <title>30DSTART – Day 4 – Startup Name</title>
-      <link>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</link>
+      <link>http://localhost:1313/blog/2013/05/30dstart-day-4-startup-name/</link>
       <pubDate>Sat, 25 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</guid>
+      <guid>http://localhost:1313/blog/2013/05/30dstart-day-4-startup-name/</guid>
       <description>
 
 &lt;p&gt;For those who don&amp;#8217;t know about the 30-days Startup Challenge, please have a look at my &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;explanation here&lt;/a&gt;. The post of today will explain in detail how I selected the &lt;strong&gt;name of the startup&lt;/strong&gt;, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.&lt;/p&gt;
@@ -163,7 +188,12 @@
 
 &lt;p&gt;I left the question opened overnight. In addition to the result depicted below, I got some &lt;strong&gt;suggestions from people&lt;/strong&gt;. One had been added to the list : &lt;em&gt;scribens&lt;/em&gt; . Hat tip to &lt;a title=&#34;Arromazam Pepe&#34; href=&#34;https://plus.google.com/112241543943924051468/posts&#34; target=&#34;_blank&#34;&gt;Pepe Arromazam&lt;/a&gt; for the smart suggestion. Below is the graphical result of these votes :&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1276&#34; alt=&#34;Names suggested for the 30 days startup project&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; width=&#34;625&#34; height=&#34;320&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;figure class=&#34;aligncenter size-full wp-image-1276&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; alt=&#34;Names suggested for the 30 days startup project&#34; width=&#34;625&#34; /&gt;
+    
+
+&lt;/figure&gt;][1]&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
@@ -183,13 +213,23 @@
 &lt;p&gt;I found this last step of AB-testing your names very smart. I used the &lt;a title=&#34;Picking a name for a startup&#34; href=&#34;http://www.startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/&#34; target=&#34;_blank&#34;&gt;idea from Will Mitchell&lt;/a&gt; from StartupBros. The whole point is that the &lt;strong&gt;best choice&lt;/strong&gt; is the one that would do your &lt;strong&gt;clients&lt;/strong&gt;. So why not let &lt;strong&gt;the crowd deciding&lt;/strong&gt;?&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-  &lt;img class=&#34;size-medium wp-image-1280 aligncenter&#34; alt=&#34;Logo Header Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; width=&#34;300&#34; height=&#34;196&#34; /&gt;
+  &lt;figure class=&#34;size-medium wp-image-1280 aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; alt=&#34;Logo Header Unbounce&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/possible_names.zip&#34;&gt;four logos&lt;/a&gt; with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
+&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create [four logos][2] with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1281 aligncenter&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; width=&#34;300&#34; height=&#34;255&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1281 aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;The service is really nice because you can then follow which page received the &lt;strong&gt;highest conversion rate&lt;/strong&gt;. It also saves the email addresses so that you can use the database afterward. Also, &lt;a title=&#34;Oli Gardner&#34; href=&#34;https://plus.google.com/108308137946313926397/posts&#34; target=&#34;_blank&#34;&gt;Oli Gardner&lt;/a&gt; the co-founder and creative director is really nice and can sometime answer your questions if you have some.&lt;/p&gt;
@@ -228,118 +268,36 @@
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
+&lt;p&gt;&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
   &lt;tr&gt;
     &lt;th scope=&#34;col&#34;&gt;
       Description
-    &lt;/th&gt;
-    
-    &lt;th scope=&#34;col&#34;&gt;
-      Number
-    &lt;/th&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
+    &lt;/th&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;th scope=&amp;quot;col&amp;quot;&amp;gt;
+  Number
+&amp;lt;/th&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/tr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;tr&gt;
     &lt;td colspan=&#34;2&#34;&gt;
-      &lt;em&gt;The above data were averaged, please do not sue me &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;br /&gt; &lt;/em&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      Time spent
-    &lt;/td&gt;
+      &lt;em&gt;The above data were averaged, please do not sue me &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
     
-    &lt;td&gt;
-      3 hours per night = 12 hours
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      Money spent
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      Facebook ads + Domain names = 40€ ($51)
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      People in the mailing list
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      35
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      Prospect
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      38
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  What next
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  As my creative skills are really poor,&lt;strong&gt; I am looking for someone to create a logo&lt;/strong&gt; that would correspond to the startup. If you are a designer and want to help me, just leave me a message and let&amp;#8217;s start interacting !
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  I also realized while writing my article that my English has become terrible, so if some native speaker could have the time to&lt;strong&gt; proofread my blogposts&lt;/strong&gt;, that would be very nice &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Having said that, the next steps for me are : &lt;strong&gt;creating a mock-up&lt;/strong&gt; of the application and&lt;strong&gt; decide which web framework&lt;/strong&gt; should be used. I currently have three frameworks in mind, but don&amp;#8217;t know which one to select : &lt;em&gt;Ruby on Rails, Django &lt;/em&gt;and&lt;em&gt; Symfony&lt;/em&gt;. I was quite attracted by Ruby, but I read in different places on the web that the code is difficult to maintain and to exchange. Web people, I need your help on this matter.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &amp;#8212;
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Edit : Finding competitors
-&lt;/h2&gt;
-
-&lt;p&gt;I did not want to start worrying about competitors at this stage, but this has come quicker than expected. While writing a tweet to Cezary to thanks him for the mashable article, I found him mentionning a potential competitor :&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet align-center&#34;&gt;
-  &lt;p&gt;
-    congrats to @&lt;a href=&#34;https://twitter.com/justinbelmont&#34;&gt;justinbelmont&lt;/a&gt; on launching @&lt;a href=&#34;https://twitter.com/prose&#34;&gt;prose&lt;/a&gt;, a service that helps brands write great content
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    — Cezary Pietrzak (@cezinho) &lt;a href=&#34;https://twitter.com/cezinho/status/337956437261156355&#34;&gt;May 24, 2013&lt;/a&gt;
-  &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  The service that &lt;a title=&#34;Prose&#34; href=&#34;http://www.prosemedia.com/&#34; target=&#34;_blank&#34;&gt;Prose&lt;/a&gt; is offering is slightly different than what we will offer. However, it&amp;#8217;s good to keep an eye on them, &amp;#8230; friendly &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt; Nice name by the way guys.
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The 30-days Startup Challenge</title>
-      <link>http://localhost:1313/2013/05/the-30-days-startup-challenge/</link>
+      <link>http://localhost:1313/blog/2013/05/the-30-days-startup-challenge/</link>
       <pubDate>Wed, 22 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/05/the-30-days-startup-challenge/</guid>
+      <guid>http://localhost:1313/blog/2013/05/the-30-days-startup-challenge/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -347,7 +305,12 @@
 &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1267&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-1267&#34; alt=&#34;30-days startup challenge&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg&#34; width=&#34;300&#34; height=&#34;214&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/agenda.jpg&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1267&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg&#34; alt=&#34;30-days startup challenge&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     30-days startup challenge

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windsurf on Jice is Nice</title>
-    <link>http://localhost:1313/categories/windsurf/</link>
-    <description>Recent content in Windsurf on Jice is Nice</description>
+    <title>Windsurf on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/categories/windsurf/</link>
+    <description>Recent content in Windsurf on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 11 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/windsurf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/windsurf/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>De l’intérêt d’un bon aileron</title>
-      <link>http://localhost:1313/2009/07/de-linteret-dun-bon-aileron/</link>
+      <link>http://localhost:1313/blog/2009/07/de-linteret-dun-bon-aileron/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/de-linteret-dun-bon-aileron/</guid>
+      <guid>http://localhost:1313/blog/2009/07/de-linteret-dun-bon-aileron/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-638&#34; style=&#34;margin: 5px;&#34; title=&#34;Twinzer MFC&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34; alt=&#34;Twinzer MFC&#34; width=&#34;250&#34; height=&#34;167&#34; /&gt;&lt;/a&gt;A quoi sert un aileron? A éviter de dériver. Avez-vous déjà essayer sans? Impossible de prendre de la vitesse et de rester stable. Vous êtes donc convaincus de son utilité&amp;#8230; mais d&amp;#8217;où provient le spin-out? Mauvais aileron, mauvais appui? Comment éviter le spin-out?
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-638&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg&#34; alt=&#34;Twinzer MFC&#34; width=&#34;250&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Twinzer MFC&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;A quoi sert un aileron? A éviter de dériver. Avez-vous déjà essayer sans? Impossible de prendre de la vitesse et de rester stable. Vous êtes donc convaincus de son utilité&amp;#8230; mais d&amp;#8217;où provient le spin-out? Mauvais aileron, mauvais appui? Comment éviter le spin-out?
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -32,10 +42,10 @@
     
     <item>
       <title>Mes videos préférées de windsurf</title>
-      <link>http://localhost:1313/2009/07/mes-videos-preferees-de-windsurf/</link>
+      <link>http://localhost:1313/blog/2009/07/mes-videos-preferees-de-windsurf/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/mes-videos-preferees-de-windsurf/</guid>
+      <guid>http://localhost:1313/blog/2009/07/mes-videos-preferees-de-windsurf/</guid>
       <description>
 
 &lt;p&gt;Une petite liste de mes vidéos préférés de windsurf&lt;/p&gt;
@@ -120,145 +130,33 @@
     
     <item>
       <title>Customiser une board de Windsurf – Décoration</title>
-      <link>http://localhost:1313/post/old_wordpress/2005-08-17-customiser-une-board-de-windsurf-decoration/</link>
+      <link>http://localhost:1313/blog/post/old_wordpress/2005-08-17-customiser-une-board-de-windsurf-decoration/</link>
       <pubDate>Wed, 17 Aug 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/old_wordpress/2005-08-17-customiser-une-board-de-windsurf-decoration/</guid>
+      <guid>http://localhost:1313/blog/post/old_wordpress/2005-08-17-customiser-une-board-de-windsurf-decoration/</guid>
       <description>
 
 &lt;h2 id=&#34;1ère-étape-poncer-la-planche:a6ca36f2cd647c119139e9899b8acac5&#34;&gt;1ère étape: Poncer la planche:&lt;/h2&gt;
 
-&lt;table style=&#34;width: 100%;&#34; border=&#34;0&#34; cellspacing=&#34;7&#34;&gt;
+&lt;p&gt;&lt;table style=&#34;width: 100%;&#34; border=&#34;0&#34; cellspacing=&#34;7&#34;&gt;
   &lt;tr&gt;
     &lt;td style=&#34;text-align: justify;&#34;&gt;
       Le ponçage permet d&amp;#8217;enlever les restes d&amp;#8217;antidérapant sur les zones non usées. Cela est nécessaire pour refaire la nouvelle couche de manière uniforme, et pour que la peinture tienne bien.
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-601&#34; title=&#34;matos poncage&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/matos-poncage.jpg&#34; alt=&#34;matos poncage&#34; width=&#34;350&#34; height=&#34;98&#34; /&gt;&lt;br /&gt; &lt;strong&gt;Matos utilisé&lt;/strong&gt;: &amp;#8211; papier de verre&lt;br /&gt; &lt;span style=&#34;color: #f3e3cb;&#34;&gt;&lt;span style=&#34;color: #ffffff;&#34;&gt;.. &amp;#8230; .. &amp;#8230;.. &amp;#8230;&amp;#8230;.&lt;/span&gt;.&lt;/span&gt;- éponge humide
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
+    &lt;/td&gt;&lt;/p&gt;
 
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Frottez avec le papier de verre, de façon circulaire, le pont de votre planche, afin d&amp;#8217;enlever tout l&amp;#8217;antidérapant (et/ou la peinture). Passez de temps en temps un coup d&amp;#8217;éponge humide afin de retirer les particule de papier de verre ou d&amp;#8217;anti-D qui s&amp;#8217;accumulent, et qui risquent de faire de grosses rayures sur le pont. Lorsque l&amp;#8217;ensemble parait assez lisse, vous pouvez vous arrêter.
-&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;
+  &lt;figure class=&#34;alignnone size-full wp-image-601&#34;&gt;
 
-&lt;h2 id=&#34;2ème-étape-peinture:a6ca36f2cd647c119139e9899b8acac5&#34;&gt;2ème étape: Peinture:&lt;/h2&gt;
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/matos-poncage.jpg&#34; alt=&#34;matos poncage&#34; width=&#34;350&#34; /&gt;
+    
 
-&lt;table style=&#34;width: 500px; height: 1074px;&#34; border=&#34;0&#34; cellspacing=&#34;7&#34;&gt;
-  &lt;tr&gt;
-    &lt;td width=&#34;51%&#34;&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-602&#34; title=&#34;dessin&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/dessin.jpg&#34; alt=&#34;dessin&#34; width=&#34;250&#34; height=&#34;263&#34; /&gt;
-    &lt;/td&gt;
+&lt;figcaption&gt;
+    &lt;h4&gt;matos poncage&lt;/h4&gt;
     
-    &lt;td width=&#34;49%&#34; valign=&#34;top&#34;&gt;
-      &lt;p align=&#34;justify&#34;&gt;
-        Tout d&amp;#8217;abord, dessinez votre forme sur du papier, ? l&amp;#8217;aide d&amp;#8217;un stylo assez épai (plus facile pour le découpage). Nous avons eu quelques déconvenues en utilisant par la suite ce même papier: la peinture imbibait la papier, et rentrait sous notre pochoir&amp;#8230; ce qui a entrainé de nombreuses bavures qu&amp;#8217;il a fallu rattrapper ? la main.
-      &lt;/p&gt;
-      
-      &lt;p align=&#34;justify&#34;&gt;
-        Vérifiez sur la board le résultat en positionnant le dessin ? son emplacement futur.
-      &lt;/p&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      On passe aux choses sérieuses:&lt;/p&gt; 
-      
-      &lt;ul&gt;
-        &lt;li&gt;
-          Découpez l&amp;#8217;intérieur du pochoir grâce ? des ciseaux ou un cutter (au choix).
-        &lt;/li&gt;
-        &lt;li&gt;
-          Mettez de la colle sur le pourtour de la forme, afin que la peinture ne s&amp;#8217;infiltre pas en dessous
-        &lt;/li&gt;
-        &lt;li&gt;
-          Positionnez le pochoir ? l&amp;#8217;emplacement désiré, puis scotchez le reste de la feuille pour que l&amp;#8217;ensemble ne s&amp;#8217;ennvole pas en plein taff&amp;#8217;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-      
-      &lt;p align=&#34;justify&#34;&gt;
-        (A nouveau, l&amp;#8217;emploi d&amp;#8217;autre matériel que le papier pourrait faciliter le travail. Je pense qu&amp;#8217;il existe du papier déja adhésif, qui permet d&amp;#8217;eviter plein de tracas de colle. Si vous avez un nom de marque, je suis preneur, mailez moi!)
-      &lt;/p&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-603&#34; title=&#34;pochoir&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/pochoir.jpg&#34; alt=&#34;pochoir&#34; width=&#34;250&#34; height=&#34;248&#34; /&gt;&lt;br /&gt; &lt;strong&gt;Matos utilisé: &lt;/strong&gt;-la feuille de papier&lt;br /&gt; &lt;span style=&#34;color: #ffffff;&#34;&gt;.. &amp;#8230; .. &amp;#8230; .. .. &amp;#8230;.&lt;/span&gt;-un tube de colle&lt;br /&gt; &lt;span style=&#34;color: #ffffff;&#34;&gt;.. &amp;#8230; .. &amp;#8230;. . .. &amp;#8230;.&lt;/span&gt;-du scotch
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-604&#34; title=&#34;peinture&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/peinture.jpg&#34; alt=&#34;peinture&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;&lt;br /&gt; &lt;strong&gt;Matos utilisé: &lt;/strong&gt;-peinture pour voiture, Carlux&lt;br /&gt; &lt;span style=&#34;color: #ffffff;&#34;&gt;.. &amp;#8230; .. &amp;#8230; .. .. &amp;#8230;.&lt;/span&gt;-vieux journaux
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &lt;p align=&#34;justify&#34;&gt;
-        Protégez le reste de la planche grâce ? de vieux journaux. Secouez, sinon la pulpe elle reste en bas, et peintez (ou peindez, comme vous voulez).
-      &lt;/p&gt;
-      
-      &lt;p align=&#34;justify&#34;&gt;
-        (Méfiez vous des patés que peux faire la bombe, il faut bien secouer, c&amp;#8217;est pas une blague. Pour éviter aussi les surplus, essuyer la buse si vous avez déja peint : la vieille peinture bloque la sortie.)
-      &lt;/p&gt;
-      
-      &lt;p align=&#34;justify&#34;&gt;
-        &lt;strong&gt;Attention&lt;/strong&gt;: N&amp;#8217;utilisez que de la peinture pour voiture. Nous avons fait l&amp;#8217;erreur d&amp;#8217;utiliser un marqueur pour fignioler le job, et tout est parti, en faisant de grosses saloperies, lors de l&amp;#8217;application de l&amp;#8217;anti-dérappant.
-      &lt;/p&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      &lt;p align=&#34;justify&#34;&gt;
-        Attendez un peu que ça sèche, &amp;#8230; et ça y est, vous pourrez admirez votre oeuvre; Faites attention tout de même ? la peinture qui a pu baver sous le pochoir. Nous avons rattrapper un peu en regrattant avec une pointe.
-      &lt;/p&gt;
-      
-      &lt;p align=&#34;justify&#34;&gt;
-        (Voir &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/mort.jpg&#34; target=&#34;_blank&#34;&gt;ici&lt;/a&gt; pour une peinture pourrie, et voir l&amp;#8217;image ci-dessous pour voir ce qu&amp;#8217;on a réussi ? en faire)
-      &lt;/p&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-605&#34; title=&#34;fini&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/fini.jpg&#34; alt=&#34;fini&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
+&lt;/figcaption&gt;
 
-&lt;p&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;&lt;strong&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;2ème étape: Pose de l&amp;#8217;anti-dérapant:&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;table style=&#34;width: 100%;&#34; border=&#34;0&#34; cellspacing=&#34;7&#34; cellpadding=&#34;0&#34;&gt;
-  &lt;tr&gt;
-    &lt;td&gt;
-      &lt;p align=&#34;justify&#34;&gt;
-        Nous allons ? présent nous préoccuper de l&amp;#8217;antidérappant. En achetant un pack de Nautix Grip, votre dealer vous a surement fourni avec une bassine ainsi qu&amp;#8217;un rouleau. Les proportions recommandées sont 80% de base pour 20% de durcisseur. Je trouve le mélange dans la bassine, avec un baton, assez hasardeux. Si vous avez d&amp;#8217;autres méthodes (? part pistolet, je ne redécore pas mes planches tous les jours moi), j&amp;#8217;attends vos conseils.
-      &lt;/p&gt;
-      
-      &lt;p align=&#34;justify&#34;&gt;
-        Enlever toutes les rugosités qui pourraient encore sur trouver sur la board, essorez bien votre rouleau, et ? l&amp;#8217;attaque!
-      &lt;/p&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-606&#34; title=&#34;matosgrippe&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/matosgrippe.jpg&#34; alt=&#34;matosgrippe&#34; width=&#34;300&#34; height=&#34;224&#34; /&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      &lt;img class=&#34;alignnone size-full wp-image-608&#34; title=&#34;regrippage&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/regrippage1.jpg&#34; alt=&#34;regrippage&#34; width=&#34;300&#34; height=&#34;214&#34; /&gt;&lt;/p&gt; 
-      
-      &lt;p&gt;
-        &lt;img src=&#34;image/sport/Custom_board/regrippage.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt; &lt;strong&gt;Matos utilisé: &lt;/strong&gt;-pack Nautix grip (bassine et&lt;br /&gt; &lt;span style=&#34;color: #ffffff;&#34;&gt;.. &amp;#8230; .. &amp;#8230;.. &amp;#8230;&amp;#8230;..&lt;/span&gt;rouleau fournis)&lt;/td&gt; 
-        
-        &lt;td&gt;
-          &lt;p align=&#34;justify&#34;&gt;
-            Appliquez votre Anti-D sur tout le pont. Je vois pas la peine d&amp;#8217;expliquer plus en détails, c&amp;#8217;est facile!
-          &lt;/p&gt;
-          
-          &lt;p&gt;
-            Attendez une heure, puis repassez une couche (sinon, ça gripera jamais assez fort). Après deux ou trois heure, c&amp;#8217;est sec.&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+&lt;/figure&gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

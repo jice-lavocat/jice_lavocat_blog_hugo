@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>En Vrac on Jice is Nice</title>
-    <link>http://localhost:1313/categories/en-vrac/</link>
-    <description>Recent content in En Vrac on Jice is Nice</description>
+    <title>En Vrac on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/categories/en-vrac/</link>
+    <description>Recent content in En Vrac on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 05 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/en-vrac/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/en-vrac/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to transfer money from USD ($) to EUR (€) accounts</title>
-      <link>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
+      <link>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
+      <guid>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
       <description>&lt;p&gt;Since I will soon have to &lt;strong&gt;transfer my money from an USD&lt;/strong&gt; ($) &lt;strong&gt;bank account&lt;/strong&gt; (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -52,12 +52,22 @@
     
     <item>
       <title>Expat : la TV Française à l’étranger</title>
-      <link>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</link>
+      <link>http://localhost:1313/blog/2010/11/expat-la-tv-francaise-a-letranger/</link>
       <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</guid>
+      <guid>http://localhost:1313/blog/2010/11/expat-la-tv-francaise-a-letranger/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;float: left; margin-left: 20px; margin-right: 20px;&#34; title=&#34;Arte&#34; src=&#34;http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png&#34; alt=&#34;Arte&#34; width=&#34;150&#34; height=&#34;113&#34; /&gt;Suite à mon post sur &amp;#8220;&lt;a title=&#34;Regarder Arte ou Roland Garros depuis l&#39;étranger&#34; href=&#34;http://localhost/oldblog/2009/05/regarder-arte-rolland-garros-de-letranger/&#34;&gt;Comment regarder Arte ou Roland Garros à l&amp;#8217;étranger&lt;/a&gt;&amp;#8221; (top ten de vos lectures sur mon blog), un évènement récent me pousse à écrire la suite. Informé de cela par &lt;strong&gt;Daniel Nicollet&lt;/strong&gt;, l&amp;#8217;auteur de la pétition que je citais à la fin de mon article, je pense qu&amp;#8217;il est utile pour ceux d&amp;#8217;entre vous qui sont expatriés, de lire son message. Ci-dessous je vous retranscris son email (un peu long, mais au moins vous aurez compris le message ;-D ).
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png&#34; alt=&#34;Arte&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Arte&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Suite à mon post sur &amp;#8220;&lt;a title=&#34;Regarder Arte ou Roland Garros depuis l&#39;étranger&#34; href=&#34;http://localhost/oldblog/2009/05/regarder-arte-rolland-garros-de-letranger/&#34;&gt;Comment regarder Arte ou Roland Garros à l&amp;#8217;étranger&lt;/a&gt;&amp;#8221; (top ten de vos lectures sur mon blog), un évènement récent me pousse à écrire la suite. Informé de cela par &lt;strong&gt;Daniel Nicollet&lt;/strong&gt;, l&amp;#8217;auteur de la pétition que je citais à la fin de mon article, je pense qu&amp;#8217;il est utile pour ceux d&amp;#8217;entre vous qui sont expatriés, de lire son message. Ci-dessous je vous retranscris son email (un peu long, mais au moins vous aurez compris le message ;-D ).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -139,12 +149,17 @@
     
     <item>
       <title>Tout savoir sur DesirdAvenir.com</title>
-      <link>http://localhost:1313/2009/09/tout-savoir-sur-desirdavenir-com/</link>
+      <link>http://localhost:1313/blog/2009/09/tout-savoir-sur-desirdavenir-com/</link>
       <pubDate>Tue, 15 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/09/tout-savoir-sur-desirdavenir-com/</guid>
+      <guid>http://localhost:1313/blog/2009/09/tout-savoir-sur-desirdavenir-com/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;margin: 20px; float: left;&#34; src=&#34;http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg&#34; alt=&#34;Segolene Royal&#34; width=&#34;112&#34; height=&#34;150&#34; /&gt;Si vous suivez un peu le buzz du web, vous avez sûrement entendu parler du, et visiter le nouveau site de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Segolene_Royal&#34; target=&#34;_blank&#34;&gt;Ségolène Royal &lt;/a&gt;: &lt;a title=&#34;Désir d&#39;Avenir&#34; href=&#34;http://desirsdavenir.com&#34;&gt;desirsdavenir.com&lt;/a&gt;. Site dont la construction a coutée un peu plus de 40 000 euros. On se demande alors dans quelle société on vit actuellement (Hadopi est passé hier et on paye des sites oldschool 40 000 euros&amp;#8230; où va donc la France).
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg&#34; alt=&#34;Segolene Royal&#34; width=&#34;112&#34; /&gt;
+    
+
+&lt;/figure&gt;Si vous suivez un peu le buzz du web, vous avez sûrement entendu parler du, et visiter le nouveau site de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Segolene_Royal&#34; target=&#34;_blank&#34;&gt;Ségolène Royal &lt;/a&gt;: &lt;a title=&#34;Désir d&#39;Avenir&#34; href=&#34;http://desirsdavenir.com&#34;&gt;desirsdavenir.com&lt;/a&gt;. Site dont la construction a coutée un peu plus de 40 000 euros. On se demande alors dans quelle société on vit actuellement (Hadopi est passé hier et on paye des sites oldschool 40 000 euros&amp;#8230; où va donc la France).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -206,7 +221,12 @@
 
     &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
       &amp;lt;div id=&amp;quot;_mcePaste&amp;quot; style=&amp;quot;overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;&amp;quot;&amp;gt;
-        http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg&amp;lt;img style=&amp;quot;margin: 20px;&amp;quot; src=&amp;quot;http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg&amp;quot; alt=&amp;quot;&amp;quot; width=&amp;quot;200&amp;quot; height=&amp;quot;267&amp;quot; /&amp;gt;
+        http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg&lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;/figure&gt;
       &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
@@ -214,10 +234,10 @@
     
     <item>
       <title>Classement des universités internationales</title>
-      <link>http://localhost:1313/2009/07/classement-des-universites-internationales/</link>
+      <link>http://localhost:1313/blog/2009/07/classement-des-universites-internationales/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/classement-des-universites-internationales/</guid>
+      <guid>http://localhost:1313/blog/2009/07/classement-des-universites-internationales/</guid>
       <description>&lt;p&gt;Tout le monde connait le classement mondial effectué par l&amp;#8217;université de Shangai : &lt;a href=&#34;http://www.arwu.org/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.arwu.org/&#34;&gt;http://www.arwu.org/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Mais un article wikipedia permet d&amp;#8217;affiner sa recherche par région du monde : &lt;a href=&#34;http://en.wikipedia.org/wiki/College_and_university_rankings&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/College_and_university_rankings&#34;&gt;http://en.wikipedia.org/wiki/College_and_university_rankings&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -226,10 +246,10 @@
     
     <item>
       <title>Thèse en cotutelle – Les étapes</title>
-      <link>http://localhost:1313/2009/07/these-en-cotutelle-les-etapes/</link>
+      <link>http://localhost:1313/blog/2009/07/these-en-cotutelle-les-etapes/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/these-en-cotutelle-les-etapes/</guid>
+      <guid>http://localhost:1313/blog/2009/07/these-en-cotutelle-les-etapes/</guid>
       <description>&lt;p&gt;Pour connaitre les étapes d&amp;#8217;une thèse en cotutelle, je vous conseille le site web suivant :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Thèse en cotutelle&#34; href=&#34;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&#34;&gt;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -238,11 +258,21 @@
     
     <item>
       <title>Vivre du web</title>
-      <link>http://localhost:1313/2009/07/vivre-du-web/</link>
+      <link>http://localhost:1313/blog/2009/07/vivre-du-web/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/vivre-du-web/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-645&#34; title=&#34;make-money_blog&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; height=&#34;346&#34; /&gt;&lt;/a&gt;Je viens de tomber sur un fabuleux article , long et cru. Si vous êtes un idéaliste du web, ne lisez pas la suite.&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2009/07/vivre-du-web/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-645&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;make-money_blog&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Je viens de tomber sur un fabuleux article , long et cru. Si vous êtes un idéaliste du web, ne lisez pas la suite.&lt;/p&gt;
 
 &lt;p&gt;L&amp;#8217;article s&amp;#8217;intitule : &lt;a title=&#34;Permanent Link: Les 103 que je donnerais à tous ceux qui veulent se lancer sur le Web&#34; rel=&#34;bookmark&#34; href=&#34;http://visionary.wordpress.com/2009/07/10/les-103-que-je-donnerais-a-tous-ceux-qui-veulent-se-lancer-sur-le-web/&#34;&gt;Les 103 que je donnerais à tous ceux qui veulent se lancer sur le Web&lt;/a&gt; (l&amp;#8217;auteur ayant sûrement oublié un mot).&lt;/p&gt;
 
@@ -254,12 +284,22 @@
     
     <item>
       <title>Écrire avec des accents sur un Qwerty (international)</title>
-      <link>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
+      <link>http://localhost:1313/blog/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
       <pubDate>Fri, 03 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
+      <guid>http://localhost:1313/blog/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-563&#34; style=&#34;margin: 5px;&#34; title=&#34;clavierblack&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
+  &lt;figure class=&#34;alignleft size-full wp-image-563&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;clavierblack&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -307,7 +347,17 @@
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
   &amp;lt;div style=&amp;quot;width: 610px&amp;quot; class=&amp;quot;wp-caption aligncenter&amp;quot;&amp;gt;
-    &amp;lt;img title=&amp;quot;International Qwerty Keyboard chart&amp;quot; src=&amp;quot;http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&amp;quot; alt=&amp;quot;International Qwerty Keyboard Map ( src : wikipedia)&amp;quot; width=&amp;quot;600&amp;quot; height=&amp;quot;200&amp;quot; /&amp;gt;
+    &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&#34; alt=&#34;International Qwerty Keyboard Map ( src : wikipedia)&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;International Qwerty Keyboard chart&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
     &amp;lt;p class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;
       International Qwerty Keyboard Map ( src : wikipedia)
@@ -331,10 +381,10 @@
     
     <item>
       <title>Latex on my blog</title>
-      <link>http://localhost:1313/2009/06/test-latex/</link>
+      <link>http://localhost:1313/blog/2009/06/test-latex/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/test-latex/</guid>
+      <guid>http://localhost:1313/blog/2009/06/test-latex/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
 &lt;/p&gt;
@@ -425,10 +475,10 @@
     
     <item>
       <title>Obtenir un Visa J-1</title>
-      <link>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</link>
+      <link>http://localhost:1313/blog/2009/02/obtenir-un-visa-j-1/</link>
       <pubDate>Thu, 26 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</guid>
+      <guid>http://localhost:1313/blog/2009/02/obtenir-un-visa-j-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -507,10 +557,10 @@
     
     <item>
       <title>Lettre ouverte à mes professeurs : quel stage choisir</title>
-      <link>http://localhost:1313/2009/02/quel-stage-choisir/</link>
+      <link>http://localhost:1313/blog/2009/02/quel-stage-choisir/</link>
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/quel-stage-choisir/</guid>
+      <guid>http://localhost:1313/blog/2009/02/quel-stage-choisir/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Bonjour,
 &lt;/p&gt;
@@ -540,7 +590,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  ________________   Fin de l&amp;#8217;introduction    _____________    &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;
+  ________________   Fin de l&amp;#8217;introduction    _____________    &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -640,11 +695,31 @@
 &lt;table border=&#34;0&#34; cellpadding=&#34;5&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img class=&#34;alignleft&#34; title=&#34;Derek Abbott&#34; src=&#34;http://www.eleceng.adelaide.edu.au/Personal/dabbott/dabbott.jpg&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;
+      &lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.eleceng.adelaide.edu.au/Personal/dabbott/dabbott.jpg&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Derek Abbott&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
     
     &lt;td&gt;
-      &lt;img class=&#34;alignleft&#34; title=&#34;David Meyer&#34; src=&#34;http://ri.calit2.net/profileimg.php?id=dmeyer&#34; alt=&#34;&#34; width=&#34;113&#34; height=&#34;150&#34; /&gt;
+      &lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://ri.calit2.net/profileimg.php?id=dmeyer&#34; width=&#34;113&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;David Meyer&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
   
@@ -665,12 +740,22 @@
     
     <item>
       <title>Les plus belles idées du monde</title>
-      <link>http://localhost:1313/2009/02/les-plus-belles-idees-du-monde/</link>
+      <link>http://localhost:1313/blog/2009/02/les-plus-belles-idees-du-monde/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/les-plus-belles-idees-du-monde/</guid>
+      <guid>http://localhost:1313/blog/2009/02/les-plus-belles-idees-du-monde/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-90&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;Idee&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; height=&#34;133&#34; /&gt;Grâce à ce titre un peu racoleur je voulais faire découvrir au public francophone un site rarement cité, qui reçoit pourtant les plus grands innovateurs de notre siècle. Le site promeut en effet les idées qui vont faire bouger notre environnement dans un sens (on l&amp;#8217;espère) meilleur. Ces conférences accueillent souvent des prix nobel de la paix (&lt;a title=&#34;Al Gore - Ancien vice-président US et prix nobel de la paix&#34; href=&#34;http://fr.wikipedia.org/wiki/Al_Gore&#34; target=&#34;_blank&#34;&gt;Al Gore&lt;/a&gt;) ou des chefs d&amp;#8217;entreprise célèbres (&lt;a title=&#34;Jimmy Wales - fondateur de wikipedia&#34; href=&#34;http://fr.wikipedia.org/wiki/Jimmy_Wales&#34; target=&#34;_blank&#34;&gt;Jimmy Wales&lt;/a&gt;), aussi bien que des scientifiques de haut vol (&lt;a title=&#34;Stephen Hawking - Astrophysicien&#34; href=&#34;http://fr.wikipedia.org/wiki/Stephen_Hawking&#34; target=&#34;_blank&#34;&gt;Stephen Hawking&lt;/a&gt;).
+  &lt;figure class=&#34;alignleft size-full wp-image-90&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Idee&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Grâce à ce titre un peu racoleur je voulais faire découvrir au public francophone un site rarement cité, qui reçoit pourtant les plus grands innovateurs de notre siècle. Le site promeut en effet les idées qui vont faire bouger notre environnement dans un sens (on l&amp;#8217;espère) meilleur. Ces conférences accueillent souvent des prix nobel de la paix (&lt;a title=&#34;Al Gore - Ancien vice-président US et prix nobel de la paix&#34; href=&#34;http://fr.wikipedia.org/wiki/Al_Gore&#34; target=&#34;_blank&#34;&gt;Al Gore&lt;/a&gt;) ou des chefs d&amp;#8217;entreprise célèbres (&lt;a title=&#34;Jimmy Wales - fondateur de wikipedia&#34; href=&#34;http://fr.wikipedia.org/wiki/Jimmy_Wales&#34; target=&#34;_blank&#34;&gt;Jimmy Wales&lt;/a&gt;), aussi bien que des scientifiques de haut vol (&lt;a title=&#34;Stephen Hawking - Astrophysicien&#34; href=&#34;http://fr.wikipedia.org/wiki/Stephen_Hawking&#34; target=&#34;_blank&#34;&gt;Stephen Hawking&lt;/a&gt;).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -761,10 +846,10 @@
     
     <item>
       <title>Partir à l’étranger</title>
-      <link>http://localhost:1313/2009/01/partir-a-letranger/</link>
+      <link>http://localhost:1313/blog/2009/01/partir-a-letranger/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/partir-a-letranger/</guid>
+      <guid>http://localhost:1313/blog/2009/01/partir-a-letranger/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Une mine d&amp;#8217;informations se trouvent sur le site de Ministère des Affaires Etrangères :&lt;br /&gt; &lt;a title=&#34;Ministrèes des affaires étrangères&#34; href=&#34;http://www.mfe.org/?SID=10&#34; target=&#34;_blank&#34;&gt;http://www.mfe.org/?SID=10&lt;/a&gt;
 &lt;/p&gt;

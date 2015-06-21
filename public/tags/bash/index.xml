@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bash on Jice is Nice</title>
-    <link>http://localhost:1313/tags/bash/</link>
-    <description>Recent content in Bash on Jice is Nice</description>
+    <title>Bash on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/bash/</link>
+    <description>Recent content in Bash on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 23 Mar 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Modifier de façon récursive les droits des dossiers [Script Bash]</title>
-      <link>http://localhost:1313/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</link>
+      <link>http://localhost:1313/blog/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</link>
       <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</guid>
+      <guid>http://localhost:1313/blog/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</guid>
       <description>
 
 &lt;p&gt;Vous êtes étudiants à l&amp;#8217;Ecole Centrale Marseille? Vous êtes sur un réseau où les administrateurs se font du soucis pour la sécurité? Il y a fort à parier que la publication d&amp;#8217;un site web présente quelques difficultés pour le néophyte.&lt;/p&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>Modifier rapidement un ensemble de fichiers sous linux [BASH]</title>
-      <link>http://localhost:1313/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</link>
+      <link>http://localhost:1313/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</guid>
+      <guid>http://localhost:1313/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</guid>
       <description>
 
 &lt;p&gt;Vous vous trouvez sous Linux, vous désirez changer une chaîne de caractère avec une faute d&amp;#8217;orthographe dans l&amp;#8217;ensemble des fichiers d&amp;#8217;un dossier? Utilisez le script suivant :&lt;/p&gt;

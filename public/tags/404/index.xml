@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>404 on Jice is Nice</title>
-    <link>http://localhost:1313/tags/404/</link>
-    <description>Recent content in 404 on Jice is Nice</description>
+    <title>404 on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/404/</link>
+    <description>Recent content in 404 on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 31 Aug 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/404/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/404/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Personnaliser ses pages d’erreurs sous Joomla</title>
-      <link>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</link>
+      <link>http://localhost:1313/blog/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</link>
       <pubDate>Sun, 31 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</guid>
+      <guid>http://localhost:1313/blog/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</guid>
       <description>
 
 &lt;p align=&#34;justify&#34;&gt;
@@ -59,7 +59,17 @@
   &lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;
-    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&amp;#8217;URL donnée en entrée. Et là, il y voit l&amp;#8217;adresse de la page d&amp;#8217;erreur &lt;img title=&#34;Undecided&#34; src=&#34;plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif&#34; border=&#34;0&#34; alt=&#34;Undecided&#34; /&gt;.
+    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&amp;#8217;URL donnée en entrée. Et là, il y voit l&amp;#8217;adresse de la page d&amp;#8217;erreur &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif&#34; alt=&#34;Undecided&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Undecided&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;.
   &lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;

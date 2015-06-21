@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Keyboard on Jice is Nice</title>
-    <link>http://localhost:1313/tags/keyboard/</link>
-    <description>Recent content in Keyboard on Jice is Nice</description>
+    <title>Keyboard on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/keyboard/</link>
+    <description>Recent content in Keyboard on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Fri, 03 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Écrire avec des accents sur un Qwerty (international)</title>
-      <link>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
+      <link>http://localhost:1313/blog/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
       <pubDate>Fri, 03 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
+      <guid>http://localhost:1313/blog/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-563&#34; style=&#34;margin: 5px;&#34; title=&#34;clavierblack&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
+  &lt;figure class=&#34;alignleft size-full wp-image-563&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;clavierblack&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -65,7 +75,17 @@
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
   &amp;lt;div style=&amp;quot;width: 610px&amp;quot; class=&amp;quot;wp-caption aligncenter&amp;quot;&amp;gt;
-    &amp;lt;img title=&amp;quot;International Qwerty Keyboard chart&amp;quot; src=&amp;quot;http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&amp;quot; alt=&amp;quot;International Qwerty Keyboard Map ( src : wikipedia)&amp;quot; width=&amp;quot;600&amp;quot; height=&amp;quot;200&amp;quot; /&amp;gt;
+    &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&#34; alt=&#34;International Qwerty Keyboard Map ( src : wikipedia)&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;International Qwerty Keyboard chart&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
     &amp;lt;p class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;
       International Qwerty Keyboard Map ( src : wikipedia)

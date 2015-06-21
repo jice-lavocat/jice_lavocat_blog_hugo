@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>International on Jice is Nice</title>
-    <link>http://localhost:1313/tags/international/</link>
-    <description>Recent content in International on Jice is Nice</description>
+    <title>International on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/international/</link>
+    <description>Recent content in International on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 05 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/international/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/international/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to transfer money from USD ($) to EUR (€) accounts</title>
-      <link>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
+      <link>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
+      <guid>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
       <description>&lt;p&gt;Since I will soon have to &lt;strong&gt;transfer my money from an USD&lt;/strong&gt; ($) &lt;strong&gt;bank account&lt;/strong&gt; (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>Classement des universités internationales</title>
-      <link>http://localhost:1313/2009/07/classement-des-universites-internationales/</link>
+      <link>http://localhost:1313/blog/2009/07/classement-des-universites-internationales/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/classement-des-universites-internationales/</guid>
+      <guid>http://localhost:1313/blog/2009/07/classement-des-universites-internationales/</guid>
       <description>&lt;p&gt;Tout le monde connait le classement mondial effectué par l&amp;#8217;université de Shangai : &lt;a href=&#34;http://www.arwu.org/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.arwu.org/&#34;&gt;http://www.arwu.org/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Mais un article wikipedia permet d&amp;#8217;affiner sa recherche par région du monde : &lt;a href=&#34;http://en.wikipedia.org/wiki/College_and_university_rankings&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/College_and_university_rankings&#34;&gt;http://en.wikipedia.org/wiki/College_and_university_rankings&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -64,10 +64,10 @@
     
     <item>
       <title>Financement pour stages/études/thèses à l’étranger</title>
-      <link>http://localhost:1313/2009/07/financement-pour-stagesetudestheses-a-letranger/</link>
+      <link>http://localhost:1313/blog/2009/07/financement-pour-stagesetudestheses-a-letranger/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/financement-pour-stagesetudestheses-a-letranger/</guid>
+      <guid>http://localhost:1313/blog/2009/07/financement-pour-stagesetudestheses-a-letranger/</guid>
       <description>
 
 &lt;h2 id=&#34;stages:1769f22ab37406e53ddc40ab9c807ce8&#34;&gt;Stages :&lt;/h2&gt;
@@ -118,10 +118,10 @@
     
     <item>
       <title>Thèse en cotutelle – Les étapes</title>
-      <link>http://localhost:1313/2009/07/these-en-cotutelle-les-etapes/</link>
+      <link>http://localhost:1313/blog/2009/07/these-en-cotutelle-les-etapes/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/these-en-cotutelle-les-etapes/</guid>
+      <guid>http://localhost:1313/blog/2009/07/these-en-cotutelle-les-etapes/</guid>
       <description>&lt;p&gt;Pour connaitre les étapes d&amp;#8217;une thèse en cotutelle, je vous conseille le site web suivant :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Thèse en cotutelle&#34; href=&#34;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&#34;&gt;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -130,12 +130,22 @@
     
     <item>
       <title>Écrire avec des accents sur un Qwerty (international)</title>
-      <link>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
+      <link>http://localhost:1313/blog/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
       <pubDate>Fri, 03 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
+      <guid>http://localhost:1313/blog/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-563&#34; style=&#34;margin: 5px;&#34; title=&#34;clavierblack&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
+  &lt;figure class=&#34;alignleft size-full wp-image-563&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;clavierblack&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -183,7 +193,17 @@
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
   &amp;lt;div style=&amp;quot;width: 610px&amp;quot; class=&amp;quot;wp-caption aligncenter&amp;quot;&amp;gt;
-    &amp;lt;img title=&amp;quot;International Qwerty Keyboard chart&amp;quot; src=&amp;quot;http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&amp;quot; alt=&amp;quot;International Qwerty Keyboard Map ( src : wikipedia)&amp;quot; width=&amp;quot;600&amp;quot; height=&amp;quot;200&amp;quot; /&amp;gt;
+    &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&#34; alt=&#34;International Qwerty Keyboard Map ( src : wikipedia)&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;International Qwerty Keyboard chart&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
     &amp;lt;p class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;
       International Qwerty Keyboard Map ( src : wikipedia)
@@ -207,10 +227,10 @@
     
     <item>
       <title>Regarder Arte ou Roland Garros de l’etranger</title>
-      <link>http://localhost:1313/2009/05/regarder-arte-rolland-garros-de-letranger/</link>
+      <link>http://localhost:1313/blog/2009/05/regarder-arte-rolland-garros-de-letranger/</link>
       <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/05/regarder-arte-rolland-garros-de-letranger/</guid>
+      <guid>http://localhost:1313/blog/2009/05/regarder-arte-rolland-garros-de-letranger/</guid>
       <description>
 
 &lt;h2 id=&#34;mise-a-jour-importante:7303b0bdf4f843ecc6f87cef236478dd&#34;&gt;Mise a jour importante&lt;/h2&gt;
@@ -222,7 +242,12 @@
 &lt;h2 id=&#34;ancien-article:7303b0bdf4f843ecc6f87cef236478dd&#34;&gt;Ancien article&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;float: left; margin-left: 5px; margin-right: 5px;&#34; src=&#34;https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800&#34; alt=&#34;Foxy Proxy&#34; width=&#34;200&#34; height=&#34;150&#34; /&gt;Vous êtes en stage &lt;strong&gt;a l&amp;#8217;étranger&lt;/strong&gt;, vous avez envie de &lt;strong&gt;regarder Arte &lt;/strong&gt;(ou &lt;strong&gt;regarder Roland Garros&lt;/strong&gt;)&amp;#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&amp;#8217;&lt;strong&gt;IP non françaises&lt;/strong&gt;. La solution consiste a passer par un proxy francais.
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800&#34; alt=&#34;Foxy Proxy&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;/figure&gt;Vous êtes en stage &lt;strong&gt;a l&amp;#8217;étranger&lt;/strong&gt;, vous avez envie de &lt;strong&gt;regarder Arte &lt;/strong&gt;(ou &lt;strong&gt;regarder Roland Garros&lt;/strong&gt;)&amp;#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&amp;#8217;&lt;strong&gt;IP non françaises&lt;/strong&gt;. La solution consiste a passer par un proxy francais.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -323,10 +348,10 @@
     
     <item>
       <title>Obtenir un Visa J-1</title>
-      <link>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</link>
+      <link>http://localhost:1313/blog/2009/02/obtenir-un-visa-j-1/</link>
       <pubDate>Thu, 26 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</guid>
+      <guid>http://localhost:1313/blog/2009/02/obtenir-un-visa-j-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -405,10 +430,10 @@
     
     <item>
       <title>Obtenir une carte verte (Visa USA)</title>
-      <link>http://localhost:1313/2009/02/obtenir-une-carte-verte-visa-usa/</link>
+      <link>http://localhost:1313/blog/2009/02/obtenir-une-carte-verte-visa-usa/</link>
       <pubDate>Thu, 26 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/obtenir-une-carte-verte-visa-usa/</guid>
+      <guid>http://localhost:1313/blog/2009/02/obtenir-une-carte-verte-visa-usa/</guid>
       <description>&lt;p&gt;Pour obtenir une &lt;strong&gt;carte verte&lt;/strong&gt;, le gouvernement américain propose une loterie &lt;strong&gt;GRATUITE&lt;/strong&gt; (ne vous fiez pas aux multiples services payants qui ne servent à rien) pour obtenir le fameux sésame.&lt;/p&gt;
 
 &lt;p&gt;Pour plus d&amp;#8217;informations, consulter la notice officielle :&lt;/p&gt;
@@ -421,10 +446,10 @@
     
     <item>
       <title>Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</title>
-      <link>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</link>
+      <link>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</guid>
+      <guid>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</guid>
       <description>&lt;p&gt;Suite à ma recherche de stage à l&amp;#8217;étranger, voilà une jolie petite liste compilée par l&amp;#8217;université d&amp;#8217;Adelaide :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Liste jobs physique&#34; href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34;&gt;http://www.physics.adelaide.edu.au/jobs/Jobs.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -437,10 +462,10 @@
     
     <item>
       <title>Partir à l’étranger</title>
-      <link>http://localhost:1313/2009/01/partir-a-letranger/</link>
+      <link>http://localhost:1313/blog/2009/01/partir-a-letranger/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/partir-a-letranger/</guid>
+      <guid>http://localhost:1313/blog/2009/01/partir-a-letranger/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Une mine d&amp;#8217;informations se trouvent sur le site de Ministère des Affaires Etrangères :&lt;br /&gt; &lt;a title=&#34;Ministrèes des affaires étrangères&#34; href=&#34;http://www.mfe.org/?SID=10&#34; target=&#34;_blank&#34;&gt;http://www.mfe.org/?SID=10&lt;/a&gt;
 &lt;/p&gt;
@@ -453,10 +478,10 @@
     
     <item>
       <title>Trouver un stage aux Etats-Unis</title>
-      <link>http://localhost:1313/2008/03/trouver-un-stage-aux-etats-unis/</link>
+      <link>http://localhost:1313/blog/2008/03/trouver-un-stage-aux-etats-unis/</link>
       <pubDate>Wed, 19 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/03/trouver-un-stage-aux-etats-unis/</guid>
+      <guid>http://localhost:1313/blog/2008/03/trouver-un-stage-aux-etats-unis/</guid>
       <description>&lt;h3 style=&#34;text-align: justify;&#34;&gt;
   Mon cas
 &lt;/h3&gt;
@@ -511,7 +536,12 @@
     &amp;lt;/p&amp;gt;
 
     &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
-      Malheureusement encore destiné aux étudiants américains &amp;lt;img src=&amp;quot;http://localhost/oldblog/wp-includes/images/smilies/icon_sad.gif&amp;quot; alt=&amp;quot;:(&amp;quot; class=&amp;quot;wp-smiley&amp;quot; /&amp;gt;
+      Malheureusement encore destiné aux étudiants américains &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_sad.gif&#34; alt=&#34;:(&#34; /&gt;
+    
+
+&lt;/figure&gt;
     &amp;lt;/p&amp;gt;
 
     &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Monétisation on Jice is Nice</title>
-    <link>http://localhost:1313/tags/mon%C3%A9tisation/</link>
-    <description>Recent content in Monétisation on Jice is Nice</description>
+    <title>Monétisation on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/mon%C3%A9tisation/</link>
+    <description>Recent content in Monétisation on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 22 Jul 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mon%C3%A9tisation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/mon%C3%A9tisation/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rentabiliser son site web</title>
-      <link>http://localhost:1313/2008/07/rentabiliser-son-site-web/</link>
+      <link>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</link>
       <pubDate>Tue, 22 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/07/rentabiliser-son-site-web/</guid>
+      <guid>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</guid>
       <description>
 
 &lt;h3 id=&#34;le-principe:1299d733f325b424f2fc042fd21c82e0&#34;&gt;Le principe :&lt;/h3&gt;

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meteo on Jice is Nice</title>
-    <link>http://localhost:1313/tags/meteo/</link>
-    <description>Recent content in Meteo on Jice is Nice</description>
+    <title>Meteo on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/meteo/</link>
+    <description>Recent content in Meteo on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 07 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/meteo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/meteo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Comment checker la météo ?</title>
-      <link>http://localhost:1313/2009/07/comment-checker-la-meteo/</link>
+      <link>http://localhost:1313/blog/2009/07/comment-checker-la-meteo/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/comment-checker-la-meteo/</guid>
+      <guid>http://localhost:1313/blog/2009/07/comment-checker-la-meteo/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-598&#34; style=&#34;margin: 5px;&#34; title=&#34;rose-des-vents&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg&#34; alt=&#34;rose-des-vents&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&amp;#8217;expérience.
+  &lt;figure class=&#34;alignleft size-full wp-image-598&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg&#34; alt=&#34;rose-des-vents&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;rose-des-vents&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&amp;#8217;expérience.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

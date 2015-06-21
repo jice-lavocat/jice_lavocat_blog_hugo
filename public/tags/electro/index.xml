@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Electro on Jice is Nice</title>
-    <link>http://localhost:1313/tags/electro/</link>
-    <description>Recent content in Electro on Jice is Nice</description>
+    <title>Electro on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/electro/</link>
+    <description>Recent content in Electro on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 11 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/electro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/electro/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Playlist Darkwave</title>
-      <link>http://localhost:1313/2009/07/playlist-darkwave/</link>
+      <link>http://localhost:1313/blog/2009/07/playlist-darkwave/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/playlist-darkwave/</guid>
+      <guid>http://localhost:1313/blog/2009/07/playlist-darkwave/</guid>
       <description>&lt;p align=&#34;justify&#34;&gt;
   En me promenant sur myspace, je suis tombé sur le profil d&amp;#8217;une Demoiselle qui écoute exactement la même chose que moi en &lt;strong&gt;Darkwave&lt;/strong&gt;! Qu&amp;#8217;est-ce que cela signifie? Ne suis-je donc pas unique? Bref, je me poserai ces questions le moment venu, pour l&amp;#8217;instant je vous donne le lien pour avoir un aperçu des groupes influents en &lt;strong&gt;Darkwave/EBM&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p align=&#34;justify&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-648&#34; style=&#34;margin: 5px;&#34; title=&#34;Cyber_Goth_by_biohazardbitch&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34; alt=&#34;Cyber_Goth_by_biohazardbitch&#34; width=&#34;128&#34; height=&#34;170&#34; /&gt;&lt;/a&gt;Le Darkwave ou l&amp;#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&amp;#8217;aime la souffrance, ma copine/copain m&amp;#8217;a quitté je vais me suicider&amp;#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-648&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34; alt=&#34;Cyber_Goth_by_biohazardbitch&#34; width=&#34;128&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Cyber_Goth_by_biohazardbitch&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Le Darkwave ou l&amp;#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&amp;#8217;aime la souffrance, ma copine/copain m&amp;#8217;a quitté je vais me suicider&amp;#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.
 &lt;/p&gt;
 
 &lt;p align=&#34;justify&#34;&gt;

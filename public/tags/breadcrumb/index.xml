@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Breadcrumb on Jice is Nice</title>
-    <link>http://localhost:1313/tags/breadcrumb/</link>
-    <description>Recent content in Breadcrumb on Jice is Nice</description>
+    <title>Breadcrumb on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/breadcrumb/</link>
+    <description>Recent content in Breadcrumb on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 09 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/breadcrumb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/breadcrumb/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How-to : Make a SEF image-map navigation system with Joomla</title>
-      <link>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
+      <link>http://localhost:1313/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
       <pubDate>Tue, 09 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
+      <guid>http://localhost:1313/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -46,7 +46,17 @@
 &lt;h2 id=&#34;creation-of-a-menu-system:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Creation of a menu system&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-1023&#34; style=&#34;margin: 0px 20px;&#34; title=&#34;content-management-system-joomla-free&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; height=&#34;171&#34; /&gt;In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&amp;#8217;s menu system. If you need to create two links for the same item, use an &amp;#8220;&lt;strong&gt;alias&lt;/strong&gt;&amp;#8221; for the second one, in order to &lt;strong&gt;prevent duplicate URLs&lt;/strong&gt;.
+  &lt;figure class=&#34;alignleft size-full wp-image-1023&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;content-management-system-joomla-free&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&amp;#8217;s menu system. If you need to create two links for the same item, use an &amp;#8220;&lt;strong&gt;alias&lt;/strong&gt;&amp;#8221; for the second one, in order to &lt;strong&gt;prevent duplicate URLs&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -87,7 +97,12 @@
 
 &lt;p&gt;It&amp;#8217;s done. You can check that your image maps to SEF Url, that the links are going to your articles (specified by the menu), and that, if you change the menu link alias, the URL of your article will change coherently.&lt;/p&gt;
 
-&lt;p&gt;Moreover you can use breadcrumbs &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Moreover you can use breadcrumbs &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;strong&gt;A demo on one of my website : &lt;a title=&#34;Liste de spots en Corse : Corsica Windsurf&#34; href=&#34;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&#34; target=&#34;_blank&#34;&gt;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&lt;/a&gt;&lt;/strong&gt;

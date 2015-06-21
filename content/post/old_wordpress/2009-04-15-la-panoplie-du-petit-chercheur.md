@@ -7,7 +7,7 @@ url: /2009/04/la-panoplie-du-petit-chercheur/
 aktt_notify_twitter:
   - no
 Image:
-  - /images/posts/oldwordpress/uploads/2009/06/python.png
+  - images/posts/oldwordpress/uploads/2009/06/python.png
 categories:
   - Informatique
   - Sciences

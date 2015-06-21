@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quantum Learning on Jice is Nice</title>
-    <link>http://localhost:1313/categories/quantum-learning/</link>
-    <description>Recent content in Quantum Learning on Jice is Nice</description>
+    <title>Quantum Learning on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/categories/quantum-learning/</link>
+    <description>Recent content in Quantum Learning on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 16 Sep 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/quantum-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/quantum-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Impatient Learning and sub/sup Majority Problem</title>
-      <link>http://localhost:1313/2009/09/impatient-learning-and-subsup-majority-problem/</link>
+      <link>http://localhost:1313/blog/2009/09/impatient-learning-and-subsup-majority-problem/</link>
       <pubDate>Wed, 16 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/09/impatient-learning-and-subsup-majority-problem/</guid>
+      <guid>http://localhost:1313/blog/2009/09/impatient-learning-and-subsup-majority-problem/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   In this article I present some probabilities of 1-step learning optimized by Impatient Learning (&lt;a href=&#34;http://www.citebase.org/abstract?id=oai:arXiv.org:quant-ph/0309059&#34; target=&#34;_blank&#34;&gt;http://www.citebase.org/abstract?id=oai:arXiv.org:quant-ph/0309059&lt;/a&gt;) for the sub/sup Majority Learning.
 &lt;/p&gt;
@@ -205,10 +205,10 @@
     
     <item>
       <title>Classical algorithm for the Majority Problem</title>
-      <link>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</link>
+      <link>http://localhost:1313/blog/2009/07/classical-algorithm-for-the-majority-problem/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</guid>
+      <guid>http://localhost:1313/blog/2009/07/classical-algorithm-for-the-majority-problem/</guid>
       <description>
 
 &lt;h2 id=&#34;presentation-of-the-problem:3b8d5a267fec0b72a8c954f33097fb33&#34;&gt;Presentation of the problem :&lt;/h2&gt;
@@ -289,10 +289,10 @@
     
     <item>
       <title>Some papers about Oracle identification</title>
-      <link>http://localhost:1313/2009/07/some-papers-about-oracle-identification/</link>
+      <link>http://localhost:1313/blog/2009/07/some-papers-about-oracle-identification/</link>
       <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/some-papers-about-oracle-identification/</guid>
+      <guid>http://localhost:1313/blog/2009/07/some-papers-about-oracle-identification/</guid>
       <description>&lt;p&gt;There is a bunch of interesting papers dealing with Oracle Identification.&lt;/p&gt;
 
 &lt;p&gt;Here is a list of the ones I found interesting to read :&lt;/p&gt;
@@ -313,10 +313,10 @@
     
     <item>
       <title>Latex on my blog</title>
-      <link>http://localhost:1313/2009/06/test-latex/</link>
+      <link>http://localhost:1313/blog/2009/06/test-latex/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/test-latex/</guid>
+      <guid>http://localhost:1313/blog/2009/06/test-latex/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
 &lt;/p&gt;

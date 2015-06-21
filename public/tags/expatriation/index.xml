@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Expatriation on Jice is Nice</title>
-    <link>http://localhost:1313/tags/expatriation/</link>
-    <description>Recent content in Expatriation on Jice is Nice</description>
+    <title>Expatriation on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/expatriation/</link>
+    <description>Recent content in Expatriation on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 21 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/expatriation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/expatriation/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Expat : la TV Française à l’étranger</title>
-      <link>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</link>
+      <link>http://localhost:1313/blog/2010/11/expat-la-tv-francaise-a-letranger/</link>
       <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</guid>
+      <guid>http://localhost:1313/blog/2010/11/expat-la-tv-francaise-a-letranger/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;float: left; margin-left: 20px; margin-right: 20px;&#34; title=&#34;Arte&#34; src=&#34;http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png&#34; alt=&#34;Arte&#34; width=&#34;150&#34; height=&#34;113&#34; /&gt;Suite à mon post sur &amp;#8220;&lt;a title=&#34;Regarder Arte ou Roland Garros depuis l&#39;étranger&#34; href=&#34;http://localhost/oldblog/2009/05/regarder-arte-rolland-garros-de-letranger/&#34;&gt;Comment regarder Arte ou Roland Garros à l&amp;#8217;étranger&lt;/a&gt;&amp;#8221; (top ten de vos lectures sur mon blog), un évènement récent me pousse à écrire la suite. Informé de cela par &lt;strong&gt;Daniel Nicollet&lt;/strong&gt;, l&amp;#8217;auteur de la pétition que je citais à la fin de mon article, je pense qu&amp;#8217;il est utile pour ceux d&amp;#8217;entre vous qui sont expatriés, de lire son message. Ci-dessous je vous retranscris son email (un peu long, mais au moins vous aurez compris le message ;-D ).
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png&#34; alt=&#34;Arte&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Arte&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Suite à mon post sur &amp;#8220;&lt;a title=&#34;Regarder Arte ou Roland Garros depuis l&#39;étranger&#34; href=&#34;http://localhost/oldblog/2009/05/regarder-arte-rolland-garros-de-letranger/&#34;&gt;Comment regarder Arte ou Roland Garros à l&amp;#8217;étranger&lt;/a&gt;&amp;#8221; (top ten de vos lectures sur mon blog), un évènement récent me pousse à écrire la suite. Informé de cela par &lt;strong&gt;Daniel Nicollet&lt;/strong&gt;, l&amp;#8217;auteur de la pétition que je citais à la fin de mon article, je pense qu&amp;#8217;il est utile pour ceux d&amp;#8217;entre vous qui sont expatriés, de lire son message. Ci-dessous je vous retranscris son email (un peu long, mais au moins vous aurez compris le message ;-D ).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -99,10 +109,10 @@
     
     <item>
       <title>Regarder Arte ou Roland Garros de l’etranger</title>
-      <link>http://localhost:1313/2009/05/regarder-arte-rolland-garros-de-letranger/</link>
+      <link>http://localhost:1313/blog/2009/05/regarder-arte-rolland-garros-de-letranger/</link>
       <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/05/regarder-arte-rolland-garros-de-letranger/</guid>
+      <guid>http://localhost:1313/blog/2009/05/regarder-arte-rolland-garros-de-letranger/</guid>
       <description>
 
 &lt;h2 id=&#34;mise-a-jour-importante:7303b0bdf4f843ecc6f87cef236478dd&#34;&gt;Mise a jour importante&lt;/h2&gt;
@@ -114,7 +124,12 @@
 &lt;h2 id=&#34;ancien-article:7303b0bdf4f843ecc6f87cef236478dd&#34;&gt;Ancien article&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;float: left; margin-left: 5px; margin-right: 5px;&#34; src=&#34;https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800&#34; alt=&#34;Foxy Proxy&#34; width=&#34;200&#34; height=&#34;150&#34; /&gt;Vous êtes en stage &lt;strong&gt;a l&amp;#8217;étranger&lt;/strong&gt;, vous avez envie de &lt;strong&gt;regarder Arte &lt;/strong&gt;(ou &lt;strong&gt;regarder Roland Garros&lt;/strong&gt;)&amp;#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&amp;#8217;&lt;strong&gt;IP non françaises&lt;/strong&gt;. La solution consiste a passer par un proxy francais.
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800&#34; alt=&#34;Foxy Proxy&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;/figure&gt;Vous êtes en stage &lt;strong&gt;a l&amp;#8217;étranger&lt;/strong&gt;, vous avez envie de &lt;strong&gt;regarder Arte &lt;/strong&gt;(ou &lt;strong&gt;regarder Roland Garros&lt;/strong&gt;)&amp;#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&amp;#8217;&lt;strong&gt;IP non françaises&lt;/strong&gt;. La solution consiste a passer par un proxy francais.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Header on Jice is Nice</title>
-    <link>http://localhost:1313/tags/header/</link>
-    <description>Recent content in Header on Jice is Nice</description>
+    <title>Header on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/header/</link>
+    <description>Recent content in Header on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 02 Sep 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/header/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/header/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Comment j’ai triché à Samsung Launching People et pourquoi ils ont bien réagi</title>
-      <link>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
+      <link>http://localhost:1313/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
       <pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
+      <guid>http://localhost:1313/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
       <description>
 
 &lt;p&gt;Toujours en cours actuellement, un concours mis en place par Samsung a récolté une très bonne visibilité sur la blogosphère française : Samsung Launching People. Dans cet article je vous explique comment il était possible de tricher à ce concours et comment Samsung gère la situation d&amp;#8217;une manière intelligente.&lt;/p&gt;
@@ -24,7 +24,12 @@
 
 &lt;p&gt;Dans ma série de posts pour expliquer comment tricher sur le web, j&amp;#8217;aimerais aujourd&amp;#8217;hui vous parler du concours &lt;a title=&#34;Concours Facebokk Samsung&#34; href=&#34;https://apps.facebook.com/launchingpeople-fr/&#34; target=&#34;_blank&#34;&gt;Samsung Launching People&lt;/a&gt;. La dernière fois que j&amp;#8217;ai décrypté une technique de triche, c&amp;#8217;était à l&amp;#8217;occasion de &lt;a title=&#34;Triche aux Golden Blog Awards&#34; href=&#34;http://www.graphemeride.com/blog/comment-j-ai-triche-aux-golden-blog-awards&#34; target=&#34;_blank&#34;&gt;Golden Blog Awards&lt;/a&gt;. A l&amp;#8217;époque, la technique était très simple puisque les votes se faisaient par un simple clic. Dans le cas de Samsung, le jeu concours a été organisé sur Facebook. Il est en général plus difficile de tricher à ce genre de concours hébergés sur le géant des réseaux sociaux.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1384&#34; alt=&#34;Launching People&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; width=&#34;300&#34; height=&#34;230&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1384&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; alt=&#34;Launching People&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Cependant, jusqu&amp;#8217;à présent (&lt;a title=&#34;Nouveaux types de concours facebook&#34; href=&#34;http://www.commentcamarche.net/news/5863033-concours-sur-facebook-les-applications-tierces-ne-sont-plus-requises&#34; target=&#34;_blank&#34;&gt;cela va changer&lt;/a&gt;), il était nécessaire de créer une application tierce pour faire son concours, l&amp;#8217;application étant hébergée par la société éditrice du concours. C&amp;#8217;est là que le bât blesse dans 95% des cas : les jeux concours sur le Web sont TOUS craquables, piratables sans le moindre souci lorsqu&amp;#8217;il s&amp;#8217;agit d&amp;#8217;un concours basé sur un score (nombre de points à obtenir, nombre de likes, etc). Pour ce que j&amp;#8217;en pense, &lt;strong&gt;les seuls jeux concours non craquables sont basés sur le système d&amp;#8217;instants gagnants&lt;/strong&gt;. C&amp;#8217;est la seule technique qui ne permet pas de piratage facile.&lt;/p&gt;
 
@@ -200,7 +205,12 @@
 
 &lt;p&gt;Je pense que Samsung a bien géré ce concours. Tout d&amp;#8217;abord, il y avait une personne dédiée au concours qui approuvait les candidatures et répondait aux questions. Ensuite, le fait que le jury n&amp;#8217;ait pas pris en compte les votes est &amp;#8220;intelligent&amp;#8221; même si c&amp;#8217;est quand même un peu déplorable : j&amp;#8217;ai passé environ cinq heures à faire du networking pour obtenir les seuls 300 vrais votes reliés à mon compte (j&amp;#8217;avais fait publier des articles dans des blogs connus pour parler de moi et demander du soutien).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/samsung.png&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1385&#34; alt=&#34;WordiZ sur Launching People&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; width=&#34;300&#34; height=&#34;182&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2013/09/samsung.png&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1385&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; alt=&#34;WordiZ sur Launching People&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;les-sociétés-qui-font-des-concours-sur-le-web:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Les sociétés qui font des concours sur le web&lt;/h2&gt;
 

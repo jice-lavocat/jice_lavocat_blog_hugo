@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Musique on Jice is Nice</title>
-    <link>http://localhost:1313/tags/musique/</link>
-    <description>Recent content in Musique on Jice is Nice</description>
+    <title>Musique on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/musique/</link>
+    <description>Recent content in Musique on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Fri, 22 Jan 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/musique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/musique/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Folk Russe</title>
-      <link>http://localhost:1313/2010/01/folk-russe/</link>
+      <link>http://localhost:1313/blog/2010/01/folk-russe/</link>
       <pubDate>Fri, 22 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/01/folk-russe/</guid>
+      <guid>http://localhost:1313/blog/2010/01/folk-russe/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
 &lt;/p&gt;
 </description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>Musique Néo-Médiévale</title>
-      <link>http://localhost:1313/2009/07/musique-neo-medievale/</link>
+      <link>http://localhost:1313/blog/2009/07/musique-neo-medievale/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/musique-neo-medievale/</guid>
+      <guid>http://localhost:1313/blog/2009/07/musique-neo-medievale/</guid>
       <description>
 
 &lt;p&gt;Voilà quelques groupes et lien vers le site Deezer.com qui vous permettront de découvrir l&amp;#8217;univers de la musique médiévale! La plupart des chansons étant en latin, onest facilement plongé dans l&amp;#8217;univers.&lt;/p&gt;
@@ -40,7 +40,17 @@
 &lt;table border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img title=&#34;Corvus Corax&#34; src=&#34;http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg&#34; border=&#34;0&#34; alt=&#34;Corvus Corax&#34; width=&#34;300&#34; height=&#34;203&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg&#34; alt=&#34;Corvus Corax&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Corvus Corax&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -54,7 +64,17 @@
 &lt;table border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img title=&#34;Saltatio Mortis&#34; src=&#34;http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg&#34; border=&#34;0&#34; alt=&#34;Saltatio Mortis&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg&#34; alt=&#34;Saltatio Mortis&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Saltatio Mortis&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -73,16 +93,26 @@
     
     <item>
       <title>Playlist Darkwave</title>
-      <link>http://localhost:1313/2009/07/playlist-darkwave/</link>
+      <link>http://localhost:1313/blog/2009/07/playlist-darkwave/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/playlist-darkwave/</guid>
+      <guid>http://localhost:1313/blog/2009/07/playlist-darkwave/</guid>
       <description>&lt;p align=&#34;justify&#34;&gt;
   En me promenant sur myspace, je suis tombé sur le profil d&amp;#8217;une Demoiselle qui écoute exactement la même chose que moi en &lt;strong&gt;Darkwave&lt;/strong&gt;! Qu&amp;#8217;est-ce que cela signifie? Ne suis-je donc pas unique? Bref, je me poserai ces questions le moment venu, pour l&amp;#8217;instant je vous donne le lien pour avoir un aperçu des groupes influents en &lt;strong&gt;Darkwave/EBM&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p align=&#34;justify&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-648&#34; style=&#34;margin: 5px;&#34; title=&#34;Cyber_Goth_by_biohazardbitch&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34; alt=&#34;Cyber_Goth_by_biohazardbitch&#34; width=&#34;128&#34; height=&#34;170&#34; /&gt;&lt;/a&gt;Le Darkwave ou l&amp;#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&amp;#8217;aime la souffrance, ma copine/copain m&amp;#8217;a quitté je vais me suicider&amp;#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-648&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg&#34; alt=&#34;Cyber_Goth_by_biohazardbitch&#34; width=&#34;128&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Cyber_Goth_by_biohazardbitch&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Le Darkwave ou l&amp;#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&amp;#8217;aime la souffrance, ma copine/copain m&amp;#8217;a quitté je vais me suicider&amp;#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.
 &lt;/p&gt;
 
 &lt;p align=&#34;justify&#34;&gt;
@@ -120,10 +150,10 @@
     
     <item>
       <title>Lancer la SmartRadio Deezer</title>
-      <link>http://localhost:1313/2009/02/lancer-la-smartradio-deezer/</link>
+      <link>http://localhost:1313/blog/2009/02/lancer-la-smartradio-deezer/</link>
       <pubDate>Sat, 28 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/lancer-la-smartradio-deezer/</guid>
+      <guid>http://localhost:1313/blog/2009/02/lancer-la-smartradio-deezer/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Depuis la nouvelle version vous ne saviez pas comment lancer une smartradio sur Deezer? Et bien en cherchant un peu sur leur forum j&amp;#8217;ai trouvé ce post qui répond à tout :
 &lt;/p&gt;
@@ -143,7 +173,17 @@
 &lt;div class=&#34;mceTemp mceIEcenter&#34; style=&#34;text-align: center;&#34;&gt;
   &lt;dl class=&#34;wp-caption aligncenter&#34; style=&#34;width: 510px;&#34;&gt;
     &lt;dt class=&#34;wp-caption-dt&#34;&gt;
-      &lt;img title=&#34;SmartRadio Deezer&#34; src=&#34;http://kassblan.free.fr/smart/smart.jpg&#34; alt=&#34;SmartRadio Deezer&#34; width=&#34;500&#34; height=&#34;434&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://kassblan.free.fr/smart/smart.jpg&#34; alt=&#34;SmartRadio Deezer&#34; width=&#34;500&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;SmartRadio Deezer&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
 &lt;/div&gt;
@@ -152,12 +192,22 @@
     
     <item>
       <title>Musique des Balkans</title>
-      <link>http://localhost:1313/2009/02/musique-des-balkans/</link>
+      <link>http://localhost:1313/blog/2009/02/musique-des-balkans/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/musique-des-balkans/</guid>
+      <guid>http://localhost:1313/blog/2009/02/musique-des-balkans/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-98&#34; style=&#34;margin: 5px;&#34; title=&#34;Carte des Balkan&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/balkan_topo_en.jpg&#34; alt=&#34;Carte des Balkan&#34; width=&#34;200&#34; height=&#34;183&#34; /&gt;Un petit post rapide pour vous faire part de musiques que j&amp;#8217;ai beaucoup écouté il y a de ça 4 ou 5 ans : la musique des Balkans.
+  &lt;figure class=&#34;alignleft size-full wp-image-98&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/balkan_topo_en.jpg&#34; alt=&#34;Carte des Balkan&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Carte des Balkan&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Un petit post rapide pour vous faire part de musiques que j&amp;#8217;ai beaucoup écouté il y a de ça 4 ou 5 ans : la musique des Balkans.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -187,10 +237,10 @@
     
     <item>
       <title>Des webradios à thèmes</title>
-      <link>http://localhost:1313/2009/01/des-webradios-a-themes/</link>
+      <link>http://localhost:1313/blog/2009/01/des-webradios-a-themes/</link>
       <pubDate>Sun, 25 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/des-webradios-a-themes/</guid>
+      <guid>http://localhost:1313/blog/2009/01/des-webradios-a-themes/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Dans ce post je vais faire la liste des &lt;strong&gt;webradios à thèmes&lt;/strong&gt; que je rencontre au fil de mes navigations sur le web. Qu&amp;#8217;il s&amp;#8217;agisse de webradios worldmusic, ambient, techno, house, chillout ou autre, je les listerai un peu en désordre.
 &lt;/p&gt;
@@ -219,76 +269,34 @@
     
     <item>
       <title>Les artistes indépendants du web</title>
-      <link>http://localhost:1313/2009/01/les-artistes-independants-du-web/</link>
+      <link>http://localhost:1313/blog/2009/01/les-artistes-independants-du-web/</link>
       <pubDate>Mon, 19 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/les-artistes-independants-du-web/</guid>
+      <guid>http://localhost:1313/blog/2009/01/les-artistes-independants-du-web/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Coïncidant avec la sortie du nouvel album de &lt;a title=&#34;Site officiel Anthony and the Johnsons&#34; href=&#34;http://www.antonyandthejohnsons.com/&#34; target=&#34;_blank&#34;&gt;Antony and the Johnsons&lt;/a&gt; et de &lt;a title=&#34;Site officiel de Franz Ferdinand&#34; href=&#34;http://www.franzferdinand.co.uk/&#34; target=&#34;_blank&#34;&gt;Franz Ferdinand&lt;/a&gt;, j&amp;#8217;ai eu envie de regrouper sur un même post (à éditer dans le temps lorsque cela s&amp;#8217;avérera nécessaire) les vidéos des &lt;strong&gt;artistes musicaux&lt;/strong&gt; qui &lt;strong&gt;buzz sur youtube&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
 
-&lt;table style=&#34;width: 300px; text-align: center;&#34; border=&#34;0&#34; align=&#34;center&#34;&gt;
+&lt;p&gt;&lt;table style=&#34;width: 300px; text-align: center;&#34; border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td width=&#34;150&#34;&gt;
-      &lt;a href=&#34;http://www.amazon.fr/gp/product/B001JNNFQI?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=B001JNNFQI&#34;&gt;&lt;img class=&#34;aligncenter&#34; src=&#34;http://ecx.images-amazon.com/images/I/51aABgh0pvL._SL160_AA115_.jpg&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;img style=&#34;border:none !important; margin:0px !important;&#34; src=&#34;http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;l=as2&amp;o=8&amp;a=B001JNNFQI&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;
-    &lt;/td&gt;
+      &lt;a href=&#34;http://www.amazon.fr/gp/product/B001JNNFQI?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=B001JNNFQI&#34;&gt;&lt;figure class=&#34;aligncenter&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://ecx.images-amazon.com/images/I/51aABgh0pvL._SL160_AA115_.jpg&#34; /&gt;
     
-    &lt;td width=&#34;150&#34;&gt;
-      &lt;a href=&#34;http://www.amazon.fr/gp/product/B001M0JI9Q?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=B001M0JI9Q&#34;&gt;&lt;img class=&#34;aligncenter&#34; src=&#34;http://ecx.images-amazon.com/images/I/41yO%2BwDzUjL._SL160_AA115_.jpg&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;img style=&#34;border:none !important; margin:0px !important;&#34; src=&#34;http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;l=as2&amp;o=8&amp;a=B001M0JI9Q&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td style=&#34;text-align: center;&#34;&gt;
-      Anthony and the Johnsons&lt;br /&gt; ~ The crying Light&lt;/p&gt; 
-      
-      &lt;p&gt;
-        &lt;a title=&#34;The crying Light sur Deezer&#34; href=&#34;http://www.deezer.com/#music/album/262035&#34; target=&#34;_blank&#34;&gt;Album sur Deezer&lt;/a&gt;&lt;/td&gt; 
-        
-        &lt;td style=&#34;text-align: center;&#34;&gt;
-          Franz Ferdinand&lt;br /&gt; ~ Tonight
-        &lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; 
-        
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;p&amp;gt;
-      &amp;lt;br class=&amp;quot;spacer_&amp;quot; /&amp;gt;
-    &amp;lt;/p&amp;gt;
-
-    &amp;lt;h2&amp;gt;
-      Le joueur de Flutte beatboxeur ~  Greg Pattillo :
-    &amp;lt;/h2&amp;gt;
-
-    &amp;lt;p&amp;gt;
-      &amp;lt;br class=&amp;quot;spacer_&amp;quot; /&amp;gt;
-    &amp;lt;/p&amp;gt;
-
-    &amp;lt;p style=&amp;quot;text-align: center;&amp;quot;&amp;gt;
-    &amp;lt;/p&amp;gt;
-
-    &amp;lt;p style=&amp;quot;text-align: center;&amp;quot;&amp;gt;
-      &amp;lt;h2 style=&amp;quot;text-align: left;&amp;quot;&amp;gt;
-        L&amp;amp;#8217;autiste du clavecin ~ Ronald Jenkees :
-      &amp;lt;/h2&amp;gt;
-
-      &amp;lt;p style=&amp;quot;text-align: center;&amp;quot;&amp;gt;
-      &amp;lt;/p&amp;gt;
-
-      &amp;lt;p style=&amp;quot;text-align: center;&amp;quot;&amp;gt;
-        &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
-          Pour l&amp;amp;#8217;instant je ne retrouve pas les autres. N&amp;amp;#8217;hésitez pas à poster pour m&amp;amp;#8217;envoyer les buzzers du son sur Youtube, DM ou Vimeo!
-        &amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Label Breakbeat : Against The Grain &amp; Supercharged Music</title>
-      <link>http://localhost:1313/2008/04/label-breakbeat-against-the-grain-supercharged-music/</link>
+      <link>http://localhost:1313/blog/2008/04/label-breakbeat-against-the-grain-supercharged-music/</link>
       <pubDate>Fri, 18 Apr 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/04/label-breakbeat-against-the-grain-supercharged-music/</guid>
+      <guid>http://localhost:1313/blog/2008/04/label-breakbeat-against-the-grain-supercharged-music/</guid>
       <description>&lt;p&gt;Je viens de découvrir un label qui fait dans le breakbeat et dont je n&amp;#8217;avais jamais entendu le nom. Il sagit de &lt;em&gt;&lt;span&gt;Against The Grain&lt;/span&gt;&lt;/em&gt;. Le label est anglais et produit notament le groupe &amp;#8216;freestylers&amp;#8217; :&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -309,13 +317,23 @@
     
     <item>
       <title>Reggae Allemand</title>
-      <link>http://localhost:1313/2008/01/reggae-allemand/</link>
+      <link>http://localhost:1313/blog/2008/01/reggae-allemand/</link>
       <pubDate>Mon, 28 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/01/reggae-allemand/</guid>
+      <guid>http://localhost:1313/blog/2008/01/reggae-allemand/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-690&#34; style=&#34;margin: 5px;&#34; title=&#34;reggae-music&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-690&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;reggae-music&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Mon reggae préféré : le reggae von Deutschland!!!! Très Dancehall et en même temps ce n&amp;#8217;est pas du Dancehall jamaïcain. Très spirituel, et en même temps festif. A écouter!&lt;/p&gt;
 
@@ -358,13 +376,23 @@
     
     <item>
       <title>Reggae russe</title>
-      <link>http://localhost:1313/2008/01/reggae-russe/</link>
+      <link>http://localhost:1313/blog/2008/01/reggae-russe/</link>
       <pubDate>Mon, 28 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/01/reggae-russe/</guid>
+      <guid>http://localhost:1313/blog/2008/01/reggae-russe/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-690&#34; style=&#34;margin: 5px;&#34; title=&#34;reggae-music&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;270&#34; height=&#34;270&#34; /&gt;&lt;/a&gt;Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-690&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg&#34; alt=&#34;reggae-music&#34; width=&#34;270&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;reggae-music&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.&lt;/p&gt;
 
 &lt;p&gt;Avant de commencer je voulais vous donner ma source de nom de groupes : &lt;a onclick=&#34;window.open(this.href);return false;&#34; href=&#34;http://www.zhurnal.ru/music/rasta/bands.html&#34;&gt;&lt;a href=&#34;http://www.zhurnal.ru/music/rasta/bands.html&#34;&gt;http://www.zhurnal.ru/music/rasta/bands.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 

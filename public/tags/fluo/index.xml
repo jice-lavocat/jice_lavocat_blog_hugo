@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fluo on Jice is Nice</title>
-    <link>http://localhost:1313/tags/fluo/</link>
-    <description>Recent content in Fluo on Jice is Nice</description>
+    <title>Fluo on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/fluo/</link>
+    <description>Recent content in Fluo on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 11 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/fluo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/fluo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Art Tribal</title>
-      <link>http://localhost:1313/2009/07/art-tribal/</link>
+      <link>http://localhost:1313/blog/2009/07/art-tribal/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/art-tribal/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-655&#34; style=&#34;margin: 5px;&#34; title=&#34;bodyart&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34; alt=&#34;bodyart&#34; width=&#34;115&#34; height=&#34;95&#34; /&gt;&lt;/a&gt;Vu sur le site : &lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34;&gt;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2009/07/art-tribal/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-655&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34; alt=&#34;bodyart&#34; width=&#34;115&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;bodyart&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Vu sur le site : &lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34;&gt;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La suite du message reprend la liste de sites. Pour ma part je préfère&lt;/p&gt;
 

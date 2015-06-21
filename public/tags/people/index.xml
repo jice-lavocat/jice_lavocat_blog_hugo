@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>People on Jice is Nice</title>
-    <link>http://localhost:1313/tags/people/</link>
-    <description>Recent content in People on Jice is Nice</description>
+    <title>People on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/people/</link>
+    <description>Recent content in People on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 19 Feb 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/people/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web In Provence #1</title>
-      <link>http://localhost:1313/2014/02/web-in-provence-1/</link>
+      <link>http://localhost:1313/blog/2014/02/web-in-provence-1/</link>
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/02/web-in-provence-1/</guid>
+      <guid>http://localhost:1313/blog/2014/02/web-in-provence-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Je reprends la plume délaissée depuis un certain temps pour vous présenter un évènement auquel je viens d&amp;#8217;assister à Marseille. Il s&amp;#8217;agit du &lt;a title=&#34;Web In Provence&#34; href=&#34;http://www.webinprovence.fr/&#34; target=&#34;_blank&#34;&gt;Web In Provence&lt;/a&gt; , un apéro networking dédié aux acteur du web en &amp;#8230; Provence. L&amp;#8217;idée était d&amp;#8217;associer un apéro avec une conférence sur une tendance montante d&amp;#8217;internet. Pour cette première édition, les organisateurs (&lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://twitter.com/Flo__Hernandez&#34; target=&#34;_blank&#34;&gt;Florent&lt;/a&gt; &lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://plus.google.com/112373548303714842647/posts&#34; target=&#34;_blank&#34;&gt;Hernandez&lt;/a&gt; et &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://twitter.com/AlexDurain&#34; target=&#34;_blank&#34;&gt;Alexandre&lt;/a&gt; &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://plus.google.com/+AlexandreDurain_So-Buzz/posts&#34; target=&#34;_blank&#34;&gt;Durain&lt;/a&gt;) avaient choisi comme thème le &amp;#8220;&lt;strong&gt;Conception Web et Multi Device&lt;/strong&gt;&amp;#8221; . L&amp;#8217;invité de cet conférence était &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://twitter.com/stephane_m_&#34; target=&#34;_blank&#34;&gt;Stéphane&lt;/a&gt; &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://plus.google.com/102644824468826022899/about&#34; target=&#34;_blank&#34;&gt;Martin&lt;/a&gt; senior product designer chez &lt;a title=&#34;Stack Overflow&#34; href=&#34;http://stackoverflow.com/&#34; target=&#34;_blank&#34;&gt;Stack Overflow/Stack Exchange&lt;/a&gt; (la plateforme de questions/réponses dédiée aux programmeurs créé par &lt;a title=&#34;Jeff Atwood (Coding Horror)&#34; href=&#34;http://en.wikipedia.org/wiki/Jeff_Atwood&#34; target=&#34;_blank&#34;&gt;Jeff Atwood&lt;/a&gt;).
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1413&#34; alt=&#34;Stack Exchange Logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; width=&#34;300&#34; height=&#34;100&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1413&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;l-8217-avant-wip:0654f480a5355c245385ee4cb563f3ba&#34;&gt;L&amp;#8217;avant WIP&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;wp-image-1414 alignright&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Link Party&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; width=&#34;144&#34; height=&#34;150&#34; /&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
+  &lt;figure class=&#34;wp-image-1414 alignright&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
+    
+
+&lt;/figure&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
 &lt;/p&gt;
 
 &lt;h2 id=&#34;les-lieux:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les lieux&lt;/h2&gt;
@@ -51,7 +61,12 @@
 &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;img class=&#34;size-medium wp-image-1415&#34; alt=&#34;Wip#1&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; width=&#34;300&#34; height=&#34;224&#34; /&gt;
+  &lt;figure class=&#34;size-medium wp-image-1415&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Stéphane Martin explique la conception de produit web au Wip14 -&lt;em&gt;Photo par &lt;a title=&#34;Jfeyraud&#34; href=&#34;https://twitter.com/jfeyraud&#34; target=&#34;_blank&#34;&gt;@jfeyraud&lt;/a&gt;&lt;/em&gt;
@@ -65,7 +80,12 @@
 &lt;h2 id=&#34;les-rencontres:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les rencontres&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;img class=&#34;size-medium wp-image-1417 alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Business Card&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
+  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;figure class=&#34;size-medium wp-image-1417 alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;/figure&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -110,7 +130,12 @@
 &lt;/ul&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

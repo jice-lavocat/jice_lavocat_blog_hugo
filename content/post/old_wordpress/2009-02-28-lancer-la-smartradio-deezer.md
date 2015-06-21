@@ -30,7 +30,7 @@ tags:
 <div class="mceTemp mceIEcenter" style="text-align: center;">
   <dl class="wp-caption aligncenter" style="width: 510px;">
     <dt class="wp-caption-dt">
-      <img title="SmartRadio Deezer" src="http://kassblan.free.fr/smart/smart.jpg" alt="SmartRadio Deezer" width="500" height="434" />
+      {{<img title="SmartRadio Deezer" src="http://kassblan.free.fr/smart/smart.jpg" alt="SmartRadio Deezer" width="500" height="434" >}}
     </dt>
   </dl>
 </div>

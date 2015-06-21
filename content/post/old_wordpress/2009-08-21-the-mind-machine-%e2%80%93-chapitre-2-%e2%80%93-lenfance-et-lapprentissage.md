@@ -5,7 +5,7 @@ author: Jice
 date: 2009-08-21
 url: /2009/08/the-mind-machine-%e2%80%93-chapitre-2-%e2%80%93-lenfance-et-lapprentissage/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/08/Embryon.jpg
+  - images/posts/oldwordpress/uploads/2009/08/Embryon.jpg
 categories:
   - Neurosciences
 tags:
@@ -15,7 +15,7 @@ tags:
   - neurosciences
 ---
 <p style="text-align: justify;">
-  <span><em><a href="/images/posts/oldwordpress/uploads/2009/08/Embryon.jpg"><img class="alignleft size-full wp-image-879" style="margin: 20px;" title="Embryon" src="/images/posts/oldwordpress/uploads/2009/08/Embryon.jpg" alt="Embryon" width="93" height="93" /></a>Ce chapitre se consacre au développement du cerveau de l&#8217;embryon, et à son système nerveux. Il présente certaines causes qui impliquent des troubles du développement de l&#8217;embryon. La suite du chapitre est ensuite dédié à l&#8217;apprentissage et aux différentes phases de développement d&#8217;un enfant (logique, représentation du monde, distinction de formes etc.) . (<a href="http://localhost/oldblog/2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)<br /> </em></span>
+  <span><em><a href="images/posts/oldwordpress/uploads/2009/08/Embryon.jpg">{{<img class="alignleft size-full wp-image-879" style="margin: 20px;" title="Embryon" src="images/posts/oldwordpress/uploads/2009/08/Embryon.jpg" alt="Embryon" width="93" height="93" /></a>Ce chapitre se consacre au développement du cerveau de l&#8217;embryon, et à son système nerveux. Il présente certaines causes qui impliquent des troubles du développement de l&#8217;embryon. La suite du chapitre est ensuite dédié à l&#8217;apprentissage et aux différentes phases de développement d&#8217;un enfant (logique, représentation du monde, distinction de formes etc.) . (<a href="http://localhost/oldblog/2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)<br >}} </em></span>
 </p>
 
 <p style="text-align: justify;">

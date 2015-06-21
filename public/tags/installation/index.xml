@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Installation on Jice is Nice</title>
-    <link>http://localhost:1313/tags/installation/</link>
-    <description>Recent content in Installation on Jice is Nice</description>
+    <title>Installation on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/installation/</link>
+    <description>Recent content in Installation on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 24 Mar 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/installation/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installation d’un Drupal multi-site</title>
-      <link>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</link>
+      <link>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</link>
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</guid>
+      <guid>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; title=&#34;Drupal - CMS&#34; src=&#34;http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; height=&#34;250&#34; /&gt;Petit article très rapide pour présenter la procédure d&amp;#8217;installation d&amp;#8217;un &lt;a title=&#34;Drupal - CMS&#34; href=&#34;http://drupal.org/&#34; target=&#34;_blank&#34;&gt;Drupal&lt;/a&gt; multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
+  &lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Drupal - CMS&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Petit article très rapide pour présenter la procédure d&amp;#8217;installation d&amp;#8217;un &lt;a title=&#34;Drupal - CMS&#34; href=&#34;http://drupal.org/&#34; target=&#34;_blank&#34;&gt;Drupal&lt;/a&gt; multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

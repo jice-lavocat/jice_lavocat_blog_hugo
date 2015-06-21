@@ -54,7 +54,7 @@ tags:
   </p>
   
   <p>
-    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&#8217;URL donnée en entrée. Et là, il y voit l&#8217;adresse de la page d&#8217;erreur <img title="Undecided" src="plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif" border="0" alt="Undecided" />.
+    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&#8217;URL donnée en entrée. Et là, il y voit l&#8217;adresse de la page d&#8217;erreur {{<img title="Undecided" src="plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif" border="0" alt="Undecided" >}}.
   </p>
   
   <p>

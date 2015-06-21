@@ -5,7 +5,7 @@ author: Jice
 date: 2010-01-21
 url: /2010/01/optimiser-un-clavier-azerty-vers-dvorak/
 Image:
-  - /images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg
+  - images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg
 categories:
   - Informatique
 tags:
@@ -33,7 +33,7 @@ tags:
  
 
 <div style="width: 407px" class="wp-caption aligncenter">
-  <a href="http://www.collection-machineaecrire-campiche-hermes.ch/collec.htm"><img src="http://www.collection-machineaecrire-campiche-hermes.ch/Images/photo05.JPG" alt="Machine à écrire" width="397" height="298" /></a>
+  <a href="http://www.collection-machineaecrire-campiche-hermes.ch/collec.htm">{{<img src="http://www.collection-machineaecrire-campiche-hermes.ch/Images/photo05.JPG" alt="Machine à écrire" width="397" height="298" >}}</a>
   
   <p class="wp-caption-text">
     Machine à écrire Remington Credit : http://www.collection-machineaecrire-campiche-hermes.ch
@@ -57,7 +57,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  Je vous propose de mettre à profit un vieux clavier! Après avoir <strong>démonté les touches</strong>, il va vous être possible de faire un peu de puzzle et de remettre les touches comme bon vous semble. Vous pouvez à loisir : remettre les touches de base dans un ordre proche du <strong>Dvorak-fr</strong>, soit les peindre pour avoir exactement la disposition <strong>Dvorak-fr</strong>. Pour démonter votre clavier, seul un tournevis ou une pointe pour faire levier vous sera nécessaire. Un seul point à noter : la touche espace, qui est maintenu par des petits crochets en général&#8230; mais normalement vous n&#8217;avez pas à la changer d&#8217;emplacement <img src="http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
+  Je vous propose de mettre à profit un vieux clavier! Après avoir <strong>démonté les touches</strong>, il va vous être possible de faire un peu de puzzle et de remettre les touches comme bon vous semble. Vous pouvez à loisir : remettre les touches de base dans un ordre proche du <strong>Dvorak-fr</strong>, soit les peindre pour avoir exactement la disposition <strong>Dvorak-fr</strong>. Pour démonter votre clavier, seul un tournevis ou une pointe pour faire levier vous sera nécessaire. Un seul point à noter : la touche espace, qui est maintenu par des petits crochets en général&#8230; mais normalement vous n&#8217;avez pas à la changer d&#8217;emplacement {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" >}}
 </p>
 
 <p style="text-align: justify;">
@@ -69,7 +69,7 @@ tags:
  
 
 <div id="attachment_998" style="width: 310px" class="wp-caption aligncenter">
-  <img class="size-medium wp-image-998" title="Clavier démonté" src="/images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg" alt="" width="300" height="201" />
+  {{<img class="size-medium wp-image-998" title="Clavier démonté" src="images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg" alt="" width="300" height="201" >}}
   
   <p class="wp-caption-text">
     Pour démonter son clavier : une simple pointe pour faire levier

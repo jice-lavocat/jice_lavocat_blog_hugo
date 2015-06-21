@@ -13,7 +13,7 @@ tags:
   - YOOtheme
   - Zoo
 ---
-[<img class="alignleft" alt="zoo joomla module" src="/images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" height="120" />][1]I wanted to add a <a title="Google plus" href="http://www.google.com/webmasters/+1/button/" target="_blank">google +1 button</a> to my website. As I am using YOOtheme zoo CCK component, I add to create a new &#8220;element&#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &#8230; and custom applications).
+[{{<img class="alignleft" alt="zoo joomla module" src="images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" height="120" >}}][1]I wanted to add a <a title="Google plus" href="http://www.google.com/webmasters/+1/button/" target="_blank">google +1 button</a> to my website. As I am using YOOtheme zoo CCK component, I add to create a new &#8220;element&#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &#8230; and custom applications).
 
 ### How to install
 
@@ -35,5 +35,5 @@ In the case you are using this button without printing the number of +1s, I took
 
 Don&#8217;t hesitate to post comment for precisions or bug corrections.
 
- [1]: /images/posts/oldwordpress/uploads/2011/08/zoo.png
- [2]: /images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip
+ [1]: images/posts/oldwordpress/uploads/2011/08/zoo.png
+ [2]: images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip

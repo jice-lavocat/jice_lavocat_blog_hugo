@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spy on Jice is Nice</title>
-    <link>http://localhost:1313/tags/spy/</link>
-    <description>Recent content in Spy on Jice is Nice</description>
+    <title>Spy on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/spy/</link>
+    <description>Recent content in Spy on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 16 Aug 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/spy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/spy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reverse Search : 10 outils pour espionner vos concurrents</title>
-      <link>http://localhost:1313/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</link>
+      <link>http://localhost:1313/blog/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</link>
       <pubDate>Sun, 16 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</guid>
+      <guid>http://localhost:1313/blog/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-816&#34; style=&#34;margin: 5px;&#34; title=&#34;detectivehat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;150&#34; height=&#34;107&#34; /&gt;&lt;/a&gt;Voilà une petite liste d&amp;#8217;outils qui peuvent servir pour espionner vos concurrents sur le web. Quelques outils de cette liste proviennent de twitt émis par &lt;a title=&#34;SEO Black and White Hat&#34; href=&#34;http://www.seoblackout.com/&#34; target=&#34;_blank&#34;&gt;SeoBlackOut&lt;/a&gt; que je remercie.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-816&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;detectivehat&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Voilà une petite liste d&amp;#8217;outils qui peuvent servir pour espionner vos concurrents sur le web. Quelques outils de cette liste proviennent de twitt émis par &lt;a title=&#34;SEO Black and White Hat&#34; href=&#34;http://www.seoblackout.com/&#34; target=&#34;_blank&#34;&gt;SeoBlackOut&lt;/a&gt; que je remercie.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -122,12 +132,22 @@
     
     <item>
       <title>Reverse Search: 10 tools to spy your competitors</title>
-      <link>http://localhost:1313/2009/08/reverse-search-10-tools-to-spy-your-competitors/</link>
+      <link>http://localhost:1313/blog/2009/08/reverse-search-10-tools-to-spy-your-competitors/</link>
       <pubDate>Sun, 16 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/08/reverse-search-10-tools-to-spy-your-competitors/</guid>
+      <guid>http://localhost:1313/blog/2009/08/reverse-search-10-tools-to-spy-your-competitors/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-816&#34; style=&#34;margin: 10px;&#34; title=&#34;detectivehat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;200&#34; height=&#34;142&#34; /&gt;&lt;/a&gt;Here is a short list of tools that can be used to spy on your competitors on the web. Some tools from the list issued by twitter &lt;a title=&#34;SEO Black Hat and White&#34; href=&#34;http://www.seoblackout.com/&#34; target=&#34;_blank&#34;&gt;SeoBlackOut&lt;/a&gt; whom I thank.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-816&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;detectivehat&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Here is a short list of tools that can be used to spy on your competitors on the web. Some tools from the list issued by twitter &lt;a title=&#34;SEO Black Hat and White&#34; href=&#34;http://www.seoblackout.com/&#34; target=&#34;_blank&#34;&gt;SeoBlackOut&lt;/a&gt; whom I thank.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

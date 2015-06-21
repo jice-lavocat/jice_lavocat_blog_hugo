@@ -14,7 +14,7 @@ tags:
   - Success-Story
 ---
 <p style="text-align: justify;">
-  <img style="margin: 5px; float: left;" title="Why didn't I think of that" src="http://img.flipkart.com/bk_imgs/thumb/118/9780471165118.jpg" alt="Why didn't I think of that" width="75" height="100" />I just found an interesting book in Library I was working in. The book is called &#8220;<a title="Why didn't I think of that" href="http://books.google.com/books?id=EVafPNDvWlYC&printsec=frontcover" target="_blank">Why didn&#8217;t I think of that?</a>&#8221; and is written by <em>A. Freeman </em>and <em>B. Golden</em>.
+  {{<img style="margin: 5px; float: left;" title="Why didn't I think of that" src="http://img.flipkart.com/bk_imgs/thumb/118/9780471165118.jpg" alt="Why didn't I think of that" width="75" height="100" >}}I just found an interesting book in Library I was working in. The book is called &#8220;<a title="Why didn't I think of that" href="http://books.google.com/books?id=EVafPNDvWlYC&printsec=frontcover" target="_blank">Why didn&#8217;t I think of that?</a>&#8221; and is written by <em>A. Freeman </em>and <em>B. Golden</em>.
 </p>
 
 <p style="text-align: justify;">

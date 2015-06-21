@@ -11,7 +11,7 @@ tags:
   - Joomla
 ---
 <h2 style="text-align: justify;">
-  <img style="margin: 20px; float: left;" src="http://www.joomlart.com/templates/default/images/logo.gif" alt="Joomlart" width="200" />The problem
+  {{<img style="margin: 20px; float: left;" src="http://www.joomlart.com/templates/default/images/logo.gif" alt="Joomlart" width="200" >}}The problem
 </h2>
 
 <p style="text-align: justify;">

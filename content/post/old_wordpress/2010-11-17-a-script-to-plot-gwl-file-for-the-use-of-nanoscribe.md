@@ -5,7 +5,7 @@ author: Jice
 date: 2010-11-17
 url: /2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/
 Image:
-  - /images/posts/oldwordpress/uploads/2010/11/describe1.png
+  - images/posts/oldwordpress/uploads/2010/11/describe1.png
 categories:
   - Python
   - Sciences
@@ -15,7 +15,7 @@ tags:
   - physics
   - python
 ---
-![][1]<img class="alignleft size-full wp-image-1121" style="margin-left: 10px; margin-right: 10px;" title="describe - nanoscribe language GWL" src="/images/posts/oldwordpress/uploads/2010/11/describe1.png" alt="describe - nanoscribe language GWL" width="106" height="105" />The focus of this article is really small. It will only interest people involved in Research, who own a <a title="Nanoscribe" href="http://www.nanoscribe.de/" target="_blank">Nanoscribe</a> device.
+![][1]{{<img class="alignleft size-full wp-image-1121" style="margin-left: 10px; margin-right: 10px;" title="describe - nanoscribe language GWL" src="images/posts/oldwordpress/uploads/2010/11/describe1.png" alt="describe - nanoscribe language GWL" width="106" height="105" >}}The focus of this article is really small. It will only interest people involved in Research, who own a <a title="Nanoscribe" href="http://www.nanoscribe.de/" target="_blank">Nanoscribe</a> device.
 
 I was a little bit annoyed by the software, very heavy, and running only on windows. I wanted to design my structures on Linux (or any plateform actually), and I wanted to plot the result with a light software.
 
@@ -38,9 +38,9 @@ Download the new archive : [Plot_GWL.1.1.zip][3]
 Example of a 3D plot :
 
 <p style="text-align: center;">
-  <a href="/images/posts/oldwordpress/uploads/2010/11/tour_eiffel.png"><img title="tour_eiffel" src="/images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png" alt="Tour Eiffel with Nanoscribe" width="300" height="222" /></a>
+  <a href="images/posts/oldwordpress/uploads/2010/11/tour_eiffel.png">{{<img title="tour_eiffel" src="images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png" alt="Tour Eiffel with Nanoscribe" width="300" height="222" >}}</a>
 </p>
 
  [1]: file:///tmp/moz-screenshot.png
- [2]: /images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.0.zip
- [3]: /images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.1.zip
+ [2]: images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.0.zip
+ [3]: images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.1.zip

@@ -12,7 +12,7 @@ tags:
   - Lecture
   - Mind Machine
 ---
-## <img class="alignleft" style="margin: 10px;" title="Family Talking" src="http://www.betterhearing.org/images/family_talking.jpg" alt="" width="250" height="166" />Résumé des points importants du Chapitre 1
+## {{<img class="alignleft" style="margin: 10px;" title="Family Talking" src="http://www.betterhearing.org/images/family_talking.jpg" alt="" width="250" height="166" >}}Résumé des points importants du Chapitre 1
 
 <p style="padding-left: 30px; text-align: justify;">
   <em>Ce chapitre se consacre à l&#8217;existence du langage chez l&#8217;homme et pas chez d&#8217;autres animaux, même si les singes peuvent utiliser la langue des signes. De plus on y parle un peu de ce que peux être la conscience : un phénomène purement biologique, résultant de l&#8217;évolution Darwinienne. </em><span><em> (<a href="../2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)</em></span>

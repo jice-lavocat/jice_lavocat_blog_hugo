@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matrix on Jice is Nice</title>
-    <link>http://localhost:1313/tags/matrix/</link>
-    <description>Recent content in Matrix on Jice is Nice</description>
+    <title>Matrix on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/matrix/</link>
+    <description>Recent content in Matrix on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 08 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On Matrix decomposition</title>
-      <link>http://localhost:1313/2009/07/on-matrix-decomposition/</link>
+      <link>http://localhost:1313/blog/2009/07/on-matrix-decomposition/</link>
       <pubDate>Wed, 08 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/on-matrix-decomposition/</guid>
+      <guid>http://localhost:1313/blog/2009/07/on-matrix-decomposition/</guid>
       <description>&lt;p&gt;In order to complete the previous post on &lt;a href=&#34;http://localhost/oldblog/2009/07/decomposition-in-unitary-matrices/&#34; target=&#34;_blank&#34;&gt;unitary matrix decomposition&lt;/a&gt; (sum) , I give here two interesting links about other known matrix decomposition :&lt;/p&gt;
 
 &lt;ul&gt;

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="fr-FR">
 <head>
     
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" Ma_life.Com &middot;  Jice is Nice" />
-  	<meta property="og:site_name" content="Jice is Nice" />
-  	<meta property="og:url" content="http://localhost:1313/categories/ma_life/index.com/" />
+  	<meta property="og:title" content=" Ma_life.Com &middot;  Blog Jice Lavocat" />
+  	<meta property="og:site_name" content="Blog Jice Lavocat" />
+  	<meta property="og:url" content="http://localhost:1313/blog/categories/ma_life/index.com/" />
     
     
     <meta property="og:type" content="website" />
     
 
   <title>
-     Ma_life.Com &middot;  Jice is Nice
+     Ma_life.Com &middot;  Blog Jice Lavocat
   </title>
 
     <meta name="description" content="French/English essays about our Digital World, about Nature and Mind" />
@@ -22,24 +22,24 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico">
-	  <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="http://localhost:1313/blog/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://localhost:1313/blog/images/apple-touch-icon.png" />
     
-    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
 
 
     
       
-          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Jice is Nice" />
+          <link href="http://localhost:1313/blog/index.xml" rel="alternate" type="application/rss+xml" title="Blog Jice Lavocat" />
       
       
-        <link href="http://localhost:1313/categories/ma_life.com/index.xml" rel="alternate" type="application/rss+xml" title="Ma_life.Com &middot; Jice is Nice" />
+        <link href="http://localhost:1313/blog/categories/ma_life.com/index.xml" rel="alternate" type="application/rss+xml" title="Ma_life.Com &middot; Blog Jice Lavocat" />
       
     
     <meta name="generator" content="Hugo 0.14" />
 
-    <link rel="canonical" href="http://localhost:1313/categories/ma_life/index.com/" />
+    <link rel="canonical" href="http://localhost:1313/blog/categories/ma_life/index.com/" />
 
     
     <script>
@@ -66,18 +66,18 @@
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="/">My Blog</a>
+            	<a href="/blog/">My Blog</a>
             </li>
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="/about/">About me</a>
+            	<a href="/blog/about/">About me</a>
             </li>
         
     </ul>
     
     
-    <a class="subscribe-button icon-feed" href="http://localhost:1313/categories/ma_life.com/index.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="http://localhost:1313/blog/categories/ma_life.com/index.xml">Subscribe</a>
     
 </div>
 <span class="nav-cover"></span>
@@ -87,11 +87,11 @@
 
 
 
-	<header class="main-header tag-head" style="background-image: url(http://localhost:1313/images/coverCalvi.png)">
+	<header class="main-header tag-head" style="background-image: url(http://localhost:1313/blog/images/coverCalvi.png)">
 
     <nav class="main-nav overlay clearfix">
       
-        <a class="blog-logo" href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.png" alt="Home" /></a>
+        <a class="blog-logo" href="http://localhost:1313/blog/"><img src="http://localhost:1313/blog/images/logo.png" alt="Home" /></a>
       
       
           <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -123,27 +123,27 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/">How to transfer money from USD ($) to EUR (€) accounts</a></h2>
+        <h2 class="post-title"><a href="/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/">How to transfer money from USD ($) to EUR (€) accounts</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Since I will soon have to transfer my money from an USD ($) bank account (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English. <a class="read-more" href="/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/">&raquo;</a></p>
+        <p>Since I will soon have to transfer my money from an USD ($) bank account (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English. <a class="read-more" href="/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/argent/">#Argent</a>,
+                <a href="http://localhost:1313/blog/tags/argent/">#Argent</a>,
             
-                <a href="http://localhost:1313/tags/dollar/">#Dollar</a>,
+                <a href="http://localhost:1313/blog/tags/dollar/">#Dollar</a>,
             
-                <a href="http://localhost:1313/tags/euro/">#Euro</a>,
+                <a href="http://localhost:1313/blog/tags/euro/">#Euro</a>,
             
-                <a href="http://localhost:1313/tags/international/">#international</a>,
+                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
             
         
         <time class="post-date" datetime="2011-11-05T00:00:00Z">
@@ -159,10 +159,20 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/07/art-tribal/">Art Tribal</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/07/art-tribal/">Art Tribal</a></h2>
     </header>
     <section class="post-excerpt">
-        <p><p>[<img class="alignleft size-full wp-image-655" style="margin: 5px;" title="bodyart" src="/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" height="95" />][1]Vu sur le site : <a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic" target="_blank"><a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic">http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic</a></a></p>
+        <p><p>[<figure class="alignleft size-full wp-image-655">
+
+    <img src="http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" />
+    
+
+<figcaption>
+    <h4>bodyart</h4>
+    
+</figcaption>
+
+</figure>][1]Vu sur le site : <a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic" target="_blank"><a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic">http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic</a></a></p>
 
 <p>La suite du message reprend la liste de sites. Pour ma part je préfère</p>
 
@@ -172,28 +182,28 @@
 </ul>
 
 <p>(Note : L&#8217;image ci-dessus est propriété exclusive de Lucas Zpira)</p>
- <a class="read-more" href="/2009/07/art-tribal/">&raquo;</a></p>
+ <a class="read-more" href="/blog/2009/07/art-tribal/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/d%C3%A9corations/">#Décorations</a>,
+                <a href="http://localhost:1313/blog/tags/d%C3%A9corations/">#Décorations</a>,
             
-                <a href="http://localhost:1313/tags/fluo/">#Fluo</a>,
+                <a href="http://localhost:1313/blog/tags/fluo/">#Fluo</a>,
             
-                <a href="http://localhost:1313/tags/gothique/">#Gothique</a>,
+                <a href="http://localhost:1313/blog/tags/gothique/">#Gothique</a>,
             
-                <a href="http://localhost:1313/tags/spirituel/">#Spirituel</a>,
+                <a href="http://localhost:1313/blog/tags/spirituel/">#Spirituel</a>,
             
-                <a href="http://localhost:1313/tags/tatouage/">#Tatouage</a>,
+                <a href="http://localhost:1313/blog/tags/tatouage/">#Tatouage</a>,
             
-                <a href="http://localhost:1313/tags/tribal/">#Tribal</a>,
+                <a href="http://localhost:1313/blog/tags/tribal/">#Tribal</a>,
             
         
         <time class="post-date" datetime="2009-07-11T00:00:00Z">
@@ -209,25 +219,35 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/07/comment-checker-la-meteo/">Comment checker la météo ?</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/07/comment-checker-la-meteo/">Comment checker la météo ?</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p><p style="text-align: justify;">
-  <img class="alignleft size-full wp-image-598" style="margin: 5px;" title="rose-des-vents" src="/images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" height="150" />Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&#8217;expérience.</p>
- <a class="read-more" href="/2009/07/comment-checker-la-meteo/">&raquo;</a></p>
+  <figure class="alignleft size-full wp-image-598">
+
+    <img src="http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" />
+    
+
+<figcaption>
+    <h4>rose-des-vents</h4>
+    
+</figcaption>
+
+</figure>Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&#8217;expérience.</p>
+ <a class="read-more" href="/blog/2009/07/comment-checker-la-meteo/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/meteo/">#Meteo</a>,
+                <a href="http://localhost:1313/blog/tags/meteo/">#Meteo</a>,
             
-                <a href="http://localhost:1313/tags/windsurf/">#Windsurf</a>,
+                <a href="http://localhost:1313/blog/tags/windsurf/">#Windsurf</a>,
             
         
         <time class="post-date" datetime="2009-07-07T00:00:00Z">
@@ -243,14 +263,14 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/06/le-vocabulaire-du-web/">Le vocabulaire du web</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/06/le-vocabulaire-du-web/">Le vocabulaire du web</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Tu es en plein dans une discussion avec un contact msn, et il t&#8217;écrit, d&#8217;un coup : &#8216; osef &#8216;. Ok, tu fais semblant de comprendre en pensant que son coude à glisser sur son clavier. Ensuite il te dit : &#8216;pg&#8217; . Bon, là tu peux plus comprendre si t&#8217;es pas du milieux. Pour traduire le vocabulaire français l&#8217;habitude suffit parfois, mais pour le vocabulaire anglais c&#8217;est plus dur. Voilà pour les &#8216;noobs&#8217; une page qui en reprend certains de ces termes. <a class="read-more" href="/2009/06/le-vocabulaire-du-web/">&raquo;</a></p>
+        <p>Tu es en plein dans une discussion avec un contact msn, et il t&#8217;écrit, d&#8217;un coup : &#8216; osef &#8216;. Ok, tu fais semblant de comprendre en pensant que son coude à glisser sur son clavier. Ensuite il te dit : &#8216;pg&#8217; . Bon, là tu peux plus comprendre si t&#8217;es pas du milieux. Pour traduire le vocabulaire français l&#8217;habitude suffit parfois, mais pour le vocabulaire anglais c&#8217;est plus dur. Voilà pour les &#8216;noobs&#8217; une page qui en reprend certains de ces termes. <a class="read-more" href="/blog/2009/06/le-vocabulaire-du-web/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
@@ -269,25 +289,25 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/06/mise-a-jour-du-blog-ajout-photos/">Mise à jour du Blog  – Ajout Photos</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/06/mise-a-jour-du-blog-ajout-photos/">Mise à jour du Blog  – Ajout Photos</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance. J&#8217;ai donc pris un peu de temps pour changer le thème de mon blog car l&#8217;ancien ne me plaisait plus. Le thème en question (Digital Statement) est un thème gratuit de : http://www.blogohblog.com. J&#8217;ai de plus ajouté le plugin Fotobook qui permet de relier ses album Facebook à son blog. <a class="read-more" href="/2009/06/mise-a-jour-du-blog-ajout-photos/">&raquo;</a></p>
+        <p>Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance. J&#8217;ai donc pris un peu de temps pour changer le thème de mon blog car l&#8217;ancien ne me plaisait plus. Le thème en question (Digital Statement) est un thème gratuit de : http://www.blogohblog.com. J&#8217;ai de plus ajouté le plugin Fotobook qui permet de relier ses album Facebook à son blog. <a class="read-more" href="/blog/2009/06/mise-a-jour-du-blog-ajout-photos/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/plugin-wordpress/">#plugin wordpress</a>,
+                <a href="http://localhost:1313/blog/tags/plugin-wordpress/">#plugin wordpress</a>,
             
-                <a href="http://localhost:1313/tags/theme-wordpress/">#theme wordpress</a>,
+                <a href="http://localhost:1313/blog/tags/theme-wordpress/">#theme wordpress</a>,
             
-                <a href="http://localhost:1313/tags/wordpress/">#wordpress</a>,
+                <a href="http://localhost:1313/blog/tags/wordpress/">#wordpress</a>,
             
         
         <time class="post-date" datetime="2009-06-16T00:00:00Z">
@@ -303,23 +323,23 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/04/listes-de-films/">Listes de films</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/04/listes-de-films/">Listes de films</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Voila ci-dessous deux listes de films que j&#8217;aimerais voir : http://eddieonfilm.blogspot.com/2005/12/foreign-art.html http://www.themorningnews.org/archives/reviews/mindfuck_movies.php Et vous, vous aimez ? <a class="read-more" href="/2009/04/listes-de-films/">&raquo;</a></p>
+        <p>Voila ci-dessous deux listes de films que j&#8217;aimerais voir : http://eddieonfilm.blogspot.com/2005/12/foreign-art.html http://www.themorningnews.org/archives/reviews/mindfuck_movies.php Et vous, vous aimez ? <a class="read-more" href="/blog/2009/04/listes-de-films/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/cinema/">#cinema</a>,
+                <a href="http://localhost:1313/blog/tags/cinema/">#cinema</a>,
             
-                <a href="http://localhost:1313/tags/film/">#film</a>,
+                <a href="http://localhost:1313/blog/tags/film/">#film</a>,
             
         
         <time class="post-date" datetime="2009-04-14T00:00:00Z">
@@ -335,24 +355,24 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/02/obtenir-un-visa-j-1/">Obtenir un Visa J-1</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/02/obtenir-un-visa-j-1/">Obtenir un Visa J-1</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
   Afin de partir travailler au pair ou faire un stage aux Etats-Unis, vous aurez besoin d&#8217;un Visa J-1. Dans ce post, je vais décrire les différentes étapes que je vais être appelé à mener pour obtenir ce fameux Visa &#8230; qui normalement est assez long à obtenir (comme les autres VISAs us).
 </p>
- <a class="read-more" href="/2009/02/obtenir-un-visa-j-1/">&raquo;</a></p>
+ <a class="read-more" href="/blog/2009/02/obtenir-un-visa-j-1/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/international/">#international</a>,
+                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
             
         
         <time class="post-date" datetime="2009-02-26T00:00:00Z">
@@ -368,21 +388,21 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/02/obtenir-une-carte-verte-visa-usa/">Obtenir une carte verte (Visa USA)</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/02/obtenir-une-carte-verte-visa-usa/">Obtenir une carte verte (Visa USA)</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Pour obtenir une carte verte, le gouvernement américain propose une loterie GRATUITE (ne vous fiez pas aux multiples services payants qui ne servent à rien) pour obtenir le fameux sésame. Pour plus d&#8217;informations, consulter la notice officielle : T1026V-DV-2010bulletin(3).pdf (Objet application/pdf N&#8217;oubliez pas que les dates pour s&#8217;inscrire à cette loterie sont très strictes : Octobre à Décembre, pas plus! <a class="read-more" href="/2009/02/obtenir-une-carte-verte-visa-usa/">&raquo;</a></p>
+        <p>Pour obtenir une carte verte, le gouvernement américain propose une loterie GRATUITE (ne vous fiez pas aux multiples services payants qui ne servent à rien) pour obtenir le fameux sésame. Pour plus d&#8217;informations, consulter la notice officielle : T1026V-DV-2010bulletin(3).pdf (Objet application/pdf N&#8217;oubliez pas que les dates pour s&#8217;inscrire à cette loterie sont très strictes : Octobre à Décembre, pas plus! <a class="read-more" href="/blog/2009/02/obtenir-une-carte-verte-visa-usa/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/international/">#international</a>,
+                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
             
         
         <time class="post-date" datetime="2009-02-26T00:00:00Z">
@@ -398,7 +418,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/02/quel-stage-choisir/">Lettre ouverte à mes professeurs : quel stage choisir</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/02/quel-stage-choisir/">Lettre ouverte à mes professeurs : quel stage choisir</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
@@ -407,11 +427,11 @@
 
 <p><p style="text-align: justify;">
   Ce mail est un peu long et à pour thème le choix de mon stage de fin d&#8217;année</p>
- <a class="read-more" href="/2009/02/quel-stage-choisir/">&raquo;</a></p>
+ <a class="read-more" href="/blog/2009/02/quel-stage-choisir/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
@@ -430,11 +450,21 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/02/je-suis-un-spammeur/">Je suis un spammeur</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/02/je-suis-un-spammeur/">Je suis un spammeur</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
-  <img class="alignleft size-full wp-image-119" title="Spammeur SEO" src="/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" />&#8230; mais je me soigne.
+  <figure class="alignleft size-full wp-image-119">
+
+    <img src="http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" />
+    
+
+<figcaption>
+    <h4>Spammeur SEO</h4>
+    
+</figcaption>
+
+</figure>&#8230; mais je me soigne.
 </p>
 
 <p style="text-align: justify;">
@@ -450,20 +480,20 @@
 </p>
 
 <p><p style="text-align: justify;"></p>
- <a class="read-more" href="/2009/02/je-suis-un-spammeur/">&raquo;</a></p>
+ <a class="read-more" href="/blog/2009/02/je-suis-un-spammeur/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/seo/">#SEO</a>,
+                <a href="http://localhost:1313/blog/tags/seo/">#SEO</a>,
             
-                <a href="http://localhost:1313/tags/web/">#web</a>,
+                <a href="http://localhost:1313/blog/tags/web/">#web</a>,
             
         
         <time class="post-date" datetime="2009-02-04T00:00:00Z">
@@ -479,23 +509,23 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/02/stage-these-postdoc-physique-etranger/">Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/02/stage-these-postdoc-physique-etranger/">Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Suite à ma recherche de stage à l&#8217;étranger, voilà une jolie petite liste compilée par l&#8217;université d&#8217;Adelaide : http://www.physics.adelaide.edu.au/jobs/Jobs.html Les sites les plus connus sont listés en premiers! <a class="read-more" href="/2009/02/stage-these-postdoc-physique-etranger/">&raquo;</a></p>
+        <p>Suite à ma recherche de stage à l&#8217;étranger, voilà une jolie petite liste compilée par l&#8217;université d&#8217;Adelaide : http://www.physics.adelaide.edu.au/jobs/Jobs.html Les sites les plus connus sont listés en premiers! <a class="read-more" href="/blog/2009/02/stage-these-postdoc-physique-etranger/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/international/">#international</a>,
+                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
             
-                <a href="http://localhost:1313/tags/physique/">#physique</a>,
+                <a href="http://localhost:1313/blog/tags/physique/">#physique</a>,
             
         
         <time class="post-date" datetime="2009-02-01T00:00:00Z">
@@ -511,21 +541,21 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/01/des-webradios-a-themes/">Des webradios à thèmes</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/01/des-webradios-a-themes/">Des webradios à thèmes</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Dans ce post je vais faire la liste des webradios à thèmes que je rencontre au fil de mes navigations sur le web. Qu&#8217;il s&#8217;agisse de webradios worldmusic, ambient, techno, house, chillout ou autre, je les listerai un peu en désordre. Sur cette liste ne figureront pas trop de radios reggae, rock, rap etc. Ces genres musiquaux se retrouvent très facilement sur des sites comme Deezer par exemple, et il ne m&#8217;est donc pas nécessaire de trouver des webradio pour en écouter, et pour découvrir de nouveaux titres. <a class="read-more" href="/2009/01/des-webradios-a-themes/">&raquo;</a></p>
+        <p>Dans ce post je vais faire la liste des webradios à thèmes que je rencontre au fil de mes navigations sur le web. Qu&#8217;il s&#8217;agisse de webradios worldmusic, ambient, techno, house, chillout ou autre, je les listerai un peu en désordre. Sur cette liste ne figureront pas trop de radios reggae, rock, rap etc. Ces genres musiquaux se retrouvent très facilement sur des sites comme Deezer par exemple, et il ne m&#8217;est donc pas nécessaire de trouver des webradio pour en écouter, et pour découvrir de nouveaux titres. <a class="read-more" href="/blog/2009/01/des-webradios-a-themes/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/musique/">#Musique</a>,
+                <a href="http://localhost:1313/blog/tags/musique/">#Musique</a>,
             
         
         <time class="post-date" datetime="2009-01-25T00:00:00Z">
@@ -541,27 +571,27 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/01/projet-flowers/">Projet Flowers</a></h2>
+        <h2 class="post-title"><a href="/blog/2009/01/projet-flowers/">Projet Flowers</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p><p style="text-align: justify;">
   Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le <strong>machine learning</strong>, l&#8217;a<strong>pprentissage sémantique</strong>, et l&#8217;<strong>acquisition d&#8217;un langage</strong>.</p>
- <a class="read-more" href="/2009/01/projet-flowers/">&raquo;</a></p>
+ <a class="read-more" href="/blog/2009/01/projet-flowers/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/intelligence/">#intelligence</a>,
+                <a href="http://localhost:1313/blog/tags/intelligence/">#intelligence</a>,
             
-                <a href="http://localhost:1313/tags/machine-learning/">#machine learning</a>,
+                <a href="http://localhost:1313/blog/tags/machine-learning/">#machine learning</a>,
             
-                <a href="http://localhost:1313/tags/s%C3%A9mantique/">#sémantique</a>,
+                <a href="http://localhost:1313/blog/tags/s%C3%A9mantique/">#sémantique</a>,
             
         
         <time class="post-date" datetime="2009-01-08T00:00:00Z">
@@ -577,7 +607,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2008/12/lectures-de-vacances/">Lectures de vacances</a></h2>
+        <h2 class="post-title"><a href="/blog/2008/12/lectures-de-vacances/">Lectures de vacances</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
@@ -585,18 +615,18 @@
 </p>
 
 <p><p style="text-align: justify;"></p>
- <a class="read-more" href="/2008/12/lectures-de-vacances/">&raquo;</a></p>
+ <a class="read-more" href="/blog/2008/12/lectures-de-vacances/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/tags/livre/">#livre</a>,
+                <a href="http://localhost:1313/blog/tags/livre/">#livre</a>,
             
         
         <time class="post-date" datetime="2008-12-24T00:00:00Z">
@@ -621,15 +651,15 @@
 
 
     <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Jice is Nice</a> All rights reserved - 2015</section>
+        <section class="copyright"><a href="">Blog Jice Lavocat</a> All rights reserved - 2015</section>
         
         <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
         
     </footer>
     </div>
-    <script type="text/javascript" src="http://localhost:1313/js/jquery.js"></script>
-    <script type="text/javascript" src="http://localhost:1313/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="http://localhost:1313/js/index.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/blog/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/blog/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/blog/js/index.js"></script>
 
 <script data-no-instant>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]

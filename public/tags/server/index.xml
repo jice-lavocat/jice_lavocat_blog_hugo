@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Server on Jice is Nice</title>
-    <link>http://localhost:1313/tags/server/</link>
-    <description>Recent content in Server on Jice is Nice</description>
+    <title>Server on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/server/</link>
+    <description>Recent content in Server on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 23 Jul 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/server/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Générer des pages html dynamiques (changer l’extension php)</title>
-      <link>http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</link>
+      <link>http://localhost:1313/blog/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</link>
       <pubDate>Wed, 23 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</guid>
+      <guid>http://localhost:1313/blog/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</guid>
       <description>
 
 &lt;h3 id=&#34;le-principe:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;Le principe :&lt;/h3&gt;

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Business Model on Jice is Nice</title>
-    <link>http://localhost:1313/tags/business-model/</link>
-    <description>Recent content in Business Model on Jice is Nice</description>
+    <title>Business Model on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/business-model/</link>
+    <description>Recent content in Business Model on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 03 Jun 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/business-model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/business-model/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Business Model : A framework for innovation</title>
-      <link>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</link>
+      <link>http://localhost:1313/blog/2013/06/business-model-a-framework-for-innovation/</link>
       <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</guid>
+      <guid>http://localhost:1313/blog/2013/06/business-model-a-framework-for-innovation/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -26,7 +26,12 @@
   So let&amp;#8217;s start. If I am not clear and if you don&amp;#8217;t understand the core of the business, just post a comment at the end of the blog post.
 &lt;/p&gt;
 
-&lt;h2 id=&#34;img-class-alignright-size-full-wp-image-1368-alt-logo-wordiz-src-images-posts-oldwordpress-uploads-2013-06-logo-square-125-png-width-126-height-65-1-what-is-wordiz-for:bee392ce472234e8975e3927201fc468&#34;&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1368&#34; alt=&#34;Logo WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34; width=&#34;126&#34; height=&#34;65&#34; /&gt;&lt;/a&gt;What is WordiZ for?&lt;/h2&gt;
+&lt;h2 id=&#34;hugoshortcode-1-1-what-is-wordiz-for:bee392ce472234e8975e3927201fc468&#34;&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34;&gt;&lt;figure class=&#34;alignright size-full wp-image-1368&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34; alt=&#34;Logo WordiZ&#34; width=&#34;126&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;What is WordiZ for?&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Before entering into the topic, let me try to  briefly explain our application : &lt;em&gt;WordiZ is a job board dedicated to web copywriters journalists and bloggers.&lt;/em&gt;
@@ -41,7 +46,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;aligncenter size-full wp-image-1369&#34; alt=&#34;Content is King&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg&#34; width=&#34;520&#34; height=&#34;302&#34; /&gt;
+  &lt;figure class=&#34;aligncenter size-full wp-image-1369&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg&#34; alt=&#34;Content is King&#34; width=&#34;520&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -49,7 +59,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img class=&#34;aligncenter  wp-image-1370&#34; alt=&#34;SEO and SMO&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg&#34; width=&#34;360&#34; height=&#34;260&#34; /&gt;
+  &lt;figure class=&#34;aligncenter  wp-image-1370&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg&#34; alt=&#34;SEO and SMO&#34; width=&#34;360&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -65,7 +80,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft  wp-image-1371&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Happy Writer working on WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg&#34; width=&#34;200&#34; /&gt;By hiring professional bloggers and copywriters you get two things. First you get some &lt;strong&gt;content&lt;/strong&gt;, but this is not new (see &lt;a href=&#34;#competitors&#34;&gt;section below&lt;/a&gt;). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus&lt;strong&gt;, bring fans&lt;/strong&gt; to read your webpage. Even if it is not the case, John Doe is an &lt;strong&gt;influential blogger&lt;/strong&gt;, so, no doubt that your page will &lt;strong&gt;receive lots of coverage&lt;/strong&gt;.
+  &lt;figure class=&#34;alignleft  wp-image-1371&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg&#34; alt=&#34;Happy Writer working on WordiZ&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;/figure&gt;By hiring professional bloggers and copywriters you get two things. First you get some &lt;strong&gt;content&lt;/strong&gt;, but this is not new (see &lt;a href=&#34;#competitors&#34;&gt;section below&lt;/a&gt;). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus&lt;strong&gt;, bring fans&lt;/strong&gt; to read your webpage. Even if it is not the case, John Doe is an &lt;strong&gt;influential blogger&lt;/strong&gt;, so, no doubt that your page will &lt;strong&gt;receive lots of coverage&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;WordiZ is the platform which will allow you to do the following :&lt;/p&gt;
@@ -95,7 +115,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &amp;#8220;&lt;a href=&#34;http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=0470876417&amp;linkCode=as2&amp;tag=jicelavo-21&#34;&gt;Business Model Generation&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important;&#34; alt=&#34;&#34; src=&#34;http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;l=as2&amp;o=8&amp;a=0470876417&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;&amp;#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &amp;#8220;Matrix&amp;#8221;. It&amp;#8217;s visual, it&amp;#8217;s simple, and it allows flexibility (for creation and  interpretation).
+  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &amp;#8220;&lt;a href=&#34;http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=0470876417&amp;linkCode=as2&amp;tag=jicelavo-21&#34;&gt;Business Model Generation&lt;/a&gt;&lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;amp;l=as2&amp;amp;o=8&amp;amp;a=0470876417&#34; width=&#34;1&#34; /&gt;
+    
+
+&lt;/figure&gt;&amp;#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &amp;#8220;Matrix&amp;#8221;. It&amp;#8217;s visual, it&amp;#8217;s simple, and it allows flexibility (for creation and  interpretation).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -111,11 +136,16 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a title=&#34;Business Model WordiZ&#34; href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Business Model Generation for WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png&#34; width=&#34;600&#34; height=&#34;450&#34; /&gt;&lt;/a&gt;
+  &lt;a title=&#34;Business Model WordiZ&#34; href=&#34;images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;&lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png&#34; alt=&#34;Business Model Generation for WordiZ&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a title=&#34;Busines Model WordiZ&#34; href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;Click to download the PDF version&lt;/a&gt;
+  &lt;a title=&#34;Busines Model WordiZ&#34; href=&#34;images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;Click to download the PDF version&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;[/sociallocker]&lt;/p&gt;

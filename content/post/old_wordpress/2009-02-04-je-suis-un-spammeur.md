@@ -14,7 +14,7 @@ tags:
   - web
 ---
 <p style="text-align: justify;">
-  <img class="alignleft size-full wp-image-119" title="Spammeur SEO" src="/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" />&#8230; mais je me soigne.
+  {{<img class="alignleft size-full wp-image-119" title="Spammeur SEO" src="images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >}}&#8230; mais je me soigne.
 </p>
 
 <p style="text-align: justify;">

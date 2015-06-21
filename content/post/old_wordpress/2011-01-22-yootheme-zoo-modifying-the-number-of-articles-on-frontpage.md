@@ -12,7 +12,7 @@ tags:
   - Joomla
   - Zoo
 ---
-[<img class="alignleft" alt="zoo joomla module" src="/images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" height="120" />][1]A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.
+[{{<img class="alignleft" alt="zoo joomla module" src="images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" height="120" >}}][1]A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.
 
 Here is the line you have to change on **line 232** in **_/joomla\_base\_dir/components/com_zoo/controllers/default.php_**
 
@@ -36,4 +36,4 @@ Modify on **line 232** in **_/joomla\_base\_dir/components/com_zoo/controllers/d
 
 <pre>[cc lang="php"]$items_per_page = $category_id == 0 ? $params-&gt;get('config.items_per_frontpage', 5) : $params-&gt;get('config.items_per_page', 15);[/cc]</pre>
 
- [1]: /images/posts/oldwordpress/uploads/2011/08/zoo.png
+ [1]: images/posts/oldwordpress/uploads/2011/08/zoo.png

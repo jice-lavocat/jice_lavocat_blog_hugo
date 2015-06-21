@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Medieval on Jice is Nice</title>
-    <link>http://localhost:1313/tags/medieval/</link>
-    <description>Recent content in Medieval on Jice is Nice</description>
+    <title>Medieval on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/medieval/</link>
+    <description>Recent content in Medieval on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 19 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/medieval/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/medieval/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Musique Néo-Médiévale</title>
-      <link>http://localhost:1313/2009/07/musique-neo-medievale/</link>
+      <link>http://localhost:1313/blog/2009/07/musique-neo-medievale/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/musique-neo-medievale/</guid>
+      <guid>http://localhost:1313/blog/2009/07/musique-neo-medievale/</guid>
       <description>
 
 &lt;p&gt;Voilà quelques groupes et lien vers le site Deezer.com qui vous permettront de découvrir l&amp;#8217;univers de la musique médiévale! La plupart des chansons étant en latin, onest facilement plongé dans l&amp;#8217;univers.&lt;/p&gt;
@@ -29,7 +29,17 @@
 &lt;table border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img title=&#34;Corvus Corax&#34; src=&#34;http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg&#34; border=&#34;0&#34; alt=&#34;Corvus Corax&#34; width=&#34;300&#34; height=&#34;203&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg&#34; alt=&#34;Corvus Corax&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Corvus Corax&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -43,7 +53,17 @@
 &lt;table border=&#34;0&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img title=&#34;Saltatio Mortis&#34; src=&#34;http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg&#34; border=&#34;0&#34; alt=&#34;Saltatio Mortis&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;
+      &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg&#34; alt=&#34;Saltatio Mortis&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Saltatio Mortis&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;

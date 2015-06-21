@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Schema.Org on Jice is Nice</title>
-    <link>http://localhost:1313/tags/schema/index.org/</link>
-    <description>Recent content in Schema.Org on Jice is Nice</description>
+    <title>Schema.Org on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/schema/index.org/</link>
+    <description>Recent content in Schema.Org on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 03 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/schema.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/schema.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Implementing microdata schema.org in  Yootheme ZOO</title>
-      <link>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
+      <link>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
       <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
+      <guid>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-1211&#34; style=&#34;margin: 0pt 10px;&#34; title=&#34;schema-org-logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; alt=&#34;&#34; width=&#34;128&#34; height=&#34;80&#34; /&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-1211&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; width=&#34;128&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;schema-org-logo&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1212&#34; title=&#34;zoo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignright size-full wp-image-1212&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;zoo&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -96,7 +116,17 @@ You should now be able to :&lt;br /&gt;
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1214&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignright&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1214&#34; title=&#34;schemafield&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;245&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1214&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;schemafield&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     A new &#34;Schema.org Label&#34; appears now, where you can specify your content

@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Geotagging on Jice is Nice</title>
-    <link>http://localhost:1313/tags/geotagging/</link>
-    <description>Recent content in Geotagging on Jice is Nice</description>
+    <title>Geotagging on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/geotagging/</link>
+    <description>Recent content in Geotagging on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Fri, 05 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/geotagging/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/geotagging/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Geotagger ses Photos numériques</title>
-      <link>http://localhost:1313/2010/02/geotagger-ses-photos-numeriques/</link>
+      <link>http://localhost:1313/blog/2010/02/geotagger-ses-photos-numeriques/</link>
       <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/02/geotagger-ses-photos-numeriques/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin: 10px;&#34; title=&#34;Geotagging&#34; src=&#34;http://www.uberphones.com/photos/2008/2/geotagging.jpg&#34; alt=&#34;&#34; width=&#34;250&#34; height=&#34;160&#34; /&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2010/02/geotagger-ses-photos-numeriques/</guid>
+      <description>&lt;p&gt;&lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.uberphones.com/photos/2008/2/geotagging.jpg&#34; width=&#34;250&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Geotagging&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
@@ -54,7 +64,12 @@
   Bref, je me suis donc retrouvé avec Zenphoto, et ses quelques (peu) modules pour agrémenter la présentation de la galerie. Parmi eux, un module qui place les photos sur &lt;strong&gt;Google Map&lt;/strong&gt;. Sympathique mais&amp;#8230; comment dire à mes photos où elles ont été prises si je ne possède pas de &lt;a title=&#34;Matériel pour geotagging de photo automatique&#34; href=&#34;http://www.ppgis.net/photo_gps.htm&#34; target=&#34;_blank&#34;&gt;matériel spécifique&lt;/a&gt;?
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;alignnone&#34; style=&#34;margin: 10px; align:center; text-align:center;&#34; src=&#34;http://www.itechnews.net/wp-content/uploads/2008/12/nikon-gp-1-dongle-for-geotagging.jpg&#34; alt=&#34;GPS + Nikon = Geotagging&#34; width=&#34;350&#34; height=&#34;350&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;alignnone&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.itechnews.net/wp-content/uploads/2008/12/nikon-gp-1-dongle-for-geotagging.jpg&#34; alt=&#34;GPS &amp;#43; Nikon = Geotagging&#34; width=&#34;350&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Et bien très simplement en utilisant des logiciels qui vont vous aider à le faire manuellement. Chaque photo (provenant d&amp;#8217;un appareil photo numérique) est enregistrée avec des &lt;strong&gt;données EXIF&lt;/strong&gt;. Ces données additionnelles sont là pour sauvegarder la date de prise de vue, des informations sur la photo (temps d&amp;#8217;exposition, ouverture focale) etc. Bref, ces données EXIF peuvent aussi contenir des infos GPS.

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latex on Jice is Nice</title>
-    <link>http://localhost:1313/tags/latex/</link>
-    <description>Recent content in Latex on Jice is Nice</description>
+    <title>Latex on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/latex/</link>
+    <description>Recent content in Latex on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 08 Sep 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Utiliser Latex avec Notepad&#43;&#43;</title>
-      <link>http://localhost:1313/2009/09/utiliser-latex-avec-notepad/</link>
+      <link>http://localhost:1313/blog/2009/09/utiliser-latex-avec-notepad/</link>
       <pubDate>Tue, 08 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/09/utiliser-latex-avec-notepad/</guid>
+      <guid>http://localhost:1313/blog/2009/09/utiliser-latex-avec-notepad/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction:3f3cbd32965f94890320523dfbe6f6ab&#34;&gt;Introduction :&lt;/h3&gt;
@@ -187,10 +187,10 @@
     
     <item>
       <title>Latex on my blog</title>
-      <link>http://localhost:1313/2009/06/test-latex/</link>
+      <link>http://localhost:1313/blog/2009/06/test-latex/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/test-latex/</guid>
+      <guid>http://localhost:1313/blog/2009/06/test-latex/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
 &lt;/p&gt;
@@ -281,10 +281,10 @@
     
     <item>
       <title>LateX portable</title>
-      <link>http://localhost:1313/2009/04/latex-portable/</link>
+      <link>http://localhost:1313/blog/2009/04/latex-portable/</link>
       <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/04/latex-portable/</guid>
+      <guid>http://localhost:1313/blog/2009/04/latex-portable/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Ce post s&amp;#8217;adressse aux utilisateurs de windows qui aiment utiliserMikteX. Une nouvelle version portable devrait bientot voir le jour.
 &lt;/p&gt;

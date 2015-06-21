@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joomla on Jice is Nice</title>
-    <link>http://localhost:1313/tags/joomla/</link>
-    <description>Recent content in Joomla on Jice is Nice</description>
+    <title>Joomla on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/joomla/</link>
+    <description>Recent content in Joomla on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 03 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/joomla/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/joomla/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Implementing microdata schema.org in  Yootheme ZOO</title>
-      <link>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
+      <link>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
       <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
+      <guid>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-1211&#34; style=&#34;margin: 0pt 10px;&#34; title=&#34;schema-org-logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; alt=&#34;&#34; width=&#34;128&#34; height=&#34;80&#34; /&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-1211&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; width=&#34;128&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;schema-org-logo&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1212&#34; title=&#34;zoo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignright size-full wp-image-1212&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;zoo&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -96,7 +116,17 @@ You should now be able to :&lt;br /&gt;
 &lt;p&gt; &lt;/p&gt;
 
 &lt;div id=&#34;attachment_1214&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignright&#34;&gt;
-  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1214&#34; title=&#34;schemafield&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;245&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1214&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; width=&#34;300&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;schemafield&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     A new &#34;Schema.org Label&#34; appears now, where you can specify your content
@@ -131,17 +161,22 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>YOOtheme Zoo – Integration of Google &#43;1</title>
-      <link>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</link>
+      <link>http://localhost:1313/blog/2011/07/integration-of-google-1-in-yootheme-zoo/</link>
       <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</guid>
+      <guid>http://localhost:1313/blog/2011/07/integration-of-google-1-in-yootheme-zoo/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;I wanted to add a &lt;a title=&#34;Google plus&#34; href=&#34;http://www.google.com/webmasters/+1/button/&#34; target=&#34;_blank&#34;&gt;google +1 button&lt;/a&gt; to my website. As I am using YOOtheme zoo CCK component, I add to create a new &amp;#8220;element&amp;#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &amp;#8230; and custom applications).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;zoo joomla module&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;I wanted to add a &lt;a title=&#34;Google plus&#34; href=&#34;http://www.google.com/webmasters/+1/button/&#34; target=&#34;_blank&#34;&gt;google +1 button&lt;/a&gt; to my website. As I am using YOOtheme zoo CCK component, I add to create a new &amp;#8220;element&amp;#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &amp;#8230; and custom applications).&lt;/p&gt;
 
 &lt;h3 id=&#34;how-to-install:345b1b82bdef3219e2043f73275173d8&#34;&gt;How to install&lt;/h3&gt;
 
-&lt;p&gt;Download the archive : &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip&#34;&gt;ZOOelement Googleplus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download the archive : &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip&#34;&gt;ZOOelement Googleplus&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Then, unzip the files in your folder : &lt;em&gt;/base_installation_folder/media/zoo/elements.&lt;/em&gt; You will see a new folder named &amp;#8220;googleplus&amp;#8221;.&lt;/p&gt;
 
@@ -163,11 +198,16 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>Yootheme Zoo – Modifying the Frontend submission editor</title>
-      <link>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</link>
+      <link>http://localhost:1313/blog/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</link>
       <pubDate>Wed, 16 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-1212 alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &amp;#8220;trusted mode&amp;#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;size-full wp-image-1212 alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;zoo joomla module&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &amp;#8220;trusted mode&amp;#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
@@ -193,13 +233,18 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>Yootheme Zoo – Modifying the number of articles on Frontpage</title>
-      <link>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</link>
+      <link>http://localhost:1313/blog/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</link>
       <pubDate>Sat, 22 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</guid>
+      <guid>http://localhost:1313/blog/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;zoo joomla module&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.&lt;/p&gt;
 
 &lt;p&gt;Here is the line you have to change on &lt;strong&gt;line 232&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir/components/com_zoo/controllers/default.php&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -227,10 +272,10 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
     
     <item>
       <title>How-to : Make a SEF image-map navigation system with Joomla</title>
-      <link>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
+      <link>http://localhost:1313/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
       <pubDate>Tue, 09 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
+      <guid>http://localhost:1313/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -261,7 +306,17 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
 &lt;h2 id=&#34;creation-of-a-menu-system:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Creation of a menu system&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-1023&#34; style=&#34;margin: 0px 20px;&#34; title=&#34;content-management-system-joomla-free&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; height=&#34;171&#34; /&gt;In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&amp;#8217;s menu system. If you need to create two links for the same item, use an &amp;#8220;&lt;strong&gt;alias&lt;/strong&gt;&amp;#8221; for the second one, in order to &lt;strong&gt;prevent duplicate URLs&lt;/strong&gt;.
+  &lt;figure class=&#34;alignleft size-full wp-image-1023&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;content-management-system-joomla-free&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&amp;#8217;s menu system. If you need to create two links for the same item, use an &amp;#8220;&lt;strong&gt;alias&lt;/strong&gt;&amp;#8221; for the second one, in order to &lt;strong&gt;prevent duplicate URLs&lt;/strong&gt;.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -302,7 +357,12 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
 
 &lt;p&gt;It&amp;#8217;s done. You can check that your image maps to SEF Url, that the links are going to your articles (specified by the menu), and that, if you change the menu link alias, the URL of your article will change coherently.&lt;/p&gt;
 
-&lt;p&gt;Moreover you can use breadcrumbs &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Moreover you can use breadcrumbs &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;strong&gt;A demo on one of my website : &lt;a title=&#34;Liste de spots en Corse : Corsica Windsurf&#34; href=&#34;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&#34; target=&#34;_blank&#34;&gt;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&lt;/a&gt;&lt;/strong&gt;
@@ -316,12 +376,17 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
     
     <item>
       <title>How-to fix Ja_News module’s auto-resize problem?</title>
-      <link>http://localhost:1313/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</link>
+      <link>http://localhost:1313/blog/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</link>
       <pubDate>Mon, 02 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</guid>
+      <guid>http://localhost:1313/blog/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</guid>
       <description>&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;margin: 20px; float: left;&#34; src=&#34;http://www.joomlart.com/templates/default/images/logo.gif&#34; alt=&#34;Joomlart&#34; width=&#34;200&#34; /&gt;The problem
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.joomlart.com/templates/default/images/logo.gif&#34; alt=&#34;Joomlart&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;/figure&gt;The problem
 &lt;/h2&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -372,10 +437,10 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
     
     <item>
       <title>Personnaliser ses pages d’erreurs sous Joomla</title>
-      <link>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</link>
+      <link>http://localhost:1313/blog/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</link>
       <pubDate>Sun, 31 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</guid>
+      <guid>http://localhost:1313/blog/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</guid>
       <description>
 
 &lt;p align=&#34;justify&#34;&gt;
@@ -419,7 +484,17 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
   &lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;
-    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&amp;#8217;URL donnée en entrée. Et là, il y voit l&amp;#8217;adresse de la page d&amp;#8217;erreur &lt;img title=&#34;Undecided&#34; src=&#34;plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif&#34; border=&#34;0&#34; alt=&#34;Undecided&#34; /&gt;.
+    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&amp;#8217;URL donnée en entrée. Et là, il y voit l&amp;#8217;adresse de la page d&amp;#8217;erreur &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif&#34; alt=&#34;Undecided&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Undecided&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;.
   &lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;
@@ -454,10 +529,10 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
     
     <item>
       <title>Corriger le comportement du composant SEF sur Joomla 1.5 (OVH)</title>
-      <link>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</link>
+      <link>http://localhost:1313/blog/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</link>
       <pubDate>Sun, 24 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</guid>
+      <guid>http://localhost:1313/blog/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</guid>
       <description>
 
 &lt;p&gt;Cet article fait suite à un problème rencontré de manière récurrente par les utilisateurs de Joomla 1.5  et hébérgés sur OVH (mais aussi probablement sur d&amp;#8217;autres hébergeurs). Deux problèmes sont traités dans ce billet.&lt;/p&gt;

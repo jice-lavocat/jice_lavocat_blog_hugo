@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ma_life.Com on Jice is Nice</title>
-    <link>http://localhost:1313/categories/ma_life/index.com/</link>
-    <description>Recent content in Ma_life.Com on Jice is Nice</description>
+    <title>Ma_life.Com on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/categories/ma_life/index.com/</link>
+    <description>Recent content in Ma_life.Com on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 05 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/ma_life.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/ma_life.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to transfer money from USD ($) to EUR (€) accounts</title>
-      <link>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
+      <link>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
+      <guid>http://localhost:1313/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
       <description>&lt;p&gt;Since I will soon have to &lt;strong&gt;transfer my money from an USD&lt;/strong&gt; ($) &lt;strong&gt;bank account&lt;/strong&gt; (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -52,11 +52,21 @@
     
     <item>
       <title>Art Tribal</title>
-      <link>http://localhost:1313/2009/07/art-tribal/</link>
+      <link>http://localhost:1313/blog/2009/07/art-tribal/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/art-tribal/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-655&#34; style=&#34;margin: 5px;&#34; title=&#34;bodyart&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34; alt=&#34;bodyart&#34; width=&#34;115&#34; height=&#34;95&#34; /&gt;&lt;/a&gt;Vu sur le site : &lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34;&gt;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2009/07/art-tribal/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-655&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg&#34; alt=&#34;bodyart&#34; width=&#34;115&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;bodyart&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Vu sur le site : &lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&#34;&gt;http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La suite du message reprend la liste de sites. Pour ma part je préfère&lt;/p&gt;
 
@@ -863,12 +873,22 @@
     
     <item>
       <title>Comment checker la météo ?</title>
-      <link>http://localhost:1313/2009/07/comment-checker-la-meteo/</link>
+      <link>http://localhost:1313/blog/2009/07/comment-checker-la-meteo/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/07/comment-checker-la-meteo/</guid>
+      <guid>http://localhost:1313/blog/2009/07/comment-checker-la-meteo/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-598&#34; style=&#34;margin: 5px;&#34; title=&#34;rose-des-vents&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg&#34; alt=&#34;rose-des-vents&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&amp;#8217;expérience.
+  &lt;figure class=&#34;alignleft size-full wp-image-598&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg&#34; alt=&#34;rose-des-vents&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;rose-des-vents&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&amp;#8217;expérience.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -928,10 +948,10 @@
     
     <item>
       <title>Le vocabulaire du web</title>
-      <link>http://localhost:1313/2009/06/le-vocabulaire-du-web/</link>
+      <link>http://localhost:1313/blog/2009/06/le-vocabulaire-du-web/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/le-vocabulaire-du-web/</guid>
+      <guid>http://localhost:1313/blog/2009/06/le-vocabulaire-du-web/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Tu es en plein dans une discussion avec un contact msn, et il t&amp;#8217;écrit, d&amp;#8217;un coup :  &amp;#8216; osef &amp;#8216;.
 &lt;/p&gt;
@@ -952,10 +972,10 @@
     
     <item>
       <title>Mise à jour du Blog  – Ajout Photos</title>
-      <link>http://localhost:1313/2009/06/mise-a-jour-du-blog-ajout-photos/</link>
+      <link>http://localhost:1313/blog/2009/06/mise-a-jour-du-blog-ajout-photos/</link>
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/mise-a-jour-du-blog-ajout-photos/</guid>
+      <guid>http://localhost:1313/blog/2009/06/mise-a-jour-du-blog-ajout-photos/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance.
 &lt;/p&gt;
@@ -972,10 +992,10 @@
     
     <item>
       <title>Listes de films</title>
-      <link>http://localhost:1313/2009/04/listes-de-films/</link>
+      <link>http://localhost:1313/blog/2009/04/listes-de-films/</link>
       <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/04/listes-de-films/</guid>
+      <guid>http://localhost:1313/blog/2009/04/listes-de-films/</guid>
       <description>&lt;p&gt;Voila ci-dessous deux listes de films que j&amp;#8217;aimerais voir :&lt;/p&gt;
 
 &lt;ul&gt;
@@ -989,10 +1009,10 @@
     
     <item>
       <title>Obtenir un Visa J-1</title>
-      <link>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</link>
+      <link>http://localhost:1313/blog/2009/02/obtenir-un-visa-j-1/</link>
       <pubDate>Thu, 26 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</guid>
+      <guid>http://localhost:1313/blog/2009/02/obtenir-un-visa-j-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -1071,10 +1091,10 @@
     
     <item>
       <title>Obtenir une carte verte (Visa USA)</title>
-      <link>http://localhost:1313/2009/02/obtenir-une-carte-verte-visa-usa/</link>
+      <link>http://localhost:1313/blog/2009/02/obtenir-une-carte-verte-visa-usa/</link>
       <pubDate>Thu, 26 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/obtenir-une-carte-verte-visa-usa/</guid>
+      <guid>http://localhost:1313/blog/2009/02/obtenir-une-carte-verte-visa-usa/</guid>
       <description>&lt;p&gt;Pour obtenir une &lt;strong&gt;carte verte&lt;/strong&gt;, le gouvernement américain propose une loterie &lt;strong&gt;GRATUITE&lt;/strong&gt; (ne vous fiez pas aux multiples services payants qui ne servent à rien) pour obtenir le fameux sésame.&lt;/p&gt;
 
 &lt;p&gt;Pour plus d&amp;#8217;informations, consulter la notice officielle :&lt;/p&gt;
@@ -1087,10 +1107,10 @@
     
     <item>
       <title>Lettre ouverte à mes professeurs : quel stage choisir</title>
-      <link>http://localhost:1313/2009/02/quel-stage-choisir/</link>
+      <link>http://localhost:1313/blog/2009/02/quel-stage-choisir/</link>
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/quel-stage-choisir/</guid>
+      <guid>http://localhost:1313/blog/2009/02/quel-stage-choisir/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Bonjour,
 &lt;/p&gt;
@@ -1120,7 +1140,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  ________________   Fin de l&amp;#8217;introduction    _____________    &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;
+  ________________   Fin de l&amp;#8217;introduction    _____________    &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    
+
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -1220,11 +1245,31 @@
 &lt;table border=&#34;0&#34; cellpadding=&#34;5&#34; align=&#34;center&#34;&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;img class=&#34;alignleft&#34; title=&#34;Derek Abbott&#34; src=&#34;http://www.eleceng.adelaide.edu.au/Personal/dabbott/dabbott.jpg&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;
+      &lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://www.eleceng.adelaide.edu.au/Personal/dabbott/dabbott.jpg&#34; width=&#34;150&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Derek Abbott&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
     
     &lt;td&gt;
-      &lt;img class=&#34;alignleft&#34; title=&#34;David Meyer&#34; src=&#34;http://ri.calit2.net/profileimg.php?id=dmeyer&#34; alt=&#34;&#34; width=&#34;113&#34; height=&#34;150&#34; /&gt;
+      &lt;figure class=&#34;alignleft&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://ri.calit2.net/profileimg.php?id=dmeyer&#34; width=&#34;113&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;David Meyer&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
   
@@ -1245,12 +1290,22 @@
     
     <item>
       <title>Je suis un spammeur</title>
-      <link>http://localhost:1313/2009/02/je-suis-un-spammeur/</link>
+      <link>http://localhost:1313/blog/2009/02/je-suis-un-spammeur/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/je-suis-un-spammeur/</guid>
+      <guid>http://localhost:1313/blog/2009/02/je-suis-un-spammeur/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-119&#34; title=&#34;Spammeur SEO&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; height=&#34;112&#34; /&gt;&amp;#8230; mais je me soigne.
+  &lt;figure class=&#34;alignleft size-full wp-image-119&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Spammeur SEO&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&amp;#8230; mais je me soigne.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -1350,10 +1405,10 @@
     
     <item>
       <title>Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</title>
-      <link>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</link>
+      <link>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</guid>
+      <guid>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</guid>
       <description>&lt;p&gt;Suite à ma recherche de stage à l&amp;#8217;étranger, voilà une jolie petite liste compilée par l&amp;#8217;université d&amp;#8217;Adelaide :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Liste jobs physique&#34; href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34;&gt;http://www.physics.adelaide.edu.au/jobs/Jobs.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1366,10 +1421,10 @@
     
     <item>
       <title>Des webradios à thèmes</title>
-      <link>http://localhost:1313/2009/01/des-webradios-a-themes/</link>
+      <link>http://localhost:1313/blog/2009/01/des-webradios-a-themes/</link>
       <pubDate>Sun, 25 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/des-webradios-a-themes/</guid>
+      <guid>http://localhost:1313/blog/2009/01/des-webradios-a-themes/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Dans ce post je vais faire la liste des &lt;strong&gt;webradios à thèmes&lt;/strong&gt; que je rencontre au fil de mes navigations sur le web. Qu&amp;#8217;il s&amp;#8217;agisse de webradios worldmusic, ambient, techno, house, chillout ou autre, je les listerai un peu en désordre.
 &lt;/p&gt;
@@ -1398,10 +1453,10 @@
     
     <item>
       <title>Projet Flowers</title>
-      <link>http://localhost:1313/2009/01/projet-flowers/</link>
+      <link>http://localhost:1313/blog/2009/01/projet-flowers/</link>
       <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/projet-flowers/</guid>
+      <guid>http://localhost:1313/blog/2009/01/projet-flowers/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le &lt;strong&gt;machine learning&lt;/strong&gt;, l&amp;#8217;a&lt;strong&gt;pprentissage sémantique&lt;/strong&gt;, et l&amp;#8217;&lt;strong&gt;acquisition d&amp;#8217;un langage&lt;/strong&gt;.
 &lt;/p&gt;
@@ -1415,7 +1470,17 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;float: left;&#34; title=&#34;Robot&#34; src=&#34;http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; height=&#34;283&#34; /&gt;Pour comprendre rapidement ce qui fait l&amp;#8217;originalité de l&amp;#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&amp;#8217;environnement qui l&amp;#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&amp;#8217;approche de l&amp;#8217;équipe Flowers est similaire. En introduisant une &amp;#8220;fonction de &lt;strong&gt;curiosité&lt;/strong&gt;&amp;#8221; dans le &amp;#8220;cerveau&amp;#8221; du robot, celui-ci commence à être curieux face à son environnement.
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Robot&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Pour comprendre rapidement ce qui fait l&amp;#8217;originalité de l&amp;#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&amp;#8217;environnement qui l&amp;#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&amp;#8217;approche de l&amp;#8217;équipe Flowers est similaire. En introduisant une &amp;#8220;fonction de &lt;strong&gt;curiosité&lt;/strong&gt;&amp;#8221; dans le &amp;#8220;cerveau&amp;#8221; du robot, celui-ci commence à être curieux face à son environnement.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -1430,10 +1495,10 @@
     
     <item>
       <title>Lectures de vacances</title>
-      <link>http://localhost:1313/2008/12/lectures-de-vacances/</link>
+      <link>http://localhost:1313/blog/2008/12/lectures-de-vacances/</link>
       <pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/12/lectures-de-vacances/</guid>
+      <guid>http://localhost:1313/blog/2008/12/lectures-de-vacances/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Voilà la liste des livres que j&amp;#8217;ai emporté durant ces vacances. Je trouve qu&amp;#8217;il vont tous très bien ensemble, et je suis ravi d&amp;#8217;avoir fait ce choix. Les deux livres scientifiques, sur l&amp;#8217;information quantique et sur les aspects quantique de la vie biologique, se complètent très bien. De même, le livre de Laborit (plutôt philosophique) et celui de Covey (plutôt management) se réponde l&amp;#8217;un l&amp;#8217;autre sur l&amp;#8217;effet des représentations mentales que se fait l&amp;#8217;homme sur ses façons de décider (ou de s&amp;#8217;en croire libre).
 &lt;/p&gt;
@@ -1446,7 +1511,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/275400081X?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=275400081X&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-34&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;Les 7 habitudes&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/510jr-82a8l_sl160_.jpg&#34; alt=&#34;Les 7 habitudes&#34; width=&#34;73&#34; height=&#34;113&#34; /&gt;&lt;/a&gt;Tout d&amp;#8217;abord un livre de management : &amp;#8220;&lt;strong&gt;Les 7 habitudes de ceux qui réalisent tout ce qu&amp;#8217;ils entreprennent&lt;/strong&gt;&amp;#8220;- &lt;em&gt;Covey&lt;/em&gt;. Il y parle de développement personnel, de l&amp;#8217;influence de nos schémas mentaux sur la façon dont l&amp;#8217;en prends des décisions, et sur la façon dont on s&amp;#8217;imagine à la place des autres.
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/275400081X?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=275400081X&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-full wp-image-34&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/510jr-82a8l_sl160_.jpg&#34; alt=&#34;Les 7 habitudes&#34; width=&#34;73&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Les 7 habitudes&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Tout d&amp;#8217;abord un livre de management : &amp;#8220;&lt;strong&gt;Les 7 habitudes de ceux qui réalisent tout ce qu&amp;#8217;ils entreprennent&lt;/strong&gt;&amp;#8220;- &lt;em&gt;Covey&lt;/em&gt;. Il y parle de développement personnel, de l&amp;#8217;influence de nos schémas mentaux sur la façon dont l&amp;#8217;en prends des décisions, et sur la façon dont on s&amp;#8217;imagine à la place des autres.
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1458,7 +1533,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/2070322831?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=2070322831&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-37&#34; style=&#34;margin: 5px;&#34; title=&#34;Eloge de la fuite&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/415eas69zml_sl160_.jpg&#34; alt=&#34;Eloge de la fuite&#34; width=&#34;79&#34; height=&#34;133&#34; /&gt;&lt;/a&gt;&lt;strong&gt;Eloge de la fuite&lt;/strong&gt; &amp;#8211; &lt;em&gt;Henri Laborit&lt;/em&gt; :  Recueil philosophique sur les atouts du comportement de fuite. Anti-stress, &amp;#8220;anti-hypochondriaque&amp;#8221;. Bien sûr le livre ne parle quasiment pas de cet aspect. En se basant sur son expérience de biologiste/neurologue il aborde avec une précision déroutante les aspects philosophiques de l&amp;#8217;esprit humain. Me faisant grandement penser certaines fois à un antique &lt;strong&gt;stoïcien&lt;/strong&gt;, ou à un nouveau &lt;span class=&#34;searchmatch&#34;&gt;&lt;em&gt;Schopenhauer&lt;/em&gt;, je recommande grandement cet ouvrage pour guider vos réflexion sur la façon que peux avoir l&amp;#8217;homme de penser. Des arguments qui marquent sont toujours présents et permettent de rentrer facilement dans la thèse de l&amp;#8217;auteur.&lt;/span&gt;
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/2070322831?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=2070322831&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-37&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/415eas69zml_sl160_.jpg&#34; alt=&#34;Eloge de la fuite&#34; width=&#34;79&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Eloge de la fuite&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;strong&gt;Eloge de la fuite&lt;/strong&gt; &amp;#8211; &lt;em&gt;Henri Laborit&lt;/em&gt; :  Recueil philosophique sur les atouts du comportement de fuite. Anti-stress, &amp;#8220;anti-hypochondriaque&amp;#8221;. Bien sûr le livre ne parle quasiment pas de cet aspect. En se basant sur son expérience de biologiste/neurologue il aborde avec une précision déroutante les aspects philosophiques de l&amp;#8217;esprit humain. Me faisant grandement penser certaines fois à un antique &lt;strong&gt;stoïcien&lt;/strong&gt;, ou à un nouveau &lt;span class=&#34;searchmatch&#34;&gt;&lt;em&gt;Schopenhauer&lt;/em&gt;, je recommande grandement cet ouvrage pour guider vos réflexion sur la façon que peux avoir l&amp;#8217;homme de penser. Des arguments qui marquent sont toujours présents et permettent de rentrer facilement dans la thèse de l&amp;#8217;auteur.&lt;/span&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1468,7 +1553,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/3540667784?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=3540667784&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-30&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;The Physics of Quantum Information&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/417zzkoetfl_sl160_.jpg&#34; alt=&#34;The Physics of Quantum Information&#34; width=&#34;74&#34; height=&#34;118&#34; /&gt;&lt;/a&gt;&lt;strong&gt;The physics of Quantum Information&lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Bouwmeester, A.Ekert et A.Zeilinger&lt;/em&gt; : Cet ouvrage permet au novice (qui possède quelques bases en &lt;strong&gt;physique quantique &lt;/strong&gt;tout de même) de s&amp;#8217;initier à l&amp;#8217;&lt;strong&gt;informatique quantique&lt;/strong&gt;. Le livre regroupe de nombreux auteurs de ce domaine (&lt;em&gt;D.Bouwmester, A.Zeilinger, P.Zoller, R.Blatt&lt;/em&gt;&amp;#8230;) et se compose de 8 chapitres dédiés à la &lt;strong&gt;théorie &lt;/strong&gt;et à l&amp;#8217;&lt;strong&gt;expérimentation&lt;/strong&gt;. On y retrouvera des explications de base, de la &lt;strong&gt;cryptologie quantique&lt;/strong&gt;, de la&lt;strong&gt; téléportation quantique&lt;/strong&gt;, des concepts sur l&amp;#8217;algorithmique, ainsi que des notions sur la décohérence quantique.
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/3540667784?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=3540667784&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-medium wp-image-30&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/417zzkoetfl_sl160_.jpg&#34; alt=&#34;The Physics of Quantum Information&#34; width=&#34;74&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;The Physics of Quantum Information&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;strong&gt;The physics of Quantum Information&lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Bouwmeester, A.Ekert et A.Zeilinger&lt;/em&gt; : Cet ouvrage permet au novice (qui possède quelques bases en &lt;strong&gt;physique quantique &lt;/strong&gt;tout de même) de s&amp;#8217;initier à l&amp;#8217;&lt;strong&gt;informatique quantique&lt;/strong&gt;. Le livre regroupe de nombreux auteurs de ce domaine (&lt;em&gt;D.Bouwmester, A.Zeilinger, P.Zoller, R.Blatt&lt;/em&gt;&amp;#8230;) et se compose de 8 chapitres dédiés à la &lt;strong&gt;théorie &lt;/strong&gt;et à l&amp;#8217;&lt;strong&gt;expérimentation&lt;/strong&gt;. On y retrouvera des explications de base, de la &lt;strong&gt;cryptologie quantique&lt;/strong&gt;, de la&lt;strong&gt; téléportation quantique&lt;/strong&gt;, des concepts sur l&amp;#8217;algorithmique, ainsi que des notions sur la décohérence quantique.
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1476,7 +1571,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/1848162677?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=1848162677&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-32&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;Quantum Aspects of Life&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/51k5jqdlogl_sl160_.jpg&#34; alt=&#34;Quantum Aspects of Life&#34; width=&#34;73&#34; height=&#34;110&#34; /&gt;&lt;/a&gt;&lt;strong&gt;Quantum aspects of Life &lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Abbott, P.C.W.Davies et A.K.Pati &lt;/em&gt;: Cet ouvrage recueille de nombreux écrits concernant les aspects quantiques présents dans les &lt;strong&gt;phénomènes biologiques&lt;/strong&gt;. La liste des articles est présentes sur la page : &lt;a href=&#34;http://www.icpress.co.uk/physics/p581.html&#34; target=&#34;_blank&#34;&gt;http://www.icpress.co.uk/physics/p581.html&lt;/a&gt;. Je ne l&amp;#8217;ai pas encore trop lu, mais les auteurs présents témoignent du sérieux et du contenu intéressant du livre. Je retrouve en parcourant les pages de ce livres des notions de &lt;strong&gt;chimie quantique&lt;/strong&gt; enseignées à Centrale Marseille. Je ne suis donc pas si déçu que ça d&amp;#8217;avoir subit quelques années de chimie en plus.
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/1848162677?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=1848162677&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-full wp-image-32&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/51k5jqdlogl_sl160_.jpg&#34; alt=&#34;Quantum Aspects of Life&#34; width=&#34;73&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Quantum Aspects of Life&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;strong&gt;Quantum aspects of Life &lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Abbott, P.C.W.Davies et A.K.Pati &lt;/em&gt;: Cet ouvrage recueille de nombreux écrits concernant les aspects quantiques présents dans les &lt;strong&gt;phénomènes biologiques&lt;/strong&gt;. La liste des articles est présentes sur la page : &lt;a href=&#34;http://www.icpress.co.uk/physics/p581.html&#34; target=&#34;_blank&#34;&gt;http://www.icpress.co.uk/physics/p581.html&lt;/a&gt;. Je ne l&amp;#8217;ai pas encore trop lu, mais les auteurs présents témoignent du sérieux et du contenu intéressant du livre. Je retrouve en parcourant les pages de ce livres des notions de &lt;strong&gt;chimie quantique&lt;/strong&gt; enseignées à Centrale Marseille. Je ne suis donc pas si déçu que ça d&amp;#8217;avoir subit quelques années de chimie en plus.
   &lt;/li&gt;
 &lt;/ul&gt;
 

@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Click Frauding on Jice is Nice</title>
-    <link>http://localhost:1313/tags/click-frauding/</link>
-    <description>Recent content in Click Frauding on Jice is Nice</description>
+    <title>Click Frauding on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/click-frauding/</link>
+    <description>Recent content in Click Frauding on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 23 Jun 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/click-frauding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/click-frauding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cookie Stuffing and click hidding</title>
-      <link>http://localhost:1313/2009/06/cookie-stuffing-and-click-hidding/</link>
+      <link>http://localhost:1313/blog/2009/06/cookie-stuffing-and-click-hidding/</link>
       <pubDate>Tue, 23 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/cookie-stuffing-and-click-hidding/</guid>
+      <guid>http://localhost:1313/blog/2009/06/cookie-stuffing-and-click-hidding/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-143&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;seo white hat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg&#34; alt=&#34;seo white hat&#34; width=&#34;140&#34; height=&#34;112&#34; /&gt;Comme le suppose le titre de ce post je parle ici de néthodes pas très honnêtes pour cacher ses cookies et utiliser de faux clics pour une utilisation que je vous laisse personnelle ( nous y reviendrons). Dans ce post je présente seulement les méthodes de mise en place du cookie stuffing ou du faux clic. Pour le reste (trouver ou placer les images, comment cacher la fraude etc.) je vous laisse les commentaires.
+  &lt;figure class=&#34;alignleft size-full wp-image-143&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg&#34; alt=&#34;seo white hat&#34; width=&#34;140&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;seo white hat&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Comme le suppose le titre de ce post je parle ici de néthodes pas très honnêtes pour cacher ses cookies et utiliser de faux clics pour une utilisation que je vous laisse personnelle ( nous y reviendrons). Dans ce post je présente seulement les méthodes de mise en place du cookie stuffing ou du faux clic. Pour le reste (trouver ou placer les images, comment cacher la fraude etc.) je vous laisse les commentaires.
 &lt;/p&gt;
 
 &lt;h2 style=&#34;text-align: justify;&#34;&gt;
@@ -39,7 +49,12 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  La solution c&amp;#8217;est le &lt;strong&gt;cookie stuffing&lt;/strong&gt; : vous forcez l&amp;#8217;upload d&amp;#8217;un cookie sans un click volontaire. Bien entendu, cela  vous permet de mettre votre cookie &amp;#8216;de force&amp;#8217; sur des sites qui ne sont pas à vous &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_twisted.gif&#34; alt=&#34;:twisted:&#34; class=&#34;wp-smiley&#34; /&gt; .
+  La solution c&amp;#8217;est le &lt;strong&gt;cookie stuffing&lt;/strong&gt; : vous forcez l&amp;#8217;upload d&amp;#8217;un cookie sans un click volontaire. Bien entendu, cela  vous permet de mettre votre cookie &amp;#8216;de force&amp;#8217; sur des sites qui ne sont pas à vous &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_twisted.gif&#34; alt=&#34;:twisted:&#34; /&gt;
+    
+
+&lt;/figure&gt; .
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -73,7 +88,17 @@
 
 &lt;p&gt;Dans la suite de ce post je vous donne des précisions sur la deuxième méthode que j&amp;#8217;ai utilisé pour avoir quelque chose comme 2000 clics en 5 ou 6 heures pour un concours bidon.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;aligncenter size-full wp-image-511&#34; title=&#34;android&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/06/android.png&#34; alt=&#34;android&#34; width=&#34;600&#34; height=&#34;281&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-511&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/06/android.png&#34; alt=&#34;android&#34; width=&#34;600&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;android&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
 
@@ -103,9 +128,19 @@ RewriteRule fake_pixel.gif pixel.php [L]&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Cela permet l&amp;#8217;appel du fichier pixel.php de manière &amp;#8216;invisible&amp;#8217;. Vous pouvez donc l&amp;#8217;appeler par toute page grâce à la balise classique, et personne ne se doutera qu&amp;#8217;elle appelle en réalité un script php :&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;fake_pixel.gif&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;figure &gt;
 
-&lt;p&gt;Cela vous le placerez dans les pages victimes de votre cookie stuff. Celles-ci peuvent se trouver sur votre site &amp;#8230; ou pas &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+    &lt;img src=&#34;http://localhost:1313/blog//fake_pixel.gif&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Cela vous le placerez dans les pages victimes de votre cookie stuff. Celles-ci peuvent se trouver sur votre site &amp;#8230; ou pas &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Voyons à présent ce que contient le fichier pixel.php :&lt;/p&gt;
 
@@ -140,7 +175,12 @@ readfile(&amp;lsquo;pixel.gif&amp;rsquo;);&amp;lt;br /&amp;gt;
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;strong&gt;Où poser votre image cible?&lt;/strong&gt; Et bien en premier lieux sur tous vos sites. Comme ca, ils lanceront tous une connexion vers votre affilié ou concours. Plus barbare/bucheron, vous pouvez aller injecter votre image sur certains sites sociaux à forte population. Nénamoins, mon meilleur résultat a eu lieu avec un fameux moteur de petites annonces US &amp;#8230; dans la section rencontre pour adultes &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_cool.gif&#34; alt=&#34;8-)&#34; class=&#34;wp-smiley&#34; /&gt;   (on s&amp;#8217;en doutait pas tiens) .
+  &lt;strong&gt;Où poser votre image cible?&lt;/strong&gt; Et bien en premier lieux sur tous vos sites. Comme ca, ils lanceront tous une connexion vers votre affilié ou concours. Plus barbare/bucheron, vous pouvez aller injecter votre image sur certains sites sociaux à forte population. Nénamoins, mon meilleur résultat a eu lieu avec un fameux moteur de petites annonces US &amp;#8230; dans la section rencontre pour adultes &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_cool.gif&#34; alt=&#34;8-)&#34; /&gt;
+    
+
+&lt;/figure&gt;   (on s&amp;#8217;en doutait pas tiens) .
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -153,7 +193,12 @@ readfile(&amp;lsquo;pixel.gif&amp;rsquo;);&amp;lt;br /&amp;gt;
 &lt;li&gt;Il utilise une modification du script ci-dessus pour envoyer notre lien, et/ou afficher la bonne image.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Ca demande un peu plus de code, mais c&amp;#8217;est une bonne façon de faire payer son travail ( et ses images) : &lt;strong&gt;piquer les visiteurs des pompeurs&lt;/strong&gt; &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ca demande un peu plus de code, mais c&amp;#8217;est une bonne façon de faire payer son travail ( et ses images) : &lt;strong&gt;piquer les visiteurs des pompeurs&lt;/strong&gt; &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
+    
+
+&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
 

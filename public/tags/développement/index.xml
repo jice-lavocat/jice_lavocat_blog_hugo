@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Développement on Jice is Nice</title>
-    <link>http://localhost:1313/tags/d%C3%A9veloppement/</link>
-    <description>Recent content in Développement on Jice is Nice</description>
+    <title>Développement on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/d%C3%A9veloppement/</link>
+    <description>Recent content in Développement on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 01 Feb 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/d%C3%A9veloppement/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Les plus belles idées du monde</title>
-      <link>http://localhost:1313/2009/02/les-plus-belles-idees-du-monde/</link>
+      <link>http://localhost:1313/blog/2009/02/les-plus-belles-idees-du-monde/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/les-plus-belles-idees-du-monde/</guid>
+      <guid>http://localhost:1313/blog/2009/02/les-plus-belles-idees-du-monde/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-90&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;Idee&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; height=&#34;133&#34; /&gt;Grâce à ce titre un peu racoleur je voulais faire découvrir au public francophone un site rarement cité, qui reçoit pourtant les plus grands innovateurs de notre siècle. Le site promeut en effet les idées qui vont faire bouger notre environnement dans un sens (on l&amp;#8217;espère) meilleur. Ces conférences accueillent souvent des prix nobel de la paix (&lt;a title=&#34;Al Gore - Ancien vice-président US et prix nobel de la paix&#34; href=&#34;http://fr.wikipedia.org/wiki/Al_Gore&#34; target=&#34;_blank&#34;&gt;Al Gore&lt;/a&gt;) ou des chefs d&amp;#8217;entreprise célèbres (&lt;a title=&#34;Jimmy Wales - fondateur de wikipedia&#34; href=&#34;http://fr.wikipedia.org/wiki/Jimmy_Wales&#34; target=&#34;_blank&#34;&gt;Jimmy Wales&lt;/a&gt;), aussi bien que des scientifiques de haut vol (&lt;a title=&#34;Stephen Hawking - Astrophysicien&#34; href=&#34;http://fr.wikipedia.org/wiki/Stephen_Hawking&#34; target=&#34;_blank&#34;&gt;Stephen Hawking&lt;/a&gt;).
+  &lt;figure class=&#34;alignleft size-full wp-image-90&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Idee&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Grâce à ce titre un peu racoleur je voulais faire découvrir au public francophone un site rarement cité, qui reçoit pourtant les plus grands innovateurs de notre siècle. Le site promeut en effet les idées qui vont faire bouger notre environnement dans un sens (on l&amp;#8217;espère) meilleur. Ces conférences accueillent souvent des prix nobel de la paix (&lt;a title=&#34;Al Gore - Ancien vice-président US et prix nobel de la paix&#34; href=&#34;http://fr.wikipedia.org/wiki/Al_Gore&#34; target=&#34;_blank&#34;&gt;Al Gore&lt;/a&gt;) ou des chefs d&amp;#8217;entreprise célèbres (&lt;a title=&#34;Jimmy Wales - fondateur de wikipedia&#34; href=&#34;http://fr.wikipedia.org/wiki/Jimmy_Wales&#34; target=&#34;_blank&#34;&gt;Jimmy Wales&lt;/a&gt;), aussi bien que des scientifiques de haut vol (&lt;a title=&#34;Stephen Hawking - Astrophysicien&#34; href=&#34;http://fr.wikipedia.org/wiki/Stephen_Hawking&#34; target=&#34;_blank&#34;&gt;Stephen Hawking&lt;/a&gt;).
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

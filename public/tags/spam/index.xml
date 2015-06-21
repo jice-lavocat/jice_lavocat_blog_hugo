@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spam on Jice is Nice</title>
-    <link>http://localhost:1313/tags/spam/</link>
-    <description>Recent content in Spam on Jice is Nice</description>
+    <title>Spam on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/spam/</link>
+    <description>Recent content in Spam on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Fri, 26 Jun 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/spam/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/spam/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Pourquoi il ne faut pas lire les emails de spam</title>
-      <link>http://localhost:1313/2009/06/pourquoi-il-ne-faut-pas-lire-les-emails-de-spam/</link>
+      <link>http://localhost:1313/blog/2009/06/pourquoi-il-ne-faut-pas-lire-les-emails-de-spam/</link>
       <pubDate>Fri, 26 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/06/pourquoi-il-ne-faut-pas-lire-les-emails-de-spam/</guid>
+      <guid>http://localhost:1313/blog/2009/06/pourquoi-il-ne-faut-pas-lire-les-emails-de-spam/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-119&#34; style=&#34;margin: 5px;&#34; title=&#34;Black Hat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; height=&#34;112&#34; /&gt;Sur ce blog j&amp;#8217;ai beaucoup parlé de spam seo. Cela consiste uniquement à s&amp;#8217;approprier les techniques permettant de mieux se positionner sur google. Une autre signification au mot spam est plus souvent utilisée : celle du spam par email. Dans cet article je vous explique pourquoi, selon moi, il ne faut pas lire les messages de spam, ou en tout cas activer le code html inclus dedans.
+  &lt;figure class=&#34;alignleft size-full wp-image-119&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Black Hat&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Sur ce blog j&amp;#8217;ai beaucoup parlé de spam seo. Cela consiste uniquement à s&amp;#8217;approprier les techniques permettant de mieux se positionner sur google. Une autre signification au mot spam est plus souvent utilisée : celle du spam par email. Dans cet article je vous explique pourquoi, selon moi, il ne faut pas lire les messages de spam, ou en tout cas activer le code html inclus dedans.
 &lt;/p&gt;
 
 &lt;h2 style=&#34;text-align: justify;&#34;&gt;

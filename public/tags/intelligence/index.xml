@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Intelligence on Jice is Nice</title>
-    <link>http://localhost:1313/tags/intelligence/</link>
-    <description>Recent content in Intelligence on Jice is Nice</description>
+    <title>Intelligence on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/intelligence/</link>
+    <description>Recent content in Intelligence on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sun, 01 Feb 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/intelligence/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Des blogs sur la neurologie</title>
-      <link>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</link>
+      <link>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</guid>
+      <guid>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img class=&#34;alignleft size-full wp-image-74&#34; title=&#34;Neurologie&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; height=&#34;92&#34; /&gt;Depuis un petit moment je m&amp;#8217;intéresse de plus en plus aux&lt;strong&gt; sciences du cerveau&lt;/strong&gt;, et à la &lt;strong&gt;conscience&lt;/strong&gt;. Je vous ai déjà parlé du livre &amp;#8220;&lt;em&gt;Quantum Aspects of Life&lt;/em&gt;&amp;#8221; dans un &lt;a title=&#34;Lectures de vacances&#34; href=&#34;http://localhost/oldblog/2008/12/lectures-de-vacances/&#34;&gt;précédent billet &lt;/a&gt;. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&amp;#8217;étude. Je vous en donne la liste ci-dessous.
+  &lt;figure class=&#34;alignleft size-full wp-image-74&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Neurologie&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Depuis un petit moment je m&amp;#8217;intéresse de plus en plus aux&lt;strong&gt; sciences du cerveau&lt;/strong&gt;, et à la &lt;strong&gt;conscience&lt;/strong&gt;. Je vous ai déjà parlé du livre &amp;#8220;&lt;em&gt;Quantum Aspects of Life&lt;/em&gt;&amp;#8221; dans un &lt;a title=&#34;Lectures de vacances&#34; href=&#34;http://localhost/oldblog/2008/12/lectures-de-vacances/&#34;&gt;précédent billet &lt;/a&gt;. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&amp;#8217;étude. Je vous en donne la liste ci-dessous.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -56,10 +66,10 @@
     
     <item>
       <title>Projet Flowers</title>
-      <link>http://localhost:1313/2009/01/projet-flowers/</link>
+      <link>http://localhost:1313/blog/2009/01/projet-flowers/</link>
       <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2009/01/projet-flowers/</guid>
+      <guid>http://localhost:1313/blog/2009/01/projet-flowers/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le &lt;strong&gt;machine learning&lt;/strong&gt;, l&amp;#8217;a&lt;strong&gt;pprentissage sémantique&lt;/strong&gt;, et l&amp;#8217;&lt;strong&gt;acquisition d&amp;#8217;un langage&lt;/strong&gt;.
 &lt;/p&gt;
@@ -73,7 +83,17 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;img style=&#34;float: left;&#34; title=&#34;Robot&#34; src=&#34;http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; height=&#34;283&#34; /&gt;Pour comprendre rapidement ce qui fait l&amp;#8217;originalité de l&amp;#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&amp;#8217;environnement qui l&amp;#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&amp;#8217;approche de l&amp;#8217;équipe Flowers est similaire. En introduisant une &amp;#8220;fonction de &lt;strong&gt;curiosité&lt;/strong&gt;&amp;#8221; dans le &amp;#8220;cerveau&amp;#8221; du robot, celui-ci commence à être curieux face à son environnement.
+  &lt;figure &gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Robot&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;Pour comprendre rapidement ce qui fait l&amp;#8217;originalité de l&amp;#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&amp;#8217;environnement qui l&amp;#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&amp;#8217;approche de l&amp;#8217;équipe Flowers est similaire. En introduisant une &amp;#8220;fonction de &lt;strong&gt;curiosité&lt;/strong&gt;&amp;#8221; dans le &amp;#8220;cerveau&amp;#8221; du robot, celui-ci commence à être curieux face à son environnement.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;

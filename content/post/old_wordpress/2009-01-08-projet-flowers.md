@@ -29,7 +29,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  <img style="float: left;" title="Robot" src="http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg" alt="Robot assis" width="203" height="283" />Pour comprendre rapidement ce qui fait l&#8217;originalité de l&#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&#8217;environnement qui l&#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&#8217;approche de l&#8217;équipe Flowers est similaire. En introduisant une &#8220;fonction de <strong>curiosité</strong>&#8221; dans le &#8220;cerveau&#8221; du robot, celui-ci commence à être curieux face à son environnement.
+  {{<img style="float: left;" title="Robot" src="http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg" alt="Robot assis" width="203" height="283" >}}Pour comprendre rapidement ce qui fait l&#8217;originalité de l&#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&#8217;environnement qui l&#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&#8217;approche de l&#8217;équipe Flowers est similaire. En introduisant une &#8220;fonction de <strong>curiosité</strong>&#8221; dans le &#8220;cerveau&#8221; du robot, celui-ci commence à être curieux face à son environnement.
 </p>
 
 <p style="text-align: justify;">

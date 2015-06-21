@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Livre on Jice is Nice</title>
-    <link>http://localhost:1313/tags/livre/</link>
-    <description>Recent content in Livre on Jice is Nice</description>
+    <title>Livre on Blog Jice Lavocat</title>
+    <link>http://localhost:1313/blog/tags/livre/</link>
+    <description>Recent content in Livre on Blog Jice Lavocat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 24 Dec 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/livre/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/livre/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lectures de vacances</title>
-      <link>http://localhost:1313/2008/12/lectures-de-vacances/</link>
+      <link>http://localhost:1313/blog/2008/12/lectures-de-vacances/</link>
       <pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2008/12/lectures-de-vacances/</guid>
+      <guid>http://localhost:1313/blog/2008/12/lectures-de-vacances/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Voilà la liste des livres que j&amp;#8217;ai emporté durant ces vacances. Je trouve qu&amp;#8217;il vont tous très bien ensemble, et je suis ravi d&amp;#8217;avoir fait ce choix. Les deux livres scientifiques, sur l&amp;#8217;information quantique et sur les aspects quantique de la vie biologique, se complètent très bien. De même, le livre de Laborit (plutôt philosophique) et celui de Covey (plutôt management) se réponde l&amp;#8217;un l&amp;#8217;autre sur l&amp;#8217;effet des représentations mentales que se fait l&amp;#8217;homme sur ses façons de décider (ou de s&amp;#8217;en croire libre).
 &lt;/p&gt;
@@ -28,7 +28,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/275400081X?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=275400081X&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-34&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;Les 7 habitudes&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/510jr-82a8l_sl160_.jpg&#34; alt=&#34;Les 7 habitudes&#34; width=&#34;73&#34; height=&#34;113&#34; /&gt;&lt;/a&gt;Tout d&amp;#8217;abord un livre de management : &amp;#8220;&lt;strong&gt;Les 7 habitudes de ceux qui réalisent tout ce qu&amp;#8217;ils entreprennent&lt;/strong&gt;&amp;#8220;- &lt;em&gt;Covey&lt;/em&gt;. Il y parle de développement personnel, de l&amp;#8217;influence de nos schémas mentaux sur la façon dont l&amp;#8217;en prends des décisions, et sur la façon dont on s&amp;#8217;imagine à la place des autres.
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/275400081X?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=275400081X&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-full wp-image-34&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/510jr-82a8l_sl160_.jpg&#34; alt=&#34;Les 7 habitudes&#34; width=&#34;73&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Les 7 habitudes&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;Tout d&amp;#8217;abord un livre de management : &amp;#8220;&lt;strong&gt;Les 7 habitudes de ceux qui réalisent tout ce qu&amp;#8217;ils entreprennent&lt;/strong&gt;&amp;#8220;- &lt;em&gt;Covey&lt;/em&gt;. Il y parle de développement personnel, de l&amp;#8217;influence de nos schémas mentaux sur la façon dont l&amp;#8217;en prends des décisions, et sur la façon dont on s&amp;#8217;imagine à la place des autres.
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -40,7 +50,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/2070322831?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=2070322831&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-37&#34; style=&#34;margin: 5px;&#34; title=&#34;Eloge de la fuite&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/415eas69zml_sl160_.jpg&#34; alt=&#34;Eloge de la fuite&#34; width=&#34;79&#34; height=&#34;133&#34; /&gt;&lt;/a&gt;&lt;strong&gt;Eloge de la fuite&lt;/strong&gt; &amp;#8211; &lt;em&gt;Henri Laborit&lt;/em&gt; :  Recueil philosophique sur les atouts du comportement de fuite. Anti-stress, &amp;#8220;anti-hypochondriaque&amp;#8221;. Bien sûr le livre ne parle quasiment pas de cet aspect. En se basant sur son expérience de biologiste/neurologue il aborde avec une précision déroutante les aspects philosophiques de l&amp;#8217;esprit humain. Me faisant grandement penser certaines fois à un antique &lt;strong&gt;stoïcien&lt;/strong&gt;, ou à un nouveau &lt;span class=&#34;searchmatch&#34;&gt;&lt;em&gt;Schopenhauer&lt;/em&gt;, je recommande grandement cet ouvrage pour guider vos réflexion sur la façon que peux avoir l&amp;#8217;homme de penser. Des arguments qui marquent sont toujours présents et permettent de rentrer facilement dans la thèse de l&amp;#8217;auteur.&lt;/span&gt;
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/2070322831?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=2070322831&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-37&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/415eas69zml_sl160_.jpg&#34; alt=&#34;Eloge de la fuite&#34; width=&#34;79&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Eloge de la fuite&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;strong&gt;Eloge de la fuite&lt;/strong&gt; &amp;#8211; &lt;em&gt;Henri Laborit&lt;/em&gt; :  Recueil philosophique sur les atouts du comportement de fuite. Anti-stress, &amp;#8220;anti-hypochondriaque&amp;#8221;. Bien sûr le livre ne parle quasiment pas de cet aspect. En se basant sur son expérience de biologiste/neurologue il aborde avec une précision déroutante les aspects philosophiques de l&amp;#8217;esprit humain. Me faisant grandement penser certaines fois à un antique &lt;strong&gt;stoïcien&lt;/strong&gt;, ou à un nouveau &lt;span class=&#34;searchmatch&#34;&gt;&lt;em&gt;Schopenhauer&lt;/em&gt;, je recommande grandement cet ouvrage pour guider vos réflexion sur la façon que peux avoir l&amp;#8217;homme de penser. Des arguments qui marquent sont toujours présents et permettent de rentrer facilement dans la thèse de l&amp;#8217;auteur.&lt;/span&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -50,7 +70,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/3540667784?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=3540667784&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-30&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;The Physics of Quantum Information&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/417zzkoetfl_sl160_.jpg&#34; alt=&#34;The Physics of Quantum Information&#34; width=&#34;74&#34; height=&#34;118&#34; /&gt;&lt;/a&gt;&lt;strong&gt;The physics of Quantum Information&lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Bouwmeester, A.Ekert et A.Zeilinger&lt;/em&gt; : Cet ouvrage permet au novice (qui possède quelques bases en &lt;strong&gt;physique quantique &lt;/strong&gt;tout de même) de s&amp;#8217;initier à l&amp;#8217;&lt;strong&gt;informatique quantique&lt;/strong&gt;. Le livre regroupe de nombreux auteurs de ce domaine (&lt;em&gt;D.Bouwmester, A.Zeilinger, P.Zoller, R.Blatt&lt;/em&gt;&amp;#8230;) et se compose de 8 chapitres dédiés à la &lt;strong&gt;théorie &lt;/strong&gt;et à l&amp;#8217;&lt;strong&gt;expérimentation&lt;/strong&gt;. On y retrouvera des explications de base, de la &lt;strong&gt;cryptologie quantique&lt;/strong&gt;, de la&lt;strong&gt; téléportation quantique&lt;/strong&gt;, des concepts sur l&amp;#8217;algorithmique, ainsi que des notions sur la décohérence quantique.
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/3540667784?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=3540667784&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-medium wp-image-30&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/417zzkoetfl_sl160_.jpg&#34; alt=&#34;The Physics of Quantum Information&#34; width=&#34;74&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;The Physics of Quantum Information&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;strong&gt;The physics of Quantum Information&lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Bouwmeester, A.Ekert et A.Zeilinger&lt;/em&gt; : Cet ouvrage permet au novice (qui possède quelques bases en &lt;strong&gt;physique quantique &lt;/strong&gt;tout de même) de s&amp;#8217;initier à l&amp;#8217;&lt;strong&gt;informatique quantique&lt;/strong&gt;. Le livre regroupe de nombreux auteurs de ce domaine (&lt;em&gt;D.Bouwmester, A.Zeilinger, P.Zoller, R.Blatt&lt;/em&gt;&amp;#8230;) et se compose de 8 chapitres dédiés à la &lt;strong&gt;théorie &lt;/strong&gt;et à l&amp;#8217;&lt;strong&gt;expérimentation&lt;/strong&gt;. On y retrouvera des explications de base, de la &lt;strong&gt;cryptologie quantique&lt;/strong&gt;, de la&lt;strong&gt; téléportation quantique&lt;/strong&gt;, des concepts sur l&amp;#8217;algorithmique, ainsi que des notions sur la décohérence quantique.
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -58,7 +88,17 @@
 
 &lt;ul style=&#34;text-align: justify;&#34;&gt;
   &lt;li&gt;
-    &lt;a href=&#34;http://www.amazon.fr/gp/product/1848162677?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=1848162677&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-32&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;Quantum Aspects of Life&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2008/12/51k5jqdlogl_sl160_.jpg&#34; alt=&#34;Quantum Aspects of Life&#34; width=&#34;73&#34; height=&#34;110&#34; /&gt;&lt;/a&gt;&lt;strong&gt;Quantum aspects of Life &lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Abbott, P.C.W.Davies et A.K.Pati &lt;/em&gt;: Cet ouvrage recueille de nombreux écrits concernant les aspects quantiques présents dans les &lt;strong&gt;phénomènes biologiques&lt;/strong&gt;. La liste des articles est présentes sur la page : &lt;a href=&#34;http://www.icpress.co.uk/physics/p581.html&#34; target=&#34;_blank&#34;&gt;http://www.icpress.co.uk/physics/p581.html&lt;/a&gt;. Je ne l&amp;#8217;ai pas encore trop lu, mais les auteurs présents témoignent du sérieux et du contenu intéressant du livre. Je retrouve en parcourant les pages de ce livres des notions de &lt;strong&gt;chimie quantique&lt;/strong&gt; enseignées à Centrale Marseille. Je ne suis donc pas si déçu que ça d&amp;#8217;avoir subit quelques années de chimie en plus.
+    &lt;a href=&#34;http://www.amazon.fr/gp/product/1848162677?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=1848162677&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-full wp-image-32&#34;&gt;
+
+    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/51k5jqdlogl_sl160_.jpg&#34; alt=&#34;Quantum Aspects of Life&#34; width=&#34;73&#34; /&gt;
+    
+
+&lt;figcaption&gt;
+    &lt;h4&gt;Quantum Aspects of Life&lt;/h4&gt;
+    
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/a&gt;&lt;strong&gt;Quantum aspects of Life &lt;/strong&gt;- &lt;em&gt;Compilation d&amp;#8217;auteurs par D.Abbott, P.C.W.Davies et A.K.Pati &lt;/em&gt;: Cet ouvrage recueille de nombreux écrits concernant les aspects quantiques présents dans les &lt;strong&gt;phénomènes biologiques&lt;/strong&gt;. La liste des articles est présentes sur la page : &lt;a href=&#34;http://www.icpress.co.uk/physics/p581.html&#34; target=&#34;_blank&#34;&gt;http://www.icpress.co.uk/physics/p581.html&lt;/a&gt;. Je ne l&amp;#8217;ai pas encore trop lu, mais les auteurs présents témoignent du sérieux et du contenu intéressant du livre. Je retrouve en parcourant les pages de ce livres des notions de &lt;strong&gt;chimie quantique&lt;/strong&gt; enseignées à Centrale Marseille. Je ne suis donc pas si déçu que ça d&amp;#8217;avoir subit quelques années de chimie en plus.
   &lt;/li&gt;
 &lt;/ul&gt;
 

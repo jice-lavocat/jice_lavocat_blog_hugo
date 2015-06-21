@@ -4,7 +4,7 @@ author: Jice
 date: 2005-08-17
 permalink: /2005/08/customiser-une-board-de-windsurf-decoration/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/07/windsurfboard.jpg
+  - images/posts/oldwordpress/uploads/2009/07/windsurfboard.jpg
 btc_comment_counts:
   - 'a:0:{}'
 btc_comment_summary:
@@ -25,7 +25,7 @@ tags:
     </td>
     
     <td>
-      <img class="alignnone size-full wp-image-601" title="matos poncage" src="/images/posts/oldwordpress/uploads/2009/07/matos-poncage.jpg" alt="matos poncage" width="350" height="98" /><br /> <strong>Matos utilisé</strong>: &#8211; papier de verre<br /> <span style="color: #f3e3cb;"><span style="color: #ffffff;">.. &#8230; .. &#8230;.. &#8230;&#8230;.</span>.</span>- éponge humide
+      {{<img class="alignnone size-full wp-image-601" title="matos poncage" src="images/posts/oldwordpress/uploads/2009/07/matos-poncage.jpg" alt="matos poncage" width="350" height="98" /><br /> <strong>Matos utilisé</strong>: &#8211; papier de verre<br >}} <span style="color: #f3e3cb;"><span style="color: #ffffff;">.. &#8230; .. &#8230;.. &#8230;&#8230;.</span>.</span>- éponge humide
     </td>
   </tr>
 </table>
@@ -39,7 +39,7 @@ tags:
 <table style="width: 500px; height: 1074px;" border="0" cellspacing="7">
   <tr>
     <td width="51%">
-      <img class="alignnone size-full wp-image-602" title="dessin" src="/images/posts/oldwordpress/uploads/2009/07/dessin.jpg" alt="dessin" width="250" height="263" />
+      {{<img class="alignnone size-full wp-image-602" title="dessin" src="images/posts/oldwordpress/uploads/2009/07/dessin.jpg" alt="dessin" width="250" height="263" >}}
     </td>
     
     <td width="49%" valign="top">
@@ -75,13 +75,13 @@ tags:
     </td>
     
     <td>
-      <img class="alignnone size-full wp-image-603" title="pochoir" src="/images/posts/oldwordpress/uploads/2009/07/pochoir.jpg" alt="pochoir" width="250" height="248" /><br /> <strong>Matos utilisé: </strong>-la feuille de papier<br /> <span style="color: #ffffff;">.. &#8230; .. &#8230; .. .. &#8230;.</span>-un tube de colle<br /> <span style="color: #ffffff;">.. &#8230; .. &#8230;. . .. &#8230;.</span>-du scotch
+      {{<img class="alignnone size-full wp-image-603" title="pochoir" src="images/posts/oldwordpress/uploads/2009/07/pochoir.jpg" alt="pochoir" width="250" height="248" /><br /> <strong>Matos utilisé: </strong>-la feuille de papier<br /> <span style="color: #ffffff;">.. &#8230; .. &#8230; .. .. &#8230;.</span>-un tube de colle<br >}} <span style="color: #ffffff;">.. &#8230; .. &#8230;. . .. &#8230;.</span>-du scotch
     </td>
   </tr>
   
   <tr>
     <td>
-      <img class="alignnone size-full wp-image-604" title="peinture" src="/images/posts/oldwordpress/uploads/2009/07/peinture.jpg" alt="peinture" width="300" height="225" /><br /> <strong>Matos utilisé: </strong>-peinture pour voiture, Carlux<br /> <span style="color: #ffffff;">.. &#8230; .. &#8230; .. .. &#8230;.</span>-vieux journaux
+      {{<img class="alignnone size-full wp-image-604" title="peinture" src="images/posts/oldwordpress/uploads/2009/07/peinture.jpg" alt="peinture" width="300" height="225" /><br /> <strong>Matos utilisé: </strong>-peinture pour voiture, Carlux<br >}} <span style="color: #ffffff;">.. &#8230; .. &#8230; .. .. &#8230;.</span>-vieux journaux
     </td>
     
     <td>
@@ -106,12 +106,12 @@ tags:
       </p>
       
       <p align="justify">
-        (Voir <a href="/images/posts/oldwordpress/uploads/2009/07/mort.jpg" target="_blank">ici</a> pour une peinture pourrie, et voir l&#8217;image ci-dessous pour voir ce qu&#8217;on a réussi ? en faire)
+        (Voir <a href="images/posts/oldwordpress/uploads/2009/07/mort.jpg" target="_blank">ici</a> pour une peinture pourrie, et voir l&#8217;image ci-dessous pour voir ce qu&#8217;on a réussi ? en faire)
       </p>
     </td>
     
     <td>
-      <img class="alignnone size-full wp-image-605" title="fini" src="/images/posts/oldwordpress/uploads/2009/07/fini.jpg" alt="fini" width="300" height="225" />
+      {{<img class="alignnone size-full wp-image-605" title="fini" src="images/posts/oldwordpress/uploads/2009/07/fini.jpg" alt="fini" width="300" height="225" >}}
     </td>
   </tr>
 </table>
@@ -131,16 +131,16 @@ tags:
     </td>
     
     <td>
-      <img class="alignnone size-full wp-image-606" title="matosgrippe" src="/images/posts/oldwordpress/uploads/2009/07/matosgrippe.jpg" alt="matosgrippe" width="300" height="224" />
+      {{<img class="alignnone size-full wp-image-606" title="matosgrippe" src="images/posts/oldwordpress/uploads/2009/07/matosgrippe.jpg" alt="matosgrippe" width="300" height="224" >}}
     </td>
   </tr>
   
   <tr>
     <td>
-      <img class="alignnone size-full wp-image-608" title="regrippage" src="/images/posts/oldwordpress/uploads/2009/07/regrippage1.jpg" alt="regrippage" width="300" height="214" /></p> 
+      {{<img class="alignnone size-full wp-image-608" title="regrippage" src="images/posts/oldwordpress/uploads/2009/07/regrippage1.jpg" alt="regrippage" width="300" height="214" >}}</p> 
       
       <p>
-        <img src="image/sport/Custom_board/regrippage.jpg" alt="" /><br /> <strong>Matos utilisé: </strong>-pack Nautix grip (bassine et<br /> <span style="color: #ffffff;">.. &#8230; .. &#8230;.. &#8230;&#8230;..</span>rouleau fournis)</td> 
+        {{<img src="image/sport/Custom_board/regrippage.jpg" alt="" /><br /> <strong>Matos utilisé: </strong>-pack Nautix grip (bassine et<br >}} <span style="color: #ffffff;">.. &#8230; .. &#8230;.. &#8230;&#8230;..</span>rouleau fournis)</td> 
         
         <td>
           <p align="justify">

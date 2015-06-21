@@ -5,7 +5,7 @@ author: Jice
 date: 2009-08-15
 url: /2009/08/grovers-search-algorithm-in-python/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png
+  - images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png
 categories:
   - Quantum Information
 tags:
@@ -30,7 +30,7 @@ tags:
 </p>
 
 <h2 style="text-align: center;">
-  <a href="/images/posts/oldwordpress/uploads/2009/08/grover_simple.png"><img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="/images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" /></a>
+  <a href="images/posts/oldwordpress/uploads/2009/08/grover_simple.png">{{<img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" >}}</a>
 </h2>
 
 <h2 style="text-align: justify;">
@@ -58,7 +58,7 @@ tags:
 </p>
 
 <h2 style="text-align: center;">
-  <a href="/images/posts/oldwordpress/uploads/2009/08/grover_simple.png"><img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="/images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" /></a>
+  <a href="images/posts/oldwordpress/uploads/2009/08/grover_simple.png">{{<img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" >}}</a>
 </h2>
 
 <h2 style="text-align: justify;">
@@ -84,7 +84,7 @@ tags:
 </p>
 
 <p style="text-align: center;">
-  <a href="/images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png"><img class="aligncenter size-thumbnail wp-image-804" title="grover_thresh_1" src="/images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png" alt="grover_thresh_1" width="150" height="150" /></a>
+  <a href="images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png">{{<img class="aligncenter size-thumbnail wp-image-804" title="grover_thresh_1" src="images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png" alt="grover_thresh_1" width="150" height="150" >}}</a>
 </p>
 
 <p style="text-align: justify;">
@@ -98,4 +98,4 @@ tags:
   
   <p style="text-align: justify;">
 
- [1]: /images/posts/oldwordpress/uploads/2009/08/Grover.zip
+ [1]: images/posts/oldwordpress/uploads/2009/08/Grover.zip

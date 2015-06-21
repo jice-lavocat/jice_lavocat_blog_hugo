@@ -19,7 +19,7 @@ Le concept, mis au point par **Johannes S. Seldenthuis** et son équipe, se base
 
 Comme une image vaut mieux qu&#8217;un long discours, je vous laisse comprendre le principe par vous même :
 
-<img class="aligncenter" alt="Nano-moteur" src="/images/posts/oldwordpress/uploads/2010/11/nn-2010-021499_0002-295x300.gif" />
+{{<img class="aligncenter" alt="Nano-moteur" src="images/posts/oldwordpress/uploads/2010/11/nn-2010-021499_0002-295x300.gif" >}}
 
 <p style="text-align: justify;">
   Pour en savoir plus : <a title="Nanomoteur" href="http://pubs.acs.org/doi/full/10.1021/nn1021499" target="_blank">http://pubs.acs.org/doi/full/10.1021/nn1021499</a>

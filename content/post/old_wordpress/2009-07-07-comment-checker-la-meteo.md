@@ -5,7 +5,7 @@ author: Jice
 date: 2009-07-07
 url: /2009/07/comment-checker-la-meteo/
 Image:
-  - /images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg
+  - images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg
 categories:
   - Ma_Life.com
 tags:
@@ -13,7 +13,7 @@ tags:
   - Windsurf
 ---
 <p style="text-align: justify;">
-  <img class="alignleft size-full wp-image-598" style="margin: 5px;" title="rose-des-vents" src="/images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" height="150" />Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&#8217;expérience.<!--more-->
+  {{<img class="alignleft size-full wp-image-598" style="margin: 5px;" title="rose-des-vents" src="images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" height="150" >}}Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&#8217;expérience.<!--more-->
 </p>
 
 <p style="text-align: justify;">

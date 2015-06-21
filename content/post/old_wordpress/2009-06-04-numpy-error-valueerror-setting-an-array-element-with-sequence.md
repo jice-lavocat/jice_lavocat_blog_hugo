@@ -7,7 +7,7 @@ url: /2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/
 aktt_notify_twitter:
   - no
 Image:
-  - /images/posts/oldwordpress/uploads/2009/06/python.png
+  - images/posts/oldwordpress/uploads/2009/06/python.png
 btc_comment_counts:
   - 'a:0:{}'
 btc_comment_summary:
@@ -40,7 +40,7 @@ tags:
 
 <p style="text-align: justify;">
   <p style="text-align: justify;">
-    Instead, here is the solution I found after 4 hours looking everywhere on the web&#8230; finding nothing. This is my own solution, so if helped you, I would be very glad <img src="http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif" alt=":-D" class="wp-smiley" />
+    Instead, here is the solution I found after 4 hours looking everywhere on the web&#8230; finding nothing. This is my own solution, so if helped you, I would be very glad {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif" alt=":-D" class="wp-smiley" >}}
   </p>
   
   <p style="text-align: justify;">

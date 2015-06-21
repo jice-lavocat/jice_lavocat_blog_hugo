@@ -1,9 +1,9 @@
-baseurl = "http://jice.lavocat.name/blog"
+baseurl = "http://jice.lavocat.name/blog/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-BaseUrl= "http://jice.lavocat.name"
+BaseUrl= "http://jice.lavocat.name/blog/"
 LanguageCode= "fr-FR"
-Title= "Jice is Nice"
+Title= "Blog Jice Lavocat"
 paginate = 15
 DisqusShortname = "jicelavocat"
 Copyright = "All rights reserved - 2015"
