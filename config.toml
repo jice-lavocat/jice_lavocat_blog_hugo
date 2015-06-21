@@ -1,0 +1,38 @@
+baseurl = "http://jice.lavocat.name/blog"
+languageCode = "en-us"
+title = "My New Hugo Site"
+BaseUrl= "http://jice.lavocat.name"
+LanguageCode= "fr-FR"
+Title= "Jice is Nice"
+paginate = 5
+DisqusShortname = "tanzaho"
+Copyright = "All rights reserved - 2015"
+theme = "casperjice"
+
+[params]
+  description = "this is my description"
+  cover = "images/cover_polenord.jpg"
+  author = "Jean-Christophe Lavocat"
+  authorlocation = "Toulon, France"
+  authorwebsite = "http://jice.lavocat.name"
+  bio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/jice_lavocat" 
+  githubName = "tanzaho"
+  twitterName = "jice_lavocat"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+[[menu.main]]
+  name = "My Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jice is Nice</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sun, 21 Jun 2015 08:19:54 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>my post</title>
+      <link>http://localhost:1313/post/post-title/</link>
+      <pubDate>Sun, 21 Jun 2015 08:19:54 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/post-title/</guid>
+      <description>
+
+&lt;p&gt;I started to blog 11 years ago.
+The first blog system i used, was Dotclear, I moved to Wordpress few years after because of the large plugin and theme ressources available.
+Wordpress is a really good blog platform, but it updates itslef too often for me.&lt;/p&gt;
+
+&lt;p&gt;Few months ago, the blog moved to &lt;a href=&#34;https://ghost.org&#34;&gt;Ghost&lt;/a&gt;, a really minimalist blog system, based on nodejs.
+A KISS aproach to the blog, I falled in love.
+The only issue i had with Ghost was about the hosting dependencies, no hard to manage, but since i don&amp;rsquo;t master nodeJs, i spent too much hours to hack into.&lt;/p&gt;
+
+&lt;p&gt;I discovered HUGO.
+Hugo is a static blog generator, written with a language (GOLANG), i use everyday.&lt;/p&gt;
+
+&lt;p&gt;So, i moved from GHOST to HUGO hosted on Google App engine.&lt;/p&gt;
+
+&lt;h2 id=&#34;ghost-migration-to-hugo:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Ghost migration to Hugo&lt;/h2&gt;
+
+&lt;p&gt;Ghost and Hugo share the same markdown notation for posts content.
+The fist thing to do : extract posts from Ghost db (sqlite) to individual .md files and move them to HUGO/content/post/ folder.&lt;/p&gt;
+
+&lt;p&gt;The code I used to achieve this is here : &lt;a href=&#34;https://gist.github.com/vjeantet/d1f6cf824a2344dd6b4e&#34;&gt;GHOST_TO_HUGO.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next step, move GHOST/content directory to HUGO/static directory.
+This way all references like images keeps working.&lt;/p&gt;
+
+&lt;p&gt;Migration completed !&lt;/p&gt;
+
+&lt;h2 id=&#34;theme:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Theme&lt;/h2&gt;
+
+&lt;p&gt;The default theme on ghost was perfect for my blog, but unavailable on HUGO… So i ported the casper theme from GHOST to HUGO, you can find it here : &lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;hugo-theme-casper&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;publishing:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Publishing&lt;/h2&gt;
+
+&lt;h3 id=&#34;google-app-engine:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Google App Engine&lt;/h3&gt;
+
+&lt;p&gt;I added the GAE configuration file &lt;strong&gt;app.yaml&lt;/strong&gt; into the HUGO/static directory, to see it pushed to the Public directory each time i generate the blog.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ appcfg update public
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This Blog is now Proudly published with &lt;a href=&#34;http://gohugo.io&#34;&gt;HUGO&lt;/a&gt;, with a theme from Ghost (Casper) !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dotScale 2014 as a sketch</title>
+      <link>http://localhost:1313/post/dotscale-2014-as-a-sketch/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/dotscale-2014-as-a-sketch/</guid>
+      <description>&lt;p&gt;Contents here&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
