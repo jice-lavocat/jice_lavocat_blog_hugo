@@ -5,68 +5,1300 @@
     <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Jice is Nice</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
+    <language>en-us</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Sun, 21 Jun 2015 08:19:54 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My post</title>
-      <link>http://localhost:1313/post/post-title/</link>
-      <pubDate>Sun, 21 Jun 2015 08:19:54 +0200</pubDate>
+      <title>Installer WordPress sur Webfaction</title>
+      <link>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</link>
+      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/post-title/</guid>
+      <guid>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</guid>
       <description>
 
-&lt;p&gt;I started to blog 11 years ago.
-The first blog system i used, was Dotclear, I moved to Wordpress few years after because of the large plugin and theme ressources available.
-Wordpress is a really good blog platform, but it updates itslef too often for me.&lt;/p&gt;
+&lt;p&gt;J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Few months ago, the blog moved to &lt;a href=&#34;https://ghost.org&#34;&gt;Ghost&lt;/a&gt;, a really minimalist blog system, based on nodejs.
-A KISS aproach to the blog, I falled in love.
-The only issue i had with Ghost was about the hosting dependencies, no hard to manage, but since i don&amp;rsquo;t master nodeJs, i spent too much hours to hack into.&lt;/p&gt;
+&lt;p&gt;Webfaction, en gros, c&amp;#8217;est &lt;em&gt;comme un hébergeur mutualisé&lt;/em&gt; (où on ne doit pas se concentrer sur la sécurité et l&amp;#8217;installation de toutes les dépendances du serveur) mais avec &lt;strong&gt;plein d&amp;#8217;options pour configurer automatiquement le serveur&lt;/strong&gt;. Par exemple, sur un mutu, impossible d&amp;#8217;installer des stacks complexes comme ruby on rails ou node, alors que sur webfaction cela est possible et il n&amp;#8217;y a pas besoin de passer 3 heures à trouver comment installer toutes les dépendances.&lt;/p&gt;
 
-&lt;p&gt;I discovered HUGO.
-Hugo is a static blog generator, written with a language (GOLANG), i use everyday.&lt;/p&gt;
+&lt;h2 id=&#34;utilisation-du-dashboard:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Utilisation du dashboard&lt;/h2&gt;
 
-&lt;p&gt;So, i moved from GHOST to HUGO hosted on Google App engine.&lt;/p&gt;
+&lt;p&gt;Le panneau d&amp;#8217;administration de Webfaction est fait maison, il faut donc s&amp;#8217;habituer à la façon dont les informations sont présentées (c&amp;#8217;est pas long, mais voilà quoi) :&lt;/p&gt;
 
-&lt;h2 id=&#34;ghost-migration-to-hugo:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Ghost migration to Hugo&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1427&#34; alt=&#34;Dashboard Webfaction&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; width=&#34;600&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Ghost and Hugo share the same markdown notation for posts content.
-The fist thing to do : extract posts from Ghost db (sqlite) to individual .md files and move them to HUGO/content/post/ folder.&lt;/p&gt;
+&lt;p&gt;Dans la pratique (pas très grosse pour moi pour le moment), je trouve qu&amp;#8217;on perd un peu de temps entre les différents menus dans certains cas. Par exemple, dans domain/application/website, toutes les informations pourraient se trouver sur la même page avec un système d&amp;#8217;onglets. Bref, cela étant dit l&amp;#8217;ensemble reste quand même &lt;strong&gt;assez clair&lt;/strong&gt; et la &lt;strong&gt;prise en main est assez rapide&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;The code I used to achieve this is here : &lt;a href=&#34;https://gist.github.com/vjeantet/d1f6cf824a2344dd6b4e&#34;&gt;GHOST_TO_HUGO.php&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;création-d-8217-un-compte-ssh:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Création d&amp;#8217;un compte ssh :&lt;/h2&gt;
 
-&lt;p&gt;Next step, move GHOST/content directory to HUGO/static directory.
-This way all references like images keeps working.&lt;/p&gt;
+&lt;p&gt;Avant toute chose, allez vous créer un utilisateur qui a accès au ssh, ça sera beaucoup plus pratique dans le futur. Rendez-vous sur la page d&amp;#8217;&lt;a title=&#34;Création utilisateur ssh - webfaction&#34; href=&#34;https://my.webfaction.com/new-user&#34; target=&#34;_blank&#34;&gt;ajout d&amp;#8217;utilisateur&lt;/a&gt; et remplissez le formulaire (j&amp;#8217;ai pris &lt;em&gt;/bin/bash&lt;/em&gt; comme &lt;strong&gt;shell&lt;/strong&gt; mais ça n&amp;#8217;a pas de grosses implications). Vous verrez, même le choix du password est &amp;#8220;controlé&amp;#8221; et le système vous empêchera de créer un compte avec password &amp;#8220;faible&amp;#8221;.&lt;/p&gt;
 
-&lt;p&gt;Migration completed !&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1428&#34; alt=&#34;Add SSH user&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; width=&#34;300&#34; height=&#34;154&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;theme:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Theme&lt;/h2&gt;
+&lt;p&gt;Une fois ce compte créer, vous pouvez vous connecter à votre serveur depuis chez vous en utilisant aussi bien des outils de ftp (comme winscp) ou ssh (comme putty) pour voir ce qui se passe dessus (j&amp;#8217;ai un vieil article sur &lt;a title=&#34;Les outils pour administrer un serveur à distance - SFTP et SSH - Adminoob&#34; href=&#34;http://www.adminoob.com/2008/08/18/les-outils-windows-indispensables-a-ladministration-serveur-a-distance/&#34; target=&#34;_blank&#34;&gt;les outils pour administrer un serveur à distance&lt;/a&gt; si vous débutez).&lt;/p&gt;
 
-&lt;p&gt;The default theme on ghost was perfect for my blog, but unavailable on HUGO… So i ported the casper theme from GHOST to HUGO, you can find it here : &lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;hugo-theme-casper&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;créer-votre-site-wordpress-sur-webfaction:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Créer votre site WordPress sur Webfaction&lt;/h2&gt;
 
-&lt;h2 id=&#34;publishing:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Publishing&lt;/h2&gt;
+&lt;p&gt;Maintenant voici les étapes principales pour créer votre blog wordpress sur Webfaction.&lt;/p&gt;
 
-&lt;h3 id=&#34;google-app-engine:23c89e730caf6d7f2c5c4ee11eb465ea&#34;&gt;Google App Engine&lt;/h3&gt;
+&lt;h3 id=&#34;créer-un-8220-nouveau-site-web-8221:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Créer un &amp;#8220;nouveau site web&amp;#8221;&lt;/h3&gt;
 
-&lt;p&gt;I added the GAE configuration file &lt;strong&gt;app.yaml&lt;/strong&gt; into the HUGO/static directory, to see it pushed to the Public directory each time i generate the blog.&lt;/p&gt;
+&lt;p&gt;Rendez-vous dans la section &lt;em&gt;domains/websites&lt;/em&gt; et cliquez sur &lt;em&gt;Websites&lt;/em&gt; puis &lt;a title=&#34;Ajouter un site webfaction&#34; href=&#34;https://my.webfaction.com/new-website&#34; target=&#34;_blank&#34;&gt;Add a new website&lt;/a&gt;. Cette section va vous permettre de configurer (côté serveur) quelle application sera gérée par votre sous-domaine.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ appcfg update public
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Voilà  à quoi ressemblera votre &amp;#8220;site web&amp;#8221; après sa création :&lt;/p&gt;
 
-&lt;p&gt;This Blog is now Proudly published with &lt;a href=&#34;http://gohugo.io&#34;&gt;HUGO&lt;/a&gt;, with a theme from Ghost (Casper) !&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_website.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1431&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; width=&#34;600&#34; height=&#34;388&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour cela, donnez d&amp;#8217;abord un nom &amp;#8220;name&amp;#8221; à votre site web pour vous en rappeler facilement. Ensuite, il faut préciser quel domaine(s) et/ou sous-domaine(s) vont accéder à cette application. Pour cet exemple j&amp;#8217;en ai mis un seul :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; width=&#34;600&#34; height=&#34;81&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Enfin, il faut dire au serveur quel application (WordPress) nous allons héberger sur ce nom de domaine. Pour cela on crée une nouvelle application, et on choisira WordPress dans la liste proposée.&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_application.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1432&#34; alt=&#34;Ajouter une application (webfaction)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;  &lt;img class=&#34;aligncenter  wp-image-1434&#34; alt=&#34;Détail création d&#39;une application&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/new_application.png&#34; width=&#34;600&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  Faire pointer ses DNS vers Webfaction
+&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Après avoir sauvé cette configuration, il suffit d&amp;#8217;aller chez votre registar et faire pointer vos domaine vers votre serveur webfaction.L&amp;#8217;adresse IP du server est résumée dans votre liste d&amp;#8217;application :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_server.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1435&#34; alt=&#34;Adresse Ip de votre application sur webfaction&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_server.png&#34; width=&#34;600&#34; height=&#34;40&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Ci-dessus on voit que l&amp;#8217;adresse ip de mon nouveau serveur est &lt;em&gt;37.58.75.242&lt;/em&gt;. Je vais devoir aller pointer mon sous-domaine &lt;em&gt;wordpress.lavocat.name&lt;/em&gt; vers cette adresse IP. Vous allez créer un nouveau champ A qui pointera vers l&amp;#8217;adresse IP de votre serveur webfaction. Dans cet exemple, j&amp;#8217;utilise dreamhost comme registar (mais la manipulation se trouve expliquée facilement sur le web pour tous les registar) :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;img class=&#34;aligncenter size-full wp-image-1436&#34; alt=&#34;Configuration dns dreamhost&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_dreamhost.png&#34; width=&#34;600&#34; height=&#34;235&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Et comme beaucoup d&amp;#8217;entre vous sont aussi chez OVH, je mets ci-dessous à quoi ça ressemble :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_ovh.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1440&#34; alt=&#34;Configuration d&#39;un champs DNS A sous OVH&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_ovh.png&#34; width=&#34;479&#34; height=&#34;262&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Voilà, la configuration DNS et serveur est finie. Maintenant, passons à la base de données.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: left;&#34;&gt;
+  Connexion à votre nouveau Wordress sur Webfaction
+&lt;/h2&gt;
+
+&lt;p&gt;Voilà, l&amp;#8217;ensemble des opérations ont été accomplies. Si la propagation de DNS est finie (peut prendre de 5 minutes à lpusieurs heures), vous allez pouvoir accéder à votre nouveau blog à l&amp;#8217;adresse que vous avez uutilisée. Chez moi ça marche donc ici : &lt;a title=&#34;Wordpress de test sur webfaction&#34; href=&#34;http://wordpress.lavocat.name/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://wordpress.lavocat.name/&#34;&gt;http://wordpress.lavocat.name/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Maintenant, l&amp;#8217;essentiel est de vous y connecter pour le configurer et ajouter du contenu. Pour cela, vous devez retourner dans &lt;em&gt;Domains / Applications&lt;/em&gt; puis &lt;em&gt;Applications&lt;/em&gt; et cliquer sur le nom du blog que vous venez de créer. Dessus vous avez toutes les informations concernant votre site et la base de données qui a été créée en même temps. Votre login initial est &amp;#8220;admin&amp;#8221; et le mot de passe est affiché dans le tableau dans la section &amp;#8220;extra info&amp;#8221; :&lt;/p&gt;
+
+&lt;h2 id=&#34;img-class-aligncenter-size-full-wp-image-1443-alt-login-de-wordpress-généré-automatiquement-src-images-posts-oldwordpress-uploads-2014-03-login-wordpress-png-width-600-height-339-4:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/login_wordpress.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1443&#34; alt=&#34;Login de WordPress généré automatiquement&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/login_wordpress.png&#34; width=&#34;600&#34; height=&#34;339&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;voir-vos-fichiers:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Voir vos fichiers&lt;/h2&gt;
+
+&lt;p&gt;Pour voir vos fichiers, il faut vous connecter avec votre compte principal de FTP (et non pas celui créer spécialement pour le ssh au début). C&amp;#8217;est une situation un peu bizarre, mais j&amp;#8217;imagine que ça protège un peu plus vos one-click install.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>dotScale 2014 as a sketch</title>
-      <link>http://localhost:1313/post/dotscale-2014-as-a-sketch/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      <title>Web In Provence #1</title>
+      <link>http://localhost:1313/2014/02/web-in-provence-1/</link>
+      <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/dotscale-2014-as-a-sketch/</guid>
-      <description>&lt;p&gt;Contents here&lt;/p&gt;
+      <guid>http://localhost:1313/2014/02/web-in-provence-1/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je reprends la plume délaissée depuis un certain temps pour vous présenter un évènement auquel je viens d&amp;#8217;assister à Marseille. Il s&amp;#8217;agit du &lt;a title=&#34;Web In Provence&#34; href=&#34;http://www.webinprovence.fr/&#34; target=&#34;_blank&#34;&gt;Web In Provence&lt;/a&gt; , un apéro networking dédié aux acteur du web en &amp;#8230; Provence. L&amp;#8217;idée était d&amp;#8217;associer un apéro avec une conférence sur une tendance montante d&amp;#8217;internet. Pour cette première édition, les organisateurs (&lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://twitter.com/Flo__Hernandez&#34; target=&#34;_blank&#34;&gt;Florent&lt;/a&gt; &lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://plus.google.com/112373548303714842647/posts&#34; target=&#34;_blank&#34;&gt;Hernandez&lt;/a&gt; et &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://twitter.com/AlexDurain&#34; target=&#34;_blank&#34;&gt;Alexandre&lt;/a&gt; &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://plus.google.com/+AlexandreDurain_So-Buzz/posts&#34; target=&#34;_blank&#34;&gt;Durain&lt;/a&gt;) avaient choisi comme thème le &amp;#8220;&lt;strong&gt;Conception Web et Multi Device&lt;/strong&gt;&amp;#8221; . L&amp;#8217;invité de cet conférence était &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://twitter.com/stephane_m_&#34; target=&#34;_blank&#34;&gt;Stéphane&lt;/a&gt; &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://plus.google.com/102644824468826022899/about&#34; target=&#34;_blank&#34;&gt;Martin&lt;/a&gt; senior product designer chez &lt;a title=&#34;Stack Overflow&#34; href=&#34;http://stackoverflow.com/&#34; target=&#34;_blank&#34;&gt;Stack Overflow/Stack Exchange&lt;/a&gt; (la plateforme de questions/réponses dédiée aux programmeurs créé par &lt;a title=&#34;Jeff Atwood (Coding Horror)&#34; href=&#34;http://en.wikipedia.org/wiki/Jeff_Atwood&#34; target=&#34;_blank&#34;&gt;Jeff Atwood&lt;/a&gt;).
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1413&#34; alt=&#34;Stack Exchange Logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; width=&#34;300&#34; height=&#34;100&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;l-8217-avant-wip:0654f480a5355c245385ee4cb563f3ba&#34;&gt;L&amp;#8217;avant WIP&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;wp-image-1414 alignright&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Link Party&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; width=&#34;144&#34; height=&#34;150&#34; /&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;les-lieux:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les lieux&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  La soirée s&amp;#8217;est tenue au sein de &lt;a title=&#34;Group Union&#34; href=&#34;http://www.groupunion.fr/&#34; target=&#34;_blank&#34;&gt;Group&amp;#8217;Union&lt;/a&gt;, un espace de coworking marseillais dirigé par &lt;a title=&#34;Christophe Gautier&#34; href=&#34;http://fr.linkedin.com/pub/christophe-gauthier/57/6b5/224&#34; target=&#34;_blank&#34;&gt;Christophe Gautier&lt;/a&gt;. Endroit sympa, pas très grand, juste assez pour les 65 invités de la soirée. Pour l&amp;#8217;anecdote, j&amp;#8217;étais accompagné de Marie-George Clouet de &lt;a title=&#34;Graphemeride - Rédaction et Référencement Web&#34; href=&#34;http://www.graphemeride.com&#34; target=&#34;_blank&#34;&gt;Graphemeride&lt;/a&gt;, qui fut autrefois employée par l&amp;#8217;Alliance Française à Marseille. Eh bien les locaux de l&amp;#8217;alliance française se trouvaient exactement dans cette même pièce. Moment nostalgique lors de l&amp;#8217;arrivée dans les locaux.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Un sympathique buffet avait été organisé, avec une dégustation de vin préparée par &lt;a title=&#34;Compagnie des vignes&#34; href=&#34;http://www.compagniedesvignes.fr/&#34; target=&#34;_blank&#34;&gt;La compagnie des vignes&lt;/a&gt;, caviste à Marseille.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;la-conférence:0654f480a5355c245385ee4cb563f3ba&#34;&gt;La conférence&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je ne vais pas trop m&amp;#8217;étaler sur la&lt;strong&gt; conférence de Stéphane Martin&lt;/strong&gt;, très intéressante et expliquant les tendances et les nécessités pour les développeur de produits (qu&amp;#8217;ils soient designers ou développeurs) de penser évolutivité et adaptabilité, aussi bien pour le contenu qui s&amp;#8217;adapte au contenant, qu&amp;#8217;au contenu qui doit s&amp;#8217;adapter à l&amp;#8217;utilisateur final.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Il a insisté sur plusieurs points comme le &lt;strong&gt;responsive design&lt;/strong&gt; (une technique qui vous permet actuellement de toucher la plupart des devices) et l&amp;#8217;importance qu&amp;#8217;il y avait a employer plutôt une approche mobile-first (petit vers grand écran) que computer-first (grand écran vers petit). L&amp;#8217;accent a été mis aussi sur le &lt;a title=&#34;Lazy Loading&#34; href=&#34;http://en.wikipedia.org/wiki/Lazy_loading&#34; target=&#34;_blank&#34;&gt;lazy loading&lt;/a&gt; et l&amp;#8217;expérience utilisateur qui peut s&amp;#8217;étendre au delà du graphisme, sur l&amp;#8217;identité comportementale : par exemple, en utilisant toujours le &amp;#8220;double tap&amp;#8221; sur vos différentes applications (iOs, Android) pour interagir avec un objet, vous habituez l&amp;#8217;utilisateur à votre produit ; si il change de plateforme, il saura toujours utiliser l&amp;#8217;application de la même façon.
+&lt;/p&gt;
+
+&lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img class=&#34;size-medium wp-image-1415&#34; alt=&#34;Wip#1&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; width=&#34;300&#34; height=&#34;224&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Stéphane Martin explique la conception de produit web au Wip14 -&lt;em&gt;Photo par &lt;a title=&#34;Jfeyraud&#34; href=&#34;https://twitter.com/jfeyraud&#34; target=&#34;_blank&#34;&gt;@jfeyraud&lt;/a&gt;&lt;/em&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Enfin (je saute sur plein de détails, je mettrai le lien vers la vidéo lorsqu&amp;#8217;elle sera en ligne), il a expliqué que les techniques de fidélisation de l&amp;#8217;utilisateur passaient quasiment toujours par de la &lt;strong&gt;gamification&lt;/strong&gt; de nos jours. Qu&amp;#8217;on s&amp;#8217;entende bien sur gamification, je ne parle pas de jeux à l&amp;#8217;image de votre marque publiés sur Facebook. On retrouve souvent cette définition sur les sites francophones. Non, gamification doit s&amp;#8217;entendre comme un &lt;strong&gt;procédé d&amp;#8217;interaction ludique entre votre application et l&amp;#8217;utilisateur&lt;/strong&gt;.  Par exemple, sur les forums, on utilise souvent un système de &amp;#8220;karma&amp;#8221;, sur stack overflow, il y a un système de badges et de réputation. Dans ces deux cas, l&amp;#8217;utilisateur veut voir grandir sa &amp;#8220;réputation&amp;#8221; au sein de sa communauté, et va donc revenir souvent sur le site pour interagir avec les éléments qui lui donnent des &amp;#8220;bons points&amp;#8221; &amp;#8230; et oui, comme à l&amp;#8217;école primaire.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;les-rencontres:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les rencontres&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;img class=&#34;size-medium wp-image-1417 alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Business Card&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Comme j&amp;#8217;ai pu rencontrer pas mal de monde, je vais faire une liste assez rapide, j&amp;#8217;espère que les intéressés ne m&amp;#8217;en voudront pas si j&amp;#8217;ai un peu écorché leur histoire (vous êtes libres de venir réctifier en commentaire ci-dessous). Liste en ordre chronologique de rencontre &amp;#8230;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Comme j&amp;#8217;en au certainement oublié certains, faites un signe, et je vous rajoute.
+&lt;/p&gt;
+
+&lt;ul style=&#34;text-align: justify;&#34;&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Marie Chabani&#34; href=&#34;https://twitter.com/mariechabani&#34; target=&#34;_blank&#34;&gt;Marie Chabani&lt;/a&gt; : webmarketeuse France pour Trombi.com . Experte en Google adwords
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Thomas Meyer&#34; href=&#34;https://twitter.com/meyertee&#34; target=&#34;_blank&#34;&gt;Thomas Meyer&lt;/a&gt; : programmeur pour Redbull, fraichement arrivé de Berlin à Marseille. Travaille surtout sur le streaming des vidéos.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Jeremy Favret&#34; href=&#34;https://twitter.com/jeremy_favret&#34; target=&#34;_blank&#34;&gt;Jeremy Favret&lt;/a&gt; : qui propose une solution de création de site web avec du coaching et de la formation pour devenir indépendant vis à vis de son site web.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Jessy Seo Noob&#34; href=&#34;https://twitter.com/jessyseonoob&#34; target=&#34;_blank&#34;&gt;Jessy&lt;/a&gt; : un référenceur de Marseille avec un blog plein d&amp;#8217;&lt;a title=&#34;Blog SEO&#34; href=&#34;http://www.love-moi.fr/&#34; target=&#34;_blank&#34;&gt;amour du seo&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Philippe Stora&#34; href=&#34;https://twitter.com/p_stora&#34; target=&#34;_blank&#34;&gt;Philippe Stora&lt;/a&gt; : CTO chez &lt;a title=&#34;Eazieer - Music platform for talented artists&#34; href=&#34;https://www.eazieer.com&#34; target=&#34;_blank&#34;&gt;EAZIEER&lt;/a&gt; une plateforme qui a l&amp;#8217;air vraiment sympa pour les musicos dont le but est de  promouvoir les talents. Une équipe pleine de passion.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Benoit Wery&#34; href=&#34;https://twitter.com/benoitwery&#34; target=&#34;_blank&#34;&gt;Benoit Wery&lt;/a&gt; : Développeur full-stack (Symfony) chez Alhema de l&amp;#8217;appli &lt;a title=&#34;SociallyMap&#34; href=&#34;http://www.sociallymap.com&#34; target=&#34;_blank&#34;&gt;SociallyMap&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Yoan Martoglio&#34; href=&#34;https://twitter.com/Uchronik&#34; target=&#34;_blank&#34;&gt;Yoan Martoglio&lt;/a&gt; : Designer freelance d&amp;#8217;Aix en Provence de l&amp;#8217;agence &lt;a title=&#34;Designer Freelance&#34; href=&#34;http://www.uchronikart.fr&#34; target=&#34;_blank&#34;&gt;Uchronikart&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Juriste in the city&#34; href=&#34;https://twitter.com/Juristeinthecit&#34; target=&#34;_blank&#34;&gt;Olivia Mahieu&lt;/a&gt; : Blogueuse &lt;del&gt;juriste&lt;/del&gt; lifestyle basée elle aussi sur Aix en Provence. A visiter, son &lt;a title=&#34;Blog lifestyle&#34; href=&#34;http://juriste-in-the-city.fr&#34; target=&#34;_blank&#34;&gt;blog lifestyle&lt;/a&gt;, surtout si vous êtes une femme&amp;#8230;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Claude Falzon : &lt;a title=&#34;Compagnie des vignes - Cuviste Marseille&#34; href=&#34;http://www.compagniedesvignes.fr/&#34; target=&#34;_blank&#34;&gt;caviste marseillais&lt;/a&gt; qui proposait pendant la soirée ses vins en dégustation. C&amp;#8217;était LA personne avec qui discuter pendant cette soirée si vous aimez les arts de la table
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Christophe Cotin Valois&#34; href=&#34;https://twitter.com/ccvsonewbrain&#34; target=&#34;_blank&#34;&gt;Christophe Cotin Valois&lt;/a&gt; : designer et architecte de l&amp;#8217;information (sous entendu UI/UX) basé entre Marseille et Paris. Travaille en freelance à travers son &lt;a title=&#34;Agence de User Experience Design Marseille&#34; href=&#34;http://cotinvalois.com/&#34; target=&#34;_blank&#34;&gt;agence de design&lt;/a&gt; pour de grands groupes.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Voilà, n’hésitez pas à laisser un petit commentaire si vous étiez là. Au plaisir d&amp;#8217;une prochaine rencontre IRL.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comment j’ai triché à Samsung Launching People et pourquoi ils ont bien réagi</title>
+      <link>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
+      <pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
+      <description>
+
+&lt;p&gt;Toujours en cours actuellement, un concours mis en place par Samsung a récolté une très bonne visibilité sur la blogosphère française : Samsung Launching People. Dans cet article je vous explique comment il était possible de tricher à ce concours et comment Samsung gère la situation d&amp;#8217;une manière intelligente.&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Dans ma série de posts pour expliquer comment tricher sur le web, j&amp;#8217;aimerais aujourd&amp;#8217;hui vous parler du concours &lt;a title=&#34;Concours Facebokk Samsung&#34; href=&#34;https://apps.facebook.com/launchingpeople-fr/&#34; target=&#34;_blank&#34;&gt;Samsung Launching People&lt;/a&gt;. La dernière fois que j&amp;#8217;ai décrypté une technique de triche, c&amp;#8217;était à l&amp;#8217;occasion de &lt;a title=&#34;Triche aux Golden Blog Awards&#34; href=&#34;http://www.graphemeride.com/blog/comment-j-ai-triche-aux-golden-blog-awards&#34; target=&#34;_blank&#34;&gt;Golden Blog Awards&lt;/a&gt;. A l&amp;#8217;époque, la technique était très simple puisque les votes se faisaient par un simple clic. Dans le cas de Samsung, le jeu concours a été organisé sur Facebook. Il est en général plus difficile de tricher à ce genre de concours hébergés sur le géant des réseaux sociaux.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1384&#34; alt=&#34;Launching People&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; width=&#34;300&#34; height=&#34;230&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cependant, jusqu&amp;#8217;à présent (&lt;a title=&#34;Nouveaux types de concours facebook&#34; href=&#34;http://www.commentcamarche.net/news/5863033-concours-sur-facebook-les-applications-tierces-ne-sont-plus-requises&#34; target=&#34;_blank&#34;&gt;cela va changer&lt;/a&gt;), il était nécessaire de créer une application tierce pour faire son concours, l&amp;#8217;application étant hébergée par la société éditrice du concours. C&amp;#8217;est là que le bât blesse dans 95% des cas : les jeux concours sur le Web sont TOUS craquables, piratables sans le moindre souci lorsqu&amp;#8217;il s&amp;#8217;agit d&amp;#8217;un concours basé sur un score (nombre de points à obtenir, nombre de likes, etc). Pour ce que j&amp;#8217;en pense, &lt;strong&gt;les seuls jeux concours non craquables sont basés sur le système d&amp;#8217;instants gagnants&lt;/strong&gt;. C&amp;#8217;est la seule technique qui ne permet pas de piratage facile.&lt;/p&gt;
+
+&lt;h2 id=&#34;analyse-de-la-cible:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Analyse de la cible&lt;/h2&gt;
+
+&lt;p&gt;Le concours de Samsung visait à récompenser des idées de projets/startups. J&amp;#8217;avais soumis mon projet actuel (&lt;a title=&#34;WordiZ - Moteur de recherche de bloggeurs&#34; href=&#34;http://www.wordiz.it&#34; target=&#34;_blank&#34;&gt;WordiZ&lt;/a&gt;) à ce concours pour espérer attirer l&amp;#8217;attention. Pour arriver en demi-finale, le règlement précisait bien :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dès la mise en ligne des Projets sur la Page, les Supporters pourront afficher leur soutien à un ou plusieurs de ces Projets en cliquant sur le bouton « support » ou « supporter » dans la limite d’un clic par Projet, que ce dernier ait été ou non modifié.**&lt;/p&gt;
+
+&lt;p&gt;** Un jury désignera ensuite 5 Projets dans chaque catégorie parmi une &lt;em&gt;sélection&lt;/em&gt; de ceux ayant été les plus plébiscités.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Samsung avait déjà prévu les cas de triche. Cependant, pour être correct, ils auraient du préciser dans leur règlement ce que signifiait exactement cette &lt;em&gt;sélection&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bref, pour faire court et rapide : lors d&amp;#8217;un vote, si vous traciez les paquets envoyés entre votre PC et l&amp;#8217;application (avec &lt;a title=&#34;Http live header&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/live-http-headers/&#34; target=&#34;_blank&#34;&gt;http live header&lt;/a&gt; par exemple) vous receviez ce genre d&amp;#8217;informations :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Page appelée : &lt;a href=&#34;https://www.launchingpeople.fr/supporters/add.json&#34;&gt;https://www.launchingpeople.fr/supporters/add.json&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Envoi d&amp;#8217;information en POST : project_id=10858&amp;amp;app_user_id=42325&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Assez évident de comprendre les valeurs des informations envoyées :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;project_id = id du projet pour lequel l&amp;#8217;utilisateur vote&lt;/li&gt;
+&lt;li&gt;app_user_id : l&amp;#8217;id de l&amp;#8217;utilisateur qui vote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voilà, c&amp;#8217;est tout&amp;#8230; tiens tiens.. et si l&amp;#8217;on essayait de changer la valeur de &lt;em&gt;app_user_id&lt;/em&gt; ? On relance le paquet avec un injecteur quelconque, en changeant juste la variable app_user_id &amp;#8230; et là, ô surprise, mon projet a gagné un vote !&lt;/p&gt;
+
+&lt;h2 id=&#34;faire-monter-ses-votes-automatiquement-sur-facebook:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Faire monter ses votes automatiquement sur Facebook&lt;/h2&gt;
+
+&lt;p&gt;Après cette introduction rapide qui vous montre que même les grosses sociétés ne font pas attention à protéger leurs concours, voici le code du script que j&amp;#8217;ai utilisé pour rajouter une cinquantaine de votes par jour à mon projet. Il est écrit en PHP et je ne vous le détaillerai pas. De toute manière, vous ne pourrez plus vous en servir car les prochains concours Samsung changeront sans doute de stratégie&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;Le code vous montre deux choses : comment se connecter automatiquement à Facebook puis à injecter les faux votes. Ne faites pas trop de bêtises avec.&lt;/p&gt;
+
+&lt;p&gt;Le code est placé derrière un &amp;#8216;social lock&amp;#8217; . Pour voir le code, vous devrez soutenir mon projet wordiZ en partageant un petit message sur Twitter.&lt;/p&gt;
+
+&lt;p&gt;[sociallocker id=&amp;#8221;1392&amp;#8243;]&lt;/p&gt;
+
+&lt;p&gt;[php]&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?php&lt;/p&gt;
+
+&lt;p&gt;/* EDIT EMAIL AND PASSWORD */&lt;/p&gt;
+
+&lt;p&gt;$EMAIL = &amp;ldquo;user@gmail.com&amp;rdquo;; /* your facebook email address */&lt;/p&gt;
+
+&lt;p&gt;$PASSWORD = &amp;ldquo;zemegapassword&amp;rdquo;; /* your facebook password */&lt;/p&gt;
+
+&lt;p&gt;function cURL($url, $header=NULL, $cookie=NULL, $p=NULL, $referer=NULL){&lt;/p&gt;
+
+&lt;p&gt;$ch = curl_init();&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_HEADER, $header);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_NOBODY, $header);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_URL, $url);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_COOKIE, $cookie);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_USERAGENT, &amp;#8216;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:22.0) Gecko/20100101 Firefox/22.0&amp;#8242;);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 0);&lt;/p&gt;
+
+&lt;p&gt;if ($referer){&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_REFERER, $referer);&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;if ($p) {&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_CUSTOMREQUEST, &amp;ldquo;POST&amp;rdquo;);&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_POST, count($p));&lt;/p&gt;
+
+&lt;p&gt;curl_setopt($ch, CURLOPT_POSTFIELDS, $p);&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;$result = curl_exec($ch);&lt;/p&gt;
+
+&lt;p&gt;if ($result) {&lt;/p&gt;
+
+&lt;p&gt;echo &amp;ldquo;1&lt;br&gt;&amp;rdquo;;&lt;/p&gt;
+
+&lt;p&gt;return $result;&lt;/p&gt;
+
+&lt;p&gt;} else {&lt;/p&gt;
+
+&lt;p&gt;echo &amp;ldquo;2&amp;rdquo;;&lt;/p&gt;
+
+&lt;p&gt;return curl_error($ch);&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;curl_close($ch);&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;$a = cURL(&amp;ldquo;&lt;a href=&#34;https://login.facebook.com/login.php?login_attempt=1&amp;quot;,true,null,&amp;quot;email=$EMAIL&amp;amp;pass=$PASSWORD&amp;quot;&#34;&gt;https://login.facebook.com/login.php?login_attempt=1&amp;quot;,true,null,&amp;quot;email=$EMAIL&amp;amp;pass=$PASSWORD&amp;quot;&lt;/a&gt;);&lt;/p&gt;
+
+&lt;p&gt;preg_match(&amp;#8216;%Set-Cookie: ([^;]+);%&amp;#8217;,$a,$b);&lt;/p&gt;
+
+&lt;p&gt;$c = cURL(&amp;ldquo;&lt;a href=&#34;https://login.facebook.com/login.php?login_attempt=1&amp;quot;,true,$b[1],&amp;quot;email=$EMAIL&amp;amp;pass=$PASSWORD&amp;quot;&#34;&gt;https://login.facebook.com/login.php?login_attempt=1&amp;quot;,true,$b[1],&amp;quot;email=$EMAIL&amp;amp;pass=$PASSWORD&amp;quot;&lt;/a&gt;);&lt;/p&gt;
+
+&lt;p&gt;preg_match_all(&amp;#8216;%Set-Cookie: ([^;]+);%&amp;#8217;,$c,$d);&lt;/p&gt;
+
+&lt;p&gt;// 2 connexions needed to Facebook to keep the good cookie file&lt;/p&gt;
+
+&lt;p&gt;for($i=0;$i&amp;lt;count($d[0]);$i++)&lt;/p&gt;
+
+&lt;p&gt;$cookie.=$d[1][$i].&amp;ldquo;;&amp;rdquo;;&lt;/p&gt;
+
+&lt;p&gt;// echo $cookie;&lt;/p&gt;
+
+&lt;p&gt;/*&lt;/p&gt;
+
+&lt;p&gt;NOW TO JUST OPEN ANOTHER URL EDIT THE FIRST ARGUMENT OF THE FOLLOWING FUNCTION.&lt;/p&gt;
+
+&lt;p&gt;TO SEND SOME DATA EDIT THE LAST ARGUMENT.&lt;/p&gt;
+
+&lt;p&gt;*/&lt;/p&gt;
+
+&lt;p&gt;/* Avant de lancer le code, aller sur Launching People et récupérer un cookie (via http live header) pour lancer le code&amp;rdquo; */&lt;/p&gt;
+
+&lt;p&gt;$cookie_launching=&amp;ldquo;PHPSESSID=ega4ci3eh0cvkbt2j05ofqaef0; AWSELB=CBE1FB270C6941DFB66E8C12CA14F9B689E6A3DAE6F1066337DD36CAC51F25430D6984DE37EAE662EDAFF9580A0756BBD42971ACCD4AA8F387211187C71774EB0CBBAE2C86; fbsr_603746272976704=WiZA3GyRVIrFB1lbxNcUkD3VTLEryqVlCDMXJncVK-g.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImNvZGUiOiJBUUNpVi1aY0MwRzI2eS1ZLUxGVU5ESlkzM1FNTWpJZFBfTUM4TlBjcy04QW9abFpTTnJHWGE5NjBLMk16RmYwd3ZIUllCN0QzNk16UnJFS2xRNk1jUGZKUWlVNlRNSGNVXzlURUQ5QUlTU1o0M0htQ19ndUstZjdndUFWNk4yUWFPMS1GYWR6XzZXc3Q4OTlCUFpfbnJoOTVXZFpfUTJURDU5c3NUSFgwX1RmNmpNM2VoRTQzZEFfQUctU1czaGotem9PeXRpeGJpcnI3ZWFDdENNMzR0NU1hbV9tUWZRVDZMMnN6TGpIMkFJQlFaVWFlSHczaUNsM1ZuLWU0NjU4azJEVi1odm52d19MNFpjcXZPdXV5cV8xRkg4Q3UtVFNXcnFVRFdfamZKLWFQMkJkR3l3MURyanJKU2RGOTNXaHN3OCIsImlzc3VlZF9hdCI6MTM3NjQ3MjcyMSwidXNlcl9pZCI6IjU4ODI5ODAwNCJ9&amp;rdquo;;&lt;/p&gt;
+
+&lt;p&gt;for ($ii=0; $ii&amp;lt;10 ;  $ii++){&lt;/p&gt;
+
+&lt;p&gt;$appuser=rand(45325,49325);&lt;/p&gt;
+
+&lt;p&gt;$postfields = array(&lt;/p&gt;
+
+&lt;p&gt;&amp;#8216;app_user_id&amp;#8217;=&amp;gt;urlencode($appuser), // On itère sur les faux utilisateurs qui vont venir voter&lt;/p&gt;
+
+&lt;p&gt;&amp;#8216;project_id&amp;#8217;=&amp;gt;urlencode(&amp;ldquo;10858&amp;rdquo;) // l&amp;#8217;id de mon application &lt;a href=&#34;http://www.wordiz.it&#34;&gt;http://www.wordiz.it&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;);&lt;/p&gt;
+
+&lt;p&gt;$postdata=http_build_query($postfields);&lt;/p&gt;
+
+&lt;p&gt;echo $i;&lt;/p&gt;
+
+&lt;p&gt;echo cURL(&amp;ldquo;&lt;a href=&#34;https://www.launchingpeople.fr/supporters/add.json&amp;quot;,$header,$cookie_launching,$postdata,&amp;quot;https://www.launchingpeople.fr/project/trouver-des-influenceurs-pour-faire-passer-votre-message/&amp;quot;&#34;&gt;https://www.launchingpeople.fr/supporters/add.json&amp;quot;,$header,$cookie_launching,$postdata,&amp;quot;https://www.launchingpeople.fr/project/trouver-des-influenceurs-pour-faire-passer-votre-message/&amp;quot;&lt;/a&gt;);&lt;/p&gt;
+
+&lt;p&gt;sleep(rand(30,60)); // on attend un peu pour faire plus &amp;#8216;vrai&amp;#8217;&lt;/p&gt;
+
+&lt;p&gt;echo &amp;ldquo;&lt;br&gt;&amp;rdquo;;&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;?&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;[/php]&lt;/p&gt;
+
+&lt;p&gt;[/sociallocker]&lt;/p&gt;
+
+&lt;h2 id=&#34;pourquoi-faire-un-concours-à-vote:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Pourquoi faire un concours à vote?&lt;/h2&gt;
+
+&lt;p&gt;Au final, parmi les projet retenus, il n&amp;#8217;y a eu aucun des gros concurrents ayant reçu le plus de votes. J&amp;#8217;en conclu donc que le jury n&amp;#8217;a pas du tout tenu compte du nombre de votes pour faire son choix. Bien vu Samsung. Bonne opération marketing. Vu le nombre d&amp;#8217;inscrits au jeu, le concours a du rapporter à la société une base d&amp;#8217;environ 60 000 utilisateurs ayant voté.&lt;/p&gt;
+
+&lt;p&gt;Sur ce nombre, en admettant que 5%  des votants furent attirés par le lot offert en loterie à ceux qui laisseraient leur email, je pense que Samsung a collecté environ 5% x 60000 = 3000 emails de prospects. Je ne suis pas webmarketeur&amp;#8230; que pensez-vous de ces nombres?&lt;/p&gt;
+
+&lt;p&gt;Je pense que Samsung a bien géré ce concours. Tout d&amp;#8217;abord, il y avait une personne dédiée au concours qui approuvait les candidatures et répondait aux questions. Ensuite, le fait que le jury n&amp;#8217;ait pas pris en compte les votes est &amp;#8220;intelligent&amp;#8221; même si c&amp;#8217;est quand même un peu déplorable : j&amp;#8217;ai passé environ cinq heures à faire du networking pour obtenir les seuls 300 vrais votes reliés à mon compte (j&amp;#8217;avais fait publier des articles dans des blogs connus pour parler de moi et demander du soutien).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/samsung.png&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1385&#34; alt=&#34;WordiZ sur Launching People&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; width=&#34;300&#34; height=&#34;182&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;les-sociétés-qui-font-des-concours-sur-le-web:f793405d4b5e84d7e854da03128bd2fb&#34;&gt;Les sociétés qui font des concours sur le web&lt;/h2&gt;
+
+&lt;p&gt;Les sociétés qui font des concours sur le web se fichent en général de vraiment suivre les règles de leur concours. Elles savent en général que leur concours sera piraté et ne font rien pour empêcher que cela arrive. Leur but est simplement d&amp;#8217;attirer le plus de buzz possible sur leur application pour obtenir de nouveaux emails pour vendre leur produits.&lt;/p&gt;
+
+&lt;p&gt;Dans le passé je me suis souvent amusé à pirater les jeux concours de société comme Samsung, Redbull, LG, Microsoft, en faisant vraiment attention à finement mettre un score raisonnable, humain, ne jamais viser le premier lot etc. Jamais une seule fois je n&amp;#8217;ai reçu de prix. La morale à tout cela ? Rien, si ce n&amp;#8217;est que &lt;strong&gt;si vous êtes bloggeur vous pouvez vous inscrire à ma startup&lt;/strong&gt; &lt;a title=&#34;WordiZ - Moteur de recherche de bloggeurs&#34; href=&#34;http://www.wordiz.it&#34; target=&#34;_blank&#34;&gt;WordiZ (pour connaitre votre influence en tant que bloggeur)&lt;/a&gt; et si vous êtes une société de relation publique ou d&amp;#8217;inbound marketing, vous pouvez &lt;a href=&#34;mailto:ref@wordiz.it&#34; title=&#34;Commander des listing d&#39;influenceurs bloggeurs&#34;&gt;me commander&lt;/a&gt; des listing d&amp;#8217;influenceurs (pas cher pas cher).&lt;/p&gt;
+
+&lt;p&gt;Des questions? Laissez un commentaire ci-dessous je vous en prie.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Business Model : A framework for innovation</title>
+      <link>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</link>
+      <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  If you never heard about the&lt;strong&gt; 30-days startup challenge&lt;/strong&gt; that I am taking, then I suggest you to read the following &lt;a title=&#34;30 days startup challenge&#34; href=&#34;http://localhost/oldblog/tag/30-days-challenge/&#34; target=&#34;_blank&#34;&gt;list of articles&lt;/a&gt;. Today we will disclose the business model behind &lt;a title=&#34;WordiZ&#34; href=&#34;http://www.wordiz.it&#34; target=&#34;_blank&#34;&gt;WordiZ&lt;/a&gt;, the application we are creating. By doing this, I am of course aware of confidential issues, but I have the feeling that &lt;strong&gt;people tend to be lazy and stealing ideas take some energy&lt;/strong&gt;. Since I am also some steps ahead from I will describe here, the concept given is the one I wrote down 2 weeks ago, and it as slightly evolved.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  So let&amp;#8217;s start. If I am not clear and if you don&amp;#8217;t understand the core of the business, just post a comment at the end of the blog post.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;img-class-alignright-size-full-wp-image-1368-alt-logo-wordiz-src-images-posts-oldwordpress-uploads-2013-06-logo-square-125-png-width-126-height-65-1-what-is-wordiz-for:bee392ce472234e8975e3927201fc468&#34;&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1368&#34; alt=&#34;Logo WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png&#34; width=&#34;126&#34; height=&#34;65&#34; /&gt;&lt;/a&gt;What is WordiZ for?&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Before entering into the topic, let me try to  briefly explain our application : &lt;em&gt;WordiZ is a job board dedicated to web copywriters journalists and bloggers.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: justify;&#34;&gt;
+  Search Engine Optimization, Content and Social Media Optimization
+&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Search Engine Optimization (&lt;em&gt;SEO&lt;/em&gt;) has always been promoting &lt;strong&gt;quality content&lt;/strong&gt; and pushing for &lt;strong&gt;quality over quantity&lt;/strong&gt;. This has never really happened, and the history of SEO if full with&lt;strong&gt; Google bombing stories&lt;/strong&gt; where basically a page is sent on the top position of google due to many incoming links. Indeed a webpage is defined by a URL (web address) and search engines can retrieve&lt;strong&gt; how many incoming links&lt;/strong&gt; are pointing toward the URL.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;aligncenter size-full wp-image-1369&#34; alt=&#34;Content is King&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg&#34; width=&#34;520&#34; height=&#34;302&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  However, the advent of social networks (twitter, facebook, google+) has changed the landscape. Nowadays in addition to incoming links, search engines can also ask social networks &lt;strong&gt;how many time an article has been shared or liked&lt;/strong&gt;. This contribute to what I call the &lt;strong&gt;social impact&lt;/strong&gt; or&lt;strong&gt; social factor&lt;/strong&gt;. People work on the Social Marketing Optimization (&lt;em&gt;SMO&lt;/em&gt;).  So, to make a long story short, an article with many links is well ranked on Google, but an article with many links AND many likes/shares would rank better.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;img class=&#34;aligncenter  wp-image-1370&#34; alt=&#34;SEO and SMO&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg&#34; width=&#34;360&#34; height=&#34;260&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Of course all this is dynamic, and if your page ranks number one today, it will not stay like this forever. Competitors are in the same race.
+&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: justify;&#34;&gt;
+  Hiring famous bloggers to rank better
+&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  So assume now that you have your website and would like to get more visitors. You will try to be first on Google. For this, often you will need fresh and new content each week/day on your website. A common strategy for SEO people, is to &lt;strong&gt;add a blog&lt;/strong&gt; to your website, and &lt;strong&gt;post new articles quite often&lt;/strong&gt;. However, writing and posting an article is quite tedious sometimes. &lt;em&gt;&lt;strong&gt;Here comes &lt;a title=&#34;WordiZ - Hire copywriters and bloggers&#34; href=&#34;http://www.wordiz.it&#34; target=&#34;_blank&#34;&gt;WordiZ&lt;/a&gt;.&lt;/strong&gt;&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft  wp-image-1371&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Happy Writer working on WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg&#34; width=&#34;200&#34; /&gt;By hiring professional bloggers and copywriters you get two things. First you get some &lt;strong&gt;content&lt;/strong&gt;, but this is not new (see &lt;a href=&#34;#competitors&#34;&gt;section below&lt;/a&gt;). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus&lt;strong&gt;, bring fans&lt;/strong&gt; to read your webpage. Even if it is not the case, John Doe is an &lt;strong&gt;influential blogger&lt;/strong&gt;, so, no doubt that your page will &lt;strong&gt;receive lots of coverage&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;WordiZ is the platform which will allow you to do the following :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;look for writers specialized in your topic&lt;/li&gt;
+&lt;li&gt;rank them by celebrity/influence&lt;/li&gt;
+&lt;li&gt;ask them to work for you&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the writer side, a job on WordiZ is &lt;strong&gt;more rewarding&lt;/strong&gt; than being hired to be a ghost writer. Your articles will keep your name on them, you will still keep the property of your writings, and you can &lt;strong&gt;build your influence&lt;/strong&gt; on the topic you love.&lt;/p&gt;
+
+&lt;h3 id=&#34;competitors:bee392ce472234e8975e3927201fc468&#34;&gt;Competitors&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  So far, many content providers and selling content for cheap rates. They are basing their strategy on anonymous authors creating content in gross amount. They take some percentage on the transaction and the business is done. This is good when you can promote your content and do some SEO / Social Marketing to help people discovering &amp;#8220;your&amp;#8221; articles. However, this is &lt;strong&gt;not a win-win situation&lt;/strong&gt;. Many professional bloggers/copywriters &lt;strong&gt;cannot survive with the rates&lt;/strong&gt; offered by these platforms. Offshore workers are often found among the mass-writers of such platforms.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+   Our service will be different. Instead of providing cheap anonymous content, we will provide content at the right
+&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-a-business-model:bee392ce472234e8975e3927201fc468&#34;&gt;What is a business model&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  A &lt;em&gt;business model&lt;/em&gt; is made for people to rapidly understand how your business works and how it will bring you some cash. The main goal of a business should be to&lt;strong&gt; bring value to your customers&lt;/strong&gt;. This should be the central thing you keep in mind when you develop your business model. To know more about this, I strongly suggest you to read &lt;a title=&#34;Guy Kawasaki&#34; href=&#34;http://www.guykawasaki.com/&#34; target=&#34;_blank&#34;&gt;Guy Kawasaki&lt;/a&gt;&amp;#8216;s book &amp;#8221; &lt;a href=&#34;http://www.amazon.fr/gp/product/B000QJLQY4/ref=as_li_ss_tl?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=B000QJLQY4&amp;linkCode=as2&amp;tag=jicelavo-21&#34;&gt;The Art of the Start&lt;/a&gt;&amp;#8220;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &amp;#8220;&lt;a href=&#34;http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=0470876417&amp;linkCode=as2&amp;tag=jicelavo-21&#34;&gt;Business Model Generation&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important;&#34; alt=&#34;&#34; src=&#34;http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&amp;l=as2&amp;o=8&amp;a=0470876417&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; /&gt;&amp;#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &amp;#8220;Matrix&amp;#8221;. It&amp;#8217;s visual, it&amp;#8217;s simple, and it allows flexibility (for creation and  interpretation).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  To summarize the action of WordiZ, I created this matrix for my readers. You can view several facts I did not discuss above. This matrix is evolving a lot. Whenever I have new ideas, I put them on it (not on the PDF below). The matrix help me to keep a broad overview of the project.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  If you have any questions, do not hesitate to post a comment below.
+&lt;/p&gt;
+
+&lt;p&gt;[sociallocker id=&amp;#8221;1363&amp;#8243;]&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a title=&#34;Business Model WordiZ&#34; href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Business Model Generation for WordiZ&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png&#34; width=&#34;600&#34; height=&#34;450&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a title=&#34;Busines Model WordiZ&#34; href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf&#34; target=&#34;_blank&#34;&gt;Click to download the PDF version&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[/sociallocker]&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-you-prepare-your-business-model:bee392ce472234e8975e3927201fc468&#34;&gt;How do you prepare your business model?&lt;/h2&gt;
+
+&lt;p&gt;Now it is your turn. Let us know if you have ever used the Business Model matrix. Do you have any trick to plan things coherently? Drop us a line of comment below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a logo for the 30-days startup chalenge – 30DSTART – Day 7</title>
+      <link>http://localhost:1313/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</link>
+      <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</guid>
+      <description>
+
+&lt;p&gt;If you arrive on this post by a direct link or from Google, I suggest you to read the last two posts on the 30days startup challenge : &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a title=&#34;How to find a name for a startup&#34; href=&#34;http://localhost/oldblog/2013/05/30dstart-day-4-startup-name/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, let&amp;#8217;s go to the main topic of my article : how to design a logo for the startup. Well, it&amp;#8217;s not going to be a nice tutorial like the ones you can find on &lt;a title=&#34;Smashing Mad - Webdesign&#34; href=&#34;http://www.smashingmagazine.com&#34; target=&#34;_blank&#34;&gt;Smashing Magazine&lt;/a&gt;. Here I won&amp;#8217;t give you any method, just some tools I used to design my logo.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-font:a2cac112dde8b199720b50e158f79c27&#34;&gt;The font&lt;/h2&gt;
+
+&lt;p&gt;According to me, the font of a logo is a really important signal to express what is the &amp;#8220;character&amp;#8221; of the company. To find your ideal font there is one resource you should use : &lt;a title=&#34;Fonts Squirrel&#34; href=&#34;http://www.fontsquirrel.com/&#34; target=&#34;_blank&#34;&gt;Font Squirrel&lt;/a&gt; Font. It allows you to preview your text in different font and download them. They have only free fonts that are licensed for commercial work. So far so good right? The nice thing is also they have a nice classification system which allows to find what you need easily.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.fontsquirrel.com/&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1342&#34; alt=&#34;Font Squirrel&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/font_squirrel-300x246.png&#34; width=&#34;300&#34; height=&#34;246&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What The Font is a very useful service if you like a font you have seen somewhere on the web, and want to know what font is used. I wanted to keep my font secret, and let you use &lt;a title=&#34;What The Font&#34; href=&#34;http://www.myfonts.com/WhatTheFont/&#34; target=&#34;_blank&#34;&gt;What The Font&lt;/a&gt; service to discover it&amp;#8230; but unfortunately WTF does not work for my logo (it is a bit modified).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.myfonts.com/WhatTheFont/&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1343&#34; alt=&#34;What the Font&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/what_the_font-300x257.png&#34; width=&#34;300&#34; height=&#34;257&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;graphical-elements:a2cac112dde8b199720b50e158f79c27&#34;&gt;Graphical Elements&lt;/h2&gt;
+
+&lt;p&gt;Sometimes you need to add some graphical elements to your logo, like a flower or anything simple. For this, you have the main tool called &lt;a title=&#34;The Noun Project&#34; href=&#34;http://thenounproject.com/&#34; target=&#34;_blank&#34;&gt;The Noun Project&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://thenounproject.com/&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1341&#34; alt=&#34;The Noun Project&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/the_noun_project-300x239.png&#34; width=&#34;300&#34; height=&#34;239&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;designing-the-final-logo:a2cac112dde8b199720b50e158f79c27&#34;&gt;Designing the final logo&lt;/h2&gt;
+
+&lt;p&gt;To design the logo which should represent WordiZ, I used the free software &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. It is a vectorial designing tool, so that you can create strange shapes, play with points on their path, and zoom without quality loss.&lt;/p&gt;
+
+&lt;p&gt;To understand the logo (see below), I have to give you what designers call a &amp;#8220;design brief&amp;#8221; (I may be wrong on the term, please correct me if necessary). The letter &amp;#8216;W&amp;#8217; has three increasing steps. It represents the search engine ranking positions (&lt;a title=&#34;serp&#34; href=&#34;http://en.wikipedia.org/wiki/Search_engine_results_page&#34; target=&#34;_blank&#34;&gt;SERP&lt;/a&gt;) of our customers. By using our service, their position on Google will increase. It could also be related to any measure of success for their business (clients, buzz, etc.). The colors have been chosen to appear soft and smooth but also clear and elegant. The final letter, in opposition, is there to increase the impact of the name. The pencil at the end is representing the action of &amp;#8220;writing&amp;#8221; which is the core product that our startup will offer. What do you think about it?&lt;/p&gt;
+
+&lt;p&gt;Sorry to put the social toll; but by clicking it you will help WordiZ before its even officially released. Great isn&amp;#8217;t it?&lt;/p&gt;
+
+&lt;p&gt;[sociallocker id=&amp;#8221;1346&amp;#8243;]&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1344&#34; alt=&#34;WordiZ logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png&#34; width=&#34;500&#34; /&gt;&lt;/a&gt;[/sociallocker]
+&lt;/p&gt;
+
+&lt;h2 id=&#34;inspiration-for-your-logo:a2cac112dde8b199720b50e158f79c27&#34;&gt;? Inspiration for your logo&lt;/h2&gt;
+
+&lt;p&gt;I found useful, during my reflexion about my logo, to get some inspiration elsewhere. I can recommand you to browse &lt;a title=&#34;Pinterest&#34; href=&#34;http://pinterest.com/&#34; target=&#34;_blank&#34;&gt;Pinterest&lt;/a&gt; and use some keywords to find what you need. One website which helped me was ABDUZEEDO and their inspriation/&lt;a title=&#34;Abduzeedo&#34; href=&#34;http://abduzeedo.com/tags/logo&#34; target=&#34;_blank&#34;&gt;logo section&lt;/a&gt;. Have a look, you might get inspired.&lt;/p&gt;
+
+&lt;p&gt;Do you have any other ideas for logos? Just drop a comment below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>30DSTART – Day 4 – Startup Name</title>
+      <link>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</link>
+      <pubDate>Sat, 25 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</guid>
+      <description>
+
+&lt;p&gt;For those who don&amp;#8217;t know about the 30-days Startup Challenge, please have a look at my &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;explanation here&lt;/a&gt;. The post of today will explain in detail how I selected the &lt;strong&gt;name of the startup&lt;/strong&gt;, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.&lt;/p&gt;
+
+&lt;h2 id=&#34;initial-feedback:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Initial feedback&lt;/h2&gt;
+
+&lt;p&gt;You have been almost 300 people to read the first article (and I got no comment via the blog). I exchanged many emails since last Monday, and I should say that the overall &lt;strong&gt;feedback&lt;/strong&gt; is really &lt;strong&gt;positive&lt;/strong&gt; and &lt;strong&gt;motivating&lt;/strong&gt; for me. Thanks to the first article, 10 more people signed up to the newsletter, which is quite a good number. If you want to receive the last updates, I strongly suggest you to do the same :&lt;/p&gt;
+
+&lt;div class=&#34;subscribe&#34;&gt;
+  &lt;div class=&#34;subscribe-pitch&#34;&gt;
+    &lt;h3&gt;
+      Subscribe
+    &lt;/h3&gt;
+    
+    &lt;p&gt;
+      Subscribe to our newsletter to follow the 30-days startup challenge twice a week.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now let&amp;#8217;s go into the important matter : How I discovered the name of my startup. You will learn a marketing technique called &lt;a title=&#34;A/B testing&#34; href=&#34;http://en.wikipedia.org/wiki/A/B_testing&#34; target=&#34;_blank&#34;&gt;A/B testing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1-finding-a-name-for-the-startup:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Step 1: Finding a name for the startup&lt;/h2&gt;
+
+&lt;h3 id=&#34;brainstorming-a-name:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Brainstorming a name&lt;/h3&gt;
+
+&lt;p&gt;The first move one should make to find a name is a &lt;strong&gt;brainstorming&lt;/strong&gt;. To do that, I recommend you to read the complete article from &lt;em&gt;&lt;a href=&#34;http://twitter.com/cezinho&#34; target=&#34;_blank&#34;&gt;Cezary Pietrzak&lt;/a&gt;&lt;/em&gt; on Mashable : &lt;a title=&#34;Finding a startup name&#34; href=&#34;http://mashable.com/2012/10/04/startup-naming/&#34; target=&#34;_blank&#34;&gt;16 Tips for Picking the Perfect Startup Name&lt;/a&gt;. I followed his &lt;strong&gt;methodology&lt;/strong&gt; more or less.&lt;/p&gt;
+
+&lt;p&gt;Basically, what I did was to start by obvious &lt;strong&gt;words describing the idea&lt;/strong&gt; : &lt;em&gt;words, text, author, simple, quality, expert, job, pro, freelance&lt;/em&gt;. Then I developed with &lt;strong&gt;figurative concepts&lt;/strong&gt; and synonyms : &lt;em&gt;hire me, blog, time saved, pencil, keyboard, screen, web, upload, letters, sentence, paragraphe, phrase, press, discussions, voice, news, writer, desk, workflow, expression, say, curator&amp;#8230;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s a long list, but it&amp;#8217;s just the start. You can&amp;#8217;t really name your startup with one of those. So the last step was to make either a &lt;strong&gt;combination&lt;/strong&gt; of these words, or to make them &lt;strong&gt;sound similar to the concept&lt;/strong&gt;s. Here is a shortlist of the different ideas that I wrote down at this point : &lt;em&gt;wordio, voicedesk, best voice, voiceo, voicity, authority, bestsay, sayit, wordeero, kiwordz, voiceero, best voice, bevoice&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;shortlisting-the-candidates:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Shortlisting the candidates&lt;/h3&gt;
+
+&lt;p&gt;Okay, that&amp;#8217;s quite a long list. How was I able to select only three or four candidates out of that? I used my friends/colleagues and social networkers. I created a &lt;strong&gt;google form&lt;/strong&gt; to ask them exactly this : &amp;#8220;Which is the best name in this list to describe the value I want to bring to people, say (promoting copywriters skills and help webmasters/seo agency to hire them)&amp;#8221; ?&lt;/p&gt;
+
+&lt;p&gt;I left the question opened overnight. In addition to the result depicted below, I got some &lt;strong&gt;suggestions from people&lt;/strong&gt;. One had been added to the list : &lt;em&gt;scribens&lt;/em&gt; . Hat tip to &lt;a title=&#34;Arromazam Pepe&#34; href=&#34;https://plus.google.com/112241543943924051468/posts&#34; target=&#34;_blank&#34;&gt;Pepe Arromazam&lt;/a&gt; for the smart suggestion. Below is the graphical result of these votes :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1276&#34; alt=&#34;Names suggested for the 30 days startup project&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; width=&#34;625&#34; height=&#34;320&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trick&lt;/strong&gt; : in the google form, add an &amp;#8220;email&amp;#8221; field to collect your initial list of email addresses. These initial people have seen the first step of your business, they might be really &lt;strong&gt;valuable&lt;/strong&gt; latter.&lt;/p&gt;
+
+&lt;h3 id=&#34;picking-the-right-one-8211-a-b-testing:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Picking the right one &amp;#8211; A/B testing&lt;/h3&gt;
+
+&lt;p&gt;Out of the big names above, I did not like &lt;em&gt;Proauthors&lt;/em&gt; at all, so I removed it from the list I was going to test. I preferred &lt;em&gt;Phraseo&lt;/em&gt; instead, but I guess that in English it sounds worst than in French. I had a last-minute intuition and added &lt;em&gt;WordiZ&lt;/em&gt; to the 3 winners :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ScribenS&lt;/li&gt;
+&lt;li&gt;WordiZ&lt;/li&gt;
+&lt;li&gt;AuthorShop&lt;/li&gt;
+&lt;li&gt;Voicty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found this last step of AB-testing your names very smart. I used the &lt;a title=&#34;Picking a name for a startup&#34; href=&#34;http://www.startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/&#34; target=&#34;_blank&#34;&gt;idea from Will Mitchell&lt;/a&gt; from StartupBros. The whole point is that the &lt;strong&gt;best choice&lt;/strong&gt; is the one that would do your &lt;strong&gt;clients&lt;/strong&gt;. So why not let &lt;strong&gt;the crowd deciding&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img class=&#34;size-medium wp-image-1280 aligncenter&#34; alt=&#34;Logo Header Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; width=&#34;300&#34; height=&#34;196&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/possible_names.zip&#34;&gt;four logos&lt;/a&gt; with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1281 aligncenter&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; width=&#34;300&#34; height=&#34;255&#34; /&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;The service is really nice because you can then follow which page received the &lt;strong&gt;highest conversion rate&lt;/strong&gt;. It also saves the email addresses so that you can use the database afterward. Also, &lt;a title=&#34;Oli Gardner&#34; href=&#34;https://plus.google.com/108308137946313926397/posts&#34; target=&#34;_blank&#34;&gt;Oli Gardner&lt;/a&gt; the co-founder and creative director is really nice and can sometime answer your questions if you have some.&lt;/p&gt;
+
+&lt;h3 id=&#34;bring-some-traffic-to-your-landing-page:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Bring some traffic to your landing page&lt;/h3&gt;
+
+&lt;p&gt;That part has been the worst experience of these 4 days. According to Will Mitchell, bringing traffic with Facebook was easy &amp;#8230; No it wasn&amp;#8217;t !! First, you have to place some ads on &lt;strong&gt;Facebook ads page&lt;/strong&gt;. Once it&amp;#8217;s done, the ads have to be accepted : for me it took three days ! Really &lt;strong&gt;longer than what I expected&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another negative feeling I had was related to the new kind of ads : the &amp;#8220;newsfeed ads&amp;#8221; that appear in between your friends posts. I personally find it too intrusive, but the problem is not even there. If you buy this kind of ads, then Facebook will make you pay for any click on the advertisement. And, as Facebook requires this kind of ad to be linked to a Facebook Page, I lost almost 50 clicks because their were sent to my Facebook page and not to the actual landing page. So follow my advice, &lt;strong&gt;avoid Facebook ads&lt;/strong&gt; (at least the newsfeed ads).&lt;/p&gt;
+
+&lt;p&gt;Alternatives remain however. The cheapest is to take part in discussions on social networks like &lt;strong&gt;Google+ Communities, Twitter, LinkedIn Groups&lt;/strong&gt; or some web forums. That&amp;#8217;s the one I chose and the ROI is amazingly higher than Facebook. Otherwise, you can also buy some Google adword ads.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-the-startup-will-be-called-8230:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;So the startup will be called &amp;#8230;&lt;/h2&gt;
+
+&lt;p&gt;Ladies and Gentlemen, the final name of my 30-days startup challenge is :&lt;/p&gt;
+
+&lt;p&gt;[sociallocker]&lt;/p&gt;
+
+&lt;div class=&#34;box aligncenter&#34;&gt;
+  &lt;p style=&#34;text-align: center;&#34;&gt;
+    &lt;strong style=&#34;font-family: Times New Roman,Times,serif; font-size: 18px; font-weight: bold;&#34;&gt;WordiZ&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I already reserved a domain name to put the website.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  [/sociallocker]
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Summary
+&lt;/h2&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
+  &lt;tr&gt;
+    &lt;th scope=&#34;col&#34;&gt;
+      Description
+    &lt;/th&gt;
+    
+    &lt;th scope=&#34;col&#34;&gt;
+      Number
+    &lt;/th&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td colspan=&#34;2&#34;&gt;
+      &lt;em&gt;The above data were averaged, please do not sue me &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;br /&gt; &lt;/em&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Time spent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      3 hours per night = 12 hours
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Money spent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Facebook ads + Domain names = 40€ ($51)
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      People in the mailing list
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      35
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Prospect
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      38
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  What next
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  As my creative skills are really poor,&lt;strong&gt; I am looking for someone to create a logo&lt;/strong&gt; that would correspond to the startup. If you are a designer and want to help me, just leave me a message and let&amp;#8217;s start interacting !
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I also realized while writing my article that my English has become terrible, so if some native speaker could have the time to&lt;strong&gt; proofread my blogposts&lt;/strong&gt;, that would be very nice &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Having said that, the next steps for me are : &lt;strong&gt;creating a mock-up&lt;/strong&gt; of the application and&lt;strong&gt; decide which web framework&lt;/strong&gt; should be used. I currently have three frameworks in mind, but don&amp;#8217;t know which one to select : &lt;em&gt;Ruby on Rails, Django &lt;/em&gt;and&lt;em&gt; Symfony&lt;/em&gt;. I was quite attracted by Ruby, but I read in different places on the web that the code is difficult to maintain and to exchange. Web people, I need your help on this matter.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &amp;#8212;
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Edit : Finding competitors
+&lt;/h2&gt;
+
+&lt;p&gt;I did not want to start worrying about competitors at this stage, but this has come quicker than expected. While writing a tweet to Cezary to thanks him for the mashable article, I found him mentionning a potential competitor :&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet align-center&#34;&gt;
+  &lt;p&gt;
+    congrats to @&lt;a href=&#34;https://twitter.com/justinbelmont&#34;&gt;justinbelmont&lt;/a&gt; on launching @&lt;a href=&#34;https://twitter.com/prose&#34;&gt;prose&lt;/a&gt;, a service that helps brands write great content
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    — Cezary Pietrzak (@cezinho) &lt;a href=&#34;https://twitter.com/cezinho/status/337956437261156355&#34;&gt;May 24, 2013&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The service that &lt;a title=&#34;Prose&#34; href=&#34;http://www.prosemedia.com/&#34; target=&#34;_blank&#34;&gt;Prose&lt;/a&gt; is offering is slightly different than what we will offer. However, it&amp;#8217;s good to keep an eye on them, &amp;#8230; friendly &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt; Nice name by the way guys.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The 30-days Startup Challenge</title>
+      <link>http://localhost:1313/2013/05/the-30-days-startup-challenge/</link>
+      <pubDate>Wed, 22 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/05/the-30-days-startup-challenge/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I have not been writing on my blog for many months now. This was probably to learn more and more from online readings and share experience with friends. As you may know, I am still working on PhD degree (Italy//Spain) in the field of nanotechnologies. However, I recently decided to try a &lt;strong&gt;quick and intensive challenge&lt;/strong&gt;. Let&amp;#8217;s call it the « &lt;strong&gt; 30-days startup challenge&lt;/strong&gt;  ».
+&lt;/p&gt;
+
+&lt;div id=&#34;attachment_1267&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-1267&#34; alt=&#34;30-days startup challenge&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg&#34; width=&#34;300&#34; height=&#34;214&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    30-days startup challenge
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;the-30-days-startup-challenge:458ffc3cb429acf6465e98c920a8cfe7&#34;&gt;The 30-days startup challenge&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  As you guess from the title, I will dedicate 30 days in the &lt;strong&gt;creation of a web startup&lt;/strong&gt;&amp;#8230; Well, I should say 30 evenings since my days are booked in the lab. I will try to dedicate some time after each milestone reached, to write a summary on my blog. To follow my adventures, you can &lt;strong&gt;register to the mailing list&lt;/strong&gt; below.
+&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  All kind of help will be appreciated from you, so do not hesitate to &lt;strong&gt;comment, criticize, share, and talk about my project&lt;/strong&gt;. At the moment the project has barely started so I don&amp;#8217;t feel a lot of pressure, but later I guess I would be tempted to stop, so your help will be the strongest motivation I could receive.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I will try to make this experience as much &lt;strong&gt;pedagogical&lt;/strong&gt; as possible. At the end of each blog post you will find a table with a summary of different numbers :&lt;em&gt; time spent, money spent, money received, people involved&lt;/em&gt;.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;step-0-the-idea:458ffc3cb429acf6465e98c920a8cfe7&#34;&gt;Step 0  : The idea&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  To make a long story short, let&amp;#8217;s summarize the project and day 0 (Monday 20th May).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First, the project has two main targets  : &lt;strong&gt;content producers&lt;/strong&gt; (journalists, web copyrighter,s bloggers) and &lt;strong&gt;publishers/brand promoters&lt;/strong&gt; (e-magazine, webmasters, SEO agencies, and PR agencies).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Here is the value proposition for each market segment  :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;For writers&lt;/span&gt;  : Promoting your writing skills and expertise and providing you with job offers and clients&lt;/li&gt;
+&lt;li&gt;For publishers  : Finding the best writer for your business&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  This is the end of the first post. In the next post, I will explain you how I selected the&lt;strong&gt; name of the startup&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  How to follow me
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First thing is to &lt;strong&gt; subscribe to the mailing list&lt;/strong&gt; to follow the complete challenge. You can also &lt;strong&gt;follow me on&lt;/strong&gt; &lt;a title=&#34;Profile google+&#34; href=&#34;https://plus.google.com/u/0/113400244614302404694/posts?tab=XX&amp;authuser=0&#34; target=&#34;_blank&#34;&gt;Google+&lt;/a&gt; or &lt;a title=&#34;Twitter - Jean-Christophe Lavocat&#34; href=&#34;https://twitter.com/jice_lavocat&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; if you want. On twitter and Google+, please use the hashtag #30DSTART to mention the challenge. That will make conversation easier to occur.
+&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elevage de Sentimancho</title>
+      <link>http://localhost:1313/2012/10/elevage-de-sentimancho/</link>
+      <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2012/10/elevage-de-sentimancho/</guid>
+      <description>
+
+&lt;p&gt;Je participe actuellement à une épreuve d&amp;#8217;élevage de &lt;a href=&#34;http://www.presstor.fr&#34; target=&#34;_blank&#34; title=&#34;Ma passion du Sentimancho&#34;&gt;sentimancho&lt;/a&gt;. J&amp;#8217;aimerais vous faire partager ma passion pour cette sous-branche du référencement et vous en dire un peu plus.&lt;/p&gt;
+
+&lt;h2 id=&#34;qu-8217-est-ce-que-le-sentimancho:b79840b9480efc84e7e76231ab2cf69f&#34;&gt;Qu&amp;#8217;est-ce que le sentimancho&lt;/h2&gt;
+
+&lt;p&gt;Le sentimancho est le nom tiré d&amp;#8217;une épreuve française de référencement. Le but à atteindre est de &lt;strong&gt;se positionner le mieux possible avec son sentimancho dans le classement&lt;/strong&gt; d&amp;#8217;un moteur de recherche français.&lt;/p&gt;
+
+&lt;p&gt;En rajoutant des textes pertinents sur son site web ou en liant des accords avec des amis, le site concours va monter progressivement et se détachera de ses concurrents. La plupart de ceux-ci se caractérisent par l&amp;#8217;emploi de techniques &amp;#8220;bas de gamme&amp;#8221;, basé sur le &lt;strong&gt;spam&lt;/strong&gt; et la pollution de pages web non protégées.&lt;/p&gt;
+
+&lt;p&gt;Derrière ce business se trouvent des gens avec peu de scrupules qui ne se préoccupent pas d&lt;a href=&#34;http://www.zdnet.fr/actualites/le-web-propre-un-nouvel-outil-au-service-de-l-efficacite-energetique-39768664.htm&#34; target=&#34;_blank&#34; title=&#34;Optimiser l&#39;usage du web&#34;&gt;&amp;#8216;optimiser l&amp;#8217;usage du web&lt;/a&gt; ni de participer à une course de plus en plus effrénée aux ressources énergétique (une recherche sur google consomme quelques gramme de CO2).&lt;/p&gt;
+
+&lt;h2 id=&#34;comment-aider-le-vrai-sentimancho:b79840b9480efc84e7e76231ab2cf69f&#34;&gt;Comment aider le vrai Sentimancho&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;a href=&#34;http://www.presstor.fr&#34; target=&#34;_blank&#34; title=&#34;Le vrai Sentimancho c&#39;est Presstor.fr&#34;&gt;vrai sentimancho&lt;/a&gt;, celui élevé à la campagne a toutefois besoin d&amp;#8217;aide pour exister. Sans votre aide, pas de réussite possible. Donc si vous :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;me connaissez et voulez me rendre un petit service&lt;/li&gt;
+&lt;li&gt;aimez la nature et n&amp;#8217;aimez pas le gaspillage de ressources énergétiques&lt;/li&gt;
+&lt;li&gt;n&amp;#8217;aimez pas le spam&lt;/li&gt;
+&lt;li&gt;voulez faire un petit article sur le référencement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je vous incite à faire la chose suivante : écrivez un petit article sur votre blog concernant le référencement et/ou le sentimancho et faite un lien vers Presstor.fr. Pour celà, vous n&amp;#8217;avez qu&amp;#8217;à copier directement la ligne suivante :&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&amp;#8221;http://www.presstor.fr&amp;#8221; title=&amp;#8221;sentimancho&amp;#8221;&gt;sentimancho&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    En faisant cela, vous aiderez mon site de manière organique, et le monde du web ne s&amp;#8217;en sentira que mieux.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;
+      Merci d&amp;#8217;avance,
+    &lt;/p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  &amp;amp;nbsp; JICE
+&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to transfer money from USD ($) to EUR (€) accounts</title>
+      <link>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</link>
+      <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</guid>
+      <description>&lt;p&gt;Since I will soon have to &lt;strong&gt;transfer my money from an USD&lt;/strong&gt; ($) &lt;strong&gt;bank account&lt;/strong&gt; (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://philadelphieaccueil.superforum.fr/t1271-transfert-d-argent-des-usa-vers-la-france-a-moindre-frais&#34; title=&#34;Transférer $ USD vers € EUR&#34;&gt;http://philadelphieaccueil.superforum.fr/t1271-transfert-d-argent-des-usa-vers-la-france-a-moindre-frais&lt;/a&gt; &amp;#8211; read the 4th message (&lt;a href=&#34;http://translate.google.fr/translate?sl=fr&amp;amp;tl=en&amp;amp;js=n&amp;amp;prev=_t&amp;amp;hl=fr&amp;amp;ie=UTF-8&amp;amp;layout=2&amp;amp;eotf=1&amp;amp;u=http%3A%2F%2Fphiladelphieaccueil.superforum.fr%2Ft1271-transfert-d-argent-des-usa-vers-la-france-a-moindre-frais&amp;amp;act=url&#34;&gt;English Translation&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pomsinadelaide.com/forum/money-finance/19410-did-you-use-www-currencyonline-com.html&#34;&gt;http://www.pomsinadelaide.com/forum/money-finance/19410-did-you-use-www-currencyonline-com.html&lt;/a&gt; &amp;#8211; more interesting&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;My quest for bank/currency transfers came through &amp;#8216;bank-to-bank&amp;#8217; transfers, &amp;#8216;Western Union&amp;#8217;, &lt;a href=&#34;https://www.paypal.com&#34; title=&#34;Paypal&#34;&gt;Paypal&lt;/a&gt; and &lt;a href=&#34;https://www.xoom.com/sendmoneynow/home&#34;&gt;XOOM&lt;/a&gt;. But the final solution I found was to use a dedicated online transfer company. There exist several of them (part of them listed in the second link above). I also followed the advice of &lt;a href=&#34;http://www.pomsinadelaide.com/forum/money-finance/19410-did-you-use-www-currencyonline-com.html#post145331&#34;&gt;Mark Xpnist&lt;/a&gt; and asked for a quotation to the following three companies :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hifx.co.uk/&#34;&gt;https://www.hifx.co.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.satworldwide.co.uk/&#34;&gt;http://www.satworldwide.co.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.currencyonline.com/&#34;&gt;http://www.currencyonline.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will try to find time to update this blogpost as soon as I have some replies.&lt;/p&gt;
+
+&lt;p&gt;A good ressource for currency conversion : &lt;a href=&#34;http://www.xe.com&#34; title=&#34;Currencies conversion&#34;&gt;http://www.xe.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;____ EDIT &amp;#8211; March 14th _&lt;em&gt;__&lt;/em&gt;____&lt;/p&gt;
+
+&lt;p&gt;I decided to test &amp;#8216;Currency Online&amp;#8217; (I picked up this one at random). In order to test the service, I first prepared a payment of $100 USD to EUR . Two fees were applied on my payment. The first one comes from Currency Online, the second comes from my bank.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Currency Online will charge a fee on bank transfer that are less than $5000 USD worth. Above that amount, there will be no fee.&lt;/li&gt;
+&lt;li&gt;Wells Fargo will charge $3 USD for a transfer below $2000 to a non wells fargo  account. Above that amount, the fee increases to $10.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, for my $100 USD transfer, I finally had to pay $107.&lt;/p&gt;
+
+&lt;p&gt;Next time, I plan to transfer &amp;gt;$5000 &amp;#8230; so I will pay $10.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implementing microdata schema.org in  Yootheme ZOO</title>
+      <link>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
+      <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-1211&#34; style=&#34;margin: 0pt 10px;&#34; title=&#34;schema-org-logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; alt=&#34;&#34; width=&#34;128&#34; height=&#34;80&#34; /&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1212&#34; title=&#34;zoo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  You can download it straith away, or read the &amp;#8216;readme&amp;#8217; file below to get an idea of the product :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  [easyfileshop id=1202]
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;em&gt;Tested only with &lt;strong&gt;Zoo 2.4 for Joomla 1.5&lt;/strong&gt;&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;em&gt;You can try it for free if you have an existing working platform Joomla 1.6 with ZOO 2.4 installed. You should contact me directly and I&amp;#8217;ll send you the file. You&amp;#8217;ll tell me if some bugs are present, and you&amp;#8217;ll help the community.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: left;&#34;&gt;
+  Read Me File
+&lt;/h2&gt;
+
+&lt;p&gt;** Schema.org implementation under Yootheme ZOO component **&lt;br /&gt;
+Author : Jean-Christophe Lavocat&lt;br /&gt;
+Email : jice@nauka-websites.com&lt;br /&gt;
+Date : July 2011&lt;br /&gt;
+*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;***&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction:f941726f20c0dc8ea314964f0c043408&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Add a new option to the text and image fields of ZOO. This new option helps to give a context to the content types you create by using ZOO. For example : your create a recipe content type, it could give the following information : &lt;a href=&#34;http://schema.org/Recipe&#34;&gt;http://schema.org/Recipe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation:f941726f20c0dc8ea314964f0c043408&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Browse your website installation, and go to the ZOO application that you want to update. The installation have to be done application by application. For instance, if you are using the application &amp;#8220;Blog&amp;#8221; got to : &amp;#8220;joomlabase/media/zoo/applications/blog&amp;#8221;. You should unzip the folder &amp;#8220;elements&amp;#8221; there.&lt;/p&gt;
+
+&lt;p&gt;Go to your administration panel and check which template you are using for your content type. Remember this template name as &amp;#8220;templatename&amp;#8221;. You should then go to &amp;#8220;joomlabase/media/zoo/applications/blog/templates/templatename/&amp;#8221; and unzip the folder &amp;#8220;renderer&amp;#8221; there.&lt;/p&gt;
+
+&lt;p&gt;The new architecture should add the following folders.&lt;/p&gt;
+
+&lt;p&gt;/applications/blog/&lt;br /&gt;
+elements/&lt;br /&gt;
+&amp;#8230;/&lt;/p&gt;
+
+&lt;p&gt;/applications/blog/template/templatename/renderer/&lt;br /&gt;
+/element/&lt;br /&gt;
+&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;Finally, go to the view you want to include schema.org : probably it will be the &amp;#8220;full&amp;#8221; view. Go to &amp;#8220;/joomlabase/media/zoo/applications/blog/templates/templatename/renderer/item&amp;#8221; and open &amp;#8220;full.php&amp;#8221;. You have to manually add the good schema type at the beginning of the file, and close it at the end. Suppose you are displaying a recipe, put the line :&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;div itemscope itemtype=&#34;http://schema.org/Recipe&#34;&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;in the first html output (say, after the first &amp;#8220;?&amp;gt;&amp;#8221;). Add a &amp;#8220;&lt;/div&gt;&amp;#8221; at the very end of this file :&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;/div&amp;gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;configuration:f941726f20c0dc8ea314964f0c043408&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;Go to the setting of your content type in the administration panel. Edit the fields of the view you just modified.&lt;br /&gt;
+You should now be able to :&lt;br /&gt;
+1) give a schema.org label to all the text field&lt;br /&gt;
+2) give a schema.org label to the main title, or specify if it is an author profile page.&lt;br /&gt;
+3) add a default picture label to one of your picture&lt;br /&gt;
+4) give the label &amp;#8220;url&amp;#8221; to the links&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&#34;attachment_1214&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignright&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1214&#34; title=&#34;schemafield&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;245&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    A new &#34;Schema.org Label&#34; appears now, where you can specify your content
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&#34;verification:f941726f20c0dc8ea314964f0c043408&#34;&gt;Verification&lt;/h2&gt;
+
+&lt;p&gt;To verify your item pages, copy paste their url to :&lt;br /&gt;
+&lt;a href=&#34;http://www.google.com/webmasters/tools/richsnippets&#34;&gt;http://www.google.com/webmasters/tools/richsnippets&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;help-troubleshootings-faq:f941726f20c0dc8ea314964f0c043408&#34;&gt;Help / Troubleshootings / FAQ&lt;/h2&gt;
+
+&lt;p&gt;Any questions should be sent to jice@nauka-websites.com. You should specify in your email :&lt;br /&gt;
+1) which version of ZOO you are using&lt;br /&gt;
+2) the description of your problem&lt;br /&gt;
+3) the URL where the error is visible&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;The files are available to download on the following link :&lt;/p&gt;
+
+&lt;p&gt;[easyfileshop id=1202]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tested only with &lt;strong&gt;Zoo 2.4 for Joomla 1.5&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can try it for free if you have an existing working platform Joomla 1.6 with ZOO 2.4 installed. You should contact me directly and I&amp;#8217;ll send you the file. You&amp;#8217;ll tell me if some bugs are present, and you&amp;#8217;ll help the community.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YOOtheme Zoo – Integration of Google &#43;1</title>
+      <link>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;I wanted to add a &lt;a title=&#34;Google plus&#34; href=&#34;http://www.google.com/webmasters/+1/button/&#34; target=&#34;_blank&#34;&gt;google +1 button&lt;/a&gt; to my website. As I am using YOOtheme zoo CCK component, I add to create a new &amp;#8220;element&amp;#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &amp;#8230; and custom applications).&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-install:345b1b82bdef3219e2043f73275173d8&#34;&gt;How to install&lt;/h3&gt;
+
+&lt;p&gt;Download the archive : &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip&#34;&gt;ZOOelement Googleplus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, unzip the files in your folder : &lt;em&gt;/base_installation_folder/media/zoo/elements.&lt;/em&gt; You will see a new folder named &amp;#8220;googleplus&amp;#8221;.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-setup:345b1b82bdef3219e2043f73275173d8&#34;&gt;How to setup&lt;/h3&gt;
+
+&lt;p&gt;You can configure all the options except the language. To change the language, you&amp;#8217;ll need to do it by yourself and modify your global template.&lt;/p&gt;
+
+&lt;p&gt;To add the google +1 button to a content, go to your zoo configuration panel, and select the application where you want this button to appear. Modify the elements appearing in this type of applications, and add the &amp;#8220;Google +1&amp;#8243;. The configuration is pretty transparent.&lt;/p&gt;
+
+&lt;h3 id=&#34;note:345b1b82bdef3219e2043f73275173d8&#34;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;In the case you are using this button without printing the number of +1s, I took the privilege of adding a small modification to the code, to promote my websites. One out of 10 buttons will actually be +1ing one of my websites. If you want to remove it, it&amp;#8217;s up to you, but you could also considering it as a small reward for the time I spent on it for you.&lt;/p&gt;
+
+&lt;h3 id=&#34;questions:345b1b82bdef3219e2043f73275173d8&#34;&gt;Questions&lt;/h3&gt;
+
+&lt;p&gt;Don&amp;#8217;t hesitate to post comment for precisions or bug corrections.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yootheme Zoo – Modifying the Frontend submission editor</title>
+      <link>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</link>
+      <pubDate>Wed, 16 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-1212 alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &amp;#8220;trusted mode&amp;#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Here is the trick. Activate the trusted mode, but then, made a code modification to hide the &amp;#8220;administration&amp;#8221; panel in frontend. Here is the code you have to change on &lt;strong&gt;line 40&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir&lt;/em&gt;/components/com_zoo/partials/_submission.php&lt;/strong&gt;** __**&lt;/p&gt;
+
+&lt;p&gt;[cc lang=&amp;#8221;php&amp;#8221;]echo $this-&amp;gt;partial(&amp;#8216;administration&amp;#8217;);[/cc]&lt;/p&gt;
+
+&lt;p&gt;should be commented :&lt;/p&gt;
+
+&lt;p&gt;[cc lang=&amp;#8221;php&amp;#8221;]// echo $this-&amp;gt;partial(&amp;#8216;administration&amp;#8217;);[/cc]&lt;/p&gt;
+
+&lt;p&gt;[Edit] The old hack was the following&lt;span style=&#34;text-decoration: line-through;&#34;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;Here is the line you have to change on&lt;strong&gt; line 265 &lt;/strong&gt;in &lt;strong&gt;&lt;em&gt;/joomla_base_dir&lt;/em&gt;/administrator/components/com_zoo/elements/textarea/textarea.php&lt;/strong&gt;&lt;strong&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;[cc lang=&amp;#8221;php&amp;#8221;]if ($trusted_mode) {[/cc]&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;should be transformed to&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;[cc lang=&amp;#8221;php&amp;#8221;]if ($trusted_mod || !$trusted_mode) {[/cc]Or some other modification on the &amp;#8220;if&amp;#8221; instruction.That&amp;#8217;s it, you are done with the hack.&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yootheme Zoo – Modifying the number of articles on Frontpage</title>
+      <link>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</link>
+      <pubDate>Sat, 22 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.&lt;/p&gt;
+
+&lt;p&gt;Here is the line you have to change on &lt;strong&gt;line 232&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir/components/com_zoo/controllers/default.php&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;]// get item pagination 
+$items_per_page = $params-&amp;gt;get(&#39;config.items_per_page&#39;, 15);[/cc]&lt;/pre&gt;
+
+&lt;p&gt;should be transformed to&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;]// get item pagination
+$items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_per_page&#39;, 15)[/cc]&lt;/pre&gt;
+
+&lt;h2 id=&#34;advanced-hack:f51301b9d676bc650155715a57cf9bbe&#34;&gt;Advanced hack&lt;/h2&gt;
+
+&lt;p&gt;If you want you can add a new parameter in the configuration to be able to change that number in backend. Here is the code :&lt;/p&gt;
+
+&lt;p&gt;In the file_ &lt;strong&gt;joomla_base_dir/media/zoo/applications/blog/application.xml&lt;/strong&gt;_ add the following new line at &lt;strong&gt;line 22&lt;/strong&gt; :&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;][/cc]&lt;/pre&gt;
+
+&lt;p&gt;Modify on &lt;strong&gt;line 232&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir/components/com_zoo/controllers/default.php&lt;/em&gt;&lt;/strong&gt; , it should now read :&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;]$items_per_page = $category_id == 0 ? $params-&amp;gt;get(&#39;config.items_per_frontpage&#39;, 5) : $params-&amp;gt;get(&#39;config.items_per_page&#39;, 15);[/cc]&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Expat : la TV Française à l’étranger</title>
+      <link>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</link>
+      <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img style=&#34;float: left; margin-left: 20px; margin-right: 20px;&#34; title=&#34;Arte&#34; src=&#34;http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png&#34; alt=&#34;Arte&#34; width=&#34;150&#34; height=&#34;113&#34; /&gt;Suite à mon post sur &amp;#8220;&lt;a title=&#34;Regarder Arte ou Roland Garros depuis l&#39;étranger&#34; href=&#34;http://localhost/oldblog/2009/05/regarder-arte-rolland-garros-de-letranger/&#34;&gt;Comment regarder Arte ou Roland Garros à l&amp;#8217;étranger&lt;/a&gt;&amp;#8221; (top ten de vos lectures sur mon blog), un évènement récent me pousse à écrire la suite. Informé de cela par &lt;strong&gt;Daniel Nicollet&lt;/strong&gt;, l&amp;#8217;auteur de la pétition que je citais à la fin de mon article, je pense qu&amp;#8217;il est utile pour ceux d&amp;#8217;entre vous qui sont expatriés, de lire son message. Ci-dessous je vous retranscris son email (un peu long, mais au moins vous aurez compris le message ;-D ).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: justify;&#34;&gt;
+  Manifeste de la culture française libre pour les expatriés
+&lt;/h3&gt;
+
+&lt;p&gt;Chers Amis,&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Mon nom est Daniel Nicollet.  Je suis l&amp;#8217;auteur d&amp;#8217;un &lt;strong&gt;pétition &lt;/strong&gt;que vous avez signé il y a quelques temps concernant la diffusion interrompue des programmes d&amp;#8217;Arte et d&amp;#8217;autre chaînes de télévision Française sur Internet (&lt;strong&gt;géo-blocage&lt;/strong&gt;):  &lt;a href=&#34;http://en.origoterra.com/LK&#34; target=&#34;_blank&#34;&gt;http://en.origoterra.com/LK&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ceci ne concerne &lt;strong&gt;plus seulement les téléspectateurs d&amp;#8217;Arte &lt;/strong&gt;puisque presque toutes les chaînes présente&lt;strong&gt; une majorités de programmes géo-bloqués&lt;/strong&gt; dans de nombreux pays (France Télévision, LCI, M6, Canal+, etc.)!  Donc faites passer ce message a tous vos amis et faites les signer notre pétition (&lt;a href=&#34;http://en.origoterra.com/LK&#34; target=&#34;_blank&#34;&gt;http://en.origoterra.com/LK&lt;/a&gt;) et prendre le sondage!
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le moment est venu d&amp;#8217;agir a nouveau.  Un nouveau service va voir le jour pour &lt;strong&gt;mettre en ligne un bouquet de chaînes Françaises&lt;/strong&gt; (n&amp;#8217;incluant pas ARTE pour l&amp;#8217;instant) et &lt;strong&gt;IFOP viens de lancer un sondage&lt;/strong&gt; dont vous pouvez influencer les résultats en y répondant ici maintenant:  &lt;a href=&#34;http://www.ifoponline.fr/B6/cgi-bin/ciwweb.pl?studyname=FB&amp;ID=2456&amp;MDP=sd4d5s&amp;hid_pagenum=1&amp;hid_link=1&amp;hid_javascript=1&#34; target=&#34;_blank&#34;&gt;Sondage IFOP pour la diffusion des chaines françaises à l&amp;#8217;étranger&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  En répondant et en lisant ce sondage vous apprendrez qu&amp;#8217;on vous demandera bientôt environ&lt;strong&gt; €20/mois&lt;/strong&gt; pour voir ce que les chaines Françaises diffusait jusqu&amp;#8217;aujourd&amp;#8217;hui pour rien (sinon vos taxes et redevances payées en France). Le gouvernement veux également commencer a taxer les possesseurs d&amp;#8217;ordinateurs en France (comme pour la redevance TV).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Il est temps d&amp;#8217;agir en y répondant ici maintenant : &lt;a href=&#34;http://www.ifoponline.fr/B6/cgi-bin/ciwweb.pl?studyname=FB&amp;ID=2456&amp;MDP=sd4d5s&amp;hid_pagenum=1&amp;hid_link=1&amp;hid_javascript=1&#34; target=&#34;_blank&#34;&gt;Sondage IFOP pour la diffusion des chaines françaises à l&amp;#8217;étranger&lt;/a&gt;&lt;a href=&#34;http://www.ifoponline.fr/B6/cgi-bin/ciwweb.pl?studyname=FB&amp;ID=2456&amp;MDP=sd4d5s&amp;hid_pagenum=1&amp;hid_link=1&amp;hid_javascript=1&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Les français et européens de létranger n&amp;#8217;ont pas le droit de regarder Arte sur &lt;a title=&#34;Arte TV&#34; href=&#34;http://plus7.arte.tv/&#34; target=&#34;_blank&#34;&gt;http://plus7.arte.tv&lt;/a&gt; comme les résidents français. Nous demandons par cette pétition à la direction des programmes d&amp;#8217;Arte de reconsidérer cette politique.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Voir la video de se qui se passe sur &lt;a href=&#34;http://plus7.arte.tv/&#34;&gt;http://plus7.arte.tv&lt;/a&gt; pour les resident hors ue :&lt;a href=&#34;http://www.youtube.com/watch?v=4rOyKqvnhZs&#34;&gt; http://www.youtube.com/watch?v=4rOyKqvnhZs&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mise à jour&lt;/em&gt; : En 2009 nous avons déjà mi en ligne cette pétition qui a recueilli 98 signatures. Merci!! Nous la remettons en ligne puisqu&amp;#8217;Arte est maintenant passé avec un nouveau site au système Flash 10 qui ne donne même &lt;strong&gt;plus de message d&amp;#8217;erreur&lt;/strong&gt;. Les vidéos ne démarrent simplement pas! Pas de message d&amp;#8217;erreur. Pas d&amp;#8217;explications. Il faut deviner que seuls certains programmes (Arte Info, Arte Reportages) sont visualisables.&lt;/p&gt;
+
+&lt;p&gt;Arte a opté pour le blocage de ses programmes en ligne pour &amp;#8220;&lt;em&gt;protéger les droits de diffusion&lt;/em&gt;&amp;#8221; de ses programmes dans les &lt;strong&gt;pays non-européens.&lt;/strong&gt; Pourtant ces programmes ne sont pas disponibles par cable, satellite, ou autre moyen. Pourquoi?&lt;/p&gt;
+
+&lt;p&gt;La culture française doit voyager aussi librement que les autres! Si les expatries peuvent être des ambassadeurs culturels pour leur pays d&amp;#8217;origine, ont doit leur permettre de garder un lien avec leur culture d&amp;#8217;origine! Laissez arte voyager librement!!&lt;/p&gt;
+
+&lt;p&gt;Adresse de cette pétition à faire passer: &lt;a href=&#34;http://en.origoterra.com/LK&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://en.origoterra.com/LK&#34;&gt;http://en.origoterra.com/LK&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Petit rappel&lt;/em&gt; : Arte, la &lt;strong&gt;chaine culturelle franco-allemande&lt;/strong&gt; est sans nul doute aimé des Français qui la regardent tous de plus en plus depuis sa &lt;strong&gt;création an 1991&lt;/strong&gt;.  C&amp;#8217;est une chaîne publique née  sous la forme d&amp;#8217;un Groupement européen d&amp;#8217;intérêt économique initié par la France et l&amp;#8217;Allemagne, la chaîne ARTE est diffusée depuis Strasbourg en plusieurs langues vers toute l&amp;#8217;Europe. Arte privilégie la diversité et la qualité de ses programmes (émissions géopolitiques &amp;#8220;Le Dessous des Cartes&amp;#8221;, &amp;#8220;Tracks&amp;#8221;, &amp;#8220;Arte Reportages&amp;#8221;, &amp;#8220;Métropolies&amp;#8221;, etc.)&lt;/p&gt;
+
+&lt;p&gt;Arte compte une large audience en Europe et pourrait également compter une large audience dans le monde. A l&amp;#8217;heure ou nos gouvernants Européen mettent de grands moyens en place pour &lt;strong&gt;rayonner culturellement au-delà des frontière de l&amp;#8217;UE&lt;/strong&gt;, pourquoi ne pas laisser leur compatriotes expatriés regarder Arte de l&amp;#8217;Etranger sur &lt;a href=&#34;http://arte.plus7.tv/&#34; target=&#34;_blank&#34;&gt;arte.plus7.tv&lt;/a&gt; comme peuvent le faire les Européens. Ces programmes qui font &amp;#8220;rayonner&amp;#8221; la culture Française et Européenne parfois mieux que France24 ou TV5 peuvent le faire avec des programmes ciblant les étranger de souche mais pas suffisamment intéressant pour les Français et Européens de l&amp;#8217;étranger.&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: justify;&#34;&gt;
+  Propositions et solutions constructives pour la direction des programmes d&amp;#8217;Arte
+&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  ARTE (Association relative à la télévision européenne) est financée, en France comme en Allemagne, par la redevance audiovisuelle. Bien que la chaîne télévisée ne puisse &amp;#8220;recourir à la publicité&amp;#8221;, elle a la possibilité &amp;#8220;de développer ses recettes propres, en particulier par la recherche de parrainages.&amp;#8221;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Les budgets consacrés au rayonnement de la culture Française, Allemande, Francophone, ne peuvent-ils pas couvrir les frais éventuellement supplémentaires liés à la diffusion libre en ligne des programmes?&lt;br /&gt;
+&amp;#8211; Pourquoi ne pas offrir l&amp;#8217;accès aux expatriés contre une participation au financement de la chaine sus forme d&amp;#8217;un abonnement annuel modique à &lt;a href=&#34;http://plus7.arte.tv/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://plus7.arte.tv/&#34;&gt;http://plus7.arte.tv/&lt;/a&gt;&lt;/a&gt;?&lt;br /&gt;
+&amp;#8211; Le blocage des programmes hors UE a été allègrement &amp;#8220;hacké&amp;#8221; et détourné jusqu&amp;#8217;ici par les internautes. Arte a modifié ses techniques de blocage géographique par adresse IP à ses frais et souvent sans succès. Ne serait-il pas plus intéressant pour ARTE de diffuser ses programmes contre un droit d&amp;#8217;accès raisonnable?&lt;br /&gt;
+&amp;#8211; Pourquoi ne pas ajouter l&amp;#8217;accès à ARTE aux avantages qui sont attribués aux Français qui s&amp;#8217;inscrivent au consulat de leur pays de résidence, comme la carte consulaire, la détaxe sur les achats en France, etc.?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le moment est venu d&amp;#8217;agir a nouveau.  Un nouveau service va voir le jour pour mettre en ligne un bouquet de chaines Françaises (n&amp;#8217;incluant pas ARTE pour l&amp;#8217;instant) et IFOP viens de lancer un sondage dont vous pouvez influencer les résultats en y répondant ici maintenant:  &lt;a href=&#34;http://www.ifoponline.fr/B6/cgi-bin/ciwweb.pl?studyname=FB&amp;ID=2456&amp;MDP=sd4d5s&amp;hid_pagenum=1&amp;hid_link=1&amp;hid_javascript=1&#34;&gt;Sondage IFOP&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Bien cordialement,&lt;/p&gt;
+
+&lt;p&gt;Daniel Nicollet&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La pub tuera-t-elle les spammeurs?</title>
+      <link>http://localhost:1313/2010/11/la-pub-tuera-t-elle-les-spammeurs/</link>
+      <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/la-pub-tuera-t-elle-les-spammeurs/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ils l&amp;#8217;ont trouvée la solution qui viendra peut être à bout des &lt;span style=&#34;text-decoration: line-through;&#34;&gt;script kiddies&lt;/span&gt; spammeurs, ceux qui utilisent par exemple XRummer (logiciel qui permet l&amp;#8217;envoi automatique de commentaires/messages forum avec des liens spammy). Mais de quoi s&amp;#8217;agit-il?
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;NuCaptcha&#34; href=&#34;http://www.nucaptcha.com&#34; target=&#34;_blank&#34;&gt;NuCaptcha&lt;/a&gt; est une société basée à Vancouver qui propose une solution plutôt élégante de &lt;strong&gt;captcha &lt;/strong&gt;(enfin, tout est relatif, moi je préférerais voir des animaux qui gambadent dans la forêt au printemps). En effet, au lieu de vous afficher des lettres tordues à déchiffrer ou un calcul à résoudre, il s&amp;#8217;agit là de &lt;strong&gt;regarder un petit spot vidéo&lt;/strong&gt; dans lequel un &lt;strong&gt;message publicitaire&lt;/strong&gt; passe. Votre mission? Lire le texte et extraire certaines lettres (en rouge par exemple). Exemple ci-dessous :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;img title=&#34;Pub Nucaptcha&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png&#34; alt=&#34;Pub Nucaptcha&#34; width=&#34;300&#34; height=&#34;248&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Voilà, à présent le captcha entre encore plus dans le monde de la surconsommation. On avait déjà vu celui de &lt;a title=&#34;ReCaptcha&#34; href=&#34;http://www.google.com/recaptcha&#34; target=&#34;_blank&#34;&gt;recaptcha&lt;/a&gt;, de google, qui lui permettait de &lt;strong&gt;digitaliser ses livres&lt;/strong&gt; avec plus de précision. Là on passe au niveau supérieur.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Qu&amp;#8217;en pensez-vous?
+&lt;/p&gt;
 </description>
     </item>
     

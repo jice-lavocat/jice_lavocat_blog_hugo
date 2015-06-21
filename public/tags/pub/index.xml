@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pub on Jice is Nice</title>
+    <link>http://localhost:1313/tags/pub/</link>
+    <description>Recent content in Pub on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sat, 20 Nov 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pub/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>La pub tuera-t-elle les spammeurs?</title>
+      <link>http://localhost:1313/2010/11/la-pub-tuera-t-elle-les-spammeurs/</link>
+      <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/la-pub-tuera-t-elle-les-spammeurs/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ils l&amp;#8217;ont trouvée la solution qui viendra peut être à bout des &lt;span style=&#34;text-decoration: line-through;&#34;&gt;script kiddies&lt;/span&gt; spammeurs, ceux qui utilisent par exemple XRummer (logiciel qui permet l&amp;#8217;envoi automatique de commentaires/messages forum avec des liens spammy). Mais de quoi s&amp;#8217;agit-il?
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;NuCaptcha&#34; href=&#34;http://www.nucaptcha.com&#34; target=&#34;_blank&#34;&gt;NuCaptcha&lt;/a&gt; est une société basée à Vancouver qui propose une solution plutôt élégante de &lt;strong&gt;captcha &lt;/strong&gt;(enfin, tout est relatif, moi je préférerais voir des animaux qui gambadent dans la forêt au printemps). En effet, au lieu de vous afficher des lettres tordues à déchiffrer ou un calcul à résoudre, il s&amp;#8217;agit là de &lt;strong&gt;regarder un petit spot vidéo&lt;/strong&gt; dans lequel un &lt;strong&gt;message publicitaire&lt;/strong&gt; passe. Votre mission? Lire le texte et extraire certaines lettres (en rouge par exemple). Exemple ci-dessous :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;img title=&#34;Pub Nucaptcha&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png&#34; alt=&#34;Pub Nucaptcha&#34; width=&#34;300&#34; height=&#34;248&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Voilà, à présent le captcha entre encore plus dans le monde de la surconsommation. On avait déjà vu celui de &lt;a title=&#34;ReCaptcha&#34; href=&#34;http://www.google.com/recaptcha&#34; target=&#34;_blank&#34;&gt;recaptcha&lt;/a&gt;, de google, qui lui permettait de &lt;strong&gt;digitaliser ses livres&lt;/strong&gt; avec plus de précision. Là on passe au niveau supérieur.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Qu&amp;#8217;en pensez-vous?
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

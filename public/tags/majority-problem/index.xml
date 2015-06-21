@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Majority Problem on Jice is Nice</title>
+    <link>http://localhost:1313/tags/majority-problem/</link>
+    <description>Recent content in Majority Problem on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Tue, 07 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/majority-problem/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Classical algorithm for the Majority Problem</title>
+      <link>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</link>
+      <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</guid>
+      <description>
+
+&lt;h2 id=&#34;presentation-of-the-problem:3b8d5a267fec0b72a8c954f33097fb33&#34;&gt;Presentation of the problem :&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The majority problem is equivalent to the perceptron learning. For each $$a \in \mathbb{Z}_n$$ define a function $$m_a : \mathbb{Z}_2^N \rightarrow \mathbb{Z}_2$$ :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  $$m_a(x)= \begin{cases} 1 &amp; \text{ if } wt(a-x)\leq n/2 \\0 &amp; \text{ otherwise } \end{cases}$$
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Where wt is the weight of a bit-string (number of 1).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Alternatively we can write : $$ m_a(x) = \Theta (n/2 &amp;#8211; wt(x-a) )$$.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The problem is : &lt;strong&gt;determine a&lt;/strong&gt; given an access to answers from $$m_a$$.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  We saw in the presentation (link available soon) that the classical complexity was $$ O(n)$$ while the quantum complexity was $$ O(\sqrt{n})$$. In the following we show the classical bound.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;h2 style=&#34;text-align: justify;&#34;&gt;
+    The classical algorithm
+  &lt;/h2&gt;
+  
+  &lt;p&gt;
+    For the classical case we will use a dichotomic process as in the &lt;a href=&#34;http://en.wikipedia.org/wiki/Binary_search_algorithm&#34; target=&#34;_blank&#34;&gt;binary chop&lt;/a&gt;. Here is the algorithm :
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;
+      At the first step you look the result for 0&amp;#8230;0. If it&amp;#8217;s 1 you take all the possible weights that could have the same result ($$2^n / 2 = 2^{n-1}$$ weights possible). If it&amp;#8217;s 0 you take the complementary set of bits (the same number of weights if n is even).
+    &lt;/li&gt;
+    &lt;li&gt;
+      After that, you choose a new vector in your possible set, with the biggest Hamming distance with the previous tested bit. Then you look the result. After that step you would be able to remove another time : $$ 2^{n-1} / 2$$ remaining weights .
+    &lt;/li&gt;
+    &lt;li&gt;
+      &amp;#8230; you repeat these steps n-1 times at all, in the end you have $$2^n/2^{n-1} = 2$$ possible states.
+    &lt;/li&gt;
+    &lt;li&gt;
+      In the end, you may have two bits that you will separate by choosing a special bit &lt;strong&gt;b&lt;/strong&gt;.  This bit &lt;strong&gt;b&lt;/strong&gt; will depend on the two possible states and differentiate them.
+    &lt;/li&gt;
+    &lt;li&gt;
+      And you are done in n steps.
+    &lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;
+    Example for n=3
+  &lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    For n=3, let&amp;#8217;s take the example of the following target bit : w = 001.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;
+      I first try 000. I get 1. So the possible weights are : 000 / 001 / 010 / 100
+    &lt;/li&gt;
+    &lt;li&gt;
+      Then I test 001. I get 1. So the remaining states are 001 / 000 ( 011 / 101 are not possible because they are not in the previous set)
+    &lt;/li&gt;
+    &lt;li&gt;
+      Finally I test 101. I get 1. &lt;em&gt;So the only possible result is 001&lt;/em&gt;.
+    &lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

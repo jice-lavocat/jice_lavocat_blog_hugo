@@ -3,13 +3,8 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2015-06-21T08:19:54+02:00</lastmod>
+    <lastmod>2015-06-21T08:07:47+02:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/post-title/</loc>
-    <lastmod>2015-06-21T08:19:54+02:00</lastmod>
   </url>
   
   <url>
@@ -23,8 +18,603 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/dotscale-2014-as-a-sketch/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <loc>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</loc>
+    <lastmod>2014-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2014/02/web-in-provence-1/</loc>
+    <lastmod>2014-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</loc>
+    <lastmod>2013-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2013/06/business-model-a-framework-for-innovation/</loc>
+    <lastmod>2013-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2013/05/creating-a-logo-for-the-30-days-startup-chalenge/</loc>
+    <lastmod>2013-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</loc>
+    <lastmod>2013-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2013/05/the-30-days-startup-challenge/</loc>
+    <lastmod>2013-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2012/10/elevage-de-sentimancho/</loc>
+    <lastmod>2012-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/</loc>
+    <lastmod>2011-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</loc>
+    <lastmod>2011-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</loc>
+    <lastmod>2011-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</loc>
+    <lastmod>2011-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</loc>
+    <lastmod>2011-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/11/expat-la-tv-francaise-a-letranger/</loc>
+    <lastmod>2010-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/11/la-pub-tuera-t-elle-les-spammeurs/</loc>
+    <lastmod>2010-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/11/un-nanomoteur-electrique/</loc>
+    <lastmod>2010-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</loc>
+    <lastmod>2010-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/06/nohup-comsol-and-matlab/</loc>
+    <lastmod>2010-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/06/the-mind-machine-e28093-chapitre-4-e28093-les-rythmes-biologiques/</loc>
+    <lastmod>2010-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</loc>
+    <lastmod>2010-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</loc>
+    <lastmod>2010-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</loc>
+    <lastmod>2010-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</loc>
+    <lastmod>2010-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/02/geotagger-ses-photos-numeriques/</loc>
+    <lastmod>2010-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/01/folk-russe/</loc>
+    <lastmod>2010-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2010/01/optimiser-un-clavier-azerty-vers-dvorak/</loc>
+    <lastmod>2010-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/12/reparer-un-pixel-mort-endormi/</loc>
+    <lastmod>2009-12-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</loc>
+    <lastmod>2009-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/09/impatient-learning-and-subsup-majority-problem/</loc>
+    <lastmod>2009-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/09/tout-savoir-sur-desirdavenir-com/</loc>
+    <lastmod>2009-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/09/the-mind-machine-e28093-chapitre-3-e28093-developpement-de-la-memoire/</loc>
+    <lastmod>2009-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/09/utiliser-latex-avec-notepad/</loc>
+    <lastmod>2009-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/devenir-un-entrepreuneur-us/</loc>
+    <lastmod>2009-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/the-mind-machine-e28093-chapitre-2-e28093-lenfance-et-lapprentissage/</loc>
+    <lastmod>2009-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/meca-flux-bis/</loc>
+    <lastmod>2009-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/the-mind-machine-chapitre-1-le-langage-et-la-conscience/</loc>
+    <lastmod>2009-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/the-mind-machine-notes-de-lecture/</loc>
+    <lastmod>2009-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</loc>
+    <lastmod>2009-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/reverse-search-10-tools-to-spy-your-competitors/</loc>
+    <lastmod>2009-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/grovers-search-algorithm-in-python/</loc>
+    <lastmod>2009-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/08/guides-officiels-du-referencement/</loc>
+    <lastmod>2009-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/modeliser-la-blogosphere/</loc>
+    <lastmod>2009-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/50-inventions-stories/</loc>
+    <lastmod>2009-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/tout-sur-hadamard/</loc>
+    <lastmod>2009-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/classement-des-universites-internationales/</loc>
+    <lastmod>2009-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/financement-pour-stagesetudestheses-a-letranger/</loc>
+    <lastmod>2009-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/musique-neo-medievale/</loc>
+    <lastmod>2009-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/quelques-groupes-hip-hop/</loc>
+    <lastmod>2009-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/these-en-cotutelle-les-etapes/</loc>
+    <lastmod>2009-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/de-loptique-pour-chez-soi/</loc>
+    <lastmod>2009-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/fluides-non-newtonniens/</loc>
+    <lastmod>2009-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/may-the-farm-be-with-you/</loc>
+    <lastmod>2009-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/vortex-in-a-pool/</loc>
+    <lastmod>2009-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/art-tribal/</loc>
+    <lastmod>2009-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/ebm-politique-erotique/</loc>
+    <lastmod>2009-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/de-linteret-dun-bon-aileron/</loc>
+    <lastmod>2009-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/playlist-darkwave/</loc>
+    <lastmod>2009-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/vivre-du-web/</loc>
+    <lastmod>2009-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/on-matrix-decomposition/</loc>
+    <lastmod>2009-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</loc>
+    <lastmod>2009-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/comment-checker-la-meteo/</loc>
+    <lastmod>2009-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/decomposition-in-unitary-matrices/</loc>
+    <lastmod>2009-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/mes-videos-preferees-de-windsurf/</loc>
+    <lastmod>2009-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</loc>
+    <lastmod>2009-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/python-et-google-pagerank/</loc>
+    <lastmod>2009-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/du-spam-au-scam/</loc>
+    <lastmod>2009-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/07/some-papers-about-oracle-identification/</loc>
+    <lastmod>2009-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/pourquoi-il-ne-faut-pas-lire-les-emails-de-spam/</loc>
+    <lastmod>2009-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/cookie-stuffing-and-click-hidding/</loc>
+    <lastmod>2009-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/le-vocabulaire-du-web/</loc>
+    <lastmod>2009-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/test-latex/</loc>
+    <lastmod>2009-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/mise-a-jour-du-blog-ajout-photos/</loc>
+    <lastmod>2009-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/ressources-gerer-son-entreprise-en-open-source/</loc>
+    <lastmod>2009-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</loc>
+    <lastmod>2009-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/05/regarder-arte-rolland-garros-de-letranger/</loc>
+    <lastmod>2009-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/04/la-panoplie-du-petit-chercheur/</loc>
+    <lastmod>2009-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/04/latex-portable/</loc>
+    <lastmod>2009-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/04/listes-de-films/</loc>
+    <lastmod>2009-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/03/technique-cloaking-conditionnel-par-htaccess/</loc>
+    <lastmod>2009-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/03/un-peu-de-refpowa/</loc>
+    <lastmod>2009-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/03/negative-seo-et-failles-xss/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/google-parke-vos-ndd/</loc>
+    <lastmod>2009-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/lancer-la-smartradio-deezer/</loc>
+    <lastmod>2009-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/obtenir-un-visa-j-1/</loc>
+    <lastmod>2009-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/obtenir-une-carte-verte-visa-usa/</loc>
+    <lastmod>2009-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/les-pages-parking/</loc>
+    <lastmod>2009-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/script-de-spam-referer-automatise-python/</loc>
+    <lastmod>2009-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/connaitre-lautorite-dun-chercheur/</loc>
+    <lastmod>2009-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/quel-stage-choisir/</loc>
+    <lastmod>2009-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/resultat-de-test-de-spam-referers/</loc>
+    <lastmod>2009-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/extraire-urls-des-resultats-google-en-python/</loc>
+    <lastmod>2009-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/je-suis-un-spammeur/</loc>
+    <lastmod>2009-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/cours-sur-le-web-semantique/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/les-plus-belles-idees-du-monde/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/musique-des-balkans/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/02/stage-these-postdoc-physique-etranger/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/01/des-webradios-a-themes/</loc>
+    <lastmod>2009-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/01/les-artistes-independants-du-web/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/01/yacy-distributed-web-search/</loc>
+    <lastmod>2009-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/01/projet-flowers/</loc>
+    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2009/01/partir-a-letranger/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/12/theme-selectionne/</loc>
+    <lastmod>2008-12-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/12/lectures-de-vacances/</loc>
+    <lastmod>2008-12-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/12/un-theme-pour-le-blog/</loc>
+    <lastmod>2008-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/12/nouveau-wordpress/</loc>
+    <lastmod>2008-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</loc>
+    <lastmod>2008-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</loc>
+    <lastmod>2008-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</loc>
+    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</loc>
+    <lastmod>2008-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/07/referencement-google/</loc>
+    <lastmod>2008-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/07/rentabiliser-son-site-web/</loc>
+    <lastmod>2008-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/04/label-breakbeat-against-the-grain-supercharged-music/</loc>
+    <lastmod>2008-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</loc>
+    <lastmod>2008-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/03/trouver-un-stage-aux-etats-unis/</loc>
+    <lastmod>2008-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/02/ou-se-debarasser-de-certains-dechets/</loc>
+    <lastmod>2008-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/01/reggae-allemand/</loc>
+    <lastmod>2008-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/01/reggae-russe/</loc>
+    <lastmod>2008-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/old_wordpress/2005-08-17-customiser-une-board-de-windsurf-decoration/</loc>
+    <lastmod>2005-08-17T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

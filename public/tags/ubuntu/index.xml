@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Jice is Nice</title>
+    <link>http://localhost:1313/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sat, 23 Aug 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installer Ubuntu sur un Acer Aspire M1201</title>
+      <link>http://localhost:1313/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</link>
+      <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</guid>
+      <description>
+
+&lt;p align=&#34;justify&#34;&gt;
+  De nombreuses personnes auront profiter récemment d&amp;#8217;une offre chez &lt;a href=&#34;http://www.rueducommerce.fr/&#34; target=&#34;_blank&#34;&gt;Rue du Commerce&lt;/a&gt; concernant un &lt;a href=&#34;http://www.rueducommerce.fr/Ordinateurs/PC/PC-de-bureau-Grand-Public/ACER/438529-PC-Acer-Aspire-M1201-BM7X-Atlhon-64-X2-5000-ATI-Radeon-HD-3450-320Go-3Go.htm&#34; target=&#34;_blank&#34;&gt;ordinateur Acer Aspire&lt;/a&gt;, livré sans OS. Pensant pouvoir installer facilement &lt;strong&gt;Ubuntu &lt;/strong&gt;dessus, je me suis jeté dessus. Hors l&amp;#8217;architecture du PC (AMD 64), fait qu&amp;#8217;il faut télécharger une version dédiée de Ubuntu.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;procédure-d-8217-installation:280b69a9f3ab59b4dec6d8c0ac71a3a4&#34;&gt;Procédure d&amp;#8217;installation :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Procurez-vous la version pour architecture 64 sur le site de Ubuntu : &lt;a href=&#34;http://www.ubuntu-fr.org/telechargement&#34; target=&#34;_blank&#34;&gt;http://www.ubuntu-fr.org/telechargement&lt;/a&gt; vous pouvez aussi télécharger le torrent que j&amp;#8217;ai utilisé pour mon installation (torrent fabriqué par ubuntu-fr : ubuntu 8.04, amd64, gnome) : &lt;a href=&#34;doc/informatique/ubuntu-8.04.1-desktop-amd64.iso.torrent&#34; target=&#34;_blank&#34;&gt;torrent&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Gravez ensuite l&amp;#8217;image du disque une fois téléchargée (téléchargement avec &lt;a href=&#34;http://www.utorrent.com/download.php&#34; target=&#34;_blank&#34;&gt;u torrent&lt;/a&gt; par exemple, et gravure avec &lt;a href=&#34;http://infrarecorder.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;Infra Recorder&lt;/a&gt; &lt;&lt;&amp;#8211; ces deux logiciels sont pour les utilisateurs windows).
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Redémarrer votre ordinateur avec le CD gravé dans le lecteur, la procédure de boot commence (si votre BIOS est bien configuré). Lors du premier Splash screen, choisissez l&amp;#8217;option F6 -&gt; &lt;strong&gt;ACPI=OFF&lt;/strong&gt; (pressez 2 fois F6 pour voir l&amp;#8217;option, &amp;#8220;entrer&amp;#8221; pour sélectionner, et &amp;#8220;echap&amp;#8221; pour revenir au menu principal). Sans celà, vous aurez un petit message d&amp;#8217;erreur qui empêchera l&amp;#8217;installation.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;h3&gt;
+    Lancez le système correctement :
+  &lt;/h3&gt;
+  
+  &lt;p&gt;
+    Si vous lancez le système tel quel après l&amp;#8217;installation, vous retrouverez le petit message d&amp;#8217;erreur obtenu si vous aviez tenté l&amp;#8217;installation sans &amp;#8220;ACPI OFF&amp;#8221;. Nous allons donc devoir modifier légèrement la procédure de démarrage de Ubuntu.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p&gt;
+    Redémarrez avec le CD, en mode Live CD et avec l&amp;#8217;option ACPI=OFF.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;
+    Une fois Ubuntu Live lancé, rendez-vous sur le disque dur (là où se trouve installé Ubuntu). Parcourez vos emplacement, et trouvez le fichier &lt;strong&gt;menu.lst &lt;/strong&gt;dans le répertoire /boot/grub (chez moi il se trouve à : /media/disk/boot/grub). Notez son emplacement. Ouvrez alors une console, et tapez :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+    &lt;p&gt;
+      &lt;em&gt;sudo gedit /media/disk/boot/grub/menu.lst&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Cela vous permettra d&amp;#8217;enregistrer les changements (sudo permet de s&amp;#8217;attribuer les droits de root). Regardez la fin du fichier qui ressemblera à :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+    &lt;p&gt;
+      &lt;em&gt; kernel /boot/vmlinuz-2.6.24-19-generic root=/dev/sda1 ro &amp;#8230;&lt;br /&gt; &lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    et rajouter l&amp;#8217;option acpi=off :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+    &lt;p&gt;
+      &lt;em&gt; kernel /boot/vmlinuz-2.6.24-19-generic root=/dev/sda1 acpi=off ro &amp;#8230;&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Enregistrez les changements et redémarrez. Ca devrait être bon.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Source d&amp;#8217;aide principale : &lt;a href=&#34;http://ubuntuforums.org/showthread.php?t=887797&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://ubuntuforums.org/showthread.php?t=887797&#34;&gt;http://ubuntuforums.org/showthread.php?t=887797&lt;/a&gt;&lt;/a&gt;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    N&amp;#8217;hésitez pas à poster des commentaires pour demander de l&amp;#8217;aide.
+  &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

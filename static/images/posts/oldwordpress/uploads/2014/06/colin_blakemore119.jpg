@@ -1,0 +1,460 @@
+<!doctype html>  
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+	   Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1">
+	
+	<title>University of Liverpool - News</title>
+        
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="News from the University of Liverpool, United Kingdom"/>
+<link rel="canonical" href="http://news.liv.ac.uk/" />
+<link rel="next" href="http://news.liv.ac.uk/page/2/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="News &raquo; Feed" href="http://news.liv.ac.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="News &raquo; Comments Feed" href="http://news.liv.ac.uk/comments/feed/" />
+<link rel='stylesheet' id='wordpress-popular-posts-css'  href='http://news.liv.ac.uk/wp-content/plugins/wordpress-popular-posts/style/wpp.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='UserAccessManagerAdmin-css'  href='http://news.liv.ac.uk/wp-content/plugins/user-access-manager/css/uamAdmin.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='UserAccessManagerLoginForm-css'  href='http://news.liv.ac.uk/wp-content/plugins/user-access-manager/css/uamLoginForm.css?ver=1.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js?ver=2.2'></script>
+<script type='text/javascript' src='http://news.liv.ac.uk/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://news.liv.ac.uk/wp-content/plugins/user-access-manager/js/jquery.tools.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://news.liv.ac.uk/wp-content/plugins/user-access-manager/js/functions.js?ver=3.5.1'></script>
+
+<script type="text/javascript" charset="utf-8">
+
+	/**
+	 * Courtesy of Kimili Flash Embed - Version 2.3
+	 * by Michael Bester - http://kimili.com
+	 */
+
+	(function(){
+		try {
+			// Disabling SWFObject's Autohide feature
+			if (typeof swfobject.switchOffAutoHideShow === "function") {
+				swfobject.switchOffAutoHideShow();
+			}
+		} catch(e) {}
+	})();
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://news.liv.ac.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://news.liv.ac.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+
+<meta name="google-site-verification" content="m_fvCP4s6XI606r9b3Kq08EgX-f_FORoJfymXAq_S0w" />
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+	<link rel="shortcut icon" href="https://www.liv.ac.uk/images/favicon.ico">
+	<link rel="apple-touch-icon" href="https://www.liv.ac.uk/images/apple-touch-icon.png">
+	
+	<!-- CSS : implied media="all" -->
+	<link rel="stylesheet" href="http://news.liv.ac.uk/wp-content/themes/news-updated/css/style.css?v=2">
+	<link rel="stylesheet" href="http://news.liv.ac.uk/wp-content/themes/news-updated/style.css">
+	
+	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="http://news.liv.ac.uk/wp-content/themes/news-updated/js/libs/modernizr-1.6.min.js"></script>
+
+
+
+<style type="text/css">
+html { margin-top:0px !important;}
+* html body { margin-top:0px !important;}
+</style>
+
+</head>
+
+<body id="news">
+
+<!-- asynchronous GA -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2638755-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- end GA-->
+
+
+
+	<div id="container">
+
+    <header id="masthead">
+		<a href="#" title="Skip Navigation" id="skip-nav" class="visuallyhidden">Skip navigation</a>
+		<h1>
+			<a title="University of Liverpool Home" href="http://www.liv.ac.uk" id="uni-home-link">University of Liverpool - </a>
+			<span id="dept-home-link"><a href="https://news.liv.ac.uk/">University News</a></span>
+		</h1>
+		<!--		
+		<h1><a href="http://www.liv.ac.uk" title="University of Liverpool Home">University of Liverpool - University News</a></h1>
+		-->
+    	<div id="global-and-search">
+		<nav id="global-nav">
+			<ul>
+				<li><a href="http://www.liv.ac.uk/">University Home</a>&nbsp;/&nbsp;</li>
+				<li><a href="http://www.liv.ac.uk/a-z">A-to-Z</a>&nbsp;/&nbsp;</li>
+				<li><a href="http://www.liv.ac.uk/staff/">Staff</a>&nbsp;/&nbsp;</li>
+				<li><a href="http://www.liv.ac.uk/students/">Students</a></li>
+				
+			</ul>
+		</nav>
+		<hr/>
+		<form id="search" method="get" action="https://news.liv.ac.uk" name="gs">
+			<label class="visuallyhidden" for"query">Search the University</label>
+			<input type="text" name="s" size="25" id="s" maxlength="255" value="" class="search-input" placeholder="search"/>
+			<input type="submit" name="btnG" value="Search" class="search-button"/>
+			<input type="hidden" name="site" value="default_collection"/>
+			<input type="hidden" name="client" value="default09"/>
+			<input type="hidden" name="proxystylesheet" value="default09"/>
+			<input type="hidden" name="output" value="xml_no_dtd"/>
+		</form>
+		</div>
+	</header>
+	
+	<hr>
+	
+	<nav id="site-navigation">
+		<ul id="navigation" class="clearfix">
+			<li><a href="http://news.liv.ac.uk">News home</a></li>
+			<li class="page_item page-item-8219"><a href="http://news.liv.ac.uk/research/">Research</a></li>
+<li class="page_item page-item-8197"><a href="http://news.liv.ac.uk/business/">Business</a></li>
+<li class="page_item page-item-18942"><a href="http://news.liv.ac.uk/the-liverpool-view/">The Liverpool View</a></li>
+<li class="page_item page-item-8207"><a href="http://news.liv.ac.uk/expert-opinion/">Expert opinion</a></li>
+<li class="page_item page-item-8221"><a href="http://news.liv.ac.uk/staff-only/">Staff News</a>
+<ul><li class="page_item page-item-298"><a href="http://news.liv.ac.uk/staff-only/announcements/">Announcements</a></li>
+<li class="page_item page-item-299"><a href="http://news.liv.ac.uk/staff-only/classifieds/">Classifieds</a></li>
+<li class="page_item page-item-305"><a href="http://news.liv.ac.uk/staff-only/print-the-latest/">Print the latest</a></li>
+<li class="page_item page-item-8224"><a href="http://news.liv.ac.uk/staff-only/submit-a-story-2/">Submit a story</a></li>
+<li class="page_item page-item-11364"><a href="http://news.liv.ac.uk/staff-only/dont-quote-me/">Don&#8217;t quote me</a></li>
+<li class="page_item page-item-20579"><a href="http://news.liv.ac.uk/staff-only/education-sector-news/">Education sector news</a></li>
+</ul></li><li class="page_item page-item-8204"><a href="http://news.liv.ac.uk/events/">Events</a></li>
+<li class="page_item page-item-303"><a href="http://news.liv.ac.uk/in-the-news/">In the news</a></li>
+<li class="page_item page-item-8201"><a href="http://news.liv.ac.uk/contacts/">Press office and contacts</a></li>
+		</ul>
+		<ul id="secondary" class="clearfix">
+			<li class=""><a href="http://news.liv.ac.uk/information-for-journalists/expert-directory/" target="_parent" title="">Find an expert</a></li><li class="page_item page-item-8216"><a href="http://news.liv.ac.uk/press-releases/">Press Releases</a></li>
+		
+		</ul>
+
+	<div id="sign-up">
+	<p><a href="http://news.liv.ac.uk/email-sign-up">Sign up to get University news and opinions straight to your inbox.</a></p>
+	</div>
+
+
+
+	<!-- social icons -->
+	<div style="padding-left:20px;" id="social">
+	<ul>
+	<li><a target="_blank" title="Like us on Facebook" href="http://www.facebook.com/universityofliverpool"><img src="http://news.liv.ac.uk/wp-content/uploads/2013/02/facebook-icon.png" alt="Like us on Facebook"></a></li>
+	<li><a target="_blank" title="Follow us on Twitter" href="http://www.twitter.com/livuninews"><img src="http://news.liv.ac.uk/wp-content/uploads/2013/02/twitter-icon.png" alt="Follow us on Twitter"></li>
+	<li><a target="_blank" title="Subscribe to our RSS feed" href="http://news.liv.ac.uk/feed/?cat=1712"><img src="http://news.liv.ac.uk/wp-content/uploads/2013/02/rss-icon.png" alt="Subscribe to our RSS feed"></a></li>
+
+	</ul>
+
+	</div>
+
+
+	<!--<div style="width:200px; padding-left:20px;" id="rss">
+        <img style="float:left;" src="https://news.liv.ac.uk/wp-content/themes/news-updated/images/rss.png">
+        <p>Subscribe to the <a href="http://news.liv.ac.uk/feed?cat=1712">University News RSS feed</a></p>
+	
+	</div>
+
+	<div style="padding-left:20px;" id="rss">
+        <a href="http://news.liv.ac.uk/feed?cat=1712"><img style="margin-bottom:2px;" src="https://news.liv.ac.uk/wp-content/uploads/2011/11/rss.png"></a>
+	<a href="http://www.twitter.com/livuninews"><img src="https://news.liv.ac.uk/wp-content/uploads/2011/11/twitter.png"></a>
+	</div>-->
+
+	<div id="twitter-feed">
+	<h2 style="margin-bottom:5px;">Recent tweets from @livuninews</h2>
+	
+<!-- WordPress Twitter Feed Plugin: http://3doordigital.com/wordpress/plugins/wp-twitter-feed/ -->
+<ul>
+<li style="display: inline-block; list-style: none; border-bottom: 1px #ccc dotted; margin-bottom: 5px; padding-bottom: 5px;">New <a href="http://twitter.com/search?q=%23photo" rel="nofollow">#photo</a> exhibition exploring concept of digital search engines opens <a href="https://twitter.com/intent/user?screen_name=LivUniLibrary" rel="nofollow">@LivUniLibrary</a> (SJ), part of <a href="https://twitter.com/intent/user?screen_name=LookPhotoFest" rel="nofollow">@LookPhotoFest</a> https://t.co/xMukLBi2Mi
+<a href="http://twitter.com/intent/retweet?related=livuninews&tweet_id=337961227391229952" rel="nofollow"><img src="http://si0.twimg.com/images/dev/cms/intents/icons/retweet.png" alt="ReTweet"/></a>
+<a href="http://twitter.com/intent/tweet?related=livuninews&in_reply_to=337961227391229952" rel="nofollow"><img src="http://si0.twimg.com/images/dev/cms/intents/icons/reply.png" alt="Reply"/></a>
+<a href="http://twitter.com/intent/favorite?related=livuninews&tweet_id=337961227391229952" rel="nofollow"><img src="http://si0.twimg.com/images/dev/cms/intents/icons/favorite.png" alt="Favorite"/></a></li>
+</ul>
+
+	</div>
+
+
+
+          </nav>
+	
+	
+
+
+	<nav id="breadcrumb"  class="clearfix">
+		<ul>
+			<li>University Home&nbsp;>&nbsp;</li>
+			<li>News</li>
+		</ul>
+	</nav>
+
+
+
+	<!-- main content begins -->
+	<section id="main-content" class="clearfix">
+		<div id="top-stories" class="content">
+						
+							
+								
+						<div id="top-story">
+							<h1><a href="http://news.liv.ac.uk/2013/05/24/liverpool-students-win-washington-internships/" rel="bookmark" title="Permanent Link to Liverpool students win Washington internships">Liverpool students win Washington internships</a></h1>
+							<!-- 
+							<p class="meta">
+								published on May 24 2013 
+							</p>
+							-->
+							<p><p><a href="http://news.liv.ac.uk/wp-content/uploads/2013/05/WashIrishProg-1W.jpg"><img class="aligncenter size-full wp-image-26519" alt="WashIrishProg-1W" src="http://news.liv.ac.uk/wp-content/uploads/2013/05/WashIrishProg-1W.jpg" width="450" height="298" /></a></p>
+<p class="wp-caption-text">Rory and Adam will be heading off to Washington DC to complete an eight week work placement</p>
+<p>Two University of Liverpool students have been awarded the sought-after <a href="http://wiprogram.org/" target="_blank">Washington Ireland Program</a> (WIP) internships after being selected from more than 500 students across Ireland, Northern Ireland and Great Britain.</p>
+<p> <a href="http://news.liv.ac.uk/2013/05/24/liverpool-students-win-washington-internships/" class="more-link">Read the full article.</a></p>
+						</div>
+			
+								
+							
+						
+			<div id="subs">
+	
+						
+							
+								
+						<div class="sub-story">
+						<h1><a href="http://news.liv.ac.uk/2013/05/24/university-library-opens-new-photography-exhibition/" rel="bookmark" title="Permanent Link to University Library opens new photography exhibition">University Library opens new photography exhibition</a></h1>
+							<!--
+							<p class="meta">
+								published on May 24 2013 
+							</p>
+							-->
+							<p><a href="http://news.liv.ac.uk/wp-content/uploads/2013/05/Libraryexhib-1W.jpg"><img class="aligncenter size-full wp-image-26535" alt="OLYMPUS DIGITAL CAMERA" src="http://news.liv.ac.uk/wp-content/uploads/2013/05/Libraryexhib-1W.jpg" width="450" height="338" /></a></p>
+<p class="wp-caption-text">Marc Provins&#8217; exhibition runs at Sydney Jones Library until June 15</p>
+<p>The University of Liverpool’s <a href="http://www.liv.ac.uk/study/sydney-jones/" target="_blank">Sydney Jones Library</a> is hosting an exhibition of artwork exploring the concept of digital search engines as part of the <a href="http://lookphotofestival.com/" target="_blank">Look/13 Liverpool International Photography Festival</a>.</p>
+<p> <a href="http://news.liv.ac.uk/2013/05/24/university-library-opens-new-photography-exhibition/" class="more-link">Read the full article</a></p>
+						</div>
+			
+								
+						<div class="sub-story">
+						<h1><a href="http://news.liv.ac.uk/2013/05/24/policy-provocations-from-fat-controllers-to-city-mayors/" rel="bookmark" title="Permanent Link to Policy Provocations: The UK&#8217;s obesity crisis">Policy Provocations: The UK&#8217;s obesity crisis</a></h1>
+							<!--
+							<p class="meta">
+								published on May 24 2013 
+							</p>
+							-->
+							<p><a href="http://news.liv.ac.uk/wp-content/uploads/2013/05/PolProvFatWEB.jpg"><img class="aligncenter size-full wp-image-26506" alt="PolProvFatWEB" src="http://news.liv.ac.uk/wp-content/uploads/2013/05/PolProvFatWEB.jpg" width="450" height="308" /></a></p>
+<p class="wp-caption-text">Professor Andrew Derrington introduces the panel for the first in the new series of Policy Provocations debates</p>
+<p>A panel consisting of some of the UK’s leading food researchers, and a representative from the advertising industry, discussed the ongoing obesity crisis in the first of a new series of <a href="http://www.liv.ac.uk/events/policy-provocations/" target="_blank">Policy Provocations</a> debates.</p>
+<p> <a href="http://news.liv.ac.uk/2013/05/24/policy-provocations-from-fat-controllers-to-city-mayors/" class="more-link">Read the full article</a></p>
+						</div>
+			
+										
+							
+						</div>
+	
+		</div>
+
+		<!-- sidebar begins -->
+		<div id="sidebar">
+			<ul>
+						<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Stories</h2>		<ul>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/24/university-library-opens-new-photography-exhibition/" title="University Library opens new photography exhibition">University Library opens new photography exhibition</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/24/liverpool-students-win-washington-internships/" title="Liverpool students win Washington internships">Liverpool students win Washington internships</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/24/policy-provocations-from-fat-controllers-to-city-mayors/" title="Policy Provocations: The UK&#8217;s obesity crisis">Policy Provocations: The UK&#8217;s obesity crisis</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/24/enhancement-of-library-borrowing-entitlement/" title="You do not currently have rights to view this post">You do not currently have rights to view this post</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/24/student-energy-savers-win-national-competition/" title="Student Energy-Savers Win National Competition">Student Energy-Savers Win National Competition</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/24/brain-research-study-celebrates-milestone-at-lfc/" title="Brain research study celebrates milestone at LFC">Brain research study celebrates milestone at LFC</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/23/how-did-20th-century-atomic-science-play-on-hopes-and-fears/" title="How did 20th century atomic science play on hopes and fears?">How did 20th century atomic science play on hopes and fears?</a>
+						</li>
+					<li>
+				<a href="http://news.liv.ac.uk/2013/05/23/the-liverpool-view-uncomfortable-lessons-from-woolwich-attack/" title="The Liverpool View: Uncomfortable lessons from Woolwich attack">The Liverpool View: Uncomfortable lessons from Woolwich attack</a>
+						</li>
+				</ul>
+		</li><!-- Wordpress Popular Posts Plugin v2.3.2 [W] [daily] [regular] -->
+<li id="wpp-3" class="widget popular-posts">
+<h2 class="widgettitle">Popular Posts</h2><!-- Wordpress Popular Posts Plugin v2.3.2 [Widget] [daily] [regular] -->
+<ul>
+<li><a href="http://news.liv.ac.uk/2013/05/23/the-liverpool-view-uncomfortable-lessons-from-woolwich-attack/" title="The Liverpool View: Uncomfortable lessons from Woolwich attack" class="wpp-post-title">The Liverpool View: Uncomfortable lessons from Woolwich attack</a> <span class="post-stats"><span class="wpp-comments">1 comment(s)</span></span></li>
+<li><a href="http://news.liv.ac.uk/2013/05/24/policy-provocations-from-fat-controllers-to-city-mayors/" title="Policy Provocations: The UK&#8217;s obesity crisis" class="wpp-post-title">Policy Provocations: The UK&#8217;s obesity crisis</a> <span class="post-stats"><span class="wpp-comments">1 comment(s)</span></span></li>
+
+</ul>
+</li>
+<!-- End Wordpress Popular Posts Plugin v2.3.2 -->
+			</ul>
+<h1><a style="color:#000;" href="http://news.liv.ac.uk/2013/05/">All posts this month</a></h1>
+
+<div id="expert-opinion">
+<h2>Expert opinions on the latest news</h2>
+<ul>
+
+
+
+
+<li><a href="http://news.liv.ac.uk/2013/05/23/viewpoint-woolwich-murder/" rel="bookmark" title="Permanent Link to Viewpoint: Woolwich murder">Viewpoint: Woolwich murder</a></li>
+
+
+
+</ul>
+<p><a href="http://news.liv.ac.uk/expert-opinion/">Read all expert opinions</a>.</p>
+</div>
+
+
+
+
+
+<div id="reminder" >
+<h2>University Staff</h2>
+<img src="https://news.liv.ac.uk/wp-content/themes/news-updated/images/padlock-big.png"/>
+<p>To access Staff Only stories off-campus, login at the bottom of the page using your MWS username and password.</p>
+<br/>
+<p>Staff Only content is marked with the red padlock icon.</p>
+</div>
+		</div>
+		<!-- sidebar ends -->
+
+
+	</section>
+	<!-- main content ends -->
+
+
+	<hr />
+	<footer>
+		<section id="archives" class="clearfix">
+			<nav id="categories"> 
+				<h2>Articles by category</h2>
+				<ul>
+						<li class="cat-item cat-item-544"><a href="http://news.liv.ac.uk/category/business/" title="View all posts filed under Business">Business</a>
+</li>
+	<li class="cat-item cat-item-73"><a href="http://news.liv.ac.uk/category/global-university/" title="View all posts filed under Global University">Global University</a>
+</li>
+	<li class="cat-item cat-item-72"><a href="http://news.liv.ac.uk/category/knowledge-exchange/" title="View all posts filed under Knowledge Exchange">Knowledge Exchange</a>
+</li>
+	<li class="cat-item cat-item-70"><a href="http://news.liv.ac.uk/category/research/" title="View all posts filed under Research">Research</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="http://news.liv.ac.uk/category/student-experience/" title="View all posts filed under Student Experience">Student Experience</a>
+</li>
+	<li class="cat-item cat-item-3001"><a href="http://news.liv.ac.uk/category/the-liverpool-view/" title="View all posts filed under The Liverpool View">The Liverpool View</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://news.liv.ac.uk/category/university-life/" title="University Life">University Life</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="http://news.liv.ac.uk/category/widening-participation/" title="View all posts filed under Widening Participation">Widening Participation</a>
+</li>
+				</ul>
+			</nav> 
+			<nav id="archive">
+				<h2>Articles by date</h2>
+				<ul>
+						<li><a href='http://news.liv.ac.uk/2013/05/' title='May 2013'>May 2013</a></li>
+	<li><a href='http://news.liv.ac.uk/2013/04/' title='April 2013'>April 2013</a></li>
+	<li><a href='http://news.liv.ac.uk/2013/03/' title='March 2013'>March 2013</a></li>
+	<li><a href='http://news.liv.ac.uk/2013/02/' title='February 2013'>February 2013</a></li>
+	<li><a href='http://news.liv.ac.uk/2013/01/' title='January 2013'>January 2013</a></li>
+	<li><a href='http://news.liv.ac.uk/2012/12/' title='December 2012'>December 2012</a></li>
+	<li><a href='http://news.liv.ac.uk/2012/11/' title='November 2012'>November 2012</a></li>
+	<li><a href='http://news.liv.ac.uk/2012/10/' title='October 2012'>October 2012</a></li>
+					<li><a href="http://news.liv.ac.uk/archive-by-date/">Older posts</a></li>				</ul>
+			</nav>
+			<section id="whats-on">
+				<h2>What's on...</h2>
+				<ul><li><a class='kbrsswidget' href='http://www.liv.ac.uk/events/event.php?event_id=45570&amp;event_day_id=57106' title=''>Liverpool Centre for Medieval and Renaissance Studies - Cultures of Reading and Writing in the Medieval and Early Modern World. Title: The Power of Words: Glossaries, Reading and the Transmission of  Knowledge in the Early Middle Ages. Speaker: Rosamond McKitterick (Cambridge), 28 May       2013</a></li><li><a class='kbrsswidget' href='http://www.liv.ac.uk/events/event.php?event_id=38597&amp;event_day_id=53098' title=''>HLC Admissions and Widening Participation Sub-Committee, 29 May       2013</a></li><li><a class='kbrsswidget' href='http://www.liv.ac.uk/events/event.php?event_id=38601&amp;event_day_id=53102' title=''>HLC Research and Knowledge Exchange Committee, 05 June      2013</a></li><li><a class='kbrsswidget' href='http://www.liv.ac.uk/events/event.php?event_id=38230&amp;event_day_id=52974' title='&quot;Linear-Scaling First Principles Approaches to Charge- and Energy-Transfer in Photo-Electro-Chemical Interfaces&quot;  Gilberto Teobaldi, Stephenson Institute for Renewable Energy, University of Liverpool  '>Stephenson Institute for Renewable Energy Seminar Series, 10 June      2013</a></li><li><a class='kbrsswidget' href='http://www.liv.ac.uk/events/event.php?event_id=38600&amp;event_day_id=53101' title=''>HLC Corporate Services and Facilities Working Group, 12 June      2013</a></li></ul>			</section>
+
+
+<section id="email-signup">
+				<h2>Your news account</h2>
+				<p>Update your screen name and comment on news articles:</p>
+				<form name="loginform" id="loginform" action="https://news.liv.ac.uk/wp-login.php" method="post">
+					<fieldset>
+						<label>Your username</label>
+						<input type="text" name="log" id="user_login" class="input" value="" />
+						<label>Your password</label>
+						<input type="password" name="pwd" id="user_pass" class="input" value=""/>
+						<input type="submit" value="sign in" class="action" name="wp-submit" id="wp-submit">
+												<input type="hidden" name="testcookie" value="1" />
+					</fieldset>
+				</form>
+				<p>If you are not University of Liverpool staff, you can <a style="color:#000;" href="https://news.liv.ac.uk/wp-login.php?action=register">register for an account</a>.</p>
+			</section>
+	
+			<!--<section id="footer-email-signup">
+				<h2>Your news account</h2>
+				<p><a href="https://news.liv.ac.uk/login">Login</a> to update your screen name and comment on news articles.</p>
+				
+				<p>If you are not University of Liverpool staff, you can <a href="https://news.liv.ac.uk/wp-login.php?action=register">register for an account</a>.</p>
+<br/>
+<p><a style="color:#000;" class="call-to-action" href="https://news.liv.ac.uk/login">Staff login</a><br/>
+<a style="color:#000;" class="call-to-action" href="https://news.liv.ac.uk/wp-login.php?action=register">Register for an account</a>
+<br/>
+<h2>Email sign-up</h2>
+<p>Sign-up to get weekly news updates delivered straight to your inbox.</p><br/>
+<a style="color:#000;" class="call-to-action" href="http://news.liv.ac.uk/email-sign-up">Get news updates by email</a>-->
+
+
+
+			</section>
+		</section>
+		<div id="address" class="clearfix">
+			<p class="float-right">
+				Press Office, University of Liverpool<br/>
+				Foundation Building, Brownlow Hill, Liverpool L69 7ZB, United Kingdom<br/>
+				+44 (0)151 794 2000
+			</p>
+		</div>
+		<div id="global-footer" class="clearfix">
+			<p class="float-left">&copy; University of Liverpool - a member of The Russell Group</p>
+			<p class="float-right"><a href="http://www.liv.ac.uk/contacts/">Contacts</a> | <a href="http://www.liv.ac.uk/maps/">Map</a> | <a href="http://www.liv.ac.uk/legal/website-terms-and-conditions/">Terms and Conditions</a> | <a href="http://www.liv.ac.uk/accessibility/">Accessibility</a></p>
+    	</div>
+	</footer>
+
+
+
+	<!-- Javascript at the bottom for fast page loading -->
+	
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://news.liv.ac.uk/wp-content/themes/news-updated/js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+	
+	
+	<!-- scripts concatenated and minified via ant build script-->
+	<script src="http://news.liv.ac.uk/wp-content/themes/news-updated/js/news.js"></script>
+	<!-- end concatenated and minified scripts-->
+	
+	<!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+	<![endif]-->
+		
+	
+
+	</div>
+</body>
+</html>	

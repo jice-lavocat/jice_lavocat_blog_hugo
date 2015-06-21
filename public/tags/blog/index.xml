@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Jice is Nice</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 24 Mar 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installation d’un Drupal multi-site</title>
+      <link>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</link>
+      <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; title=&#34;Drupal - CMS&#34; src=&#34;http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; height=&#34;250&#34; /&gt;Petit article très rapide pour présenter la procédure d&amp;#8217;installation d&amp;#8217;un &lt;a title=&#34;Drupal - CMS&#34; href=&#34;http://drupal.org/&#34; target=&#34;_blank&#34;&gt;Drupal&lt;/a&gt; multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le but d&amp;#8217;un multi-sites est d&amp;#8217;avoir un seul répertoire contenant le code de base, et plusieurs répertoires de petite taille comportant les éléments particuliers à chaque sites. Ce procédé est intéressant si vous construisez souvent vos sites à partir d&amp;#8217;un même système de modules (exemple la même galerie, le même composant de forum, etc.). Les avantages concernent la mise à jour qui devient centralisée et plus rapide par conséquent.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Le principe
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Imaginons que votre répertoire de base est &lt;em&gt;/www&lt;/em&gt;. Tout d&amp;#8217;abord, il est nécessaire de créer un répertoire /&lt;em&gt;www/drupal&lt;/em&gt; qui contiendra les fichiers d&amp;#8217;installation de base (dézipper le contenu du fichier téléchargés sur le site de Drupal).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Imaginons que vous ayez à créer deux sites web : &lt;em&gt;site1.com&lt;/em&gt; et &lt;em&gt;site2.com&lt;/em&gt;. Avant de continuer la configuration, ilfaut rediriger vos noms de domaine vers deux dossiers spécifiques à ces sites. Par exemple, &lt;em&gt;/www/site1&lt;/em&gt; et &lt;em&gt;/www/site2&lt;/em&gt; Ensuite, pour chacun d&amp;#8217;eux, il est besoin de créer un lien symbolique vers le répertoire drupal de base. Ainsi, nous allons d&amp;#8217;abord supprimer les dossiers crées plus haut, puis les envoyer symboliquement vers notre répertoire de base.
+&lt;/p&gt;
+
+&lt;pre style=&#34;text-align: justify;&#34;&gt;rmdir /www/site1&lt;/pre&gt;
+
+&lt;pre style=&#34;text-align: justify;&#34;&gt;ln -s /www/drupal /www/site1&lt;/pre&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  A présent, il faut créer un répertoire dédié à chaque site dans votre installation de drupal. Le moteur de Drupal est assez fort techniquement, et se base sur le nom de votre dossier pour comprendre quel URL appelle quel dossier. Créez donc les dossiers &lt;em&gt;/www/drupal/sites/site1.com&lt;/em&gt; et &lt;em&gt;/www/drupal/sites/site2.com&lt;/em&gt;. Copiez, dans chacun de ces répertoires le fichier &lt;em&gt;/www/drupal/sites/all/settings.php&lt;/em&gt;, et renseignez-y les informations concernant votre base de données.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  La lecture du fichier settings.php vous apprendra qu&amp;#8217;il est possible de partager des informations entre les différents sites. Vous pouvez par exemple avoir la même base concernant les users, ce qui permettra à vos utilisateurs de ne s&amp;#8217;inscire qu&amp;#8217;à un seul de vos sites!
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Après cela, il faut simplement se connecter à votre site1.com, et le script d&amp;#8217;installation se chargera du reste de l&amp;#8217;installation.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  La suite
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  A présent, voilà comment fonctionne Drupal. Les thèmes et modules à gérer en commun sont à placer dans &lt;em&gt;/www/drupal/sites/all&lt;/em&gt; , et les thèmes ou modules dédiés sont à placer dans &lt;em&gt;/www/drupal/sites/site1.com&lt;/em&gt; (pour le &lt;em&gt;site1.com&lt;/em&gt; par exemple).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Afin de bien démarrer sous Drupal, je vous propose de lire l&amp;#8217;article suivant, qui vous donne 11 steps indispensable après une installation de Drupal : &lt;a title=&#34;11 m ost important things after a drupal installation&#34; href=&#34;http://timonweb.com/the-11-most-important-things-to-do-after-you-install-drupal&#34; target=&#34;_blank&#34;&gt;http://timonweb.com/the-11-most-important-things-to-do-after-you-install-drupal&lt;/a&gt; . Il recense juste des modules assez indispensables. A vous de les placer dans &lt;em&gt;/www/drupal/sites/all&lt;/em&gt;, mais de ne les activer sur vos sites que lorsque vous en sentez l&amp;#8217;utilité. C&amp;#8217;est en anglais, mais vous pouvez le traduire avec google translate si vous n&amp;#8217;êtes pas anglophone.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Devenir un entrepreuneur (US)</title>
+      <link>http://localhost:1313/2009/08/devenir-un-entrepreuneur-us/</link>
+      <pubDate>Fri, 21 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/08/devenir-un-entrepreuneur-us/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-890&#34; style=&#34;margin: 10px;&#34; title=&#34;leader011&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;Un petit billet pour vous faire part de blogs dont la lecture réveille mon apétit pour l&amp;#8217;entrepreuneuriat. Je suis tombé un peu par hasard sur l&amp;#8217;un d&amp;#8217;eux, et me voilà accroc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://steveblank.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://steveblank.com&#34;&gt;http://steveblank.com&lt;/a&gt;&lt;/a&gt; : un retraité avec plusieurs société derrières lui. Silicon Valley&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tobeanentrepreneur.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.tobeanentrepreneur.com&#34;&gt;http://www.tobeanentrepreneur.com&lt;/a&gt;&lt;/a&gt; : un actif, quelques sociétés à son actif. Prof à la LBS et à Standford&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/a&gt; : un actif, fondateur de IMVU &lt;a href=&#34;http://twitter.com/ericries&#34;&gt;Eric Ries&lt;/a&gt;{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Lean&#34;&gt;Lean&lt;/a&gt;{#aptureLink_7B1TdMgUWW} management (méthode Toyota).[&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-890&#34; style=&#34;margin: 10px;&#34; title=&#34;leader011&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;Un petit billet pour vous faire part de blogs dont la lecture réveille mon apétit pour l&amp;#8217;entrepreuneuriat. Je suis tombé un peu par hasard sur l&amp;#8217;un d&amp;#8217;eux, et me voilà accroc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://steveblank.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://steveblank.com&#34;&gt;http://steveblank.com&lt;/a&gt;&lt;/a&gt; : un retraité avec plusieurs société derrières lui. Silicon Valley&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tobeanentrepreneur.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.tobeanentrepreneur.com&#34;&gt;http://www.tobeanentrepreneur.com&lt;/a&gt;&lt;/a&gt; : un actif, quelques sociétés à son actif. Prof à la LBS et à Standford&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/a&gt; : un actif, fondateur de IMVU &lt;a href=&#34;http://twitter.com/ericries&#34;&gt;Eric Ries&lt;/a&gt;{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Lean&#34;&gt;Lean&lt;/a&gt;{#aptureLink_7B1TdMgUWW} management (méthode Toyota).]&lt;a href=&#34;http://twitter.com/ericries&#34;&gt;2&lt;/a&gt;{#aptureLink_CK1xPfv7yo}&lt;/p&gt;
+
+&lt;p&gt;Nénamoins je débute dans la lecture de blogs de ce domaine. Vous avez des références sur le sujet? Des gourous avec expérience concrète?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modéliser la blogosphère</title>
+      <link>http://localhost:1313/2009/07/modeliser-la-blogosphere/</link>
+      <pubDate>Sun, 26 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/modeliser-la-blogosphere/</guid>
+      <description>&lt;p&gt;Je suis actuellement en train de lire le livre :  &amp;#8220;&lt;a href=&#34;http://www.morganclaypool.com/doi/abs/10.2200/S00213ED1V01Y200907DMK001&#34; target=&#34;_blank&#34;&gt;Modelling and Data Mining the Blogosphere&lt;/a&gt;&amp;#8221; de &lt;a href=&#34;http://www.public.asu.edu/~nagarwa6/&#34; target=&#34;_blank&#34;&gt;N.Agarwal&lt;/a&gt; et &lt;a href=&#34;http://www.public.asu.edu/%7Ehuanliu/&#34; target=&#34;_blank&#34;&gt;H.Liu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le livre est un condensé de maths appliquées au web, et spécialement au monde des blogs. Pour vous donner envie de lire le livre, voilà un petit extrait :&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;cite&gt;Past few years have observed a phenomenal growth in the blogosphere. Technorati&lt;br /&gt; (&lt;a href=&#34;http://technorati.com/blogging/state-of-the-blogosphere/&#34; target=&#34;_blank&#34;&gt;http://technorati.com/blogging/state-of-the-blogosphere/&lt;/a&gt;) published a report on&lt;br /&gt; the growth of the blogosphere. The report mentioned that the blogosphere is consistently doubling&lt;br /&gt; every 5 months for the last 4 years and the size was estimated to be approximately 133 million blogs&lt;br /&gt; by December 2008. Furthermore, 2 new blogs or roughly 18.6 new blog posts are added to the blogosphere&lt;br /&gt; every second. Given the prominent and continued growth of the blogosphere, it is natural&lt;br /&gt; to ask whether it is possible to model the growth of the blogosphere and derive some macro-level&lt;br /&gt; statistics that characterizes the blog network. To study the complex network such as blogosphere,&lt;br /&gt; researchers can develop blog models and generate data through these models while continuously&lt;br /&gt; collecting blog data.&lt;/cite&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je posterai peut être des mises à jour à ce billet qui est quasiment aussi rempli qu&amp;#8217;un tweet.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Note :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  En premier lieu, les auteurs distinguent deux graphes orientés : graphe des blogs, graphe des posts. Le premier constitue la forme basse résolution du deuxième graphe. En effet, dans le deuxième on considère chaque post unique comme un sommet du graphe, et les liens pointant vers d&amp;#8217;autres posts sont les arêtes du graphe. Le premier graphe quand à lui rassemble tous les posts sous le blog initial.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vivre du web</title>
+      <link>http://localhost:1313/2009/07/vivre-du-web/</link>
+      <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/vivre-du-web/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-645&#34; title=&#34;make-money_blog&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; height=&#34;346&#34; /&gt;&lt;/a&gt;Je viens de tomber sur un fabuleux article , long et cru. Si vous êtes un idéaliste du web, ne lisez pas la suite.&lt;/p&gt;
+
+&lt;p&gt;L&amp;#8217;article s&amp;#8217;intitule : &lt;a title=&#34;Permanent Link: Les 103 que je donnerais à tous ceux qui veulent se lancer sur le Web&#34; rel=&#34;bookmark&#34; href=&#34;http://visionary.wordpress.com/2009/07/10/les-103-que-je-donnerais-a-tous-ceux-qui-veulent-se-lancer-sur-le-web/&#34;&gt;Les 103 que je donnerais à tous ceux qui veulent se lancer sur le Web&lt;/a&gt; (l&amp;#8217;auteur ayant sûrement oublié un mot).&lt;/p&gt;
+
+&lt;p&gt;Il répertorie toutes les idées préconçues que l&amp;#8217;on peux se faire sur le web, et les blogs. Il fera vite déchanter l&amp;#8217;amateur qui voyait encore s&amp;#8217;ouvrir devant lui les sommes mirobolantes des régies publicitaires. Après l&amp;#8217;avoir lu, je vous conseille tout de même de passer lire mon ami Thibaut Maquet, et son dernier article qui donne des aspects plus réjouissants : &lt;a title=&#34;Pagasa : Vivre de son Blog&#34; href=&#34;http://www.pagasa.net/vendre-sur-son-blog/&#34; target=&#34;_blank&#34;&gt;Vivre de son blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voilà, j&amp;#8217;espère ne pas vous avoir dégouté du web.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Des blogs sur la neurologie</title>
+      <link>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/des-blogs-sur-la-neurologie/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft size-full wp-image-74&#34; title=&#34;Neurologie&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; height=&#34;92&#34; /&gt;Depuis un petit moment je m&amp;#8217;intéresse de plus en plus aux&lt;strong&gt; sciences du cerveau&lt;/strong&gt;, et à la &lt;strong&gt;conscience&lt;/strong&gt;. Je vous ai déjà parlé du livre &amp;#8220;&lt;em&gt;Quantum Aspects of Life&lt;/em&gt;&amp;#8221; dans un &lt;a title=&#34;Lectures de vacances&#34; href=&#34;http://localhost/oldblog/2008/12/lectures-de-vacances/&#34;&gt;précédent billet &lt;/a&gt;. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&amp;#8217;étude. Je vous en donne la liste ci-dessous.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  En surfant un peu (je cherchais les termes &amp;#8220;neurologie quantique&amp;#8221; sur google),  je suis tombé sur la &lt;a title=&#34;Blog neurologie&#34; href=&#34;http://gillesenvrac.ca/carnet/tag/neuro/&#34; target=&#34;_blank&#34;&gt;section neurologie&lt;/a&gt; du blog de &lt;a title=&#34;Gilles Beauchamp&#34; rel=&#34;nofollow&#34; href=&#34;http://gillesenvrac.ca/carnet/a-propos-de-gilles/&#34; target=&#34;_blank&#34;&gt;Gilles Beauchamp&lt;/a&gt;. Le blog en lui même est très rempli, mais il n&amp;#8217;y poste pas aussi souvent que ça sur le thème de la &lt;strong&gt;neurologie&lt;/strong&gt;. Néanmoins, un des billets récents me pousse à visiter la liste des 101 blogs sur le cerveau ( &lt;a title=&#34;101 blogs sur le cerveau&#34; href=&#34;http://oedb.org/library/features/101_fascinating_brain_blogs&#34; target=&#34;_blank&#34;&gt;101 Fascinating Brain Blogs&lt;/a&gt;).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;strong&gt;Mise à jour (Aout 2009) :&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ceux que je consulte réguliérement sont :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;Brain Hammer&#34; href=&#34;http://petemandik.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Brain Hammer&lt;/a&gt; de &lt;a id=&#34;aptureLink_EKSLifJnI7&#34; href=&#34;http://twitter.com/petemandik&#34;&gt;Pete Mandik&lt;/a&gt; (philosophe)
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;Brain Stimulant&#34; href=&#34;http://brainstimulant.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Brain Stimulant&lt;/a&gt; de Mike (plus accès sur l&amp;#8217;imagerie)
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;Combining Cognits&#34; href=&#34;http://paul-baxter.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Combining Cognits&lt;/a&gt; de &lt;a id=&#34;aptureLink_dhwESWZgxM&#34; href=&#34;http://twitter.com/one_paulie&#34;&gt;Paul Baxter&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;Minds Hack&#34; href=&#34;http://www.mindhacks.com/&#34; target=&#34;_blank&#34;&gt;Minds Hack&lt;/a&gt; (le plus connu/consulté du milieu)
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Vous pouvez aussi aller consulter la liste des blogs lus par Pete Mandik : &lt;a href=&#34;http://www.blogs.com/topten/10-great-mind-and-brain-blogs/&#34; target=&#34;_blank&#34;&gt;Top 10 great mind blogs&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nouveau WordPress</title>
+      <link>http://localhost:1313/2008/12/nouveau-wordpress/</link>
+      <pubDate>Mon, 22 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/12/nouveau-wordpress/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le nouveau WordPress est plutôt génial : installation automatisée de plugins, ergonomie plus avancée de l&amp;#8217;administration. Je suis très heureux de me remettre à WP dans ces conditions.
+&lt;/p&gt;
+
+&lt;p&gt;Je recommande à ceux qui veulent se lancer dans de la publication assistée, de s&amp;#8217;y mettre!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rentabiliser son site web</title>
+      <link>http://localhost:1313/2008/07/rentabiliser-son-site-web/</link>
+      <pubDate>Tue, 22 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/07/rentabiliser-son-site-web/</guid>
+      <description>
+
+&lt;h3 id=&#34;le-principe:1299d733f325b424f2fc042fd21c82e0&#34;&gt;Le principe :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous avez surement remarqué la petite pub google qui se trouve sur la gauche de mon site! Voilà, je crois que c&amp;#8217;est tout pour le principe&amp;#8230;
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Bon, restons sérieux. &lt;strong&gt;Comment faire de l&amp;#8217;argent avec un site web?&lt;/strong&gt; La réponse est simple : la &lt;strong&gt;publicité&lt;/strong&gt;. Lorsque vous publiez du contenu sur internet, il est destiné à un public donné. Au mieux vous ciblez ce public, au plus vos visiteurs seront nombreux et fidèles. Si votre public est ciblé, vous pouvez aussi lui proposer de la publicité ciblée. Votre public pourra voir dans cette publicité des compléments d&amp;#8217;informations ou des ressources supplémentaires à la chose qu&amp;#8217;il était venu chercher sur internet.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous avez donc deux possibilités pour afficher de la pub sur votre site web. La première (plus ancienne, mais pas forcément la plus mauvaise) se présente sous la forme de&lt;strong&gt; régies publicitaires&lt;/strong&gt;. Dans ces régies vous devrez sélectionnez les annonceurs qui vous intéressent, et ça sera ensuite à leur tour de valider ou non votre site web. Si un accord est passé, vous pouvez afficher leur publicité sur votre page, et les revenus seront calculés selon les trois principales méthodes qui existent (voir juste après). La deuxième façon est représentée de manière très efficace par le service de publicité de Google : &lt;strong&gt;AdSense&lt;/strong&gt;. Il s&amp;#8217;agit cette fois-ci de s&amp;#8217;inscrire, de sélectionner l&amp;#8217;apparence graphique de la publicité, et ensuite, c&amp;#8217;est au tour de AdSense de parcourir votre page à la recherche de mots-clé. Il les repérera tout d&amp;#8217;abord grâce à vos balises &lt;strong&gt;Meta Keywords&lt;/strong&gt;. Ainsi, google placera tout seul les publicité qu&amp;#8217;il veut sur votre page. Vous ne pourrez influer sur le contenu quand faisant correspondre votre contenu, vos balises meta, et vos idées.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Les différentes &lt;strong&gt;campagnes publicitaires &lt;/strong&gt;qui peuvent être utilisées sur un site web sont les suivantes : Coût Pour Mille affichages (&lt;strong&gt;CPM&lt;/strong&gt;), Coût Par Click (&lt;strong&gt;CPC&lt;/strong&gt;) et Coût Par Action (&lt;strong&gt;CPA&lt;/strong&gt;). On comprends facilement que le premier et le second vont générer des revenus pour mille affichages ou pour un click. Le troisième va apporter de revenus lorsque le visiteur va cliquer sur la pub et effectuer une action donnée : commande sur une boutique en ligne, remplissage d&amp;#8217;un formulaire de renseignements.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;les-moyens:1299d733f325b424f2fc042fd21c82e0&#34;&gt;Les moyens :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Supposons que comme moi vous avez un compte sur AdSense. Vous voulez le faire tourner au plus haut rendement possible. Comment s&amp;#8217;y prendre? Je viens de découvrir le blog de &amp;#8216;&lt;a href=&#34;http://bababillgates.free.fr/&#34; target=&#34;_parent&#34;&gt;bababillgates&lt;/a&gt;&amp;#8216; qui donne de nombreuses astuces sur la façon de trouver des sujets intéressants.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  En résumant rapidement, google donne un outil très pratique d&amp;#8217;analyse de &lt;strong&gt;mots clé&lt;/strong&gt; : &lt;a href=&#34;https://adwords.google.com/select/KeywordToolExternal&#34; target=&#34;_parent&#34;&gt;https://adwords.google.com/select/KeywordToolExternal&lt;/a&gt;. Celui-ci vous permet de consulter le nombre de recherches moyennes mensuelles pour un mot clé donné. Mais il peut aussi vous permettre de condenser les mots clés d&amp;#8217;une page web. En plus de cela, il est possible d&amp;#8217;afficher le CPC potentiel d&amp;#8217;un mot clé. C&amp;#8217;est donc là que ça devient intéressant.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Pour trouver un secteur porteur il faut réunir les trois conditions suivantes :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;un mot clé qui assure un fort CPC&lt;/li&gt;
+&lt;li&gt;un mot clé qui assure de nombreuses visites&lt;/li&gt;
+&lt;li&gt;un mot clé sur lequel la concurrence n&amp;#8217;est pas trop féroce (petite recherche google sur le mot clé pour voir)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Jice is Nice</title>
+    <link>http://localhost:1313/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Tue, 07 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Classical algorithm for the Majority Problem</title>
+      <link>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</link>
+      <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/classical-algorithm-for-the-majority-problem/</guid>
+      <description>
+
+&lt;h2 id=&#34;presentation-of-the-problem:3b8d5a267fec0b72a8c954f33097fb33&#34;&gt;Presentation of the problem :&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The majority problem is equivalent to the perceptron learning. For each $$a \in \mathbb{Z}_n$$ define a function $$m_a : \mathbb{Z}_2^N \rightarrow \mathbb{Z}_2$$ :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  $$m_a(x)= \begin{cases} 1 &amp; \text{ if } wt(a-x)\leq n/2 \\0 &amp; \text{ otherwise } \end{cases}$$
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Where wt is the weight of a bit-string (number of 1).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Alternatively we can write : $$ m_a(x) = \Theta (n/2 &amp;#8211; wt(x-a) )$$.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The problem is : &lt;strong&gt;determine a&lt;/strong&gt; given an access to answers from $$m_a$$.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  We saw in the presentation (link available soon) that the classical complexity was $$ O(n)$$ while the quantum complexity was $$ O(\sqrt{n})$$. In the following we show the classical bound.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;h2 style=&#34;text-align: justify;&#34;&gt;
+    The classical algorithm
+  &lt;/h2&gt;
+  
+  &lt;p&gt;
+    For the classical case we will use a dichotomic process as in the &lt;a href=&#34;http://en.wikipedia.org/wiki/Binary_search_algorithm&#34; target=&#34;_blank&#34;&gt;binary chop&lt;/a&gt;. Here is the algorithm :
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;
+      At the first step you look the result for 0&amp;#8230;0. If it&amp;#8217;s 1 you take all the possible weights that could have the same result ($$2^n / 2 = 2^{n-1}$$ weights possible). If it&amp;#8217;s 0 you take the complementary set of bits (the same number of weights if n is even).
+    &lt;/li&gt;
+    &lt;li&gt;
+      After that, you choose a new vector in your possible set, with the biggest Hamming distance with the previous tested bit. Then you look the result. After that step you would be able to remove another time : $$ 2^{n-1} / 2$$ remaining weights .
+    &lt;/li&gt;
+    &lt;li&gt;
+      &amp;#8230; you repeat these steps n-1 times at all, in the end you have $$2^n/2^{n-1} = 2$$ possible states.
+    &lt;/li&gt;
+    &lt;li&gt;
+      In the end, you may have two bits that you will separate by choosing a special bit &lt;strong&gt;b&lt;/strong&gt;.  This bit &lt;strong&gt;b&lt;/strong&gt; will depend on the two possible states and differentiate them.
+    &lt;/li&gt;
+    &lt;li&gt;
+      And you are done in n steps.
+    &lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;
+    Example for n=3
+  &lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    For n=3, let&amp;#8217;s take the example of the following target bit : w = 001.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;ul&gt;
+    &lt;li&gt;
+      I first try 000. I get 1. So the possible weights are : 000 / 001 / 010 / 100
+    &lt;/li&gt;
+    &lt;li&gt;
+      Then I test 001. I get 1. So the remaining states are 001 / 000 ( 011 / 101 are not possible because they are not in the previous set)
+    &lt;/li&gt;
+    &lt;li&gt;
+      Finally I test 101. I get 1. &lt;em&gt;So the only possible result is 001&lt;/em&gt;.
+    &lt;/li&gt;
+  &lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours sur le web sémantique</title>
+      <link>http://localhost:1313/2009/02/cours-sur-le-web-semantique/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/cours-sur-le-web-semantique/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Un petit post pour vous donner des liens concernant le web sémantique. A l&amp;#8217;origine ce thread sur Facebook : &lt;a title=&#34;Cours sur le web sémantique&#34; href=&#34;http://www.facebook.com/group.php?sid=a1ac36aed290f27e620b1594536f34ba&amp;gid=27810627729#/topic.php?uid=2220211728&amp;topic=7994&#34; target=&#34;_blank&#34;&gt;Semantic web courses&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Bien entend ce qui m&amp;#8217;attire le plus c&amp;#8217;est l&amp;#8217;aspect machine learning, et donc je vous recommande le cours du MIT sur le &lt;a title=&#34;Cours sur le machine learning&#34; href=&#34;http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-867Fall-2006/CourseHome/index.htm&#34; target=&#34;_blank&#34;&gt;machine leanring&lt;/a&gt; (voir lectures note pour les cours concrets).
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projet Flowers</title>
+      <link>http://localhost:1313/2009/01/projet-flowers/</link>
+      <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/01/projet-flowers/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le &lt;strong&gt;machine learning&lt;/strong&gt;, l&amp;#8217;a&lt;strong&gt;pprentissage sémantique&lt;/strong&gt;, et l&amp;#8217;&lt;strong&gt;acquisition d&amp;#8217;un langage&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Mis en ligne très récemment, le blog de l&amp;#8217;équipe INRIA Flowers présente ses domaines d&amp;#8217;activités et regroupent la plupart de ses vidéos grand-public de présentation :&lt;br /&gt; &lt;a title=&#34;Projet Flowers INRIA - Machnie Learning&#34; href=&#34;http://flowers.inria.fr/&#34; target=&#34;_blank&#34;&gt;http://flowers.inria.fr/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  On peut aussi retrouver plus d&amp;#8217;informations sur la home page de Pierre-Yves Oudeyer, le responsable du groupe de recherche :&lt;br /&gt; &lt;a title=&#34;Page personnelle Pierre-Yves Oudeyer&#34; href=&#34;http://www.pyoudeyer.com&#34; target=&#34;_blank&#34;&gt;http://www.pyoudeyer.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img style=&#34;float: left;&#34; title=&#34;Robot&#34; src=&#34;http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; height=&#34;283&#34; /&gt;Pour comprendre rapidement ce qui fait l&amp;#8217;originalité de l&amp;#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&amp;#8217;environnement qui l&amp;#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&amp;#8217;approche de l&amp;#8217;équipe Flowers est similaire. En introduisant une &amp;#8220;fonction de &lt;strong&gt;curiosité&lt;/strong&gt;&amp;#8221; dans le &amp;#8220;cerveau&amp;#8221; du robot, celui-ci commence à être curieux face à son environnement.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Il peut par exemple s&amp;#8217;intéresser à une balle qui roule car c&amp;#8217;est le seul élèment dynamique de son champ de vision. A travers ses recherches, l&amp;#8217;équipe a découvert que le robot s&amp;#8217;intéressait à des choses faciles au début, puis de plus en plus complexes. Si le robot ne peut pas comprendre un évènement, il passe à une chose plus simple qu&amp;#8217;il est en mesure d&amp;#8217;apprendre avant de revenir sur l&amp;#8217;evènement complexe avec les nouvelles données acquises qui lui permetttront peut être de comprendre cette fois-ci.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je vous souhaite une lecture enrichissante sur leurs différents articles.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

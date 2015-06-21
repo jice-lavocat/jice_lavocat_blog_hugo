@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on Jice is Nice</title>
+    <link>http://localhost:1313/tags/installation/</link>
+    <description>Recent content in Installation on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 24 Mar 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installation d’un Drupal multi-site</title>
+      <link>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</link>
+      <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/03/installation-dun-drupal-multi-site/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; title=&#34;Drupal - CMS&#34; src=&#34;http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; height=&#34;250&#34; /&gt;Petit article très rapide pour présenter la procédure d&amp;#8217;installation d&amp;#8217;un &lt;a title=&#34;Drupal - CMS&#34; href=&#34;http://drupal.org/&#34; target=&#34;_blank&#34;&gt;Drupal&lt;/a&gt; multi-sites sur un serveur tout bête ( le plus petit mutualisé peut servir).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le but d&amp;#8217;un multi-sites est d&amp;#8217;avoir un seul répertoire contenant le code de base, et plusieurs répertoires de petite taille comportant les éléments particuliers à chaque sites. Ce procédé est intéressant si vous construisez souvent vos sites à partir d&amp;#8217;un même système de modules (exemple la même galerie, le même composant de forum, etc.). Les avantages concernent la mise à jour qui devient centralisée et plus rapide par conséquent.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Le principe
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Imaginons que votre répertoire de base est &lt;em&gt;/www&lt;/em&gt;. Tout d&amp;#8217;abord, il est nécessaire de créer un répertoire /&lt;em&gt;www/drupal&lt;/em&gt; qui contiendra les fichiers d&amp;#8217;installation de base (dézipper le contenu du fichier téléchargés sur le site de Drupal).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Imaginons que vous ayez à créer deux sites web : &lt;em&gt;site1.com&lt;/em&gt; et &lt;em&gt;site2.com&lt;/em&gt;. Avant de continuer la configuration, ilfaut rediriger vos noms de domaine vers deux dossiers spécifiques à ces sites. Par exemple, &lt;em&gt;/www/site1&lt;/em&gt; et &lt;em&gt;/www/site2&lt;/em&gt; Ensuite, pour chacun d&amp;#8217;eux, il est besoin de créer un lien symbolique vers le répertoire drupal de base. Ainsi, nous allons d&amp;#8217;abord supprimer les dossiers crées plus haut, puis les envoyer symboliquement vers notre répertoire de base.
+&lt;/p&gt;
+
+&lt;pre style=&#34;text-align: justify;&#34;&gt;rmdir /www/site1&lt;/pre&gt;
+
+&lt;pre style=&#34;text-align: justify;&#34;&gt;ln -s /www/drupal /www/site1&lt;/pre&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  A présent, il faut créer un répertoire dédié à chaque site dans votre installation de drupal. Le moteur de Drupal est assez fort techniquement, et se base sur le nom de votre dossier pour comprendre quel URL appelle quel dossier. Créez donc les dossiers &lt;em&gt;/www/drupal/sites/site1.com&lt;/em&gt; et &lt;em&gt;/www/drupal/sites/site2.com&lt;/em&gt;. Copiez, dans chacun de ces répertoires le fichier &lt;em&gt;/www/drupal/sites/all/settings.php&lt;/em&gt;, et renseignez-y les informations concernant votre base de données.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  La lecture du fichier settings.php vous apprendra qu&amp;#8217;il est possible de partager des informations entre les différents sites. Vous pouvez par exemple avoir la même base concernant les users, ce qui permettra à vos utilisateurs de ne s&amp;#8217;inscire qu&amp;#8217;à un seul de vos sites!
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Après cela, il faut simplement se connecter à votre site1.com, et le script d&amp;#8217;installation se chargera du reste de l&amp;#8217;installation.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  La suite
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  A présent, voilà comment fonctionne Drupal. Les thèmes et modules à gérer en commun sont à placer dans &lt;em&gt;/www/drupal/sites/all&lt;/em&gt; , et les thèmes ou modules dédiés sont à placer dans &lt;em&gt;/www/drupal/sites/site1.com&lt;/em&gt; (pour le &lt;em&gt;site1.com&lt;/em&gt; par exemple).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Afin de bien démarrer sous Drupal, je vous propose de lire l&amp;#8217;article suivant, qui vous donne 11 steps indispensable après une installation de Drupal : &lt;a title=&#34;11 m ost important things after a drupal installation&#34; href=&#34;http://timonweb.com/the-11-most-important-things-to-do-after-you-install-drupal&#34; target=&#34;_blank&#34;&gt;http://timonweb.com/the-11-most-important-things-to-do-after-you-install-drupal&lt;/a&gt; . Il recense juste des modules assez indispensables. A vous de les placer dans &lt;em&gt;/www/drupal/sites/all&lt;/em&gt;, mais de ne les activer sur vos sites que lorsque vous en sentez l&amp;#8217;utilité. C&amp;#8217;est en anglais, mais vous pouvez le traduire avec google translate si vous n&amp;#8217;êtes pas anglophone.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

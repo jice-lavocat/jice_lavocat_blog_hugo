@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Jice is Nice</title>
+    <link>http://localhost:1313/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installer WordPress sur Webfaction</title>
+      <link>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</link>
+      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2014/03/installer-wordpress-sur-webfaction/</guid>
+      <description>
+
+&lt;p&gt;J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Webfaction, en gros, c&amp;#8217;est &lt;em&gt;comme un hébergeur mutualisé&lt;/em&gt; (où on ne doit pas se concentrer sur la sécurité et l&amp;#8217;installation de toutes les dépendances du serveur) mais avec &lt;strong&gt;plein d&amp;#8217;options pour configurer automatiquement le serveur&lt;/strong&gt;. Par exemple, sur un mutu, impossible d&amp;#8217;installer des stacks complexes comme ruby on rails ou node, alors que sur webfaction cela est possible et il n&amp;#8217;y a pas besoin de passer 3 heures à trouver comment installer toutes les dépendances.&lt;/p&gt;
+
+&lt;h2 id=&#34;utilisation-du-dashboard:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Utilisation du dashboard&lt;/h2&gt;
+
+&lt;p&gt;Le panneau d&amp;#8217;administration de Webfaction est fait maison, il faut donc s&amp;#8217;habituer à la façon dont les informations sont présentées (c&amp;#8217;est pas long, mais voilà quoi) :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1427&#34; alt=&#34;Dashboard Webfaction&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; width=&#34;600&#34; height=&#34;473&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans la pratique (pas très grosse pour moi pour le moment), je trouve qu&amp;#8217;on perd un peu de temps entre les différents menus dans certains cas. Par exemple, dans domain/application/website, toutes les informations pourraient se trouver sur la même page avec un système d&amp;#8217;onglets. Bref, cela étant dit l&amp;#8217;ensemble reste quand même &lt;strong&gt;assez clair&lt;/strong&gt; et la &lt;strong&gt;prise en main est assez rapide&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;création-d-8217-un-compte-ssh:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Création d&amp;#8217;un compte ssh :&lt;/h2&gt;
+
+&lt;p&gt;Avant toute chose, allez vous créer un utilisateur qui a accès au ssh, ça sera beaucoup plus pratique dans le futur. Rendez-vous sur la page d&amp;#8217;&lt;a title=&#34;Création utilisateur ssh - webfaction&#34; href=&#34;https://my.webfaction.com/new-user&#34; target=&#34;_blank&#34;&gt;ajout d&amp;#8217;utilisateur&lt;/a&gt; et remplissez le formulaire (j&amp;#8217;ai pris &lt;em&gt;/bin/bash&lt;/em&gt; comme &lt;strong&gt;shell&lt;/strong&gt; mais ça n&amp;#8217;a pas de grosses implications). Vous verrez, même le choix du password est &amp;#8220;controlé&amp;#8221; et le système vous empêchera de créer un compte avec password &amp;#8220;faible&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1428&#34; alt=&#34;Add SSH user&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; width=&#34;300&#34; height=&#34;154&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois ce compte créer, vous pouvez vous connecter à votre serveur depuis chez vous en utilisant aussi bien des outils de ftp (comme winscp) ou ssh (comme putty) pour voir ce qui se passe dessus (j&amp;#8217;ai un vieil article sur &lt;a title=&#34;Les outils pour administrer un serveur à distance - SFTP et SSH - Adminoob&#34; href=&#34;http://www.adminoob.com/2008/08/18/les-outils-windows-indispensables-a-ladministration-serveur-a-distance/&#34; target=&#34;_blank&#34;&gt;les outils pour administrer un serveur à distance&lt;/a&gt; si vous débutez).&lt;/p&gt;
+
+&lt;h2 id=&#34;créer-votre-site-wordpress-sur-webfaction:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Créer votre site WordPress sur Webfaction&lt;/h2&gt;
+
+&lt;p&gt;Maintenant voici les étapes principales pour créer votre blog wordpress sur Webfaction.&lt;/p&gt;
+
+&lt;h3 id=&#34;créer-un-8220-nouveau-site-web-8221:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Créer un &amp;#8220;nouveau site web&amp;#8221;&lt;/h3&gt;
+
+&lt;p&gt;Rendez-vous dans la section &lt;em&gt;domains/websites&lt;/em&gt; et cliquez sur &lt;em&gt;Websites&lt;/em&gt; puis &lt;a title=&#34;Ajouter un site webfaction&#34; href=&#34;https://my.webfaction.com/new-website&#34; target=&#34;_blank&#34;&gt;Add a new website&lt;/a&gt;. Cette section va vous permettre de configurer (côté serveur) quelle application sera gérée par votre sous-domaine.&lt;/p&gt;
+
+&lt;p&gt;Voilà  à quoi ressemblera votre &amp;#8220;site web&amp;#8221; après sa création :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_website.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1431&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; width=&#34;600&#34; height=&#34;388&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour cela, donnez d&amp;#8217;abord un nom &amp;#8220;name&amp;#8221; à votre site web pour vous en rappeler facilement. Ensuite, il faut préciser quel domaine(s) et/ou sous-domaine(s) vont accéder à cette application. Pour cet exemple j&amp;#8217;en ai mis un seul :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; width=&#34;600&#34; height=&#34;81&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Enfin, il faut dire au serveur quel application (WordPress) nous allons héberger sur ce nom de domaine. Pour cela on crée une nouvelle application, et on choisira WordPress dans la liste proposée.&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_application.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1432&#34; alt=&#34;Ajouter une application (webfaction)&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; width=&#34;600&#34; /&gt;&lt;/a&gt;  &lt;img class=&#34;aligncenter  wp-image-1434&#34; alt=&#34;Détail création d&#39;une application&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/new_application.png&#34; width=&#34;600&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: left;&#34;&gt;
+  Faire pointer ses DNS vers Webfaction
+&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Après avoir sauvé cette configuration, il suffit d&amp;#8217;aller chez votre registar et faire pointer vos domaine vers votre serveur webfaction.L&amp;#8217;adresse IP du server est résumée dans votre liste d&amp;#8217;application :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_server.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1435&#34; alt=&#34;Adresse Ip de votre application sur webfaction&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_server.png&#34; width=&#34;600&#34; height=&#34;40&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Ci-dessus on voit que l&amp;#8217;adresse ip de mon nouveau serveur est &lt;em&gt;37.58.75.242&lt;/em&gt;. Je vais devoir aller pointer mon sous-domaine &lt;em&gt;wordpress.lavocat.name&lt;/em&gt; vers cette adresse IP. Vous allez créer un nouveau champ A qui pointera vers l&amp;#8217;adresse IP de votre serveur webfaction. Dans cet exemple, j&amp;#8217;utilise dreamhost comme registar (mais la manipulation se trouve expliquée facilement sur le web pour tous les registar) :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;img class=&#34;aligncenter size-full wp-image-1436&#34; alt=&#34;Configuration dns dreamhost&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_dreamhost.png&#34; width=&#34;600&#34; height=&#34;235&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Et comme beaucoup d&amp;#8217;entre vous sont aussi chez OVH, je mets ci-dessous à quoi ça ressemble :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_ovh.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1440&#34; alt=&#34;Configuration d&#39;un champs DNS A sous OVH&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/dns_ovh.png&#34; width=&#34;479&#34; height=&#34;262&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Voilà, la configuration DNS et serveur est finie. Maintenant, passons à la base de données.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: left;&#34;&gt;
+  Connexion à votre nouveau Wordress sur Webfaction
+&lt;/h2&gt;
+
+&lt;p&gt;Voilà, l&amp;#8217;ensemble des opérations ont été accomplies. Si la propagation de DNS est finie (peut prendre de 5 minutes à lpusieurs heures), vous allez pouvoir accéder à votre nouveau blog à l&amp;#8217;adresse que vous avez uutilisée. Chez moi ça marche donc ici : &lt;a title=&#34;Wordpress de test sur webfaction&#34; href=&#34;http://wordpress.lavocat.name/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://wordpress.lavocat.name/&#34;&gt;http://wordpress.lavocat.name/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Maintenant, l&amp;#8217;essentiel est de vous y connecter pour le configurer et ajouter du contenu. Pour cela, vous devez retourner dans &lt;em&gt;Domains / Applications&lt;/em&gt; puis &lt;em&gt;Applications&lt;/em&gt; et cliquer sur le nom du blog que vous venez de créer. Dessus vous avez toutes les informations concernant votre site et la base de données qui a été créée en même temps. Votre login initial est &amp;#8220;admin&amp;#8221; et le mot de passe est affiché dans le tableau dans la section &amp;#8220;extra info&amp;#8221; :&lt;/p&gt;
+
+&lt;h2 id=&#34;img-class-aligncenter-size-full-wp-image-1443-alt-login-de-wordpress-généré-automatiquement-src-images-posts-oldwordpress-uploads-2014-03-login-wordpress-png-width-600-height-339-4:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/login_wordpress.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1443&#34; alt=&#34;Login de WordPress généré automatiquement&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/03/login_wordpress.png&#34; width=&#34;600&#34; height=&#34;339&#34; /&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;voir-vos-fichiers:64efd74f87895552ffcd5fb6fbce51d7&#34;&gt;Voir vos fichiers&lt;/h2&gt;
+
+&lt;p&gt;Pour voir vos fichiers, il faut vous connecter avec votre compte principal de FTP (et non pas celui créer spécialement pour le ssh au début). C&amp;#8217;est une situation un peu bizarre, mais j&amp;#8217;imagine que ça protège un peu plus vos one-click install.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latex on my blog</title>
+      <link>http://localhost:1313/2009/06/test-latex/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/06/test-latex/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  $$ i\hbar\frac{\partial}{\partial t}\left|\Psi(t)\right&gt;=H\left|\Psi(t)\right&gt;$$
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Vous pouvez aussi normalement écrire vos formules dans les commentaires en utilisant la syntaxe
+&lt;/p&gt;
+
+&lt;p&gt;`&lt;p style=&#34;text-align: justify;&#34;&gt;
+  WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  $$ i\hbar\frac{\partial}{\partial t}\left|\Psi(t)\right&gt;=H\left|\Psi(t)\right&gt;$$
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Vous pouvez aussi normalement écrire vos formules dans les commentaires en utilisant la syntaxe
+&lt;/p&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez essayer ci-dessous, dans la mesure du raisonnable.&lt;/p&gt;
+
+&lt;p&gt;_&lt;em&gt;__&lt;/em&gt;_&lt;em&gt;__&lt;/em&gt;______&lt;/p&gt;
+
+&lt;p&gt;English version :&lt;/p&gt;
+
+&lt;p&gt;You can now add Latex equations on my blog/comments. The correct syntax is&lt;/p&gt;
+
+&lt;p&gt;``&lt;p style=&#34;text-align: justify;&#34;&gt;
+  WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  $$ i\hbar\frac{\partial}{\partial t}\left|\Psi(t)\right&gt;=H\left|\Psi(t)\right&gt;$$
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Vous pouvez aussi normalement écrire vos formules dans les commentaires en utilisant la syntaxe
+&lt;/p&gt;
+
+&lt;p&gt;`&lt;p style=&#34;text-align: justify;&#34;&gt;
+  WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  $$ i\hbar\frac{\partial}{\partial t}\left|\Psi(t)\right&gt;=H\left|\Psi(t)\right&gt;$$
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Vous pouvez aussi normalement écrire vos formules dans les commentaires en utilisant la syntaxe
+&lt;/p&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez essayer ci-dessous, dans la mesure du raisonnable.&lt;/p&gt;
+
+&lt;p&gt;_&lt;em&gt;__&lt;/em&gt;_&lt;em&gt;__&lt;/em&gt;______&lt;/p&gt;
+
+&lt;p&gt;English version :&lt;/p&gt;
+
+&lt;p&gt;You can now add Latex equations on my blog/comments. The correct syntax is&lt;/p&gt;
+
+&lt;p&gt;``&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mise à jour du Blog  – Ajout Photos</title>
+      <link>http://localhost:1313/2009/06/mise-a-jour-du-blog-ajout-photos/</link>
+      <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/06/mise-a-jour-du-blog-ajout-photos/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  J&amp;#8217;ai donc pris un peu de temps pour changer le thème de &lt;a title=&#34;Blog de Jice Lavocat&#34; href=&#34;http://localhost/oldblog&#34;&gt;mon blog&lt;/a&gt; car l&amp;#8217;ancien ne me plaisait plus. Le thème en question (&lt;a title=&#34;Template Digital Statement&#34; href=&#34;http://www.blogohblog.com/wordpress-theme-digital-statement&#34; target=&#34;_blank&#34;&gt;Digital Statement&lt;/a&gt;) est un thème gratuit de : &lt;a title=&#34;Blogohblog - Templates&#34; href=&#34;http://www.blogohblog.com&#34; target=&#34;_blank&#34;&gt;http://www.blogohblog.com&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  J&amp;#8217;ai de plus ajouté le plugin &lt;a title=&#34;Fotobook - Plugin Album photos Facebook&#34; href=&#34;http://www.aaronharp.com/dev/wp-fotobook/&#34; target=&#34;_blank&#34;&gt;Fotobook&lt;/a&gt; qui permet de relier ses album Facebook à son blog. Dommage que l&amp;#8217;on ne puisse pas vérifier que les visiteurs du blog sont bien dans ses contacts Facebook, sinon j&amp;#8217;aurais fermer l&amp;#8217;accès aux autres .. je vais d&amp;#8217;ailleurs probablement retirer de nombreux albums en accès public.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thème séléctionné</title>
+      <link>http://localhost:1313/2008/12/theme-selectionne/</link>
+      <pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/12/theme-selectionne/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le thème qui a été retenu pour le premier lancement de mon blog est disponible à l&amp;#8217;adresse suivante : &lt;a title=&#34;Theme WordPress&#34; href=&#34;http://www.jide.fr/english/downloads/freshy2/&#34; target=&#34;_blank&#34;&gt;http://www.jide.fr/english/downloads/freshy2&lt;/a&gt; . D&amp;#8217;une part il est français, et d&amp;#8217;autre part il est plutôt modulable facilement, et assez classe. J&amp;#8217;espère que vous l&amp;#8217;aimerez!
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Un thème pour le blog</title>
+      <link>http://localhost:1313/2008/12/un-theme-pour-le-blog/</link>
+      <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/12/un-theme-pour-le-blog/</guid>
+      <description>&lt;p&gt;Je cherche en ce moment un thème à ajouter à ce blog. Pour le moment mes regards se tournent vers la liste : &lt;a title=&#34;Liste de templates wordpress&#34; href=&#34;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&#34;&gt;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[Edit] Pour le prochain thème, j&amp;#8217;irai loucher du côté des galeries de DeviantArt : &lt;a title=&#34;Theme WordPress sur DeviantArt&#34; href=&#34;http://browse.deviantart.com/?qh=&amp;section=&amp;q=wordpress&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://browse.deviantart.com/?qh=&amp;amp;section=&amp;amp;q=wordpress&#34;&gt;http://browse.deviantart.com/?qh=&amp;amp;section=&amp;amp;q=wordpress&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

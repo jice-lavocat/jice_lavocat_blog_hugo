@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keyboard on Jice is Nice</title>
+    <link>http://localhost:1313/tags/keyboard/</link>
+    <description>Recent content in Keyboard on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Fri, 03 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Écrire avec des accents sur un Qwerty (international)</title>
+      <link>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</link>
+      <pubDate>Fri, 03 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/ecrire-avec-des-accents-sur-un-qwerty-international/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft size-full wp-image-563&#34; style=&#34;margin: 5px;&#34; title=&#34;clavierblack&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/07/clavierblack.gif&#34; alt=&#34;clavierblack&#34; width=&#34;100&#34; height=&#34;100&#34; /&gt;Si comme moi vous avez fait l&amp;#8217;erreur de vous procurer un clavier qwerty, et de perdre toutes vos belles lettres accentuées, tout n&amp;#8217;est pas perdu. En effet, il vous est possible d&amp;#8217;activer l&amp;#8217;option : &amp;#8220;Clavier qwerty international&amp;#8221; en anglais &amp;#8220;international qwerty keyboard&amp;#8221; sur n&amp;#8217;importe quel OS où vous travaillez.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+    Installation de l&amp;#8217;US international Keyboard
+  &lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    Que ce soit sur Linux ou Windows vous pouvez faire comprendre à l&amp;#8217;OS que vous désirez activer les fonctionnalités de touches internationales. Pour le mettre en place ( texte traduit par google, je ne le relis même pas, je pense que vous y arriverez seul) sur windows voilà la procédure :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify; padding-left: 30px;&#34;&gt;
+    &lt;cite title=&#34;Installation&#34; lang=&#34;Francais&#34;&gt;&lt;strong&gt;Win XP&lt;/strong&gt;: Cliquez sur Démarrer, Paramètres, Panneau de configuration, Options régionales et linguistiques. Cliquez sur la Langue (s) de l&amp;#8217;onglet. Cliquez sur Détails, puis sur Ajouter. Choisir une langue d&amp;#8217;entrée et un clavier / IME. Utilisation Appliquer pour terminer le processus, le CD d&amp;#8217;installation Windows peut être nécessaire. Le clavier multilingue sections ou dans Démarrer  vous fournira des détails.&lt;br /&gt; &lt;/cite&gt;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify; padding-left: 30px;&#34;&gt;
+    &lt;cite title=&#34;Installation&#34; lang=&#34;Francais&#34;&gt;&lt;strong&gt;Windows Vista&lt;/strong&gt;: Cliquez sur Démarrer, Panneau de configuration, Horloge, de la Langue et de la région, le changement Keyboards. Dans la nouvelle fenêtre, cliquez sur le bouton Changer Keyboards. Cela ouvre une nouvelle fenêtre intitulée &amp;#8220;Services de texte et langues d&amp;#8217;entrée&amp;#8221;. Cliquez sur le bouton Ajouter. Parcourez la liste puis choisir.&lt;br /&gt; &lt;/cite&gt;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+    Utilisation
+  &lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    Vous voilà donc avec votre &lt;strong&gt;clavier international&lt;/strong&gt;, mais comment s&amp;#8217;en sert-on? Dans la suite du texte, la frappe d&amp;#8217;un caractère est encadré par des crochets &amp;lt; &amp;gt;. Par exemple, si je mets &lt;space&gt; ça veut dire qu&amp;#8217;il faut appuyer sur espace, &amp;lt; i &amp;gt;  signifie qu; il faut presser la touche i.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    Alors le plus simple, ce sont les accents. Il va falloir modifier vos habitudes d&amp;#8217;utilisation du clavier un brin. Chaque voyelle peut se voir attribuer un accent. Pour cela, avant de la toucher, tapez  &amp;lt; &amp;#8216; &amp;gt;  (apostrophe simple). Par exemple, pour avoir &amp;#8220;&lt;span style=&#34;color: #ff0000;&#34;&gt; é &lt;/span&gt;&amp;#8220;, j&amp;#8217;ai du faire : &amp;lt; &amp;#8216; + e &amp;gt;. Ok, donc vous avec aussi accès aux accents graves, aigus, circonflexes de la même manière ( &amp;lt; ` &amp;gt;  se trouve à gauche du 1,  &amp;lt; ^&amp;gt; est accessible au dessus du 6&amp;#8230; donc il faut presser &lt;MAJ ( en anglais = SHIFT) &gt; avant.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    Comment avoir accès à l&amp;#8217;apostrophe à présent ??? Et bien il va vous falloir ( je sais , c&amp;#8217;est ennuyant à la fin) taper sur la touche espace &lt;Space&gt; après chaque apostrophe. Par exemple, pour avoir  &lt;span style=&#34;color: #ff0000;&#34;&gt; &amp;#8216; &lt;/span&gt; je fais &amp;lt;  &amp;#8216; &amp;gt; puis &amp;lt; Space&amp;gt; .
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;
+      Pour les autres touches, c&amp;#8217;est un peu plus complexe. Il vous faudra utiliser la touche &lt;Alt Gr&gt; (Alt de droite) et des combinaisons par toujours évidentes décrites dans le schéma ci-dessous (source wikipedia).
+    &lt;/p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  &amp;lt;div style=&amp;quot;width: 610px&amp;quot; class=&amp;quot;wp-caption aligncenter&amp;quot;&amp;gt;
+    &amp;lt;img title=&amp;quot;International Qwerty Keyboard chart&amp;quot; src=&amp;quot;http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/KB_US-International.svg/800px-KB_US-International.svg.png&amp;quot; alt=&amp;quot;International Qwerty Keyboard Map ( src : wikipedia)&amp;quot; width=&amp;quot;600&amp;quot; height=&amp;quot;200&amp;quot; /&amp;gt;
+
+    &amp;lt;p class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;
+      International Qwerty Keyboard Map ( src : wikipedia)
+    &amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;p&amp;gt;
+    Tout cet article pour vous dire au final &amp;lt;strong&amp;gt;comment obtenir le signe euro € sur un clavier qwerty&amp;lt;/strong&amp;gt; :   il faut taper &amp;lt;Alt Gr + 5&amp;gt;.
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;p&amp;gt;
+    Voilà comment on trouve l&amp;amp;#8217;inspiration pour un post!
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;p&amp;gt;
+    En espérant que cela serve à d&amp;amp;#8217;éventuels expats.
+  &amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

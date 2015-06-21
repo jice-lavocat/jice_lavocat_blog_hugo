@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Jice is Nice</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 17 Nov 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A script to plot GWL File (for the use of Nanoscribe)</title>
+      <link>http://localhost:1313/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</link>
+      <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;file:///tmp/moz-screenshot.png&#34; alt=&#34;&#34; /&gt;
+&lt;img class=&#34;alignleft size-full wp-image-1121&#34; style=&#34;margin-left: 10px; margin-right: 10px;&#34; title=&#34;describe - nanoscribe language GWL&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/describe1.png&#34; alt=&#34;describe - nanoscribe language GWL&#34; width=&#34;106&#34; height=&#34;105&#34; /&gt;The focus of this article is really small. It will only interest people involved in Research, who own a &lt;a title=&#34;Nanoscribe&#34; href=&#34;http://www.nanoscribe.de/&#34; target=&#34;_blank&#34;&gt;Nanoscribe&lt;/a&gt; device.&lt;/p&gt;
+
+&lt;p&gt;I was a little bit annoyed by the software, very heavy, and running only on windows. I wanted to design my structures on Linux (or any plateform actually), and I wanted to plot the result with a light software.&lt;/p&gt;
+
+&lt;p&gt;I programmed a small script in Python to plot &lt;strong&gt;2D structures written in gwl&lt;/strong&gt;. In order to run it, ou need to have Python 2.6, Matplotlib and SciPy (in order to have Numpy functions). You also have to use the preamble module I use and which is also included in the archive.&lt;/p&gt;
+
+&lt;p&gt;To use it, put the module, the script and the GWL file in the same folder. Then modify the script and include the name of your gwl file. Finally, open a consol, and type :&lt;/p&gt;
+
+&lt;pre&gt;python plot_gwl.py&lt;/pre&gt;
+
+&lt;p&gt;You can modify and improve this small script, and I would be happy to see the modifications (probably 3D would be a good step forward).&lt;/p&gt;
+
+&lt;p&gt;Download the archive : &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.0.zip&#34;&gt;Plot_GWL.1.0.zip&lt;/a&gt; (contains the script to plot and the module)&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Edit&lt;/em&gt; 22 Nov. 2010 : I implemented the &lt;strong&gt;3D visualization&lt;/strong&gt; . The same command is required to use it (modify line 26  &lt;em&gt;&amp;#8220;open(&amp;#8216;your_filename.gwl&amp;#8217;,&amp;#8217;r&amp;#8217;)&amp;#8221;&lt;/em&gt; ) . Comments have been added to help you understading the script. A future addition will take in account an input parameter (instead of modifing the script every time to tell it which file to plot).&lt;/p&gt;
+
+&lt;p&gt;Download the new archive : &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.1.zip&#34;&gt;Plot_GWL.1.1.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Example of a 3D plot :&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/tour_eiffel.png&#34;&gt;&lt;img title=&#34;tour_eiffel&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png&#34; alt=&#34;Tour Eiffel with Nanoscribe&#34; width=&#34;300&#34; height=&#34;222&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grover’s Search Algorithm in Python</title>
+      <link>http://localhost:1313/2009/08/grovers-search-algorithm-in-python/</link>
+      <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/08/grovers-search-algorithm-in-python/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  As you may have read in some previous post I am actually working on a modified version of the &lt;a title=&#34;Lee Grover&#34; href=&#34;http://www1.bell-labs.com/user/lkgrover/&#34; target=&#34;_blank&#34;&gt;Grover&lt;/a&gt;&amp;#8216;s &lt;a title=&#34;Grover&#39;s Search Algorithm&#34; href=&#34;http://arxiv.org/abs/quant-ph/9605043&#34; target=&#34;_blank&#34;&gt;Algorithm&lt;/a&gt;. For those who don&amp;#8217;t know the &lt;a title=&#34;Explanations of Grover&#39;s Algorithm&#34; href=&#34;http://www.quantiki.org/wiki/index.php/Grover%27s_search_algorithm&#34; target=&#34;_blank&#34;&gt;principles of Grover&amp;#8217;s Algorithm&lt;/a&gt;, here is a quick explanation.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  We have a function $$f : \mathbb{Z}_2^n\rightarrow \mathbb{Z}_2$$ that is True for only one $$a \in \mathbb{Z}_2^n$$. We also have a quantum oracle that returns the value of the function f. Classicaly, finding the value of $$a$$ will take n-1 steps. With the quantum version (Grover&amp;#8217;s Algorithm) it takes only $$\sqrt{n}$$ steps.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The idea (without explanations) is to take an equally distributed weights vector as input $$x$$, and to iterate a sequence of unitary operations during a certain amount of time.  After this given number of steps a measurement on the input vector is made, and is has been proved that we will observed the correct answer with probability 1. The number of steps is proportional to $$\sqrt{n}$$.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Bellow I put the picture representing the evolution (step after step) of the probability to observe the correct answer. You can see the oscillations that are well explained by geometrical description of this algorithm.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/grover_simple.png&#34;&gt;&lt;img class=&#34;aligncenter size-thumbnail wp-image-801&#34; title=&#34;grover_simple&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Python Code
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Bellow you&amp;#8217;ll find the code associated to this example. You&amp;#8217;ll also be able to visualize the animation of the probabilities distribution according to the time.  The code is written in &lt;a title=&#34;Python&#34; href=&#34;http://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; and requires &lt;a title=&#34;Numpy&#34; href=&#34;http://numpy.scipy.org/&#34; target=&#34;_blank&#34;&gt;Numpy&lt;/a&gt; to work. The associated functions classes are not useful for this simple case, but you&amp;#8217;ll understand in the coming post why I need them.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/Grover.zip&#34;&gt;Grover Algorithm &amp;#8211; Python&lt;/a&gt; (run &lt;em&gt;python grover.py&lt;/em&gt;)[&lt;p style=&#34;text-align: justify;&#34;&gt;
+As you may have read in some previous post I am actually working on a modified version of the &lt;a title=&#34;Lee Grover&#34; href=&#34;http://www1.bell-labs.com/user/lkgrover/&#34; target=&#34;_blank&#34;&gt;Grover&lt;/a&gt;&amp;#8216;s &lt;a title=&#34;Grover&#39;s Search Algorithm&#34; href=&#34;http://arxiv.org/abs/quant-ph/9605043&#34; target=&#34;_blank&#34;&gt;Algorithm&lt;/a&gt;. For those who don&amp;#8217;t know the &lt;a title=&#34;Explanations of Grover&#39;s Algorithm&#34; href=&#34;http://www.quantiki.org/wiki/index.php/Grover%27s_search_algorithm&#34; target=&#34;_blank&#34;&gt;principles of Grover&amp;#8217;s Algorithm&lt;/a&gt;, here is a quick explanation.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  We have a function $$f : \mathbb{Z}_2^n\rightarrow \mathbb{Z}_2$$ that is True for only one $$a \in \mathbb{Z}_2^n$$. We also have a quantum oracle that returns the value of the function f. Classicaly, finding the value of $$a$$ will take n-1 steps. With the quantum version (Grover&amp;#8217;s Algorithm) it takes only $$\sqrt{n}$$ steps.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The idea (without explanations) is to take an equally distributed weights vector as input $$x$$, and to iterate a sequence of unitary operations during a certain amount of time.  After this given number of steps a measurement on the input vector is made, and is has been proved that we will observed the correct answer with probability 1. The number of steps is proportional to $$\sqrt{n}$$.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Bellow I put the picture representing the evolution (step after step) of the probability to observe the correct answer. You can see the oscillations that are well explained by geometrical description of this algorithm.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/grover_simple.png&#34;&gt;&lt;img class=&#34;aligncenter size-thumbnail wp-image-801&#34; title=&#34;grover_simple&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Python Code
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Bellow you&amp;#8217;ll find the code associated to this example. You&amp;#8217;ll also be able to visualize the animation of the probabilities distribution according to the time.  The code is written in &lt;a title=&#34;Python&#34; href=&#34;http://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; and requires &lt;a title=&#34;Numpy&#34; href=&#34;http://numpy.scipy.org/&#34; target=&#34;_blank&#34;&gt;Numpy&lt;/a&gt; to work. The associated functions classes are not useful for this simple case, but you&amp;#8217;ll understand in the coming post why I need them.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/Grover.zip&#34;&gt;Grover Algorithm &amp;#8211; Python&lt;/a&gt; (run &lt;em&gt;python grover.py&lt;/em&gt;)]&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/Grover.zip&#34;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Interesting fact:
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  If you use more than one correct possible answer (as in the case of perceptron learning) and a different matrix (namely with two -1 instead of only one), the behaviour could be close to the Grover&amp;#8217;s Algorithm. Since I was studying perceptron, I implemented a function that output an oracle given a certain threshold. If this threshold is 0, then only one correct answer exist. If it&amp;#8217;s one, then n+1 correct answers are possible &amp;#8230; but they are all in relation with the initial &lt;strong&gt;teacher&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  If we fix the teacher, select a threshold of 1, and use the matrix H.diag(-1,1,&amp;#8230;,1,-1).H and apply the same algorithm we get the following probability distribution for the teacher :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png&#34;&gt;&lt;img class=&#34;aligncenter size-thumbnail wp-image-804&#34; title=&#34;grover_thresh_1&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png&#34; alt=&#34;grover_thresh_1&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    If you want to use my code, you have to put &lt;em&gt;teachers=mat_teacher_bin(N,1) &lt;/em&gt;on line 36 and uncomment line 69
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    Explainations? For the moment none. But I plan to read the following paper : &lt;a href=&#34;http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6V1G-4MMWHMX-1&amp;_user=10&amp;_rdoc=1&amp;_fmt=&amp;_orig=search&amp;_sort=d&amp;_docanchor=&amp;view=c&amp;_searchStrId=980896614&amp;_rerunOrigin=google&amp;_acct=C000050221&amp;_version=1&amp;_urlVersion=0&amp;_userid=10&amp;md5=7c1272e80f23322e994db33251e2d2df&#34; target=&#34;_blank&#34;&gt;Improved bond in Oracle identification&lt;/a&gt;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python et Google PageRank</title>
+      <link>http://localhost:1313/2009/07/python-et-google-pagerank/</link>
+      <pubDate>Thu, 02 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/python-et-google-pagerank/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft size-full wp-image-422&#34; style=&#34;margin: 5px;&#34; title=&#34;python&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/06/python.png&#34; alt=&#34;python&#34; width=&#34;75&#34; height=&#34;75&#34; /&gt;Suite à mes recherches pour trouver un script de calcul de Pagerank en python, je souhaitais vous présenter deux pages qui me sont tombées sous les yeux.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Script de vérification de Pagerank en Python :
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ce script permet d&amp;#8217;aller chercher la valeur de Pagerank Google d&amp;#8217;un site donné en argument. Cela sert pour toutes sortes de choses dans le monde du SEO. La page en question est là :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;Script calcul pagerank python&#34; href=&#34;http://blogmag.net/blog/read/91/Python_code_to_check_your_Google_PageRank&#34; target=&#34;_blank&#34;&gt;http://blogmag.net/blog/read/91/Python_code_to_check_your_Google_PageRank&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Testé aujourd&amp;#8217;hui (1er Juillet 2009), le script fonctionne parfaitement bien. Ceux que j&amp;#8217;ai pu trouver en php ne marchaient pas ( google me considère comme un pirate vous savez). Si vous en possédez en PHP, je suis preneur
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Script de calcul de PageRank ( Google-like)
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  La page suivante se base sur un &lt;a title=&#34;Pagerank algorithme&#34; href=&#34;http://www.ams.org/featurecolumn/archive/pagerank.html&#34; target=&#34;_blank&#34;&gt;article publié à l&amp;#8217;AMS&lt;/a&gt;, mais dont le principe &lt;a href=&#34;http://www.mattcutts.com/blog/pagerank-sculpting/&#34; target=&#34;_blank&#34;&gt;ne décrit pas exactement le fonctionnement de Google&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le script écrit en python tente de reproduire le fonctionnement d&amp;#8217;un algorithme de Pagerank. Je ne l&amp;#8217;ai pas testé, mais ça peut interesser du monde :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a title=&#34;Pagerank algorithme en Python&#34; href=&#34;http://www.eioba.com/a69792/the_google_pagerank_algorithm_in_126_lines_of_python&#34; target=&#34;_blank&#34;&gt;http://www.eioba.com/a69792/the_google_pagerank_algorithm_in_126_lines_of_python&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div id=&#34;_mcePaste&#34; style=&#34;overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;&#34;&gt;
+  &lt;pre&gt;&lt;span class=&#34;c&#34;&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# (C) 2008 Fred Cirera&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# ported in Python from the Ruby code by Vsevolod S. Balashov&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# http://snippets.dzone.com/posts/show/3284&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;urllib2&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;re&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;time&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sys&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;urllib&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;urlencode&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pprint&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pprint&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;HOST&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;toolbarqueries.google.com&#34;&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;mix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x100000000&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# int32 modulo&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;  &lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;  &lt;span class=&#34;mf&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;M&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;^&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;checksum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;enumerate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]))&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x9e3779b9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x9e3779b9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xe6359a60&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;lg&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lg&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;12&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C2I&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:])&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lg&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;GoogleHash&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;I2C&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;8&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;16&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;24&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;ch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;checksum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;ord&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;ch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x0d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;6&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%s&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;checksum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;I2C&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]))&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;make_url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;site_url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;info:&#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;site_url&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;params&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;client&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;navclient-auto&#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%s&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GoogleHash&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+                  &lt;span class=&#34;n&#34;&gt;ie&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;UTF-8&#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;oe&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;UTF-8&#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;features&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;Rank&#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;http://&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%s&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;/search?&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%s&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;urlencode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;# Where the fun begins&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;__name__&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;__main__&#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;argv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#39;http://www.google.com/&#39;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;argv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;not&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;startswith&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;http://&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#39;http://&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%s&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;
+
+    &lt;span class=&#34;c&#34;&gt;# print make_url(HOST, url)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;req&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;urllib2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Request&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;make_url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;HOST&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;urllib2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;urlopen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;req&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;readline&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;except&lt;/span&gt; &lt;span class=&#34;ne&#34;&gt;Exception&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;err&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;err&lt;/span&gt;
+        &lt;span class=&#34;c&#34;&gt;# print err.read()&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;sys&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;exit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;rank&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;match&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;r&#39;^Rank_\d+:\d+:(\d+)&#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;strip&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;group&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;except&lt;/span&gt; &lt;span class=&#34;ne&#34;&gt;AttributeError&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;This page is not ranked&#34;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;rank&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&#34;PagerRank: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%d&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\t&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;URL: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;%s&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rank&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Numpy error – ValueError: setting an array element with sequence</title>
+      <link>http://localhost:1313/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</link>
+      <pubDate>Thu, 04 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  You have struggled during hours and hours to understand why you got this damned error while compiling a complex array structure? I did. In my case I was trying to create an array of the following shape :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  [  [ [0,0,1,0] , 0.5] , [ [0,1,1,0] , 0.3] , [ [1,0,1,0] , 0.2] ]
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  With the basic syntax, it was impossible. I first didn&amp;#8217;t notice the problem because I wasn&amp;#8217;t using the &amp;#8216;&lt;em&gt;array&lt;/em&gt;&amp;#8216; constructor, but when I tried to &lt;strong&gt;append &lt;/strong&gt;some value to my initial vector, I got the error : &lt;strong&gt;ValueError: setting an array element with sequence&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Even the simple construction : &lt;em&gt;array([( [0,0,1,0],0.5)]) &lt;/em&gt;would give the error.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  the problem is that &lt;strong&gt;numpy &lt;/strong&gt;is made to calculate vectors and arrays. It doesn&amp;#8217;t like the fact you give it table with different sizes. Ok, then you can try to change the second value 0.5 to [0.5,0,0,0]. It would work&amp;#8230;. but it&amp;#8217;s not really clean. Your code will look messy.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    Instead, here is the solution I found after 4 hours looking everywhere on the web&amp;#8230; finding nothing. This is my own solution, so if helped you, I would be very glad &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; class=&#34;wp-smiley&#34; /&gt;
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    In order to help numpy to accept your vector&amp;#8230; tell it it&amp;#8217;s not a vector :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
+    &lt;em&gt;array([( [0,0,1,0],0.5)],&lt;span style=&#34;color: #ff0000;&#34;&gt;object&lt;/span&gt;)&lt;/em&gt;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    By doing this you change de dtype of your array, and it can accept even personnal classes.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;
+      Does that work for you?&lt;em&gt;&lt;br /&gt; &lt;/em&gt;
+    &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La panoplie du petit chercheur</title>
+      <link>http://localhost:1313/2009/04/la-panoplie-du-petit-chercheur/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/04/la-panoplie-du-petit-chercheur/</guid>
+      <description>&lt;p&gt;A tout ceux qui veulent se lancer dans des sujets scientifiques ou l&amp;#8217;on demandera de coder des choses nouvelles, je conseille le logiciel Python(x,y) qui integre en son sein toutes les bibliotheques python que vous pourrez surement demander un jour.&lt;/p&gt;
+
+&lt;p&gt;A telecharger ici : &lt;a title=&#34;Python(xy)&#34; href=&#34;http://www.pythonxy.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.pythonxy.com&#34;&gt;http://www.pythonxy.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Script de spam referer automatisé python</title>
+      <link>http://localhost:1313/2009/02/script-de-spam-referer-automatise-python/</link>
+      <pubDate>Sun, 15 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/script-de-spam-referer-automatise-python/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Script de Spam Referer automatisé en Python
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft size-full wp-image-119&#34; style=&#34;margin: 5px;&#34; title=&#34;Spammeur SEO&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; height=&#34;112&#34; /&gt;Suite à mon article sur les aléas du spam referer, je poste un script python que j&amp;#8217;ai utilisé pour faire mes tests. Le script se déroule en deux parties. La première va &lt;a title=&#34;Récupération résultats google par python&#34; href=&#34;http://localhost/oldblog/2009/02/extraire-urls-des-resultats-google-en-python/#more-127&#34;&gt;récupérer les résultats google et les enregistrer dans un fichier&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je vous laisse consulter l&amp;#8217;&lt;a title=&#34;Enregistrer résultats google par script python&#34; href=&#34;http://localhost/oldblog/2009/02/extraire-urls-des-resultats-google-en-python/#more-127&#34;&gt;article&lt;/a&gt; et revenir ici pour la deuxième partie. La deuxième partie va :
+&lt;/p&gt;
+
+&lt;ul style=&#34;text-align: justify;&#34;&gt;
+  &lt;li&gt;
+    consulter les url archivées
+  &lt;/li&gt;
+  &lt;li&gt;
+    les visiter avec un fake referer
+  &lt;/li&gt;
+  &lt;li&gt;
+    vérifier que l&amp;#8217;injection s&amp;#8217;est bien passée
+  &lt;/li&gt;
+  &lt;li&gt;
+    si oui elle enregistre les résultats dans un fichier pour pouvoir les donner à manger rapidement à google
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le script est donc le suivant :
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code lang=&#34;python&#34;&gt;
+import urllib.request
+import re
+
+user_agent = &#39;Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.0.5) Gecko/2008120122 Firefox/3.0.5&#39;
+headers = { &#39;User-Agent&#39; : user_agent }
+fake_referer=&#39;http://www.le-refpowa.fr&#39;
+
+f = open(&#34;liste_liens_enregistres_avant.txt&#34;, &#34;r&#34;)
+save=open(&#34;vient_manger_cher_google.html&#34;,&#34;w&#34;)
+save.write(&#34;
+&amp;lt;h1&gt;Mes Favoris&amp;lt;/h1&gt;
+
+&#34;)
+nb_ok=0
+while True:
+    txt=f.readline()
+    if txt==&#34;&#34;:
+        break
+    url_target=txt
+    req = urllib.request.Request(url_target, None, headers)
+    req.add_header(&#39;Referer&#39;, fake_referer)
+    response = urllib.request.urlopen(req)
+    resultat_html=str(response.read())
+    match=re.findall(fake_referer,resultat_html)
+    if match==[]:
+        print(&#34;Injection ratee sur &#34;+url_target)
+    else:
+        print(&#34;Injection reussie de &#34;+fake_referer+&#34; sur &#34;+url_target)
+        save.write(&#39;&amp;lt;a href=&#34;&#39;+url_target+&#39;&#34;&gt;&#39;+url_target+&#39;&amp;lt;/a&gt;&#39;)
+        nb_ok=nb_ok+1
+f.close()
+save.close()
+
+print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Au final j&amp;#8217;ai un fichier comme le lien suivant où je regroupe mes &lt;a title=&#34;Favoris Refpowa&#34; href=&#34;http://localhost/oldblog/favoris1.html&#34;&gt;favoris sur le refpowa&lt;/a&gt;, et j&amp;#8217;espère que google le parcourra rapidement !!!!
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Extraire les URLs des résultats Google en python</title>
+      <link>http://localhost:1313/2009/02/extraire-urls-des-resultats-google-en-python/</link>
+      <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/02/extraire-urls-des-resultats-google-en-python/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  J&amp;#8217;ai passé une bonne partie de l&amp;#8217;après-midi à me former à Python. Comme exercice je voulais adapter le script de Tiger sur l&amp;#8217;&lt;a title=&#34;Extraction de résultats google en php&#34; href=&#34;http://www.seoblackout.com/2008/10/26/extraire-resultats-google/&#34; target=&#34;_blank&#34;&gt;extraction de résultats sur google&lt;/a&gt;, en traduisant le php en python.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  J&amp;#8217;ai eu quelques soucis à cause d&amp;#8217;erreurs d&amp;#8217;innatention et de bêtises de codage, mais au final j&amp;#8217;ai réussi. Le code suivant (Python 3.0) vous donne le même résultat (sans la mise en forme) que le script de Tiger.Le code obtenu est le suivant :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code lang=&#34;python&#34;&gt;
+import urllib.request
+import re
+
+user_agent = &#39;Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)&#39;
+headers = { &#39;User-Agent&#39; : user_agent }
+
+ext=&#34;fr&#34;
+lang=&#34;fr&#34; #sur quelle datacenter chercher?&#34;
+
+nb_page=5 #Nombre de pages de résultat
+keyword=&#39;&#34;Dynamic+Friends&#34;+ring+google.com&#39; #Mot clé cherché
+
+pagenum = 0 #on commence à la page 1
+googlefrurl = &#34;http://www.google.&#34;+ext+&#34;/custom?hl=&#34;+lang+&#34;&amp;#038;q=&#34; + keyword + &#34;&amp;#038;start=&#34;+str(pagenum)
+
+f = open(&#34;liste_url_collectees.txt&#34;, &#34;w&#34;)
+while pagenum &amp;lt;= nb_page:
+    rep = urllib.request.Request(googlefrurl,None,headers)
+    response = urllib.request.urlopen(rep)
+    result = str(response.read())
+    sep=&#39;
+&amp;lt;h2 class=r&gt;&amp;lt;a href=.*?&gt;&#39;
+    matches=re.findall(sep,result)
+    res_tab=[]
+    for elt in matches:
+        sep=&#39;http.*?&#34;&#39;
+        match=re.findall(sep,elt)
+        res_tab.append(match[0][:-1])
+
+    for elt in res_tab:
+        print(elt)
+        f.write(elt+&#34;n&#34;)
+
+    pagenum = int(pagenum)+1 #on passe à la page suivante
+    pagenum2 = str(pagenum)+&#39;0&#39;#on met en forme pour google qui va de 10 en 10
+    googlefrurl = &#34;http://www.google.&#34;+ext+&#34;/custom?hl=&#34;+lang+&#34;&amp;#038;q=&#34; + keyword + &#34;&amp;#038;start=&#34;+pagenum2+&#34;&amp;#038;safe=off&amp;#038;pwst=1&amp;#038;filter=0&#34;
+
+f.close()
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Au final on obtient un fichier &lt;em&gt;liste_url_collectees.txt&lt;/em&gt; qui va nous servir à plein de chose&amp;#8230;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

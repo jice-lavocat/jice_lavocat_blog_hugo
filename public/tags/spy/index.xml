@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spy on Jice is Nice</title>
+    <link>http://localhost:1313/tags/spy/</link>
+    <description>Recent content in Spy on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sun, 16 Aug 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/spy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Reverse Search : 10 outils pour espionner vos concurrents</title>
+      <link>http://localhost:1313/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</link>
+      <pubDate>Sun, 16 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-816&#34; style=&#34;margin: 5px;&#34; title=&#34;detectivehat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;150&#34; height=&#34;107&#34; /&gt;&lt;/a&gt;Voilà une petite liste d&amp;#8217;outils qui peuvent servir pour espionner vos concurrents sur le web. Quelques outils de cette liste proviennent de twitt émis par &lt;a title=&#34;SEO Black and White Hat&#34; href=&#34;http://www.seoblackout.com/&#34; target=&#34;_blank&#34;&gt;SeoBlackOut&lt;/a&gt; que je remercie.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    &lt;p style=&#34;text-align: justify;&#34;&gt;
+      &lt;h2 style=&#34;text-align: justify;&#34;&gt;
+        Trouver tous les sites d&amp;#8217;un concurrent :
+      &lt;/h2&gt;
+      
+      &lt;p style=&#34;text-align: justify;&#34;&gt;
+        Afin de trouver les sites de vos concurrents, plusieurs solutions existent. Les plus simples consistent à faire du &lt;strong&gt;Reverse IP Lookup&lt;/strong&gt; sur l&amp;#8217;adresse du serveur. Tous les sites hébergés par le même serveur seront renvoyés. Pour cela vous avez à disposition
+      &lt;/p&gt;
+      
+
+&lt;pre&gt;&lt;code&gt;  &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://www.yougetsignal.com&amp;quot;&amp;gt;You Get the Signal&amp;lt;/a&amp;gt; : possède plusieurs fonctionnalités intéressantes sur son site web (comme la g&amp;lt;a title=&amp;quot;Geolocalisation IP&amp;quot; href=&amp;quot;http://www.yougetsignal.com/tools/network-location/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;éolocalisation d&amp;amp;#8217;une IP&amp;lt;/a&amp;gt; ou une fonction &amp;lt;a title=&amp;quot;Online Traceroute&amp;quot; href=&amp;quot;http://www.yougetsignal.com/tools/visual-tracert/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;traceroute&amp;lt;/a&amp;gt; en ligne). La fonctionnalité qui nous intéresse, le reverse &amp;lt;a title=&amp;quot;Reverse IP Lookup&amp;quot; href=&amp;quot;http://www.yougetsignal.com/tools/web-sites-on-web-server&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;IP Lookup&amp;lt;/a&amp;gt; reste basique par rapport aux autres mais suffira pour certains cas.
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+    &amp;lt;a title=&amp;quot;Domain Tools&amp;quot; href=&amp;quot;http://www.domaintools.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;DomainTools&amp;lt;/a&amp;gt; : Domain Tools vous propose de nombreux services dédiés au DNS. Du &amp;lt;a title=&amp;quot;Whois&amp;quot; href=&amp;quot;http://whois.domaintools.com/&amp;quot;&amp;gt;whois&amp;lt;/a&amp;gt; au &amp;lt;a title=&amp;quot;Reverse Ip Lookup&amp;quot; href=&amp;quot;http://www.domaintools.com/reverse-ip/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;reverse IP Lookup&amp;lt;/a&amp;gt; du serveur, l&amp;amp;#8217;offre gratuite de DomainTools est vraiment intéressante.
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+    Enfin, de manière plus poussée, il est possible de &amp;lt;strong&amp;gt;retrouver un propriétaire de site grâce à ces pub adsense&amp;lt;/strong&amp;gt; ou autre.  &amp;lt;a title=&amp;quot;Reverse website ownership search&amp;quot; href=&amp;quot;http://spyonweb.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;SpyOnWeb&amp;lt;/a&amp;gt; ne se base que sur Google Adsense, mais il est possible d&amp;amp;#8217;utiliser d&amp;amp;#8217;autres traces (si vous connaissez d&amp;amp;#8217;autres outils -&amp;gt; commentaire).
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+    &amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Retrouver l&amp;amp;#8217;histoire d&amp;amp;#8217;un nom de domaine :
+    &amp;lt;/h2&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Une fonctionnalité très intéressante de Domain Tools est l&amp;amp;#8217;enregistrement de l&amp;amp;#8217;historique lié à un domaine. Grâce à cela vous pourrez parfois retrouver le nom du propriétaire d&amp;amp;#8217;un domaine qui est à présent masqué. Intéressant lorsque vous voulez contacter un propriétaire qui cache ses informations WHOIS. Pour celà il vous suffit de consulter l&amp;amp;#8217;&amp;lt;a title=&amp;quot;Domain history&amp;quot; href=&amp;quot;http://whois.domaintools.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;historique d&amp;amp;#8217;un domaine&amp;lt;/a&amp;gt;.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Ensuite, de manière plus connue, vous pouvez aller consulter les archives du web pour visionner l&amp;amp;#8217;aspect du site web il y a quelques mois/années : &amp;lt;a title=&amp;quot;Web Archive&amp;quot; href=&amp;quot;http://www.archive.org/web/web.php&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.archive.org&amp;lt;/a&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Retrouver le propriétaire d&amp;amp;#8217;un email :
+    &amp;lt;/h2&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Les services de reverse email sont tous payants (du moins ceux que j&amp;amp;#8217;ai pu trouver en ligne). Deux produits ont retenu mon attention bien que je ne les ai pas testés et vous engage donc à la prudence.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Pour un prix raisonnable (2euros/mois), &amp;lt;a href=&amp;quot;http://www.emailfinder.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;emailfinder.com&amp;lt;/a&amp;gt; vous permet d&amp;amp;#8217;obtenir des informations de base sur une adresse email : nom/prénom, média sociaux, adresse etc.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Pour un prix assez exhorbitant (80$ la requête minimum), et des techniques plus ou moins légales (je ne sais pas jusqu&amp;amp;#8217;à quel point ce qu&amp;amp;#8217;ils proposent est légal car cela semble casser toute notion de protection de la vie privée), &amp;lt;a title=&amp;quot;Emails Revealer&amp;quot; href=&amp;quot;http://www.emailrevealer.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;EmailRevealer&amp;lt;/a&amp;gt; vous propose de plus grosses fonctionnalités.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Retrouver une personne sur le web :
+    &amp;lt;/h2&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Un classique à présent dans notre société du web : retrouver des infos sur une personne. Pour cela google est toujours un premier recours, mais pour le reste, différents services de recherche en ligne de personnes existent. Celui que j&amp;amp;#8217;ai retenu semble assez intéressant : &amp;lt;a title=&amp;quot;123 people, People Search&amp;quot; href=&amp;quot;http://www.123people.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;123people.com&amp;lt;/a&amp;gt;. Le problème (ou pas&amp;amp;#8230; ça dépend) est que, une fois que votre recherche est faite, il sauve en cache ses résultats, et google archive cette page. Donc si votre nom apparait dans google avec l&amp;amp;#8217;adresse de 123people.com, cela signifie que quelqu&amp;amp;#8217;un a déjà effectué une recherche sur vous.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Trouver toutes les apparitions d&amp;amp;#8217;une image en ligne :
+    &amp;lt;/h2&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      &amp;lt;a title=&amp;quot;Reverse image search&amp;quot; href=&amp;quot;http://tineye.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;TinyEye.com&amp;lt;/a&amp;gt; propose un service bien pratique pour les graphiste ou photographe voulant défendre leur propriété intellectuelle. Le revese image search permet de retrouver l&amp;amp;#8217;apparition d&amp;amp;#8217;une image sur le web. L&amp;amp;#8217;algorithme &amp;amp;#8216;regarde&amp;amp;#8217; l&amp;amp;#8217;image et cherche dans sa base de données les occurences qui s&amp;amp;#8217;en rapprochent.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Un point à noter est qu&amp;amp;#8217;il existe aussi un &amp;lt;a title=&amp;quot;Plugin TinyEye&amp;quot; href=&amp;quot;http://tineye.com/plugin&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;plugin firefox (ou IE) pour tinyeye&amp;lt;/a&amp;gt;.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      D&amp;amp;#8217;une manière un peu moins utile on peut utiliser &amp;lt;a href=&amp;quot;http://picollator.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Picollator&amp;lt;/a&amp;gt; pour les visages.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+      Bonus :
+    &amp;lt;/h2&amp;gt;
+
+    &amp;lt;ul&amp;gt;
+      &amp;lt;li&amp;gt;
+        Trouver un mot à partir de sa définition : &amp;lt;a title=&amp;quot;Reverse dictionary&amp;quot; href=&amp;quot;http://www.onelook.com/reverse-dictionary.shtml&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;OneLook &amp;amp;#8211; Reverse Dictionary&amp;lt;/a&amp;gt;
+      &amp;lt;/li&amp;gt;
+    &amp;lt;/ul&amp;gt;
+
+    &amp;lt;ul&amp;gt;
+      &amp;lt;li&amp;gt;
+        Retrouver une musique en sifflant /chantant : &amp;lt;a title=&amp;quot;Midomi reverse music search&amp;quot; href=&amp;quot;http://www.midomi.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Midomi&amp;lt;/a&amp;gt;
+      &amp;lt;/li&amp;gt;
+    &amp;lt;/ul&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      &amp;amp;#8230;. Et vous, vous utilisez d&amp;amp;#8217;autres ressources?
+    &amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reverse Search: 10 tools to spy your competitors</title>
+      <link>http://localhost:1313/2009/08/reverse-search-10-tools-to-spy-your-competitors/</link>
+      <pubDate>Sun, 16 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/08/reverse-search-10-tools-to-spy-your-competitors/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-816&#34; style=&#34;margin: 10px;&#34; title=&#34;detectivehat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;200&#34; height=&#34;142&#34; /&gt;&lt;/a&gt;Here is a short list of tools that can be used to spy on your competitors on the web. Some tools from the list issued by twitter &lt;a title=&#34;SEO Black Hat and White&#34; href=&#34;http://www.seoblackout.com/&#34; target=&#34;_blank&#34;&gt;SeoBlackOut&lt;/a&gt; whom I thank.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  This article is an automated translation of a French Article I wrote. Read the &lt;a title=&#34;Reverse Search 10 outils pour espionner vos concurrents&#34; href=&#34;Reverse Search: 10 tools to spy your competitors &#34;&gt;original article&lt;/a&gt; (French)
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;p style=&#34;text-align: justify;&#34;&gt;
+    &lt;h2 style=&#34;text-align: justify;&#34;&gt;
+      Find all sites of a competitor:
+    &lt;/h2&gt;
+    
+    &lt;p style=&#34;text-align: justify;&#34;&gt;
+      To find your competitors&amp;#8217; sites, several solutions exist. The simplest is to make the &lt;strong&gt;Reverse Lookup the&lt;/strong&gt; &lt;strong&gt;IP&lt;/strong&gt; address of the server. All sites hosted by the same server will be returned. For that you have available
+    &lt;/p&gt;
+    
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  &amp;lt;a href=&amp;quot;http://www.yougetsignal.com/&amp;quot;&amp;gt;You Get the Signal:&amp;lt;/a&amp;gt; has several features on its website (such as &amp;lt;a title=&amp;quot;IP Geolocation&amp;quot; href=&amp;quot;http://www.yougetsignal.com/tools/network-location/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;IP geolocalization&amp;lt;/a&amp;gt; or a &amp;lt;a title=&amp;quot;Traceroute Online&amp;quot; href=&amp;quot;http://www.yougetsignal.com/tools/visual-tracert/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;traceroute&amp;lt;/a&amp;gt; online). The feature that interests us, the reverse &amp;lt;a title=&amp;quot;Reverse IP Lookup&amp;quot; href=&amp;quot;http://www.yougetsignal.com/tools/web-sites-on-web-server&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;IP lookup&amp;lt;/a&amp;gt; still basic compared to others but useful enough for most cases.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  &amp;lt;a title=&amp;quot;Domain Tools&amp;quot; href=&amp;quot;http://www.domaintools.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;DomainTools:&amp;lt;/a&amp;gt; Domain Tools offers many services dedicated to DNS. From &amp;lt;a title=&amp;quot;Whois&amp;quot; href=&amp;quot;http://whois.domaintools.com/&amp;quot;&amp;gt;whois&amp;lt;/a&amp;gt; to &amp;lt;a title=&amp;quot;Reverse Ip Lookup&amp;quot; href=&amp;quot;http://www.domaintools.com/reverse-ip/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Reverse IP Lookup&amp;lt;/a&amp;gt; Server, offering free DomainTools is really interesting.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Finally, more advanced, it is possible to &amp;lt;strong&amp;gt;trace the owner of the site through advertising&amp;lt;/strong&amp;gt; or &amp;lt;strong&amp;gt;adsense.&amp;lt;/strong&amp;gt; &amp;lt;a title=&amp;quot;Reverse search website ownership&amp;quot; href=&amp;quot;http://spyonweb.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;SpyOnWeb&amp;lt;/a&amp;gt; is only based on Google Adsense, but it is possible to use other evidence (if you know of other tools -&amp;gt; comment).
+&amp;lt;/p&amp;gt;
+
+&amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Find the story of a domain name:
+&amp;lt;/h2&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  A very interesting feature of Domain Tools is the &amp;lt;strong&amp;gt;domain&amp;amp;#8217;s information history recording &amp;lt;/strong&amp;gt;. With this you can sometimes find the name of the owner of a domain that is now hidden. Interesting when you want to contact an owner who hides his WHOIS information. For this you can check the &amp;lt;a title=&amp;quot;Domain History&amp;quot; href=&amp;quot;http://whois.domaintools.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;history&amp;lt;/a&amp;gt; of &amp;lt;a title=&amp;quot;Domain History&amp;quot; href=&amp;quot;http://whois.domaintools.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;a field.&amp;lt;/a&amp;gt;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Then, more known, you can consult the archives of the web to see the look of the website a few months / years: &amp;lt;a title=&amp;quot;Web Archive&amp;quot; href=&amp;quot;http://www.archive.org/web/web.php&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.archive.org&amp;lt;/a&amp;gt;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Locate the owner of an email:
+&amp;lt;/h2&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  The &amp;lt;strong&amp;gt;reverse email&amp;lt;/strong&amp;gt; services are all paid for (at least those I could find online). Two products have caught my attention that I have not tested and therefore urge you to be cautious.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  For a reasonable price (2euros/months) &amp;lt;a href=&amp;quot;http://www.emailfinder.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;emailfinder.com&amp;lt;/a&amp;gt; allows you to get basic information on an email address: full name, social media, e-etc.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  For a fairly exhorbitant prices ($ 80 minimum the request), and techniques more or less legal (I do not know how what they propose is legal because it seems to break any notion of privacy) , &amp;lt;a title=&amp;quot;Emails Revealer&amp;quot; href=&amp;quot;http://www.emailrevealer.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;EmailRevealer&amp;lt;/a&amp;gt; offers larger features.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Find a person on the web:
+&amp;lt;/h2&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  A classic now in our Web evolving Society : &amp;lt;strong&amp;gt;find information on a person&amp;lt;/strong&amp;gt;. Google is always a good solution, but for the rest, various online people search tools exist. The one I choosed seems quite interesting &amp;lt;a title=&amp;quot;123 people, People Search&amp;quot; href=&amp;quot;http://www.123people.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;123people.com.&amp;lt;/a&amp;gt; The problem (or not &amp;amp;#8230; it depends) is that, once your search is done, it saves cached results, and google this archive page. So if 123people.com appears in the google answers for your name, it means that someone has already done a search about you.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Find all occurrences of an image online:
+&amp;lt;/h2&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  &amp;lt;a title=&amp;quot;Reverse image search&amp;quot; href=&amp;quot;http://tineye.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;TinyEye.com&amp;lt;/a&amp;gt; offers a handy service for the designer or photographer wanting to defend their intellectual property. The &amp;lt;strong&amp;gt;reverse image search&amp;lt;/strong&amp;gt; allows you to find the websites where a given image appears on. The algorithm &amp;amp;#8216;watch&amp;amp;#8217; the image and looks in its database instances that are closer.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  A point to note is that there is also a &amp;lt;a title=&amp;quot;Plugin TinyEye&amp;quot; href=&amp;quot;http://tineye.com/plugin&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;firefox plugin (or IE) to tinyeye.&amp;lt;/a&amp;gt;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  On a slightly less useful can be used &amp;lt;a href=&amp;quot;http://picollator.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Picollator&amp;lt;/a&amp;gt; for faces.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;h2 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;
+  Bonus:
+&amp;lt;/h2&amp;gt;
+
+&amp;lt;ul&amp;gt;
+  &amp;lt;li&amp;gt;
+    Find a word from its definition: &amp;lt;a title=&amp;quot;Reverse dictionary&amp;quot; href=&amp;quot;http://www.onelook.com/reverse-dictionary.shtml&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;OneLook &amp;amp;#8211; Reverse Dictionary&amp;lt;/a&amp;gt;
+  &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;ul&amp;gt;
+  &amp;lt;li&amp;gt;
+    Find music by whistling / singing &amp;lt;a title=&amp;quot;Midomi reverse music search&amp;quot; href=&amp;quot;http://www.midomi.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Midomi&amp;lt;/a&amp;gt;
+  &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;#8230;. What about you, do you use other resources?
+&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

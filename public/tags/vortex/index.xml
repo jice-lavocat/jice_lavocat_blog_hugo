@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vortex on Jice is Nice</title>
+    <link>http://localhost:1313/tags/vortex/</link>
+    <description>Recent content in Vortex on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sun, 12 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vortex/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vortex in a pool</title>
+      <link>http://localhost:1313/2009/07/vortex-in-a-pool/</link>
+      <pubDate>Sun, 12 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/vortex-in-a-pool/</guid>
+      <description>&lt;p&gt;Une jolie petite vidéos montrant&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Des animaux qui jouent&lt;/li&gt;
+&lt;li&gt;Des vortex dans une piscine&lt;/li&gt;
+&lt;li&gt;Des animaux qui jouent avec des vortex dans une piscine&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,14 +4,14 @@ title = "My New Hugo Site"
 BaseUrl= "http://jice.lavocat.name"
 LanguageCode= "fr-FR"
 Title= "Jice is Nice"
-paginate = 5
+paginate = 15
 DisqusShortname = "jicelavocat"
 Copyright = "All rights reserved - 2015"
 theme = "casper_jice"
 
 [params]
   description = "French/English essays about our Digital World, about Nature and Mind"
-  cover = "images/cover_polenord.jpg"
+  cover = "images/coverCalvi.png"
   author = "Jean-Christophe Lavocat"
   authorlocation = "Toulon, France"
   authorwebsite = "http://jice.lavocat.name"

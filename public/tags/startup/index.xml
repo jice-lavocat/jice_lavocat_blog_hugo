@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startup on Jice is Nice</title>
+    <link>http://localhost:1313/tags/startup/</link>
+    <description>Recent content in Startup on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 19 Feb 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Web In Provence #1</title>
+      <link>http://localhost:1313/2014/02/web-in-provence-1/</link>
+      <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2014/02/web-in-provence-1/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je reprends la plume délaissée depuis un certain temps pour vous présenter un évènement auquel je viens d&amp;#8217;assister à Marseille. Il s&amp;#8217;agit du &lt;a title=&#34;Web In Provence&#34; href=&#34;http://www.webinprovence.fr/&#34; target=&#34;_blank&#34;&gt;Web In Provence&lt;/a&gt; , un apéro networking dédié aux acteur du web en &amp;#8230; Provence. L&amp;#8217;idée était d&amp;#8217;associer un apéro avec une conférence sur une tendance montante d&amp;#8217;internet. Pour cette première édition, les organisateurs (&lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://twitter.com/Flo__Hernandez&#34; target=&#34;_blank&#34;&gt;Florent&lt;/a&gt; &lt;a title=&#34;Florent Hernandez&#34; href=&#34;https://plus.google.com/112373548303714842647/posts&#34; target=&#34;_blank&#34;&gt;Hernandez&lt;/a&gt; et &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://twitter.com/AlexDurain&#34; target=&#34;_blank&#34;&gt;Alexandre&lt;/a&gt; &lt;a title=&#34;Alexandre Durain&#34; href=&#34;https://plus.google.com/+AlexandreDurain_So-Buzz/posts&#34; target=&#34;_blank&#34;&gt;Durain&lt;/a&gt;) avaient choisi comme thème le &amp;#8220;&lt;strong&gt;Conception Web et Multi Device&lt;/strong&gt;&amp;#8221; . L&amp;#8217;invité de cet conférence était &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://twitter.com/stephane_m_&#34; target=&#34;_blank&#34;&gt;Stéphane&lt;/a&gt; &lt;a title=&#34;Stephane Martin&#34; href=&#34;https://plus.google.com/102644824468826022899/about&#34; target=&#34;_blank&#34;&gt;Martin&lt;/a&gt; senior product designer chez &lt;a title=&#34;Stack Overflow&#34; href=&#34;http://stackoverflow.com/&#34; target=&#34;_blank&#34;&gt;Stack Overflow/Stack Exchange&lt;/a&gt; (la plateforme de questions/réponses dédiée aux programmeurs créé par &lt;a title=&#34;Jeff Atwood (Coding Horror)&#34; href=&#34;http://en.wikipedia.org/wiki/Jeff_Atwood&#34; target=&#34;_blank&#34;&gt;Jeff Atwood&lt;/a&gt;).
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1413&#34; alt=&#34;Stack Exchange Logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; width=&#34;300&#34; height=&#34;100&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;l-8217-avant-wip:0654f480a5355c245385ee4cb563f3ba&#34;&gt;L&amp;#8217;avant WIP&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;wp-image-1414 alignright&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Link Party&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; width=&#34;144&#34; height=&#34;150&#34; /&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;les-lieux:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les lieux&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  La soirée s&amp;#8217;est tenue au sein de &lt;a title=&#34;Group Union&#34; href=&#34;http://www.groupunion.fr/&#34; target=&#34;_blank&#34;&gt;Group&amp;#8217;Union&lt;/a&gt;, un espace de coworking marseillais dirigé par &lt;a title=&#34;Christophe Gautier&#34; href=&#34;http://fr.linkedin.com/pub/christophe-gauthier/57/6b5/224&#34; target=&#34;_blank&#34;&gt;Christophe Gautier&lt;/a&gt;. Endroit sympa, pas très grand, juste assez pour les 65 invités de la soirée. Pour l&amp;#8217;anecdote, j&amp;#8217;étais accompagné de Marie-George Clouet de &lt;a title=&#34;Graphemeride - Rédaction et Référencement Web&#34; href=&#34;http://www.graphemeride.com&#34; target=&#34;_blank&#34;&gt;Graphemeride&lt;/a&gt;, qui fut autrefois employée par l&amp;#8217;Alliance Française à Marseille. Eh bien les locaux de l&amp;#8217;alliance française se trouvaient exactement dans cette même pièce. Moment nostalgique lors de l&amp;#8217;arrivée dans les locaux.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Un sympathique buffet avait été organisé, avec une dégustation de vin préparée par &lt;a title=&#34;Compagnie des vignes&#34; href=&#34;http://www.compagniedesvignes.fr/&#34; target=&#34;_blank&#34;&gt;La compagnie des vignes&lt;/a&gt;, caviste à Marseille.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;la-conférence:0654f480a5355c245385ee4cb563f3ba&#34;&gt;La conférence&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je ne vais pas trop m&amp;#8217;étaler sur la&lt;strong&gt; conférence de Stéphane Martin&lt;/strong&gt;, très intéressante et expliquant les tendances et les nécessités pour les développeur de produits (qu&amp;#8217;ils soient designers ou développeurs) de penser évolutivité et adaptabilité, aussi bien pour le contenu qui s&amp;#8217;adapte au contenant, qu&amp;#8217;au contenu qui doit s&amp;#8217;adapter à l&amp;#8217;utilisateur final.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Il a insisté sur plusieurs points comme le &lt;strong&gt;responsive design&lt;/strong&gt; (une technique qui vous permet actuellement de toucher la plupart des devices) et l&amp;#8217;importance qu&amp;#8217;il y avait a employer plutôt une approche mobile-first (petit vers grand écran) que computer-first (grand écran vers petit). L&amp;#8217;accent a été mis aussi sur le &lt;a title=&#34;Lazy Loading&#34; href=&#34;http://en.wikipedia.org/wiki/Lazy_loading&#34; target=&#34;_blank&#34;&gt;lazy loading&lt;/a&gt; et l&amp;#8217;expérience utilisateur qui peut s&amp;#8217;étendre au delà du graphisme, sur l&amp;#8217;identité comportementale : par exemple, en utilisant toujours le &amp;#8220;double tap&amp;#8221; sur vos différentes applications (iOs, Android) pour interagir avec un objet, vous habituez l&amp;#8217;utilisateur à votre produit ; si il change de plateforme, il saura toujours utiliser l&amp;#8217;application de la même façon.
+&lt;/p&gt;
+
+&lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;img class=&#34;size-medium wp-image-1415&#34; alt=&#34;Wip#1&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; width=&#34;300&#34; height=&#34;224&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Stéphane Martin explique la conception de produit web au Wip14 -&lt;em&gt;Photo par &lt;a title=&#34;Jfeyraud&#34; href=&#34;https://twitter.com/jfeyraud&#34; target=&#34;_blank&#34;&gt;@jfeyraud&lt;/a&gt;&lt;/em&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Enfin (je saute sur plein de détails, je mettrai le lien vers la vidéo lorsqu&amp;#8217;elle sera en ligne), il a expliqué que les techniques de fidélisation de l&amp;#8217;utilisateur passaient quasiment toujours par de la &lt;strong&gt;gamification&lt;/strong&gt; de nos jours. Qu&amp;#8217;on s&amp;#8217;entende bien sur gamification, je ne parle pas de jeux à l&amp;#8217;image de votre marque publiés sur Facebook. On retrouve souvent cette définition sur les sites francophones. Non, gamification doit s&amp;#8217;entendre comme un &lt;strong&gt;procédé d&amp;#8217;interaction ludique entre votre application et l&amp;#8217;utilisateur&lt;/strong&gt;.  Par exemple, sur les forums, on utilise souvent un système de &amp;#8220;karma&amp;#8221;, sur stack overflow, il y a un système de badges et de réputation. Dans ces deux cas, l&amp;#8217;utilisateur veut voir grandir sa &amp;#8220;réputation&amp;#8221; au sein de sa communauté, et va donc revenir souvent sur le site pour interagir avec les éléments qui lui donnent des &amp;#8220;bons points&amp;#8221; &amp;#8230; et oui, comme à l&amp;#8217;école primaire.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;les-rencontres:0654f480a5355c245385ee4cb563f3ba&#34;&gt;Les rencontres&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;img class=&#34;size-medium wp-image-1417 alignleft&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34; alt=&#34;Business Card&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; width=&#34;300&#34; height=&#34;225&#34; /&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Comme j&amp;#8217;ai pu rencontrer pas mal de monde, je vais faire une liste assez rapide, j&amp;#8217;espère que les intéressés ne m&amp;#8217;en voudront pas si j&amp;#8217;ai un peu écorché leur histoire (vous êtes libres de venir réctifier en commentaire ci-dessous). Liste en ordre chronologique de rencontre &amp;#8230;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Comme j&amp;#8217;en au certainement oublié certains, faites un signe, et je vous rajoute.
+&lt;/p&gt;
+
+&lt;ul style=&#34;text-align: justify;&#34;&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Marie Chabani&#34; href=&#34;https://twitter.com/mariechabani&#34; target=&#34;_blank&#34;&gt;Marie Chabani&lt;/a&gt; : webmarketeuse France pour Trombi.com . Experte en Google adwords
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Thomas Meyer&#34; href=&#34;https://twitter.com/meyertee&#34; target=&#34;_blank&#34;&gt;Thomas Meyer&lt;/a&gt; : programmeur pour Redbull, fraichement arrivé de Berlin à Marseille. Travaille surtout sur le streaming des vidéos.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Jeremy Favret&#34; href=&#34;https://twitter.com/jeremy_favret&#34; target=&#34;_blank&#34;&gt;Jeremy Favret&lt;/a&gt; : qui propose une solution de création de site web avec du coaching et de la formation pour devenir indépendant vis à vis de son site web.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Jessy Seo Noob&#34; href=&#34;https://twitter.com/jessyseonoob&#34; target=&#34;_blank&#34;&gt;Jessy&lt;/a&gt; : un référenceur de Marseille avec un blog plein d&amp;#8217;&lt;a title=&#34;Blog SEO&#34; href=&#34;http://www.love-moi.fr/&#34; target=&#34;_blank&#34;&gt;amour du seo&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Philippe Stora&#34; href=&#34;https://twitter.com/p_stora&#34; target=&#34;_blank&#34;&gt;Philippe Stora&lt;/a&gt; : CTO chez &lt;a title=&#34;Eazieer - Music platform for talented artists&#34; href=&#34;https://www.eazieer.com&#34; target=&#34;_blank&#34;&gt;EAZIEER&lt;/a&gt; une plateforme qui a l&amp;#8217;air vraiment sympa pour les musicos dont le but est de  promouvoir les talents. Une équipe pleine de passion.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Benoit Wery&#34; href=&#34;https://twitter.com/benoitwery&#34; target=&#34;_blank&#34;&gt;Benoit Wery&lt;/a&gt; : Développeur full-stack (Symfony) chez Alhema de l&amp;#8217;appli &lt;a title=&#34;SociallyMap&#34; href=&#34;http://www.sociallymap.com&#34; target=&#34;_blank&#34;&gt;SociallyMap&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Yoan Martoglio&#34; href=&#34;https://twitter.com/Uchronik&#34; target=&#34;_blank&#34;&gt;Yoan Martoglio&lt;/a&gt; : Designer freelance d&amp;#8217;Aix en Provence de l&amp;#8217;agence &lt;a title=&#34;Designer Freelance&#34; href=&#34;http://www.uchronikart.fr&#34; target=&#34;_blank&#34;&gt;Uchronikart&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Juriste in the city&#34; href=&#34;https://twitter.com/Juristeinthecit&#34; target=&#34;_blank&#34;&gt;Olivia Mahieu&lt;/a&gt; : Blogueuse &lt;del&gt;juriste&lt;/del&gt; lifestyle basée elle aussi sur Aix en Provence. A visiter, son &lt;a title=&#34;Blog lifestyle&#34; href=&#34;http://juriste-in-the-city.fr&#34; target=&#34;_blank&#34;&gt;blog lifestyle&lt;/a&gt;, surtout si vous êtes une femme&amp;#8230;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Claude Falzon : &lt;a title=&#34;Compagnie des vignes - Cuviste Marseille&#34; href=&#34;http://www.compagniedesvignes.fr/&#34; target=&#34;_blank&#34;&gt;caviste marseillais&lt;/a&gt; qui proposait pendant la soirée ses vins en dégustation. C&amp;#8217;était LA personne avec qui discuter pendant cette soirée si vous aimez les arts de la table
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a title=&#34;Christophe Cotin Valois&#34; href=&#34;https://twitter.com/ccvsonewbrain&#34; target=&#34;_blank&#34;&gt;Christophe Cotin Valois&lt;/a&gt; : designer et architecte de l&amp;#8217;information (sous entendu UI/UX) basé entre Marseille et Paris. Travaille en freelance à travers son &lt;a title=&#34;Agence de User Experience Design Marseille&#34; href=&#34;http://cotinvalois.com/&#34; target=&#34;_blank&#34;&gt;agence de design&lt;/a&gt; pour de grands groupes.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Voilà, n’hésitez pas à laisser un petit commentaire si vous étiez là. Au plaisir d&amp;#8217;une prochaine rencontre IRL.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>30DSTART – Day 4 – Startup Name</title>
+      <link>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</link>
+      <pubDate>Sat, 25 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/05/30dstart-day-4-startup-name/</guid>
+      <description>
+
+&lt;p&gt;For those who don&amp;#8217;t know about the 30-days Startup Challenge, please have a look at my &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;explanation here&lt;/a&gt;. The post of today will explain in detail how I selected the &lt;strong&gt;name of the startup&lt;/strong&gt;, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.&lt;/p&gt;
+
+&lt;h2 id=&#34;initial-feedback:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Initial feedback&lt;/h2&gt;
+
+&lt;p&gt;You have been almost 300 people to read the first article (and I got no comment via the blog). I exchanged many emails since last Monday, and I should say that the overall &lt;strong&gt;feedback&lt;/strong&gt; is really &lt;strong&gt;positive&lt;/strong&gt; and &lt;strong&gt;motivating&lt;/strong&gt; for me. Thanks to the first article, 10 more people signed up to the newsletter, which is quite a good number. If you want to receive the last updates, I strongly suggest you to do the same :&lt;/p&gt;
+
+&lt;div class=&#34;subscribe&#34;&gt;
+  &lt;div class=&#34;subscribe-pitch&#34;&gt;
+    &lt;h3&gt;
+      Subscribe
+    &lt;/h3&gt;
+    
+    &lt;p&gt;
+      Subscribe to our newsletter to follow the 30-days startup challenge twice a week.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now let&amp;#8217;s go into the important matter : How I discovered the name of my startup. You will learn a marketing technique called &lt;a title=&#34;A/B testing&#34; href=&#34;http://en.wikipedia.org/wiki/A/B_testing&#34; target=&#34;_blank&#34;&gt;A/B testing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1-finding-a-name-for-the-startup:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Step 1: Finding a name for the startup&lt;/h2&gt;
+
+&lt;h3 id=&#34;brainstorming-a-name:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Brainstorming a name&lt;/h3&gt;
+
+&lt;p&gt;The first move one should make to find a name is a &lt;strong&gt;brainstorming&lt;/strong&gt;. To do that, I recommend you to read the complete article from &lt;em&gt;&lt;a href=&#34;http://twitter.com/cezinho&#34; target=&#34;_blank&#34;&gt;Cezary Pietrzak&lt;/a&gt;&lt;/em&gt; on Mashable : &lt;a title=&#34;Finding a startup name&#34; href=&#34;http://mashable.com/2012/10/04/startup-naming/&#34; target=&#34;_blank&#34;&gt;16 Tips for Picking the Perfect Startup Name&lt;/a&gt;. I followed his &lt;strong&gt;methodology&lt;/strong&gt; more or less.&lt;/p&gt;
+
+&lt;p&gt;Basically, what I did was to start by obvious &lt;strong&gt;words describing the idea&lt;/strong&gt; : &lt;em&gt;words, text, author, simple, quality, expert, job, pro, freelance&lt;/em&gt;. Then I developed with &lt;strong&gt;figurative concepts&lt;/strong&gt; and synonyms : &lt;em&gt;hire me, blog, time saved, pencil, keyboard, screen, web, upload, letters, sentence, paragraphe, phrase, press, discussions, voice, news, writer, desk, workflow, expression, say, curator&amp;#8230;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s a long list, but it&amp;#8217;s just the start. You can&amp;#8217;t really name your startup with one of those. So the last step was to make either a &lt;strong&gt;combination&lt;/strong&gt; of these words, or to make them &lt;strong&gt;sound similar to the concept&lt;/strong&gt;s. Here is a shortlist of the different ideas that I wrote down at this point : &lt;em&gt;wordio, voicedesk, best voice, voiceo, voicity, authority, bestsay, sayit, wordeero, kiwordz, voiceero, best voice, bevoice&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;shortlisting-the-candidates:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Shortlisting the candidates&lt;/h3&gt;
+
+&lt;p&gt;Okay, that&amp;#8217;s quite a long list. How was I able to select only three or four candidates out of that? I used my friends/colleagues and social networkers. I created a &lt;strong&gt;google form&lt;/strong&gt; to ask them exactly this : &amp;#8220;Which is the best name in this list to describe the value I want to bring to people, say (promoting copywriters skills and help webmasters/seo agency to hire them)&amp;#8221; ?&lt;/p&gt;
+
+&lt;p&gt;I left the question opened overnight. In addition to the result depicted below, I got some &lt;strong&gt;suggestions from people&lt;/strong&gt;. One had been added to the list : &lt;em&gt;scribens&lt;/em&gt; . Hat tip to &lt;a title=&#34;Arromazam Pepe&#34; href=&#34;https://plus.google.com/112241543943924051468/posts&#34; target=&#34;_blank&#34;&gt;Pepe Arromazam&lt;/a&gt; for the smart suggestion. Below is the graphical result of these votes :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1276&#34; alt=&#34;Names suggested for the 30 days startup project&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; width=&#34;625&#34; height=&#34;320&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trick&lt;/strong&gt; : in the google form, add an &amp;#8220;email&amp;#8221; field to collect your initial list of email addresses. These initial people have seen the first step of your business, they might be really &lt;strong&gt;valuable&lt;/strong&gt; latter.&lt;/p&gt;
+
+&lt;h3 id=&#34;picking-the-right-one-8211-a-b-testing:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Picking the right one &amp;#8211; A/B testing&lt;/h3&gt;
+
+&lt;p&gt;Out of the big names above, I did not like &lt;em&gt;Proauthors&lt;/em&gt; at all, so I removed it from the list I was going to test. I preferred &lt;em&gt;Phraseo&lt;/em&gt; instead, but I guess that in English it sounds worst than in French. I had a last-minute intuition and added &lt;em&gt;WordiZ&lt;/em&gt; to the 3 winners :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ScribenS&lt;/li&gt;
+&lt;li&gt;WordiZ&lt;/li&gt;
+&lt;li&gt;AuthorShop&lt;/li&gt;
+&lt;li&gt;Voicty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found this last step of AB-testing your names very smart. I used the &lt;a title=&#34;Picking a name for a startup&#34; href=&#34;http://www.startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/&#34; target=&#34;_blank&#34;&gt;idea from Will Mitchell&lt;/a&gt; from StartupBros. The whole point is that the &lt;strong&gt;best choice&lt;/strong&gt; is the one that would do your &lt;strong&gt;clients&lt;/strong&gt;. So why not let &lt;strong&gt;the crowd deciding&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img class=&#34;size-medium wp-image-1280 aligncenter&#34; alt=&#34;Logo Header Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; width=&#34;300&#34; height=&#34;196&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/possible_names.zip&#34;&gt;four logos&lt;/a&gt; with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1281 aligncenter&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; width=&#34;300&#34; height=&#34;255&#34; /&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;The service is really nice because you can then follow which page received the &lt;strong&gt;highest conversion rate&lt;/strong&gt;. It also saves the email addresses so that you can use the database afterward. Also, &lt;a title=&#34;Oli Gardner&#34; href=&#34;https://plus.google.com/108308137946313926397/posts&#34; target=&#34;_blank&#34;&gt;Oli Gardner&lt;/a&gt; the co-founder and creative director is really nice and can sometime answer your questions if you have some.&lt;/p&gt;
+
+&lt;h3 id=&#34;bring-some-traffic-to-your-landing-page:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;Bring some traffic to your landing page&lt;/h3&gt;
+
+&lt;p&gt;That part has been the worst experience of these 4 days. According to Will Mitchell, bringing traffic with Facebook was easy &amp;#8230; No it wasn&amp;#8217;t !! First, you have to place some ads on &lt;strong&gt;Facebook ads page&lt;/strong&gt;. Once it&amp;#8217;s done, the ads have to be accepted : for me it took three days ! Really &lt;strong&gt;longer than what I expected&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another negative feeling I had was related to the new kind of ads : the &amp;#8220;newsfeed ads&amp;#8221; that appear in between your friends posts. I personally find it too intrusive, but the problem is not even there. If you buy this kind of ads, then Facebook will make you pay for any click on the advertisement. And, as Facebook requires this kind of ad to be linked to a Facebook Page, I lost almost 50 clicks because their were sent to my Facebook page and not to the actual landing page. So follow my advice, &lt;strong&gt;avoid Facebook ads&lt;/strong&gt; (at least the newsfeed ads).&lt;/p&gt;
+
+&lt;p&gt;Alternatives remain however. The cheapest is to take part in discussions on social networks like &lt;strong&gt;Google+ Communities, Twitter, LinkedIn Groups&lt;/strong&gt; or some web forums. That&amp;#8217;s the one I chose and the ROI is amazingly higher than Facebook. Otherwise, you can also buy some Google adword ads.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-the-startup-will-be-called-8230:d6faeee7c9e3f5d4701cd8a8bd2c8fb3&#34;&gt;So the startup will be called &amp;#8230;&lt;/h2&gt;
+
+&lt;p&gt;Ladies and Gentlemen, the final name of my 30-days startup challenge is :&lt;/p&gt;
+
+&lt;p&gt;[sociallocker]&lt;/p&gt;
+
+&lt;div class=&#34;box aligncenter&#34;&gt;
+  &lt;p style=&#34;text-align: center;&#34;&gt;
+    &lt;strong style=&#34;font-family: Times New Roman,Times,serif; font-size: 18px; font-weight: bold;&#34;&gt;WordiZ&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I already reserved a domain name to put the website.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  [/sociallocker]
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Summary
+&lt;/h2&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
+  &lt;tr&gt;
+    &lt;th scope=&#34;col&#34;&gt;
+      Description
+    &lt;/th&gt;
+    
+    &lt;th scope=&#34;col&#34;&gt;
+      Number
+    &lt;/th&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td colspan=&#34;2&#34;&gt;
+      &lt;em&gt;The above data were averaged, please do not sue me &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;br /&gt; &lt;/em&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Time spent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      3 hours per night = 12 hours
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Money spent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Facebook ads + Domain names = 40€ ($51)
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      People in the mailing list
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      35
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Prospect
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      38
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  What next
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  As my creative skills are really poor,&lt;strong&gt; I am looking for someone to create a logo&lt;/strong&gt; that would correspond to the startup. If you are a designer and want to help me, just leave me a message and let&amp;#8217;s start interacting !
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I also realized while writing my article that my English has become terrible, so if some native speaker could have the time to&lt;strong&gt; proofread my blogposts&lt;/strong&gt;, that would be very nice &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Having said that, the next steps for me are : &lt;strong&gt;creating a mock-up&lt;/strong&gt; of the application and&lt;strong&gt; decide which web framework&lt;/strong&gt; should be used. I currently have three frameworks in mind, but don&amp;#8217;t know which one to select : &lt;em&gt;Ruby on Rails, Django &lt;/em&gt;and&lt;em&gt; Symfony&lt;/em&gt;. I was quite attracted by Ruby, but I read in different places on the web that the code is difficult to maintain and to exchange. Web people, I need your help on this matter.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &amp;#8212;
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Edit : Finding competitors
+&lt;/h2&gt;
+
+&lt;p&gt;I did not want to start worrying about competitors at this stage, but this has come quicker than expected. While writing a tweet to Cezary to thanks him for the mashable article, I found him mentionning a potential competitor :&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet align-center&#34;&gt;
+  &lt;p&gt;
+    congrats to @&lt;a href=&#34;https://twitter.com/justinbelmont&#34;&gt;justinbelmont&lt;/a&gt; on launching @&lt;a href=&#34;https://twitter.com/prose&#34;&gt;prose&lt;/a&gt;, a service that helps brands write great content
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    — Cezary Pietrzak (@cezinho) &lt;a href=&#34;https://twitter.com/cezinho/status/337956437261156355&#34;&gt;May 24, 2013&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The service that &lt;a title=&#34;Prose&#34; href=&#34;http://www.prosemedia.com/&#34; target=&#34;_blank&#34;&gt;Prose&lt;/a&gt; is offering is slightly different than what we will offer. However, it&amp;#8217;s good to keep an eye on them, &amp;#8230; friendly &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; class=&#34;wp-smiley&#34; /&gt; Nice name by the way guys.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The 30-days Startup Challenge</title>
+      <link>http://localhost:1313/2013/05/the-30-days-startup-challenge/</link>
+      <pubDate>Wed, 22 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2013/05/the-30-days-startup-challenge/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I have not been writing on my blog for many months now. This was probably to learn more and more from online readings and share experience with friends. As you may know, I am still working on PhD degree (Italy//Spain) in the field of nanotechnologies. However, I recently decided to try a &lt;strong&gt;quick and intensive challenge&lt;/strong&gt;. Let&amp;#8217;s call it the « &lt;strong&gt; 30-days startup challenge&lt;/strong&gt;  ».
+&lt;/p&gt;
+
+&lt;div id=&#34;attachment_1267&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-1267&#34; alt=&#34;30-days startup challenge&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg&#34; width=&#34;300&#34; height=&#34;214&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    30-days startup challenge
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;the-30-days-startup-challenge:458ffc3cb429acf6465e98c920a8cfe7&#34;&gt;The 30-days startup challenge&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  As you guess from the title, I will dedicate 30 days in the &lt;strong&gt;creation of a web startup&lt;/strong&gt;&amp;#8230; Well, I should say 30 evenings since my days are booked in the lab. I will try to dedicate some time after each milestone reached, to write a summary on my blog. To follow my adventures, you can &lt;strong&gt;register to the mailing list&lt;/strong&gt; below.
+&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  All kind of help will be appreciated from you, so do not hesitate to &lt;strong&gt;comment, criticize, share, and talk about my project&lt;/strong&gt;. At the moment the project has barely started so I don&amp;#8217;t feel a lot of pressure, but later I guess I would be tempted to stop, so your help will be the strongest motivation I could receive.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I will try to make this experience as much &lt;strong&gt;pedagogical&lt;/strong&gt; as possible. At the end of each blog post you will find a table with a summary of different numbers :&lt;em&gt; time spent, money spent, money received, people involved&lt;/em&gt;.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;step-0-the-idea:458ffc3cb429acf6465e98c920a8cfe7&#34;&gt;Step 0  : The idea&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  To make a long story short, let&amp;#8217;s summarize the project and day 0 (Monday 20th May).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First, the project has two main targets  : &lt;strong&gt;content producers&lt;/strong&gt; (journalists, web copyrighter,s bloggers) and &lt;strong&gt;publishers/brand promoters&lt;/strong&gt; (e-magazine, webmasters, SEO agencies, and PR agencies).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Here is the value proposition for each market segment  :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;For writers&lt;/span&gt;  : Promoting your writing skills and expertise and providing you with job offers and clients&lt;/li&gt;
+&lt;li&gt;For publishers  : Finding the best writer for your business&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  This is the end of the first post. In the next post, I will explain you how I selected the&lt;strong&gt; name of the startup&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  How to follow me
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First thing is to &lt;strong&gt; subscribe to the mailing list&lt;/strong&gt; to follow the complete challenge. You can also &lt;strong&gt;follow me on&lt;/strong&gt; &lt;a title=&#34;Profile google+&#34; href=&#34;https://plus.google.com/u/0/113400244614302404694/posts?tab=XX&amp;authuser=0&#34; target=&#34;_blank&#34;&gt;Google+&lt;/a&gt; or &lt;a title=&#34;Twitter - Jean-Christophe Lavocat&#34; href=&#34;https://twitter.com/jice_lavocat&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; if you want. On twitter and Google+, please use the hashtag #30DSTART to mention the challenge. That will make conversation easier to occur.
+&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

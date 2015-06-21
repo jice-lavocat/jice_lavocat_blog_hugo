@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rf Module on Jice is Nice</title>
+    <link>http://localhost:1313/tags/rf-module/</link>
+    <description>Recent content in Rf Module on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Fri, 04 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rf-module/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to use the Scattered formalism using Comsol Multiphysics</title>
+      <link>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</link>
+      <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  After my last post about &amp;#8216;&lt;a title=&#34;Far field Comsol&#34; href=&#34;http://localhost/oldblog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/&#34;&gt;getting the scattered far field using ComsolRF module&lt;/a&gt; &amp;#8216; a bunch of problems appeared. Actually, the definition of the incident field, using a line of current is wrong. It prevent the PML to work nicely, and thus, the overall field (and of course the scattered field) will be wrong.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  To correct this behaviour, one should first start a problem by using the &lt;em&gt;Scattered Formalism Equation Resolution&lt;/em&gt;. If you already have your setup, just go to &lt;strong&gt;Physics&lt;/strong&gt; &gt; &lt;strong&gt;Properties&lt;/strong&gt; and change the &lt;strong&gt;Field Type&lt;/strong&gt; to &amp;#8216;Scattered xxxxx waves&amp;#8217; (where xxxxx is your polarization system : TE, TM or hybrid).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now, instead of including a source inside your setup, Comsol will use a theoretical field that we have to define. With this formalism, no boundaries problem can appear again.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First create your setup, and add your PML. As an exeternal boundary condition, choose &lt;strong&gt;Scattering Boundary Condition &lt;/strong&gt;(and specify the type of field you want to use). For a regular geometry there is no difference with the initial condition (ie. Perfect Electrice Conductor), but I guess that differences could appear if your domain is a little bit tricky.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now you have to tell Comsol what is the field that you want to use. For that, just go to&lt;strong&gt; Physics&lt;/strong&gt; &gt; &lt;strong&gt;Scalar Variables&lt;/strong&gt; and change &lt;strong&gt;H0iz_rfweh. &lt;/strong&gt;Now, you should want to use a plane wave or a cylindrical wave :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plane wave : use &lt;strong&gt;exp(-j*k0_rfweh*(cos(alpha)*x+sin(alpha)*y))&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  - you have to define alpha \in (0, 2*pi), the angle of incidence in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cylindrical wave : use &lt;strong&gt;besselj(0,k0_rfweh*&amp;reg;)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  - you have to define r = sqrt((x-xc)^2+(y-yc)^2), the center of your source in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  - you have to define xc and yc, the coordinates of your source, in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/06/comsol_plane.png&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1077&#34; title=&#34;Field Definition Comsol&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p&gt;Hope this will help.&lt;/p&gt;
+
+&lt;p&gt;Any feedback appreciated.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

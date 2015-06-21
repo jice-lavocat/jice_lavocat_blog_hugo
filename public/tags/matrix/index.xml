@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matrix on Jice is Nice</title>
+    <link>http://localhost:1313/tags/matrix/</link>
+    <description>Recent content in Matrix on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 08 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>On Matrix decomposition</title>
+      <link>http://localhost:1313/2009/07/on-matrix-decomposition/</link>
+      <pubDate>Wed, 08 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/07/on-matrix-decomposition/</guid>
+      <description>&lt;p&gt;In order to complete the previous post on &lt;a href=&#34;http://localhost/oldblog/2009/07/decomposition-in-unitary-matrices/&#34; target=&#34;_blank&#34;&gt;unitary matrix decomposition&lt;/a&gt; (sum) , I give here two interesting links about other known matrix decomposition :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;Matrix decomposition&#34; href=&#34;http://en.wikipedia.org/wiki/Matrix_decomposition&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Matrix_decomposition&#34;&gt;http://en.wikipedia.org/wiki/Matrix_decomposition&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;Matrix Decomposition&#34; href=&#34;http://www.ece.northwestern.edu/~mya671/files/Matrix_YM_.pdf&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.ece.northwestern.edu/~mya671/files/Matrix_YM_.pdf&#34;&gt;http://www.ece.northwestern.edu/~mya671/files/Matrix_YM_.pdf&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In quantum physics we love to use unitary operations, so here are the decompositions involving unitary matrices. We have U,V unitary, T,R triangular, Q orthogonal and D diagonal :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Schur_decomposition&#34; target=&#34;_blank&#34;&gt;Schur Decomposition&lt;/a&gt; : $$M=UTU^{\dagger}$$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Singular_value_decomposition&#34; target=&#34;_blank&#34;&gt;Singular Value Decomposition&lt;/a&gt; : $$ M=UDV^{*}$$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/QZ_decomposition#Generalized_Schur_decomposition&#34; target=&#34;_blank&#34;&gt;QZ decomposition&lt;/a&gt; (generalized Schurr) : $$M = UTV^*$$&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/QR_decomposition&#34; target=&#34;_blank&#34;&gt;QR decomposition&lt;/a&gt; : $$M=QR$$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Do you use other useful unitary decomposition?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

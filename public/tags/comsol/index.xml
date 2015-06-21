@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comsol on Jice is Nice</title>
+    <link>http://localhost:1313/tags/comsol/</link>
+    <description>Recent content in Comsol on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Mon, 07 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/comsol/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nohup, Comsol and Matlab</title>
+      <link>http://localhost:1313/2010/06/nohup-comsol-and-matlab/</link>
+      <pubDate>Mon, 07 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/06/nohup-comsol-and-matlab/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  When you want to use a &lt;strong&gt;Matlab &lt;/strong&gt;script to perform simulations with &lt;strong&gt;Comsol&lt;/strong&gt;,  a remote server is often used. This post is a quick note to help you creating matlab scripts that would be run on a remote server.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The strategy is the following. We will use the &lt;em&gt;nohup &lt;/em&gt;command to let the server do the simulations while we will turn off our computer. Without the nohup, turning off your computer would result in breaking the &lt;strong&gt;ssh connexion&lt;/strong&gt;, and thus, the matlab/comsol processes that were running. Another solution could have been the use of the command &lt;em&gt;screen&lt;/em&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First you have to be sure that you Matlab script won&amp;#8217;t output graphical windows which would need X to be printed. If such windows appear during your calculation, then the script would have to stop. In order to prevent java windows to be created, add this at the beginning of your Matlab script :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flreport(&amp;#8216;off&amp;#8217;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Second, you have to force your script to close the matlab process after the simulation. So you have to add this at the end of your script :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;exit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, you just have to create a directory for your simulation of the day, upload all your script&amp;#8217;s files, and launch the following command via a terminal when you&amp;#8217;ll be located in your simulation&amp;#8217;s folder :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nohup comsol matlab -ml -nodesktop -ml -nosplash -mlr &amp;#8220;Script_matlab&amp;#8221; &amp;amp;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Note&lt;/span&gt;&lt;/strong&gt; : here we assumed that the script was called &lt;em&gt;Script_matlab.m&lt;/em&gt;. Be carefull, and don&amp;#8217;t forget to remove the extension &amp;#8220;.m&amp;#8221; when you use nohup.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to use the Scattered formalism using Comsol Multiphysics</title>
+      <link>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</link>
+      <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+  After my last post about &amp;#8216;&lt;a title=&#34;Far field Comsol&#34; href=&#34;http://localhost/oldblog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/&#34;&gt;getting the scattered far field using ComsolRF module&lt;/a&gt; &amp;#8216; a bunch of problems appeared. Actually, the definition of the incident field, using a line of current is wrong. It prevent the PML to work nicely, and thus, the overall field (and of course the scattered field) will be wrong.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  To correct this behaviour, one should first start a problem by using the &lt;em&gt;Scattered Formalism Equation Resolution&lt;/em&gt;. If you already have your setup, just go to &lt;strong&gt;Physics&lt;/strong&gt; &gt; &lt;strong&gt;Properties&lt;/strong&gt; and change the &lt;strong&gt;Field Type&lt;/strong&gt; to &amp;#8216;Scattered xxxxx waves&amp;#8217; (where xxxxx is your polarization system : TE, TM or hybrid).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now, instead of including a source inside your setup, Comsol will use a theoretical field that we have to define. With this formalism, no boundaries problem can appear again.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First create your setup, and add your PML. As an exeternal boundary condition, choose &lt;strong&gt;Scattering Boundary Condition &lt;/strong&gt;(and specify the type of field you want to use). For a regular geometry there is no difference with the initial condition (ie. Perfect Electrice Conductor), but I guess that differences could appear if your domain is a little bit tricky.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now you have to tell Comsol what is the field that you want to use. For that, just go to&lt;strong&gt; Physics&lt;/strong&gt; &gt; &lt;strong&gt;Scalar Variables&lt;/strong&gt; and change &lt;strong&gt;H0iz_rfweh. &lt;/strong&gt;Now, you should want to use a plane wave or a cylindrical wave :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plane wave : use &lt;strong&gt;exp(-j*k0_rfweh*(cos(alpha)*x+sin(alpha)*y))&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  - you have to define alpha \in (0, 2*pi), the angle of incidence in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cylindrical wave : use &lt;strong&gt;besselj(0,k0_rfweh*&amp;reg;)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  - you have to define r = sqrt((x-xc)^2+(y-yc)^2), the center of your source in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  - you have to define xc and yc, the coordinates of your source, in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/06/comsol_plane.png&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-1077&#34; title=&#34;Field Definition Comsol&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p&gt;Hope this will help.&lt;/p&gt;
+
+&lt;p&gt;Any feedback appreciated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How-to get the electromagnetic scattered far field using Comsol RF Module</title>
+      <link>http://localhost:1313/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  If you use Comsol Multiphysics &amp;#8211; RF Module, you may have noticed that there is a far field option when you edit any Boundary settings. This feature will allow you to compute the &lt;strong&gt;scattered far field&lt;/strong&gt; of an object using some tricks.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Initial Setting : Simple simulation using Comsol
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  This tutorial will allow you to compute the scattered field of an ideal magnetic conducting circle in 2D. First, let&amp;#8217;s design a square with PML around to absorb the outgoing light. Create a problem using &lt;strong&gt;Plane TM waves&lt;/strong&gt; (we will change this latter to scattered TM waves, but the tutorial was made for an initial TM problem, and not for Scattered TM). We will assume you know how to use Comsol as a beginner user, so you know how to design the following structure :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a square centered in (0,0), of length 0.2&lt;/li&gt;
+&lt;li&gt;4 additional rectangular borders to this square, of thickness 0.02&lt;/li&gt;
+&lt;li&gt;a centered circle of radius 0.01&lt;/li&gt;
+&lt;li&gt;a centered circle of radius 0.8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&#34;attachment_1053&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/setting_base.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1053&#34; title=&#34;setting_base&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Basic Setting
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now you should modify the design a little bit in terms of properties. First, select the big circle, and transform it to a curve (&amp;#8220;Coerce to curve&amp;#8221;). You should also remove the small circle from the main substrate to latter change its properties. In order to do that, select the small circle and the main square, and click on &amp;#8220;difference&amp;#8221;. Then, add some cartesian PML to the 4 rectangles : &lt;strong&gt;Physics &lt;/strong&gt;&gt; &lt;strong&gt;Subdomain settings&lt;/strong&gt; &gt; &lt;em&gt;select the areas&lt;/em&gt; &gt; &lt;strong&gt;PML&lt;/strong&gt; &gt;&lt;strong&gt;&lt;em&gt; &lt;/em&gt;Cartesian&lt;/strong&gt; &lt;em&gt;&gt;  Try to figure out which PML you need to inser&lt;/em&gt; (left/righ absorb along &lt;strong&gt;x&lt;/strong&gt;, top and bottom along &lt;strong&gt;y&lt;/strong&gt;, corners along &lt;strong&gt;x&lt;/strong&gt; and &lt;strong&gt;y&lt;/strong&gt; directions)).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The following image shows the resulting construction. In order to highlight the construction I changed my &lt;strong&gt;Options &lt;/strong&gt;&gt; &lt;strong&gt;Preferences &lt;/strong&gt;&gt; &lt;strong&gt;Visualization&lt;/strong&gt;, and checked the &amp;#8220;Render Face&amp;#8221; button.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&#34;attachment_1055&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Setting_normal.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1055&#34; title=&#34;Setting_normal&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Normal Setting
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&#34;collecting-the-far-field:4c4056b789433fda8d2903371113b53f&#34;&gt;Collecting the Far-Field&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  In order to collect the far field using Comsol Multiphysics, you need to change some &amp;#8220;Physics&amp;#8221; values. First, let&amp;#8217;s explain what will be our simulation case. A plane wave will come from the inner-left boundary of the small square. We will use TM waves, with Hz=1 A (magnetic field) emerging from this inner boundary. So the source is located on &lt;strong&gt;x=-0.1&lt;/strong&gt;. We thus need to indicate this to comsol. Go to &lt;strong&gt;Physics &lt;/strong&gt;&gt; &lt;strong&gt;Scalar variables&lt;/strong&gt; &gt; &lt;em&gt;Change the value of &lt;/em&gt;&lt;strong&gt;H0iz_rfwh&lt;/strong&gt;&lt;em&gt; to&lt;/em&gt; &lt;strong&gt;exp(-j*k0_rfwh*(x+0.1)).&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now we need to indicate Comsol that we want to integrate the far field on the big circle we draw during the first step. Modify the &lt;strong&gt;Boundary settings&lt;/strong&gt; to add a far fiel value, called &lt;strong&gt;Efar&lt;/strong&gt; on the curves representing the circle.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&#34;attachment_1057&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Efar.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1057&#34; title=&#34;Efar&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;220&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Efar is defined on the big circle
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Note that you just need to write the name of the variable &lt;strong&gt;Efar&lt;/strong&gt;, and comsol will automatically create resulting variables.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Next you need to inser a relation to get &lt;strong&gt;Hfar&lt;/strong&gt; from &lt;strong&gt;Efar. &lt;/strong&gt;Indeed, we are looking at the magnetic field, Hz, and not at Ez. Go to &lt;strong&gt;Options&lt;/strong&gt; &gt; &lt;strong&gt;Expressions &gt; Global Expressions.&lt;/strong&gt; Add the following expressions :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;r : sqrt(x^2+y^2)&lt;/li&gt;
+&lt;li&gt;Hfar : (x/r*Efary-y/r*Efarx)*sqrt(epsilon0_rfwh/mu0_rfwh)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you are almost done. To get a better scattered result, you need to change the way comsol solve the problem. go to &lt;strong&gt;Physics &amp;gt; Properties &amp;gt;&lt;/strong&gt; change &lt;strong&gt;Field type&lt;/strong&gt; to &lt;strong&gt;Scattered TM.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can finally start the solving process.&lt;/p&gt;
+
+&lt;h2 id=&#34;visualizing-the-scattered-far-field:4c4056b789433fda8d2903371113b53f&#34;&gt;Visualizing the scattered far-field&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  You can now visualize the scattered field in the &lt;strong&gt;Plot paramaters&lt;/strong&gt; &gt; &lt;strong&gt;Surface &lt;/strong&gt;section (Scattered Magnetic Field, z component). Nevertheless, the great feature is that you can now plot an angular far field plot using matlab.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  First, in Comsol, &lt;strong&gt;Postprocessing&lt;/strong&gt; &gt; &lt;strong&gt;Domain Plot Parameters&lt;/strong&gt; &gt; &lt;strong&gt;Line/ Extrusion&lt;/strong&gt; &gt; &lt;em&gt;select the big circle&amp;#8217;s curves&lt;/em&gt;. In the &lt;strong&gt;y-axis data&lt;/strong&gt;, change the expression to &lt;strong&gt;abs(Hfar)&lt;/strong&gt;. In the &lt;strong&gt;x-axis data&lt;/strong&gt;, select &amp;#8220;&lt;strong&gt;Expression&amp;#8221; &lt;/strong&gt;and inser the following expression &amp;#8220;&lt;strong&gt;atan2(y,x)&lt;/strong&gt;&amp;#8220;. It is used to display the data along the circle, using an angular representation. Clik &lt;strong&gt;Ok&lt;/strong&gt;, you should get something similar to the following.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&#34;attachment_1061&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1062&#34; title=&#34;Hfar_Comsol&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;261&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Hfar using comsol
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  In order to visualize this with Matlab, click on th &lt;strong&gt;ASCII&lt;/strong&gt; button, and save the plot data on your computer. Let&amp;#8217;s call it &lt;em&gt;scat_circ.txt&lt;/em&gt;. Open Matlab. Import this data : &lt;strong&gt;File &gt; Import Data &gt; &lt;/strong&gt;&lt;em&gt;select scat_circ.txt (then &lt;/em&gt;&lt;strong&gt;Next &lt;/strong&gt;&lt;em&gt;, then &lt;/em&gt;&lt;strong&gt;Finish&lt;/strong&gt;&lt;em&gt;).&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Now, just use the following command lines :&lt;em&gt; &lt;/em&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;scat_data=sortrows(scatt_circ);&lt;/li&gt;
+&lt;li&gt;rho=scat_data(:,2);&lt;/li&gt;
+&lt;li&gt;theta=scat_data(:,1);&lt;/li&gt;
+&lt;li&gt;polar(theta,abs(rho))&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You should get the resulting :&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;em&gt;
+  
+  &lt;div id=&#34;attachment_1064&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+    &lt;em&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1064&#34; title=&#34;Hafr_Matlab&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;219&#34; /&gt;&lt;/a&gt;&lt;/em&gt;
+    
+    &lt;p class=&#34;wp-caption-text&#34;&gt;
+      Hfar of a scattering circle using Matlab
+    &lt;/p&gt;
+  &lt;/div&gt;&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+   
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;em&gt;To follow&lt;/em&gt; : You can also compared the resulting field with a theoretical diffracted circle. In the following article, I will explain how to compute the scattered field of a circle theoretically.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

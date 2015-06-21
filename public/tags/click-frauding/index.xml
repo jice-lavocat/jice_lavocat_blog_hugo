@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Click Frauding on Jice is Nice</title>
+    <link>http://localhost:1313/tags/click-frauding/</link>
+    <description>Recent content in Click Frauding on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Tue, 23 Jun 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/click-frauding/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cookie Stuffing and click hidding</title>
+      <link>http://localhost:1313/2009/06/cookie-stuffing-and-click-hidding/</link>
+      <pubDate>Tue, 23 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/06/cookie-stuffing-and-click-hidding/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft size-full wp-image-143&#34; style=&#34;margin: 5px; float: left;&#34; title=&#34;seo white hat&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg&#34; alt=&#34;seo white hat&#34; width=&#34;140&#34; height=&#34;112&#34; /&gt;Comme le suppose le titre de ce post je parle ici de néthodes pas très honnêtes pour cacher ses cookies et utiliser de faux clics pour une utilisation que je vous laisse personnelle ( nous y reviendrons). Dans ce post je présente seulement les méthodes de mise en place du cookie stuffing ou du faux clic. Pour le reste (trouver ou placer les images, comment cacher la fraude etc.) je vous laisse les commentaires.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  
+&lt;/h2&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Le but
+&lt;/h2&gt;
+
+&lt;h3 style=&#34;text-align: justify;&#34;&gt;
+  Cookie Stuffing :
+&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le but de la manipulation est de charger un cookie cible chez un utilisateur qui ne se doute de rien. En temps normal, ce cookie se lance chez votre visiteur lorsqu&amp;#8217;il clique sur une pub affiliée, et qu&amp;#8217;il se rend sur une boutique. Si il passe un achat avec votre cookie sur son pc, vous touchez un certain pourcentage de vente. Malheureusement, ce visiteur peut très bien visiter votre site tous les jours, voir votre pub pour un Mac Air Book Pro, et prendre sa décision d&amp;#8217;achat grâce à vous. Cependant, il peut passer l&amp;#8217;achat sans vous, et ne pas passer par votre bannière pour se rendre sur le site du vendeur.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  La solution c&amp;#8217;est le &lt;strong&gt;cookie stuffing&lt;/strong&gt; : vous forcez l&amp;#8217;upload d&amp;#8217;un cookie sans un click volontaire. Bien entendu, cela  vous permet de mettre votre cookie &amp;#8216;de force&amp;#8217; sur des sites qui ne sont pas à vous &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_twisted.gif&#34; alt=&#34;:twisted:&#34; class=&#34;wp-smiley&#34; /&gt; .
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;strong&gt;Le click frauding :&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Je ne sais pas trop quel nom on donne généralement à la technique que je vais d&amp;#8217;ecrire qui se base sur le cookie stuffing, mais je pense que &lt;strong&gt;click hidding&lt;/strong&gt; ou &lt;strong&gt;click frauding&lt;/strong&gt; convient (si quelqu&amp;#8217;un le sais, n&amp;#8217;hésitez pas à commenter). Qu&amp;#8217; est-ce que  nous essayons de faire avec du clic frauding? Et bien tout simplement simuler un click d&amp;#8217; un visiteur sur un lien donné ou une bannère. A quoi ça sert? Je ne pense pas avoir à vous apprendre que le traffic d&amp;#8217;un site n&amp;#8217;a qu&amp;#8217;une seul vocation : apporter plus de visiteurs qui vont encore plus cliquer sur les bannière &amp;#8230; qui vont générer des revenues. Si vous en êtes victime, certains sites en parle et essayent de vous donner des conseils : &lt;a title=&#34;Blog contre la fraude aux clicks&#34; href=&#34;http://blog.lafraudeauxclics.com/&#34; target=&#34;_blank&#34;&gt;http://blog.lafraudeauxclics.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Une autre utilisation concerne les nouveaux médias de bookmark sociaux. En effet, on a souvent un classement de nos sites dépendant des clics. L&amp;#8217;un des plus utilisés dans le monde francophone est certainement &lt;a title=&#34;Wikio - Bookmark sociaux&#34; href=&#34;http://www.wikio.fr/&#34; target=&#34;_blank&#34;&gt;wikio&lt;/a&gt;, et cette astuce fonctionne aussi pour lui.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  La technique
+&lt;/h2&gt;
+
+&lt;h3 id=&#34;le-contexte:7a42905b78d24a69ea56fdad8347a153&#34;&gt;Le contexte&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Les deux méthodes de base qui existent pour cacher des cookies (equivalent aux clics, je parlerai donc de cookie pour mentionner les deux par la suite) sont les suivantes :
+&lt;/p&gt;
+
+&lt;p&gt;&lt;li style=&#34;text-align: justify;&#34;&gt;
+  Utilisation d&amp;#8217;une iframe : on crée une iframe de 1 px qui sera donc invisible au visiteur, et contiendra la page de l&amp;#8217;affilié et sera donc similaire à un clic ou lancera ledit cookie. Cette méthode peut être améliorés en cachant le code votre iframe en l&amp;#8217;&lt;a title=&#34;JS obfuscator&#34; href=&#34;http://www.daftlogic.com/projects-online-javascript-obfuscator.htm&#34; target=&#34;_blank&#34;&gt;obfuscant par javascript&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li style=&#34;text-align: justify;&#34;&gt;
+  Utilisation d&amp;#8217;une image : on va créer une image dont l&amp;#8217;url externe sera celle du site cible. Cela aura un effet similaire : charger la page et le cookie.
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans la suite de ce post je vous donne des précisions sur la deuxième méthode que j&amp;#8217;ai utilisé pour avoir quelque chose comme 2000 clics en 5 ou 6 heures pour un concours bidon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter size-full wp-image-511&#34; title=&#34;android&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2009/06/android.png&#34; alt=&#34;android&#34; width=&#34;600&#34; height=&#34;281&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le but était de faire le plus de clics (réels) sur une URL donnée. Dans mon cas c&amp;#8217;étais androidparty.be/Jice. Cependant, afin de cacher un brin la fraude, pour retirer l&amp;#8217;URL du referer sur lequel nous allons injecter notre code, j&amp;#8217;ai créé une adresse du type miniurl (bit.ly ou autre). Si vous avez des idées pour cacher votre referer, ou utiliser un aléatoire ( un petit script suffit, mais on passe toujours par des referer qui font douter comme les rétrecisseurs d&amp;#8217;url).&lt;/p&gt;
+
+&lt;h3 id=&#34;le-code-br-class-spacer:7a42905b78d24a69ea56fdad8347a153&#34;&gt;Le code&lt;br class=&#34;spacer_&#34; /&gt;&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Le code que j&amp;#8217;ai mis en place se base sur deux articles que vous retrouverez en fin de page. Il utilise le module &lt;a title=&#34;Apache Mod Rewrite et Url Rewriting&#34; href=&#34;http://www.apache-mod-rewrite.fr&#34; target=&#34;_blank&#34;&gt;apache mod-rewrite &lt;/a&gt;pour regarder si le referer est humain ou si il s&amp;#8217;agit d&amp;#8217;un site. Dans le cas d&amp;#8217;un humain il va afficher une image banal. Dans le cas d&amp;#8217;un site, il va regarder si l&amp;#8217;ip a déjà été utilisée dans les 12 dernières heures, et si c&amp;#8217;est le ca affiché la-dite image. Sinon, il envoie notre code grâce a la fonction php &lt;a title=&#34;Php header&#34; href=&#34;http://www.php.net/header&#34; target=&#34;_blank&#34;&gt;header&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Tout d&amp;#8217;abord on utilise une image innocente, comme &lt;em&gt;pixel.gif&lt;/em&gt;, qui va nous servir d&amp;#8217;image à afficher lorsque l&amp;#8217;on a des doutes sur la provenance de l&amp;#8217;ip (sans referer, ou moteur de recherche etc). Je vous laisse en commentaire préciser quelles sont les ip ou conditions à attribuer à l&amp;#8217;affichage de l&amp;#8217;image.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ensuite, il faut définir le comportement à utiliser pour l&amp;#8217;appel d&amp;#8217;une fausse image que l&amp;#8217;on appellera &lt;em&gt;fake_pixel.gif&lt;/em&gt;. Cette image n&amp;#8217;existe pas réellement, il s&amp;#8217;agit juste d&amp;#8217;un pointeur vers notre fichier malicieux &lt;em&gt;pixel.php&lt;/em&gt;. On crée donc le fichier &lt;em&gt;.htaccess &lt;/em&gt;qui va bien :
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;RewriteEngine On&amp;lt;br /&amp;gt;
+RewriteBase /&amp;lt;br /&amp;gt;
+RewriteRule fake_pixel.gif pixel.php [L]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous allez peut être devoir modifier rewritebase si vous ne lancer pas le script à partir de la racine.&lt;/p&gt;
+
+&lt;p&gt;Cela permet l&amp;#8217;appel du fichier pixel.php de manière &amp;#8216;invisible&amp;#8217;. Vous pouvez donc l&amp;#8217;appeler par toute page grâce à la balise classique, et personne ne se doutera qu&amp;#8217;elle appelle en réalité un script php :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;fake_pixel.gif&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Cela vous le placerez dans les pages victimes de votre cookie stuff. Celles-ci peuvent se trouver sur votre site &amp;#8230; ou pas &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Voyons à présent ce que contient le fichier pixel.php :&lt;/p&gt;
+
+&lt;p&gt;&lt;code lang=&#34;php&#34;&gt;if(!$_SERVER[&amp;lsquo;HTTP_REFERER&amp;rsquo;]){&amp;lt;br /&amp;gt;
+header(&amp;ldquo;Content-type: image/gif&amp;rdquo;);&amp;lt;br /&amp;gt;
+readfile(&amp;lsquo;pixel.gif&amp;rsquo;);&amp;lt;br /&amp;gt;
+} else {&amp;lt;br /&amp;gt;
+$targ=veriff_add(&amp;ldquo;list_ip.txt&amp;rdquo;); //ip sont enregistrées et comparées&amp;lt;br /&amp;gt;
+if($targ){&amp;lt;br /&amp;gt;
+header(&amp;ldquo;Location: &lt;a href=&#34;http://tinyurl.com/androidparty-Jice&amp;quot;);&amp;lt;br&#34;&gt;http://tinyurl.com/androidparty-Jice&amp;quot;);&amp;lt;br&lt;/a&gt; /&amp;gt;
+}else{&amp;lt;br /&amp;gt;
+header(&amp;ldquo;Content-type: image/gif&amp;rdquo;);&amp;lt;br /&amp;gt;
+header(&amp;ldquo;Status: 200&amp;rdquo;,true);&amp;lt;br /&amp;gt;
+readfile(&amp;lsquo;pixel.gif&amp;rsquo;);&amp;lt;br /&amp;gt;
+}&amp;lt;br /&amp;gt;
+}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Voilà donc le code. Si le referer n&amp;#8217;existe pas, on renvoie l&amp;#8217;image directement. Sinon on compare avec notre liste d&amp;#8217;ip et on l&amp;#8217;ajoute si l&amp;#8217;ip n&amp;#8217;a pas déjà été utilisée dans les xx heures. La fonction veriff_add vous est personnelle. C&amp;#8217;est elle qui enregistre vos ip, et ajoute une fonction aléatoire pour ne pas envoyer toutes les ips d&amp;#8217;un seul coup sur la cible.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;améliorations:7a42905b78d24a69ea56fdad8347a153&#34;&gt;Améliorations :&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Avec le script actuel, lors de la première connexion d&amp;#8217;une cible, celle-ci distingue effectivement qu &amp;#8216;il manque une image. Je voulais essayer de faire de l&amp;#8217;&lt;strong&gt;ajax &lt;/strong&gt;pour palier ce problème, mais le manque de temps (et une soutenance de stage en préparation) m&amp;#8217;en a empêché.  Le but est d&amp;#8217;afficher quand même, pour une premiere connexion, une image après avoir chargée la page cible. J&amp;#8217;ai essayé avec la fonction buffer de php, mais sans succès. Si vous avez des idées, je suis preneur.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Ce soucis d&amp;#8217;image absente ne vaut que si vous voulez injecter un lien. Si vous voulez injecter un cookie pré-construit, qui ressemble à celui d&amp;#8217;un affilié quelconque, le header de l&amp;#8217;image peut toujours être envoyé après l&amp;#8217; enregistrement du cookie (voir lien article 2 ci-dessous).
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;strong&gt;Où poser votre image cible?&lt;/strong&gt; Et bien en premier lieux sur tous vos sites. Comme ca, ils lanceront tous une connexion vers votre affilié ou concours. Plus barbare/bucheron, vous pouvez aller injecter votre image sur certains sites sociaux à forte population. Nénamoins, mon meilleur résultat a eu lieu avec un fameux moteur de petites annonces US &amp;#8230; dans la section rencontre pour adultes &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_cool.gif&#34; alt=&#34;8-)&#34; class=&#34;wp-smiley&#34; /&gt;   (on s&amp;#8217;en doutait pas tiens) .
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Une autre idée serait de profiter du &lt;a title=&#34;Vol de bande passante / hot linking d&#39;images&#34; href=&#34;http://www.apache-mod-rewrite.fr/empecher-le-vol-de-bande-passante&#34; target=&#34;_blank&#34;&gt;hotlinking&lt;/a&gt; de certaines de vos images pour pointer vers votre script malicieux. Quelques modifications pourraient même être réalisées pour afficher néanmoins la bonne image aux visiteurs des sites qui vous volent la bande passante. Le schéma serait le suivant :
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pour toute demande d&amp;#8217;image provenant de l&amp;#8217;extérieur, on renvoie en URL rewrite vers un fichier redir_img.php&lt;/li&gt;
+&lt;li&gt;Ce fichier prend en argument l&amp;#8217;adresse de l&amp;#8217;image demandée&lt;/li&gt;
+&lt;li&gt;Il utilise une modification du script ci-dessus pour envoyer notre lien, et/ou afficher la bonne image.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ca demande un peu plus de code, mais c&amp;#8217;est une bonne façon de faire payer son travail ( et ses images) : &lt;strong&gt;piquer les visiteurs des pompeurs&lt;/strong&gt; &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&#34;spacer_&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Les ressources annexes :
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Article 1 servant de base à ce post : &lt;a title=&#34;Cookie Stuffing&#34; href=&#34;http://www.esrun.co.uk/blog/cookie-stuffing-revisited/&#34; target=&#34;_blank&#34;&gt;http://www.esrun.co.uk/blog/cookie-stuffing-revisited&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Article 2 servant de base à ce post : &lt;a title=&#34;Cookie stuffing par image&#34; href=&#34;http://www.siteduzero.com/tutoriel-3-4731-images-cookies-loading.html&#34; target=&#34;_blank&#34;&gt;http://www.siteduzero.com/tutoriel-3-4731-images-cookies-loading.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  L&amp;#8217;utilisation sur Wikio :  &lt;a title=&#34;Fraude clic wikio&#34; href=&#34;http://www.deliciouscadaver.com/comment-forcer-vos-visiteurs-a-voter-pour-vous.html&#34; target=&#34;_blank&#34;&gt;http://www.deliciouscadaver.com/comment-forcer-vos-visiteurs-a-voter-pour-vous.html&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

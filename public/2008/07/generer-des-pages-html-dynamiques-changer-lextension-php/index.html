@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Générer des pages html dynamiques (changer l’extension php) &middot;  Jice is Nice" />
+  	<meta property="og:site_name" content="Jice is Nice" />
+  	<meta property="og:url" content="http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/" />
+    
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2008-07-23T00:00:00Z" />
+
+    
+    <meta property="og:article:tag" content="Apahce" />
+    
+    <meta property="og:article:tag" content="Htaccess" />
+    
+    <meta property="og:article:tag" content="PHP" />
+    
+    <meta property="og:article:tag" content="Server" />
+    
+    <meta property="og:article:tag" content="web" />
+    
+    
+
+  <title>
+     Générer des pages html dynamiques (changer l’extension php) &middot;  Jice is Nice
+  </title>
+
+    <meta name="description" content="French/English essays about our Digital World, about Nature and Mind" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Jice is Nice" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.14" />
+
+    <link rel="canonical" href="http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-3492655-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">My Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">About me</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://localhost:1313/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.png" alt="Home" /></a><a class="blog-logo" href="http://localhost:1313/"><div style="padding-left: 7px;text-align: left; color: #000;">Jice is Nice (Home)</div></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Générer des pages html dynamiques (changer l’extension php)</h1>
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2008-07-23T00:00:00Z">
+            Jul 23, 2008
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/apahce/">#Apahce</a></span>
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/htaccess/">#Htaccess</a></span>
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/php/">#PHP</a></span>
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/server/">#Server</a></span>
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/web/">#web</a></span>
+         
+        </section>
+    </header>
+  
+    <section class="post-content">
+      
+
+<h3 id="le-principe:1fba6784f5d5f8dcc47246c506a1dac3">Le principe :</h3>
+
+<p align="justify">
+  Vous avez des pages html tout ce qu&#8217;il y a de plus statiques. Vous voulez y intégrer du php pour je ne sais quelle raison. Il faut donc se débrouiller pour demander à votre serveur d&#8217;interpréter les pages .htm ou .html comme du php. Pour cela, si vous êtes administrateur, ce n&#8217;est pas trop difficile, ça passe par la <a href="../../index.php?view=article&catid=43%3Aos-a-hardware&id=90%3Aconfigurer-son-apache2&option=com_content&Itemid=63&lang=fr">configuration d&#8217;apache</a>.
+</p>
+
+<p align="justify">
+  Si vous n&#8217;êtes pas l&#8217;administrateur de votre système vous devrez ruser, et utiliser à bon escient votre .htaccess.
+</p>
+
+<h3 id="application:1fba6784f5d5f8dcc47246c506a1dac3">Application :</h3>
+
+<p align="justify">
+  Vous devez vous occuper d&#8217;un gros site, sur lequel on a tout codé au début en html. Les pages sont déjà très bien indexées, mais vous voulez en savoir plus sur vos visiteurs. Comme vous ne maitriser pas le serveur, et que l&#8217;on vous a interdit le mod_rewrite, vous ne pouvez pas faire d&#8217;url rewriting, et donc pas de redirections 301 vers des pages php. La solutions? Transformer les pages html en pages dynamiques.
+</p>
+
+<p align="justify">
+  Une fois que c&#8217;est fais vous pourrez ajouter votre script php sur les pages, et tout cela juste avec le .htaccess et un peu de travail.
+</p>
+
+<h3 id="la-technique:1fba6784f5d5f8dcc47246c506a1dac3">La technique :</h3>
+
+<p align="justify">
+  Il existe, pour votre serveur, deux moyens d&#8217;appeler php : en tant que module ou en tant que script CGI. Pour le vérifier, créer une page info.php qui contient uniquement le code :
+</p>
+
+<blockquote>
+<p align="justify">
+  <em><?php</em>
+</p>
+
+<p align="justify">
+  <em>phpinfo();</em>
+</p>
+
+<p align="justify">
+  <em>?></em>
+</p>
+</blockquote>
+
+<p align="justify">
+  Cela vous permettra de voir comment tourne le php chez vous à la ligne : <strong>SERVER API</strong>. Si vous avez comme résultat &#8220;Server API Apache 2.0 Handler&#8221; alors le php tourne comme un module et ça sera simple. Sinon, vous avez le résultat &#8220;Server API CGI&#8221; et là, ça sera un peu plus complexe.
+</p>
+
+<h4 id="module:1fba6784f5d5f8dcc47246c506a1dac3">Module</h4>
+
+<p>Créer un .htaccess à la racine de votre répertoire web que vous remplirez de la façon suivante :</p>
+
+<blockquote>
+<p>_AddType application/x-httpd-php .html .htm .php</p>
+
+<p>AddHandler x-httpd-php .html_</p>
+</blockquote>
+
+<p>Si cela ne marche pas, regardez les liens ci-dessous (les ressources).</p>
+
+<h4 id="cgi:1fba6784f5d5f8dcc47246c506a1dac3">CGI</h4>
+
+<p>Il faut tout d&#8217;abord savoir où est installer le module php. Créez un fichier test.php que vous remplirez de la sorte :</p>
+
+<blockquote>
+<p><em>&lt;?php</em></p>
+
+<p>_echo &#8220;<br /><br />Whereis php? <br />&#8221;;</p>
+
+<p>$last_line = system(&#8216;which php&#8217;, $retval);</p>
+
+<p>echo $last<em>line;</em></p>
+
+<p><em>?&gt;</em></p>
+</blockquote>
+
+<p>Le résultat obtenu dépendra du serveur. Pour ma part, j&#8217;ai :</p>
+
+<blockquote>
+<p><em>php: /usr/local/bin/php /usr/local/man/man1/php.1.gz php: /usr/local/bin/php /usr/local/man/man1/php.1.gz</em></p>
+</blockquote>
+
+<p>Ainsi, je repère que le php de base est installé à /usr/local/bin/php. Je mets cette information de côté.</p>
+
+<p>Maintenant je crée un fichier .htaccess que je rempli de la façon suivante :</p>
+
+<blockquote>
+<p>_Options +ExecCGI +Includes</p>
+
+<p>AddHandler server-parsed htm</p>
+
+<p>AddHandler cgi-script .htm_</p>
+</blockquote>
+
+<p align="justify">
+  Vous pouvez aussi remplacer l&#8217;extension <em>htm </em>par ce que vous voulez. Votre site sera un peu &#8220;customisé&#8221;.
+</p>
+
+<p align="justify">
+  A partir de maintenant, le serveur ne vois plus vos pages comme des documents, mais comme des programmes, il va devoir les exécuter. Il faut donc vous assurez que celles-ci soit exécutables (et pas seulement &#8220;lisibles&#8221;). Ouvrez un shell, et tapez :
+</p>
+
+<blockquote>
+<p align="justify">
+  <em>chmod -R +x *.htm</em>
+</p>
+</blockquote>
+
+<p align="justify">
+  Les fichiers .htm sont maintenant autorisés à être exécutés. Il ne reste plus qu&#8217;une étape.
+</p>
+
+<p align="justify">
+  Ajouter, en début de chacun de vos fichiers .htm la ligne suivante :
+</p>
+
+<blockquote>
+<p align="justify">
+  <em>#!/usr/local/bin/php (rappelez-vous, je l&#8217;ai eu ci-dessus avec le fichier test.php)</em>
+</p>
+</blockquote>
+
+<p align="justify">
+  Le retour à la ligne entre le code et votre page web est INDISPENSABLE. Vos obtiendrez une grosse erreur 500 sinon.
+</p>
+
+<p align="justify">
+  Voilà, normalement c&#8217;est bon, vos pages .htm sont lisibles par le CGI php. Vous obtenez donc des pages htm dynamiques.
+</p>
+
+<h3 id="les-ressources:1fba6784f5d5f8dcc47246c506a1dac3">Les ressources :</h3>
+
+<p>Si jamais tout cela ne marche pas, survolez les forums du net. Essayez entre autres :</p>
+
+<p><a href="http://www.webmasterworld.com/forum88/603.htm" target="_blank"><a href="http://www.webmasterworld.com/forum88/603.htm">http://www.webmasterworld.com/forum88/603.htm</a></a></p>
+
+<p><a href="http://www.modwest.com/help/kb5-1.html" target="_blank"><a href="http://www.modwest.com/help/kb5-1.html">http://www.modwest.com/help/kb5-1.html</a> </a></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="http://localhost:1313/" style="background-image: url(http://localhost:1313/images/logo.png)"><span class="hidden">Jean-Christophe Lavocat's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://localhost:1313/">Jean-Christophe Lavocat</a></h4>
+  
+  <p>World citizen, often found in France, loving Nature, Music and Startups</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Toulon, France</span>
+    <span class="author-link icon-link"><a href="http://jice.lavocat.name">http://jice.lavocat.name</a></span>
+  </div>
+</section>
+
+
+
+    
+    <section class="share">
+      <h4>Share this post</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=G%c3%a9n%c3%a9rer%20des%20pages%20html%20dynamiques%20%28changer%20l%e2%80%99extension%20php%29&amp;url=http%3a%2f%2flocalhost%3a1313%2f2008%2f07%2fgenerer-des-pages-html-dynamiques-changer-lextension-php%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f2008%2f07%2fgenerer-des-pages-html-dynamiques-changer-lextension-php%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2f2008%2f07%2fgenerer-des-pages-html-dynamiques-changer-lextension-php%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span>
+      </a>
+    </section>
+    
+
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'jicelavocat';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Jice is Nice</a> All rights reserved - 2015</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/index.js"></script>
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+

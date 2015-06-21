@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joomla on Jice is Nice</title>
+    <link>http://localhost:1313/tags/joomla/</link>
+    <description>Recent content in Joomla on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Wed, 03 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/joomla/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Implementing microdata schema.org in  Yootheme ZOO</title>
+      <link>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
+      <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-1211&#34; style=&#34;margin: 0pt 10px;&#34; title=&#34;schema-org-logo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; alt=&#34;&#34; width=&#34;128&#34; height=&#34;80&#34; /&gt;&lt;/a&gt;Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the&lt;strong&gt; microdata system&lt;/strong&gt; &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. This allow any website to provide &lt;strong&gt;semantic information&lt;/strong&gt; to the &lt;strong&gt;search spiders&lt;/strong&gt;. For instance, you can specify&lt;em&gt; what kind of content you are publishing&lt;/em&gt;, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : &lt;a href=&#34;http://schema.org/&#34;&gt;http://schema.org/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignright size-full wp-image-1212&#34; title=&#34;zoo&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;As a Joomla fan, and &lt;a href=&#34;http://www.yootheme.com/zoo/&#34;&gt;Yootheme ZOO&lt;/a&gt; frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  You can download it straith away, or read the &amp;#8216;readme&amp;#8217; file below to get an idea of the product :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  [easyfileshop id=1202]
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;em&gt;Tested only with &lt;strong&gt;Zoo 2.4 for Joomla 1.5&lt;/strong&gt;&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;em&gt;You can try it for free if you have an existing working platform Joomla 1.6 with ZOO 2.4 installed. You should contact me directly and I&amp;#8217;ll send you the file. You&amp;#8217;ll tell me if some bugs are present, and you&amp;#8217;ll help the community.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: left;&#34;&gt;
+  Read Me File
+&lt;/h2&gt;
+
+&lt;p&gt;** Schema.org implementation under Yootheme ZOO component **&lt;br /&gt;
+Author : Jean-Christophe Lavocat&lt;br /&gt;
+Email : jice@nauka-websites.com&lt;br /&gt;
+Date : July 2011&lt;br /&gt;
+*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;*&lt;em&gt;**&lt;/em&gt;***&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction:f941726f20c0dc8ea314964f0c043408&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Add a new option to the text and image fields of ZOO. This new option helps to give a context to the content types you create by using ZOO. For example : your create a recipe content type, it could give the following information : &lt;a href=&#34;http://schema.org/Recipe&#34;&gt;http://schema.org/Recipe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation:f941726f20c0dc8ea314964f0c043408&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Browse your website installation, and go to the ZOO application that you want to update. The installation have to be done application by application. For instance, if you are using the application &amp;#8220;Blog&amp;#8221; got to : &amp;#8220;joomlabase/media/zoo/applications/blog&amp;#8221;. You should unzip the folder &amp;#8220;elements&amp;#8221; there.&lt;/p&gt;
+
+&lt;p&gt;Go to your administration panel and check which template you are using for your content type. Remember this template name as &amp;#8220;templatename&amp;#8221;. You should then go to &amp;#8220;joomlabase/media/zoo/applications/blog/templates/templatename/&amp;#8221; and unzip the folder &amp;#8220;renderer&amp;#8221; there.&lt;/p&gt;
+
+&lt;p&gt;The new architecture should add the following folders.&lt;/p&gt;
+
+&lt;p&gt;/applications/blog/&lt;br /&gt;
+elements/&lt;br /&gt;
+&amp;#8230;/&lt;/p&gt;
+
+&lt;p&gt;/applications/blog/template/templatename/renderer/&lt;br /&gt;
+/element/&lt;br /&gt;
+&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;Finally, go to the view you want to include schema.org : probably it will be the &amp;#8220;full&amp;#8221; view. Go to &amp;#8220;/joomlabase/media/zoo/applications/blog/templates/templatename/renderer/item&amp;#8221; and open &amp;#8220;full.php&amp;#8221;. You have to manually add the good schema type at the beginning of the file, and close it at the end. Suppose you are displaying a recipe, put the line :&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;div itemscope itemtype=&#34;http://schema.org/Recipe&#34;&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;in the first html output (say, after the first &amp;#8220;?&amp;gt;&amp;#8221;). Add a &amp;#8220;&lt;/div&gt;&amp;#8221; at the very end of this file :&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;/div&amp;gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;configuration:f941726f20c0dc8ea314964f0c043408&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;Go to the setting of your content type in the administration panel. Edit the fields of the view you just modified.&lt;br /&gt;
+You should now be able to :&lt;br /&gt;
+1) give a schema.org label to all the text field&lt;br /&gt;
+2) give a schema.org label to the main title, or specify if it is an author profile page.&lt;br /&gt;
+3) add a default picture label to one of your picture&lt;br /&gt;
+4) give the label &amp;#8220;url&amp;#8221; to the links&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&#34;attachment_1214&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignright&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-1214&#34; title=&#34;schemafield&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;245&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    A new &#34;Schema.org Label&#34; appears now, where you can specify your content
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&#34;verification:f941726f20c0dc8ea314964f0c043408&#34;&gt;Verification&lt;/h2&gt;
+
+&lt;p&gt;To verify your item pages, copy paste their url to :&lt;br /&gt;
+&lt;a href=&#34;http://www.google.com/webmasters/tools/richsnippets&#34;&gt;http://www.google.com/webmasters/tools/richsnippets&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;help-troubleshootings-faq:f941726f20c0dc8ea314964f0c043408&#34;&gt;Help / Troubleshootings / FAQ&lt;/h2&gt;
+
+&lt;p&gt;Any questions should be sent to jice@nauka-websites.com. You should specify in your email :&lt;br /&gt;
+1) which version of ZOO you are using&lt;br /&gt;
+2) the description of your problem&lt;br /&gt;
+3) the URL where the error is visible&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;The files are available to download on the following link :&lt;/p&gt;
+
+&lt;p&gt;[easyfileshop id=1202]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tested only with &lt;strong&gt;Zoo 2.4 for Joomla 1.5&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can try it for free if you have an existing working platform Joomla 1.6 with ZOO 2.4 installed. You should contact me directly and I&amp;#8217;ll send you the file. You&amp;#8217;ll tell me if some bugs are present, and you&amp;#8217;ll help the community.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YOOtheme Zoo – Integration of Google &#43;1</title>
+      <link>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/07/integration-of-google-1-in-yootheme-zoo/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;I wanted to add a &lt;a title=&#34;Google plus&#34; href=&#34;http://www.google.com/webmasters/+1/button/&#34; target=&#34;_blank&#34;&gt;google +1 button&lt;/a&gt; to my website. As I am using YOOtheme zoo CCK component, I add to create a new &amp;#8220;element&amp;#8221; to be print at the end of my blog post. You can download it bellow. Of course you can use it on any zoo applications (blogs, businesses, recipes &amp;#8230; and custom applications).&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-install:345b1b82bdef3219e2043f73275173d8&#34;&gt;How to install&lt;/h3&gt;
+
+&lt;p&gt;Download the archive : &lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/07/zooelement_googleplus.zip&#34;&gt;ZOOelement Googleplus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, unzip the files in your folder : &lt;em&gt;/base_installation_folder/media/zoo/elements.&lt;/em&gt; You will see a new folder named &amp;#8220;googleplus&amp;#8221;.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-setup:345b1b82bdef3219e2043f73275173d8&#34;&gt;How to setup&lt;/h3&gt;
+
+&lt;p&gt;You can configure all the options except the language. To change the language, you&amp;#8217;ll need to do it by yourself and modify your global template.&lt;/p&gt;
+
+&lt;p&gt;To add the google +1 button to a content, go to your zoo configuration panel, and select the application where you want this button to appear. Modify the elements appearing in this type of applications, and add the &amp;#8220;Google +1&amp;#8243;. The configuration is pretty transparent.&lt;/p&gt;
+
+&lt;h3 id=&#34;note:345b1b82bdef3219e2043f73275173d8&#34;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;In the case you are using this button without printing the number of +1s, I took the privilege of adding a small modification to the code, to promote my websites. One out of 10 buttons will actually be +1ing one of my websites. If you want to remove it, it&amp;#8217;s up to you, but you could also considering it as a small reward for the time I spent on it for you.&lt;/p&gt;
+
+&lt;h3 id=&#34;questions:345b1b82bdef3219e2043f73275173d8&#34;&gt;Questions&lt;/h3&gt;
+
+&lt;p&gt;Don&amp;#8217;t hesitate to post comment for precisions or bug corrections.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yootheme Zoo – Modifying the Frontend submission editor</title>
+      <link>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</link>
+      <pubDate>Wed, 16 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/03/yootheme-zoo-e28093-modifying-the-frontend-submission-editor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-1212 alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a wysiwyg editor while my users were submitting article in frontend with ZOO. Usually you can activate the &amp;#8220;trusted mode&amp;#8221; to have this wysiwyg editor. But you will also have several other fields which are too much for normal users. In order to have a wysiwyg editor, even in the non-trusted mode, here is the modification you should implement.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Here is the trick. Activate the trusted mode, but then, made a code modification to hide the &amp;#8220;administration&amp;#8221; panel in frontend. Here is the code you have to change on &lt;strong&gt;line 40&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir&lt;/em&gt;/components/com_zoo/partials/_submission.php&lt;/strong&gt;** __**&lt;/p&gt;
+
+&lt;p&gt;[cc lang=&amp;#8221;php&amp;#8221;]echo $this-&amp;gt;partial(&amp;#8216;administration&amp;#8217;);[/cc]&lt;/p&gt;
+
+&lt;p&gt;should be commented :&lt;/p&gt;
+
+&lt;p&gt;[cc lang=&amp;#8221;php&amp;#8221;]// echo $this-&amp;gt;partial(&amp;#8216;administration&amp;#8217;);[/cc]&lt;/p&gt;
+
+&lt;p&gt;[Edit] The old hack was the following&lt;span style=&#34;text-decoration: line-through;&#34;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;Here is the line you have to change on&lt;strong&gt; line 265 &lt;/strong&gt;in &lt;strong&gt;&lt;em&gt;/joomla_base_dir&lt;/em&gt;/administrator/components/com_zoo/elements/textarea/textarea.php&lt;/strong&gt;&lt;strong&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;[cc lang=&amp;#8221;php&amp;#8221;]if ($trusted_mode) {[/cc]&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;should be transformed to&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;[cc lang=&amp;#8221;php&amp;#8221;]if ($trusted_mod || !$trusted_mode) {[/cc]Or some other modification on the &amp;#8220;if&amp;#8221; instruction.That&amp;#8217;s it, you are done with the hack.&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yootheme Zoo – Modifying the number of articles on Frontpage</title>
+      <link>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</link>
+      <pubDate>Sat, 22 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;img class=&#34;alignleft&#34; alt=&#34;zoo joomla module&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; height=&#34;120&#34; /&gt;&lt;/a&gt;A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.&lt;/p&gt;
+
+&lt;p&gt;Here is the line you have to change on &lt;strong&gt;line 232&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir/components/com_zoo/controllers/default.php&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;]// get item pagination 
+$items_per_page = $params-&amp;gt;get(&#39;config.items_per_page&#39;, 15);[/cc]&lt;/pre&gt;
+
+&lt;p&gt;should be transformed to&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;]// get item pagination
+$items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_per_page&#39;, 15)[/cc]&lt;/pre&gt;
+
+&lt;h2 id=&#34;advanced-hack:f51301b9d676bc650155715a57cf9bbe&#34;&gt;Advanced hack&lt;/h2&gt;
+
+&lt;p&gt;If you want you can add a new parameter in the configuration to be able to change that number in backend. Here is the code :&lt;/p&gt;
+
+&lt;p&gt;In the file_ &lt;strong&gt;joomla_base_dir/media/zoo/applications/blog/application.xml&lt;/strong&gt;_ add the following new line at &lt;strong&gt;line 22&lt;/strong&gt; :&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;][/cc]&lt;/pre&gt;
+
+&lt;p&gt;Modify on &lt;strong&gt;line 232&lt;/strong&gt; in &lt;strong&gt;&lt;em&gt;/joomla_base_dir/components/com_zoo/controllers/default.php&lt;/em&gt;&lt;/strong&gt; , it should now read :&lt;/p&gt;
+
+&lt;pre&gt;[cc lang=&#34;php&#34;]$items_per_page = $category_id == 0 ? $params-&amp;gt;get(&#39;config.items_per_frontpage&#39;, 5) : $params-&amp;gt;get(&#39;config.items_per_page&#39;, 15);[/cc]&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How-to : Make a SEF image-map navigation system with Joomla</title>
+      <link>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
+      <pubDate>Tue, 09 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  You always wondered how to create a navigation system with an image? Nothing could be easier; just use the &lt;a title=&#34;Image Map&#34; href=&#34;http://www.w3.org/TR/REC-html40/struct/objects.html#h-13.6&#34; target=&#34;_blank&#34;&gt;image map property&lt;/a&gt; of html.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  But, obviously, it gets a little bit trickier when you have to add several links to an image. Moreovre, people are nowadays using a lot of  Content Management Systems (CMS) to help in developping websites. I personnaly use &lt;a title=&#34;Joomla - CMS&#34; href=&#34;http://www.joomla.org/&#34; target=&#34;_blank&#34;&gt;Joomla&lt;/a&gt; a lot, and this article will explain how to add an efficient Search Engine Friendly (SEF) Image Map navigation system for Joomla.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Creation of Image Map
+&lt;/h2&gt;
+
+&lt;p&gt;In order to easily create image maps with Joomla, I installed a plugin for TinyMCE. You can find it on it&amp;#8217;s &lt;a title=&#34;Image Map&#34; href=&#34;http://code.google.com/p/imgmap/&#34; target=&#34;_blank&#34;&gt;google project&amp;#8217;s page&lt;/a&gt; a version for :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a title=&#34;Plugin Image Map for Tiny MCE&#34; href=&#34;http://code.google.com/p/imgmap/wiki/Joomla_setup&#34; target=&#34;_blank&#34;&gt;Tiny MCE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title=&#34;Plugin Image Map for FCK&#34; href=&#34;http://code.google.com/p/imgmap/wiki/FCKEditor_setup&#34; target=&#34;_blank&#34;&gt;FCK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to use it, just follow their instructions for installation, and, when you edit an image, click on the new button that has been created. It will open the imagemap plugin.&lt;/p&gt;
+
+&lt;h2 id=&#34;creation-of-a-menu-system:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Creation of a menu system&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &lt;img class=&#34;alignleft size-full wp-image-1023&#34; style=&#34;margin: 0px 20px;&#34; title=&#34;content-management-system-joomla-free&#34; src=&#34;http://localhost:1313/images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; height=&#34;171&#34; /&gt;In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&amp;#8217;s menu system. If you need to create two links for the same item, use an &amp;#8220;&lt;strong&gt;alias&lt;/strong&gt;&amp;#8221; for the second one, in order to &lt;strong&gt;prevent duplicate URLs&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  You could have avoided this menu creation if you don&amp;#8217;t care about Search Engine Optimization (SEO), but my recommandation would be to follow the following steps.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  This trick (of always using Joomla&amp;#8217;s menu system) will allow you to publish &lt;strong&gt;coherent and working breadcrumbs&lt;/strong&gt;. You won&amp;#8217;t have the famous &lt;a title=&#34;Joomla Breadcrumbs and Categories&#34; href=&#34;http://forum.joomla.org/viewtopic.php?f=47&amp;t=372518&#34; target=&#34;_blank&#34;&gt;menu vs category dilemma&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Creation of links from article to Joomla content
+&lt;/h2&gt;
+
+&lt;p&gt;The creation of SEF links with google when the SEF option is activited is not always obvious. The first trick that came in mind is to use the research tool, or to copy a link from a menu. But these options fails if our navigation system is an image and not a menu. If you unpublish the menu, the link won&amp;#8217;t appear. If you change an alias for a menu-item you will loose the link you put in your article.&lt;/p&gt;
+
+&lt;p&gt;The only solution is to put a link which is not SEF. So you could unable the SEF option, copy/paste a link and activate the SEF option again. But it&amp;#8217;s quite annoying for a hundreds of links isn&amp;#8217;t it? So, we will use a famous plugin for that. This plugin allow you to create a link to articles in your Joomla! site when you are creating content. This plugin is called &lt;a title=&#34;LinkR&#34; href=&#34;http://extensions.joomla.org/extensions/structure-a-navigation/site-links/4010&#34; target=&#34;_blank&#34;&gt;LinkR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use it : after the installation, when editing your article, you&amp;#8217;ll see a new button bellow your article (&lt;a title=&#34;Demo of LinkR&#34; href=&#34;http://j.l33p.com/linkr/demo&#34; target=&#34;_blank&#34;&gt;click for a demo&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;&lt;strong&gt;IMPORTANT :&lt;/strong&gt;&lt;/span&gt; In order to use the trick of &amp;#8220;menu system&amp;#8221;, when you create a link with LinkR, don&amp;#8217;t select an artcile (by clicking on &amp;#8220;Article&amp;#8221;) , but instead, the menu item you created (by clicking on &amp;#8220;Menu&amp;#8221;), and which is linked to the article.&lt;/p&gt;
+
+&lt;h2 id=&#34;make-everything-working-smoothly:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Make everything working smoothly&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  So, you have everything installed and tested? Right, let&amp;#8217;s go for the creation process!
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First, create your page with the image which will be your navigation system. Make a link from the menu, in order for it to be accessible.&lt;/li&gt;
+&lt;li&gt;Second, create your content, and for each page, a link from the menu. It could be an hidden menu, so your visitors will only see the navigation image (in my case I put everything on the main menu, but the template doesn&amp;#8217;t show more than one sub-menu hierarchy). But, when you create your content, &lt;strong&gt;be careful&lt;/strong&gt; and use the &amp;#8220;child property&amp;#8221;, to get SEF URLs like &amp;#8220;&lt;em&gt;&lt;a href=&#34;http://www.mysite.com/parent-menu/parent2/item&#34;&gt;http://www.mysite.com/parent-menu/parent2/item&lt;/a&gt;&lt;/em&gt;&amp;#8220;.&lt;/li&gt;
+&lt;li&gt;Third, come back to your article with the image, and create (temporary) text links to your content, by using LinkR, and pointing to the menu items, and not the article items. Copy the URL that has been created. It should look like : &lt;em&gt;index.php?option=com_content&amp;amp;view=article&amp;amp;id=23&amp;amp;Itemid=30&lt;/em&gt; and nothing else.&lt;/li&gt;
+&lt;li&gt;Edit your image, create your links map, and for the link, use the URL you just copied from the (temporary) text links.&lt;/li&gt;
+&lt;li&gt;Finally you can choose to keep the text links or to remove it. I choosed to keep them to help my visitors who can&amp;#8217;t see images. And it&amp;#8217;s a safety measure in the case your image won&amp;#8217;t show up.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;enjoy:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Enjoy&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#8217;s done. You can check that your image maps to SEF Url, that the links are going to your articles (specified by the menu), and that, if you change the menu link alias, the URL of your article will change coherently.&lt;/p&gt;
+
+&lt;p&gt;Moreover you can use breadcrumbs &lt;img src=&#34;http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; class=&#34;wp-smiley&#34; /&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;strong&gt;A demo on one of my website : &lt;a title=&#34;Liste de spots en Corse : Corsica Windsurf&#34; href=&#34;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&#34; target=&#34;_blank&#34;&gt;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&lt;/a&gt;&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Don&amp;#8217;t hesitate to comment to ask precisions.&lt;/p&gt;
+
+&lt;p&gt;In addition you can use a very powerful extension, but probably not easy to use for a large amount of links : &lt;a title=&#34;HTMLMap Manager&#34; href=&#34;http://extensions.joomla.org/extensions/style-a-design/design/7332&#34; target=&#34;_blank&#34;&gt;HTMLMap manager&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How-to fix Ja_News module’s auto-resize problem?</title>
+      <link>http://localhost:1313/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</link>
+      <pubDate>Mon, 02 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</guid>
+      <description>&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  &lt;img style=&#34;margin: 20px; float: left;&#34; src=&#34;http://www.joomlart.com/templates/default/images/logo.gif&#34; alt=&#34;Joomlart&#34; width=&#34;200&#34; /&gt;The problem
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  During a long time I encountered this problem using the Joomla&amp;#8217;s module JA_News. When I wanted to use the auto-resize functionality, a problem line appeared preventing me to use it in frontend. The warning said :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify; padding-left: 30px;&#34;&gt;
+  &lt;strong&gt;Warning&lt;/strong&gt;: imagejpeg() [function.imagejpeg]: Unable to open &amp;#8216;www/images/resized/images/stories/path_to_image/image.jpg&amp;#8217; for writing: No such file or directory in &lt;strong&gt;www/modules/mod_janews/helper.php&lt;/strong&gt; on line &lt;strong&gt;138&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Depending on your Janews module, the line in helper could be different.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I searched across many forums without any concrete solutions. The only facts which came again and again were related to permissions (put your image folder in 777 and image files in 666) but it didn&amp;#8217;t change anything in my case.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I finally found a &lt;a title=&#34;Joomla News problem&#34; href=&#34;http://www.joomlart.com/forums/showthread.php?t=14923&#34; target=&#34;_blank&#34;&gt;post on the Joomlart forum&lt;/a&gt; saying that the problem was &lt;strong&gt;&lt;em&gt;case sensitive&lt;/em&gt;&lt;/strong&gt;. So the fix for the problem was easy.
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  How to fix it?
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  In order to fix the module, just search through your file &lt;strong&gt;/modules/mod_janews/helper.php&lt;/strong&gt; and look for a line looking like :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;code lang=&#34;php&#34;&gt;$rzname = strtolower(substr($image, 0, strpos($image,&#39;.&#39;))).&#34;_{$tn_width}_{$tn_height}.{$ext}&#34;; // get the file extension&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  In order to fix the problem, you just have to remove the &lt;strong&gt;strtolower&lt;/strong&gt; function. It has no use there and prevent the function to work properly. Your new line should look like :
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;code lang=&#34;php&#34;&gt;$rzname = (substr($image, 0, strpos($image,&#39;.&#39;))).&#34;_{$tn_width}_{$tn_height}.{$ext}&#34;; // Jice fixed version&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  If you have time, don&amp;#8217;t forget to signal the bug to Joomla Art, I didn&amp;#8217;t have time to do it, but it can help future users.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Personnaliser ses pages d’erreurs sous Joomla</title>
+      <link>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</link>
+      <pubDate>Sun, 31 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/08/personnaliser-ses-pages-derreurs-sous-joomla/</guid>
+      <description>
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous possédez un site sous &lt;strong&gt;Joomla&lt;/strong&gt;, vous vouliez faire des &lt;strong&gt;pages d&amp;#8217;erreur 404 personnalisées&lt;/strong&gt;? Malheureusement, la mise en place des &lt;strong&gt;URLs SEF&lt;/strong&gt; sous Joomla vous empêche de le faire.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  En effet, toutes les URLs sont redirigées vers le module de SEF de Joomla qui traite lui même les adresses URL demandées. Du coup, impossible de traiter cette fameuse page 404. Il existe pourtant une solution.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;customiser-le-fichier-error-php:557dee83bad01ab8ba3da9f921373356&#34;&gt;Customiser le fichier error.php&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Dans Joomla 1.5 l&amp;#8217;affichage des messages d&amp;#8217;erreurs se fait grâce au fichier &lt;strong&gt;error.php&lt;/strong&gt; présent dans &lt;em&gt;racine/templates/system&lt;/em&gt;. Pour le customiser, copier ce fichier dans le répertoire de votre template actuel. Faites-y les modifications que vous voulez, et le tour est joué.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &amp;#8230;
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Ce fut bref comme tuto non? Bon, ok, je vais jusqu&amp;#8217;au bout.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;h3&gt;
+    Adapter Joomla, l&amp;#8217;Erreur 404 et le script Google :
+  &lt;/h3&gt;
+  
+  &lt;p align=&#34;justify&#34;&gt;
+    Dans son site d&amp;#8217;aide aux webmasters, google fournit un script pour renvoyer si possible au visiteur une page la plus proche de celle recherchée. Pour l&amp;#8217;utiliser, rien de plus simple, il suffit de créer une page, et d&amp;#8217;y insérer le code html. Le script récupérera l&amp;#8217;adresse URL demandé, et fera (je suppose) une recherche dans la base de donnée Google pour voir quelle URL est la plus proche.
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;
+    On aurait pu créer un article Joomla dans lequel serait indiqué à l&amp;#8217;utilisateur qu&amp;#8217;il tombe sur une erreur 404, et mettre à la suite le script. Dans le fichier error.php personnalisé nous aurions mis dans les premières lignes :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    &amp;lt;?php&lt;br /&gt; if ($this-&amp;gt;error-&amp;gt;code = &amp;#8216;404&amp;#8217;) {&lt;br /&gt; header(&amp;#8220;HTTP/1.0 404 Not Found&amp;#8221;);&lt;br /&gt; header(&amp;#8216;Location: &lt;a href=&#34;http://www.mon_site.fr/index.php?option=com_content&amp;amp;view=article&amp;amp;id=16&amp;amp;Itemid=14&amp;amp;#8242;&#34;&gt;http://www.mon_site.fr/index.php?option=com_content&amp;amp;view=article&amp;amp;id=16&amp;amp;Itemid=14&amp;amp;#8242;&lt;/a&gt;); //adresse de l&amp;#8217;article 404 sous joomla&lt;br /&gt; exit;&lt;br /&gt; }&lt;br /&gt; ?&amp;gt;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Mais le problème vient du fonctionnement du script. Celui-ci regarde l&amp;#8217;URL donnée en entrée. Et là, il y voit l&amp;#8217;adresse de la page d&amp;#8217;erreur &lt;img title=&#34;Undecided&#34; src=&#34;plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif&#34; border=&#34;0&#34; alt=&#34;Undecided&#34; /&gt;.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Voilà la solution : juste après
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    defined( &amp;#8216;_JEXEC&amp;#8217; ) or die( &amp;#8216;Restricted access&amp;#8217; );
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    J&amp;#8217;ai mis les lignes suivantes (et j&amp;#8217;ai laissé le reste du fichier error.php inchangé par rapport à celui d&amp;#8217;origine) :
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    if ($this-&amp;gt;error-&amp;gt;code = &amp;#8216;404&amp;#8217;) {&lt;br /&gt; header(&amp;#8220;HTTP/1.0 404 Not Found&amp;#8221;);&lt;br /&gt; $url=&amp;#8221;&lt;a href=&#34;http://www.mon-site.fr/index.php?option=com_content&amp;amp;view=article&amp;amp;id=16&amp;amp;Itemid=14&amp;amp;#8243;&#34;&gt;http://www.mon-site.fr/index.php?option=com_content&amp;amp;view=article&amp;amp;id=16&amp;amp;Itemid=14&amp;amp;#8243;&lt;/a&gt;; //adresse article 404&lt;br /&gt; $result= file_get_contents($url);&lt;br /&gt; echo $result;
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    exit;&lt;br /&gt; }
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Le script prend alors bien en compte l&amp;#8217;URL demandée par le visiteur.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Par contre, &lt;strong&gt;j&amp;#8217;aurais besoin de vos commentaires&lt;/strong&gt; : je n&amp;#8217;ai pas l&amp;#8217;impression que ce script google marche très bien. Est-ce le cas pour vous? Sur joomla ou non?
+  &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Corriger le comportement du composant SEF sur Joomla 1.5 (OVH)</title>
+      <link>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</link>
+      <pubDate>Sun, 24 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</guid>
+      <description>
+
+&lt;p&gt;Cet article fait suite à un problème rencontré de manière récurrente par les utilisateurs de Joomla 1.5  et hébérgés sur OVH (mais aussi probablement sur d&amp;#8217;autres hébergeurs). Deux problèmes sont traités dans ce billet.&lt;/p&gt;
+
+&lt;h3 id=&#34;problème-d-8217-affichage:b4317de1f61d78b90bdf12d73cfbde5c&#34;&gt;Problème d&amp;#8217;affichage :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous possédez un site hébergé sur un serveur mutualisé avec certaines règles dans Apache qui vous empêche d&amp;#8217;utiliser correctement l&amp;#8217;&lt;strong&gt;URL Rewriting de Joomla 1.5&lt;/strong&gt;? Chez moi ce fut le cas. Le texte et le contenu était présent, mais les images de mon template ainsi que mes css n&amp;#8217;étaient pas trouvés (erreur 404) et je me retrouvais avec une mise en page horrible. Pour régler le problème, il faut fixer un petit bug inhérent à Joomla.
+&lt;/p&gt;
+
+&lt;p&gt;Editez le fichier &lt;em&gt;/include/application.php&lt;/em&gt; à la ligne 108 et remplacez :&lt;/p&gt;
+
+&lt;pre lang=&#34;bash&#34;&gt;$document-&amp;gt;setBase(JURI::current());&lt;/pre&gt;
+
+&lt;p&gt;par&lt;/p&gt;
+
+&lt;pre&gt;$document-&amp;gt;setBase(JURI::base());&lt;/pre&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  A la suite de cela, il faut aussi vérifier le fichier &lt;em&gt;configuration.php&lt;/em&gt;, à la racine de votre site, pour qu&amp;#8217;il contienne  la bonne information sur votre adresse de base. Renseignez la variable $live_site à la ligne 19 avec l&amp;#8217;adresse de base de votre site (pour ma part &lt;a href=&#34;http://jice.lavocat.name&#34; target=&#34;_blank&#34;&gt;http://jice.lavocat.name&lt;/a&gt;). Normalement tout redevient dans l&amp;#8217;ordre. Sinon, postez un commentaire.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;h3&gt;
+    Problème de duplicate content et d&amp;#8217;urls non maitrisées:
+  &lt;/h3&gt;
+  
+  &lt;p align=&#34;justify&#34;&gt;
+    Un autre problème peut survenir si vous êtes hébergés par exemple sur un serveur mutualisé OVH. Comme Joomla ne sais pas sur quelle version de php il tourne, il rajoute dans la première page appelé de votre site, des bouts d&amp;#8217;URL très moches. Par exemple, mon site possédait des URL rewrités sous la forme : mapage?d6002d3c23a7b32546bd03e1985537da=584db87785da0f3151aff0a3b3a&amp;#8230;
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;
+    Le gros problème vient du fait que google va donc indexer cette URL. Un plus gros problème encore, est que ces URL sont différentes à chaque accès. En utilisant &lt;a href=&#34;http://www.crawltrack.fr/&#34; target=&#34;_blank&#34;&gt;Crawltrack&lt;/a&gt; je me suis rendu compte que &lt;a href=&#34;http://www.google.com/support/webmasters/bin/answer.py?answer=70897&amp;cbid=-8z25jad68u5g&amp;src=cb&amp;lev=topic&#34; target=&#34;_blank&#34;&gt;googlebot&lt;/a&gt; accédait à ma page plus de 25 000 dans la même journée. Outre une saturation de mon serveur, cela induit forcément du &lt;a href=&#34;http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=66359&#34; target=&#34;_blank&#34;&gt;duplicate content&lt;/a&gt; de mon site web. Ainsi, il serait désindexé très rapidement.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;
+    La solution? Essayer de régler ce problème. Suite à une longue recherche infructueuse, je vous livre la solution trouvée au hasard sur un forum de Joomla. Il faut que vous rajoutiez une petite ligne à votre .htaccess à la base de votre site web.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;SetEnv PHP_VER 5&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Normalement le problème est réglé. Vérifier que vos URL sont jolies sur ce site web : &lt;a href=&#34;http://www.rankquest.com/tools/Link-Explorer.php&#34; target=&#34;_blank&#34;&gt;RankQuest&lt;/a&gt;
+  &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

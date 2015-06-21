@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Negative SEO (et failles XSS) &middot;  Jice is Nice" />
+  	<meta property="og:site_name" content="Jice is Nice" />
+  	<meta property="og:url" content="http://localhost:1313/2009/03/negative-seo-et-failles-xss/" />
+    
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2009-03-11T00:00:00Z" />
+
+    
+    <meta property="og:article:tag" content="SEO" />
+    
+    
+
+  <title>
+     Negative SEO (et failles XSS) &middot;  Jice is Nice
+  </title>
+
+    <meta name="description" content="French/English essays about our Digital World, about Nature and Mind" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Jice is Nice" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.14" />
+
+    <link rel="canonical" href="http://localhost:1313/2009/03/negative-seo-et-failles-xss/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-3492655-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">My Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">About me</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://localhost:1313/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.png" alt="Home" /></a><a class="blog-logo" href="http://localhost:1313/"><div style="padding-left: 7px;text-align: left; color: #000;">Jice is Nice (Home)</div></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Negative SEO (et failles XSS)</h1>
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2009-03-11T00:00:00Z">
+            Mar 11, 2009
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/seo/">#SEO</a></span>
+         
+        </section>
+    </header>
+  
+    <section class="post-content">
+      
+
+<p style="text-align: justify;">
+  <img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Spammeur SEO" src="/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" />Ca buzz beaucoup en ce moment sur les sites SEO français autour de la boite de Pandore nommée &#8220;Negative seo&#8221;. En français on pourrait simplement dire &#8220;déréférencement&#8221;. Il s&#8217;agit d&#8217;employer des méthodes qui sont toujours (car ce n&#8217;est pas bien) hors la loi pour déclasser un concurrent sur ses requêtes Google.
+</p>
+
+<p>Dans ce post je vous propose une méthode à tester (ceux qui ont du temps peuvent le faire, et leur commentaires seront les bienvenues) concernant ce fameux negative seo.</p>
+
+<h2 id="les-différentes-techniques-connues:3a7aaef4da0040a511ccdc90972f2c99">Les différentes techniques connues</h2>
+
+<p style="text-align: justify;">
+  Rappelons ce qui peut nuire à un référencement :
+</p>
+
+<blockquote>
+<p>Find out if a site buys links and then report them.</p>
+
+<p>File a complaint with G/Y!/MSN saying a site is stealing copyrighted material. Name the page and the engine has to remove the page for 10 days.</p>
+
+<p>Send a ton of spam links with questionable anchor (buy viagra, etc) to your competitors site.</p>
+
+<p>Black social bookmarking.</p>
+
+<p>Hijack the content of your competitors site and publish it as your own on a shady site (which you would presumably buy/already own).</p>
+
+<p>Create a blog about how shady/shitty the site is, promote the hell out of it, outrank them for their main keyword phrase.</p>
+
+<p>301 a bad site (porn, gambling etc) to your competitors site.</p>
+
+<p>Pose as a disgruntled employee and talk shit.</p>
+
+<p>(source : <a title="Google bowling" href="http://www.blackhatworld.com/blackhat-seo/black-hat-seo/57800-google-bowling-2009-a.html#post558546" target="_blank"><a href="http://www.blackhatworld.com/blackhat-seo">http://www.blackhatworld.com/blackhat-seo</a></a>)</p>
+</blockquote>
+
+<p style="text-align: justify;">
+  Pour les non français, je vous recommande les site d&#8217;OSEOX, Pagasa, Discodog et Dievotchka qui en ont récemment parlé. Si j&#8217;ai l&#8217;envie ou des commentaires qui me le demande je compléterai ce post plus tard.
+</p>
+
+<p><br class="spacer_" /></p>
+
+<h2 id="les-failles-xss:3a7aaef4da0040a511ccdc90972f2c99">Les failles XSS :</h2>
+
+<p style="text-align: justify;">
+  La plupart des référenceurs plus ou moins Black Hat connaissent les failles XSS. Celles-ci permettent d&#8217;injecter du code malicieux dans un script cgi mal corrigé par exemple. Le site refpowa n&#8217;en a pas bénéficier, à part pour ce court exemple (une <a title="Une page sérieuse qui parle de refpowa... étrange" rel="nofollow" href="http://www.crisco.unicaen.fr/cgi-bin/trouvebis2?requete=Perdre%20du%20poids,%20gagner%20du%20%3Ca+href%3D%22http%3A%2F%2Fwww.le-refpowa.fr%22%3ERefpowa%3C%2Fa%3E%3C%2Fp%3E&refer=%23&proc=1739_30610b" target="_blank">démo de XSS sur le refpowa</a> : corrigé après alerte au webmaster concerné). Pour en savoir plus, je vous conseille l&#8217;article de <a title="Black Hat et Failles XSS pour le spam" href="http://www.seoblackout.com/2007/07/22/obtenir-liens-sites-edu-gov/" target="_blank">SBH sur les failles XSS</a>.
+</p>
+
+<p style="text-align: justify;">
+  Une autre page sur le <a title="Search for refpowa" href="http://feedmelinks.com/search?q=&quot;</td></tr></table><h1>Perdez du poids, gagner du <a href=http://www.le-refpowa.fr>Refpowa<%2Fa></h1><table><tr><td>&x=0&y=0&search_only=links" target="_blank">refpowa</a> (n&#8217;oubliez pas de toujours bien sécuriser les scripts que vous mettez en ligne).
+</p>
+
+<p><br class="spacer_" /></p>
+
+<h2 id="l-8217-idée-utiliser-les-failles-xss-pour-la-negtive-seo:3a7aaef4da0040a511ccdc90972f2c99">L&#8217;idée : utiliser les failles XSS pour la negtive seo :</h2>
+
+<p style="text-align: justify;">
+  Plus c&#8217;est crade plus ça passe. Alors pourquoi, au lien de mettre un pauvre lien vers votre site web, ne pas mettre des tonnes de liens avec des ancres porno/viagra/poker, vers le site de votre concurrent? Pourquoi ne pas injecter des redirections JS (plus c&#8217;est crade plus ça marche) vers le site de votre concurrent? Bref, tout ce que vous trouvez en techniques que vous ne pratiquiez qu&#8217;au début avant de voir que ça ne vous permettait que d&#8217;obtenir des pénalités est utilisable.
+</p>
+
+<p style="text-align: justify;">
+  Une fois que vous avec collecté une bonne liste de sales failles et liens associés, ne la laissez pas sur un serveur à vous, au risque de vous faire reconnaitre. Utilisez des <a title="Refpowa" href="http://jump.to/www.le-refpowa.fr" target="_blank">jump.to</a>, des <a title="Refpowa" href="http://miniurl.org/1Ok" target="_blank">miniurl</a> et autres choses pour les cacher et faites les manger à google par une technique à venir (si vous avez des propoosition pour faire manger google d&#8217;un fichier de liens sales, sans vous impliquer, je suis preneur).
+</p>
+
+<p><br class="spacer_" /></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="http://localhost:1313/" style="background-image: url(http://localhost:1313/images/logo.png)"><span class="hidden">Jean-Christophe Lavocat's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://localhost:1313/">Jean-Christophe Lavocat</a></h4>
+  
+  <p>World citizen, often found in France, loving Nature, Music and Startups</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Toulon, France</span>
+    <span class="author-link icon-link"><a href="http://jice.lavocat.name">http://jice.lavocat.name</a></span>
+  </div>
+</section>
+
+
+
+    
+    <section class="share">
+      <h4>Share this post</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Negative%20SEO%20%28et%20failles%20XSS%29&amp;url=http%3a%2f%2flocalhost%3a1313%2f2009%2f03%2fnegative-seo-et-failles-xss%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f2009%2f03%2fnegative-seo-et-failles-xss%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2f2009%2f03%2fnegative-seo-et-failles-xss%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span>
+      </a>
+    </section>
+    
+
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'jicelavocat';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Jice is Nice</a> All rights reserved - 2015</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/index.js"></script>
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+

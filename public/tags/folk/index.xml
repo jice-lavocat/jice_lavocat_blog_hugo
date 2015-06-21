@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Folk on Jice is Nice</title>
+    <link>http://localhost:1313/tags/folk/</link>
+    <description>Recent content in Folk on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Fri, 22 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/folk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Folk Russe</title>
+      <link>http://localhost:1313/2010/01/folk-russe/</link>
+      <pubDate>Fri, 22 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2010/01/folk-russe/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

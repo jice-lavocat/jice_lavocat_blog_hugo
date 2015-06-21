@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Htaccess on Jice is Nice</title>
+    <link>http://localhost:1313/tags/htaccess/</link>
+    <description>Recent content in Htaccess on Jice is Nice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sun, 24 Aug 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/htaccess/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Corriger le comportement du composant SEF sur Joomla 1.5 (OVH)</title>
+      <link>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</link>
+      <pubDate>Sun, 24 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</guid>
+      <description>
+
+&lt;p&gt;Cet article fait suite à un problème rencontré de manière récurrente par les utilisateurs de Joomla 1.5  et hébérgés sur OVH (mais aussi probablement sur d&amp;#8217;autres hébergeurs). Deux problèmes sont traités dans ce billet.&lt;/p&gt;
+
+&lt;h3 id=&#34;problème-d-8217-affichage:b4317de1f61d78b90bdf12d73cfbde5c&#34;&gt;Problème d&amp;#8217;affichage :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous possédez un site hébergé sur un serveur mutualisé avec certaines règles dans Apache qui vous empêche d&amp;#8217;utiliser correctement l&amp;#8217;&lt;strong&gt;URL Rewriting de Joomla 1.5&lt;/strong&gt;? Chez moi ce fut le cas. Le texte et le contenu était présent, mais les images de mon template ainsi que mes css n&amp;#8217;étaient pas trouvés (erreur 404) et je me retrouvais avec une mise en page horrible. Pour régler le problème, il faut fixer un petit bug inhérent à Joomla.
+&lt;/p&gt;
+
+&lt;p&gt;Editez le fichier &lt;em&gt;/include/application.php&lt;/em&gt; à la ligne 108 et remplacez :&lt;/p&gt;
+
+&lt;pre lang=&#34;bash&#34;&gt;$document-&amp;gt;setBase(JURI::current());&lt;/pre&gt;
+
+&lt;p&gt;par&lt;/p&gt;
+
+&lt;pre&gt;$document-&amp;gt;setBase(JURI::base());&lt;/pre&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  A la suite de cela, il faut aussi vérifier le fichier &lt;em&gt;configuration.php&lt;/em&gt;, à la racine de votre site, pour qu&amp;#8217;il contienne  la bonne information sur votre adresse de base. Renseignez la variable $live_site à la ligne 19 avec l&amp;#8217;adresse de base de votre site (pour ma part &lt;a href=&#34;http://jice.lavocat.name&#34; target=&#34;_blank&#34;&gt;http://jice.lavocat.name&lt;/a&gt;). Normalement tout redevient dans l&amp;#8217;ordre. Sinon, postez un commentaire.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;h3&gt;
+    Problème de duplicate content et d&amp;#8217;urls non maitrisées:
+  &lt;/h3&gt;
+  
+  &lt;p align=&#34;justify&#34;&gt;
+    Un autre problème peut survenir si vous êtes hébergés par exemple sur un serveur mutualisé OVH. Comme Joomla ne sais pas sur quelle version de php il tourne, il rajoute dans la première page appelé de votre site, des bouts d&amp;#8217;URL très moches. Par exemple, mon site possédait des URL rewrités sous la forme : mapage?d6002d3c23a7b32546bd03e1985537da=584db87785da0f3151aff0a3b3a&amp;#8230;
+  &lt;/p&gt;
+  
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;
+    Le gros problème vient du fait que google va donc indexer cette URL. Un plus gros problème encore, est que ces URL sont différentes à chaque accès. En utilisant &lt;a href=&#34;http://www.crawltrack.fr/&#34; target=&#34;_blank&#34;&gt;Crawltrack&lt;/a&gt; je me suis rendu compte que &lt;a href=&#34;http://www.google.com/support/webmasters/bin/answer.py?answer=70897&amp;cbid=-8z25jad68u5g&amp;src=cb&amp;lev=topic&#34; target=&#34;_blank&#34;&gt;googlebot&lt;/a&gt; accédait à ma page plus de 25 000 dans la même journée. Outre une saturation de mon serveur, cela induit forcément du &lt;a href=&#34;http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=66359&#34; target=&#34;_blank&#34;&gt;duplicate content&lt;/a&gt; de mon site web. Ainsi, il serait désindexé très rapidement.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;
+    La solution? Essayer de régler ce problème. Suite à une longue recherche infructueuse, je vous livre la solution trouvée au hasard sur un forum de Joomla. Il faut que vous rajoutiez une petite ligne à votre .htaccess à la base de votre site web.
+  &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;SetEnv PHP_VER 5&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Normalement le problème est réglé. Vérifier que vos URL sont jolies sur ce site web : &lt;a href=&#34;http://www.rankquest.com/tools/Link-Explorer.php&#34; target=&#34;_blank&#34;&gt;RankQuest&lt;/a&gt;
+  &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Générer des pages html dynamiques (changer l’extension php)</title>
+      <link>http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</link>
+      <pubDate>Wed, 23 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</guid>
+      <description>
+
+&lt;h3 id=&#34;le-principe:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;Le principe :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous avez des pages html tout ce qu&amp;#8217;il y a de plus statiques. Vous voulez y intégrer du php pour je ne sais quelle raison. Il faut donc se débrouiller pour demander à votre serveur d&amp;#8217;interpréter les pages .htm ou .html comme du php. Pour cela, si vous êtes administrateur, ce n&amp;#8217;est pas trop difficile, ça passe par la &lt;a href=&#34;../../index.php?view=article&amp;catid=43%3Aos-a-hardware&amp;id=90%3Aconfigurer-son-apache2&amp;option=com_content&amp;Itemid=63&amp;lang=fr&#34;&gt;configuration d&amp;#8217;apache&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Si vous n&amp;#8217;êtes pas l&amp;#8217;administrateur de votre système vous devrez ruser, et utiliser à bon escient votre .htaccess.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;application:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;Application :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous devez vous occuper d&amp;#8217;un gros site, sur lequel on a tout codé au début en html. Les pages sont déjà très bien indexées, mais vous voulez en savoir plus sur vos visiteurs. Comme vous ne maitriser pas le serveur, et que l&amp;#8217;on vous a interdit le mod_rewrite, vous ne pouvez pas faire d&amp;#8217;url rewriting, et donc pas de redirections 301 vers des pages php. La solutions? Transformer les pages html en pages dynamiques.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Une fois que c&amp;#8217;est fais vous pourrez ajouter votre script php sur les pages, et tout cela juste avec le .htaccess et un peu de travail.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;la-technique:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;La technique :&lt;/h3&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Il existe, pour votre serveur, deux moyens d&amp;#8217;appeler php : en tant que module ou en tant que script CGI. Pour le vérifier, créer une page info.php qui contient uniquement le code :
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;em&gt;&lt;?php&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;em&gt;phpinfo();&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;em&gt;?&gt;&lt;/em&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Cela vous permettra de voir comment tourne le php chez vous à la ligne : &lt;strong&gt;SERVER API&lt;/strong&gt;. Si vous avez comme résultat &amp;#8220;Server API Apache 2.0 Handler&amp;#8221; alors le php tourne comme un module et ça sera simple. Sinon, vous avez le résultat &amp;#8220;Server API CGI&amp;#8221; et là, ça sera un peu plus complexe.
+&lt;/p&gt;
+
+&lt;h4 id=&#34;module:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;Module&lt;/h4&gt;
+
+&lt;p&gt;Créer un .htaccess à la racine de votre répertoire web que vous remplirez de la façon suivante :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;_AddType application/x-httpd-php .html .htm .php&lt;/p&gt;
+
+&lt;p&gt;AddHandler x-httpd-php .html_&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si cela ne marche pas, regardez les liens ci-dessous (les ressources).&lt;/p&gt;
+
+&lt;h4 id=&#34;cgi:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;CGI&lt;/h4&gt;
+
+&lt;p&gt;Il faut tout d&amp;#8217;abord savoir où est installer le module php. Créez un fichier test.php que vous remplirez de la sorte :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;lt;?php&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;_echo &amp;#8220;&lt;br /&gt;&lt;br /&gt;Whereis php? &lt;br /&gt;&amp;#8221;;&lt;/p&gt;
+
+&lt;p&gt;$last_line = system(&amp;#8216;which php&amp;#8217;, $retval);&lt;/p&gt;
+
+&lt;p&gt;echo $last&lt;em&gt;line;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;?&amp;gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Le résultat obtenu dépendra du serveur. Pour ma part, j&amp;#8217;ai :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;php: /usr/local/bin/php /usr/local/man/man1/php.1.gz php: /usr/local/bin/php /usr/local/man/man1/php.1.gz&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ainsi, je repère que le php de base est installé à /usr/local/bin/php. Je mets cette information de côté.&lt;/p&gt;
+
+&lt;p&gt;Maintenant je crée un fichier .htaccess que je rempli de la façon suivante :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;_Options +ExecCGI +Includes&lt;/p&gt;
+
+&lt;p&gt;AddHandler server-parsed htm&lt;/p&gt;
+
+&lt;p&gt;AddHandler cgi-script .htm_&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Vous pouvez aussi remplacer l&amp;#8217;extension &lt;em&gt;htm &lt;/em&gt;par ce que vous voulez. Votre site sera un peu &amp;#8220;customisé&amp;#8221;.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  A partir de maintenant, le serveur ne vois plus vos pages comme des documents, mais comme des programmes, il va devoir les exécuter. Il faut donc vous assurez que celles-ci soit exécutables (et pas seulement &amp;#8220;lisibles&amp;#8221;). Ouvrez un shell, et tapez :
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;em&gt;chmod -R +x *.htm&lt;/em&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Les fichiers .htm sont maintenant autorisés à être exécutés. Il ne reste plus qu&amp;#8217;une étape.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Ajouter, en début de chacun de vos fichiers .htm la ligne suivante :
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p align=&#34;justify&#34;&gt;
+  &lt;em&gt;#!/usr/local/bin/php (rappelez-vous, je l&amp;#8217;ai eu ci-dessus avec le fichier test.php)&lt;/em&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Le retour à la ligne entre le code et votre page web est INDISPENSABLE. Vos obtiendrez une grosse erreur 500 sinon.
+&lt;/p&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+  Voilà, normalement c&amp;#8217;est bon, vos pages .htm sont lisibles par le CGI php. Vous obtenez donc des pages htm dynamiques.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;les-ressources:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;Les ressources :&lt;/h3&gt;
+
+&lt;p&gt;Si jamais tout cela ne marche pas, survolez les forums du net. Essayez entre autres :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.webmasterworld.com/forum88/603.htm&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.webmasterworld.com/forum88/603.htm&#34;&gt;http://www.webmasterworld.com/forum88/603.htm&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.modwest.com/help/kb5-1.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.modwest.com/help/kb5-1.html&#34;&gt;http://www.modwest.com/help/kb5-1.html&lt;/a&gt; &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

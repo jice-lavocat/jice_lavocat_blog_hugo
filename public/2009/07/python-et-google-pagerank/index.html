@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Python et Google PageRank &middot;  Jice is Nice" />
+  	<meta property="og:site_name" content="Jice is Nice" />
+  	<meta property="og:url" content="http://localhost:1313/2009/07/python-et-google-pagerank/" />
+    
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2009-07-02T00:00:00Z" />
+
+    
+    <meta property="og:article:tag" content="Google" />
+    
+    <meta property="og:article:tag" content="Pagerank" />
+    
+    <meta property="og:article:tag" content="python" />
+    
+    
+
+  <title>
+     Python et Google PageRank &middot;  Jice is Nice
+  </title>
+
+    <meta name="description" content="French/English essays about our Digital World, about Nature and Mind" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Jice is Nice" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.14" />
+
+    <link rel="canonical" href="http://localhost:1313/2009/07/python-et-google-pagerank/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-3492655-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">My Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">About me</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://localhost:1313/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head" style="background-image: url(http://localhost:1313/[/images/posts/oldwordpress/uploads/2009/06/python.png])">
+  <nav class="main-nav overlay clearfix">
+
+
+  
+      <a class="blog-logo" href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.png" alt="Home" /></a><a class="blog-logo" href="http://localhost:1313/"><div style="padding-left: 7px;text-align: left; color: #000;">Jice is Nice (Home)</div></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Python et Google PageRank</h1>
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2009-07-02T00:00:00Z">
+            Jul 2, 2009
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/google/">#Google</a></span>
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/pagerank/">#Pagerank</a></span>
+         
+          <span class="post-tag small"><a href="http://localhost:1313/tags/python/">#python</a></span>
+         
+        </section>
+    </header>
+  
+    <section class="post-content">
+      <p style="text-align: justify;">
+  <img class="alignleft size-full wp-image-422" style="margin: 5px;" title="python" src="/images/posts/oldwordpress/uploads/2009/06/python.png" alt="python" width="75" height="75" />Suite à mes recherches pour trouver un script de calcul de Pagerank en python, je souhaitais vous présenter deux pages qui me sont tombées sous les yeux.
+</p>
+
+<p style="text-align: justify;">
+  
+</p>
+
+<h2 style="text-align: justify;">
+  Script de vérification de Pagerank en Python :
+</h2>
+
+<p style="text-align: justify;">
+  Ce script permet d&#8217;aller chercher la valeur de Pagerank Google d&#8217;un site donné en argument. Cela sert pour toutes sortes de choses dans le monde du SEO. La page en question est là :
+</p>
+
+<p style="text-align: justify;">
+  <a title="Script calcul pagerank python" href="http://blogmag.net/blog/read/91/Python_code_to_check_your_Google_PageRank" target="_blank">http://blogmag.net/blog/read/91/Python_code_to_check_your_Google_PageRank</a>
+</p>
+
+<p style="text-align: justify;">
+  Testé aujourd&#8217;hui (1er Juillet 2009), le script fonctionne parfaitement bien. Ceux que j&#8217;ai pu trouver en php ne marchaient pas ( google me considère comme un pirate vous savez). Si vous en possédez en PHP, je suis preneur
+</p>
+
+<h2 style="text-align: justify;">
+  Script de calcul de PageRank ( Google-like)
+</h2>
+
+<p style="text-align: justify;">
+  La page suivante se base sur un <a title="Pagerank algorithme" href="http://www.ams.org/featurecolumn/archive/pagerank.html" target="_blank">article publié à l&#8217;AMS</a>, mais dont le principe <a href="http://www.mattcutts.com/blog/pagerank-sculpting/" target="_blank">ne décrit pas exactement le fonctionnement de Google</a>.
+</p>
+
+<p style="text-align: justify;">
+  Le script écrit en python tente de reproduire le fonctionnement d&#8217;un algorithme de Pagerank. Je ne l&#8217;ai pas testé, mais ça peut interesser du monde :
+</p>
+
+<p style="text-align: justify;">
+  <a title="Pagerank algorithme en Python" href="http://www.eioba.com/a69792/the_google_pagerank_algorithm_in_126_lines_of_python" target="_blank">http://www.eioba.com/a69792/the_google_pagerank_algorithm_in_126_lines_of_python</a>
+</p>
+
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">
+  <pre><span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: utf-8 -*-</span>
+<span class="c"># (C) 2008 Fred Cirera</span>
+<span class="c"># ported in Python from the Ruby code by Vsevolod S. Balashov</span>
+<span class="c"># http://snippets.dzone.com/posts/show/3284</span>
+
+<span class="k">import</span> <span class="nn">urllib2</span>
+<span class="k">import</span> <span class="nn">re</span>
+<span class="k">import</span> <span class="nn">time</span>
+<span class="k">import</span> <span class="nn">sys</span>
+
+<span class="k">from</span> <span class="nn">urllib</span> <span class="k">import</span> <span class="n">urlencode</span>
+<span class="k">from</span> <span class="nn">pprint</span> <span class="k">import</span> <span class="n">pprint</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s">"toolbarqueries.google.com"</span>
+
+<span class="k">def</span> <span class="nf">mix</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+    <span class="n">M</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">v</span><span class="p">:</span> <span class="n">v</span> <span class="o">%</span> <span class="mf"></span><span class="n">x100000000</span> <span class="c"># int32 modulo</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="p">(</span><span class="n">M</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="n">M</span><span class="p">(</span><span class="n">b</span><span class="p">),</span> <span class="n">M</span><span class="p">(</span><span class="n">c</span><span class="p">))</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="o">-</span><span class="n">c</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">c</span> <span class="o">&gt;&gt;</span> <span class="mf">13</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">c</span><span class="o">-</span><span class="n">a</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;&lt;</span>  <span class="mf">8</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">c</span><span class="o">-</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">b</span> <span class="o">&gt;&gt;</span> <span class="mf">13</span><span class="p">)</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="o">-</span><span class="n">c</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">c</span> <span class="o">&gt;&gt;</span> <span class="mf">12</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">c</span><span class="o">-</span><span class="n">a</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;&lt;</span> <span class="mf">16</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">c</span><span class="o">-</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">b</span> <span class="o">&gt;&gt;</span> <span class="mf">5</span><span class="p">)</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="o">-</span><span class="n">c</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">c</span> <span class="o">&gt;&gt;</span>  <span class="mf">3</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">c</span><span class="o">-</span><span class="n">a</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;&lt;</span> <span class="mf">10</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">M</span><span class="p">(</span><span class="n">c</span><span class="o">-</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">)</span> <span class="o">^</span> <span class="p">(</span><span class="n">b</span> <span class="o">&gt;&gt;</span> <span class="mf">15</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span>
+
+<span class="k">def</span> <span class="nf">checksum</span><span class="p">(</span><span class="n">iurl</span><span class="p">):</span>
+    <span class="n">C2I</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="n">c</span> <span class="o">&lt;&lt;</span> <span class="mf">8</span><span class="o">*</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">s</span><span class="p">[:</span><span class="mf">4</span><span class="p">]))</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mf"></span><span class="n">x9e3779b9</span><span class="p">,</span> <span class="mf"></span><span class="n">x9e3779b9</span><span class="p">,</span> <span class="mf"></span><span class="n">xe6359a60</span>
+    <span class="n">lg</span>  <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">iurl</span><span class="p">)</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="mf"></span>
+    <span class="k">while</span> <span class="n">k</span> <span class="o">&lt;=</span> <span class="n">lg</span><span class="o">-</span><span class="mf">12</span><span class="p">:</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">C2I</span><span class="p">(</span><span class="n">iurl</span><span class="p">[</span><span class="n">k</span><span class="p">:</span><span class="n">k</span><span class="o">+</span><span class="mf">4</span><span class="p">])</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="o">+</span> <span class="n">C2I</span><span class="p">(</span><span class="n">iurl</span><span class="p">[</span><span class="n">k</span><span class="o">+</span><span class="mf">4</span><span class="p">:</span><span class="n">k</span><span class="o">+</span><span class="mf">8</span><span class="p">])</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">c</span> <span class="o">+</span> <span class="n">C2I</span><span class="p">(</span><span class="n">iurl</span><span class="p">[</span><span class="n">k</span><span class="o">+</span><span class="mf">8</span><span class="p">:</span><span class="n">k</span><span class="o">+</span><span class="mf">12</span><span class="p">])</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">mix</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+        <span class="n">k</span> <span class="o">+=</span> <span class="mf">12</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">C2I</span><span class="p">(</span><span class="n">iurl</span><span class="p">[</span><span class="n">k</span><span class="p">:</span><span class="n">k</span><span class="o">+</span><span class="mf">4</span><span class="p">])</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="o">+</span> <span class="n">C2I</span><span class="p">(</span><span class="n">iurl</span><span class="p">[</span><span class="n">k</span><span class="o">+</span><span class="mf">4</span><span class="p">:</span><span class="n">k</span><span class="o">+</span><span class="mf">8</span><span class="p">])</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">c</span> <span class="o">+</span> <span class="p">(</span><span class="n">C2I</span><span class="p">(</span><span class="n">iurl</span><span class="p">[</span><span class="n">k</span><span class="o">+</span><span class="mf">8</span><span class="p">:])</span><span class="o">&lt;&lt;</span><span class="mf">8</span><span class="p">)</span> <span class="o">+</span> <span class="n">lg</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">mix</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">c</span>
+
+<span class="k">def</span> <span class="nf">GoogleHash</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+    <span class="n">I2C</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">i</span><span class="p">:</span> <span class="p">[</span><span class="n">i</span> <span class="o">&</span> <span class="mf"></span><span class="n">xff</span><span class="p">,</span> <span class="n">i</span> <span class="o">&gt;&gt;</span> <span class="mf">8</span> <span class="o">&</span> <span class="mf"></span><span class="n">xff</span><span class="p">,</span>  <span class="n">i</span> <span class="o">&gt;&gt;</span> <span class="mf">16</span> <span class="o">&</span> <span class="mf"></span><span class="n">xff</span><span class="p">,</span> <span class="n">i</span> <span class="o">&gt;&gt;</span> <span class="mf">24</span> <span class="o">&</span> <span class="mf"></span><span class="n">xff</span><span class="p">]</span>
+    <span class="n">ch</span> <span class="o">=</span> <span class="n">checksum</span><span class="p">([</span><span class="nb">ord</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">value</span><span class="p">])</span>
+    <span class="n">ch</span> <span class="o">=</span> <span class="p">((</span><span class="n">ch</span> <span class="o">%</span> <span class="mf"></span><span class="n">x0d</span><span class="p">)</span> <span class="o">&</span> <span class="mf">7</span><span class="p">)</span> <span class="o">|</span> <span class="p">((</span><span class="n">ch</span><span class="o">/</span><span class="mf">7</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="mf">2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s">"6</span><span class="si">%s</span><span class="s">"</span> <span class="o">%</span> <span class="n">checksum</span><span class="p">(</span><span class="nb">sum</span><span class="p">((</span><span class="n">I2C</span><span class="p">(</span><span class="n">ch</span><span class="o">-</span><span class="mf">9</span><span class="o">*</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mf">20</span><span class="p">)),</span> <span class="p">[]))</span>
+
+<span class="k">def</span> <span class="nf">make_url</span><span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">site_url</span><span class="p">):</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="s">"info:"</span> <span class="o">+</span> <span class="n">site_url</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">client</span><span class="o">=</span><span class="s">"navclient-auto"</span><span class="p">,</span> <span class="n">ch</span><span class="o">=</span><span class="s">"</span><span class="si">%s</span><span class="s">"</span> <span class="o">%</span> <span class="n">GoogleHash</span><span class="p">(</span><span class="n">url</span><span class="p">),</span>
+                  <span class="n">ie</span><span class="o">=</span><span class="s">"UTF-8"</span><span class="p">,</span> <span class="n">oe</span><span class="o">=</span><span class="s">"UTF-8"</span><span class="p">,</span> <span class="n">features</span><span class="o">=</span><span class="s">"Rank"</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s">"http://</span><span class="si">%s</span><span class="s">/search?</span><span class="si">%s</span><span class="s">"</span> <span class="o">%</span> <span class="p">(</span><span class="n">host</span><span class="p">,</span> <span class="n">urlencode</span><span class="p">(</span><span class="n">params</span><span class="p">))</span>
+
+<span class="c"># Where the fun begins</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mf">2</span><span class="p">:</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s">'http://www.google.com/'</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mf">1</span><span class="p">]</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">url</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">'http://'</span><span class="p">):</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="s">'http://</span><span class="si">%s</span><span class="s">'</span> <span class="o">%</span> <span class="n">url</span>
+
+    <span class="c"># print make_url(HOST, url)</span>
+    <span class="n">req</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">make_url</span><span class="p">(</span><span class="n">HOST</span><span class="p">,</span> <span class="n">url</span><span class="p">))</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">,</span> <span class="n">err</span><span class="p">:</span>
+        <span class="k">print</span> <span class="n">err</span>
+        <span class="c"># print err.read()</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mf">1</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">rank</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r'^Rank_\d+:\d+:(\d+)'</span><span class="p">,</span> <span class="n">response</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mf">1</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+        <span class="k">print</span> <span class="s">"This page is not ranked"</span>
+        <span class="n">rank</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1</span>
+
+    <span class="k">print</span> <span class="s">"PagerRank: </span><span class="si">%d</span><span class="se">\t</span><span class="s">URL: </span><span class="si">%s</span><span class="s">"</span> <span class="o">%</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">rank</span><span class="p">),</span> <span class="n">url</span><span class="p">)</span></pre>
+</div>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="http://localhost:1313/" style="background-image: url(http://localhost:1313/images/logo.png)"><span class="hidden">Jean-Christophe Lavocat's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://localhost:1313/">Jean-Christophe Lavocat</a></h4>
+  
+  <p>World citizen, often found in France, loving Nature, Music and Startups</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Toulon, France</span>
+    <span class="author-link icon-link"><a href="http://jice.lavocat.name">http://jice.lavocat.name</a></span>
+  </div>
+</section>
+
+
+
+    
+    <section class="share">
+      <h4>Share this post</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Python%20et%20Google%20PageRank&amp;url=http%3a%2f%2flocalhost%3a1313%2f2009%2f07%2fpython-et-google-pagerank%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f2009%2f07%2fpython-et-google-pagerank%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2f2009%2f07%2fpython-et-google-pagerank%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span>
+      </a>
+    </section>
+    
+
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'jicelavocat';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Jice is Nice</a> All rights reserved - 2015</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/js/index.js"></script>
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+
