@@ -11,7 +11,7 @@
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>my post</title>
+      <title>My post</title>
       <link>http://localhost:1313/post/post-title/</link>
       <pubDate>Sun, 21 Jun 2015 08:19:54 +0200</pubDate>
       
@@ -57,16 +57,6 @@ This way all references like images keeps working.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This Blog is now Proudly published with &lt;a href=&#34;http://gohugo.io&#34;&gt;HUGO&lt;/a&gt;, with a theme from Ghost (Casper) !&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dotScale 2014 as a sketch</title>
-      <link>http://localhost:1313/post/dotscale-2014-as-a-sketch/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>http://localhost:1313/post/dotscale-2014-as-a-sketch/</guid>
-      <description>&lt;p&gt;Contents here&lt;/p&gt;
 </description>
     </item>
     

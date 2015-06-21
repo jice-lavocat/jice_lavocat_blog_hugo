@@ -11,7 +11,7 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>my post</title>
+      <title>My post</title>
       <link>http://localhost:1313/post/post-title/</link>
       <pubDate>Sun, 21 Jun 2015 08:19:54 +0200</pubDate>
       
@@ -61,76 +61,16 @@ This way all references like images keeps working.&lt;/p&gt;
     </item>
     
     <item>
-      <title>about</title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 21 Jun 2015 08:07:47 +0200</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
       <description>
 
-&lt;h2 id=&#34;a-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A headline&lt;/h2&gt;
+&lt;h2 id=&#34;passionate-for-the-world:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Passionate for the world&lt;/h2&gt;
 
-&lt;p&gt;Some Content&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Moving from Ghost to HUGO</title>
-      <link>http://localhost:1313/newt/</link>
-      <pubDate>Mon, 02 Mar 2015 16:08:29 +0100</pubDate>
-      
-      <guid>http://localhost:1313/newt/</guid>
-      <description>
-
-&lt;p&gt;I started to blog 11 years ago.
-The first blog system i used, was Dotclear, I moved to Wordpress few years after because of the large plugin and theme ressources available.
-Wordpress is a really good blog platform, but it updates itslef too often for me.&lt;/p&gt;
-
-&lt;p&gt;Few months ago, the blog moved to &lt;a href=&#34;https://ghost.org&#34;&gt;Ghost&lt;/a&gt;, a really minimalist blog system, based on nodejs.
-A KISS aproach to the blog, I falled in love.
-The only issue i had with Ghost was about the hosting dependencies, no hard to manage, but since i don&amp;rsquo;t master nodeJs, i spent too much hours to hack into.&lt;/p&gt;
-
-&lt;p&gt;I discovered HUGO.
-Hugo is a static blog generator, written with a language (GOLANG), i use everyday.&lt;/p&gt;
-
-&lt;p&gt;So, i moved from GHOST to HUGO hosted on Google App engine.&lt;/p&gt;
-
-&lt;h2 id=&#34;ghost-migration-to-hugo:aa4d6886edf521b3bf02ded1f8536edb&#34;&gt;Ghost migration to Hugo&lt;/h2&gt;
-
-&lt;p&gt;Ghost and Hugo share the same markdown notation for posts content.
-The fist thing to do : extract posts from Ghost db (sqlite) to individual .md files and move them to HUGO/content/post/ folder.&lt;/p&gt;
-
-&lt;p&gt;The code I used to achieve this is here : &lt;a href=&#34;https://gist.github.com/vjeantet/d1f6cf824a2344dd6b4e&#34;&gt;GHOST_TO_HUGO.php&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Next step, move GHOST/content directory to HUGO/static directory.
-This way all references like images keeps working.&lt;/p&gt;
-
-&lt;p&gt;Migration completed !&lt;/p&gt;
-
-&lt;h2 id=&#34;theme:aa4d6886edf521b3bf02ded1f8536edb&#34;&gt;Theme&lt;/h2&gt;
-
-&lt;p&gt;The default theme on ghost was perfect for my blog, but unavailable on HUGO… So i ported the casper theme from GHOST to HUGO, you can find it here : &lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;hugo-theme-casper&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;publishing:aa4d6886edf521b3bf02ded1f8536edb&#34;&gt;Publishing&lt;/h2&gt;
-
-&lt;h3 id=&#34;google-app-engine:aa4d6886edf521b3bf02ded1f8536edb&#34;&gt;Google App Engine&lt;/h3&gt;
-
-&lt;p&gt;I added the GAE configuration file &lt;strong&gt;app.yaml&lt;/strong&gt; into the HUGO/static directory, to see it pushed to the Public directory each time i generate the blog.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ appcfg update public
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This Blog is now Proudly published with &lt;a href=&#34;http://gohugo.io&#34;&gt;HUGO&lt;/a&gt;, with a theme from Ghost (Casper) !&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dotScale 2014 as a sketch</title>
-      <link>http://localhost:1313/post/dotscale-2014-as-a-sketch/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>http://localhost:1313/post/dotscale-2014-as-a-sketch/</guid>
-      <description>&lt;p&gt;Contents here&lt;/p&gt;
+&lt;p&gt;I am almost 30, and after a PhD in nano-physics, I am starting he adventure of web entrepreneur.&lt;/p&gt;
 </description>
     </item>
     

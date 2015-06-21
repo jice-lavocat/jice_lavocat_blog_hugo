@@ -5,27 +5,23 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" My post &middot;  Jice is Nice" />
+  	<meta property="og:title" content=" Moving from Ghost to HUGO &middot;  Jice is Nice" />
   	<meta property="og:site_name" content="Jice is Nice" />
-  	<meta property="og:url" content="http://localhost:1313/post/post-title/" />
+  	<meta property="og:url" content="http://localhost:1313/post-title/" />
     
     
   	<meta property="og:type" content="article" />
 
-    <meta property="og:article:published_time" content="2015-06-21T08:19:54&#43;02:00" />
+    <meta property="og:article:published_time" content="2015-03-02T16:08:29&#43;01:00" />
 
-    
-    <meta property="og:article:tag" content="tag1" />
-    
-    <meta property="og:article:tag" content="tag2" />
     
     
 
   <title>
-     My post &middot;  Jice is Nice
+     Moving from Ghost to HUGO &middot;  Jice is Nice
   </title>
 
-    <meta name="description" content="French/English essays about our Digital World, about Nature and Mind" />
+    <meta name="description" content="this is my description" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,14 +34,11 @@
 
 
     
-      
-          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Jice is Nice" />
-      
-      
+        <link href="http://feeds.feedburner.com/jice_lavocat" rel="alternate" type="application/rss+xml" title="Jice is Nice" />
     
     <meta name="generator" content="Hugo 0.14" />
 
-    <link rel="canonical" href="http://localhost:1313/post/post-title/" />
+    <link rel="canonical" href="http://localhost:1313/post-title/" />
 
     
     <script>
@@ -54,7 +47,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-3492655-1', 'auto');
+      ga('create', 'UA-79101-12', 'auto');
       ga('send', 'pageview');
 
     </script>
@@ -83,7 +76,7 @@
     </ul>
     
     
-    <a class="subscribe-button icon-feed" href="http://localhost:1313/index.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="http://feeds.feedburner.com/jice_lavocat">Subscribe</a> </div>
     
 </div>
 <span class="nav-cover"></span>
@@ -93,8 +86,8 @@
 
 
 
-<header class="main-header post-head" style="background-image: url(http://localhost:1313/images/posts/test/test.jpeg)">
-  <nav class="main-nav overlay clearfix">
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
 
 
   
@@ -113,20 +106,12 @@
 
 
 
-  <article class="post post">
+  <article class="post ">
 
     <header class="post-header">
-        <h1 class="post-title">My post</h1>
+        <h1 class="post-title">Moving from Ghost to HUGO</h1>
         <section class="post-meta">
         
-          <time class="post-date" datetime="2015-06-21T08:19:54&#43;02:00">
-            Jun 21, 2015
-          </time>
-        
-         
-          <span class="post-tag small"><a href="http://localhost:1313/tags/tag1/">#tag1</a></span>
-         
-          <span class="post-tag small"><a href="http://localhost:1313/tags/tag2/">#tag2</a></span>
          
         </section>
     </header>
@@ -147,7 +132,7 @@ Hugo is a static blog generator, written with a language (GOLANG), i use everyda
 
 <p>So, i moved from GHOST to HUGO hosted on Google App engine.</p>
 
-<h2 id="ghost-migration-to-hugo:23c89e730caf6d7f2c5c4ee11eb465ea">Ghost migration to Hugo</h2>
+<h2 id="ghost-migration-to-hugo:aa4d6886edf521b3bf02ded1f8536edb">Ghost migration to Hugo</h2>
 
 <p>Ghost and Hugo share the same markdown notation for posts content.
 The fist thing to do : extract posts from Ghost db (sqlite) to individual .md files and move them to HUGO/content/post/ folder.</p>
@@ -159,13 +144,13 @@ This way all references like images keeps working.</p>
 
 <p>Migration completed !</p>
 
-<h2 id="theme:23c89e730caf6d7f2c5c4ee11eb465ea">Theme</h2>
+<h2 id="theme:aa4d6886edf521b3bf02ded1f8536edb">Theme</h2>
 
 <p>The default theme on ghost was perfect for my blog, but unavailable on HUGO… So i ported the casper theme from GHOST to HUGO, you can find it here : <a href="https://github.com/vjeantet/hugo-theme-casper">hugo-theme-casper</a></p>
 
-<h2 id="publishing:23c89e730caf6d7f2c5c4ee11eb465ea">Publishing</h2>
+<h2 id="publishing:aa4d6886edf521b3bf02ded1f8536edb">Publishing</h2>
 
-<h3 id="google-app-engine:23c89e730caf6d7f2c5c4ee11eb465ea">Google App Engine</h3>
+<h3 id="google-app-engine:aa4d6886edf521b3bf02ded1f8536edb">Google App Engine</h3>
 
 <p>I added the GAE configuration file <strong>app.yaml</strong> into the HUGO/static directory, to see it pushed to the Public directory each time i generate the blog.</p>
 
@@ -195,7 +180,7 @@ This way all references like images keeps working.</p>
 <section class="author">
   <h4><a href="http://localhost:1313/">Jean-Christophe Lavocat</a></h4>
   
-  <p>World citizen, often found in France, loving Nature, Music and Startups</p>
+  <p>my bio</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Toulon, France</span>
@@ -207,16 +192,16 @@ This way all references like images keeps working.</p>
 
     
     <section class="share">
-      <h4>Share this post</h4>
-      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=My%20post&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2fpost-title%2f"
+      <h4>Share this page</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Moving%20from%20Ghost%20to%20HUGO&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost-title%2f"
           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <span class="hidden">Twitter</span>
       </a>
-      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fpost-title%2f"
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost-title%2f"
           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
           <span class="hidden">Facebook</span>
       </a>
-      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fpost-title%2f"
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost-title%2f"
          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
           <span class="hidden">Google+</span>
       </a>
@@ -227,7 +212,7 @@ This way all references like images keeps working.</p>
     
     <div id="disqus_thread"></div>
     <script type="text/javascript">
-      var disqus_shortname = 'jicelavocat';
+      var disqus_shortname = 'tanzaho';
       (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

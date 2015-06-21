@@ -5,21 +5,21 @@ BaseUrl= "http://jice.lavocat.name"
 LanguageCode= "fr-FR"
 Title= "Jice is Nice"
 paginate = 5
-DisqusShortname = "tanzaho"
+DisqusShortname = "jicelavocat"
 Copyright = "All rights reserved - 2015"
 theme = "casperjice"
 
 [params]
-  description = "this is my description"
+  description = "French/English essays about our Digital World, about Nature and Mind"
   cover = "images/cover_polenord.jpg"
   author = "Jean-Christophe Lavocat"
   authorlocation = "Toulon, France"
   authorwebsite = "http://jice.lavocat.name"
-  bio= "my bio"
+  bio= "World citizen, often found in France, loving Nature, Music and Startups"
   logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
+  googleAnalyticsUserID = "UA-3492655-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/jice_lavocat" 
+  #RSSLink = "http://feeds.feedburner.com/jice_lavocat" 
   githubName = "tanzaho"
   twitterName = "jice_lavocat"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")

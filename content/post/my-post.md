@@ -2,12 +2,12 @@
 comments = true
 date = "2015-06-21T08:19:54+02:00"
 draft = false
-image = ""
+image = "images/posts/test/test.jpeg"
 menu = ""
 share = true
 slug = "post-title"
 tags = ["tag1", "tag2"]
-title = "my post"
+title = "My post"
 
 +++
 
