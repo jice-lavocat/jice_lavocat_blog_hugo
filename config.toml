@@ -7,7 +7,7 @@ Title= "Jice is Nice"
 paginate = 5
 DisqusShortname = "jicelavocat"
 Copyright = "All rights reserved - 2015"
-theme = "casperjice"
+theme = "casper_jice"
 
 [params]
   description = "French/English essays about our Digital World, about Nature and Mind"

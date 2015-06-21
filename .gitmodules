@@ -1,0 +1,3 @@
+[submodule "themes/casper_jice"]
+	path = themes/casper_jice
+	url = https://github.com/tanzaho/hugo-theme-casper
