@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matrices on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/matrices/</link>
-    <description>Recent content in Matrices on Blog Jice Lavocat</description>
+    <title>Matrices on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/matrices/</link>
+    <description>Recent content in Matrices on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 20 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/matrices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/matrices/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tout sur Hadamard</title>
-      <link>http://localhost:1313/blog/2009/07/tout-sur-hadamard/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/tout-sur-hadamard/</link>
       <pubDate>Mon, 20 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/tout-sur-hadamard/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/tout-sur-hadamard/</guid>
       <description>&lt;p&gt;Qui est donc ce fameux Hadamard dont tout le monde parle en informatique quantique? &lt;a title=&#34;Jacques Hadamard&#34; href=&#34;http://fr.wikipedia.org/wiki/Jacques_Hadamard&#34; target=&#34;_blank&#34;&gt;Jacques Hadamard&lt;/a&gt; est un mathématicien français (1865-1963) à qui l&amp;#8217;on doit les célèbres matrices (encore un normalien).&lt;/p&gt;
 
 &lt;p&gt;Je vous conseille la biographie suivante sur Jacques Hadamard : &lt;a title=&#34;Jacques Hadamard&#34; href=&#34;http://books.google.fr/books?id=NhK6LIApE8UC&amp;printsec=frontcover&#34; target=&#34;_blank&#34;&gt;Jacques Hadamard un mathématicien universel&lt;/a&gt;&lt;/p&gt;

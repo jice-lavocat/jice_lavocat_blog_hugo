@@ -1,17 +1,13 @@
 ---
 title: 30DSTART – Day 4 – Startup Name
 author: Jice
-
+image: images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png
 date: 2013-05-25
 url: /2013/05/30dstart-day-4-startup-name/
 btc_comment_counts:
   - 'a:0:{}'
 btc_comment_summary:
   - 'a:0:{}'
-Image:
-  - images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png
-sociallocker_text_message:
-  - twitter
 factory_fr106_sociallocker_include_assets:
   - sociallocker
 factory_sociallocker_include_assets:
@@ -106,7 +102,6 @@ Alternatives remain however. The cheapest is to take part in discussions on soci
 
 Ladies and Gentlemen, the final name of my 30-days startup challenge is :
 
-[sociallocker]
 
 <div class="box aligncenter">
   <p style="text-align: center;">
@@ -119,7 +114,7 @@ Ladies and Gentlemen, the final name of my 30-days startup challenge is :
 </p>
 
 <p style="text-align: justify;">
-  [/sociallocker]
+
 </p>
 
 <h2 style="text-align: justify;">
@@ -141,7 +136,7 @@ Ladies and Gentlemen, the final name of my 30-days startup challenge is :
   
   <tr>
     <td colspan="2">
-      <em>The above data were averaged, please do not sue me {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" /><br >}} </em>
+      <em>The following data were averaged, please do not sue me  </em>
     </td>
   </tr>
   

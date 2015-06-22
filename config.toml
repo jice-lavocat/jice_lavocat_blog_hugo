@@ -1,13 +1,13 @@
-baseurl = "http://jice.lavocat.name/blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "World Hacks"
 BaseUrl= "http://jice.lavocat.name/blog/"
 LanguageCode= "fr-FR"
-Title= "Blog Jice Lavocat"
+Title= "World Hacks"
 paginate = 15
 DisqusShortname = "jicelavocat"
 Copyright = "All rights reserved - 2015"
 theme = "casper_jice"
+
 
 [params]
   description = "French/English essays about our Digital World, about Nature and Mind"
@@ -21,7 +21,9 @@ theme = "casper_jice"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   #RSSLink = "http://feeds.feedburner.com/jice_lavocat" 
   githubName = "tanzaho"
+  googlePlusName = "+jice_lavocat"
   twitterName = "jice_lavocat"
+  linkedinName = "9743130"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
 

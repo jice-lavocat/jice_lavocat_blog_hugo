@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web Sémantique on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/web-s%C3%A9mantique/</link>
-    <description>Recent content in Web Sémantique on Blog Jice Lavocat</description>
+    <title>Web Sémantique on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/web-s%C3%A9mantique/</link>
+    <description>Recent content in Web Sémantique on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 03 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/web-s%C3%A9mantique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/web-s%C3%A9mantique/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Implementing microdata schema.org in  Yootheme ZOO</title>
-      <link>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
+      <link>http://jice.lavocat.name/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</link>
       <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
+      <guid>http://jice.lavocat.name/blog/2011/08/implementing-microdata-schema-org-in-yootheme-zoo/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-1211&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; width=&#34;128&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg&#34; width=&#34;128&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -35,7 +35,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/zoo.png&#34;&gt;&lt;figure class=&#34;alignright size-full wp-image-1212&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -118,7 +118,7 @@ You should now be able to :&lt;br /&gt;
 &lt;div id=&#34;attachment_1214&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignright&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2011/08/schemafield.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1214&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -161,10 +161,10 @@ You should now be able to :&lt;br /&gt;
     
     <item>
       <title>Cours sur le web sémantique</title>
-      <link>http://localhost:1313/blog/2009/02/cours-sur-le-web-semantique/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/cours-sur-le-web-semantique/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/cours-sur-le-web-semantique/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/cours-sur-le-web-semantique/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Un petit post pour vous donner des liens concernant le web sémantique. A l&amp;#8217;origine ce thread sur Facebook : &lt;a title=&#34;Cours sur le web sémantique&#34; href=&#34;http://www.facebook.com/group.php?sid=a1ac36aed290f27e620b1594536f34ba&amp;gid=27810627729#/topic.php?uid=2220211728&amp;topic=7994&#34; target=&#34;_blank&#34;&gt;Semantic web courses&lt;/a&gt;.
 &lt;/p&gt;

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on Blog Jice Lavocat</description>
+    <title>Machine Learning on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 07 Jul 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Classical algorithm for the Majority Problem</title>
-      <link>http://localhost:1313/blog/2009/07/classical-algorithm-for-the-majority-problem/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/classical-algorithm-for-the-majority-problem/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/classical-algorithm-for-the-majority-problem/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/classical-algorithm-for-the-majority-problem/</guid>
       <description>
 
 &lt;h2 id=&#34;presentation-of-the-problem:3b8d5a267fec0b72a8c954f33097fb33&#34;&gt;Presentation of the problem :&lt;/h2&gt;
@@ -96,10 +96,10 @@
     
     <item>
       <title>Cours sur le web sémantique</title>
-      <link>http://localhost:1313/blog/2009/02/cours-sur-le-web-semantique/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/cours-sur-le-web-semantique/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/cours-sur-le-web-semantique/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/cours-sur-le-web-semantique/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Un petit post pour vous donner des liens concernant le web sémantique. A l&amp;#8217;origine ce thread sur Facebook : &lt;a title=&#34;Cours sur le web sémantique&#34; href=&#34;http://www.facebook.com/group.php?sid=a1ac36aed290f27e620b1594536f34ba&amp;gid=27810627729#/topic.php?uid=2220211728&amp;topic=7994&#34; target=&#34;_blank&#34;&gt;Semantic web courses&lt;/a&gt;.
 &lt;/p&gt;
@@ -112,10 +112,10 @@
     
     <item>
       <title>Projet Flowers</title>
-      <link>http://localhost:1313/blog/2009/01/projet-flowers/</link>
+      <link>http://jice.lavocat.name/blog/2009/01/projet-flowers/</link>
       <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/01/projet-flowers/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/01/projet-flowers/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le &lt;strong&gt;machine learning&lt;/strong&gt;, l&amp;#8217;a&lt;strong&gt;pprentissage sémantique&lt;/strong&gt;, et l&amp;#8217;&lt;strong&gt;acquisition d&amp;#8217;un langage&lt;/strong&gt;.
 &lt;/p&gt;
@@ -131,7 +131,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure &gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
     
 
 &lt;figcaption&gt;

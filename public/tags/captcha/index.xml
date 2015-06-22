@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Captcha on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/captcha/</link>
-    <description>Recent content in Captcha on Blog Jice Lavocat</description>
+    <title>Captcha on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/captcha/</link>
+    <description>Recent content in Captcha on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 20 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/captcha/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/captcha/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>La pub tuera-t-elle les spammeurs?</title>
-      <link>http://localhost:1313/blog/2010/11/la-pub-tuera-t-elle-les-spammeurs/</link>
+      <link>http://jice.lavocat.name/blog/2010/11/la-pub-tuera-t-elle-les-spammeurs/</link>
       <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/11/la-pub-tuera-t-elle-les-spammeurs/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/11/la-pub-tuera-t-elle-les-spammeurs/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Ils l&amp;#8217;ont trouvée la solution qui viendra peut être à bout des &lt;span style=&#34;text-decoration: line-through;&#34;&gt;script kiddies&lt;/span&gt; spammeurs, ceux qui utilisent par exemple XRummer (logiciel qui permet l&amp;#8217;envoi automatique de commentaires/messages forum avec des liens spammy). Mais de quoi s&amp;#8217;agit-il?
 &lt;/p&gt;
@@ -31,7 +31,7 @@
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;figure &gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png&#34; alt=&#34;Pub Nucaptcha&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png&#34; alt=&#34;Pub Nucaptcha&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;

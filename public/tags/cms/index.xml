@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cms on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/cms/</link>
-    <description>Recent content in Cms on Blog Jice Lavocat</description>
+    <title>Cms on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/cms/</link>
+    <description>Recent content in Cms on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 24 Mar 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/cms/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installation d’un Drupal multi-site</title>
-      <link>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</link>
+      <link>http://jice.lavocat.name/blog/2010/03/installation-dun-drupal-multi-site/</link>
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/03/installation-dun-drupal-multi-site/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; /&gt;
     
 
 &lt;figcaption&gt;

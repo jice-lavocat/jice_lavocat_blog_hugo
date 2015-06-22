@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webfaction on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/webfaction/</link>
-    <description>Recent content in Webfaction on Blog Jice Lavocat</description>
+    <title>Webfaction on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/webfaction/</link>
+    <description>Recent content in Webfaction on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/webfaction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/webfaction/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installer WordPress sur Webfaction</title>
-      <link>http://localhost:1313/blog/2014/03/installer-wordpress-sur-webfaction/</link>
+      <link>http://jice.lavocat.name/blog/2014/03/installer-wordpress-sur-webfaction/</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2014/03/installer-wordpress-sur-webfaction/</guid>
+      <guid>http://jice.lavocat.name/blog/2014/03/installer-wordpress-sur-webfaction/</guid>
       <description>
 
-&lt;p&gt;&lt;figure &gt;
+&lt;p&gt;J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; /&gt;
-    
-
-&lt;/figure&gt;
-J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;figure class=&#34;wp-smiley&#34;&gt;
-
-    &lt;img src=&#34;http://localhost:1313/blog//images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -39,7 +33,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1427&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; alt=&#34;Dashboard Webfaction&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; alt=&#34;Dashboard Webfaction&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -52,7 +46,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1428&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; alt=&#34;Add SSH user&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; alt=&#34;Add SSH user&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -71,7 +65,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1431&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -80,7 +74,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -90,7 +84,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 &lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2014/03/create_application.png&#34;&gt;&lt;figure class=&#34;aligncenter  wp-image-1432&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; alt=&#34;Ajouter une application (webfaction)&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; alt=&#34;Ajouter une application (webfaction)&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;

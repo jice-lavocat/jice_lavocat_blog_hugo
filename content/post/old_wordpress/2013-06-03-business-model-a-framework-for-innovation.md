@@ -1,7 +1,7 @@
 ---
 title: 'Business Model : A framework for innovation'
 author: Jice
-
+image: "images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png"
 date: 2013-06-03
 url: /2013/06/business-model-a-framework-for-innovation/
 factory_sociallocker_include_assets:

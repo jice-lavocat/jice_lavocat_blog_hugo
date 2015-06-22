@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Script on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/script/</link>
-    <description>Recent content in Script on Blog Jice Lavocat</description>
+    <title>Script on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/script/</link>
+    <description>Recent content in Script on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 01 Jan 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/script/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/script/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Modifier rapidement un ensemble de fichiers sous linux [BASH]</title>
-      <link>http://localhost:1313/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</link>
+      <link>http://jice.lavocat.name/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</guid>
       <description>
 
 &lt;p&gt;Vous vous trouvez sous Linux, vous désirez changer une chaîne de caractère avec une faute d&amp;#8217;orthographe dans l&amp;#8217;ensemble des fichiers d&amp;#8217;un dossier? Utilisez le script suivant :&lt;/p&gt;

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/linux/</link>
-    <description>Recent content in Linux on Blog Jice Lavocat</description>
+    <title>Linux on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/linux/</link>
+    <description>Recent content in Linux on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 23 Aug 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installer Ubuntu sur un Acer Aspire M1201</title>
-      <link>http://localhost:1313/blog/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</link>
+      <link>http://jice.lavocat.name/blog/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</link>
       <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/08/installer-ubuntu-sur-un-acer-aspire-m1201/</guid>
       <description>
 
 &lt;p align=&#34;justify&#34;&gt;
@@ -96,10 +96,10 @@
     
     <item>
       <title>Modifier de façon récursive les droits des dossiers [Script Bash]</title>
-      <link>http://localhost:1313/blog/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</link>
+      <link>http://jice.lavocat.name/blog/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</link>
       <pubDate>Sun, 23 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/03/modifier-de-facon-recursive-les-droits-des-dossiers-script-bash/</guid>
       <description>
 
 &lt;p&gt;Vous êtes étudiants à l&amp;#8217;Ecole Centrale Marseille? Vous êtes sur un réseau où les administrateurs se font du soucis pour la sécurité? Il y a fort à parier que la publication d&amp;#8217;un site web présente quelques difficultés pour le néophyte.&lt;/p&gt;
@@ -134,10 +134,10 @@
     
     <item>
       <title>Modifier rapidement un ensemble de fichiers sous linux [BASH]</title>
-      <link>http://localhost:1313/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</link>
+      <link>http://jice.lavocat.name/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/01/modifier-rapidement-un-ensemble-de-fichiers-sous-linux-bash/</guid>
       <description>
 
 &lt;p&gt;Vous vous trouvez sous Linux, vous désirez changer une chaîne de caractère avec une faute d&amp;#8217;orthographe dans l&amp;#8217;ensemble des fichiers d&amp;#8217;un dossier? Utilisez le script suivant :&lt;/p&gt;

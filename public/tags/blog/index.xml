@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/blog/</link>
-    <description>Recent content in Blog on Blog Jice Lavocat</description>
+    <title>Blog on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/blog/</link>
+    <description>Recent content in Blog on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 24 Mar 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installation d’un Drupal multi-site</title>
-      <link>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</link>
+      <link>http://jice.lavocat.name/blog/2010/03/installation-dun-drupal-multi-site/</link>
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/03/installation-dun-drupal-multi-site/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/03/installation-dun-drupal-multi-site/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif&#34; alt=&#34;Drupal - CMS&#34; width=&#34;250&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -78,13 +78,13 @@
     
     <item>
       <title>Devenir un entrepreuneur (US)</title>
-      <link>http://localhost:1313/blog/2009/08/devenir-un-entrepreuneur-us/</link>
+      <link>http://jice.lavocat.name/blog/2009/08/devenir-un-entrepreuneur-us/</link>
       <pubDate>Fri, 21 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/08/devenir-un-entrepreuneur-us/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/08/devenir-un-entrepreuneur-us/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-thumbnail wp-image-890&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -100,7 +100,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://startuplessonslearned.blogspot.com&#34;&gt;http://startuplessonslearned.blogspot.com&lt;/a&gt;&lt;/a&gt; : un actif, fondateur de IMVU &lt;a href=&#34;http://twitter.com/ericries&#34;&gt;Eric Ries&lt;/a&gt;{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de &lt;a href=&#34;http://fr.wikipedia.org/wiki/Lean&#34;&gt;Lean&lt;/a&gt;{#aptureLink_7B1TdMgUWW} management (méthode Toyota).[&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/leader011.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-thumbnail wp-image-890&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg&#34; alt=&#34;leader011&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -122,10 +122,10 @@
     
     <item>
       <title>Modéliser la blogosphère</title>
-      <link>http://localhost:1313/blog/2009/07/modeliser-la-blogosphere/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/modeliser-la-blogosphere/</link>
       <pubDate>Sun, 26 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/modeliser-la-blogosphere/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/modeliser-la-blogosphere/</guid>
       <description>&lt;p&gt;Je suis actuellement en train de lire le livre :  &amp;#8220;&lt;a href=&#34;http://www.morganclaypool.com/doi/abs/10.2200/S00213ED1V01Y200907DMK001&#34; target=&#34;_blank&#34;&gt;Modelling and Data Mining the Blogosphere&lt;/a&gt;&amp;#8221; de &lt;a href=&#34;http://www.public.asu.edu/~nagarwa6/&#34; target=&#34;_blank&#34;&gt;N.Agarwal&lt;/a&gt; et &lt;a href=&#34;http://www.public.asu.edu/%7Ehuanliu/&#34; target=&#34;_blank&#34;&gt;H.Liu&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Le livre est un condensé de maths appliquées au web, et spécialement au monde des blogs. Pour vous donner envie de lire le livre, voilà un petit extrait :&lt;/p&gt;
@@ -152,13 +152,13 @@
     
     <item>
       <title>Vivre du web</title>
-      <link>http://localhost:1313/blog/2009/07/vivre-du-web/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/vivre-du-web/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/vivre-du-web/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/vivre-du-web/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-645&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -178,14 +178,14 @@
     
     <item>
       <title>Des blogs sur la neurologie</title>
-      <link>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/des-blogs-sur-la-neurologie/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-74&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -232,10 +232,10 @@
     
     <item>
       <title>Nouveau WordPress</title>
-      <link>http://localhost:1313/blog/2008/12/nouveau-wordpress/</link>
+      <link>http://jice.lavocat.name/blog/2008/12/nouveau-wordpress/</link>
       <pubDate>Mon, 22 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/12/nouveau-wordpress/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/12/nouveau-wordpress/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le nouveau WordPress est plutôt génial : installation automatisée de plugins, ergonomie plus avancée de l&amp;#8217;administration. Je suis très heureux de me remettre à WP dans ces conditions.
 &lt;/p&gt;
@@ -246,10 +246,10 @@
     
     <item>
       <title>Rentabiliser son site web</title>
-      <link>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</link>
+      <link>http://jice.lavocat.name/blog/2008/07/rentabiliser-son-site-web/</link>
       <pubDate>Tue, 22 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/07/rentabiliser-son-site-web/</guid>
       <description>
 
 &lt;h3 id=&#34;le-principe:1299d733f325b424f2fc042fd21c82e0&#34;&gt;Le principe :&lt;/h3&gt;

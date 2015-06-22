@@ -1,11 +1,9 @@
 ---
 title: The 30-days Startup Challenge
 author: Jice
-
 date: 2013-05-22
 url: /2013/05/the-30-days-startup-challenge/
-Image:
-  - images/posts/oldwordpress/uploads/2013/05/agenda.jpg
+image: images/posts/oldwordpress/uploads/2013/05/agenda.jpg
 categories:
   - Informatique
   - Management

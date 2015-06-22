@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ab Testing on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/ab-testing/</link>
-    <description>Recent content in Ab Testing on Blog Jice Lavocat</description>
+    <title>Ab Testing on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/ab-testing/</link>
+    <description>Recent content in Ab Testing on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 25 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/ab-testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/ab-testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>30DSTART – Day 4 – Startup Name</title>
-      <link>http://localhost:1313/blog/2013/05/30dstart-day-4-startup-name/</link>
+      <link>http://jice.lavocat.name/blog/2013/05/30dstart-day-4-startup-name/</link>
       <pubDate>Sat, 25 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2013/05/30dstart-day-4-startup-name/</guid>
+      <guid>http://jice.lavocat.name/blog/2013/05/30dstart-day-4-startup-name/</guid>
       <description>
 
 &lt;p&gt;For those who don&amp;#8217;t know about the 30-days Startup Challenge, please have a look at my &lt;a title=&#34;30 Days Startup Challenge&#34; href=&#34;http://localhost/oldblog/2013/05/the-30-days-startup-challenge/&#34; target=&#34;_blank&#34;&gt;explanation here&lt;/a&gt;. The post of today will explain in detail how I selected the &lt;strong&gt;name of the startup&lt;/strong&gt;, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.&lt;/p&gt;
@@ -54,12 +54,12 @@
 
 &lt;p&gt;I left the question opened overnight. In addition to the result depicted below, I got some &lt;strong&gt;suggestions from people&lt;/strong&gt;. One had been added to the list : &lt;em&gt;scribens&lt;/em&gt; . Hat tip to &lt;a title=&#34;Arromazam Pepe&#34; href=&#34;https://plus.google.com/112241543943924051468/posts&#34; target=&#34;_blank&#34;&gt;Pepe Arromazam&lt;/a&gt; for the smart suggestion. Below is the graphical result of these votes :&lt;/p&gt;
 
-&lt;p&gt;[&lt;figure class=&#34;aligncenter size-full wp-image-1276&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34;&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1276&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; alt=&#34;Names suggested for the 30 days startup project&#34; width=&#34;625&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png&#34; alt=&#34;Names suggested for the 30 days startup project&#34; width=&#34;625&#34; /&gt;
     
 
-&lt;/figure&gt;][1]&lt;/p&gt;
+&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
@@ -81,18 +81,18 @@
 &lt;p&gt;&lt;center&gt;
   &lt;figure class=&#34;size-medium wp-image-1280 aligncenter&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; alt=&#34;Logo Header Unbounce&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg&#34; alt=&#34;Logo Header Unbounce&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create [four logos][2] with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
+&lt;p&gt;I used the service &lt;a title=&#34;Unbounce -AB testing&#34; href=&#34;http://unbounce.com/&#34; target=&#34;_blank&#34;&gt;unbounce.com&lt;/a&gt; to create four identical &lt;strong&gt;landing pages&lt;/strong&gt; where only the name/logo were changing. Their UI is pretty simple, and I just had to create &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/possible_names.zip&#34;&gt;four logos&lt;/a&gt; with &lt;a title=&#34;Inkscape&#34; href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&amp;#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1281 aligncenter&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png&#34; alt=&#34;Landing Page ScribenS - Made with Unbounce&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/a&gt;
@@ -112,8 +112,6 @@
 
 &lt;p&gt;Ladies and Gentlemen, the final name of my 30-days startup challenge is :&lt;/p&gt;
 
-&lt;p&gt;[sociallocker]&lt;/p&gt;
-
 &lt;div class=&#34;box aligncenter&#34;&gt;
   &lt;p style=&#34;text-align: center;&#34;&gt;
     &lt;strong style=&#34;font-family: Times New Roman,Times,serif; font-size: 18px; font-weight: bold;&#34;&gt;WordiZ&lt;/strong&gt;
@@ -125,7 +123,7 @@
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
-  [/sociallocker]
+
 &lt;/p&gt;
 
 &lt;h2 style=&#34;text-align: justify;&#34;&gt;
@@ -134,27 +132,119 @@
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;p&gt;&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
+&lt;table id=&#34;newspaper-b&#34; summary=&#34;2007 Major IT Companies&#39; Profit&#34;&gt;
   &lt;tr&gt;
     &lt;th scope=&#34;col&#34;&gt;
       Description
-    &lt;/th&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;th scope=&amp;quot;col&amp;quot;&amp;gt;
-  Number
-&amp;lt;/th&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/tr&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;tr&gt;
+    &lt;/th&gt;
+    
+    &lt;th scope=&#34;col&#34;&gt;
+      Number
+    &lt;/th&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
     &lt;td colspan=&#34;2&#34;&gt;
-      &lt;em&gt;The above data were averaged, please do not sue me &lt;figure class=&#34;wp-smiley&#34;&gt;
+      &lt;em&gt;The following data were averaged, please do not sue me  &lt;/em&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Time spent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      3 hours per night = 12 hours
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Money spent
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      Facebook ads + Domain names = 40€ ($51)
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      People in the mailing list
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      35
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td&gt;
+      Prospect
+    &lt;/td&gt;
+    
+    &lt;td&gt;
+      38
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  What next
+&lt;/h2&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  As my creative skills are really poor,&lt;strong&gt; I am looking for someone to create a logo&lt;/strong&gt; that would correspond to the startup. If you are a designer and want to help me, just leave me a message and let&amp;#8217;s start interacting !
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  I also realized while writing my article that my English has become terrible, so if some native speaker could have the time to&lt;strong&gt; proofread my blogposts&lt;/strong&gt;, that would be very nice &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
     
 
-&lt;/figure&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  Having said that, the next steps for me are : &lt;strong&gt;creating a mock-up&lt;/strong&gt; of the application and&lt;strong&gt; decide which web framework&lt;/strong&gt; should be used. I currently have three frameworks in mind, but don&amp;#8217;t know which one to select : &lt;em&gt;Ruby on Rails, Django &lt;/em&gt;and&lt;em&gt; Symfony&lt;/em&gt;. I was quite attracted by Ruby, but I read in different places on the web that the code is difficult to maintain and to exchange. Web people, I need your help on this matter.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  &amp;#8212;
+&lt;/p&gt;
+
+&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+  Edit : Finding competitors
+&lt;/h2&gt;
+
+&lt;p&gt;I did not want to start worrying about competitors at this stage, but this has come quicker than expected. While writing a tweet to Cezary to thanks him for the mashable article, I found him mentionning a potential competitor :&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet align-center&#34;&gt;
+  &lt;p&gt;
+    congrats to @&lt;a href=&#34;https://twitter.com/justinbelmont&#34;&gt;justinbelmont&lt;/a&gt; on launching @&lt;a href=&#34;https://twitter.com/prose&#34;&gt;prose&lt;/a&gt;, a service that helps brands write great content
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    — Cezary Pietrzak (@cezinho) &lt;a href=&#34;https://twitter.com/cezinho/status/337956437261156355&#34;&gt;May 24, 2013&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: justify;&#34;&gt;
+  The service that &lt;a title=&#34;Prose&#34; href=&#34;http://www.prosemedia.com/&#34; target=&#34;_blank&#34;&gt;Prose&lt;/a&gt; is offering is slightly different than what we will offer. However, it&amp;#8217;s good to keep an eye on them, &amp;#8230; friendly &lt;figure class=&#34;wp-smiley&#34;&gt;
+
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
+    
+
+&lt;/figure&gt; Nice name by the way guys.
+&lt;/p&gt;
 </description>
     </item>
     

@@ -2,6 +2,7 @@
 title: Installer WordPress sur Webfaction
 author: Jice
 date: 2014-03-26
+image: images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png
 url: /2014/03/installer-wordpress-sur-webfaction/
 categories:
   - Informatique
@@ -10,7 +11,6 @@ tags:
   - webfaction
   - wordpress
 ---
-{{< img src="images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png" >}}
 J&#8217;ai récemment découvert l&#8217;<a title="Webfaction - Hébergeur web" href="https://www.webfaction.com/" target="_blank">hébergeur web Webfaction</a> chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&#8217;il souffre pour le moment d&#8217;une lacune de taille pour le marché français : **la doc et le support est en anglais**. Par contre, j&#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés {{<img src="images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" >}}
 
 Webfaction, en gros, c&#8217;est _comme un hébergeur mutualisé_ (où on ne doit pas se concentrer sur la sécurité et l&#8217;installation de toutes les dépendances du serveur) mais avec **plein d&#8217;options pour configurer automatiquement le serveur**. Par exemple, sur un mutu, impossible d&#8217;installer des stacks complexes comme ruby on rails ou node, alors que sur webfaction cela est possible et il n&#8217;y a pas besoin de passer 3 heures à trouver comment installer toutes les dépendances.

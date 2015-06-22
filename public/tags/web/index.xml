@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/web/</link>
-    <description>Recent content in Web on Blog Jice Lavocat</description>
+    <title>Web on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/web/</link>
+    <description>Recent content in Web on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 19 Feb 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web In Provence #1</title>
-      <link>http://localhost:1313/blog/2014/02/web-in-provence-1/</link>
+      <link>http://jice.lavocat.name/blog/2014/02/web-in-provence-1/</link>
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2014/02/web-in-provence-1/</guid>
+      <guid>http://jice.lavocat.name/blog/2014/02/web-in-provence-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -24,7 +24,7 @@
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1413&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;wp-image-1414 alignright&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
     
 
 &lt;/figure&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
@@ -63,7 +63,7 @@
 &lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;figure class=&#34;size-medium wp-image-1415&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;
@@ -82,7 +82,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;figure class=&#34;size-medium wp-image-1417 alignleft&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
@@ -132,7 +132,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
     
 
 &lt;/figure&gt;
@@ -146,14 +146,14 @@
     
     <item>
       <title>Reverse Search : 10 outils pour espionner vos concurrents</title>
-      <link>http://localhost:1313/blog/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</link>
+      <link>http://jice.lavocat.name/blog/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</link>
       <pubDate>Sun, 16 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/08/reverse-search-10-outils-pour-espionner-vos-concurrents/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-816&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg&#34; alt=&#34;detectivehat&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -266,10 +266,10 @@
     
     <item>
       <title>Modéliser la blogosphère</title>
-      <link>http://localhost:1313/blog/2009/07/modeliser-la-blogosphere/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/modeliser-la-blogosphere/</link>
       <pubDate>Sun, 26 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/modeliser-la-blogosphere/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/modeliser-la-blogosphere/</guid>
       <description>&lt;p&gt;Je suis actuellement en train de lire le livre :  &amp;#8220;&lt;a href=&#34;http://www.morganclaypool.com/doi/abs/10.2200/S00213ED1V01Y200907DMK001&#34; target=&#34;_blank&#34;&gt;Modelling and Data Mining the Blogosphere&lt;/a&gt;&amp;#8221; de &lt;a href=&#34;http://www.public.asu.edu/~nagarwa6/&#34; target=&#34;_blank&#34;&gt;N.Agarwal&lt;/a&gt; et &lt;a href=&#34;http://www.public.asu.edu/%7Ehuanliu/&#34; target=&#34;_blank&#34;&gt;H.Liu&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Le livre est un condensé de maths appliquées au web, et spécialement au monde des blogs. Pour vous donner envie de lire le livre, voilà un petit extrait :&lt;/p&gt;
@@ -296,13 +296,13 @@
     
     <item>
       <title>Vivre du web</title>
-      <link>http://localhost:1313/blog/2009/07/vivre-du-web/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/vivre-du-web/</link>
       <pubDate>Sat, 11 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/vivre-du-web/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/vivre-du-web/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-645&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg&#34; alt=&#34;make-money_blog&#34; width=&#34;347&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -322,10 +322,10 @@
     
     <item>
       <title>Google parke vos NDD</title>
-      <link>http://localhost:1313/blog/2009/02/google-parke-vos-ndd/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/google-parke-vos-ndd/</link>
       <pubDate>Sat, 28 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/google-parke-vos-ndd/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/google-parke-vos-ndd/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -418,10 +418,10 @@
     
     <item>
       <title>Script de spam referer automatisé python</title>
-      <link>http://localhost:1313/blog/2009/02/script-de-spam-referer-automatise-python/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/script-de-spam-referer-automatise-python/</link>
       <pubDate>Sun, 15 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/script-de-spam-referer-automatise-python/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/script-de-spam-referer-automatise-python/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Script de Spam Referer automatisé en Python
 &lt;/p&gt;
@@ -429,7 +429,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-119&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -508,14 +508,14 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Résultat de test de spam referers</title>
-      <link>http://localhost:1313/blog/2009/02/resultat-de-test-de-spam-referers/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/resultat-de-test-de-spam-referers/</link>
       <pubDate>Tue, 10 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/resultat-de-test-de-spam-referers/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/resultat-de-test-de-spam-referers/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-143&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg&#34; alt=&#34;seo white hat&#34; width=&#34;140&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg&#34; alt=&#34;seo white hat&#34; width=&#34;140&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -544,14 +544,14 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Je suis un spammeur</title>
-      <link>http://localhost:1313/blog/2009/02/je-suis-un-spammeur/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/je-suis-un-spammeur/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-119&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -659,10 +659,10 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>YaCy Distributed Web Search</title>
-      <link>http://localhost:1313/blog/2009/01/yacy-distributed-web-search/</link>
+      <link>http://jice.lavocat.name/blog/2009/01/yacy-distributed-web-search/</link>
       <pubDate>Sat, 17 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/01/yacy-distributed-web-search/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/01/yacy-distributed-web-search/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Un moteur de recherche P2P &amp;#8230; at home &amp;#8230; enfin à part. Je viens de tomber sur le site de YaCy un projet Open Source un peu à part. J&amp;#8217;espère vous faire un petit article sur ce projet récent, et sur la manière dont le concept et les idées pourraient faire changer radicalement l&amp;#8217;usage d&amp;#8217;internet.
 &lt;/p&gt;
@@ -673,10 +673,10 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Corriger le comportement du composant SEF sur Joomla 1.5 (OVH)</title>
-      <link>http://localhost:1313/blog/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</link>
+      <link>http://jice.lavocat.name/blog/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</link>
       <pubDate>Sun, 24 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/08/corriger-le-comportement-du-composant-sef-sur-joomla-1-5-cas-ovh/</guid>
       <description>
 
 &lt;p&gt;Cet article fait suite à un problème rencontré de manière récurrente par les utilisateurs de Joomla 1.5  et hébérgés sur OVH (mais aussi probablement sur d&amp;#8217;autres hébergeurs). Deux problèmes sont traités dans ce billet.&lt;/p&gt;
@@ -727,10 +727,10 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Générer des pages html dynamiques (changer l’extension php)</title>
-      <link>http://localhost:1313/blog/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</link>
+      <link>http://jice.lavocat.name/blog/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</link>
       <pubDate>Wed, 23 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/07/generer-des-pages-html-dynamiques-changer-lextension-php/</guid>
       <description>
 
 &lt;h3 id=&#34;le-principe:1fba6784f5d5f8dcc47246c506a1dac3&#34;&gt;Le principe :&lt;/h3&gt;
@@ -871,10 +871,10 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Référencement google</title>
-      <link>http://localhost:1313/blog/2008/07/referencement-google/</link>
+      <link>http://jice.lavocat.name/blog/2008/07/referencement-google/</link>
       <pubDate>Wed, 23 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/07/referencement-google/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/07/referencement-google/</guid>
       <description>
 
 &lt;p&gt;&amp;#8212; Article brouillon&amp;#8212;&lt;/p&gt;
@@ -919,10 +919,10 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Rentabiliser son site web</title>
-      <link>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</link>
+      <link>http://jice.lavocat.name/blog/2008/07/rentabiliser-son-site-web/</link>
       <pubDate>Tue, 22 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/07/rentabiliser-son-site-web/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/07/rentabiliser-son-site-web/</guid>
       <description>
 
 &lt;h3 id=&#34;le-principe:1299d733f325b424f2fc042fd21c82e0&#34;&gt;Le principe :&lt;/h3&gt;

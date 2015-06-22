@@ -1,7 +1,7 @@
 ---
 title: 'Web In Provence #1'
 author: Jice
-
+image: "images/posts/oldwordpress/uploads/2014/02/conf.jpg"
 date: 2014-02-19
 url: /2014/02/web-in-provence-1/
 categories:

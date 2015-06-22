@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wordpress on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/wordpress/</link>
-    <description>Recent content in Wordpress on Blog Jice Lavocat</description>
+    <title>Wordpress on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/wordpress/</link>
+    <description>Recent content in Wordpress on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installer WordPress sur Webfaction</title>
-      <link>http://localhost:1313/blog/2014/03/installer-wordpress-sur-webfaction/</link>
+      <link>http://jice.lavocat.name/blog/2014/03/installer-wordpress-sur-webfaction/</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2014/03/installer-wordpress-sur-webfaction/</guid>
+      <guid>http://jice.lavocat.name/blog/2014/03/installer-wordpress-sur-webfaction/</guid>
       <description>
 
-&lt;p&gt;&lt;figure &gt;
+&lt;p&gt;J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; /&gt;
-    
-
-&lt;/figure&gt;
-J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - Hébergeur web&#34; href=&#34;https://www.webfaction.com/&#34; target=&#34;_blank&#34;&gt;hébergeur web Webfaction&lt;/a&gt; chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&amp;#8217;il souffre pour le moment d&amp;#8217;une lacune de taille pour le marché français : &lt;strong&gt;la doc et le support est en anglais&lt;/strong&gt;. Par contre, j&amp;#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés &lt;figure class=&#34;wp-smiley&#34;&gt;
-
-    &lt;img src=&#34;http://localhost:1313/blog//images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -39,7 +33,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1427&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; alt=&#34;Dashboard Webfaction&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png&#34; alt=&#34;Dashboard Webfaction&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -52,7 +46,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1428&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; alt=&#34;Add SSH user&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png&#34; alt=&#34;Add SSH user&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -71,7 +65,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-full wp-image-1431&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/add_website.png&#34; alt=&#34;Ajouter un site web sur Webfaction (panneau principal)&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -80,7 +74,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/create_comain.png&#34; alt=&#34;Ajouter un domaine (webfaction)&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -90,7 +84,7 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
 &lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2014/03/create_application.png&#34;&gt;&lt;figure class=&#34;aligncenter  wp-image-1432&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; alt=&#34;Ajouter une application (webfaction)&#34; width=&#34;600&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/create_application.png&#34; alt=&#34;Ajouter une application (webfaction)&#34; width=&#34;600&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -99,10 +93,10 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
     
     <item>
       <title>Latex on my blog</title>
-      <link>http://localhost:1313/blog/2009/06/test-latex/</link>
+      <link>http://jice.lavocat.name/blog/2009/06/test-latex/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/06/test-latex/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/06/test-latex/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   WordPress permet d&amp;#8217;inclure du Latex dans ses pages grace a un script hébergé sur ses propres serveur. Voila qui va me rendre heureux tout ca :
 &lt;/p&gt;
@@ -193,10 +187,10 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
     
     <item>
       <title>Mise à jour du Blog  – Ajout Photos</title>
-      <link>http://localhost:1313/blog/2009/06/mise-a-jour-du-blog-ajout-photos/</link>
+      <link>http://jice.lavocat.name/blog/2009/06/mise-a-jour-du-blog-ajout-photos/</link>
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/06/mise-a-jour-du-blog-ajout-photos/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/06/mise-a-jour-du-blog-ajout-photos/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance.
 &lt;/p&gt;
@@ -213,10 +207,10 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
     
     <item>
       <title>Thème séléctionné</title>
-      <link>http://localhost:1313/blog/2008/12/theme-selectionne/</link>
+      <link>http://jice.lavocat.name/blog/2008/12/theme-selectionne/</link>
       <pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/12/theme-selectionne/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/12/theme-selectionne/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le thème qui a été retenu pour le premier lancement de mon blog est disponible à l&amp;#8217;adresse suivante : &lt;a title=&#34;Theme WordPress&#34; href=&#34;http://www.jide.fr/english/downloads/freshy2/&#34; target=&#34;_blank&#34;&gt;http://www.jide.fr/english/downloads/freshy2&lt;/a&gt; . D&amp;#8217;une part il est français, et d&amp;#8217;autre part il est plutôt modulable facilement, et assez classe. J&amp;#8217;espère que vous l&amp;#8217;aimerez!
 &lt;/p&gt;
@@ -225,10 +219,10 @@ J&amp;#8217;ai récemment découvert l&amp;#8217;&lt;a title=&#34;Webfaction - H
     
     <item>
       <title>Un thème pour le blog</title>
-      <link>http://localhost:1313/blog/2008/12/un-theme-pour-le-blog/</link>
+      <link>http://jice.lavocat.name/blog/2008/12/un-theme-pour-le-blog/</link>
       <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/12/un-theme-pour-le-blog/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/12/un-theme-pour-le-blog/</guid>
       <description>&lt;p&gt;Je cherche en ce moment un thème à ajouter à ce blog. Pour le moment mes regards se tournent vers la liste : &lt;a title=&#34;Liste de templates wordpress&#34; href=&#34;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&#34;&gt;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[Edit] Pour le prochain thème, j&amp;#8217;irai loucher du côté des galeries de DeviantArt : &lt;a title=&#34;Theme WordPress sur DeviantArt&#34; href=&#34;http://browse.deviantart.com/?qh=&amp;section=&amp;q=wordpress&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://browse.deviantart.com/?qh=&amp;amp;section=&amp;amp;q=wordpress&#34;&gt;http://browse.deviantart.com/?qh=&amp;amp;section=&amp;amp;q=wordpress&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;

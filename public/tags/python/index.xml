@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/python/</link>
-    <description>Recent content in Python on Blog Jice Lavocat</description>
+    <title>Python on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/python/</link>
+    <description>Recent content in Python on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 17 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A script to plot GWL File (for the use of Nanoscribe)</title>
-      <link>http://localhost:1313/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</link>
+      <link>http://jice.lavocat.name/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</link>
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;file:///tmp/moz-screenshot.png&#34; alt=&#34;&#34; /&gt;
 &lt;figure class=&#34;alignleft size-full wp-image-1121&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/describe1.png&#34; alt=&#34;describe - nanoscribe language GWL&#34; width=&#34;106&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/describe1.png&#34; alt=&#34;describe - nanoscribe language GWL&#34; width=&#34;106&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -52,7 +52,7 @@
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/11/tour_eiffel.png&#34;&gt;&lt;figure &gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png&#34; alt=&#34;Tour Eiffel with Nanoscribe&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png&#34; alt=&#34;Tour Eiffel with Nanoscribe&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Grover’s Search Algorithm in Python</title>
-      <link>http://localhost:1313/blog/2009/08/grovers-search-algorithm-in-python/</link>
+      <link>http://jice.lavocat.name/blog/2009/08/grovers-search-algorithm-in-python/</link>
       <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/08/grovers-search-algorithm-in-python/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/08/grovers-search-algorithm-in-python/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   As you may have read in some previous post I am actually working on a modified version of the &lt;a title=&#34;Lee Grover&#34; href=&#34;http://www1.bell-labs.com/user/lkgrover/&#34; target=&#34;_blank&#34;&gt;Grover&lt;/a&gt;&amp;#8216;s &lt;a title=&#34;Grover&#39;s Search Algorithm&#34; href=&#34;http://arxiv.org/abs/quant-ph/9605043&#34; target=&#34;_blank&#34;&gt;Algorithm&lt;/a&gt;. For those who don&amp;#8217;t know the &lt;a title=&#34;Explanations of Grover&#39;s Algorithm&#34; href=&#34;http://www.quantiki.org/wiki/index.php/Grover%27s_search_algorithm&#34; target=&#34;_blank&#34;&gt;principles of Grover&amp;#8217;s Algorithm&lt;/a&gt;, here is a quick explanation.
 &lt;/p&gt;
@@ -90,7 +90,7 @@
 &lt;h2 style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/grover_simple.png&#34;&gt;&lt;figure class=&#34;aligncenter size-thumbnail wp-image-801&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -130,7 +130,7 @@ As you may have read in some previous post I am actually working on a modified v
 &lt;h2 style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/grover_simple.png&#34;&gt;&lt;figure class=&#34;aligncenter size-thumbnail wp-image-801&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -168,7 +168,7 @@ As you may have read in some previous post I am actually working on a modified v
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png&#34;&gt;&lt;figure class=&#34;aligncenter size-thumbnail wp-image-804&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png&#34; alt=&#34;grover_thresh_1&#34; width=&#34;150&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png&#34; alt=&#34;grover_thresh_1&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -195,14 +195,14 @@ As you may have read in some previous post I am actually working on a modified v
     
     <item>
       <title>Python et Google PageRank</title>
-      <link>http://localhost:1313/blog/2009/07/python-et-google-pagerank/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/python-et-google-pagerank/</link>
       <pubDate>Thu, 02 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/python-et-google-pagerank/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/python-et-google-pagerank/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-422&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/06/python.png&#34; alt=&#34;python&#34; width=&#34;75&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/06/python.png&#34; alt=&#34;python&#34; width=&#34;75&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -348,10 +348,10 @@ As you may have read in some previous post I am actually working on a modified v
     
     <item>
       <title>Numpy error – ValueError: setting an array element with sequence</title>
-      <link>http://localhost:1313/blog/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</link>
+      <link>http://jice.lavocat.name/blog/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</link>
       <pubDate>Thu, 04 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   You have struggled during hours and hours to understand why you got this damned error while compiling a complex array structure? I did. In my case I was trying to create an array of the following shape :
 &lt;/p&gt;
@@ -376,7 +376,7 @@ As you may have read in some previous post I am actually working on a modified v
   &lt;p style=&#34;text-align: justify;&#34;&gt;
     Instead, here is the solution I found after 4 hours looking everywhere on the web&amp;#8230; finding nothing. This is my own solution, so if helped you, I would be very glad &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
     
 
 &lt;/figure&gt;
@@ -404,10 +404,10 @@ As you may have read in some previous post I am actually working on a modified v
     
     <item>
       <title>La panoplie du petit chercheur</title>
-      <link>http://localhost:1313/blog/2009/04/la-panoplie-du-petit-chercheur/</link>
+      <link>http://jice.lavocat.name/blog/2009/04/la-panoplie-du-petit-chercheur/</link>
       <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/04/la-panoplie-du-petit-chercheur/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/04/la-panoplie-du-petit-chercheur/</guid>
       <description>&lt;p&gt;A tout ceux qui veulent se lancer dans des sujets scientifiques ou l&amp;#8217;on demandera de coder des choses nouvelles, je conseille le logiciel Python(x,y) qui integre en son sein toutes les bibliotheques python que vous pourrez surement demander un jour.&lt;/p&gt;
 
 &lt;p&gt;A telecharger ici : &lt;a title=&#34;Python(xy)&#34; href=&#34;http://www.pythonxy.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.pythonxy.com&#34;&gt;http://www.pythonxy.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -416,10 +416,10 @@ As you may have read in some previous post I am actually working on a modified v
     
     <item>
       <title>Script de spam referer automatisé python</title>
-      <link>http://localhost:1313/blog/2009/02/script-de-spam-referer-automatise-python/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/script-de-spam-referer-automatise-python/</link>
       <pubDate>Sun, 15 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/script-de-spam-referer-automatise-python/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/script-de-spam-referer-automatise-python/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Script de Spam Referer automatisé en Python
 &lt;/p&gt;
@@ -427,7 +427,7 @@ As you may have read in some previous post I am actually working on a modified v
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-119&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg&#34; alt=&#34;Spammeur SEO&#34; width=&#34;140&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -506,10 +506,10 @@ print(&#34;Nombre d&#39;injections réussies : &#34;+str(nb_ok))
     
     <item>
       <title>Extraire les URLs des résultats Google en python</title>
-      <link>http://localhost:1313/blog/2009/02/extraire-urls-des-resultats-google-en-python/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/extraire-urls-des-resultats-google-en-python/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/extraire-urls-des-resultats-google-en-python/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/extraire-urls-des-resultats-google-en-python/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   J&amp;#8217;ai passé une bonne partie de l&amp;#8217;après-midi à me former à Python. Comme exercice je voulais adapter le script de Tiger sur l&amp;#8217;&lt;a title=&#34;Extraction de résultats google en php&#34; href=&#34;http://www.seoblackout.com/2008/10/26/extraire-resultats-google/&#34; target=&#34;_blank&#34;&gt;extraction de résultats sur google&lt;/a&gt;, en traduisant le php en python.
 &lt;/p&gt;

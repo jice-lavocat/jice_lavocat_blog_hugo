@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Curl on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/curl/</link>
-    <description>Recent content in Curl on Blog Jice Lavocat</description>
+    <title>Curl on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/curl/</link>
+    <description>Recent content in Curl on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 02 Sep 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Comment j’ai triché à Samsung Launching People et pourquoi ils ont bien réagi</title>
-      <link>http://localhost:1313/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
+      <link>http://jice.lavocat.name/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</link>
       <pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
+      <guid>http://jice.lavocat.name/blog/2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/</guid>
       <description>
 
 &lt;p&gt;Toujours en cours actuellement, un concours mis en place par Samsung a récolté une très bonne visibilité sur la blogosphère française : Samsung Launching People. Dans cet article je vous explique comment il était possible de tricher à ce concours et comment Samsung gère la situation d&amp;#8217;une manière intelligente.&lt;/p&gt;
@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1384&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; alt=&#34;Launching People&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2013/09/launching_people-300x230.png&#34; alt=&#34;Launching People&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -207,7 +207,7 @@
 
 &lt;p&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2013/09/samsung.png&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1385&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; alt=&#34;WordiZ sur Launching People&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2013/09/samsung-300x182.png&#34; alt=&#34;WordiZ sur Launching People&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;

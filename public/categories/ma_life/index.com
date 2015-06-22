@@ -5,16 +5,16 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" Ma_life.Com &middot;  Blog Jice Lavocat" />
-  	<meta property="og:site_name" content="Blog Jice Lavocat" />
-  	<meta property="og:url" content="http://localhost:1313/blog/categories/ma_life/index.com/" />
+  	<meta property="og:title" content=" Ma_life.Com &middot;  World Hacks" />
+  	<meta property="og:site_name" content="World Hacks" />
+  	<meta property="og:url" content="http://jice.lavocat.name/blog/categories/ma_life/index.com/" />
     
     
     <meta property="og:type" content="website" />
     
 
   <title>
-     Ma_life.Com &middot;  Blog Jice Lavocat
+     Ma_life.Com &middot;  World Hacks
   </title>
 
     <meta name="description" content="French/English essays about our Digital World, about Nature and Mind" />
@@ -22,24 +22,24 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="http://localhost:1313/blog/images/favicon.ico">
-	  <link rel="apple-touch-icon" href="http://localhost:1313/blog/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="http://jice.lavocat.name/blog/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://jice.lavocat.name/blog/images/apple-touch-icon.png" />
     
-    <link rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://jice.lavocat.name/blog/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
 
 
     
       
-          <link href="http://localhost:1313/blog/index.xml" rel="alternate" type="application/rss+xml" title="Blog Jice Lavocat" />
+          <link href="http://jice.lavocat.name/blog/index.xml" rel="alternate" type="application/rss+xml" title="World Hacks" />
       
       
-        <link href="http://localhost:1313/blog/categories/ma_life.com/index.xml" rel="alternate" type="application/rss+xml" title="Ma_life.Com &middot; Blog Jice Lavocat" />
+        <link href="http://jice.lavocat.name/blog/categories/ma_life.com/index.xml" rel="alternate" type="application/rss+xml" title="Ma_life.Com &middot; World Hacks" />
       
     
     <meta name="generator" content="Hugo 0.14" />
 
-    <link rel="canonical" href="http://localhost:1313/blog/categories/ma_life/index.com/" />
+    <link rel="canonical" href="http://jice.lavocat.name/blog/categories/ma_life/index.com/" />
 
     
     <script>
@@ -77,7 +77,7 @@
     </ul>
     
     
-    <a class="subscribe-button icon-feed" href="http://localhost:1313/blog/categories/ma_life.com/index.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="http://jice.lavocat.name/blog/categories/ma_life.com/index.xml">Subscribe</a>
     
 </div>
 <span class="nav-cover"></span>
@@ -87,11 +87,11 @@
 
 
 
-	<header class="main-header tag-head" style="background-image: url(http://localhost:1313/blog/images/coverCalvi.png)">
+	<header class="main-header tag-head" style="background-image: url(http://jice.lavocat.name/blog/images/coverCalvi.png)">
 
     <nav class="main-nav overlay clearfix">
       
-        <a class="blog-logo" href="http://localhost:1313/blog/"><img src="http://localhost:1313/blog/images/logo.png" alt="Home" /></a>
+        <a class="blog-logo" href="http://jice.lavocat.name/blog/"><img src="http://jice.lavocat.name/blog/images/logo.png" alt="Home" /></a>
       
       
           <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -130,20 +130,20 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/argent/">#Argent</a>,
+                <a href="http://jice.lavocat.name/blog/tags/argent/">#Argent</a>,
             
-                <a href="http://localhost:1313/blog/tags/dollar/">#Dollar</a>,
+                <a href="http://jice.lavocat.name/blog/tags/dollar/">#Dollar</a>,
             
-                <a href="http://localhost:1313/blog/tags/euro/">#Euro</a>,
+                <a href="http://jice.lavocat.name/blog/tags/euro/">#Euro</a>,
             
-                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
+                <a href="http://jice.lavocat.name/blog/tags/international/">#international</a>,
             
         
         <time class="post-date" datetime="2011-11-05T00:00:00Z">
@@ -164,7 +164,7 @@
     <section class="post-excerpt">
         <p><p>[<figure class="alignleft size-full wp-image-655">
 
-    <img src="http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" />
+    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" />
     
 
 <figcaption>
@@ -186,24 +186,24 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/d%C3%A9corations/">#Décorations</a>,
+                <a href="http://jice.lavocat.name/blog/tags/d%C3%A9corations/">#Décorations</a>,
             
-                <a href="http://localhost:1313/blog/tags/fluo/">#Fluo</a>,
+                <a href="http://jice.lavocat.name/blog/tags/fluo/">#Fluo</a>,
             
-                <a href="http://localhost:1313/blog/tags/gothique/">#Gothique</a>,
+                <a href="http://jice.lavocat.name/blog/tags/gothique/">#Gothique</a>,
             
-                <a href="http://localhost:1313/blog/tags/spirituel/">#Spirituel</a>,
+                <a href="http://jice.lavocat.name/blog/tags/spirituel/">#Spirituel</a>,
             
-                <a href="http://localhost:1313/blog/tags/tatouage/">#Tatouage</a>,
+                <a href="http://jice.lavocat.name/blog/tags/tatouage/">#Tatouage</a>,
             
-                <a href="http://localhost:1313/blog/tags/tribal/">#Tribal</a>,
+                <a href="http://jice.lavocat.name/blog/tags/tribal/">#Tribal</a>,
             
         
         <time class="post-date" datetime="2009-07-11T00:00:00Z">
@@ -225,7 +225,7 @@
         <p><p><p style="text-align: justify;">
   <figure class="alignleft size-full wp-image-598">
 
-    <img src="http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" />
+    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" />
     
 
 <figcaption>
@@ -238,16 +238,16 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/meteo/">#Meteo</a>,
+                <a href="http://jice.lavocat.name/blog/tags/meteo/">#Meteo</a>,
             
-                <a href="http://localhost:1313/blog/tags/windsurf/">#Windsurf</a>,
+                <a href="http://jice.lavocat.name/blog/tags/windsurf/">#Windsurf</a>,
             
         
         <time class="post-date" datetime="2009-07-07T00:00:00Z">
@@ -270,7 +270,7 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
@@ -296,18 +296,18 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/plugin-wordpress/">#plugin wordpress</a>,
+                <a href="http://jice.lavocat.name/blog/tags/plugin-wordpress/">#plugin wordpress</a>,
             
-                <a href="http://localhost:1313/blog/tags/theme-wordpress/">#theme wordpress</a>,
+                <a href="http://jice.lavocat.name/blog/tags/theme-wordpress/">#theme wordpress</a>,
             
-                <a href="http://localhost:1313/blog/tags/wordpress/">#wordpress</a>,
+                <a href="http://jice.lavocat.name/blog/tags/wordpress/">#wordpress</a>,
             
         
         <time class="post-date" datetime="2009-06-16T00:00:00Z">
@@ -330,16 +330,16 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/cinema/">#cinema</a>,
+                <a href="http://jice.lavocat.name/blog/tags/cinema/">#cinema</a>,
             
-                <a href="http://localhost:1313/blog/tags/film/">#film</a>,
+                <a href="http://jice.lavocat.name/blog/tags/film/">#film</a>,
             
         
         <time class="post-date" datetime="2009-04-14T00:00:00Z">
@@ -365,14 +365,14 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
+                <a href="http://jice.lavocat.name/blog/tags/international/">#international</a>,
             
         
         <time class="post-date" datetime="2009-02-26T00:00:00Z">
@@ -395,14 +395,14 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
+                <a href="http://jice.lavocat.name/blog/tags/international/">#international</a>,
             
         
         <time class="post-date" datetime="2009-02-26T00:00:00Z">
@@ -431,7 +431,7 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
@@ -456,7 +456,7 @@
         <p><p style="text-align: justify;">
   <figure class="alignleft size-full wp-image-119">
 
-    <img src="http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" />
+    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" />
     
 
 <figcaption>
@@ -484,16 +484,16 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/seo/">#SEO</a>,
+                <a href="http://jice.lavocat.name/blog/tags/seo/">#SEO</a>,
             
-                <a href="http://localhost:1313/blog/tags/web/">#web</a>,
+                <a href="http://jice.lavocat.name/blog/tags/web/">#web</a>,
             
         
         <time class="post-date" datetime="2009-02-04T00:00:00Z">
@@ -516,16 +516,16 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/international/">#international</a>,
+                <a href="http://jice.lavocat.name/blog/tags/international/">#international</a>,
             
-                <a href="http://localhost:1313/blog/tags/physique/">#physique</a>,
+                <a href="http://jice.lavocat.name/blog/tags/physique/">#physique</a>,
             
         
         <time class="post-date" datetime="2009-02-01T00:00:00Z">
@@ -548,14 +548,14 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/musique/">#Musique</a>,
+                <a href="http://jice.lavocat.name/blog/tags/musique/">#Musique</a>,
             
         
         <time class="post-date" datetime="2009-01-25T00:00:00Z">
@@ -580,18 +580,18 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/intelligence/">#intelligence</a>,
+                <a href="http://jice.lavocat.name/blog/tags/intelligence/">#intelligence</a>,
             
-                <a href="http://localhost:1313/blog/tags/machine-learning/">#machine learning</a>,
+                <a href="http://jice.lavocat.name/blog/tags/machine-learning/">#machine learning</a>,
             
-                <a href="http://localhost:1313/blog/tags/s%C3%A9mantique/">#sémantique</a>,
+                <a href="http://jice.lavocat.name/blog/tags/s%C3%A9mantique/">#sémantique</a>,
             
         
         <time class="post-date" datetime="2009-01-08T00:00:00Z">
@@ -619,14 +619,14 @@
     </section>
     <footer class="post-meta">
         
-            <img class="author-thumb" src="http://localhost:1313/blog/images/logo.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="http://jice.lavocat.name/blog/images/logo.png" alt="Author image" nopin="nopin" />
         
         
             Jean-Christophe Lavocat
         
         on 
             
-                <a href="http://localhost:1313/blog/tags/livre/">#livre</a>,
+                <a href="http://jice.lavocat.name/blog/tags/livre/">#livre</a>,
             
         
         <time class="post-date" datetime="2008-12-24T00:00:00Z">
@@ -651,18 +651,15 @@
 
 
     <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Blog Jice Lavocat</a> All rights reserved - 2015</section>
+        <section class="copyright"><a href="">World Hacks</a> All rights reserved - 2015</section>
         
         <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
         
     </footer>
     </div>
-    <script type="text/javascript" src="http://localhost:1313/blog/js/jquery.js"></script>
-    <script type="text/javascript" src="http://localhost:1313/blog/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="http://localhost:1313/blog/js/index.js"></script>
+    <script type="text/javascript" src="http://jice.lavocat.name/blog/js/jquery.js"></script>
+    <script type="text/javascript" src="http://jice.lavocat.name/blog/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://jice.lavocat.name/blog/js/index.js"></script>
 
-<script data-no-instant>document.write('<script src="http://'
-        + (location.host || 'localhost').split(':')[0]
-		+ ':1313/livereload.js?mindelay=10"></'
-        + 'script>')</script></body>
+</body>
 </html>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Source on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/open-source/</link>
-    <description>Recent content in Open Source on Blog Jice Lavocat</description>
+    <title>Open Source on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/open-source/</link>
+    <description>Recent content in Open Source on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Fri, 12 Jun 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[Ressources] Gérer son entreprise en Open Source</title>
-      <link>http://localhost:1313/blog/2009/06/ressources-gerer-son-entreprise-en-open-source/</link>
+      <link>http://jice.lavocat.name/blog/2009/06/ressources-gerer-son-entreprise-en-open-source/</link>
       <pubDate>Fri, 12 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/06/ressources-gerer-son-entreprise-en-open-source/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/06/ressources-gerer-son-entreprise-en-open-source/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Je suis en pleine recherche d&amp;#8217;une &lt;strong&gt;solution basique&lt;/strong&gt; pour assurer la gestion de mes clients/ventes/contacts. En gros je recherche un petit outils open source qui correspond a un &lt;strong&gt;CRM/ERP&lt;/strong&gt;.  Je suis tombé ce matin sur un projet qui a l&amp;#8217;air français, Dolibarr : &lt;a title=&#34;Dolibarr ERP / CRM&#34; href=&#34;http://www.dolibarr.fr&#34; target=&#34;_blank&#34;&gt;http://www.dolibarr.fr&lt;/a&gt; . Il me plait bien et a l&amp;#8217;air beaucoup plus simple qu&amp;#8217;un tueur comme &lt;strong&gt;VTiger&lt;/strong&gt; (&lt;a title=&#34;VTiger CRM&#34; href=&#34;http://www.vtiger.com&#34; target=&#34;_blank&#34;&gt;http://www.vtiger.com&lt;/a&gt;). Mais avant de l&amp;#8217;installer  j&amp;#8217;ai voulu faire le tour des solutions existantes.
 &lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;span style=&#34;text-decoration: line-through;&#34;&gt;Le but premier de ce portail ( réalisé sous Plone &amp;#8230; on dirait pas hein  &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_wink.gif&#34; alt=&#34;;-)&#34; /&gt;
     
 
 &lt;/figure&gt;  ) est de fournir le livre blanc publié par Bull : &lt;em&gt;Open Source : De la révolution à la maturité. &lt;/em&gt;Un conseil : &lt;strong&gt;ne prenez pas la peine de le télécharger&lt;/strong&gt;, il n&amp;#8217;y a que de la pub pour Bull.&lt;/span&gt;
@@ -40,7 +40,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   [Après l&amp;#8217;avoir un peu parcouru] Je suis un peu déçu. Il ne compare même pas Joomla dans la section CMS, alors que je suis fan de sa simplicité &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_sad.gif&#34; alt=&#34;:-(&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_sad.gif&#34; alt=&#34;:-(&#34; /&gt;
     
 
 &lt;/figure&gt; Ce qui veut donc dire (bon, c&amp;#8217;est pas grave) qu&amp;#8217;ils ne parlent que de ce qu&amp;#8217;ils connaissent et intègrent en temps normal. &lt;span style=&#34;text-decoration: line-through;&#34;&gt;J&amp;#8217;ai finalement porté mon choix sur Dolibbar qui a l&amp;#8217;avantage d&amp;#8217;être gratuit, d&amp;#8217;origine française, simple &amp;#8230; et le nom me plait. NovaForge en parle, mais ne le teste pas : http://www.novaforge.org/novaforge/fr-selectionner/erp-pgi&lt;/span&gt;

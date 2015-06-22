@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sciences on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/categories/sciences/</link>
-    <description>Recent content in Sciences on Blog Jice Lavocat</description>
+    <title>Sciences on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/categories/sciences/</link>
+    <description>Recent content in Sciences on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Sat, 20 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/categories/sciences/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/categories/sciences/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Un nanomoteur électrique</title>
-      <link>http://localhost:1313/blog/2010/11/un-nanomoteur-electrique/</link>
+      <link>http://jice.lavocat.name/blog/2010/11/un-nanomoteur-electrique/</link>
       <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/11/un-nanomoteur-electrique/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/11/un-nanomoteur-electrique/</guid>
       <description>&lt;p&gt;Une équipe de l&amp;#8217;&lt;a title=&#34;TU Delft&#34; href=&#34;http://www.tudelft.nl/en/&#34; target=&#34;_blank&#34;&gt;université de Delft&lt;/a&gt; en Hollande (où est récemment arrivé mon ami &lt;a title=&#34;Pierre Bathelemy&#34; href=&#34;http://sites.google.com/site/barthelemyprofessional/&#34; target=&#34;_blank&#34;&gt;Pierre Bathelemy&lt;/a&gt; pour faire son Post-Doc) a récemment mis au point le concept de nanomoteur électrique. Celui-ci est encore théorique, mais pourrait voir le jour dans un proche futur.&lt;/p&gt;
 
 &lt;p&gt;Le concept, mis au point par &lt;strong&gt;Johannes S. Seldenthuis&lt;/strong&gt; et son équipe, se base sur une &lt;strong&gt;longue chaine moléculaire polaire&lt;/strong&gt;. Lors de l&amp;#8217;application d&amp;#8217;un champs électrique altérnatif, le &lt;a title=&#34;Dipole electrostatique&#34; href=&#34;http://fr.wikipedia.org/wiki/Moment_dipolaire&#34; target=&#34;_blank&#34;&gt;dipôle&lt;/a&gt; est attiré alternativement vers le haut ou le bas, mettant ainsi le moteur en rotation.&lt;/p&gt;
@@ -24,7 +24,7 @@
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/nn-2010-021499_0002-295x300.gif&#34; alt=&#34;Nano-moteur&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/nn-2010-021499_0002-295x300.gif&#34; alt=&#34;Nano-moteur&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -37,14 +37,14 @@
     
     <item>
       <title>A script to plot GWL File (for the use of Nanoscribe)</title>
-      <link>http://localhost:1313/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</link>
+      <link>http://jice.lavocat.name/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</link>
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;file:///tmp/moz-screenshot.png&#34; alt=&#34;&#34; /&gt;
 &lt;figure class=&#34;alignleft size-full wp-image-1121&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/describe1.png&#34; alt=&#34;describe - nanoscribe language GWL&#34; width=&#34;106&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/describe1.png&#34; alt=&#34;describe - nanoscribe language GWL&#34; width=&#34;106&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -77,7 +77,7 @@
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/11/tour_eiffel.png&#34;&gt;&lt;figure &gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png&#34; alt=&#34;Tour Eiffel with Nanoscribe&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png&#34; alt=&#34;Tour Eiffel with Nanoscribe&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>How to use the Scattered formalism using Comsol Multiphysics</title>
-      <link>http://localhost:1313/blog/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</link>
+      <link>http://jice.lavocat.name/blog/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</link>
       <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   After my last post about &amp;#8216;&lt;a title=&#34;Far field Comsol&#34; href=&#34;http://localhost/oldblog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/&#34;&gt;getting the scattered far field using ComsolRF module&lt;/a&gt; &amp;#8216; a bunch of problems appeared. Actually, the definition of the incident field, using a line of current is wrong. It prevent the PML to work nicely, and thus, the overall field (and of course the scattered field) will be wrong.
 &lt;/p&gt;
@@ -139,7 +139,7 @@
 &lt;p style=&#34;padding-left: 60px;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/06/comsol_plane.png&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1077&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -166,10 +166,10 @@
     
     <item>
       <title>How-to get the electromagnetic scattered far field using Comsol RF Module</title>
-      <link>http://localhost:1313/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
+      <link>http://jice.lavocat.name/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
       <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -200,7 +200,7 @@
 &lt;div id=&#34;attachment_1053&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/setting_base.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1053&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -238,7 +238,7 @@
 &lt;div id=&#34;attachment_1055&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Setting_normal.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1055&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -276,7 +276,7 @@
 &lt;div id=&#34;attachment_1057&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Efar.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1057&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -325,7 +325,7 @@
 &lt;div id=&#34;attachment_1061&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1062&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -363,7 +363,7 @@
   &lt;div id=&#34;attachment_1064&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
     &lt;em&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1064&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -391,10 +391,10 @@
     
     <item>
       <title>Classement des universités internationales</title>
-      <link>http://localhost:1313/blog/2009/07/classement-des-universites-internationales/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/classement-des-universites-internationales/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/classement-des-universites-internationales/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/classement-des-universites-internationales/</guid>
       <description>&lt;p&gt;Tout le monde connait le classement mondial effectué par l&amp;#8217;université de Shangai : &lt;a href=&#34;http://www.arwu.org/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.arwu.org/&#34;&gt;http://www.arwu.org/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Mais un article wikipedia permet d&amp;#8217;affiner sa recherche par région du monde : &lt;a href=&#34;http://en.wikipedia.org/wiki/College_and_university_rankings&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/College_and_university_rankings&#34;&gt;http://en.wikipedia.org/wiki/College_and_university_rankings&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -403,10 +403,10 @@
     
     <item>
       <title>Financement pour stages/études/thèses à l’étranger</title>
-      <link>http://localhost:1313/blog/2009/07/financement-pour-stagesetudestheses-a-letranger/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/financement-pour-stagesetudestheses-a-letranger/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/financement-pour-stagesetudestheses-a-letranger/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/financement-pour-stagesetudestheses-a-letranger/</guid>
       <description>
 
 &lt;h2 id=&#34;stages:1769f22ab37406e53ddc40ab9c807ce8&#34;&gt;Stages :&lt;/h2&gt;
@@ -457,10 +457,10 @@
     
     <item>
       <title>Thèse en cotutelle – Les étapes</title>
-      <link>http://localhost:1313/blog/2009/07/these-en-cotutelle-les-etapes/</link>
+      <link>http://jice.lavocat.name/blog/2009/07/these-en-cotutelle-les-etapes/</link>
       <pubDate>Sun, 19 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/07/these-en-cotutelle-les-etapes/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/07/these-en-cotutelle-les-etapes/</guid>
       <description>&lt;p&gt;Pour connaitre les étapes d&amp;#8217;une thèse en cotutelle, je vous conseille le site web suivant :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Thèse en cotutelle&#34; href=&#34;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&#34;&gt;http://www.univmed.fr/relations_internationales/default.aspx?id=68122&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -469,10 +469,10 @@
     
     <item>
       <title>La panoplie du petit chercheur</title>
-      <link>http://localhost:1313/blog/2009/04/la-panoplie-du-petit-chercheur/</link>
+      <link>http://jice.lavocat.name/blog/2009/04/la-panoplie-du-petit-chercheur/</link>
       <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/04/la-panoplie-du-petit-chercheur/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/04/la-panoplie-du-petit-chercheur/</guid>
       <description>&lt;p&gt;A tout ceux qui veulent se lancer dans des sujets scientifiques ou l&amp;#8217;on demandera de coder des choses nouvelles, je conseille le logiciel Python(x,y) qui integre en son sein toutes les bibliotheques python que vous pourrez surement demander un jour.&lt;/p&gt;
 
 &lt;p&gt;A telecharger ici : &lt;a title=&#34;Python(xy)&#34; href=&#34;http://www.pythonxy.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.pythonxy.com&#34;&gt;http://www.pythonxy.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -481,10 +481,10 @@
     
     <item>
       <title>LateX portable</title>
-      <link>http://localhost:1313/blog/2009/04/latex-portable/</link>
+      <link>http://jice.lavocat.name/blog/2009/04/latex-portable/</link>
       <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/04/latex-portable/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/04/latex-portable/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Ce post s&amp;#8217;adressse aux utilisateurs de windows qui aiment utiliserMikteX. Une nouvelle version portable devrait bientot voir le jour.
 &lt;/p&gt;
@@ -513,10 +513,10 @@
     
     <item>
       <title>Connaitre l’autorité d’un chercheur</title>
-      <link>http://localhost:1313/blog/2009/02/connaitre-lautorite-dun-chercheur/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/connaitre-lautorite-dun-chercheur/</link>
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/connaitre-lautorite-dun-chercheur/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/connaitre-lautorite-dun-chercheur/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   En cherchant un peu comment connaitre la &amp;#8220;célébrité&amp;#8221; de mes deux candidats-tuteurs pour le stage, j&amp;#8217;ai découvert (merci à &lt;a title=&#34;Ludovic Escoubas&#34; href=&#34;http://www.im2np.fr/perso/escoubas.html&#34; target=&#34;_blank&#34;&gt;Ludovic Escoubas&lt;/a&gt; pour l&amp;#8217;information) que cela se basait sur le &lt;a title=&#34;h-index&#34; href=&#34;http://en.wikipedia.org/wiki/H-index&#34; target=&#34;_blank&#34;&gt;h-index&lt;/a&gt;.
 &lt;/p&gt;
@@ -571,10 +571,10 @@
     
     <item>
       <title>Cours sur le web sémantique</title>
-      <link>http://localhost:1313/blog/2009/02/cours-sur-le-web-semantique/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/cours-sur-le-web-semantique/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/cours-sur-le-web-semantique/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/cours-sur-le-web-semantique/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Un petit post pour vous donner des liens concernant le web sémantique. A l&amp;#8217;origine ce thread sur Facebook : &lt;a title=&#34;Cours sur le web sémantique&#34; href=&#34;http://www.facebook.com/group.php?sid=a1ac36aed290f27e620b1594536f34ba&amp;gid=27810627729#/topic.php?uid=2220211728&amp;topic=7994&#34; target=&#34;_blank&#34;&gt;Semantic web courses&lt;/a&gt;.
 &lt;/p&gt;
@@ -587,14 +587,14 @@
     
     <item>
       <title>Des blogs sur la neurologie</title>
-      <link>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/des-blogs-sur-la-neurologie/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-74&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -641,14 +641,14 @@
     
     <item>
       <title>Les plus belles idées du monde</title>
-      <link>http://localhost:1313/blog/2009/02/les-plus-belles-idees-du-monde/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/les-plus-belles-idees-du-monde/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/les-plus-belles-idees-du-monde/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/les-plus-belles-idees-du-monde/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-90&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -747,10 +747,10 @@
     
     <item>
       <title>Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</title>
-      <link>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</link>
+      <link>http://jice.lavocat.name/blog/2009/02/stage-these-postdoc-physique-etranger/</link>
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/02/stage-these-postdoc-physique-etranger/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/02/stage-these-postdoc-physique-etranger/</guid>
       <description>&lt;p&gt;Suite à ma recherche de stage à l&amp;#8217;étranger, voilà une jolie petite liste compilée par l&amp;#8217;université d&amp;#8217;Adelaide :&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Liste jobs physique&#34; href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.physics.adelaide.edu.au/jobs/Jobs.html&#34;&gt;http://www.physics.adelaide.edu.au/jobs/Jobs.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -763,10 +763,10 @@
     
     <item>
       <title>Projet Flowers</title>
-      <link>http://localhost:1313/blog/2009/01/projet-flowers/</link>
+      <link>http://jice.lavocat.name/blog/2009/01/projet-flowers/</link>
       <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/01/projet-flowers/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/01/projet-flowers/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le &lt;strong&gt;machine learning&lt;/strong&gt;, l&amp;#8217;a&lt;strong&gt;pprentissage sémantique&lt;/strong&gt;, et l&amp;#8217;&lt;strong&gt;acquisition d&amp;#8217;un langage&lt;/strong&gt;.
 &lt;/p&gt;
@@ -782,7 +782,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure &gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
     
 
 &lt;figcaption&gt;

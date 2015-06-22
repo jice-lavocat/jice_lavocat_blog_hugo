@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Image Map on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/image-map/</link>
-    <description>Recent content in Image Map on Blog Jice Lavocat</description>
+    <title>Image Map on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/image-map/</link>
+    <description>Recent content in Image Map on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 09 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/image-map/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/image-map/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How-to : Make a SEF image-map navigation system with Joomla</title>
-      <link>http://localhost:1313/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
+      <link>http://jice.lavocat.name/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</link>
       <pubDate>Tue, 09 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -48,7 +48,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-1023&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -99,7 +99,7 @@
 
 &lt;p&gt;Moreover you can use breadcrumbs &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;

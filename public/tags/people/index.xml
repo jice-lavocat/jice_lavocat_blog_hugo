@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>People on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/people/</link>
-    <description>Recent content in People on Blog Jice Lavocat</description>
+    <title>People on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/people/</link>
+    <description>Recent content in People on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 19 Feb 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/people/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web In Provence #1</title>
-      <link>http://localhost:1313/blog/2014/02/web-in-provence-1/</link>
+      <link>http://jice.lavocat.name/blog/2014/02/web-in-provence-1/</link>
       <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2014/02/web-in-provence-1/</guid>
+      <guid>http://jice.lavocat.name/blog/2014/02/web-in-provence-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -24,7 +24,7 @@
 
 &lt;p&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1413&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png&#34; alt=&#34;Stack Exchange Logo&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;wp-image-1414 alignright&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png&#34; alt=&#34;Link Party&#34; width=&#34;144&#34; /&gt;
     
 
 &lt;/figure&gt;Avant de présenter l&amp;#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&amp;#8217;ai beaucoup aimé la mise en ligne d&amp;#8217;une liste des participants avant la tenue de la soirée (&lt;a title=&#34;Link Party - WIP14&#34; href=&#34;http://www.webinprovence.fr/link-party-wip2014/&#34; target=&#34;_blank&#34;&gt;Link Party&lt;/a&gt;). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&amp;#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&amp;#8230;
@@ -63,7 +63,7 @@
 &lt;div id=&#34;attachment_1415&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;figure class=&#34;size-medium wp-image-1415&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg&#34; alt=&#34;Wip#1&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;
@@ -82,7 +82,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Le WIP#1 aura été pour moi l&amp;#8217;occasion de faire un bon lot de rencontres. &lt;figure class=&#34;size-medium wp-image-1417 alignleft&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg&#34; alt=&#34;Business Card&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;/figure&gt;J&amp;#8217;y allais initialement pour rencontrer Laurent Jean de l&amp;#8217;&lt;a title=&#34;MediaCrea - Agence Web Marseille&#34; href=&#34;http://www.mediacrea.com/&#34; target=&#34;_blank&#34;&gt;agence web Mediacrea&lt;/a&gt;. Une des choses qui m&amp;#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&amp;#8217;étais ravi de voir qu&amp;#8217;il y avait autant de professionnels des deux sexes.
@@ -132,7 +132,7 @@
 &lt;p style=&#34;text-align: justify;&#34;&gt;
   Beaucoup de marseillais et d&amp;#8217;aixois. Peu de toulonnais&amp;#8230; une prochaine fois on pourra peut être déplacer un peu l&amp;#8217;event vers le Var &lt;figure class=&#34;wp-smiley&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif&#34; alt=&#34;:-)&#34; /&gt;
     
 
 &lt;/figure&gt;

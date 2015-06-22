@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Livre on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/livre/</link>
-    <description>Recent content in Livre on Blog Jice Lavocat</description>
+    <title>Livre on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/livre/</link>
+    <description>Recent content in Livre on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 24 Dec 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/livre/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/livre/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lectures de vacances</title>
-      <link>http://localhost:1313/blog/2008/12/lectures-de-vacances/</link>
+      <link>http://jice.lavocat.name/blog/2008/12/lectures-de-vacances/</link>
       <pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2008/12/lectures-de-vacances/</guid>
+      <guid>http://jice.lavocat.name/blog/2008/12/lectures-de-vacances/</guid>
       <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   Voilà la liste des livres que j&amp;#8217;ai emporté durant ces vacances. Je trouve qu&amp;#8217;il vont tous très bien ensemble, et je suis ravi d&amp;#8217;avoir fait ce choix. Les deux livres scientifiques, sur l&amp;#8217;information quantique et sur les aspects quantique de la vie biologique, se complètent très bien. De même, le livre de Laborit (plutôt philosophique) et celui de Covey (plutôt management) se réponde l&amp;#8217;un l&amp;#8217;autre sur l&amp;#8217;effet des représentations mentales que se fait l&amp;#8217;homme sur ses façons de décider (ou de s&amp;#8217;en croire libre).
 &lt;/p&gt;
@@ -30,7 +30,7 @@
   &lt;li&gt;
     &lt;a href=&#34;http://www.amazon.fr/gp/product/275400081X?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=275400081X&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-full wp-image-34&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/510jr-82a8l_sl160_.jpg&#34; alt=&#34;Les 7 habitudes&#34; width=&#34;73&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2008/12/510jr-82a8l_sl160_.jpg&#34; alt=&#34;Les 7 habitudes&#34; width=&#34;73&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -52,7 +52,7 @@
   &lt;li&gt;
     &lt;a href=&#34;http://www.amazon.fr/gp/product/2070322831?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=2070322831&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignleft size-full wp-image-37&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/415eas69zml_sl160_.jpg&#34; alt=&#34;Eloge de la fuite&#34; width=&#34;79&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2008/12/415eas69zml_sl160_.jpg&#34; alt=&#34;Eloge de la fuite&#34; width=&#34;79&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -72,7 +72,7 @@
   &lt;li&gt;
     &lt;a href=&#34;http://www.amazon.fr/gp/product/3540667784?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=3540667784&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-medium wp-image-30&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/417zzkoetfl_sl160_.jpg&#34; alt=&#34;The Physics of Quantum Information&#34; width=&#34;74&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2008/12/417zzkoetfl_sl160_.jpg&#34; alt=&#34;The Physics of Quantum Information&#34; width=&#34;74&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -90,7 +90,7 @@
   &lt;li&gt;
     &lt;a href=&#34;http://www.amazon.fr/gp/product/1848162677?ie=UTF8&amp;tag=jicelavo-21&amp;linkCode=as2&amp;camp=1642&amp;creative=19458&amp;creativeASIN=1848162677&#34; target=&#34;_blank&#34;&gt;&lt;figure class=&#34;alignnone size-full wp-image-32&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2008/12/51k5jqdlogl_sl160_.jpg&#34; alt=&#34;Quantum Aspects of Life&#34; width=&#34;73&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2008/12/51k5jqdlogl_sl160_.jpg&#34; alt=&#34;Quantum Aspects of Life&#34; width=&#34;73&#34; /&gt;
     
 
 &lt;figcaption&gt;

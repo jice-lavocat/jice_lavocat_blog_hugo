@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Electromagnetism on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/electromagnetism/</link>
-    <description>Recent content in Electromagnetism on Blog Jice Lavocat</description>
+    <title>Electromagnetism on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/electromagnetism/</link>
+    <description>Recent content in Electromagnetism on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 27 Apr 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/electromagnetism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/electromagnetism/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How-to get the electromagnetic scattered far field using Comsol RF Module</title>
-      <link>http://localhost:1313/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
+      <link>http://jice.lavocat.name/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</link>
       <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
       <description>
 
 &lt;p style=&#34;text-align: justify;&#34;&gt;
@@ -46,7 +46,7 @@
 &lt;div id=&#34;attachment_1053&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/setting_base.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1053&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -84,7 +84,7 @@
 &lt;div id=&#34;attachment_1055&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Setting_normal.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1055&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -122,7 +122,7 @@
 &lt;div id=&#34;attachment_1057&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Efar.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1057&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -171,7 +171,7 @@
 &lt;div id=&#34;attachment_1061&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1062&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -209,7 +209,7 @@
   &lt;div id=&#34;attachment_1064&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
     &lt;em&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1064&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; width=&#34;300&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;

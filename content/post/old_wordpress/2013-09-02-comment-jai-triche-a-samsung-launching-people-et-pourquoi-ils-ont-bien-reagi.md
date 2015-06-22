@@ -1,7 +1,7 @@
 ---
 title: Comment j’ai triché à Samsung Launching People et pourquoi ils ont bien réagi
 author: Jice
-
+image: "images/posts/oldwordpress/uploads/2013/09/samsung.png"
 date: 2013-09-02
 url: /2013/09/comment-jai-triche-a-samsung-launching-people-et-pourquoi-ils-ont-bien-reagi/
 factory_sociallocker_include_assets:

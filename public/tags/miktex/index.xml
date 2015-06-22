@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Miktex on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/miktex/</link>
-    <description>Recent content in Miktex on Blog Jice Lavocat</description>
+    <title>Miktex on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/miktex/</link>
+    <description>Recent content in Miktex on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 08 Sep 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/miktex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/miktex/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Utiliser Latex avec Notepad&#43;&#43;</title>
-      <link>http://localhost:1313/blog/2009/09/utiliser-latex-avec-notepad/</link>
+      <link>http://jice.lavocat.name/blog/2009/09/utiliser-latex-avec-notepad/</link>
       <pubDate>Tue, 08 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2009/09/utiliser-latex-avec-notepad/</guid>
+      <guid>http://jice.lavocat.name/blog/2009/09/utiliser-latex-avec-notepad/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction:3f3cbd32965f94890320523dfbe6f6ab&#34;&gt;Introduction :&lt;/h3&gt;

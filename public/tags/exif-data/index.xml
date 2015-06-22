@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exif Data on Blog Jice Lavocat</title>
-    <link>http://localhost:1313/blog/tags/exif-data/</link>
-    <description>Recent content in Exif Data on Blog Jice Lavocat</description>
+    <title>Exif Data on World Hacks</title>
+    <link>http://jice.lavocat.name/blog/tags/exif-data/</link>
+    <description>Recent content in Exif Data on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Fri, 05 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/exif-data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://jice.lavocat.name/blog/tags/exif-data/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Geotagger ses Photos numériques</title>
-      <link>http://localhost:1313/blog/2010/02/geotagger-ses-photos-numeriques/</link>
+      <link>http://jice.lavocat.name/blog/2010/02/geotagger-ses-photos-numeriques/</link>
       <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/2010/02/geotagger-ses-photos-numeriques/</guid>
+      <guid>http://jice.lavocat.name/blog/2010/02/geotagger-ses-photos-numeriques/</guid>
       <description>&lt;p&gt;&lt;figure class=&#34;alignleft&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://www.uberphones.com/photos/2008/2/geotagging.jpg&#34; width=&#34;250&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://www.uberphones.com/photos/2008/2/geotagging.jpg&#34; width=&#34;250&#34; /&gt;
     
 
 &lt;figcaption&gt;
@@ -66,7 +66,7 @@
 
 &lt;p&gt;&lt;figure class=&#34;alignnone&#34;&gt;
 
-    &lt;img src=&#34;http://localhost:1313/blog//http://www.itechnews.net/wp-content/uploads/2008/12/nikon-gp-1-dongle-for-geotagging.jpg&#34; alt=&#34;GPS &amp;#43; Nikon = Geotagging&#34; width=&#34;350&#34; /&gt;
+    &lt;img src=&#34;http://jice.lavocat.name/blog//http://www.itechnews.net/wp-content/uploads/2008/12/nikon-gp-1-dongle-for-geotagging.jpg&#34; alt=&#34;GPS &amp;#43; Nikon = Geotagging&#34; width=&#34;350&#34; /&gt;
     
 
 &lt;/figure&gt;&lt;/p&gt;
