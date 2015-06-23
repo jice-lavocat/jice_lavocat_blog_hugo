@@ -1,7 +1,7 @@
 +++
 date = "2015-06-23T14:15:22+02:00"
 title = "Facebook enters the authorship race"
-
+url= "facebook_enters_authorship_race"
 +++
 
 For those who know me, you know that I have been terribly impacted by Google's decision to stop promoting the **authorship tag**. This feature gave me the opportunity, at that time, to work toward my first startup project called **Elokenz**.
