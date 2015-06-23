@@ -66,12 +66,12 @@
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="/blog/">My Blog</a>
+            	<a href="http://jice.lavocat.name/blog/">My Blog</a>
             </li>
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="/blog/about/">About me</a>
+            	<a href="http://jice.lavocat.name/blog/about/">About me</a>
             </li>
         
     </ul>
@@ -123,10 +123,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/">How to transfer money from USD ($) to EUR (€) accounts</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts">How to transfer money from USD ($) to EUR (€) accounts</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Since I will soon have to transfer my money from an USD ($) bank account (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English. <a class="read-more" href="/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/">&raquo;</a></p>
+        <p>Since I will soon have to transfer my money from an USD ($) bank account (Wells-Fargo) to France (in EUR €), I had to look around to find the best solution. With the help of one friend, I started discovering some solutions last year ; but none of them were satisfying. I thus looked a little bit more on forums and found two interesting threads. One is unfortunately in French (google translate it if you want) , but hopefully the most interesting one is in English. <a class="read-more" href="http://jice.lavocat.name/blog/2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -159,7 +159,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/07/art-tribal/">Art Tribal</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/07/art-tribal">Art Tribal</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p>[<figure class="alignleft size-full wp-image-655">
@@ -182,7 +182,7 @@
 </ul>
 
 <p>(Note : L&#8217;image ci-dessus est propriété exclusive de Lucas Zpira)</p>
- <a class="read-more" href="/blog/2009/07/art-tribal/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2009/07/art-tribal">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -219,7 +219,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/07/comment-checker-la-meteo/">Comment checker la météo ?</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/07/comment-checker-la-meteo">Comment checker la météo ?</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p><p style="text-align: justify;">
@@ -234,7 +234,7 @@
 </figcaption>
 
 </figure>Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&#8217;expérience.</p>
- <a class="read-more" href="/blog/2009/07/comment-checker-la-meteo/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2009/07/comment-checker-la-meteo">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -263,10 +263,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/06/le-vocabulaire-du-web/">Le vocabulaire du web</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/06/le-vocabulaire-du-web">Le vocabulaire du web</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Tu es en plein dans une discussion avec un contact msn, et il t&#8217;écrit, d&#8217;un coup : &#8216; osef &#8216;. Ok, tu fais semblant de comprendre en pensant que son coude à glisser sur son clavier. Ensuite il te dit : &#8216;pg&#8217; . Bon, là tu peux plus comprendre si t&#8217;es pas du milieux. Pour traduire le vocabulaire français l&#8217;habitude suffit parfois, mais pour le vocabulaire anglais c&#8217;est plus dur. Voilà pour les &#8216;noobs&#8217; une page qui en reprend certains de ces termes. <a class="read-more" href="/blog/2009/06/le-vocabulaire-du-web/">&raquo;</a></p>
+        <p>Tu es en plein dans une discussion avec un contact msn, et il t&#8217;écrit, d&#8217;un coup : &#8216; osef &#8216;. Ok, tu fais semblant de comprendre en pensant que son coude à glisser sur son clavier. Ensuite il te dit : &#8216;pg&#8217; . Bon, là tu peux plus comprendre si t&#8217;es pas du milieux. Pour traduire le vocabulaire français l&#8217;habitude suffit parfois, mais pour le vocabulaire anglais c&#8217;est plus dur. Voilà pour les &#8216;noobs&#8217; une page qui en reprend certains de ces termes. <a class="read-more" href="http://jice.lavocat.name/blog/2009/06/le-vocabulaire-du-web">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -289,10 +289,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/06/mise-a-jour-du-blog-ajout-photos/">Mise à jour du Blog  – Ajout Photos</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/06/mise-a-jour-du-blog-ajout-photos">Mise à jour du Blog  – Ajout Photos</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance. J&#8217;ai donc pris un peu de temps pour changer le thème de mon blog car l&#8217;ancien ne me plaisait plus. Le thème en question (Digital Statement) est un thème gratuit de : http://www.blogohblog.com. J&#8217;ai de plus ajouté le plugin Fotobook qui permet de relier ses album Facebook à son blog. <a class="read-more" href="/blog/2009/06/mise-a-jour-du-blog-ajout-photos/">&raquo;</a></p>
+        <p>Ca y est, je viens de finir mon rapport de stage de M2, et je me suis pris une demi matinée de vacance. J&#8217;ai donc pris un peu de temps pour changer le thème de mon blog car l&#8217;ancien ne me plaisait plus. Le thème en question (Digital Statement) est un thème gratuit de : http://www.blogohblog.com. J&#8217;ai de plus ajouté le plugin Fotobook qui permet de relier ses album Facebook à son blog. <a class="read-more" href="http://jice.lavocat.name/blog/2009/06/mise-a-jour-du-blog-ajout-photos">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -323,10 +323,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/04/listes-de-films/">Listes de films</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/04/listes-de-films">Listes de films</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Voila ci-dessous deux listes de films que j&#8217;aimerais voir : http://eddieonfilm.blogspot.com/2005/12/foreign-art.html http://www.themorningnews.org/archives/reviews/mindfuck_movies.php Et vous, vous aimez ? <a class="read-more" href="/blog/2009/04/listes-de-films/">&raquo;</a></p>
+        <p>Voila ci-dessous deux listes de films que j&#8217;aimerais voir : http://eddieonfilm.blogspot.com/2005/12/foreign-art.html http://www.themorningnews.org/archives/reviews/mindfuck_movies.php Et vous, vous aimez ? <a class="read-more" href="http://jice.lavocat.name/blog/2009/04/listes-de-films">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -355,13 +355,13 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/02/obtenir-un-visa-j-1/">Obtenir un Visa J-1</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/02/obtenir-un-visa-j-1">Obtenir un Visa J-1</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
   Afin de partir travailler au pair ou faire un stage aux Etats-Unis, vous aurez besoin d&#8217;un Visa J-1. Dans ce post, je vais décrire les différentes étapes que je vais être appelé à mener pour obtenir ce fameux Visa &#8230; qui normalement est assez long à obtenir (comme les autres VISAs us).
 </p>
- <a class="read-more" href="/blog/2009/02/obtenir-un-visa-j-1/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/obtenir-un-visa-j-1">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -388,10 +388,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/02/obtenir-une-carte-verte-visa-usa/">Obtenir une carte verte (Visa USA)</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/02/obtenir-une-carte-verte-visa-usa">Obtenir une carte verte (Visa USA)</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Pour obtenir une carte verte, le gouvernement américain propose une loterie GRATUITE (ne vous fiez pas aux multiples services payants qui ne servent à rien) pour obtenir le fameux sésame. Pour plus d&#8217;informations, consulter la notice officielle : T1026V-DV-2010bulletin(3).pdf (Objet application/pdf N&#8217;oubliez pas que les dates pour s&#8217;inscrire à cette loterie sont très strictes : Octobre à Décembre, pas plus! <a class="read-more" href="/blog/2009/02/obtenir-une-carte-verte-visa-usa/">&raquo;</a></p>
+        <p>Pour obtenir une carte verte, le gouvernement américain propose une loterie GRATUITE (ne vous fiez pas aux multiples services payants qui ne servent à rien) pour obtenir le fameux sésame. Pour plus d&#8217;informations, consulter la notice officielle : T1026V-DV-2010bulletin(3).pdf (Objet application/pdf N&#8217;oubliez pas que les dates pour s&#8217;inscrire à cette loterie sont très strictes : Octobre à Décembre, pas plus! <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/obtenir-une-carte-verte-visa-usa">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -418,7 +418,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/02/quel-stage-choisir/">Lettre ouverte à mes professeurs : quel stage choisir</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/02/quel-stage-choisir">Lettre ouverte à mes professeurs : quel stage choisir</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
@@ -427,7 +427,7 @@
 
 <p><p style="text-align: justify;">
   Ce mail est un peu long et à pour thème le choix de mon stage de fin d&#8217;année</p>
- <a class="read-more" href="/blog/2009/02/quel-stage-choisir/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/quel-stage-choisir">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -450,7 +450,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/02/je-suis-un-spammeur/">Je suis un spammeur</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur">Je suis un spammeur</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
@@ -480,7 +480,7 @@
 </p>
 
 <p><p style="text-align: justify;"></p>
- <a class="read-more" href="/blog/2009/02/je-suis-un-spammeur/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -509,10 +509,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/02/stage-these-postdoc-physique-etranger/">Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/02/stage-these-postdoc-physique-etranger">Trouver un stage/thèse/postdoc à l’étranger dans le domaine de la physique</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Suite à ma recherche de stage à l&#8217;étranger, voilà une jolie petite liste compilée par l&#8217;université d&#8217;Adelaide : http://www.physics.adelaide.edu.au/jobs/Jobs.html Les sites les plus connus sont listés en premiers! <a class="read-more" href="/blog/2009/02/stage-these-postdoc-physique-etranger/">&raquo;</a></p>
+        <p>Suite à ma recherche de stage à l&#8217;étranger, voilà une jolie petite liste compilée par l&#8217;université d&#8217;Adelaide : http://www.physics.adelaide.edu.au/jobs/Jobs.html Les sites les plus connus sont listés en premiers! <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/stage-these-postdoc-physique-etranger">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -541,10 +541,10 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/01/des-webradios-a-themes/">Des webradios à thèmes</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/01/des-webradios-a-themes">Des webradios à thèmes</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Dans ce post je vais faire la liste des webradios à thèmes que je rencontre au fil de mes navigations sur le web. Qu&#8217;il s&#8217;agisse de webradios worldmusic, ambient, techno, house, chillout ou autre, je les listerai un peu en désordre. Sur cette liste ne figureront pas trop de radios reggae, rock, rap etc. Ces genres musiquaux se retrouvent très facilement sur des sites comme Deezer par exemple, et il ne m&#8217;est donc pas nécessaire de trouver des webradio pour en écouter, et pour découvrir de nouveaux titres. <a class="read-more" href="/blog/2009/01/des-webradios-a-themes/">&raquo;</a></p>
+        <p>Dans ce post je vais faire la liste des webradios à thèmes que je rencontre au fil de mes navigations sur le web. Qu&#8217;il s&#8217;agisse de webradios worldmusic, ambient, techno, house, chillout ou autre, je les listerai un peu en désordre. Sur cette liste ne figureront pas trop de radios reggae, rock, rap etc. Ces genres musiquaux se retrouvent très facilement sur des sites comme Deezer par exemple, et il ne m&#8217;est donc pas nécessaire de trouver des webradio pour en écouter, et pour découvrir de nouveaux titres. <a class="read-more" href="http://jice.lavocat.name/blog/2009/01/des-webradios-a-themes">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -571,12 +571,12 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2009/01/projet-flowers/">Projet Flowers</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/01/projet-flowers">Projet Flowers</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p><p style="text-align: justify;">
   Le projet FLOWERS vise à attribuer à des robots une curiosité, et une envie intrinsèque de découverte. Les thématiques de ce projet couvrent le <strong>machine learning</strong>, l&#8217;a<strong>pprentissage sémantique</strong>, et l&#8217;<strong>acquisition d&#8217;un langage</strong>.</p>
- <a class="read-more" href="/blog/2009/01/projet-flowers/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2009/01/projet-flowers">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -607,7 +607,7 @@
 	   
 <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/blog/2008/12/lectures-de-vacances/">Lectures de vacances</a></h2>
+        <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2008/12/lectures-de-vacances">Lectures de vacances</a></h2>
     </header>
     <section class="post-excerpt">
         <p><p style="text-align: justify;">
@@ -615,7 +615,7 @@
 </p>
 
 <p><p style="text-align: justify;"></p>
- <a class="read-more" href="/blog/2008/12/lectures-de-vacances/">&raquo;</a></p>
+ <a class="read-more" href="http://jice.lavocat.name/blog/2008/12/lectures-de-vacances">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         

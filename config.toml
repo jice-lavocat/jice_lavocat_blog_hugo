@@ -7,7 +7,7 @@ paginate = 15
 DisqusShortname = "jicelavocat"
 Copyright = "All rights reserved - 2015"
 theme = "casper_jice"
-
+canonifyurls = true
 
 [params]
   description = "French/English essays about our Digital World, about Nature and Mind"
