@@ -5,10 +5,87 @@
     <link>http://jice.lavocat.name/blog/post/</link>
     <description>Recent content in Posts on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
+    <language>en-us</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Wed, 26 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2015 14:15:22 +0200</lastBuildDate>
     <atom:link href="http://jice.lavocat.name/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Facebook enters the authorship race</title>
+      <link>http://jice.lavocat.name/blog/post/facebook_enters_authorship_race/</link>
+      <pubDate>Tue, 23 Jun 2015 14:15:22 +0200</pubDate>
+      
+      <guid>http://jice.lavocat.name/blog/post/facebook_enters_authorship_race/</guid>
+      <description>
+
+&lt;p&gt;For those who know me, you know that I have been terribly impacted by Google&amp;rsquo;s decision to stop promoting the &lt;strong&gt;authorship tag&lt;/strong&gt;. This feature gave me the opportunity, at that time, to work toward my first startup project called &lt;strong&gt;Elokenz&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Google&amp;rsquo;s decision took many people by surprise, and I was very sad the day George Muller &lt;a href=&#34;https://plus.google.com/u/0/+JohnMueller/posts/HZf3KDP1Dm8&#34;&gt;announced it on Google+&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://apis.google.com/js/plusone.js&#34;&gt;&lt;/script&gt;
+
+&lt;!-- Place this tag where you want the widget to render. --&gt;
+
+&lt;p&gt;&lt;div class=&#34;g-post&#34; data-href=&#34;https://plus.google.com/+JohnMueller/posts/HZf3KDP1Dm8&#34;&gt;&lt;/div&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;facebook-new-decision-to-showcase-authors:c607594bb427d1a62000574638646972&#34;&gt;Facebook new decision to showcase authors&lt;/h2&gt;
+
+&lt;p&gt;In a press release published on June 18th, Facebook officially announced that the social network will &lt;a href=&#34;http://media.fb.com/2015/06/18/using-author-tags-to-grow-your-audience/&#34;&gt;support a new author tag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jice.lavocat.name/blog/images/posts/facebook_authorship/melissa-korn-follow.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tag will add extra information when people share your post on Facebook. You know that exactly what it already does with the thumbnail, the title and summary. You can search about &lt;a href=&#34;http://ogp.me/&#34;&gt;og:tags&lt;/a&gt; if you are not already familiar with that technology. Tons of plugins exist to have them in your source if you use a wide-public CMS ( &lt;a href=&#34;https://wordpress.org/plugins/tags/open-graph&#34;&gt;wordpress&lt;/a&gt; , &lt;a href=&#34;http://extensions.joomla.org/extensions/extension?searchall=open+graph&amp;amp;filter[tags][]=&amp;amp;filter[core_catid]=&amp;amp;filter[includes]=&amp;amp;filter[versions]=&amp;amp;filter[type]=&amp;amp;filter[hasdemo]=&amp;amp;order=&amp;amp;filter[newupdated]=&amp;amp;filter[score]=&amp;amp;filter[favourites]=&amp;amp;dir=DESC&amp;amp;limitstart=0&amp;amp;controller=filter&amp;amp;view=extension&amp;amp;layout=list&amp;amp;Itemid=145&amp;amp;clearorders=0&amp;amp;clearfilters=1&#34;&gt;joomla&lt;/a&gt;, &amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;As you can see on the above picture, the new tag will be displayed under your photo summary and people can start following you. I didn&amp;rsquo;t get if they were following your Facebook profile, or if a new feature was present which would be like a RSS feed for authors (any idea?).&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-use-it-on-your-site:c607594bb427d1a62000574638646972&#34;&gt;How to use it on your site ?&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s a great opportunity for bloggers/journalists to showcase their work. So how to turn it on ? Well, it&amp;rsquo;s quite easy as with other OG tags. You just need to add a new line to your meta section. Here is a sample example :&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #ffffff&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;head&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;prefix=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #007700&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;meta&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;property=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;fb:app_id&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;content=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;302184056577324&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #007700&#34;&gt;/&amp;gt;&lt;/span&gt; 
+  &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;meta&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;property=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;og:type&amp;quot;&lt;/span&gt;   &lt;span style=&#34;color: #0000CC&#34;&gt;content=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;article&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #007700&#34;&gt;/&amp;gt;&lt;/span&gt; 
+  &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;meta&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;property=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;og:url&amp;quot;&lt;/span&gt;    &lt;span style=&#34;color: #0000CC&#34;&gt;content=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;http://jice.lavocat.name/blog/article_slug&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #007700&#34;&gt;/&amp;gt;&lt;/span&gt; 
+  &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;meta&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;property=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;og:title&amp;quot;&lt;/span&gt;  &lt;span style=&#34;color: #0000CC&#34;&gt;content=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;My Super Sample Article&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #007700&#34;&gt;/&amp;gt;&lt;/span&gt; 
+  &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;meta&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;property=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;og:image&amp;quot;&lt;/span&gt;  &lt;span style=&#34;color: #0000CC&#34;&gt;content=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;https://s-static.ak.fbcdn.net/images/devsite/attachment_blank.png&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #007700&#34;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #007700&#34;&gt;&amp;lt;meta&lt;/span&gt; &lt;span style=&#34;color: #0000CC&#34;&gt;property=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;article:author&amp;quot;&lt;/span&gt;   &lt;span style=&#34;color: #0000CC&#34;&gt;content=&lt;/span&gt;&lt;span style=&#34;background-color: #fff0f0&#34;&gt;&amp;quot;https://www.facebook.com/jean.christophe.gomez.lavocat&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #007700&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You can see the last line who is using the &lt;em&gt;article:author&lt;/em&gt; property. The associated content could either be a URL to your profile, or your facebook id. From the announcement, it also seems that one can use the URL of a facebook page :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Journalists who manage a Facebook Profile will need to ensure “follow” is turned on on their profile. Journalists who manage a Facebook Page do not need to take any additional action steps.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Anyway, my personal opinion about authorship is that human should use it, not organization. There is (at Google) a different tag for that, for a better semantic. So, tagging your article with a Facebook page has less meaning for me.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-schema-org:c607594bb427d1a62000574638646972&#34;&gt;What about schema.org ?&lt;/h2&gt;
+
+&lt;p&gt;Those who have used the Google+ authorship attribution in the past will wonder why their old tag is not already working for Facebook.&lt;/p&gt;
+
+&lt;p&gt;There is mainly two reasons :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;first : with Google, you had to put a link toward Google+, and now you have to put a link toward your Facebook profile (seems obvious right) .&lt;/li&gt;
+&lt;li&gt;second : the syntax used by Google was based on the widely adopted &lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt;. Facebook never participated in the development of this syntax. It has its own syntax (Open Graph tags).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;a-new-era-for-authors:c607594bb427d1a62000574638646972&#34;&gt;A new era for authors&lt;/h2&gt;
+
+&lt;p&gt;I am really really glad that Facebook took this move. I am in favor of a better link between content and their creators, and (even if Facebook graph is still an obscure black box) this announcement comes as real positive news.&lt;/p&gt;
+
+&lt;p&gt;It might be the occasion for me to start again on the main feature of &lt;strong&gt;Elokenz&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading my first post in a long long while.&lt;/p&gt;
+
+&lt;h3 id=&#34;additional-reading:c607594bb427d1a62000574638646972&#34;&gt;Additional reading&lt;/h3&gt;
+
+&lt;p&gt;The news is not fresh, so you might find other valuable info elsewhere, especially on Social Media Hat&amp;rsquo; &lt;a href=&#34;https://twitter.com/mike_allton&#34;&gt;@Mike_Alton&lt;/a&gt; post: &lt;a href=&#34;http://www.thesocialmediahat.com/news/facebook-adds-authorship-bloggers-take-note-06192015&#34;&gt;Facebook Adds Authorship. Bloggers Take Note!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Installer WordPress sur Webfaction</title>
@@ -1418,48 +1495,6 @@ $items_per_page = $category_id == 0 ? 3 : $params-&amp;gt;get(&#39;config.items_
 &lt;p&gt;Bien cordialement,&lt;/p&gt;
 
 &lt;p&gt;Daniel Nicollet&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>La pub tuera-t-elle les spammeurs?</title>
-      <link>http://jice.lavocat.name/blog/2010/11/la-pub-tuera-t-elle-les-spammeurs/</link>
-      <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
-      
-      <guid>http://jice.lavocat.name/blog/2010/11/la-pub-tuera-t-elle-les-spammeurs/</guid>
-      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Ils l&amp;#8217;ont trouvée la solution qui viendra peut être à bout des &lt;span style=&#34;text-decoration: line-through;&#34;&gt;script kiddies&lt;/span&gt; spammeurs, ceux qui utilisent par exemple XRummer (logiciel qui permet l&amp;#8217;envoi automatique de commentaires/messages forum avec des liens spammy). Mais de quoi s&amp;#8217;agit-il?
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a title=&#34;NuCaptcha&#34; href=&#34;http://www.nucaptcha.com&#34; target=&#34;_blank&#34;&gt;NuCaptcha&lt;/a&gt; est une société basée à Vancouver qui propose une solution plutôt élégante de &lt;strong&gt;captcha &lt;/strong&gt;(enfin, tout est relatif, moi je préférerais voir des animaux qui gambadent dans la forêt au printemps). En effet, au lieu de vous afficher des lettres tordues à déchiffrer ou un calcul à résoudre, il s&amp;#8217;agit là de &lt;strong&gt;regarder un petit spot vidéo&lt;/strong&gt; dans lequel un &lt;strong&gt;message publicitaire&lt;/strong&gt; passe. Votre mission? Lire le texte et extraire certaines lettres (en rouge par exemple). Exemple ci-dessous :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-   
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;figure &gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png&#34; alt=&#34;Pub Nucaptcha&#34; width=&#34;300&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;Pub Nucaptcha&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Voilà, à présent le captcha entre encore plus dans le monde de la surconsommation. On avait déjà vu celui de &lt;a title=&#34;ReCaptcha&#34; href=&#34;http://www.google.com/recaptcha&#34; target=&#34;_blank&#34;&gt;recaptcha&lt;/a&gt;, de google, qui lui permettait de &lt;strong&gt;digitaliser ses livres&lt;/strong&gt; avec plus de précision. Là on passe au niveau supérieur.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Qu&amp;#8217;en pensez-vous?
-&lt;/p&gt;
 </description>
     </item>
     
