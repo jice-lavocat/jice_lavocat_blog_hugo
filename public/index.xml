@@ -5,7 +5,7 @@
     <link>http://jice.lavocat.name/blog/</link>
     <description>Recent content on World Hacks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fr-FR</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Tue, 23 Jun 2015 14:15:22 +0200</lastBuildDate>
     <atom:link href="http://jice.lavocat.name/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -55,7 +55,11 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;You can see the last line who is using the &lt;em&gt;article:author&lt;/em&gt; property. The associated content could either be a URL to your profile, or your facebook id. From the announcement, it also seems that one can use the URL of a facebook page :&lt;/p&gt;
+&lt;p&gt;You can see the last line who is using the &lt;em&gt;article:author&lt;/em&gt; property. The associated content could either be a URL to your profile, or your facebook id. In order to test your implementation, you can use Facebook &lt;a href=&#34;https://developers.facebook.com/tools/debug/&#34;&gt;Debug Tool&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;should-the-author-be-a-human-or-a-page:c607594bb427d1a62000574638646972&#34;&gt;Should the author be a Human or a Page ?&lt;/h2&gt;
+
+&lt;p&gt;From the announcement, it also seems that one can use the URL of a facebook page :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Journalists who manage a Facebook Profile will need to ensure “follow” is turned on on their profile. Journalists who manage a Facebook Page do not need to take any additional action steps.
 &lt;/code&gt;&lt;/pre&gt;

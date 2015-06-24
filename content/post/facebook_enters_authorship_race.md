@@ -41,7 +41,10 @@ It's a great opportunity for bloggers/journalists to showcase their work. So how
   <meta property="article:author"   content="https://www.facebook.com/jean.christophe.gomez.lavocat" /> 
 {{< /highlight >}}
 
-You can see the last line who is using the *article:author* property. The associated content could either be a URL to your profile, or your facebook id. From the announcement, it also seems that one can use the URL of a facebook page :
+You can see the last line who is using the *article:author* property. The associated content could either be a URL to your profile, or your facebook id. In order to test your implementation, you can use Facebook [Debug Tool](https://developers.facebook.com/tools/debug/).
+
+## Should the author be a Human or a Page ?
+ From the announcement, it also seems that one can use the URL of a facebook page :
 	
 	Journalists who manage a Facebook Profile will need to ensure “follow” is turned on on their profile. Journalists who manage a Facebook Page do not need to take any additional action steps.
 
