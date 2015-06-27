@@ -1,6 +1,5 @@
 +++
 date = "2015-06-27T12:26:12+02:00"
-draft = true
 title = "E1 conference 2015 in Toulon - Problem Solved - Recaps"
 image = "/images/posts/2015/e1_conference.jpg" 
 
