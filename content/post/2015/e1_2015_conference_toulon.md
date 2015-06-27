@@ -2,7 +2,7 @@
 date = "2015-06-27T12:26:12+02:00"
 title = "E1 conference 2015 in Toulon - Problem Solved - Recaps"
 image = "/images/posts/2015/e1_conference.jpg" 
-
+url = "2015/e1-conference-2015-in-toulon-problem-solved-recaps"
 +++
 
 (Cover photo - credit  {{<twitto loiclemay>}})
@@ -154,3 +154,6 @@ It was the first time for me to attend **E1 conference**. I spent a really nice 
 
 I have not been involved in the organization this year (too many events made it impossible for me) but I hope that next year will be different, and if you read that, I hope you'll be able to attend :-) 
 
+## More readings
+
+https://larlet.fr/david/blog/2015/travail-transition/

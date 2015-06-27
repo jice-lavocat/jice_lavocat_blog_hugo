@@ -9,6 +9,9 @@ Copyright = "All rights reserved - 2015"
 theme = "casper_jice"
 canonifyurls = true
 
+[permalinks]
+  post= "/:year/:title/"
+
 [params]
   Description = "French/English essays about our Digital World, about Nature and Mind"
   cover = "images/coverCalvi.png"
@@ -27,6 +30,7 @@ canonifyurls = true
   linkedinName = "9743130"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+  
 
 [[menu.main]]
   name = "My Blog"
