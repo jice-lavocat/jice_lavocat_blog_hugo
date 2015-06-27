@@ -191,40 +191,12 @@
     
 
 <figcaption>
+	&lt;invalid Value&gt;
     <h4>Undecided</h4>
     
 </figcaption>
 
-</figure>.
-  </p></p>
-
-<p><p>
-    Voilà la solution : juste après
-  </p></p>
-
-<p><p>
-    defined( &#8216;_JEXEC&#8217; ) or die( &#8216;Restricted access&#8217; );
-  </p></p>
-
-<p><p>
-    J&#8217;ai mis les lignes suivantes (et j&#8217;ai laissé le reste du fichier error.php inchangé par rapport à celui d&#8217;origine) :
-  </p></p>
-
-<p><p>
-    if ($this-&gt;error-&gt;code = &#8216;404&#8217;) {<br /> header(&#8220;HTTP/1.0 404 Not Found&#8221;);<br /> $url=&#8221;<a href="http://www.mon-site.fr/index.php?option=com_content&amp;view=article&amp;id=16&amp;Itemid=14&amp;#8243;">http://www.mon-site.fr/index.php?option=com_content&amp;view=article&amp;id=16&amp;Itemid=14&amp;#8243;</a>; //adresse article 404<br /> $result= file_get_contents($url);<br /> echo $result;
-  </p></p>
-
-<p><p>
-    exit;<br /> }
-  </p></p>
-
-<p><p>
-    Le script prend alors bien en compte l&#8217;URL demandée par le visiteur.
-  </p></p>
-
-<p><p>
-    Par contre, <strong>j&#8217;aurais besoin de vos commentaires</strong> : je n&#8217;ai pas l&#8217;impression que ce script google marche très bien. Est-ce le cas pour vous? Sur joomla ou non?
-  </p></p>
+</figure></p>
 
     </section>
 

@@ -65,40 +65,12 @@
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;Undecided&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;.
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    Voilà la solution : juste après
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    defined( &amp;#8216;_JEXEC&amp;#8217; ) or die( &amp;#8216;Restricted access&amp;#8217; );
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    J&amp;#8217;ai mis les lignes suivantes (et j&amp;#8217;ai laissé le reste du fichier error.php inchangé par rapport à celui d&amp;#8217;origine) :
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    if ($this-&amp;gt;error-&amp;gt;code = &amp;#8216;404&amp;#8217;) {&lt;br /&gt; header(&amp;#8220;HTTP/1.0 404 Not Found&amp;#8221;);&lt;br /&gt; $url=&amp;#8221;&lt;a href=&#34;http://www.mon-site.fr/index.php?option=com_content&amp;amp;view=article&amp;amp;id=16&amp;amp;Itemid=14&amp;amp;#8243;&#34;&gt;http://www.mon-site.fr/index.php?option=com_content&amp;amp;view=article&amp;amp;id=16&amp;amp;Itemid=14&amp;amp;#8243;&lt;/a&gt;; //adresse article 404&lt;br /&gt; $result= file_get_contents($url);&lt;br /&gt; echo $result;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    exit;&lt;br /&gt; }
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    Le script prend alors bien en compte l&amp;#8217;URL demandée par le visiteur.
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;
-    Par contre, &lt;strong&gt;j&amp;#8217;aurais besoin de vos commentaires&lt;/strong&gt; : je n&amp;#8217;ai pas l&amp;#8217;impression que ce script google marche très bien. Est-ce le cas pour vous? Sur joomla ou non?
-  &lt;/p&gt;&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

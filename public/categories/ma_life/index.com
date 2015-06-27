@@ -165,27 +165,7 @@
         <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/07/art-tribal">Art Tribal</a></h2>
     </header>
     <section class="post-excerpt">
-        <p><p>[<figure class="alignleft size-full wp-image-655">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" />
-    
-
-<figcaption>
-    <h4>bodyart</h4>
-    
-</figcaption>
-
-</figure>][1]Vu sur le site : <a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic" target="_blank"><a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic">http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic</a></a></p>
-
-<p>La suite du message reprend la liste de sites. Pour ma part je préfère</p>
-
-<ul>
-<li>Luke Brown : <a href="http://spectraleyes.com/">http://spectraleyes.com/</a></li>
-<li>Lucas Zpira : <a href="http://www.blowyourmind-production.com/" target="_blank"><a href="http://www.blowyourmind-production.com">http://www.blowyourmind-production.com</a></a></li>
-</ul>
-
-<p>(Note : L&#8217;image ci-dessus est propriété exclusive de Lucas Zpira)</p>
- <a class="read-more" href="http://jice.lavocat.name/blog/2009/07/art-tribal">&raquo;</a></p>
+        <p>[ &lt;invalid Value&gt; bodyart <a class="read-more" href="http://jice.lavocat.name/blog/2009/07/art-tribal">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -225,19 +205,7 @@
         <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/07/comment-checker-la-meteo">Comment checker la météo ?</a></h2>
     </header>
     <section class="post-excerpt">
-        <p><p><p style="text-align: justify;">
-  <figure class="alignleft size-full wp-image-598">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg" alt="rose-des-vents" width="150" />
-    
-
-<figcaption>
-    <h4>rose-des-vents</h4>
-    
-</figcaption>
-
-</figure>Une des plus grande qualités du funboarder repose sur sa connaissance des conditions météorologiques. Si vous préparez votre matos pendant une demi-heure, que vous chargez péniblement votre van/voiture pendant une heure, que vous vous payez 1h30 de route pour arriver sur un spot où la pétole reigne, il y a de fortes chances pour que vous soyez souvent dégouté de ce genre d&#8217;expérience.</p>
- <a class="read-more" href="http://jice.lavocat.name/blog/2009/07/comment-checker-la-meteo">&raquo;</a></p>
+        <p>&lt;invalid Value&gt; rose-des-vents <a class="read-more" href="http://jice.lavocat.name/blog/2009/07/comment-checker-la-meteo">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -456,34 +424,7 @@
         <h2 class="post-title"><a href="http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur">Je suis un spammeur</a></h2>
     </header>
     <section class="post-excerpt">
-        <p><p style="text-align: justify;">
-  <figure class="alignleft size-full wp-image-119">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" />
-    
-
-<figcaption>
-    <h4>Spammeur SEO</h4>
-    
-</figcaption>
-
-</figure>&#8230; mais je me soigne.
-</p>
-
-<p style="text-align: justify;">
-  Voici ci-dessous une petite liste pour les apprentis spammeurs que vous êtes (normal, sinon vous n&#8217;auriez pas cliqué sur un lien menant vers cet article).
-</p>
-
-<p style="text-align: justify;">
-  Dans la suite de cet article nous ne parlerons pas de spam d&#8217;emails comme la plupart des gens l&#8217;entendent car ils ne connaissent que ça. Nous parlerons de spam de liens. Ces liens sont les bases même du SEO (référencement en anglais). Vous avez déjà sûrement en tête l&#8217;exemple de google bombing qui a fait le tour de la planète : le &#8216;<a title="Exemple Google bombing" href="http://googleblog.blogspot.com/2005/09/googlebombing-failure.html" target="_blank">miserable failure</a>&#8216; qui liait vers la page officielle de G.W Bush à la maison blanche.
-</p>
-
-<p style="text-align: justify;">
-  Dans la suite vous apprendrez donc à quoi ça sert, à qui, et comment s&#8217;en servir!
-</p>
-
-<p><p style="text-align: justify;"></p>
- <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur">&raquo;</a></p>
+        <p>&lt;invalid Value&gt; Spammeur SEO <a class="read-more" href="http://jice.lavocat.name/blog/2009/02/je-suis-un-spammeur">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         

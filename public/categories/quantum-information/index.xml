@@ -32,109 +32,19 @@
   Bellow I put the picture representing the evolution (step after step) of the probability to observe the correct answer. You can see the oscillations that are well explained by geometrical description of this algorithm.
 &lt;/p&gt;
 
-&lt;h2 style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;h2 style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/grover_simple.png&#34;&gt;&lt;figure class=&#34;aligncenter size-thumbnail wp-image-801&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;grover_simple&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Python Code
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Bellow you&amp;#8217;ll find the code associated to this example. You&amp;#8217;ll also be able to visualize the animation of the probabilities distribution according to the time.  The code is written in &lt;a title=&#34;Python&#34; href=&#34;http://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; and requires &lt;a title=&#34;Numpy&#34; href=&#34;http://numpy.scipy.org/&#34; target=&#34;_blank&#34;&gt;Numpy&lt;/a&gt; to work. The associated functions classes are not useful for this simple case, but you&amp;#8217;ll understand in the coming post why I need them.
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/Grover.zip&#34;&gt;Grover Algorithm &amp;#8211; Python&lt;/a&gt; (run &lt;em&gt;python grover.py&lt;/em&gt;)[&lt;p style=&#34;text-align: justify;&#34;&gt;
-As you may have read in some previous post I am actually working on a modified version of the &lt;a title=&#34;Lee Grover&#34; href=&#34;http://www1.bell-labs.com/user/lkgrover/&#34; target=&#34;_blank&#34;&gt;Grover&lt;/a&gt;&amp;#8216;s &lt;a title=&#34;Grover&#39;s Search Algorithm&#34; href=&#34;http://arxiv.org/abs/quant-ph/9605043&#34; target=&#34;_blank&#34;&gt;Algorithm&lt;/a&gt;. For those who don&amp;#8217;t know the &lt;a title=&#34;Explanations of Grover&#39;s Algorithm&#34; href=&#34;http://www.quantiki.org/wiki/index.php/Grover%27s_search_algorithm&#34; target=&#34;_blank&#34;&gt;principles of Grover&amp;#8217;s Algorithm&lt;/a&gt;, here is a quick explanation.
-&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  We have a function $$f : \mathbb{Z}_2^n\rightarrow \mathbb{Z}_2$$ that is True for only one $$a \in \mathbb{Z}_2^n$$. We also have a quantum oracle that returns the value of the function f. Classicaly, finding the value of $$a$$ will take n-1 steps. With the quantum version (Grover&amp;#8217;s Algorithm) it takes only $$\sqrt{n}$$ steps.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  The idea (without explanations) is to take an equally distributed weights vector as input $$x$$, and to iterate a sequence of unitary operations during a certain amount of time.  After this given number of steps a measurement on the input vector is made, and is has been proved that we will observed the correct answer with probability 1. The number of steps is proportional to $$\sqrt{n}$$.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Bellow I put the picture representing the evolution (step after step) of the probability to observe the correct answer. You can see the oscillations that are well explained by geometrical description of this algorithm.
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/grover_simple.png&#34;&gt;&lt;figure class=&#34;aligncenter size-thumbnail wp-image-801&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png&#34; alt=&#34;grover_simple&#34; width=&#34;150&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;grover_simple&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Python Code
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Bellow you&amp;#8217;ll find the code associated to this example. You&amp;#8217;ll also be able to visualize the animation of the probabilities distribution according to the time.  The code is written in &lt;a title=&#34;Python&#34; href=&#34;http://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; and requires &lt;a title=&#34;Numpy&#34; href=&#34;http://numpy.scipy.org/&#34; target=&#34;_blank&#34;&gt;Numpy&lt;/a&gt; to work. The associated functions classes are not useful for this simple case, but you&amp;#8217;ll understand in the coming post why I need them.
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/Grover.zip&#34;&gt;Grover Algorithm &amp;#8211; Python&lt;/a&gt; (run &lt;em&gt;python grover.py&lt;/em&gt;)]&lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/Grover.zip&#34;&gt;1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Interesting fact:
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  If you use more than one correct possible answer (as in the case of perceptron learning) and a different matrix (namely with two -1 instead of only one), the behaviour could be close to the Grover&amp;#8217;s Algorithm. Since I was studying perceptron, I implemented a function that output an oracle given a certain threshold. If this threshold is 0, then only one correct answer exist. If it&amp;#8217;s one, then n+1 correct answers are possible &amp;#8230; but they are all in relation with the initial &lt;strong&gt;teacher&lt;/strong&gt;.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  If we fix the teacher, select a threshold of 1, and use the matrix H.diag(-1,1,&amp;#8230;,1,-1).H and apply the same algorithm we get the following probability distribution for the teacher :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png&#34;&gt;&lt;figure class=&#34;aligncenter size-thumbnail wp-image-804&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png&#34; alt=&#34;grover_thresh_1&#34; width=&#34;150&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;grover_thresh_1&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;p style=&#34;text-align: justify;&#34;&gt;
-    If you want to use my code, you have to put &lt;em&gt;teachers=mat_teacher_bin(N,1) &lt;/em&gt;on line 36 and uncomment line 69
-  &lt;/p&gt;
-  
-
-&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
-    Explainations? For the moment none. But I plan to read the following paper : &lt;a href=&#34;http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6V1G-4MMWHMX-1&amp;_user=10&amp;_rdoc=1&amp;_fmt=&amp;_orig=search&amp;_sort=d&amp;_docanchor=&amp;view=c&amp;_searchStrId=980896614&amp;_rerunOrigin=google&amp;_acct=C000050221&amp;_version=1&amp;_urlVersion=0&amp;_userid=10&amp;md5=7c1272e80f23322e994db33251e2d2df&#34; target=&#34;_blank&#34;&gt;Improved bond in Oracle identification&lt;/a&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

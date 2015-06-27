@@ -28,27 +28,19 @@
    
 &lt;/p&gt;
 
-&lt;p style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;figure &gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png&#34; alt=&#34;Pub Nucaptcha&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;Pub Nucaptcha&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Voilà, à présent le captcha entre encore plus dans le monde de la surconsommation. On avait déjà vu celui de &lt;a title=&#34;ReCaptcha&#34; href=&#34;http://www.google.com/recaptcha&#34; target=&#34;_blank&#34;&gt;recaptcha&lt;/a&gt;, de google, qui lui permettait de &lt;strong&gt;digitaliser ses livres&lt;/strong&gt; avec plus de précision. Là on passe au niveau supérieur.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Qu&amp;#8217;en pensez-vous?
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

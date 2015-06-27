@@ -28,10 +28,6 @@
     
 
 &lt;/figure&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Pour en savoir plus : &lt;a title=&#34;Nanomoteur&#34; href=&#34;http://pubs.acs.org/doi/full/10.1021/nn1021499&#34; target=&#34;_blank&#34;&gt;http://pubs.acs.org/doi/full/10.1021/nn1021499&lt;/a&gt;
-&lt;/p&gt;
 </description>
     </item>
     
@@ -41,52 +37,18 @@
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
       
       <guid>http://jice.lavocat.name/blog/2010/11/a-script-to-plot-gwl-file-for-the-use-of-nanoscribe/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;file:///tmp/moz-screenshot.png&#34; alt=&#34;&#34; /&gt;
-&lt;figure class=&#34;alignleft size-full wp-image-1121&#34;&gt;
+      <description>&lt;p&gt;![][1]&lt;figure class=&#34;alignleft size-full wp-image-1121&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/describe1.png&#34; alt=&#34;describe - nanoscribe language GWL&#34; width=&#34;106&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;describe - nanoscribe language GWL&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;The focus of this article is really small. It will only interest people involved in Research, who own a &lt;a title=&#34;Nanoscribe&#34; href=&#34;http://www.nanoscribe.de/&#34; target=&#34;_blank&#34;&gt;Nanoscribe&lt;/a&gt; device.&lt;/p&gt;
-
-&lt;p&gt;I was a little bit annoyed by the software, very heavy, and running only on windows. I wanted to design my structures on Linux (or any plateform actually), and I wanted to plot the result with a light software.&lt;/p&gt;
-
-&lt;p&gt;I programmed a small script in Python to plot &lt;strong&gt;2D structures written in gwl&lt;/strong&gt;. In order to run it, ou need to have Python 2.6, Matplotlib and SciPy (in order to have Numpy functions). You also have to use the preamble module I use and which is also included in the archive.&lt;/p&gt;
-
-&lt;p&gt;To use it, put the module, the script and the GWL file in the same folder. Then modify the script and include the name of your gwl file. Finally, open a consol, and type :&lt;/p&gt;
-
-&lt;pre&gt;python plot_gwl.py&lt;/pre&gt;
-
-&lt;p&gt;You can modify and improve this small script, and I would be happy to see the modifications (probably 3D would be a good step forward).&lt;/p&gt;
-
-&lt;p&gt;Download the archive : &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.0.zip&#34;&gt;Plot_GWL.1.0.zip&lt;/a&gt; (contains the script to plot and the module)&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Edit&lt;/em&gt; 22 Nov. 2010 : I implemented the &lt;strong&gt;3D visualization&lt;/strong&gt; . The same command is required to use it (modify line 26  &lt;em&gt;&amp;#8220;open(&amp;#8216;your_filename.gwl&amp;#8217;,&amp;#8217;r&amp;#8217;)&amp;#8221;&lt;/em&gt; ) . Comments have been added to help you understading the script. A future addition will take in account an input parameter (instead of modifing the script every time to tell it which file to plot).&lt;/p&gt;
-
-&lt;p&gt;Download the new archive : &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/11/Plot_GWL.1.1.zip&#34;&gt;Plot_GWL.1.1.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Example of a 3D plot :&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/11/tour_eiffel.png&#34;&gt;&lt;figure &gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/11/tour_eiffel-300x222.png&#34; alt=&#34;Tour Eiffel with Nanoscribe&#34; width=&#34;300&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;tour_eiffel&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -136,31 +98,19 @@
   - you have to define xc and yc, the coordinates of your source, in &lt;strong&gt;Options &gt; Expressions &gt; Global Expressions&lt;/strong&gt;.
 &lt;/p&gt;
 
-&lt;p style=&#34;padding-left: 60px;&#34;&gt;
+&lt;p&gt;&lt;p style=&#34;padding-left: 60px;&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/06/comsol_plane.png&#34;&gt;&lt;figure class=&#34;aligncenter size-medium wp-image-1077&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/06/comsol_plane-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;Field Definition Comsol&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;padding-left: 60px;&#34;&gt;
-   
-&lt;/p&gt;
-
-&lt;p style=&#34;padding-left: 60px;&#34;&gt;
-   
-&lt;/p&gt;
-
-&lt;p&gt;Hope this will help.&lt;/p&gt;
-
-&lt;p&gt;Any feedback appreciated.&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -170,9 +120,7 @@
       <pubDate>Tue, 27 Apr 2010 00:00:00 +0000</pubDate>
       
       <guid>http://jice.lavocat.name/blog/2010/04/how-to-get-the-electromagnetic-scattered-far-field-using-comsol-rf-module/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
   If you use Comsol Multiphysics &amp;#8211; RF Module, you may have noticed that there is a far field option when you edit any Boundary settings. This feature will allow you to compute the &lt;strong&gt;scattered far field&lt;/strong&gt; of an object using some tricks.
 &lt;/p&gt;
 
@@ -197,195 +145,19 @@
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;div id=&#34;attachment_1053&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+&lt;p&gt;&lt;div id=&#34;attachment_1053&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/setting_base.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1053&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png&#34; width=&#34;300&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;setting_base&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Basic Setting
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-   
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Now you should modify the design a little bit in terms of properties. First, select the big circle, and transform it to a curve (&amp;#8220;Coerce to curve&amp;#8221;). You should also remove the small circle from the main substrate to latter change its properties. In order to do that, select the small circle and the main square, and click on &amp;#8220;difference&amp;#8221;. Then, add some cartesian PML to the 4 rectangles : &lt;strong&gt;Physics &lt;/strong&gt;&gt; &lt;strong&gt;Subdomain settings&lt;/strong&gt; &gt; &lt;em&gt;select the areas&lt;/em&gt; &gt; &lt;strong&gt;PML&lt;/strong&gt; &gt;&lt;strong&gt;&lt;em&gt; &lt;/em&gt;Cartesian&lt;/strong&gt; &lt;em&gt;&gt;  Try to figure out which PML you need to inser&lt;/em&gt; (left/righ absorb along &lt;strong&gt;x&lt;/strong&gt;, top and bottom along &lt;strong&gt;y&lt;/strong&gt;, corners along &lt;strong&gt;x&lt;/strong&gt; and &lt;strong&gt;y&lt;/strong&gt; directions)).
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  The following image shows the resulting construction. In order to highlight the construction I changed my &lt;strong&gt;Options &lt;/strong&gt;&gt; &lt;strong&gt;Preferences &lt;/strong&gt;&gt; &lt;strong&gt;Visualization&lt;/strong&gt;, and checked the &amp;#8220;Render Face&amp;#8221; button.
-&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;div id=&#34;attachment_1055&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Setting_normal.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1055&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png&#34; width=&#34;300&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;Setting_normal&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Normal Setting
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;h2 id=&#34;collecting-the-far-field:4c4056b789433fda8d2903371113b53f&#34;&gt;Collecting the Far-Field&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  In order to collect the far field using Comsol Multiphysics, you need to change some &amp;#8220;Physics&amp;#8221; values. First, let&amp;#8217;s explain what will be our simulation case. A plane wave will come from the inner-left boundary of the small square. We will use TM waves, with Hz=1 A (magnetic field) emerging from this inner boundary. So the source is located on &lt;strong&gt;x=-0.1&lt;/strong&gt;. We thus need to indicate this to comsol. Go to &lt;strong&gt;Physics &lt;/strong&gt;&gt; &lt;strong&gt;Scalar variables&lt;/strong&gt; &gt; &lt;em&gt;Change the value of &lt;/em&gt;&lt;strong&gt;H0iz_rfwh&lt;/strong&gt;&lt;em&gt; to&lt;/em&gt; &lt;strong&gt;exp(-j*k0_rfwh*(x+0.1)).&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Now we need to indicate Comsol that we want to integrate the far field on the big circle we draw during the first step. Modify the &lt;strong&gt;Boundary settings&lt;/strong&gt; to add a far fiel value, called &lt;strong&gt;Efar&lt;/strong&gt; on the curves representing the circle.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-   
-&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;div id=&#34;attachment_1057&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Efar.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1057&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png&#34; width=&#34;300&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;Efar&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Efar is defined on the big circle
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Note that you just need to write the name of the variable &lt;strong&gt;Efar&lt;/strong&gt;, and comsol will automatically create resulting variables.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Next you need to inser a relation to get &lt;strong&gt;Hfar&lt;/strong&gt; from &lt;strong&gt;Efar. &lt;/strong&gt;Indeed, we are looking at the magnetic field, Hz, and not at Ez. Go to &lt;strong&gt;Options&lt;/strong&gt; &gt; &lt;strong&gt;Expressions &gt; Global Expressions.&lt;/strong&gt; Add the following expressions :
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;r : sqrt(x^2+y^2)&lt;/li&gt;
-&lt;li&gt;Hfar : (x/r*Efary-y/r*Efarx)*sqrt(epsilon0_rfwh/mu0_rfwh)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now you are almost done. To get a better scattered result, you need to change the way comsol solve the problem. go to &lt;strong&gt;Physics &amp;gt; Properties &amp;gt;&lt;/strong&gt; change &lt;strong&gt;Field type&lt;/strong&gt; to &lt;strong&gt;Scattered TM.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You can finally start the solving process.&lt;/p&gt;
-
-&lt;h2 id=&#34;visualizing-the-scattered-far-field:4c4056b789433fda8d2903371113b53f&#34;&gt;Visualizing the scattered far-field&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  You can now visualize the scattered field in the &lt;strong&gt;Plot paramaters&lt;/strong&gt; &gt; &lt;strong&gt;Surface &lt;/strong&gt;section (Scattered Magnetic Field, z component). Nevertheless, the great feature is that you can now plot an angular far field plot using matlab.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  First, in Comsol, &lt;strong&gt;Postprocessing&lt;/strong&gt; &gt; &lt;strong&gt;Domain Plot Parameters&lt;/strong&gt; &gt; &lt;strong&gt;Line/ Extrusion&lt;/strong&gt; &gt; &lt;em&gt;select the big circle&amp;#8217;s curves&lt;/em&gt;. In the &lt;strong&gt;y-axis data&lt;/strong&gt;, change the expression to &lt;strong&gt;abs(Hfar)&lt;/strong&gt;. In the &lt;strong&gt;x-axis data&lt;/strong&gt;, select &amp;#8220;&lt;strong&gt;Expression&amp;#8221; &lt;/strong&gt;and inser the following expression &amp;#8220;&lt;strong&gt;atan2(y,x)&lt;/strong&gt;&amp;#8220;. It is used to display the data along the circle, using an angular representation. Clik &lt;strong&gt;Ok&lt;/strong&gt;, you should get something similar to the following.
-&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;div id=&#34;attachment_1061&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1062&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png&#34; width=&#34;300&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;Hfar_Comsol&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Hfar using comsol
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  In order to visualize this with Matlab, click on th &lt;strong&gt;ASCII&lt;/strong&gt; button, and save the plot data on your computer. Let&amp;#8217;s call it &lt;em&gt;scat_circ.txt&lt;/em&gt;. Open Matlab. Import this data : &lt;strong&gt;File &gt; Import Data &gt; &lt;/strong&gt;&lt;em&gt;select scat_circ.txt (then &lt;/em&gt;&lt;strong&gt;Next &lt;/strong&gt;&lt;em&gt;, then &lt;/em&gt;&lt;strong&gt;Finish&lt;/strong&gt;&lt;em&gt;).&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Now, just use the following command lines :&lt;em&gt; &lt;/em&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;scat_data=sortrows(scatt_circ);&lt;/li&gt;
-&lt;li&gt;rho=scat_data(:,2);&lt;/li&gt;
-&lt;li&gt;theta=scat_data(:,1);&lt;/li&gt;
-&lt;li&gt;polar(theta,abs(rho))&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You should get the resulting :&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;em&gt;
-  
-  &lt;div id=&#34;attachment_1064&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-    &lt;em&gt;&lt;a href=&#34;images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png&#34;&gt;&lt;figure class=&#34;size-medium wp-image-1064&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png&#34; width=&#34;300&#34; /&gt;
-    
-
-&lt;figcaption&gt;
-    &lt;h4&gt;Hafr_Matlab&lt;/h4&gt;
-    
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/a&gt;&lt;/em&gt;
-    
-    &lt;p class=&#34;wp-caption-text&#34;&gt;
-      Hfar of a scattering circle using Matlab
-    &lt;/p&gt;
-  &lt;/div&gt;&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-   
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;em&gt;To follow&lt;/em&gt; : You can also compared the resulting field with a theoretical diffracted circle. In the following article, I will explain how to compute the scattered field of a circle theoretically.
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -591,51 +363,19 @@
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>http://jice.lavocat.name/blog/2009/02/des-blogs-sur-la-neurologie/</guid>
-      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+      <description>&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-74&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/neurologie.jpg&#34; alt=&#34;Neurologie&#34; width=&#34;116&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;Neurologie&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;Depuis un petit moment je m&amp;#8217;intéresse de plus en plus aux&lt;strong&gt; sciences du cerveau&lt;/strong&gt;, et à la &lt;strong&gt;conscience&lt;/strong&gt;. Je vous ai déjà parlé du livre &amp;#8220;&lt;em&gt;Quantum Aspects of Life&lt;/em&gt;&amp;#8221; dans un &lt;a title=&#34;Lectures de vacances&#34; href=&#34;http://localhost/oldblog/2008/12/lectures-de-vacances/&#34;&gt;précédent billet &lt;/a&gt;. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&amp;#8217;étude. Je vous en donne la liste ci-dessous.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  En surfant un peu (je cherchais les termes &amp;#8220;neurologie quantique&amp;#8221; sur google),  je suis tombé sur la &lt;a title=&#34;Blog neurologie&#34; href=&#34;http://gillesenvrac.ca/carnet/tag/neuro/&#34; target=&#34;_blank&#34;&gt;section neurologie&lt;/a&gt; du blog de &lt;a title=&#34;Gilles Beauchamp&#34; rel=&#34;nofollow&#34; href=&#34;http://gillesenvrac.ca/carnet/a-propos-de-gilles/&#34; target=&#34;_blank&#34;&gt;Gilles Beauchamp&lt;/a&gt;. Le blog en lui même est très rempli, mais il n&amp;#8217;y poste pas aussi souvent que ça sur le thème de la &lt;strong&gt;neurologie&lt;/strong&gt;. Néanmoins, un des billets récents me pousse à visiter la liste des 101 blogs sur le cerveau ( &lt;a title=&#34;101 blogs sur le cerveau&#34; href=&#34;http://oedb.org/library/features/101_fascinating_brain_blogs&#34; target=&#34;_blank&#34;&gt;101 Fascinating Brain Blogs&lt;/a&gt;).
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;strong&gt;Mise à jour (Aout 2009) :&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Ceux que je consulte réguliérement sont :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a title=&#34;Brain Hammer&#34; href=&#34;http://petemandik.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Brain Hammer&lt;/a&gt; de &lt;a id=&#34;aptureLink_EKSLifJnI7&#34; href=&#34;http://twitter.com/petemandik&#34;&gt;Pete Mandik&lt;/a&gt; (philosophe)
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a title=&#34;Brain Stimulant&#34; href=&#34;http://brainstimulant.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Brain Stimulant&lt;/a&gt; de Mike (plus accès sur l&amp;#8217;imagerie)
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a title=&#34;Combining Cognits&#34; href=&#34;http://paul-baxter.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Combining Cognits&lt;/a&gt; de &lt;a id=&#34;aptureLink_dhwESWZgxM&#34; href=&#34;http://twitter.com/one_paulie&#34;&gt;Paul Baxter&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a title=&#34;Minds Hack&#34; href=&#34;http://www.mindhacks.com/&#34; target=&#34;_blank&#34;&gt;Minds Hack&lt;/a&gt; (le plus connu/consulté du milieu)
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Vous pouvez aussi aller consulter la liste des blogs lus par Pete Mandik : &lt;a href=&#34;http://www.blogs.com/topten/10-great-mind-and-brain-blogs/&#34; target=&#34;_blank&#34;&gt;Top 10 great mind blogs&lt;/a&gt;
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -645,103 +385,19 @@
       <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>http://jice.lavocat.name/blog/2009/02/les-plus-belles-idees-du-monde/</guid>
-      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;
+      <description>&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-90&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2009/02/idee.jpg&#34; alt=&#34;Idee&#34; width=&#34;200&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;Idee&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;Grâce à ce titre un peu racoleur je voulais faire découvrir au public francophone un site rarement cité, qui reçoit pourtant les plus grands innovateurs de notre siècle. Le site promeut en effet les idées qui vont faire bouger notre environnement dans un sens (on l&amp;#8217;espère) meilleur. Ces conférences accueillent souvent des prix nobel de la paix (&lt;a title=&#34;Al Gore - Ancien vice-président US et prix nobel de la paix&#34; href=&#34;http://fr.wikipedia.org/wiki/Al_Gore&#34; target=&#34;_blank&#34;&gt;Al Gore&lt;/a&gt;) ou des chefs d&amp;#8217;entreprise célèbres (&lt;a title=&#34;Jimmy Wales - fondateur de wikipedia&#34; href=&#34;http://fr.wikipedia.org/wiki/Jimmy_Wales&#34; target=&#34;_blank&#34;&gt;Jimmy Wales&lt;/a&gt;), aussi bien que des scientifiques de haut vol (&lt;a title=&#34;Stephen Hawking - Astrophysicien&#34; href=&#34;http://fr.wikipedia.org/wiki/Stephen_Hawking&#34; target=&#34;_blank&#34;&gt;Stephen Hawking&lt;/a&gt;).
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  La thématique officielle du TED (&lt;em&gt;Technology Entertainment Design&lt;/em&gt;) est plutôt technique. Cependant, les orateurs y abordent de manière chronique les aspects de développement durable nécessaire à notre survie. Le site officiel est le suivant : &lt;a title=&#34;TED&#34; href=&#34;http://www.ted.com/&#34; target=&#34;_blank&#34;&gt;http://www.ted.com&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Je vous ai regroupé le top 10 des talks (conférences) du TED :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;h2 style=&#34;text-align: justify;&#34;&gt;
-    Johnny Lee &amp;#8211; Démo d&amp;#8217;utilisation de la Wii :
-  &lt;/h2&gt;
-  
-  &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;
-  
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Jill Bolte Taylor &amp;#8211; Expérience de déconnexion :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-    David Gallo &amp;#8211; Les merveilles de l&amp;#8217;océan :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-    &lt;br class=&#34;spacer_&#34; /&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Arthur Benjamin &amp;#8211; Mathémagiques :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Blaise Aguera &amp;#8211; Logiciel de géographie 3D :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Jeff Han &amp;#8211; Ecran tactile :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Hans Rosling &amp;#8211; Sur le développement des pays pauvres :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Tom Robbins &amp;#8211; Coaching de taré :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Ken Robinson &amp;#8211; Système éducatif :
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h2 style=&#34;text-align: left;&#34;&gt;
-    Al Gore &amp;#8211; Eviter le réchauffement climatique
-  &lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;/p&gt;&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -779,27 +435,19 @@
   On peut aussi retrouver plus d&amp;#8217;informations sur la home page de Pierre-Yves Oudeyer, le responsable du groupe de recherche :&lt;br /&gt; &lt;a title=&#34;Page personnelle Pierre-Yves Oudeyer&#34; href=&#34;http://www.pyoudeyer.com&#34; target=&#34;_blank&#34;&gt;http://www.pyoudeyer.com&lt;/a&gt;
 &lt;/p&gt;
 
-&lt;p style=&#34;text-align: justify;&#34;&gt;
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure &gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//http://farm4.static.flickr.com/3222/2802497559_49232ac513.jpg&#34; alt=&#34;Robot assis&#34; width=&#34;203&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;Robot&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;Pour comprendre rapidement ce qui fait l&amp;#8217;originalité de l&amp;#8217;approche, il faut comparer un robot à un enfant qui découvre le monde. Il prend petit à petit conscience de l&amp;#8217;environnement qui l&amp;#8217;entoure, et apprend au contact de ses congénères le nom des choses, et la façon de les utiliser. L&amp;#8217;approche de l&amp;#8217;équipe Flowers est similaire. En introduisant une &amp;#8220;fonction de &lt;strong&gt;curiosité&lt;/strong&gt;&amp;#8221; dans le &amp;#8220;cerveau&amp;#8221; du robot, celui-ci commence à être curieux face à son environnement.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Il peut par exemple s&amp;#8217;intéresser à une balle qui roule car c&amp;#8217;est le seul élèment dynamique de son champ de vision. A travers ses recherches, l&amp;#8217;équipe a découvert que le robot s&amp;#8217;intéressait à des choses faciles au début, puis de plus en plus complexes. Si le robot ne peut pas comprendre un évènement, il passe à une chose plus simple qu&amp;#8217;il est en mesure d&amp;#8217;apprendre avant de revenir sur l&amp;#8217;evènement complexe avec les nouvelles données acquises qui lui permetttront peut être de comprendre cette fois-ci.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Je vous souhaite une lecture enrichissante sur leurs différents articles.
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

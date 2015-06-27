@@ -148,75 +148,9 @@
     </header>
   
     <section class="post-content">
-      
-
-<p>J&#8217;ai récemment découvert l&#8217;<a title="Webfaction - Hébergeur web" href="https://www.webfaction.com/" target="_blank">hébergeur web Webfaction</a> chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&#8217;il souffre pour le moment d&#8217;une lacune de taille pour le marché français : <strong>la doc et le support est en anglais</strong>. Par contre, j&#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés <figure class="wp-smiley">
+      <p>J&#8217;ai récemment découvert l&#8217;<a title="Webfaction - Hébergeur web" href="https://www.webfaction.com/" target="_blank">hébergeur web Webfaction</a> chez qui je suis en train de déplacer mes sites petit à petit. Je vais sans doute proposer une suite de tutoriels pour vous expliquer en français comment installer tel ou tel CMS sur la plateforme. Il faut savoir que Webfaction est un hébergeur dont le support technique est le plus rapide que je connaisse, mais qu&#8217;il souffre pour le moment d&#8217;une lacune de taille pour le marché français : <strong>la doc et le support est en anglais</strong>. Par contre, j&#8217;ai pu discuter avec le dirigeant de la société, et il se pourrait que cela change si la clientèle française dépasse une certaine taille critique. Avis aux intéressés <figure class="wp-smiley">
 
     <img src="http://jice.lavocat.name/blog//images/smilies/icon_wink.gif" alt=";-)" />
-    
-
-</figure></p>
-
-<p>Webfaction, en gros, c&#8217;est <em>comme un hébergeur mutualisé</em> (où on ne doit pas se concentrer sur la sécurité et l&#8217;installation de toutes les dépendances du serveur) mais avec <strong>plein d&#8217;options pour configurer automatiquement le serveur</strong>. Par exemple, sur un mutu, impossible d&#8217;installer des stacks complexes comme ruby on rails ou node, alors que sur webfaction cela est possible et il n&#8217;y a pas besoin de passer 3 heures à trouver comment installer toutes les dépendances.</p>
-
-<h2 id="utilisation-du-dashboard:64efd74f87895552ffcd5fb6fbce51d7">Utilisation du dashboard</h2>
-
-<p>Le panneau d&#8217;administration de Webfaction est fait maison, il faut donc s&#8217;habituer à la façon dont les informations sont présentées (c&#8217;est pas long, mais voilà quoi) :</p>
-
-<p><figure class="aligncenter size-full wp-image-1427">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/dashboard_webfaction.png" alt="Dashboard Webfaction" width="600" />
-    
-
-</figure></p>
-
-<p>Dans la pratique (pas très grosse pour moi pour le moment), je trouve qu&#8217;on perd un peu de temps entre les différents menus dans certains cas. Par exemple, dans domain/application/website, toutes les informations pourraient se trouver sur la même page avec un système d&#8217;onglets. Bref, cela étant dit l&#8217;ensemble reste quand même <strong>assez clair</strong> et la <strong>prise en main est assez rapide</strong>.</p>
-
-<h2 id="création-d-8217-un-compte-ssh:64efd74f87895552ffcd5fb6fbce51d7">Création d&#8217;un compte ssh :</h2>
-
-<p>Avant toute chose, allez vous créer un utilisateur qui a accès au ssh, ça sera beaucoup plus pratique dans le futur. Rendez-vous sur la page d&#8217;<a title="Création utilisateur ssh - webfaction" href="https://my.webfaction.com/new-user" target="_blank">ajout d&#8217;utilisateur</a> et remplissez le formulaire (j&#8217;ai pris <em>/bin/bash</em> comme <strong>shell</strong> mais ça n&#8217;a pas de grosses implications). Vous verrez, même le choix du password est &#8220;controlé&#8221; et le système vous empêchera de créer un compte avec password &#8220;faible&#8221;.</p>
-
-<p><figure class="aligncenter size-medium wp-image-1428">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/add_user_ssh-300x154.png" alt="Add SSH user" width="300" />
-    
-
-</figure></p>
-
-<p>Une fois ce compte créer, vous pouvez vous connecter à votre serveur depuis chez vous en utilisant aussi bien des outils de ftp (comme winscp) ou ssh (comme putty) pour voir ce qui se passe dessus (j&#8217;ai un vieil article sur <a title="Les outils pour administrer un serveur à distance - SFTP et SSH - Adminoob" href="http://www.adminoob.com/2008/08/18/les-outils-windows-indispensables-a-ladministration-serveur-a-distance/" target="_blank">les outils pour administrer un serveur à distance</a> si vous débutez).</p>
-
-<h2 id="créer-votre-site-wordpress-sur-webfaction:64efd74f87895552ffcd5fb6fbce51d7">Créer votre site WordPress sur Webfaction</h2>
-
-<p>Maintenant voici les étapes principales pour créer votre blog wordpress sur Webfaction.</p>
-
-<h3 id="créer-un-8220-nouveau-site-web-8221:64efd74f87895552ffcd5fb6fbce51d7">Créer un &#8220;nouveau site web&#8221;</h3>
-
-<p>Rendez-vous dans la section <em>domains/websites</em> et cliquez sur <em>Websites</em> puis <a title="Ajouter un site webfaction" href="https://my.webfaction.com/new-website" target="_blank">Add a new website</a>. Cette section va vous permettre de configurer (côté serveur) quelle application sera gérée par votre sous-domaine.</p>
-
-<p>Voilà  à quoi ressemblera votre &#8220;site web&#8221; après sa création :</p>
-
-<p><figure class="aligncenter size-full wp-image-1431">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/add_website.png" alt="Ajouter un site web sur Webfaction (panneau principal)" width="600" />
-    
-
-</figure></p>
-
-<p>Pour cela, donnez d&#8217;abord un nom &#8220;name&#8221; à votre site web pour vous en rappeler facilement. Ensuite, il faut préciser quel domaine(s) et/ou sous-domaine(s) vont accéder à cette application. Pour cet exemple j&#8217;en ai mis un seul :</p>
-
-<p><figure class="aligncenter">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/create_comain.png" alt="Ajouter un domaine (webfaction)" width="600" />
-    
-
-</figure></p>
-
-<p>Enfin, il faut dire au serveur quel application (WordPress) nous allons héberger sur ce nom de domaine. Pour cela on crée une nouvelle application, et on choisira WordPress dans la liste proposée.</p>
-
-<p><p style="text-align: center;">
-  <a href="images/posts/oldwordpress/uploads/2014/03/create_application.png"><figure class="aligncenter  wp-image-1432">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2014/03/create_application.png" alt="Ajouter une application (webfaction)" width="600" />
     
 
 </figure></p>

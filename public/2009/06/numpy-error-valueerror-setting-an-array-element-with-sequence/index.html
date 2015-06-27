@@ -184,33 +184,14 @@
   the problem is that <strong>numpy </strong>is made to calculate vectors and arrays. It doesn&#8217;t like the fact you give it table with different sizes. Ok, then you can try to change the second value 0.5 to [0.5,0,0,0]. It would work&#8230;. but it&#8217;s not really clean. Your code will look messy.
 </p>
 
-<p style="text-align: justify;">
+<p><p style="text-align: justify;">
   <p style="text-align: justify;">
     Instead, here is the solution I found after 4 hours looking everywhere on the web&#8230; finding nothing. This is my own solution, so if helped you, I would be very glad <figure class="wp-smiley">
 
     <img src="http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif" alt=":-D" />
     
 
-</figure>
-  </p>
-  
-
-<p><p style="text-align: justify;">
-    In order to help numpy to accept your vector&#8230; tell it it&#8217;s not a vector :
-  </p></p>
-
-<p><p style="text-align: center;">
-    <em>array([( [0,0,1,0],0.5)],<span style="color: #ff0000;">object</span>)</em>
-  </p></p>
-
-<p><p style="text-align: justify;">
-    By doing this you change de dtype of your array, and it can accept even personnal classes.
-  </p></p>
-
-<p><p style="text-align: justify;">
-    <p style="text-align: justify;">
-      Does that work for you?<em><br /> </em>
-    </p></p>
+</figure></p>
 
     </section>
 

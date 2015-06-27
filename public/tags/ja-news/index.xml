@@ -16,58 +16,13 @@
       <pubDate>Mon, 02 Nov 2009 00:00:00 +0000</pubDate>
       
       <guid>http://jice.lavocat.name/blog/2009/11/how-to-fix-ja_news-modules-auto-resize-problem/</guid>
-      <description>&lt;h2 style=&#34;text-align: justify;&#34;&gt;
+      <description>&lt;p&gt;&lt;h2 style=&#34;text-align: justify;&#34;&gt;
   &lt;figure &gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//http://www.joomlart.com/templates/default/images/logo.gif&#34; alt=&#34;Joomlart&#34; width=&#34;200&#34; /&gt;
     
 
-&lt;/figure&gt;The problem
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  During a long time I encountered this problem using the Joomla&amp;#8217;s module JA_News. When I wanted to use the auto-resize functionality, a problem line appeared preventing me to use it in frontend. The warning said :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify; padding-left: 30px;&#34;&gt;
-  &lt;strong&gt;Warning&lt;/strong&gt;: imagejpeg() [function.imagejpeg]: Unable to open &amp;#8216;www/images/resized/images/stories/path_to_image/image.jpg&amp;#8217; for writing: No such file or directory in &lt;strong&gt;www/modules/mod_janews/helper.php&lt;/strong&gt; on line &lt;strong&gt;138&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Depending on your Janews module, the line in helper could be different.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  I searched across many forums without any concrete solutions. The only facts which came again and again were related to permissions (put your image folder in 777 and image files in 666) but it didn&amp;#8217;t change anything in my case.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  I finally found a &lt;a title=&#34;Joomla News problem&#34; href=&#34;http://www.joomlart.com/forums/showthread.php?t=14923&#34; target=&#34;_blank&#34;&gt;post on the Joomlart forum&lt;/a&gt; saying that the problem was &lt;strong&gt;&lt;em&gt;case sensitive&lt;/em&gt;&lt;/strong&gt;. So the fix for the problem was easy.
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  How to fix it?
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  In order to fix the module, just search through your file &lt;strong&gt;/modules/mod_janews/helper.php&lt;/strong&gt; and look for a line looking like :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;code lang=&#34;php&#34;&gt;$rzname = strtolower(substr($image, 0, strpos($image,&#39;.&#39;))).&#34;_{$tn_width}_{$tn_height}.{$ext}&#34;; // get the file extension&lt;/code&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  In order to fix the problem, you just have to remove the &lt;strong&gt;strtolower&lt;/strong&gt; function. It has no use there and prevent the function to work properly. Your new line should look like :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;code lang=&#34;php&#34;&gt;$rzname = (substr($image, 0, strpos($image,&#39;.&#39;))).&#34;_{$tn_width}_{$tn_height}.{$ext}&#34;; // Jice fixed version&lt;/code&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  If you have time, don&amp;#8217;t forget to signal the bug to Joomla Art, I didn&amp;#8217;t have time to do it, but it can help future users.
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

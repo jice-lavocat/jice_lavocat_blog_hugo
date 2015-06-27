@@ -17,8 +17,8 @@
       <meta property="og:type" content="article" />
 
       
-      <meta property="og:description" content="schema-org-logo Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the microdata system Schema.org. This allow any website to provide semantic information to the search spiders. For instance, you can specify what kind of content you are publishing, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie." />
-      <meta name="description" content="schema-org-logo Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the microdata system Schema.org. This allow any website to provide semantic information to the search spiders. For instance, you can specify what kind of content you are publishing, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie." />
+      <meta property="og:description" content="&lt;invalid Value&gt; schema-org-logo" />
+      <meta name="description" content="&lt;invalid Value&gt; schema-org-logo" />
 
       
       <meta property="article:author" content="https://www.facebook.com/jean.christophe.gomez.lavocat" />
@@ -156,146 +156,19 @@
     </header>
   
     <section class="post-content">
-      
-
-<p style="text-align: justify;">
+      <p><p style="text-align: justify;">
   <a href="images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg"><figure class="alignleft size-full wp-image-1211">
 
     <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg" width="128" />
     
 
 <figcaption>
+	&lt;invalid Value&gt;
     <h4>schema-org-logo</h4>
     
 </figcaption>
 
-</figure></a>Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the<strong> microdata system</strong> <a href="http://schema.org/">Schema.org</a>. This allow any website to provide <strong>semantic information</strong> to the <strong>search spiders</strong>. For instance, you can specify<em> what kind of content you are publishing</em>, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : <a href="http://schema.org/">http://schema.org/</a>
-</p>
-
-<p style="text-align: justify;">
-  <a href="images/posts/oldwordpress/uploads/2011/08/zoo.png"><figure class="alignright size-full wp-image-1212">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png" width="150" />
-    
-
-<figcaption>
-    <h4>zoo</h4>
-    
-</figcaption>
-
-</figure></a>As a Joomla fan, and <a href="http://www.yootheme.com/zoo/">Yootheme ZOO</a> frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
-</p>
-
-<p style="text-align: justify;">
-  You can download it straith away, or read the &#8216;readme&#8217; file below to get an idea of the product :
-</p>
-
-<p style="text-align: justify;">
-  [easyfileshop id=1202]
-</p>
-
-<p style="text-align: justify;">
-  <em>Tested only with <strong>Zoo 2.4 for Joomla 1.5</strong></em>
-</p>
-
-<p style="text-align: justify;">
-  <em>You can try it for free if you have an existing working platform Joomla 1.6 with ZOO 2.4 installed. You should contact me directly and I&#8217;ll send you the file. You&#8217;ll tell me if some bugs are present, and you&#8217;ll help the community.</em>
-</p>
-
-<p> </p>
-
-<h2 style="text-align: left;">
-  Read Me File
-</h2>
-
-<p>** Schema.org implementation under Yootheme ZOO component **<br />
-Author : Jean-Christophe Lavocat<br />
-Email : jice@nauka-websites.com<br />
-Date : July 2011<br />
-*<em>**</em>*<em>**</em>*<em>**</em>*<em>**</em>*<em>**</em>*<em>**</em>***</p>
-
-<h2 id="introduction:f941726f20c0dc8ea314964f0c043408">Introduction</h2>
-
-<p>Add a new option to the text and image fields of ZOO. This new option helps to give a context to the content types you create by using ZOO. For example : your create a recipe content type, it could give the following information : <a href="http://schema.org/Recipe">http://schema.org/Recipe</a>.</p>
-
-<h2 id="installation:f941726f20c0dc8ea314964f0c043408">Installation</h2>
-
-<p>Browse your website installation, and go to the ZOO application that you want to update. The installation have to be done application by application. For instance, if you are using the application &#8220;Blog&#8221; got to : &#8220;joomlabase/media/zoo/applications/blog&#8221;. You should unzip the folder &#8220;elements&#8221; there.</p>
-
-<p>Go to your administration panel and check which template you are using for your content type. Remember this template name as &#8220;templatename&#8221;. You should then go to &#8220;joomlabase/media/zoo/applications/blog/templates/templatename/&#8221; and unzip the folder &#8220;renderer&#8221; there.</p>
-
-<p>The new architecture should add the following folders.</p>
-
-<p>/applications/blog/<br />
-elements/<br />
-&#8230;/</p>
-
-<p>/applications/blog/template/templatename/renderer/<br />
-/element/<br />
-&#8230;</p>
-
-<p>Finally, go to the view you want to include schema.org : probably it will be the &#8220;full&#8221; view. Go to &#8220;/joomlabase/media/zoo/applications/blog/templates/templatename/renderer/item&#8221; and open &#8220;full.php&#8221;. You have to manually add the good schema type at the beginning of the file, and close it at the end. Suppose you are displaying a recipe, put the line :</p>
-
-<pre>&lt;div itemscope itemtype="http://schema.org/Recipe"&gt;</pre>
-
-<p>in the first html output (say, after the first &#8220;?&gt;&#8221;). Add a &#8220;</div>&#8221; at the very end of this file :</p>
-
-<pre>&lt;/div&gt;</pre>
-
-<h2 id="configuration:f941726f20c0dc8ea314964f0c043408">Configuration</h2>
-
-<p>Go to the setting of your content type in the administration panel. Edit the fields of the view you just modified.<br />
-You should now be able to :<br />
-1) give a schema.org label to all the text field<br />
-2) give a schema.org label to the main title, or specify if it is an author profile page.<br />
-3) add a default picture label to one of your picture<br />
-4) give the label &#8220;url&#8221; to the links</p>
-
-<p> </p>
-
-<p> </p>
-
-<div id="attachment_1214" style="width: 310px" class="wp-caption alignright">
-  <a href="images/posts/oldwordpress/uploads/2011/08/schemafield.png"><figure class="size-medium wp-image-1214">
-
-    <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png" width="300" />
-    
-
-<figcaption>
-    <h4>schemafield</h4>
-    
-</figcaption>
-
-</figure></a>
-  
-  <p class="wp-caption-text">
-    A new "Schema.org Label" appears now, where you can specify your content
-  </p>
-</div>
-
-<p> </p>
-
-<h2 id="verification:f941726f20c0dc8ea314964f0c043408">Verification</h2>
-
-<p>To verify your item pages, copy paste their url to :<br />
-<a href="http://www.google.com/webmasters/tools/richsnippets">http://www.google.com/webmasters/tools/richsnippets</a></p>
-
-<h2 id="help-troubleshootings-faq:f941726f20c0dc8ea314964f0c043408">Help / Troubleshootings / FAQ</h2>
-
-<p>Any questions should be sent to jice@nauka-websites.com. You should specify in your email :<br />
-1) which version of ZOO you are using<br />
-2) the description of your problem<br />
-3) the URL where the error is visible</p>
-
-<p> </p>
-
-<p>The files are available to download on the following link :</p>
-
-<p>[easyfileshop id=1202]</p>
-
-<p><em>Tested only with <strong>Zoo 2.4 for Joomla 1.5</strong></em></p>
-
-<p><em>You can try it for free if you have an existing working platform Joomla 1.6 with ZOO 2.4 installed. You should contact me directly and I&#8217;ll send you the file. You&#8217;ll tell me if some bugs are present, and you&#8217;ll help the community.</em></p>
+</figure></p>
 
     </section>
 

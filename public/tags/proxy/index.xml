@@ -26,108 +26,13 @@
 
 &lt;h2 id=&#34;ancien-article:7303b0bdf4f843ecc6f87cef236478dd&#34;&gt;Ancien article&lt;/h2&gt;
 
-&lt;p style=&#34;text-align: justify;&#34;&gt;
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure &gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800&#34; alt=&#34;Foxy Proxy&#34; width=&#34;200&#34; /&gt;
     
 
-&lt;/figure&gt;Vous êtes en stage &lt;strong&gt;a l&amp;#8217;étranger&lt;/strong&gt;, vous avez envie de &lt;strong&gt;regarder Arte &lt;/strong&gt;(ou &lt;strong&gt;regarder Roland Garros&lt;/strong&gt;)&amp;#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&amp;#8217;&lt;strong&gt;IP non françaises&lt;/strong&gt;. La solution consiste a passer par un proxy francais.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Facile a dire, pas si facile a faire quand on a pas trop l&amp;#8217;habitude de chercher des &lt;strong&gt;proxys ouverts&lt;/strong&gt;, ou si on ne possède pas son propre serveur sur&lt;strong&gt; IP française qui héberge un proxy&lt;/strong&gt;.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Grâceau magnifique tuto de &lt;a title=&#34;Tutorial regarder TV a l&#39;etranger&#34; href=&#34;http://astuces.jeanviet.info/videos/regarder-les-videos-reservees-aux-americains-grace-a-foxyproxy.htm&#34; target=&#34;_blank&#34;&gt;Jean Viet&lt;/a&gt; j&amp;#8217;ai réussi, et je vous livre en résumé (il explique mieux et plus en détail la technique pour les sites US) la technique pour regarder Arte ou Rolland Garros de l&amp;#8217;étranger avec le navigateur &lt;strong&gt;Firefox&lt;/strong&gt;.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;span style=&#34;text-decoration: underline;&#34;&gt;Avant-propos pour les débutants :&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Une &lt;a title=&#34;Adresse IP&#34; href=&#34;http://fr.wikipedia.org/wiki/Adresse_IP&#34; target=&#34;_blank&#34;&gt;adresse IP&lt;/a&gt; est un identifiant unique qui permet de reconnaître votre ordinateur sur internet.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Un &lt;a title=&#34;Proxy&#34; href=&#34;http://fr.wikipedia.org/wiki/Proxy&#34; target=&#34;_blank&#34;&gt;proxy&lt;/a&gt; est un serveur sur lequel peuvent transiter des informations et qui sert de passerelle entre vous et internet. Vous demandez au proxy l&amp;#8217;information que vous voulez, il va la chercher avec SON adresse IP, et vous la renvoie.
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Trouver une liste de proxy ouverts francais qui fonctionnent :
-&lt;/h2&gt;
-
-&lt;p&gt;Ca se passe la : &lt;a title=&#34;Liste de proxys gratuits&#34; href=&#34;http://www.freeproxylists.com/fr.html&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.freeproxylists.com/fr.html&#34;&gt;http://www.freeproxylists.com/fr.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Sur la gauche vous pourrez trouver la liste de proxys pour d&amp;#8217;autres pays courants. La seule chose a faire est de consulter les listes de &amp;#8220;raw proxys&amp;#8221;. Vous devez normalement en avoir plusieurs a disposition. Comme chaque liste contient une dizaines de proxys, vous avez le choix.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Ensuite il faut les tester. Pour se faire, copier tout une des listes de raw proxy que vous avez, et tester la sur ce site : &lt;a title=&#34;Verifier liste de proxys&#34; href=&#34;http://www.checker.freeproxy.ru/checker/index.php&#34; target=&#34;_blank&#34;&gt;http://www.checker.freeproxy.ru/checker/index.php&lt;/a&gt; (copier/coller, puis &amp;#8220;check proxys&amp;#8221;).
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  A la fin, vous allez en avoir beaucoup qui ne marchent pas, et seuls quelques uns qui fonctionnent : &amp;#8221;    HTTP: Proxy is working!&amp;#8221;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Voila, vous avez a présent l&amp;#8217;&lt;strong&gt;adresse IP et le port du proxy&lt;/strong&gt; que vous allez utiliser ensuite.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Rappel pour ceux qui ne savent pas :&lt;br /&gt; XXX.XXX.XXX.XXX:YYYY&lt;br /&gt; Le XXX.XXX.XXX.XXX correspond a l&amp;#8217;&lt;strong&gt;adresse IP&lt;/strong&gt;&lt;br /&gt; Et le YYYY correspond au &lt;strong&gt;port&lt;/strong&gt;.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;installer-et-configurer-foyxy-proxy:7303b0bdf4f843ecc6f87cef236478dd&#34;&gt;Installer  et configurer Foyxy Proxy :&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Ce plugin va vous faciliter la vie par ses options. Il remplace facilement le gestionnaire de connexion de Firefox de base.
-&lt;/p&gt;
-
-&lt;p&gt;Allez l&amp;#8217;installer sur  : &lt;a title=&#34;Foxy Proxy&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/2464&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/2464&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/2464&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Ensuite, vous aurez son icone en bas a gauche. Un clic dessus vous amène dans sa configuration.&lt;br /&gt; Cliquez sur : &amp;#8220;add new proxy&amp;#8221;. Dans l&amp;#8217;onglet &amp;#8220;General&amp;#8221; vous lui donnez un petit nom, et dans l&amp;#8217;onglet &amp;#8220;Proxy details&amp;#8221; vous rentrez les informations obtenues a l&amp;#8217;étape précédente (IP et port).
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Vous pouvez ensuite précisez dans quelles conditions utiliser ce proxy, pour eviter de ralentir votre connexion le reste du temps. Pour se faire, j&amp;#8217;ai configurer de base le comportement suivant : le proxy francais est appele lorsque je visite une URL qui contient &amp;#8220;arte&amp;#8221;. Pour se faire :&lt;br /&gt; -Cliquez sur &amp;#8220;new pattern&amp;#8221;. Donnez un nom au pattern (regle) que vous aller créer. Vérifier qu&amp;#8217;il soit &amp;#8220;enabled&amp;#8221; (active) et dans URL pattern, remplissez &amp;#8221;   *arte*   &amp;#8220;. Cochez en-dessous : whitelist (autorise) et &amp;#8220;wildcard&amp;#8221; (pour utiliser les *).
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Cliquez sur ok partout. Normalement vous devez préciser a foxyproxy son comportement. Après l&amp;#8217;installation il doit être sur &amp;#8220;désactivé&amp;#8221; (en bas, a cote de l&amp;#8217;icône le texte doit être rouge). Faites un clic droit, et sélectionnez &amp;#8220;use proxys &amp;#8230; patterns&amp;#8221; comme ça il ne marchera que sur les sites qui possèdent &amp;#8220;arte&amp;#8221; dans leur url.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Voila&amp;#8230; ai-je ete clair ou il y a des points sombres a eclaircir en commentaires?
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Signer la pétition :
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Tres recemment a ete mis en ligne la petition suivante que je vous encourage a remplir :
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;a title=&#34;Petitions pour regarder arte de l&#39; etranger&#34; href=&#34;http://www.mesopinions.com/Diffusion-libres-des-programmes-de-http---plus7-arte-tv-pour-les-Francais-et-Europeens-residant-a-l-etranger--petition-petitions-76af6d7cd2247a5f244d90b98628e356.html&#34; target=&#34;_blank&#34;&gt;http://www.mesopinions.com/&amp;#8230;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  Elle demande la &lt;span&gt;diffusion libres des programmes de &lt;a href=&#34;http://plus7.arte.tv&#34; target=&#34;_blank&#34;&gt;http://plus7.arte.tv&lt;/a&gt; pour les Français et Européens résidant a l&amp;#8217;étranger.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  &lt;span&gt;Mise à jour : &lt;/span&gt;
-&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  &lt;span&gt;Lire l&amp;#8217;article concernant la création d&amp;#8217;un&lt;a href=&#34;http://localhost/oldblog/2010/11/expat-la-tv-francaise-a-letranger/&#34;&gt; service pour diffuser la TV à l&amp;#8217;étranger&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

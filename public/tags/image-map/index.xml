@@ -45,72 +45,19 @@
 
 &lt;h2 id=&#34;creation-of-a-menu-system:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Creation of a menu system&lt;/h2&gt;
 
-&lt;p style=&#34;text-align: justify;&#34;&gt;
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;figure class=&#34;alignleft size-full wp-image-1023&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png&#34; alt=&#34;Joomla Menu System&#34; width=&#34;185&#34; /&gt;
     
 
 &lt;figcaption&gt;
+	&amp;lt;invalid Value&amp;gt;
     &lt;h4&gt;content-management-system-joomla-free&lt;/h4&gt;
     
 &lt;/figcaption&gt;
 
-&lt;/figure&gt;In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&amp;#8217;s menu system. If you need to create two links for the same item, use an &amp;#8220;&lt;strong&gt;alias&lt;/strong&gt;&amp;#8221; for the second one, in order to &lt;strong&gt;prevent duplicate URLs&lt;/strong&gt;.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  You could have avoided this menu creation if you don&amp;#8217;t care about Search Engine Optimization (SEO), but my recommandation would be to follow the following steps.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  This trick (of always using Joomla&amp;#8217;s menu system) will allow you to publish &lt;strong&gt;coherent and working breadcrumbs&lt;/strong&gt;. You won&amp;#8217;t have the famous &lt;a title=&#34;Joomla Breadcrumbs and Categories&#34; href=&#34;http://forum.joomla.org/viewtopic.php?f=47&amp;t=372518&#34; target=&#34;_blank&#34;&gt;menu vs category dilemma&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;h2 style=&#34;text-align: justify;&#34;&gt;
-  Creation of links from article to Joomla content
-&lt;/h2&gt;
-
-&lt;p&gt;The creation of SEF links with google when the SEF option is activited is not always obvious. The first trick that came in mind is to use the research tool, or to copy a link from a menu. But these options fails if our navigation system is an image and not a menu. If you unpublish the menu, the link won&amp;#8217;t appear. If you change an alias for a menu-item you will loose the link you put in your article.&lt;/p&gt;
-
-&lt;p&gt;The only solution is to put a link which is not SEF. So you could unable the SEF option, copy/paste a link and activate the SEF option again. But it&amp;#8217;s quite annoying for a hundreds of links isn&amp;#8217;t it? So, we will use a famous plugin for that. This plugin allow you to create a link to articles in your Joomla! site when you are creating content. This plugin is called &lt;a title=&#34;LinkR&#34; href=&#34;http://extensions.joomla.org/extensions/structure-a-navigation/site-links/4010&#34; target=&#34;_blank&#34;&gt;LinkR&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To use it : after the installation, when editing your article, you&amp;#8217;ll see a new button bellow your article (&lt;a title=&#34;Demo of LinkR&#34; href=&#34;http://j.l33p.com/linkr/demo&#34; target=&#34;_blank&#34;&gt;click for a demo&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;&lt;strong&gt;IMPORTANT :&lt;/strong&gt;&lt;/span&gt; In order to use the trick of &amp;#8220;menu system&amp;#8221;, when you create a link with LinkR, don&amp;#8217;t select an artcile (by clicking on &amp;#8220;Article&amp;#8221;) , but instead, the menu item you created (by clicking on &amp;#8220;Menu&amp;#8221;), and which is linked to the article.&lt;/p&gt;
-
-&lt;h2 id=&#34;make-everything-working-smoothly:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Make everything working smoothly&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: justify;&#34;&gt;
-  So, you have everything installed and tested? Right, let&amp;#8217;s go for the creation process!
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First, create your page with the image which will be your navigation system. Make a link from the menu, in order for it to be accessible.&lt;/li&gt;
-&lt;li&gt;Second, create your content, and for each page, a link from the menu. It could be an hidden menu, so your visitors will only see the navigation image (in my case I put everything on the main menu, but the template doesn&amp;#8217;t show more than one sub-menu hierarchy). But, when you create your content, &lt;strong&gt;be careful&lt;/strong&gt; and use the &amp;#8220;child property&amp;#8221;, to get SEF URLs like &amp;#8220;&lt;em&gt;&lt;a href=&#34;http://www.mysite.com/parent-menu/parent2/item&#34;&gt;http://www.mysite.com/parent-menu/parent2/item&lt;/a&gt;&lt;/em&gt;&amp;#8220;.&lt;/li&gt;
-&lt;li&gt;Third, come back to your article with the image, and create (temporary) text links to your content, by using LinkR, and pointing to the menu items, and not the article items. Copy the URL that has been created. It should look like : &lt;em&gt;index.php?option=com_content&amp;amp;view=article&amp;amp;id=23&amp;amp;Itemid=30&lt;/em&gt; and nothing else.&lt;/li&gt;
-&lt;li&gt;Edit your image, create your links map, and for the link, use the URL you just copied from the (temporary) text links.&lt;/li&gt;
-&lt;li&gt;Finally you can choose to keep the text links or to remove it. I choosed to keep them to help my visitors who can&amp;#8217;t see images. And it&amp;#8217;s a safety measure in the case your image won&amp;#8217;t show up.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;enjoy:1d799dc3c0aa1b3b0b8940cd3cc2b214&#34;&gt;Enjoy&lt;/h2&gt;
-
-&lt;p&gt;It&amp;#8217;s done. You can check that your image maps to SEF Url, that the links are going to your articles (specified by the menu), and that, if you change the menu link alias, the URL of your article will change coherently.&lt;/p&gt;
-
-&lt;p&gt;Moreover you can use breadcrumbs &lt;figure class=&#34;wp-smiley&#34;&gt;
-
-    &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
-    
-
 &lt;/figure&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;strong&gt;A demo on one of my website : &lt;a title=&#34;Liste de spots en Corse : Corsica Windsurf&#34; href=&#34;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&#34; target=&#34;_blank&#34;&gt;http://www.corsica-windsurf.com/fr/windsurf/spots-corse&lt;/a&gt;&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Don&amp;#8217;t hesitate to comment to ask precisions.&lt;/p&gt;
-
-&lt;p&gt;In addition you can use a very powerful extension, but probably not easy to use for a large amount of links : &lt;a title=&#34;HTMLMap Manager&#34; href=&#34;http://extensions.joomla.org/extensions/style-a-design/design/7332&#34; target=&#34;_blank&#34;&gt;HTMLMap manager&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

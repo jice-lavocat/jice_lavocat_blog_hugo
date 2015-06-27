@@ -36,33 +36,14 @@
   the problem is that &lt;strong&gt;numpy &lt;/strong&gt;is made to calculate vectors and arrays. It doesn&amp;#8217;t like the fact you give it table with different sizes. Ok, then you can try to change the second value 0.5 to [0.5,0,0,0]. It would work&amp;#8230;. but it&amp;#8217;s not really clean. Your code will look messy.
 &lt;/p&gt;
 
-&lt;p style=&#34;text-align: justify;&#34;&gt;
+&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
   &lt;p style=&#34;text-align: justify;&#34;&gt;
     Instead, here is the solution I found after 4 hours looking everywhere on the web&amp;#8230; finding nothing. This is my own solution, so if helped you, I would be very glad &lt;figure class=&#34;wp-smiley&#34;&gt;
 
     &lt;img src=&#34;http://jice.lavocat.name/blog//http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif&#34; alt=&#34;:-D&#34; /&gt;
     
 
-&lt;/figure&gt;
-  &lt;/p&gt;
-  
-
-&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
-    In order to help numpy to accept your vector&amp;#8230; tell it it&amp;#8217;s not a vector :
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;
-    &lt;em&gt;array([( [0,0,1,0],0.5)],&lt;span style=&#34;color: #ff0000;&#34;&gt;object&lt;/span&gt;)&lt;/em&gt;
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
-    By doing this you change de dtype of your array, and it can accept even personnal classes.
-  &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: justify;&#34;&gt;
-    &lt;p style=&#34;text-align: justify;&#34;&gt;
-      Does that work for you?&lt;em&gt;&lt;br /&gt; &lt;/em&gt;
-    &lt;/p&gt;&lt;/p&gt;
+&lt;/figure&gt;&lt;/p&gt;
 </description>
     </item>
     

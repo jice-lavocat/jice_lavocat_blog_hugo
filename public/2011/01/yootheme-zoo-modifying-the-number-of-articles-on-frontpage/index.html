@@ -17,8 +17,8 @@
       <meta property="og:type" content="article" />
 
       
-      <meta property="og:description" content="A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it. Here is the line you have to change on line 232 in /joomla_base_dir/components/com_zoo/controllers/default.php [cc lang=&#34;php&#34;]// get item pagination $items_per_page = $params-&gt;get(&#39;config.items_per_page&#39;, 15);[/cc] should be transformed to [cc lang=&#34;php&#34;]// get item pagination $items_per_page = $category_id == 0 ?" />
-      <meta name="description" content="A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it. Here is the line you have to change on line 232 in /joomla_base_dir/components/com_zoo/controllers/default.php [cc lang=&#34;php&#34;]// get item pagination $items_per_page = $params-&gt;get(&#39;config.items_per_page&#39;, 15);[/cc] should be transformed to [cc lang=&#34;php&#34;]// get item pagination $items_per_page = $category_id == 0 ?" />
+      <meta property="og:description" content="[" />
+      <meta name="description" content="[" />
 
       
       <meta property="article:author" content="https://www.facebook.com/jean.christophe.gomez.lavocat" />
@@ -144,36 +144,12 @@
     </header>
   
     <section class="post-content">
-      
-
-<p><a href="images/posts/oldwordpress/uploads/2011/08/zoo.png"><figure class="alignleft">
+      <p>[<figure class="alignleft">
 
     <img src="http://jice.lavocat.name/blog//images/posts/oldwordpress/uploads/2011/08/zoo.png" alt="zoo joomla module" width="150" />
     
 
-</figure></a>A quick note to let you know how I hacked Yootheme Zoo 2.3. I wanted to have a different numbers of articles on the frontpage, and in the classical category view.As I did not find an easy solution (a parameter should be added to the configuration for the front page), I decided to code it.</p>
-
-<p>Here is the line you have to change on <strong>line 232</strong> in <strong><em>/joomla_base_dir/components/com_zoo/controllers/default.php</em></strong></p>
-
-<pre>[cc lang="php"]// get item pagination 
-$items_per_page = $params-&gt;get('config.items_per_page', 15);[/cc]</pre>
-
-<p>should be transformed to</p>
-
-<pre>[cc lang="php"]// get item pagination
-$items_per_page = $category_id == 0 ? 3 : $params-&gt;get('config.items_per_page', 15)[/cc]</pre>
-
-<h2 id="advanced-hack:f51301b9d676bc650155715a57cf9bbe">Advanced hack</h2>
-
-<p>If you want you can add a new parameter in the configuration to be able to change that number in backend. Here is the code :</p>
-
-<p>In the file_ <strong>joomla_base_dir/media/zoo/applications/blog/application.xml</strong>_ add the following new line at <strong>line 22</strong> :</p>
-
-<pre>[cc lang="php"][/cc]</pre>
-
-<p>Modify on <strong>line 232</strong> in <strong><em>/joomla_base_dir/components/com_zoo/controllers/default.php</em></strong> , it should now read :</p>
-
-<pre>[cc lang="php"]$items_per_page = $category_id == 0 ? $params-&gt;get('config.items_per_frontpage', 5) : $params-&gt;get('config.items_per_page', 15);[/cc]</pre>
+</figure></p>
 
     </section>
 
