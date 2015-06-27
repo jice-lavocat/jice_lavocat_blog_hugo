@@ -10,7 +10,7 @@ theme = "casper_jice"
 canonifyurls = true
 
 [params]
-  description = "French/English essays about our Digital World, about Nature and Mind"
+  Description = "French/English essays about our Digital World, about Nature and Mind"
   cover = "images/coverCalvi.png"
   author = "Jean-Christophe Lavocat"
   authorlocation = "Toulon, France"
