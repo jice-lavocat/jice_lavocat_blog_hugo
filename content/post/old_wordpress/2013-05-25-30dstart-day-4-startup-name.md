@@ -21,7 +21,7 @@ tags:
   - marketing
   - startup
 ---
-For those who don&#8217;t know about the 30-days Startup Challenge, please have a look at my <a title="30 Days Startup Challenge" href="http://localhost/oldblog/2013/05/the-30-days-startup-challenge/" target="_blank">explanation here</a>. The post of today will explain in detail how I selected the **name of the startup**, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.
+For those who don&#8217;t know about the 30-days Startup Challenge, please have a look at my <a title="30 Days Startup Challenge" href="/2013/05/the-30-days-startup-challenge/" target="_blank">explanation here</a>. The post of today will explain in detail how I selected the **name of the startup**, and what had been achieved in the last 4 days. We are indeed already reaching day-4 and I have the feeling that many things happened.
 
 ## Initial feedback
 
