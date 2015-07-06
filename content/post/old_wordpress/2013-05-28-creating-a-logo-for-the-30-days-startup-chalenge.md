@@ -12,7 +12,7 @@ title: "Creating a logo for the 30-days startup chalenge – 30DSTART – Day 7"
 
 
 
-If you arrive on this post by a direct link or from Google, I suggest you to read the last two posts on the 30days startup challenge : <a title="30 Days Startup Challenge" href="http://localhost/oldblog/2013/05/the-30-days-startup-challenge/" target="_blank">here</a> and <a title="How to find a name for a startup" href="http://localhost/oldblog/2013/05/30dstart-day-4-startup-name/" target="_blank">here</a>.
+If you arrive on this post by a direct link or from Google, I suggest you to read the last two posts on the 30days startup challenge : <a title="30 Days Startup Challenge" href="/2013/05/the-30-days-startup-challenge/" target="_blank">here</a> and <a title="How to find a name for a startup" href="/2013/05/30dstart-day-4-startup-name/" target="_blank">here</a>.
 
 Now, let&#8217;s go to the main topic of my article : how to design a logo for the startup. Well, it&#8217;s not going to be a nice tutorial like the ones you can find on <a title="Smashing Mad - Webdesign" href="http://www.smashingmagazine.com" target="_blank">Smashing Magazine</a>. Here I won&#8217;t give you any method, just some tools I used to design my logo.
 
