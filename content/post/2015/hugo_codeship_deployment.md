@@ -133,3 +133,8 @@ Now save all this, and push a new commit to your server. If all goes according t
 ## Few remarks on continuous integration with Hugo
 
 With this solution, Hugo users do not need to prepare their public files locally and then push them manually to their server. This is really time saving. You can now prepare your articles as drafts, see them on your PC with the `--buildDrafts` option. If you push them to the repo, they won't be diplayed on your site since the script is only building non drafts articles. So work on draft, commit as much as you want, and when you need to publish an article, just remove the `draft = true` from the article metadata.
+
+
+## Read more
+
+If you want to deploy by using Wrecker, checkout this tutorial : http://gohugo.io/tutorials/automated-deployments/
