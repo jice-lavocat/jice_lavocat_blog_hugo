@@ -16,7 +16,7 @@ tags:
   - Tatouage
   - Tribal
 ---
-[{{<img class="alignleft size-full wp-image-655" style="margin: 5px;" title="bodyart" src="images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" height="95" >}}][1]Vu sur le site : <a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic" target="_blank">http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic</a>
+[<img class="alignleft size-full wp-image-655" style="margin: 5px;" title="bodyart" src="/images/posts/oldwordpress/uploads/2009/07/bdyart.jpg" alt="bodyart" width="115" height="95" >][1]Vu sur le site : <a href="http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic" target="_blank">http://p208.ezboard.com/flemiroirdalucardvampyrsgothicfrm14.showMessage?topicID=33.topic</a>
 
 La suite du message reprend la liste de sites. Pour ma part je préfère
 

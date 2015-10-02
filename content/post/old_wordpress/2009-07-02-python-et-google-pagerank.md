@@ -4,8 +4,8 @@ author: Jice
 
 date: 2009-07-02
 url: /2009/07/python-et-google-pagerank/
-Image:
-  - images/posts/oldwordpress/uploads/2009/06/python.png
+#Image:
+#  - images/posts/oldwordpress/uploads/2009/06/python.png
 categories:
   - Python
 tags:
@@ -14,7 +14,7 @@ tags:
   - python
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-422" style="margin: 5px;" title="python" src="images/posts/oldwordpress/uploads/2009/06/python.png" alt="python" width="75" height="75" >}}Suite à mes recherches pour trouver un script de calcul de Pagerank en python, je souhaitais vous présenter deux pages qui me sont tombées sous les yeux.
+  <img class="alignleft size-full wp-image-422" style="margin: 5px;" title="python" src="/images/posts/oldwordpress/uploads/2009/06/python.png" alt="python" width="75" height="75" >Suite à mes recherches pour trouver un script de calcul de Pagerank en python, je souhaitais vous présenter deux pages qui me sont tombées sous les yeux.
 </p>
 
 <p style="text-align: justify;">

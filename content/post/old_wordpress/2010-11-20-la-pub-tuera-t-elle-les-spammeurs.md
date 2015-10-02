@@ -25,7 +25,7 @@ tags:
 </p>
 
 <p style="text-align: center;">
-  {{<img title="Pub Nucaptcha" src="images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png" alt="Pub Nucaptcha" width="300" height="248" >}}
+  <img title="Pub Nucaptcha" src="/images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png" alt="Pub Nucaptcha" width="300" height="248" >
 </p>
 
 <p style="text-align: justify;">

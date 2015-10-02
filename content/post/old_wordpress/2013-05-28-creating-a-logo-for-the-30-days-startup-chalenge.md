@@ -20,17 +20,17 @@ Now, let&#8217;s go to the main topic of my article : how to design a logo for t
 
 According to me, the font of a logo is a really important signal to express what is the &#8220;character&#8221; of the company. To find your ideal font there is one resource you should use : <a title="Fonts Squirrel" href="http://www.fontsquirrel.com/" target="_blank">Font Squirrel</a> Font. It allows you to preview your text in different font and download them. They have only free fonts that are licensed for commercial work. So far so good right? The nice thing is also they have a nice classification system which allows to find what you need easily.
 
-[{{<img class="aligncenter size-medium wp-image-1342" alt="Font Squirrel" src="images/posts/oldwordpress/uploads/2013/05/font_squirrel-300x246.png" width="300" height="246" >}}][1]
+[<img class="aligncenter size-medium wp-image-1342" alt="Font Squirrel" src="/images/posts/oldwordpress/uploads/2013/05/font_squirrel-300x246.png" width="300" height="246" >][1]
 
 What The Font is a very useful service if you like a font you have seen somewhere on the web, and want to know what font is used. I wanted to keep my font secret, and let you use <a title="What The Font" href="http://www.myfonts.com/WhatTheFont/" target="_blank">What The Font</a> service to discover it&#8230; but unfortunately WTF does not work for my logo (it is a bit modified).
 
-[{{<img class="aligncenter size-medium wp-image-1343" alt="What the Font" src="images/posts/oldwordpress/uploads/2013/05/what_the_font-300x257.png" width="300" height="257" >}}][2]
+[<img class="aligncenter size-medium wp-image-1343" alt="What the Font" src="/images/posts/oldwordpress/uploads/2013/05/what_the_font-300x257.png" width="300" height="257" >][2]
 
 ## Graphical Elements
 
 Sometimes you need to add some graphical elements to your logo, like a flower or anything simple. For this, you have the main tool called <a title="The Noun Project" href="http://thenounproject.com/" target="_blank">The Noun Project</a>.
 
-[{{<img class="aligncenter size-medium wp-image-1341" alt="The Noun Project" src="images/posts/oldwordpress/uploads/2013/05/the_noun_project-300x239.png" width="300" height="239" >}}][3]
+[<img class="aligncenter size-medium wp-image-1341" alt="The Noun Project" src="/images/posts/oldwordpress/uploads/2013/05/the_noun_project-300x239.png" width="300" height="239" >][3]
 
 ## Designing the final logo
 
@@ -43,7 +43,7 @@ Sorry to put the social toll; but by clicking it you will help WordiZ before its
 [sociallocker id=&#8221;1346&#8243;]
 
 <p style="text-align: center;">
-  <a href="images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png">{{<img class="aligncenter  wp-image-1344" alt="WordiZ logo" src="images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png" width="500" >}}</a>[/sociallocker]
+  <a href="images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png"><img class="aligncenter  wp-image-1344" alt="WordiZ logo" src="/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png" width="500" ></a>[/sociallocker]
 </p>
 
 ## ? Inspiration for your logo

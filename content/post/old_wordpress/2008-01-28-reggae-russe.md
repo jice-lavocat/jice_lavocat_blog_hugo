@@ -17,7 +17,7 @@ tags:
   - Reggae
   - Russe
 ---
-[{{<img class="alignleft size-full wp-image-690" style="margin: 5px;" title="reggae-music" src="images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg" alt="reggae-music" width="270" height="270" >}}][1]Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.
+[<img class="alignleft size-full wp-image-690" style="margin: 5px;" title="reggae-music" src="/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg" alt="reggae-music" width="270" height="270" >][1]Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.
 
 Avant de commencer je voulais vous donner ma source de nom de groupes : <a onclick="window.open(this.href);return false;" href="http://www.zhurnal.ru/music/rasta/bands.html">http://www.zhurnal.ru/music/rasta/bands.html</a>
 

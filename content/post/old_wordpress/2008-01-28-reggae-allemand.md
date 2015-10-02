@@ -17,7 +17,7 @@ tags:
   - Musique
   - Reggae
 ---
-[{{<img class="alignleft size-full wp-image-690" style="margin: 5px;" title="reggae-music" src="images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg" alt="reggae-music" width="150" height="150" >}}][1]
+[<img class="alignleft size-full wp-image-690" style="margin: 5px;" title="reggae-music" src="/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg" alt="reggae-music" width="150" height="150" >][1]
 
 Mon reggae préféré : le reggae von Deutschland!!!! Très Dancehall et en même temps ce n&#8217;est pas du Dancehall jamaïcain. Très spirituel, et en même temps festif. A écouter!
 

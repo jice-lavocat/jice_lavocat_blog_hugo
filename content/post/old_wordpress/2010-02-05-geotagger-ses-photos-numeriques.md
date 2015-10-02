@@ -17,7 +17,7 @@ tags:
   - Photographie
   - Zenphoto
 ---
-{{<img class="alignleft" style="margin: 10px;" title="Geotagging" src="http://www.uberphones.com/photos/2008/2/geotagging.jpg" alt="" width="250" height="160" >}}
+<img class="alignleft" style="margin: 10px;" title="Geotagging" src="/http://www.uberphones.com/photos/2008/2/geotagging.jpg" alt="" width="250" height="160" >
 
  
 
@@ -55,7 +55,7 @@ Juste un petit billet de blog, aide-mémoire.
   Bref, je me suis donc retrouvé avec Zenphoto, et ses quelques (peu) modules pour agrémenter la présentation de la galerie. Parmi eux, un module qui place les photos sur <strong>Google Map</strong>. Sympathique mais&#8230; comment dire à mes photos où elles ont été prises si je ne possède pas de <a title="Matériel pour geotagging de photo automatique" href="http://www.ppgis.net/photo_gps.htm" target="_blank">matériel spécifique</a>?
 </p>
 
-{{<img class="alignnone" style="margin: 10px; align:center; text-align:center;" src="http://www.itechnews.net/wp-content/uploads/2008/12/nikon-gp-1-dongle-for-geotagging.jpg" alt="GPS + Nikon = Geotagging" width="350" height="350" >}}
+<img class="alignnone" style="margin: 10px; align:center; text-align:center;" src="/http://www.itechnews.net/wp-content/uploads/2008/12/nikon-gp-1-dongle-for-geotagging.jpg" alt="GPS + Nikon = Geotagging" width="350" height="350" >
 
 <p style="text-align: justify;">
   Et bien très simplement en utilisant des logiciels qui vont vous aider à le faire manuellement. Chaque photo (provenant d&#8217;un appareil photo numérique) est enregistrée avec des <strong>données EXIF</strong>. Ces données additionnelles sont là pour sauvegarder la date de prise de vue, des informations sur la photo (temps d&#8217;exposition, ouverture focale) etc. Bref, ces données EXIF peuvent aussi contenir des infos GPS.

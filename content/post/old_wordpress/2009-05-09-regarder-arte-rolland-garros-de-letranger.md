@@ -24,7 +24,7 @@ tags:
 ## Ancien article
 
 <p style="text-align: justify;">
-  {{<img style="float: left; margin-left: 5px; margin-right: 5px;" src="https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800" alt="Foxy Proxy" width="200" height="150" >}}Vous êtes en stage <strong>a l&#8217;étranger</strong>, vous avez envie de <strong>regarder Arte </strong>(ou <strong>regarder Roland Garros</strong>)&#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&#8217;<strong>IP non françaises</strong>. La solution consiste a passer par un proxy francais.
+  <img style="float: left; margin-left: 5px; margin-right: 5px;" src="/https://addons.mozilla.org/en-US/firefox/images/t/5857/943948800" alt="Foxy Proxy" width="200" height="150" >Vous êtes en stage <strong>a l&#8217;étranger</strong>, vous avez envie de <strong>regarder Arte </strong>(ou <strong>regarder Roland Garros</strong>)&#8230; pas de chance les sites qui vous permettraient de regarder les émissions en Live ou différés bloquent les connexions qui proviennent d&#8217;<strong>IP non françaises</strong>. La solution consiste a passer par un proxy francais.
 </p>
 
 <p style="text-align: justify;">

@@ -12,7 +12,7 @@ tags:
   - SEO
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Spammeur SEO" src="images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >}}Ca buzz beaucoup en ce moment sur les sites SEO français autour de la boite de Pandore nommée &#8220;Negative seo&#8221;. En français on pourrait simplement dire &#8220;déréférencement&#8221;. Il s&#8217;agit d&#8217;employer des méthodes qui sont toujours (car ce n&#8217;est pas bien) hors la loi pour déclasser un concurrent sur ses requêtes Google.
+  <img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Spammeur SEO" src="/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >Ca buzz beaucoup en ce moment sur les sites SEO français autour de la boite de Pandore nommée &#8220;Negative seo&#8221;. En français on pourrait simplement dire &#8220;déréférencement&#8221;. Il s&#8217;agit d&#8217;employer des méthodes qui sont toujours (car ce n&#8217;est pas bien) hors la loi pour déclasser un concurrent sur ses requêtes Google.
 </p>
 
 Dans ce post je vous propose une méthode à tester (ceux qui ont du temps peuvent le faire, et leur commentaires seront les bienvenues) concernant ce fameux negative seo.<!--more-->

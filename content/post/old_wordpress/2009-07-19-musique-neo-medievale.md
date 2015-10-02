@@ -24,7 +24,7 @@ Lien Deezer : <a href="http://www.deezer.com/#music/artist/5263" target="_blank"
 <table border="0" align="center">
   <tr>
     <td>
-      {{<img title="Corvus Corax" src="http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg" border="0" alt="Corvus Corax" width="300" height="203" >}}
+      <img title="Corvus Corax" src="/http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg" border="0" alt="Corvus Corax" width="300" height="203" >
     </td>
   </tr>
 </table>
@@ -38,7 +38,7 @@ Lien Deezer : <a href="http://www.deezer.com/#music/artist/15912" target="_blank
 <table border="0" align="center">
   <tr>
     <td>
-      {{<img title="Saltatio Mortis" src="http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg" border="0" alt="Saltatio Mortis" width="300" height="225" >}}
+      <img title="Saltatio Mortis" src="/http://www.dummschwatzen.de/picasa/Saltatio%20Mortis/images/dscn1763.jpg" border="0" alt="Saltatio Mortis" width="300" height="225" >
     </td>
   </tr>
 </table>

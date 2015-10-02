@@ -13,7 +13,7 @@ tags:
   - web
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-143" style="margin: 5px;" title="seo white hat" src="images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg" alt="seo white hat" width="140" height="112" >}}Oui, je suis un spammeur raté. En tout cas, à la suite d&#8217;un petite (mais alors petite) campagne de <strong>spam referers</strong>, les résultats obtenus sont assez négatifs. Depuis le début du spam, plus aucune visite de google en dehors de ma page d&#8217;accueil, malgré l&#8217;ajout de nouveau contenu sur le blog cible. <strong>Trois visites de googlebot</strong> en une semaine seulement et <strong>aucune de Yahoo</strong>!!! Pour autant je n&#8217;ai pas été blacklisté car j&#8217;apparais encore sur les deux moteurs de recherche.
+  <img class="alignleft size-full wp-image-143" style="margin: 5px;" title="seo white hat" src="/images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg" alt="seo white hat" width="140" height="112" >Oui, je suis un spammeur raté. En tout cas, à la suite d&#8217;un petite (mais alors petite) campagne de <strong>spam referers</strong>, les résultats obtenus sont assez négatifs. Depuis le début du spam, plus aucune visite de google en dehors de ma page d&#8217;accueil, malgré l&#8217;ajout de nouveau contenu sur le blog cible. <strong>Trois visites de googlebot</strong> en une semaine seulement et <strong>aucune de Yahoo</strong>!!! Pour autant je n&#8217;ai pas été blacklisté car j&#8217;apparais encore sur les deux moteurs de recherche.
 </p>
 
 <p style="text-align: justify;">

@@ -16,12 +16,12 @@ tags:
   Je reprends la plume délaissée depuis un certain temps pour vous présenter un évènement auquel je viens d&#8217;assister à Marseille. Il s&#8217;agit du <a title="Web In Provence" href="http://www.webinprovence.fr/" target="_blank">Web In Provence</a> , un apéro networking dédié aux acteur du web en &#8230; Provence. L&#8217;idée était d&#8217;associer un apéro avec une conférence sur une tendance montante d&#8217;internet. Pour cette première édition, les organisateurs (<a title="Florent Hernandez" href="https://twitter.com/Flo__Hernandez" target="_blank">Florent</a> <a title="Florent Hernandez" href="https://plus.google.com/112373548303714842647/posts" target="_blank">Hernandez</a> et <a title="Alexandre Durain" href="https://twitter.com/AlexDurain" target="_blank">Alexandre</a> <a title="Alexandre Durain" href="https://plus.google.com/+AlexandreDurain_So-Buzz/posts" target="_blank">Durain</a>) avaient choisi comme thème le &#8220;<strong>Conception Web et Multi Device</strong>&#8221; . L&#8217;invité de cet conférence était <a title="Stephane Martin" href="https://twitter.com/stephane_m_" target="_blank">Stéphane</a> <a title="Stephane Martin" href="https://plus.google.com/102644824468826022899/about" target="_blank">Martin</a> senior product designer chez <a title="Stack Overflow" href="http://stackoverflow.com/" target="_blank">Stack Overflow/Stack Exchange</a> (la plateforme de questions/réponses dédiée aux programmeurs créé par <a title="Jeff Atwood (Coding Horror)" href="http://en.wikipedia.org/wiki/Jeff_Atwood" target="_blank">Jeff Atwood</a>).
 </p>
 
-{{<img class="aligncenter size-medium wp-image-1413" alt="Stack Exchange Logo" src="images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png" width="300" height="100" >}}
+<img class="aligncenter size-medium wp-image-1413" alt="Stack Exchange Logo" src="/images/posts/oldwordpress/uploads/2014/02/stackexchange-logo-300x100.png" width="300" height="100" >
 
 ## L&#8217;avant WIP
 
 <p style="text-align: justify;">
-  {{<img class="wp-image-1414 alignright" style="margin-left: 20px; margin-right: 20px;" alt="Link Party" src="images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png" width="144" height="150" >}}Avant de présenter l&#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&#8217;ai beaucoup aimé la mise en ligne d&#8217;une liste des participants avant la tenue de la soirée (<a title="Link Party - WIP14" href="http://www.webinprovence.fr/link-party-wip2014/" target="_blank">Link Party</a>). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&#8230;
+  <img class="wp-image-1414 alignright" style="margin-left: 20px; margin-right: 20px;" alt="Link Party" src="/images/posts/oldwordpress/uploads/2014/02/link_party-287x300.png" width="144" height="150" >Avant de présenter l&#8217;ambiance de la soirée, un petit retour en arrière dans le temps pour dire que j&#8217;ai beaucoup aimé la mise en ligne d&#8217;une liste des participants avant la tenue de la soirée (<a title="Link Party - WIP14" href="http://www.webinprovence.fr/link-party-wip2014/" target="_blank">Link Party</a>). Une liste possible à établir pour un petit évènement, et qui pourra sans doute être automatisée dans le futur pour faciliter le travail des organisateurs (j&#8217;imagine que pour chercher et ajouter les infos sur les 65 participants, ça a du prendre pas mal de temps). Une petite feature à ajouter peut être : une photo à coté des noms, pour retrouver rapidement la personne a qui on a parlé en fin de soirée, près du bar, sans prendre ni son nom ni sa carte&#8230;
 </p>
 
 ## Les lieux
@@ -45,7 +45,7 @@ tags:
 </p>
 
 <div id="attachment_1415" style="width: 310px" class="wp-caption aligncenter">
-  {{<img class="size-medium wp-image-1415" alt="Wip#1" src="images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg" width="300" height="224" >}}
+  <img class="size-medium wp-image-1415" alt="Wip#1" src="/images/posts/oldwordpress/uploads/2014/02/conf-300x224.jpg" width="300" height="224" >
   
   <p class="wp-caption-text">
     Stéphane Martin explique la conception de produit web au Wip14 -<em>Photo par <a title="Jfeyraud" href="https://twitter.com/jfeyraud" target="_blank">@jfeyraud</a></em>
@@ -59,7 +59,7 @@ tags:
 ## Les rencontres
 
 <p style="text-align: justify;">
-  Le WIP#1 aura été pour moi l&#8217;occasion de faire un bon lot de rencontres. {{<img class="size-medium wp-image-1417 alignleft" style="margin-left: 20px; margin-right: 20px;" alt="Business Card" src="images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg" width="300" height="225" >}}J&#8217;y allais initialement pour rencontrer Laurent Jean de l&#8217;<a title="MediaCrea - Agence Web Marseille" href="http://www.mediacrea.com/" target="_blank">agence web Mediacrea</a>. Une des choses qui m&#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&#8217;étais ravi de voir qu&#8217;il y avait autant de professionnels des deux sexes.
+  Le WIP#1 aura été pour moi l&#8217;occasion de faire un bon lot de rencontres. <img class="size-medium wp-image-1417 alignleft" style="margin-left: 20px; margin-right: 20px;" alt="Business Card" src="/images/posts/oldwordpress/uploads/2014/02/wip14_contacts-300x225.jpg" width="300" height="225" >J&#8217;y allais initialement pour rencontrer Laurent Jean de l&#8217;<a title="MediaCrea - Agence Web Marseille" href="http://www.mediacrea.com/" target="_blank">agence web Mediacrea</a>. Une des choses qui m&#8217;a le plus frappée pour cette rencontre était le ratio homme/femme très équilibré. J&#8217;étais ravi de voir qu&#8217;il y avait autant de professionnels des deux sexes.
 </p>
 
 <p style="text-align: justify;">

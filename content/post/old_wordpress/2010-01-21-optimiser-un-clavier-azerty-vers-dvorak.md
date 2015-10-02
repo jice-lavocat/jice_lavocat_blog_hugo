@@ -69,7 +69,7 @@ tags:
  
 
 <div id="attachment_998" style="width: 310px" class="wp-caption aligncenter">
-  {{<img class="size-medium wp-image-998" title="Clavier démonté" src="images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg" alt="" width="300" height="201" >}}
+  <img class="size-medium wp-image-998" title="Clavier démonté" src="/images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg" alt="" width="300" height="201" >
   
   <p class="wp-caption-text">
     Pour démonter son clavier : une simple pointe pour faire levier

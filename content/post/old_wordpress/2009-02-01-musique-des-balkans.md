@@ -12,7 +12,7 @@ tags:
   - Musique
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-98" style="margin: 5px;" title="Carte des Balkan" src="images/posts/oldwordpress/uploads/2009/02/balkan_topo_en.jpg" alt="Carte des Balkan" width="200" height="183" >}}Un petit post rapide pour vous faire part de musiques que j&#8217;ai beaucoup écouté il y a de ça 4 ou 5 ans : la musique des Balkans.
+  <img class="alignleft size-full wp-image-98" style="margin: 5px;" title="Carte des Balkan" src="/images/posts/oldwordpress/uploads/2009/02/balkan_topo_en.jpg" alt="Carte des Balkan" width="200" height="183" >Un petit post rapide pour vous faire part de musiques que j&#8217;ai beaucoup écouté il y a de ça 4 ou 5 ans : la musique des Balkans.
 </p>
 
 <p style="text-align: justify;">

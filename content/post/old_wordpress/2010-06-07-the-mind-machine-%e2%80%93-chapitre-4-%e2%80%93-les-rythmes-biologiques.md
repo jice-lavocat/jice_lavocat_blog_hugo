@@ -12,7 +12,7 @@ tags:
   - Rythmes Biologiques
 ---
 <p style="text-align: justify;">
-  <em><a href="images/posts/oldwordpress/uploads/2009/09/biological-rythms.jpg">{{<img class="alignleft size-full wp-image-963" style="margin: 10px; float: left;" title="biological rythms" src="images/posts/oldwordpress/uploads/2009/09/biological-rythms.jpg" alt="biological rythms" width="200" height="167" >}}</a>Dans ce chapitre l&#8217;auteur parle des rythmes biologiques animaux. Il explique l&#8217;action des hormones jouant dans les mécanismes ciracadiens, et fournit des conseils pour faciliter des changements de rythmes forcés (Jet Lag , cycle entreprise 3-8, &#8230;) <em> </em></em><span><span><em>(<a href="../2009/09/2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)</em></span></span>
+  <em><a href="images/posts/oldwordpress/uploads/2009/09/biological-rythms.jpg"><img class="alignleft size-full wp-image-963" style="margin: 10px; float: left;" title="biological rythms" src="/images/posts/oldwordpress/uploads/2009/09/biological-rythms.jpg" alt="biological rythms" width="200" height="167" ></a>Dans ce chapitre l&#8217;auteur parle des rythmes biologiques animaux. Il explique l&#8217;action des hormones jouant dans les mécanismes ciracadiens, et fournit des conseils pour faciliter des changements de rythmes forcés (Jet Lag , cycle entreprise 3-8, &#8230;) <em> </em></em><span><span><em>(<a href="../2009/09/2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)</em></span></span>
 </p>
 
 <p style="text-align: justify;">

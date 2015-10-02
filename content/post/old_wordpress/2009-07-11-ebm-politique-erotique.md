@@ -14,7 +14,7 @@ tags:
   - Gothique
 ---
 <p align="justify">
-  <a href="images/posts/oldwordpress/uploads/2009/07/Indochine.jpg">{{<img class="alignleft size-full wp-image-652" style="margin: 5px;" title="Indochine" src="images/posts/oldwordpress/uploads/2009/07/Indochine.jpg" alt="Indochine" width="150" height="113" >}}</a>Les origines de l&#8217;EBM datent de la guerre froide. Quels autres sujets pouvait-elle donc aborder si ce n&#8217;est la politique.
+  <a href="images/posts/oldwordpress/uploads/2009/07/Indochine.jpg"><img class="alignleft size-full wp-image-652" style="margin: 5px;" title="Indochine" src="/images/posts/oldwordpress/uploads/2009/07/Indochine.jpg" alt="Indochine" width="150" height="113" ></a>Les origines de l&#8217;EBM datent de la guerre froide. Quels autres sujets pouvait-elle donc aborder si ce n&#8217;est la politique.
 </p>
 
 ## Les origines :

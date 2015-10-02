@@ -39,7 +39,7 @@ tags:
  
 
 <div id="attachment_1053" style="width: 310px" class="wp-caption aligncenter">
-  <a href="images/posts/oldwordpress/uploads/2010/04/setting_base.png">{{<img class="size-medium wp-image-1053" title="setting_base" src="images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png" alt="" width="300" height="220" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2010/04/setting_base.png"><img class="size-medium wp-image-1053" title="setting_base" src="/images/posts/oldwordpress/uploads/2010/04/setting_base-300x220.png" alt="" width="300" height="220" ></a>
   
   <p class="wp-caption-text">
     Basic Setting
@@ -67,7 +67,7 @@ tags:
  
 
 <div id="attachment_1055" style="width: 310px" class="wp-caption aligncenter">
-  <a href="images/posts/oldwordpress/uploads/2010/04/Setting_normal.png">{{<img class="size-medium wp-image-1055" title="Setting_normal" src="images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png" alt="" width="300" height="220" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2010/04/Setting_normal.png"><img class="size-medium wp-image-1055" title="Setting_normal" src="/images/posts/oldwordpress/uploads/2010/04/Setting_normal-300x220.png" alt="" width="300" height="220" ></a>
   
   <p class="wp-caption-text">
     Normal Setting
@@ -95,7 +95,7 @@ tags:
  
 
 <div id="attachment_1057" style="width: 310px" class="wp-caption aligncenter">
-  <a href="images/posts/oldwordpress/uploads/2010/04/Efar.png">{{<img class="size-medium wp-image-1057" title="Efar" src="images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png" alt="" width="300" height="220" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2010/04/Efar.png"><img class="size-medium wp-image-1057" title="Efar" src="/images/posts/oldwordpress/uploads/2010/04/Efar-300x220.png" alt="" width="300" height="220" ></a>
   
   <p class="wp-caption-text">
     Efar is defined on the big circle
@@ -132,7 +132,7 @@ You can finally start the solving process.
  
 
 <div id="attachment_1061" style="width: 310px" class="wp-caption aligncenter">
-  <a href="images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png">{{<img class="size-medium wp-image-1062" title="Hfar_Comsol" src="images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png" alt="" width="300" height="261" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1.png"><img class="size-medium wp-image-1062" title="Hfar_Comsol" src="/images/posts/oldwordpress/uploads/2010/04/Hfar_Comsol1-300x261.png" alt="" width="300" height="261" ></a>
   
   <p class="wp-caption-text">
     Hfar using comsol
@@ -158,7 +158,7 @@ You should get the resulting :
   <em>
   
   <div id="attachment_1064" style="width: 310px" class="wp-caption aligncenter">
-    <em><a href="images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png">{{<img class="size-medium wp-image-1064" title="Hafr_Matlab" src="images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png" alt="" width="300" height="219" >}}</a></em>
+    <em><a href="images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab.png"><img class="size-medium wp-image-1064" title="Hafr_Matlab" src="/images/posts/oldwordpress/uploads/2010/04/Hafr_Matlab-300x219.png" alt="" width="300" height="219" ></a></em>
     
     <p class="wp-caption-text">
       Hfar of a scattering circle using Matlab

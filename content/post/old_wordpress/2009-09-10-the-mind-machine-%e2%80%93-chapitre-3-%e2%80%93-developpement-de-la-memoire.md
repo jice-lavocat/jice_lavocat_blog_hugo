@@ -16,7 +16,7 @@ tags:
   - neurosciences
 ---
 <p style="text-align: justify;">
-  <a href="images/posts/oldwordpress/uploads/2009/09/MemoryB.jpg">{{<img class="alignleft size-thumbnail wp-image-925" style="margin: 10px;" title="Mémoire" src="images/posts/oldwordpress/uploads/2009/09/MemoryB-150x150.jpg" alt="Mémoire" width="150" height="150" >}}</a><em>Dans ce chapitre sont introduits les modèles concernant la formation de la mémoire et les différents processus qui permettent de la conserver plus ou moins active. <em>On y apprend en particulier qu&#8217;il existe deux types de mémoire (court terme et long terme) et que leur création n&#8217;est pas similaire. </em></em><span><span><em>(<a href="../2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)</em></span></span>
+  <a href="images/posts/oldwordpress/uploads/2009/09/MemoryB.jpg"><img class="alignleft size-thumbnail wp-image-925" style="margin: 10px;" title="Mémoire" src="/images/posts/oldwordpress/uploads/2009/09/MemoryB-150x150.jpg" alt="Mémoire" width="150" height="150" ></a><em>Dans ce chapitre sont introduits les modèles concernant la formation de la mémoire et les différents processus qui permettent de la conserver plus ou moins active. <em>On y apprend en particulier qu&#8217;il existe deux types de mémoire (court terme et long terme) et que leur création n&#8217;est pas similaire. </em></em><span><span><em>(<a href="../2009/08/the-mind-machine-notes-de-lecture/">Voir la liste des autres chapitres</a>)</em></span></span>
 </p>
 
 <p style="text-align: justify;">

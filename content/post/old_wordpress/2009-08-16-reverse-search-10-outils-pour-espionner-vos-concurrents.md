@@ -14,7 +14,7 @@ tags:
   - web
 ---
 <p style="text-align: justify;">
-  <a href="images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg">{{<img class="alignleft size-full wp-image-816" style="margin: 5px;" title="detectivehat" src="images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg" alt="detectivehat" width="150" height="107" >}}</a>Voilà une petite liste d&#8217;outils qui peuvent servir pour espionner vos concurrents sur le web. Quelques outils de cette liste proviennent de twitt émis par <a title="SEO Black and White Hat" href="http://www.seoblackout.com/" target="_blank">SeoBlackOut</a> que je remercie.
+  <a href="images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg"><img class="alignleft size-full wp-image-816" style="margin: 5px;" title="detectivehat" src="/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg" alt="detectivehat" width="150" height="107" ></a>Voilà une petite liste d&#8217;outils qui peuvent servir pour espionner vos concurrents sur le web. Quelques outils de cette liste proviennent de twitt émis par <a title="SEO Black and White Hat" href="http://www.seoblackout.com/" target="_blank">SeoBlackOut</a> que je remercie.
 </p>
 
 <p style="text-align: justify;">

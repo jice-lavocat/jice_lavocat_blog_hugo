@@ -4,8 +4,8 @@ author: Jice
 
 date: 2009-08-15
 url: /2009/08/grovers-search-algorithm-in-python/
-Image:
-  - images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png
+#Image:
+#  - images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png
 categories:
   - Quantum Information
 tags:
@@ -29,9 +29,7 @@ tags:
   Bellow I put the picture representing the evolution (step after step) of the probability to observe the correct answer. You can see the oscillations that are well explained by geometrical description of this algorithm.
 </p>
 
-<h2 style="text-align: center;">
-  <a href="images/posts/oldwordpress/uploads/2009/08/grover_simple.png">{{<img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" >}}</a>
-</h2>
+<img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="/images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" >
 
 <h2 style="text-align: justify;">
   Python Code
@@ -58,7 +56,7 @@ tags:
 </p>
 
 <h2 style="text-align: center;">
-  <a href="images/posts/oldwordpress/uploads/2009/08/grover_simple.png">{{<img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2009/08/grover_simple.png"><img class="aligncenter size-thumbnail wp-image-801" title="grover_simple" src="/images/posts/oldwordpress/uploads/2009/08/grover_simple-150x150.png" alt="grover_simple" width="150" height="150" ></a>
 </h2>
 
 <h2 style="text-align: justify;">
@@ -69,8 +67,7 @@ tags:
   Bellow you&#8217;ll find the code associated to this example. You&#8217;ll also be able to visualize the animation of the probabilities distribution according to the time.  The code is written in <a title="Python" href="http://www.python.org/" target="_blank">Python</a> and requires <a title="Numpy" href="http://numpy.scipy.org/" target="_blank">Numpy</a> to work. The associated functions classes are not useful for this simple case, but you&#8217;ll understand in the coming post why I need them.
 </p>
 
-  * [Grover Algorithm &#8211; Python][1] (run _python grover.py_)][1] 
-
+  * [Grover Algorithm &#8211; Python](/images/posts/oldwordpress/uploads/2009/08/Grover.zip) (run _python grover.py_)
 <h2 style="text-align: justify;">
   Interesting fact:
 </h2>
@@ -84,7 +81,7 @@ tags:
 </p>
 
 <p style="text-align: center;">
-  <a href="images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png">{{<img class="aligncenter size-thumbnail wp-image-804" title="grover_thresh_1" src="images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png" alt="grover_thresh_1" width="150" height="150" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2009/08/grover_thresh_1.png"><img class="aligncenter size-thumbnail wp-image-804" title="grover_thresh_1" src="/images/posts/oldwordpress/uploads/2009/08/grover_thresh_1-150x150.png" alt="grover_thresh_1" width="150" height="150" ></a>
 </p>
 
 <p style="text-align: justify;">

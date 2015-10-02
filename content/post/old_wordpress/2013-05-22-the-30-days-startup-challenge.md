@@ -17,7 +17,7 @@ tags:
 </p>
 
 <div id="attachment_1267" style="width: 310px" class="wp-caption aligncenter">
-  {{<img class="size-medium wp-image-1267" alt="30-days startup challenge" src="images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg" width="300" height="214" >}}
+  <img class="size-medium wp-image-1267" alt="30-days startup challenge" src="/images/posts/oldwordpress/uploads/2013/05/agenda-300x214.jpg" width="300" height="214" >
   
   <p class="wp-caption-text">
     30-days startup challenge

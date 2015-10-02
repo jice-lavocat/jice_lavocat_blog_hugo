@@ -18,7 +18,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Spammeur SEO" src="images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >}}Suite à mon article sur les aléas du spam referer, je poste un script python que j&#8217;ai utilisé pour faire mes tests. Le script se déroule en deux parties. La première va <a title="Récupération résultats google par python" href="http://localhost/oldblog/2009/02/extraire-urls-des-resultats-google-en-python/#more-127">récupérer les résultats google et les enregistrer dans un fichier</a>.
+  <img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Spammeur SEO" src="/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >Suite à mon article sur les aléas du spam referer, je poste un script python que j&#8217;ai utilisé pour faire mes tests. Le script se déroule en deux parties. La première va <a title="Récupération résultats google par python" href="http://localhost/oldblog/2009/02/extraire-urls-des-resultats-google-en-python/#more-127">récupérer les résultats google et les enregistrer dans un fichier</a>.
 </p>
 
 <p style="text-align: justify;">

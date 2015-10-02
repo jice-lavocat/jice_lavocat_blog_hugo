@@ -13,7 +13,7 @@ tags:
   - Mind Machine
 ---
 <p style="text-align: justify;">
-  {{<img style="margin: 10px 25px; float: left;" src="http://www.liv.ac.uk/news/news-images/press_releases/2004/02/colin_blakemore.jpg" alt="Colin Blakemore" width="117" height="175" />Dans les billets qui vont suivre et s&#8217;intituler &#8216;The Mind Machine &#8211; Chapitre x&#8217; je ferai un petit compte-rendu des informations apprises en lisant le livre &#8216;<a href="http://www.amazon.fr/gp/product/0563209011?ie=UTF8&tag=jicelavo-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=0563209011">The Mind Machine</a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=0563209011" border="0" alt="" width="1" height="1" >}}&#8216; de <a title="Colin Blakemore" href="http://en.wikipedia.org/wiki/Colin_Blakemore" target="_blank">Colin Blackemore</a>.
+  <img style="margin: 10px 25px; float: left;" src="http://www.liv.ac.uk/news/news-images/press_releases/2004/02/colin_blakemore.jpg" alt="Colin Blakemore" width="117" height="175" />Dans les billets qui vont suivre et s&#8217;intituler &#8216;The Mind Machine &#8211; Chapitre x&#8217; je ferai un petit compte-rendu des informations apprises en lisant le livre &#8216;<a href="http://www.amazon.fr/gp/product/0563209011?ie=UTF8&tag=jicelavo-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=0563209011">The Mind Machine</a><img style="border:none !important; margin:0px !important;" src="/http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=0563209011" border="0" alt="" width="1" height="1" >&#8216; de <a title="Colin Blakemore" href="http://en.wikipedia.org/wiki/Colin_Blakemore" target="_blank">Colin Blackemore</a>.
 </p>
 
 <p style="text-align: justify;">

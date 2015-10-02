@@ -137,11 +137,11 @@ categories:
 <table border="0" cellpadding="5" align="center">
   <tr>
     <td>
-      {{<img class="alignleft" title="Derek Abbott" src="http://www.eleceng.adelaide.edu.au/Personal/dabbott/dabbott.jpg" alt="" width="150" height="150" >}}
+      <img class="alignleft" title="Derek Abbott" src="/http://www.eleceng.adelaide.edu.au/Personal/dabbott/dabbott.jpg" alt="" width="150" height="150" >
     </td>
     
     <td>
-      {{<img class="alignleft" title="David Meyer" src="http://ri.calit2.net/profileimg.php?id=dmeyer" alt="" width="113" height="150" >}}
+      <img class="alignleft" title="David Meyer" src="/http://ri.calit2.net/profileimg.php?id=dmeyer" alt="" width="113" height="150" >
     </td>
   </tr>
   

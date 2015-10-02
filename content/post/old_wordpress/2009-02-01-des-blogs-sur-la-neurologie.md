@@ -18,7 +18,7 @@ tags:
   - neurosciences
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-74" title="Neurologie" src="images/posts/oldwordpress/uploads/2009/02/neurologie.jpg" alt="Neurologie" width="116" height="92" >}}Depuis un petit moment je m&#8217;intéresse de plus en plus aux<strong> sciences du cerveau</strong>, et à la <strong>conscience</strong>. Je vous ai déjà parlé du livre &#8220;<em>Quantum Aspects of Life</em>&#8221; dans un <a title="Lectures de vacances" href="http://localhost/oldblog/2008/12/lectures-de-vacances/">précédent billet </a>. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&#8217;étude. Je vous en donne la liste ci-dessous.
+  <img class="alignleft size-full wp-image-74" title="Neurologie" src="/images/posts/oldwordpress/uploads/2009/02/neurologie.jpg" alt="Neurologie" width="116" height="92" >Depuis un petit moment je m&#8217;intéresse de plus en plus aux<strong> sciences du cerveau</strong>, et à la <strong>conscience</strong>. Je vous ai déjà parlé du livre &#8220;<em>Quantum Aspects of Life</em>&#8221; dans un <a title="Lectures de vacances" href="http://localhost/oldblog/2008/12/lectures-de-vacances/">précédent billet </a>. Cette fois-ci je suis tombé sur quelques blogs intéressants en cherchant des informations pour mon stage de fin d&#8217;étude. Je vous en donne la liste ci-dessous.
 </p>
 
 <!--more-->

@@ -18,7 +18,7 @@ tags:
 </p>
 
 <p align="justify">
-  <a href="images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg">{{<img class="alignleft size-full wp-image-648" style="margin: 5px;" title="Cyber_Goth_by_biohazardbitch" src="images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg" alt="Cyber_Goth_by_biohazardbitch" width="128" height="170" >}}</a>Le Darkwave ou l&#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&#8217;aime la souffrance, ma copine/copain m&#8217;a quitté je vais me suicider&#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.<!--more-->
+  <a href="images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg"><img class="alignleft size-full wp-image-648" style="margin: 5px;" title="Cyber_Goth_by_biohazardbitch" src="/images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg" alt="Cyber_Goth_by_biohazardbitch" width="128" height="170" ></a>Le Darkwave ou l&#8217;Electro Body Music est un mix entre la culture techno/electro et gothique. Les thèmes retrouvés sont ceux de la musique gothique ( je meurs, j&#8217;aime la souffrance, ma copine/copain m&#8217;a quitté je vais me suicider&#8230;) et les sonorités techno. Visuellement parlant, on oscille entre du Gothique, et plus souvent du CyberPunk. Enjoy it.<!--more-->
 </p>
 
 <p align="justify">

@@ -23,11 +23,11 @@ tags:
 <table style="width: 300px; text-align: center;" border="0" align="center">
   <tr>
     <td width="150">
-      <a href="http://www.amazon.fr/gp/product/B001JNNFQI?ie=UTF8&tag=jicelavo-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=B001JNNFQI">{{<img class="aligncenter" src="http://ecx.images-amazon.com/images/I/51aABgh0pvL._SL160_AA115_.jpg" border="0" alt="" /></a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=B001JNNFQI" border="0" alt="" width="1" height="1" >}}
+      <a href="http://www.amazon.fr/gp/product/B001JNNFQI?ie=UTF8&tag=jicelavo-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=B001JNNFQI"><img class="aligncenter" src="http://ecx.images-amazon.com/images/I/51aABgh0pvL._SL160_AA115_.jpg" border="0" alt="" /></a><img style="border:none !important; margin:0px !important;" src="/http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=B001JNNFQI" border="0" alt="" width="1" height="1" >
     </td>
     
     <td width="150">
-      <a href="http://www.amazon.fr/gp/product/B001M0JI9Q?ie=UTF8&tag=jicelavo-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=B001M0JI9Q">{{<img class="aligncenter" src="http://ecx.images-amazon.com/images/I/41yO%2BwDzUjL._SL160_AA115_.jpg" border="0" alt="" /></a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=B001M0JI9Q" border="0" alt="" width="1" height="1" >}}
+      <a href="http://www.amazon.fr/gp/product/B001M0JI9Q?ie=UTF8&tag=jicelavo-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=B001M0JI9Q"><img class="aligncenter" src="http://ecx.images-amazon.com/images/I/41yO%2BwDzUjL._SL160_AA115_.jpg" border="0" alt="" /></a><img style="border:none !important; margin:0px !important;" src="/http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=B001M0JI9Q" border="0" alt="" width="1" height="1" >
     </td>
   </tr>
   

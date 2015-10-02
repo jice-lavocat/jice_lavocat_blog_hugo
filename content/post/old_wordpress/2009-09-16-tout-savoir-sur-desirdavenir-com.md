@@ -10,7 +10,7 @@ categories:
   - En vrac
 ---
 <p style="text-align: justify;">
-  {{<img style="margin: 20px; float: left;" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg" alt="Segolene Royal" width="112" height="150" >}}Si vous suivez un peu le buzz du web, vous avez sûrement entendu parler du, et visiter le nouveau site de <a href="http://fr.wikipedia.org/wiki/Segolene_Royal" target="_blank">Ségolène Royal </a>: <a title="Désir d'Avenir" href="http://desirsdavenir.com">desirsdavenir.com</a>. Site dont la construction a coutée un peu plus de 40 000 euros. On se demande alors dans quelle société on vit actuellement (Hadopi est passé hier et on paye des sites oldschool 40 000 euros&#8230; où va donc la France).
+  <img style="margin: 20px; float: left;" src="/http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg" alt="Segolene Royal" width="112" height="150" >Si vous suivez un peu le buzz du web, vous avez sûrement entendu parler du, et visiter le nouveau site de <a href="http://fr.wikipedia.org/wiki/Segolene_Royal" target="_blank">Ségolène Royal </a>: <a title="Désir d'Avenir" href="http://desirsdavenir.com">desirsdavenir.com</a>. Site dont la construction a coutée un peu plus de 40 000 euros. On se demande alors dans quelle société on vit actuellement (Hadopi est passé hier et on paye des sites oldschool 40 000 euros&#8230; où va donc la France).
 </p>
 
 <p style="text-align: justify;">
@@ -71,5 +71,5 @@ categories:
         
         <p style="text-align: justify;">
           <div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">
-            http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg{{<img style="margin: 20px;" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg" alt="" width="200" height="267" >}}
+            http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg<img style="margin: 20px;" src="/http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meeting_Royal_2007_02_06_n11-edit1.jpg/200px-Meeting_Royal_2007_02_06_n11-edit1.jpg" alt="" width="200" height="267" >
           </div>

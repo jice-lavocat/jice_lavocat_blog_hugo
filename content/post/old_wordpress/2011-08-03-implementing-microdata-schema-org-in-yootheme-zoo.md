@@ -22,11 +22,11 @@ tags:
   - Zoo
 ---
 <p style="text-align: justify;">
-  <a href="images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg">{{<img class="alignleft size-full wp-image-1211" style="margin: 0pt 10px;" title="schema-org-logo" src="images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg" alt="" width="128" height="80" >}}</a>Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the<strong> microdata system</strong> <a href="http://schema.org/">Schema.org</a>. This allow any website to provide <strong>semantic information</strong> to the <strong>search spiders</strong>. For instance, you can specify<em> what kind of content you are publishing</em>, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : <a href="http://schema.org/">http://schema.org/</a>
+  <a href="images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg"><img class="alignleft size-full wp-image-1211" style="margin: 0pt 10px;" title="schema-org-logo" src="/images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg" alt="" width="128" height="80" ></a>Recently, the three major search engins (Bing/Yahoo and Google) agreed on using the<strong> microdata system</strong> <a href="http://schema.org/">Schema.org</a>. This allow any website to provide <strong>semantic information</strong> to the <strong>search spiders</strong>. For instance, you can specify<em> what kind of content you are publishing</em>, like a recipe of an apple pie, or a movie review. More than that, depending on the type, you can give the various important information directly to the search robot : what is the movie title, what is its director, or how long you should cook your pie. To find all the piece of information you can select, you should read : <a href="http://schema.org/">http://schema.org/</a>
 </p>
 
 <p style="text-align: justify;">
-  <a href="images/posts/oldwordpress/uploads/2011/08/zoo.png">{{<img class="alignright size-full wp-image-1212" title="zoo" src="images/posts/oldwordpress/uploads/2011/08/zoo.png" alt="" width="150" height="120" >}}</a>As a Joomla fan, and <a href="http://www.yootheme.com/zoo/">Yootheme ZOO</a> frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
+  <a href="images/posts/oldwordpress/uploads/2011/08/zoo.png"><img class="alignright size-full wp-image-1212" title="zoo" src="/images/posts/oldwordpress/uploads/2011/08/zoo.png" alt="" width="150" height="120" ></a>As a Joomla fan, and <a href="http://www.yootheme.com/zoo/">Yootheme ZOO</a> frequent user, I had to implement this for my websites. I made a custom set of elements that allows me to provide schema.org names to my text fields. The change will add a new configuration field to your text / textarea / image inputs, and you will be able to add microdata properties to your object. This is very versatile and very easy to use.
 </p>
 
 <p style="text-align: justify;">
@@ -99,7 +99,7 @@ You should now be able to :
  
 
 <div id="attachment_1214" style="width: 310px" class="wp-caption alignright">
-  <a href="images/posts/oldwordpress/uploads/2011/08/schemafield.png">{{<img class="size-medium wp-image-1214" title="schemafield" src="images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png" alt="" width="300" height="245" >}}</a>
+  <a href="images/posts/oldwordpress/uploads/2011/08/schemafield.png"><img class="size-medium wp-image-1214" title="schemafield" src="/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png" alt="" width="300" height="245" ></a>
   
   <p class="wp-caption-text">
     A new "Schema.org Label" appears now, where you can specify your content

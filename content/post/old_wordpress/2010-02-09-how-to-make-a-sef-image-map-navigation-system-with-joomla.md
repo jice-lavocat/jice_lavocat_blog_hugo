@@ -44,7 +44,7 @@ In order to use it, just follow their instructions for installation, and, when y
 ## Creation of a menu system
 
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-1023" style="margin: 0px 20px;" title="content-management-system-joomla-free" src="images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png" alt="Joomla Menu System" width="185" height="171" >}}In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&#8217;s menu system. If you need to create two links for the same item, use an &#8220;<strong>alias</strong>&#8221; for the second one, in order to <strong>prevent duplicate URLs</strong>.
+  <img class="alignleft size-full wp-image-1023" style="margin: 0px 20px;" title="content-management-system-joomla-free" src="/images/posts/oldwordpress/uploads/2010/02/content-management-system-joomla-free.png" alt="Joomla Menu System" width="185" height="171" >In order to have a coherent navigation system with Joomla, I mean, to have a coherent SEF strategy, you have to create a unique link for each page.  In order to have a unique link for your content, the only solution is to use Joomla&#8217;s menu system. If you need to create two links for the same item, use an &#8220;<strong>alias</strong>&#8221; for the second one, in order to <strong>prevent duplicate URLs</strong>.
 </p>
 
 <p style="text-align: justify;">

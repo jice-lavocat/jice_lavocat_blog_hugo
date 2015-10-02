@@ -14,7 +14,7 @@ tags:
   - SEO
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-143" style="margin: 5px; float: left;" title="seo white hat" src="images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg" alt="seo white hat" width="140" height="112" >}}Comme le suppose le titre de ce post je parle ici de néthodes pas très honnêtes pour cacher ses cookies et utiliser de faux clics pour une utilisation que je vous laisse personnelle ( nous y reviendrons). Dans ce post je présente seulement les méthodes de mise en place du cookie stuffing ou du faux clic. Pour le reste (trouver ou placer les images, comment cacher la fraude etc.) je vous laisse les commentaires.
+  <img class="alignleft size-full wp-image-143" style="margin: 5px; float: left;" title="seo white hat" src="/images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg" alt="seo white hat" width="140" height="112" >Comme le suppose le titre de ce post je parle ici de néthodes pas très honnêtes pour cacher ses cookies et utiliser de faux clics pour une utilisation que je vous laisse personnelle ( nous y reviendrons). Dans ce post je présente seulement les méthodes de mise en place du cookie stuffing ou du faux clic. Pour le reste (trouver ou placer les images, comment cacher la fraude etc.) je vous laisse les commentaires.
 </p>
 
 <h2 style="text-align: justify;">
@@ -68,7 +68,7 @@ tags:
 
 Dans la suite de ce post je vous donne des précisions sur la deuxième méthode que j&#8217;ai utilisé pour avoir quelque chose comme 2000 clics en 5 ou 6 heures pour un concours bidon.
 
-{{<img class="aligncenter size-full wp-image-511" title="android" src="images/posts/oldwordpress/uploads/2009/06/android.png" alt="android" width="600" height="281" >}}
+<img class="aligncenter size-full wp-image-511" title="android" src="/images/posts/oldwordpress/uploads/2009/06/android.png" alt="android" width="600" height="281" >
 
 <br class="spacer_" />
 

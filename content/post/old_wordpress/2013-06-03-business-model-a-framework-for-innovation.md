@@ -21,7 +21,7 @@ tags:
   So let&#8217;s start. If I am not clear and if you don&#8217;t understand the core of the business, just post a comment at the end of the blog post.
 </p>
 
-## [{{<img class="alignright size-full wp-image-1368" alt="Logo WordiZ" src="images/posts/oldwordpress/uploads/2013/06/logo_square_125.png" width="126" height="65" >}}][1]What is WordiZ for?
+## [<img class="alignright size-full wp-image-1368" alt="Logo WordiZ" src="/images/posts/oldwordpress/uploads/2013/06/logo_square_125.png" width="126" height="65" >][1]What is WordiZ for?
 
 <p style="text-align: justify;">
   Before entering into the topic, let me try to  briefly explain our application : <em>WordiZ is a job board dedicated to web copywriters journalists and bloggers.</em>
@@ -36,7 +36,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  {{<img class="aligncenter size-full wp-image-1369" alt="Content is King" src="images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg" width="520" height="302" >}}
+  <img class="aligncenter size-full wp-image-1369" alt="Content is King" src="/images/posts/oldwordpress/uploads/2013/06/content_is_kinb.jpg" width="520" height="302" >
 </p>
 
 <p style="text-align: justify;">
@@ -44,7 +44,7 @@ tags:
 </p>
 
 <p style="text-align: center;">
-  {{<img class="aligncenter  wp-image-1370" alt="SEO and SMO" src="images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg" width="360" height="260" >}}
+  <img class="aligncenter  wp-image-1370" alt="SEO and SMO" src="/images/posts/oldwordpress/uploads/2013/06/boostwebtraffic.jpg" width="360" height="260" >
 </p>
 
 <p style="text-align: justify;">
@@ -60,7 +60,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  {{<img class="alignleft  wp-image-1371" style="margin-left: 20px; margin-right: 20px;" alt="Happy Writer working on WordiZ" src="images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg" width="200" >}}By hiring professional bloggers and copywriters you get two things. First you get some <strong>content</strong>, but this is not new (see <a href="#competitors">section below</a>). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus<strong>, bring fans</strong> to read your webpage. Even if it is not the case, John Doe is an <strong>influential blogger</strong>, so, no doubt that your page will <strong>receive lots of coverage</strong>.
+  <img class="alignleft  wp-image-1371" style="margin-left: 20px; margin-right: 20px;" alt="Happy Writer working on WordiZ" src="/images/posts/oldwordpress/uploads/2013/06/happy_writer.jpg" width="200" >By hiring professional bloggers and copywriters you get two things. First you get some <strong>content</strong>, but this is not new (see <a href="#competitors">section below</a>). Second you get the fame of the writer you hire, and to some extent his/her fanbase. Assume you hire John Doe to write about electric cars on your blog. After his article is posted on your blog, he will probably post the link on his social networks, and thus<strong>, bring fans</strong> to read your webpage. Even if it is not the case, John Doe is an <strong>influential blogger</strong>, so, no doubt that your page will <strong>receive lots of coverage</strong>.
 </p>
 
 WordiZ is the platform which will allow you to do the following :
@@ -88,7 +88,7 @@ From the writer side, a job on WordiZ is **more rewarding** than being hired to 
 </p>
 
 <p style="text-align: justify;">
-  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &#8220;<a href="http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0470876417&linkCode=as2&tag=jicelavo-21">Business Model Generation</a>{{<img style="border: none !important; margin: 0px !important;" alt="" src="http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=0470876417" width="1" height="1" border="0" >}}&#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &#8220;Matrix&#8221;. It&#8217;s visual, it&#8217;s simple, and it allows flexibility (for creation and  interpretation).
+  Several methodologies exist to write a good business model. However, recently, a trend occurred due to the best-seller &#8220;<a href="http://www.amazon.fr/gp/product/0470876417/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0470876417&linkCode=as2&tag=jicelavo-21">Business Model Generation</a><img style="border: none !important; margin: 0px !important;" alt="" src="/http://www.assoc-amazon.fr/e/ir?t=jicelavo-21&l=as2&o=8&a=0470876417" width="1" height="1" border="0" >&#8220;. Instead of writing a long and boring text, people now write small blurbs on post-its and stick them on the &#8220;Matrix&#8221;. It&#8217;s visual, it&#8217;s simple, and it allows flexibility (for creation and  interpretation).
 </p>
 
 <p style="text-align: justify;">
@@ -104,7 +104,7 @@ From the writer side, a job on WordiZ is **more rewarding** than being hired to 
 &nbsp;
 
 <p style="text-align: center;">
-  <a title="Business Model WordiZ" href="images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf" target="_blank">{{<img alt="Business Model Generation for WordiZ" src="images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png" width="600" height="450" >}}</a>
+  <a title="Business Model WordiZ" href="images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.pdf" target="_blank"><img alt="Business Model Generation for WordiZ" src="/images/posts/oldwordpress/uploads/2013/06/Business-Model-WordiZ.png" width="600" height="450" ></a>
 </p>
 
 <p style="text-align: center;">

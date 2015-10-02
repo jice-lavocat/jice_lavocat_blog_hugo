@@ -14,7 +14,7 @@ tags:
   - Spy
 ---
 <p style="text-align: justify;">
-  <a href="images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg">{{<img class="alignleft size-full wp-image-816" style="margin: 10px;" title="detectivehat" src="images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg" alt="detectivehat" width="200" height="142" >}}</a>Here is a short list of tools that can be used to spy on your competitors on the web. Some tools from the list issued by twitter <a title="SEO Black Hat and White" href="http://www.seoblackout.com/" target="_blank">SeoBlackOut</a> whom I thank.
+  <a href="images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg"><img class="alignleft size-full wp-image-816" style="margin: 10px;" title="detectivehat" src="/images/posts/oldwordpress/uploads/2009/08/detectivehat1.jpg" alt="detectivehat" width="200" height="142" ></a>Here is a short list of tools that can be used to spy on your competitors on the web. Some tools from the list issued by twitter <a title="SEO Black Hat and White" href="http://www.seoblackout.com/" target="_blank">SeoBlackOut</a> whom I thank.
 </p>
 
 <p style="text-align: justify;">

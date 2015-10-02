@@ -14,7 +14,7 @@ tags:
   - Spam
 ---
 <p style="text-align: justify;">
-  {{<img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Black Hat" src="images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >}}Sur ce blog j&#8217;ai beaucoup parlé de spam seo. Cela consiste uniquement à s&#8217;approprier les techniques permettant de mieux se positionner sur google. Une autre signification au mot spam est plus souvent utilisée : celle du spam par email. Dans cet article je vous explique pourquoi, selon moi, il ne faut pas lire les messages de spam, ou en tout cas activer le code html inclus dedans.<!--more-->
+  <img class="alignleft size-full wp-image-119" style="margin: 5px;" title="Black Hat" src="/images/posts/oldwordpress/uploads/2009/02/seo_black_hat.jpg" alt="Spammeur SEO" width="140" height="112" >Sur ce blog j&#8217;ai beaucoup parlé de spam seo. Cela consiste uniquement à s&#8217;approprier les techniques permettant de mieux se positionner sur google. Une autre signification au mot spam est plus souvent utilisée : celle du spam par email. Dans cet article je vous explique pourquoi, selon moi, il ne faut pas lire les messages de spam, ou en tout cas activer le code html inclus dedans.<!--more-->
 </p>
 
 <h2 style="text-align: justify;">
