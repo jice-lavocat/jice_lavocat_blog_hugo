@@ -21,6 +21,10 @@ tags:
   Inside you will discover the story of 50 inventions that &#8216;changed&#8217; our society. This book may contain some unknown product for non-US people (like Cuisinart,Frito-Lay, Jello &#8230;) but most of them are known worldwide.  You will discover for instance that the yoyo come from the Philippines, that the post-it was not first believed to be useful for 3M &#8230;
 </p>
 
+<p>
+This portion of work has been done by Marie George Clouet CEO of Graphemeride. We're glad she accepted to appear here as a test for a new article about Linkedin. This post is to be published soon; Please be patient.
+</p>
+
 <p style="text-align: justify;">
   The most important aspect of this book (apart from entertaining and culture) is for entrepreneur, managers and inventors. It describes how these products gained their success instead of being just a marketing failure. A lot of examples could help your business to innovate and promote this innovation. I recommend interested people to skim through its pages. The index (in the end) is more usefull than the table of content (quite mysterious for a non-US reader).
 </p>
