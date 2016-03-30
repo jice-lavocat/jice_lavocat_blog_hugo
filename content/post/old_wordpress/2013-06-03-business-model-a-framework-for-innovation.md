@@ -12,6 +12,7 @@ categories:
 tags:
   - 30 days challenge
   - business model
+  - startup
 ---
 <p style="text-align: justify;">
   If you never heard about the<strong> 30-days startup challenge</strong> that I am taking, then I suggest you to read the following <a title="30 days startup challenge" href="/tags/30-days-challenge/" target="_blank">list of articles</a>. Today we will disclose the business model behind <a title="WordiZ" href="http://www.wordiz.it" target="_blank">WordiZ</a>, the application we are creating. By doing this, I am of course aware of confidential issues, but I have the feeling that <strong>people tend to be lazy and stealing ideas take some energy</strong>. Since I am also some steps ahead from I will describe here, the concept given is the one I wrote down 2 weeks ago, and it as slightly evolved.

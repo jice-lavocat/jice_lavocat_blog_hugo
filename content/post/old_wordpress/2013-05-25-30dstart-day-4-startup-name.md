@@ -4,14 +4,6 @@ author: Jice
 image: images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png
 date: 2013-05-25
 url: /2013/05/30dstart-day-4-startup-name/
-btc_comment_counts:
-  - 'a:0:{}'
-btc_comment_summary:
-  - 'a:0:{}'
-factory_fr106_sociallocker_include_assets:
-  - sociallocker
-factory_sociallocker_include_assets:
-  - sociallocker
 categories:
   - Informatique
   - Management
@@ -57,7 +49,7 @@ Okay, that&#8217;s quite a long list. How was I able to select only three or fou
 
 I left the question opened overnight. In addition to the result depicted below, I got some **suggestions from people**. One had been added to the list : _scribens_ . Hat tip to <a title="Arromazam Pepe" href="https://plus.google.com/112241543943924051468/posts" target="_blank">Pepe Arromazam</a> for the smart suggestion. Below is the graphical result of these votes :
   
-[<img class="aligncenter size-full wp-image-1276" alt="Names suggested for the 30 days startup project" src="/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png" width="625" height="320" >][1]
+<img class="aligncenter size-full wp-image-1276" alt="Names suggested for the 30 days startup project" src="/images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png" width="625" height="320" >
 
 &nbsp;
 
@@ -74,17 +66,16 @@ Out of the big names above, I did not like _Proauthors_ at all, so I removed it 
 
 I found this last step of AB-testing your names very smart. I used the <a title="Picking a name for a startup" href="http://www.startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/" target="_blank">idea from Will Mitchell</a> from StartupBros. The whole point is that the **best choice** is the one that would do your **clients**. So why not let **the crowd deciding**?
 
-<center>
-  <img class="size-medium wp-image-1280 aligncenter" alt="Logo Header Unbounce" src="/images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg" width="300" height="196" >
-</center>
+
+  <img class="text-center" alt="Logo Header Unbounce" src="/images/posts/oldwordpress/uploads/2013/05/Unbounce-logo-plus-header-templates-300x196.jpg" width="300" height="196" >
 
 
   
-I used the service <a title="Unbounce -AB testing" href="http://unbounce.com/" target="_blank">unbounce.com</a> to create four identical **landing pages** where only the name/logo were changing. Their UI is pretty simple, and I just had to create [four logos][2] with <a title="Inkscape" href="http://inkscape.org/" target="_blank">Inkscape</a>. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :
+I used the service <a title="Unbounce -AB testing" href="http://unbounce.com/" target="_blank">unbounce.com</a> to create four identical **landing pages** where only the name/logo were changing. Their UI is pretty simple, and I just had to create four logos with <a title="Inkscape" href="http://inkscape.org/" target="_blank">Inkscape</a>. Then using Unbounce, I designed a standard and simple landing page for each name. Every time I was changing the logo and that&#8217;s it. Here is an example of the landing page I created (you can click to zoom it) :
 
-<center>
-  <a href="images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens.png"><img class="size-medium wp-image-1281 aligncenter" alt="Landing Page ScribenS - Made with Unbounce" src="/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png" width="300" height="255" ></a>
-</center>
+
+  <img class="text-center" alt="Landing Page ScribenS - Made with Unbounce" src="/images/posts/oldwordpress/uploads/2013/05/landing_page_unbound_scribens-300x255.png" width="300" height="255" >
+
 
 
   
@@ -227,5 +218,4 @@ I did not want to start worrying about competitors at this stage, but this has c
   The service that <a title="Prose" href="http://www.prosemedia.com/" target="_blank">Prose</a> is offering is slightly different than what we will offer. However, it&#8217;s good to keep an eye on them, &#8230; friendly {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" >}} Nice name by the way guys.
 </p>
 
- [1]: images/posts/oldwordpress/uploads/2013/05/names_tagcloud.png
  [2]: images/posts/oldwordpress/uploads/2013/05/possible_names.zip

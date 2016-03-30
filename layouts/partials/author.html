@@ -1,0 +1,20 @@
+{{ if not .Params.noauthor }}
+{{$author := index .Site.Data.authors (or .Params.author .Site.Params.author)}}
+{{$authorname := or $author.name .Site.Params.author }}
+{{$authorbio := or $author.bio .Site.Params.bio }}
+{{$authorlocation := or $author.location .Site.Params.authorlocation }}
+{{$authorwebsite := or $author.website .Site.Params.authorwebsite }}
+<section class="author">
+  <h4><a href="{{.Site.BaseURL}}">{{$authorname}}</a></h4>
+  {{if $authorbio}}
+  <p>World citizen, often found in France. Currently trying to build a Startup named <a href='http://www.elokenz.com'>Elokenz</a> : a SaaS about Content Marketing and Social Media.</p>
+  <p>You can <a href="{{.Site.Params.newsletterLink}}" style="color: #4A90E2; text-decoration: none; font-weight: 700 ">receive updates</a> when a new post is published, or <a href="https://twitter.com/Jice_Lavocat">follow me on Twitter</a></p>
+  {{else}}
+  <p>Read <a href="{{.Site.BaseURL}}">more posts</a> by this author.</p>
+  {{end}}
+  <div class="author-meta">
+    {{with $authorlocation}}<span class="author-location icon-location">{{.}}</span>{{end}}
+    {{with $authorwebsite}}<span class="author-link icon-link"><a href="{{.}}">{{.}}</a></span>{{end}}
+  </div>
+</section>
+{{end}}

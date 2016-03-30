@@ -18,7 +18,7 @@ canonifyurls = true
   author = "Jean-Christophe Lavocat"
   authorlocation = "Toulon, France"
   authorwebsite = "http://jice.lavocat.name"
-  bio= "World citizen, often found in France, loving Nature, Music and Startups"
+  bio = "World citizen, often found in France. Currently trying to build a Startup named <a href='http://www.elokenz.com'>Elokenz</a> : a SaaS about Content Marketing and Social Media."
   logo = "images/logo.png"
   googleAnalyticsUserID = "UA-3492655-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
@@ -28,6 +28,7 @@ canonifyurls = true
   twitterName = "jice_lavocat"
   facebookName = "jean.christophe.gomez.lavocat"
   linkedinName = "9743130"
+  newsletterLink = "http://eepurl.com/Argdf"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
 

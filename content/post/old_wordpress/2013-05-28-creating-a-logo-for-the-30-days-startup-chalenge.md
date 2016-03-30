@@ -1,12 +1,14 @@
 ---
 comments: true
 draft: false
-image: ""
-menu: ""
 share: true
 url: /2013/05/creating-a-logo-for-the-30-days-startup-chalenge/
 date : 2013-05-28
 title: "Creating a logo for the 30-days startup chalenge – 30DSTART – Day 7"
+tags:
+  - 30 days challenge
+  - business model
+  - startup
 ---
 
 
@@ -40,10 +42,9 @@ To understand the logo (see below), I have to give you what designers call a &#8
 
 Sorry to put the social toll; but by clicking it you will help WordiZ before its even officially released. Great isn&#8217;t it?
 
-[sociallocker id=&#8221;1346&#8243;]
 
 <p style="text-align: center;">
-  <a href="images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png"><img class="aligncenter  wp-image-1344" alt="WordiZ logo" src="/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png" width="500" ></a>[/sociallocker]
+  <a href="images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png"><img class="aligncenter  wp-image-1344" alt="WordiZ logo" src="/images/posts/oldwordpress/uploads/2013/05/wordiz_logo_600px.png" width="500" ></a>
 </p>
 
 ## ? Inspiration for your logo
