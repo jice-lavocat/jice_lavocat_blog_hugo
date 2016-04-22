@@ -36,7 +36,7 @@ tags=["click frauding", "cookie stuffing","SEO","pixel tracking"]
 </p>
 
 
-  Je ne sais pas trop quel nom on donne généralement à la technique que je vais d&#8217;ecrire qui se base sur le cookie stuffing, mais je pense que <strong>click hidding</strong> ou <strong>click frauding</strong> convient (si quelqu&#8217;un le sais, n&#8217;hésitez pas à commenter). Qu&#8217; est-ce que  nous essayons de faire avec du clic frauding? Et bien tout simplement simuler un click d&#8217; un visiteur sur un lien donné ou une bannère. A quoi ça sert? Je ne pense pas avoir à vous apprendre que le traffic d&#8217;un site n&#8217;a qu&#8217;une seul vocation : apporter plus de visiteurs qui vont encore plus cliquer sur les bannière &#8230; qui vont générer des revenues.
+  Je ne sais pas trop quel nom on donne généralement à la technique que je vais d&#8217;ecrire qui se base sur le cookie stuffing, mais je pense que <strong>click hiding</strong> ou <strong>click frauding</strong> convient (si quelqu&#8217;un le sais, n&#8217;hésitez pas à commenter). Qu&#8217; est-ce que  nous essayons de faire avec du clic frauding? Et bien tout simplement simuler un click d&#8217; un visiteur sur un lien donné ou une bannère. A quoi ça sert? Je ne pense pas avoir à vous apprendre que le traffic d&#8217;un site n&#8217;a qu&#8217;une seul vocation : apporter plus de visiteurs qui vont encore plus cliquer sur les bannière &#8230; qui vont générer des revenues.
 
 
 
