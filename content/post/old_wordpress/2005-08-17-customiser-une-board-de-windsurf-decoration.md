@@ -4,10 +4,6 @@ author: Jice
 date: 2005-08-17
 url: /2005/08/customiser-une-board-de-windsurf-decoration/
 Image: images/posts/oldwordpress/uploads/2009/07/windsurfboard.jpg
-btc_comment_counts:
-  - 'a:0:{}'
-btc_comment_summary:
-  - 'a:0:{}'
 categories:
   - Windsurf
 tags:
@@ -27,20 +23,18 @@ Cette page va vous permettre de réutiliser à nouveau votre vieille board sur l
                   <div align="left">Refaire la peinture de votre planche</div>
                 </li>
               </ul>
-              <p><strong>Matos utilisé</strong>: - papier de verre<br>
-                <font color="#F3E3CB">.. ... .. ..... ........</font>- éponge 
-                humide<br>
-                <strong> </strong><font color="#F3E3CB">.. ... .. ... .. .. ....</font>-des 
-                feuilles de papier<br>
-                <font color="#F3E3CB">.. ... .. ... .. .. ....</font>-un tube 
-                de colle<br>
-                <font color="#F3E3CB">.. ... .. .... . .. ....</font>-du scotch<br>
-                <font color="#F3E3CB">.. ... .. .... . .. ....</font>-bombe de 
-                peinture pour voiture, Carlux<br>
-                <font color="#F3E3CB">.. ... .. ... .. .. ....</font>-vieux journaux<br>
-                <font color="#F3E3CB">.. ... .. ... .. .. ....</font>-pack Nautix 
-                grip (bassine et rouleau fournis)</p>
-
+              <p><strong>Matos utilisé</strong>:
+              <ul>
+                <li>papier de verre</li>
+                <li>éponge humide</li>
+                <li>des feuilles de papier</li>
+                <li>un tube de colle</li>
+                <li>du scotch</li>
+                <li>une bombe de peinture pour voiture, Carlux</li>
+                <li>de vieux journaux</li>
+                <li>un pack Nautix grip (bassine et rouleau fournis)</li>
+              </ul>
+              
 
 ## 1ère étape: Poncer la planche:
 
@@ -48,7 +42,11 @@ Le ponçage permet d'enlever les restes d'antidérapant sur les zones non usées
 
 <img title="matos poncage" src="/images/posts/oldwordpress/uploads/2009/07/matos-poncage.jpg" alt="matos poncage" />
 
-<br /> <strong>Matos utilisé</strong>: &#8211; papier de verre<br > <span style="color: #f3e3cb;"><span style="color: #ffffff;">.. &#8230; .. &#8230;.&#8230;&#8230;.</span>.</span>- éponge humide
+<br /> <strong>Matos utilisé</strong>: 
+  <ul>
+    <li>papier de verre</li>
+    <li>éponge humide</li>
+  </ul>
 
 
 
@@ -83,13 +81,22 @@ On passe aux choses sérieuses:
 
 <img class="alignnone size-full wp-image-603" title="pochoir" src="/images/posts/oldwordpress/uploads/2009/07/pochoir.jpg" alt="pochoir" width="250" height="248" />
 
-<strong>Matos utilisé: </strong>-la feuille de papier<br /> <span style="color: #ffffff;">.. &#8230; .. &#8230; .. .. &#8230;.</span>-un tube de colle<br > <span style="color: #ffffff;">.. &#8230; .. &#8230;. . .... &#8230;.</span>-du scotch
+<strong>Matos utilisé</strong>:
+              <ul>
+                <li>des feuilles de papier</li>
+                <li>un tube de colle</li>
+                <li>du scotch</li>
+              </ul>
+
   
 
 <img class="alignnone size-full wp-image-604" title="peinture" src="/images/posts/oldwordpress/uploads/2009/07/peinture.jpg" alt="peinture" width="300" height="225" />  
 
-<strong>Matos utilisé: </strong>-peinture pour voiture, Carlux<br >}} <span style="color: #ffffff;">.. &#8230; .. &#8230; .. .. &#8230;.</span>-vieux journaux
-  
+<strong>Matos utilisé</strong>:
+              <ul>
+                <li>une bombe de peinture pour voiture, Carlux</li>
+                <li>de vieux journaux</li>
+              </ul>
 
 Protégez le reste de la planche grâce à de vieux journaux. Secouez, sinon la pulpe elle reste en bas, et peintez (ou peindez, comme vous voulez).
 
