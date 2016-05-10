@@ -6,10 +6,6 @@ date: 2008-01-28
 url: /2008/01/reggae-russe/
 Image:
   - images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg
-btc_comment_counts:
-  - 'a:0:{}'
-btc_comment_summary:
-  - 'a:0:{}'
 categories:
   - Musique
 tags:
@@ -17,7 +13,7 @@ tags:
   - Reggae
   - Russe
 ---
-[<img class="alignleft size-full wp-image-690" style="margin: 5px;" title="reggae-music" src="/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg" alt="reggae-music" width="270" height="270" >][1]Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.
+<img class="alignleft size-full wp-image-690" style="margin: 5px;" title="reggae-music" src="/images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg" alt="reggae-music" width="270" height="270">Je suis en train de me renseigner sur le reggae made in Russia. Pour vous faire part de mes petites découvertes je vous laisse cet article.
 
 Avant de commencer je voulais vous donner ma source de nom de groupes : <a onclick="window.open(this.href);return false;" href="http://www.zhurnal.ru/music/rasta/bands.html">http://www.zhurnal.ru/music/rasta/bands.html</a>
 
@@ -40,18 +36,11 @@ Avant de commencer je voulais vous donner ma source de nom de groupes : <a oncli
     Il s&#8217;agit de Dub simple mais très prenante et posé(e).
   </p>
   
-  <p align="justify">
-    <h3>
-      Dva Samoleta :
-    </h3>
-    
-    <p align="justify">
-      Un groupe de Ska Russe. Je trip pas forcément sur le ska, mais en Russe ça donne la pêche : <a title="Dva Smoleta" href="http://www.dvasamoleta.ru/site.php?page=music" target="_blank">http://www.dvasamoleta.ru/site.php?page=music</a>
-    </p>
-    
-    <p align="justify">
-      <p align="justify">
-        <p style="text-align: center;">
-        </p>
 
- [1]: images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg
+ 
+### Dva Samoleta :
+
+Un groupe de Ska Russe. Je trip pas forcément sur le ska, mais en Russe ça donne la pêche : <a title="Dva Smoleta" href="http://www.dvasamoleta.ru/site.php?page=music" target="_blank">http://www.dvasamoleta.ru/site.php?page=music</a>
+
+    
+
