@@ -4,8 +4,7 @@ author: Jice
 
 date: 2012-10-20
 url: /2012/10/elevage-de-sentimancho/
-Image:
-  - http://www.presstor.fr/sites/presstor.fr/files/styles/vignette_sentimancho/public/images/sentimancho/sentimancho_de_chasse_san.jpg
+Image: http://www.presstor.fr/sites/presstor.fr/files/styles/vignette_sentimancho/public/images/sentimancho/sentimancho_de_chasse_san.jpg
 categories:
   - SEO
 tags:
@@ -42,12 +41,12 @@ Je vous incite à faire la chose suivante : écrivez un petit article sur votre 
   <p style="text-align: justify;">
     En faisant cela, vous aiderez mon site de manière organique, et le monde du web ne s&#8217;en sentira que mieux.
   </p>
-  
+
   <p style="text-align: justify;">
     <p style="text-align: justify;">
       Merci d&#8217;avance,
     </p>
-    
+
     <p style="text-align: justify;">
       &nbsp; JICE
     </p>
