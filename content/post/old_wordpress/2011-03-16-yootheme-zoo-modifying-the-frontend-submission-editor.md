@@ -4,8 +4,7 @@ author: Jice
 
 date: 2011-03-16
 url: /2011/03/yootheme-zoo-%e2%80%93-modifying-the-frontend-submission-editor/
-Image:
-  - http://www.yootheme.com/images/stories/top/home/zoo.png
+Image: http://www.yootheme.com/images/stories/top/home/zoo.png
 categories:
   - Informatique
 tags:

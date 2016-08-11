@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-08-19
 url: /2009/08/the-mind-machine-chapitre-1-le-langage-et-la-conscience/
-Image:
-  - http://www.betterhearing.org/images/family_talking.jpg
+Image: http://www.betterhearing.org/images/family_talking.jpg
 categories:
   - Neurosciences
 tags:

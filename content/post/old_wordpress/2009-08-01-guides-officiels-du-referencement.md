@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-31
 url: /2009/08/guides-officiels-du-referencement/
-Image:
-  - images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg
+Image: images/posts/oldwordpress/uploads/2009/08/referencement-internet.jpg
 categories:
   - SEO
 tags:

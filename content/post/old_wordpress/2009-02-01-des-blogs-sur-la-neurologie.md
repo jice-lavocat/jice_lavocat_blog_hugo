@@ -6,8 +6,7 @@ date: 2009-02-01
 url: /2009/02/des-blogs-sur-la-neurologie/
 aktt_notify_twitter:
   - no
-Image:
-  - images/posts/oldwordpress/uploads/2009/02/neurologie.jpg
+Image: images/posts/oldwordpress/uploads/2009/02/neurologie.jpg
 categories:
   - Neurosciences
   - Sciences

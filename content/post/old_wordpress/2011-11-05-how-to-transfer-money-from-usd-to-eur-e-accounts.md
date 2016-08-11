@@ -4,8 +4,7 @@ author: Jice
 
 date: 2011-11-05
 url: /2011/11/how-to-transfer-money-from-usd-to-eur-e-accounts/
-Image:
-  - http://www.redmondpie.com/wp-content/uploads/2009/11/5onsaleappsforiPhone_BD57/CurrenciesCurrencyConverter.jpg
+Image: http://www.redmondpie.com/wp-content/uploads/2009/11/5onsaleappsforiPhone_BD57/CurrenciesCurrencyConverter.jpg
 categories:
   - En vrac
   - Ma_Life.com

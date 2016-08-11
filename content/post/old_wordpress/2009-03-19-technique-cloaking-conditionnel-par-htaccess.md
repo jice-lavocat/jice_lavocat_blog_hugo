@@ -6,8 +6,7 @@ date: 2009-03-19
 url: /2009/03/technique-cloaking-conditionnel-par-htaccess/
 aktt_notify_twitter:
   - no
-Image:
-  - images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg
+Image: images/posts/oldwordpress/uploads/2009/02/seo_white_hat.jpg
 categories:
   - Informatique
 tags:

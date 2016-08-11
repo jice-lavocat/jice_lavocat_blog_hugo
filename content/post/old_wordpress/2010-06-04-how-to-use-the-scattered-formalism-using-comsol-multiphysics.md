@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-06-04
 url: /2010/06/how-to-use-the-scattered-formalism-using-comsol-multiphysics/
-Image:
-  - http://fralbe.files.wordpress.com/2008/05/comsol.gif
+Image: http://fralbe.files.wordpress.com/2008/05/comsol.gif
 categories:
   - Sciences
   - Scientific Computations

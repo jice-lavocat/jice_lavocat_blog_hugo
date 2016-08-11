@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-19
 url: /2009/07/musique-neo-medievale/
-Image:
-  - http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg
+Image: http://b8.ac-images.myspacecdn.com/00973/80/35/973715308_l.jpg
 categories:
   - Musique
 tags:

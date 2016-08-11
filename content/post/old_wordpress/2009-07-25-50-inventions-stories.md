@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-24
 url: /2009/07/50-inventions-stories/
-Image:
-  - http://img.flipkart.com/bk_imgs/thumb/118/9780471165118.jpg
+Image: http://img.flipkart.com/bk_imgs/thumb/118/9780471165118.jpg
 categories:
   - Management
 tags:

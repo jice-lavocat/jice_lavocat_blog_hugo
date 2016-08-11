@@ -4,8 +4,7 @@ author: Jice
 
 date: 2011-08-03
 url: /2011/08/implementing-microdata-schema-org-in-yootheme-zoo/
-Image:
-  - images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg
+Image: images/posts/oldwordpress/uploads/2011/08/schema-org-logo1.jpg
 efs_price:
   - 5.00
 btc_comment_counts:
@@ -51,10 +50,10 @@ tags:
   Read Me File
 </h2>
 
-\*\* Schema.org implementation under Yootheme ZOO component \*\*  
-Author : Jean-Christophe Lavocat  
-Email : jice@nauka-websites.com  
-Date : July 2011  
+\*\* Schema.org implementation under Yootheme ZOO component \*\*
+Author : Jean-Christophe Lavocat
+Email : jice@nauka-websites.com
+Date : July 2011
 \***\***\***\***\***\***\***\***\***\***\***\***\***\***\***\***\***\***\***\****
 
 ## Introduction
@@ -69,12 +68,12 @@ Go to your administration panel and check which template you are using for your 
 
 The new architecture should add the following folders.
 
-/applications/blog/   
-elements/   
+/applications/blog/
+elements/
 &#8230;/
 
-/applications/blog/template/templatename/renderer/   
-/element/   
+/applications/blog/template/templatename/renderer/
+/element/
 &#8230;
 
 Finally, go to the view you want to include schema.org : probably it will be the &#8220;full&#8221; view. Go to &#8220;/joomlabase/media/zoo/applications/blog/templates/templatename/renderer/item&#8221; and open &#8220;full.php&#8221;. You have to manually add the good schema type at the beginning of the file, and close it at the end. Suppose you are displaying a recipe, put the line :
@@ -87,11 +86,11 @@ in the first html output (say, after the first &#8220;?>&#8221;). Add a &#8220;<
 
 ## Configuration
 
-Go to the setting of your content type in the administration panel. Edit the fields of the view you just modified.   
-You should now be able to :  
-1) give a schema.org label to all the text field  
-2) give a schema.org label to the main title, or specify if it is an author profile page.  
-3) add a default picture label to one of your picture  
+Go to the setting of your content type in the administration panel. Edit the fields of the view you just modified.
+You should now be able to :
+1) give a schema.org label to all the text field
+2) give a schema.org label to the main title, or specify if it is an author profile page.
+3) add a default picture label to one of your picture
 4) give the label &#8220;url&#8221; to the links
 
  
@@ -100,7 +99,7 @@ You should now be able to :
 
 <div id="attachment_1214" style="width: 310px" class="wp-caption alignright">
   <a href="images/posts/oldwordpress/uploads/2011/08/schemafield.png"><img class="size-medium wp-image-1214" title="schemafield" src="/images/posts/oldwordpress/uploads/2011/08/schemafield-300x245.png" alt="" width="300" height="245" ></a>
-  
+
   <p class="wp-caption-text">
     A new "Schema.org Label" appears now, where you can specify your content
   </p>
@@ -110,14 +109,14 @@ You should now be able to :
 
 ## Verification
 
-To verify your item pages, copy paste their url to :   
+To verify your item pages, copy paste their url to :
 http://www.google.com/webmasters/tools/richsnippets
 
 ## Help / Troubleshootings / FAQ
 
-Any questions should be sent to jice@nauka-websites.com. You should specify in your email :  
-1) which version of ZOO you are using  
-2) the description of your problem  
+Any questions should be sent to jice@nauka-websites.com. You should specify in your email :
+1) which version of ZOO you are using
+2) the description of your problem
 3) the URL where the error is visible
 
  

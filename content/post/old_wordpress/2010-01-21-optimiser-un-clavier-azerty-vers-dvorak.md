@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-01-21
 url: /2010/01/optimiser-un-clavier-azerty-vers-dvorak/
-Image:
-  - images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg
+Image: images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg
 categories:
   - Informatique
 tags:
@@ -34,7 +33,7 @@ tags:
 
 <div style="width: 407px" class="wp-caption aligncenter">
   <a href="http://www.collection-machineaecrire-campiche-hermes.ch/collec.htm">{{<img src="http://www.collection-machineaecrire-campiche-hermes.ch/Images/photo05.JPG" alt="Machine à écrire" width="397" height="298" >}}</a>
-  
+
   <p class="wp-caption-text">
     Machine à écrire Remington Credit : http://www.collection-machineaecrire-campiche-hermes.ch
   </p>
@@ -70,7 +69,7 @@ tags:
 
 <div id="attachment_998" style="width: 310px" class="wp-caption aligncenter">
   <img class="size-medium wp-image-998" title="Clavier démonté" src="/images/posts/oldwordpress/uploads/2010/01/DSC_0007-300x201.jpg" alt="" width="300" height="201" >
-  
+
   <p class="wp-caption-text">
     Pour démonter son clavier : une simple pointe pour faire levier
   </p>
@@ -89,15 +88,15 @@ Après avoir écrit cet article, je me suis souvenu d&#8217;un projet **plus ava
 Les avantages sont les suivants (texte tiré du site officiel) :
 
 > La disposition des caractères et symboles permet de :
-> 
->   * « sortir » le moins de fois possible les doigts de la ligne de repos. Elle contient les caractères AUIE, à gauche et TSRN à droite. En bépo les deux tiers de la frappe se font sur la ligne de repos contre un peu plus de 20 % en azerty ; 
->   * répartir équitablement le nombre de frappes entre main gauche et main droite ; 
->   * réduire la distance totale parcourue par les doigts de moitié vis-à-vis de l’azerty ; 
->   * réduire le nombre de [digrammes][2] à une main (_¡ chiffres !_) ; 
->   * ne jamais avoir recours à la rangée du haut du clavier (chiffres et symboles) pour un texte en français ; 
->   * utiliser tous les types de claviers (dont les [claviers ergonomiques][3] qui ont la plupart du temps 104 touches) sans perte d’efficacité ; 
->   * simplifier les digrammes comprenant des caractères de la rangée inférieure du clavier, sous la main gauche (zone peu accessible sur les claviers décalés). 
-> 
+>
+>   * « sortir » le moins de fois possible les doigts de la ligne de repos. Elle contient les caractères AUIE, à gauche et TSRN à droite. En bépo les deux tiers de la frappe se font sur la ligne de repos contre un peu plus de 20 % en azerty ;
+>   * répartir équitablement le nombre de frappes entre main gauche et main droite ;
+>   * réduire la distance totale parcourue par les doigts de moitié vis-à-vis de l’azerty ;
+>   * réduire le nombre de [digrammes][2] à une main (_¡ chiffres !_) ;
+>   * ne jamais avoir recours à la rangée du haut du clavier (chiffres et symboles) pour un texte en français ;
+>   * utiliser tous les types de claviers (dont les [claviers ergonomiques][3] qui ont la plupart du temps 104 touches) sans perte d’efficacité ;
+>   * simplifier les digrammes comprenant des caractères de la rangée inférieure du clavier, sous la main gauche (zone peu accessible sur les claviers décalés).
+>
 > Il en résulte un très grand confort d’utilisation. Une impression de facilité et de moindre fatigue.
 
 Je pense que je vais finalement partir sur un clavier Bepo, puisque leur projet semble ramener beaucoup plus de monde que le Dvorak-fr.

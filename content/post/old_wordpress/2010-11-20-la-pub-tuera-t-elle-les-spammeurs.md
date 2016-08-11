@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-11-20
 url: /2010/11/la-pub-tuera-t-elle-les-spammeurs/
-Image:
-  - images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png
+Image: images/posts/oldwordpress/uploads/2010/11/pub_nucaptcha-300x248.png
 categories:
   - Informatique
 tags:

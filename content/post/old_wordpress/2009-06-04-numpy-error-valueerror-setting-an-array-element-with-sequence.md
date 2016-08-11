@@ -6,8 +6,7 @@ date: 2009-06-04
 url: /2009/06/numpy-error-valueerror-setting-an-array-element-with-sequence/
 aktt_notify_twitter:
   - no
-Image:
-  - images/posts/oldwordpress/uploads/2009/06/python.png
+Image: images/posts/oldwordpress/uploads/2009/06/python.png
 btc_comment_counts:
   - 'a:0:{}'
 btc_comment_summary:
@@ -42,19 +41,19 @@ tags:
   <p style="text-align: justify;">
     Instead, here is the solution I found after 4 hours looking everywhere on the web&#8230; finding nothing. This is my own solution, so if helped you, I would be very glad {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif" alt=":-D" class="wp-smiley" >}}
   </p>
-  
+
   <p style="text-align: justify;">
     In order to help numpy to accept your vector&#8230; tell it it&#8217;s not a vector :
   </p>
-  
+
   <p style="text-align: center;">
     <em>array([( [0,0,1,0],0.5)],<span style="color: #ff0000;">object</span>)</em>
   </p>
-  
+
   <p style="text-align: justify;">
     By doing this you change de dtype of your array, and it can accept even personnal classes.
   </p>
-  
+
   <p style="text-align: justify;">
     <p style="text-align: justify;">
       Does that work for you?<em><br /> </em>

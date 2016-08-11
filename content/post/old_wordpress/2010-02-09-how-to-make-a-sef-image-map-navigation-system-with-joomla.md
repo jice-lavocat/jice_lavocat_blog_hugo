@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-02-09
 url: /2010/02/how-to-make-a-sef-image-map-navigation-system-with-joomla/
-Image:
-  - images/posts/oldwordpress/uploads/2010/02/joomla-symbol-color.png
+Image: images/posts/oldwordpress/uploads/2010/02/joomla-symbol-color.png
 categories:
   - Informatique
   - SEO

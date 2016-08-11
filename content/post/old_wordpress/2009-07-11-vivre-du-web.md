@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-11
 url: /2009/07/vivre-du-web/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/make-money_blog.jpg
 categories:
   - En vrac
   - Informatique

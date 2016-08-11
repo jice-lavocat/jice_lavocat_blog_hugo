@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-11
 url: /2009/07/de-linteret-dun-bon-aileron/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/TwinzerMFC.jpg
 categories:
   - Windsurf
 tags:

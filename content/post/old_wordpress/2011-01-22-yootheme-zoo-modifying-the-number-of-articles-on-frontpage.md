@@ -4,8 +4,7 @@ author: Jice
 
 date: 2011-01-22
 url: /2011/01/yootheme-zoo-modifying-the-number-of-articles-on-frontpage/
-Image:
-  - http://www.yootheme.com/images/stories/top/home/zoo.png
+Image: http://www.yootheme.com/images/stories/top/home/zoo.png
 categories:
   - Informatique
 tags:
@@ -16,7 +15,7 @@ tags:
 
 Here is the line you have to change on **line 232** in **_/joomla\_base\_dir/components/com_zoo/controllers/default.php_**
 
-<pre>[cc lang="php"]// get item pagination 
+<pre>[cc lang="php"]// get item pagination
 $items_per_page = $params-&gt;get('config.items_per_page', 15);[/cc]</pre>
 
 should be transformed to

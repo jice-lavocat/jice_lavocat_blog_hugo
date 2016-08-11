@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-02-05
 url: /2010/02/geotagger-ses-photos-numeriques/
-Image:
-  - http://www.uberphones.com/photos/2008/2/geotagging.jpg
+Image: http://www.uberphones.com/photos/2008/2/geotagging.jpg
 categories:
   - Informatique
 tags:

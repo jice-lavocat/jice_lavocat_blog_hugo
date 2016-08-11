@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-11
 url: /2009/07/art-tribal/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/bdyart.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/bdyart.jpg
 categories:
   - Ma_Life.com
 tags:
@@ -30,7 +29,7 @@ La suite du message reprend la liste de sites. Pour ma part je préfère
 Des sucreries pour les yeux&#8230;
 
 UNE GALLERIE D&#8217;ART PSYCHEDELIQUE A VOIR ABSOLUMENT DEJA:
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.psygarden.be/][2]<!--EZCODE AUTOLINK END-->
@@ -38,139 +37,139 @@ UNE GALLERIE D&#8217;ART PSYCHEDELIQUE A VOIR ABSOLUMENT DEJA:
 Des artistes qui font de la **deco fluo**:
 
 NAGUAL (un de mes artistes favoris)
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov143.jpg][3]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov145.jpg][4]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov128.jpg][5]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov125.jpg][6]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov134.jpg][7]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.nagualcreations.com/][8]<!--EZCODE AUTOLINK END-->
 
 NOS (tres tres excellent aussi)
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov019.jpg][9]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov020.jpg][10]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov026.jpg][11]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov067.jpg][12]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov094.jpg][13]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov096.jpg][14]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov097.jpg][15]<!--EZCODE AUTOLINK END-->
 
 
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.divinemusictribe.com/][16]<!--EZCODE AUTOLINK END-->
 
 PUNKADELIK (que du bon!)
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.punkadelik.com/fr.php&#8230;Fluo&sort=][17]<!--EZCODE AUTOLINK END-->
 
 FILTROSTRUCTURES (de superbes sculptures en fils fluos)
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.filtrostructures.splinder.com/][18]<!--EZCODE AUTOLINK END-->
 
 Une autre sculpture en fils fluos :
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goatrance.de/goacidia&#8230;oov152.jpg][19]<!--EZCODE AUTOLINK END-->
 
 NEIL GIBSON (allez voir sa &#8220;sub dimensional matrix&#8221; c assez hallucinant)
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.neilgibson.ca/][20]<!--EZCODE AUTOLINK END-->
 
 FLUOROBOTANICS
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [fluorobotanics.psytrance.cz/][21]<!--EZCODE AUTOLINK END-->
 
 FELIX STOEVER
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.felix-stoever.de/][22]<!--EZCODE AUTOLINK END-->
 
 FLOUR ELYSIUM
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.flourelysium.com/][23]<!--EZCODE AUTOLINK END-->
 
 GOOD VISION
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.goodvision.ru/][24]<!--EZCODE AUTOLINK END-->
 
 AFADRENALIN
-  
+
 <!--EZCODE AUTOLINK START-->
 
 [www.afadrenalin.com/][25]<!--EZCODE AUTOLINK END-->
@@ -394,7 +393,7 @@ GREG SIMKINS
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 Allez voir dans la section &#8220;illustrations&#8221;
 
 BETHANY MARCHMAN
@@ -414,7 +413,7 @@ ALESSANDRO BAVARI
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 cliquer sur les differentes galleries pour voir ses toiles (ca rapelle un peu Bosch oui)
 
 GIGER
@@ -558,7 +557,7 @@ JEROME BOSCH
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 (le panneau de droite sur le tryptique du &#8220;jugement dernier&#8221; est splendide, helas les images ne sont pas assez grande pour que l&#8217;on puisse bien voir tous les details, ca une toile faut la voir en vrai, dans un musée, c&#8217;est splendide)
 
 SALVADOR DALI
@@ -582,11 +581,11 @@ SALVADOR DALI
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 Ouais, Dali ca klake
 
 WILLIAM BLAKE (le fameux poete evoqué dans le film Dead Man)
-  
+
 Kelkes peomes du mec:
 
 <!--EZCODE AUTOLINK START-->
@@ -596,7 +595,7 @@ Kelkes peomes du mec:
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 Kelkes dessins:
 
 <!--EZCODE AUTOLINK START-->
@@ -626,7 +625,7 @@ TOUCH SAMADHI
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 De magnifiques collages&#8230;
 
 <p align="center">
@@ -682,7 +681,7 @@ De magnifiques collages&#8230;
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 Bon alors jconstate ke ya 1 ptit souci avec les liens du site 90bpm.net, en fait ken tu klike sur le lien sa t&#8217;affiche bien la page mais pas l&#8217;image en question, alors le truc c&#8217;est qu&#8217;une fois que la page du lien (sans l&#8217;image) s&#8217;affiche tu klike une fois sur &#8220;photo suivante&#8221; puis sur &#8220;photo precedente&#8221; et ca va te recharger la page avec l&#8217;image cette fois.
 
 Des illustrateurs de bande-dessinées:
@@ -758,9 +757,9 @@ MOEBIUS (aka Jean Giraud)
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 D&#8217;ailleur j&#8217;en profite pour vous recommander de lire la bd &#8220;L&#8217;incal&#8221; (6 tomes, les dessins sont de Moebius et le scenario de Jodorowsky et c&#8217;est un chef d&#8217;oeuvre)
-  
+
 Et si vous kiffez Jodorowsky, il a fait pas mal d&#8217;autres bd et kelkes films notament &#8220;El Topo&#8221; qui est excellent.
 
 **Des sculpteurs**:
@@ -774,7 +773,7 @@ FRANS KRAJCBERG
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 A voir! Des sculptures magnifiques&#8230;
 
 RAYMOND MARTINEZ
@@ -786,7 +785,7 @@ RAYMOND MARTINEZ
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 Je kiffe les sculptures en verre (ken gt tout pitit g vu une expo verre au parc de vincenne et ca m&#8217;a marqué, ct trop beau, mais g jamais pu retrouver le nom des artistes ki exposaient, c con&#8230;)
 
 **Architecture**:
@@ -808,11 +807,11 @@ GAUDI
 <!--EZCODE AUTOLINK END-->
 
 
-  
+
 Attention c&#8217;est pas forcement pour les ames sensibles&#8230;
 
 ART PRECOLOMBIEN
-  
+
 &#8230;ca c un truk ki m&#8217;a toujours fasciné&#8230;ces objets degagent une force etrange&#8230;
 
 <!--EZCODE AUTOLINK START-->

@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-03-24
 url: /2010/03/installation-dun-drupal-multi-site/
-Image:
-  - http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif
+Image: http://digital.edipresse.com/wp-content/uploads/2009/08/drupal1.gif
 categories:
   - Informatique
 tags:

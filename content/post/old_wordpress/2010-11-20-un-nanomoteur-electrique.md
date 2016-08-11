@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-11-20
 url: /2010/11/un-nanomoteur-electrique/
-Image:
-  - http://pubs.acs.org/appl/literatum/publisher/achs/journals/content/ancac3/0/ancac3.ahead-of-print/nn1021499/aop/images/medium/nn-2010-021499_0002.gif
+Image: http://pubs.acs.org/appl/literatum/publisher/achs/journals/content/ancac3/0/ancac3.ahead-of-print/nn1021499/aop/images/medium/nn-2010-021499_0002.gif
 categories:
   - Nanosciences
   - Sciences

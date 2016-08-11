@@ -4,8 +4,7 @@ author: Jice
 
 date: 2010-11-21
 url: /2010/11/expat-la-tv-francaise-a-letranger/
-Image:
-  - http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png
+Image: http://www.lorteau.net/blog/wp-content/uploads/2009/02/arte-logo.png
 categories:
   - En vrac
 tags:
@@ -74,9 +73,9 @@ Arte compte une large audience en Europe et pourrait également compter une larg
   ARTE (Association relative à la télévision européenne) est financée, en France comme en Allemagne, par la redevance audiovisuelle. Bien que la chaîne télévisée ne puisse &#8220;recourir à la publicité&#8221;, elle a la possibilité &#8220;de développer ses recettes propres, en particulier par la recherche de parrainages.&#8221;
 </p>
 
-- Les budgets consacrés au rayonnement de la culture Française, Allemande, Francophone, ne peuvent-ils pas couvrir les frais éventuellement supplémentaires liés à la diffusion libre en ligne des programmes?   
-&#8211; Pourquoi ne pas offrir l&#8217;accès aux expatriés contre une participation au financement de la chaine sus forme d&#8217;un abonnement annuel modique à <a href="http://plus7.arte.tv/" target="_blank">http://plus7.arte.tv/</a>?   
-&#8211; Le blocage des programmes hors UE a été allègrement &#8220;hacké&#8221; et détourné jusqu&#8217;ici par les internautes. Arte a modifié ses techniques de blocage géographique par adresse IP à ses frais et souvent sans succès. Ne serait-il pas plus intéressant pour ARTE de diffuser ses programmes contre un droit d&#8217;accès raisonnable?   
+- Les budgets consacrés au rayonnement de la culture Française, Allemande, Francophone, ne peuvent-ils pas couvrir les frais éventuellement supplémentaires liés à la diffusion libre en ligne des programmes?
+&#8211; Pourquoi ne pas offrir l&#8217;accès aux expatriés contre une participation au financement de la chaine sus forme d&#8217;un abonnement annuel modique à <a href="http://plus7.arte.tv/" target="_blank">http://plus7.arte.tv/</a>?
+&#8211; Le blocage des programmes hors UE a été allègrement &#8220;hacké&#8221; et détourné jusqu&#8217;ici par les internautes. Arte a modifié ses techniques de blocage géographique par adresse IP à ses frais et souvent sans succès. Ne serait-il pas plus intéressant pour ARTE de diffuser ses programmes contre un droit d&#8217;accès raisonnable?
 &#8211; Pourquoi ne pas ajouter l&#8217;accès à ARTE aux avantages qui sont attribués aux Français qui s&#8217;inscrivent au consulat de leur pays de résidence, comme la carte consulaire, la détaxe sur les achats en France, etc.?
 
 <p style="text-align: justify;">

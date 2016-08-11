@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-08-21
 url: /2009/08/the-mind-machine-%e2%80%93-chapitre-2-%e2%80%93-lenfance-et-lapprentissage/
-Image:
-  - images/posts/oldwordpress/uploads/2009/08/Embryon.jpg
+Image: images/posts/oldwordpress/uploads/2009/08/Embryon.jpg
 categories:
   - Neurosciences
 tags:

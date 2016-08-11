@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-11
 url: /2009/07/playlist-darkwave/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/Cyber_Goth_by_biohazardbitch.jpg
 categories:
   - Musique
 tags:

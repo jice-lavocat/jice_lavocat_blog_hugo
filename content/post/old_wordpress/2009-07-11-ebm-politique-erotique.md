@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-11
 url: /2009/07/ebm-politique-erotique/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/Indochine.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/Indochine.jpg
 categories:
   - Musique
 tags:

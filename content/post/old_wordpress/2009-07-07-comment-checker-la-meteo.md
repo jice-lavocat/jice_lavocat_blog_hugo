@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-07-07
 url: /2009/07/comment-checker-la-meteo/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/rose-des-vents.jpg
 categories:
   - Ma_Life.com
 tags:
@@ -34,7 +33,7 @@ tags:
         Windguru : <a href="http://windguru.com/" target="_blank">http://windguru.com.</a> L&#8217;un des sites web les plus connus, mais qui n&#8217;est pas toujours fiable. Choisir votre spot dans la liste déroulante. Il y a plusieurs relevés possibles ; il faut donc faire la moyenne des relevés pour estimer au mieux les prévisions
       </div>
     </li>
-    
+
     <li>
       Météo France : <a href="http://www.meteo.fr/" target="_blank">http://www.meteo.fr</a>. Relevés classiques, mais il faut payer pour avoir les vrais relevés (ceux qui sont les plus précis).Pour avoir les relevés marin, séléctionner &#8216;mer&#8217; puis votre zone géographique.
     </li>
@@ -42,7 +41,7 @@ tags:
       Baston.fr : <a href="http://www.baston.fr/" target="_blank">http://www.baston.fr.</a> Apparemment les hélices tournent lorsque l&#8217;anémo dépasse les 12 noeuds
     </li>
   </ul>
-  
+
   <h2>
     Marseille et ses alentours
   </h2>

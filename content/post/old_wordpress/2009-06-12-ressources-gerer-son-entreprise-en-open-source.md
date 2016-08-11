@@ -6,8 +6,7 @@ date: 2009-06-12
 url: /2009/06/ressources-gerer-son-entreprise-en-open-source/
 aktt_notify_twitter:
   - no
-Image:
-  - images/posts/oldwordpress/uploads/2009/06/opensource.png
+Image: images/posts/oldwordpress/uploads/2009/06/opensource.png
 categories:
   - Management
 tags:

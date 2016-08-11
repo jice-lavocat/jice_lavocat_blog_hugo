@@ -4,8 +4,7 @@ author: Jice
 
 date: 2008-01-28
 url: /2008/01/reggae-russe/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg
 categories:
   - Musique
 tags:
@@ -27,20 +26,20 @@ Avant de commencer je voulais vous donner ma source de nom de groupes : <a oncli
   <h3>
     Caribace :
   </h3>
-  
+
   <p align="justify">
     Ok, c&#8217;est du Dub, mais au moins c&#8217;est du bon Dub. A écouter ici : <a title="Caribace" href="http://www.myspace.com/caribace" target="_blank">http://www.myspace.com/caribace</a>
   </p>
-  
+
   <p align="justify">
     Il s&#8217;agit de Dub simple mais très prenante et posé(e).
   </p>
-  
 
- 
+
+
 ### Dva Samoleta :
 
 Un groupe de Ska Russe. Je trip pas forcément sur le ska, mais en Russe ça donne la pêche : <a title="Dva Smoleta" href="http://www.dvasamoleta.ru/site.php?page=music" target="_blank">http://www.dvasamoleta.ru/site.php?page=music</a>
 
-    
+
 

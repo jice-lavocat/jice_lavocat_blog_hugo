@@ -4,8 +4,7 @@ author: Jice
 
 date: 2011-07-01
 url: /2011/07/integration-of-google-1-in-yootheme-zoo/
-Image:
-  - http://www.yootheme.com/images/stories/top/home/zoo.png
+Image: http://www.yootheme.com/images/stories/top/home/zoo.png
 categories:
   - Informatique
 tags:

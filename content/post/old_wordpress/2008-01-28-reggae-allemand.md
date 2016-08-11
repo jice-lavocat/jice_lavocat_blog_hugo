@@ -4,8 +4,7 @@ author: Jice
 
 date: 2008-01-28
 url: /2008/01/reggae-allemand/
-Image:
-  - images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg
+Image: images/posts/oldwordpress/uploads/2009/07/reggae-music.jpg
 btc_comment_counts:
   - 'a:0:{}'
 btc_comment_summary:

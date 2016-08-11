@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-08-21
 url: /2009/08/devenir-un-entrepreuneur-us/
-Image:
-  - images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg
+Image: images/posts/oldwordpress/uploads/2009/08/leader011-150x150.jpg
 categories:
   - Management
 tags:
@@ -25,7 +24,7 @@ tags:
 
 <a href="http://www.tobeanentrepreneur.com" target="_blank">http://www.tobeanentrepreneur.com</a> : un actif, quelques sociétés à son actif. Prof à la LBS et à Standford
 
-<a href="http://startuplessonslearned.blogspot.com" target="_blank">http://startuplessonslearned.blogspot.com</a> : un actif, fondateur de IMVU [Eric Ries][2]{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de [Lean][3]{#aptureLink_7B1TdMgUWW} management (méthode Toyota).][2]{#aptureLink_CK1xPfv7yo} 
+<a href="http://startuplessonslearned.blogspot.com" target="_blank">http://startuplessonslearned.blogspot.com</a> : un actif, fondateur de IMVU [Eric Ries][2]{#aptureLink_CK1xPfv7yo}. Parle principalement du principe de [Lean][3]{#aptureLink_7B1TdMgUWW} management (méthode Toyota).][2]{#aptureLink_CK1xPfv7yo}
 
 Nénamoins je débute dans la lecture de blogs de ce domaine. Vous avez des références sur le sujet? Des gourous avec expérience concrète?
 

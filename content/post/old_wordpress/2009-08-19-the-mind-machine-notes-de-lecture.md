@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-08-19
 url: /2009/08/the-mind-machine-notes-de-lecture/
-Image:
-  - images/posts/oldwordpress/uploads/2009/02/neurologie.jpg
+Image: images/posts/oldwordpress/uploads/2009/02/neurologie.jpg
 categories:
   - Neurosciences
 tags:

@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-09-10
 url: /2009/09/the-mind-machine-%e2%80%93-chapitre-3-%e2%80%93-developpement-de-la-memoire/
-Image:
-  - images/posts/oldwordpress/uploads/2009/09/MemoryB-150x150.jpg
+Image: images/posts/oldwordpress/uploads/2009/09/MemoryB-150x150.jpg
 categories:
   - Neurosciences
 tags:

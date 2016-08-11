@@ -4,8 +4,7 @@ author: Jice
 
 date: 2009-12-24
 url: /2009/12/reparer-un-pixel-mort-endormi/
-Image:
-  - http://udpix.free.fr/images/udpixel.gif
+Image: http://udpix.free.fr/images/udpixel.gif
 categories:
   - Informatique
 tags:
