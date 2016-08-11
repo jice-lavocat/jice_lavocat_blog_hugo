@@ -19,11 +19,16 @@ Je viens de découvrir un label qui fait dans le breakbeat et dont je n&#8217;av
 > _With an awesome artist roster including the Freestylers, Krafty Kuts, Skool Of Thought, Ed Solo, Splitloop and new signings Black Canvas and Deekline & Wizard._ (www.superchargedmusic.com)
 
 Le site officiel : <a href="http://www.superchargedmusic.com/" target="_blank">http://www.superchargedmusic.com</a>
-  
+
 Le myspace officiel : <a href="http://www.myspace.com/atgandsupercharged" target="_blank">http://www.myspace.com/atgandsupercharged</a>
 
-Concernant les artistes, je vous mets quelques exemples dans les lignes qui suivent. J&#8217;essayerai de mettre quelques renseignements si je suis assez motivé.Ces renseignements proviennent du label : <a href="http://www.superchargedmusic.com/artists.html" target="_blank">http://www.superchargedmusic.com/artists.html</a>
+Concernant les artistes, je vous mets quelques exemples dans les lignes qui suivent. J&#8217;essayerai de mettre quelques renseignements si je suis assez motivé. Ces renseignements proviennent du label : <a href="http://www.superchargedmusic.com/artists.html" target="_blank">http://www.superchargedmusic.com/artists.html</a>
 
-Freestylers : Connu pour des participation avec des superstar comme Pendulum (Painkiller), il aut écouter les titres suivants : painkiller, push up&#8230;
+Freestylers : Connu pour des participation avec des superstar comme Pendulum (Painkiller), il faut écouter les titres suivants : painkiller, push up&#8230;
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6SOyijfkFUI" frameborder="0" allowfullscreen></iframe>
 
 Ed Solo est de loin mon préféré. Je vous conseille tout de lui
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/AJWx_MVXGUM" frameborder="0" allowfullscreen></iframe>
+

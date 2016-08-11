@@ -15,25 +15,13 @@ tags:
   - Linux
   - Sécurité
 ---
-Vous êtes étudiants à l&#8217;Ecole Centrale Marseille? Vous êtes sur un réseau où les administrateurs se font du soucis pour la sécurité? Il y a fort à parier que la publication d&#8217;un site web présente quelques difficultés pour le néophyte.
+Vous êtes étudiants à l&#8217;Ecole Centrale Marseille ? Vous êtes sur un réseau où les administrateurs se font du soucis pour la sécurité ? Il y a fort à parier que la publication d&#8217;un site web présente quelques difficultés pour le néophyte.
 
 En effet, le serveur qui affichera vos pages web (apache?) se basera sur les droits que vous accordez à vos fichiers. Si ceux-ci sont mal réglés, vous n&#8217;aurez pas le droit d&#8217;y accéder par le web.
 
 Voilà le code source d&#8217;un script bash pour faire les changements automatiquement sur votre fichier web :
 
->  _#!/bin/bash
-  
-> find . -type f -exec chmod 644 {} \; #fichiers en général
-  
-> find . -name &#8216;*.php&#8217; -exec chmod 600 {} \; #tous les fichiers qui portent l&#8217;extension php
-  
-> find . -type d -exec chmod 751 {} \; #tous les répertoires
-  
-> chmod 755 visible #un répertoire visible de l&#8217;extérieur qui s&#8217;appelle &#8216;visible&#8217;
-  
->_ 
-> 
->  __
+<script src="https://gist.github.com/tanzaho/d8866efa4b0913e8b8eeeed2d052c3b2.js"></script>
 
 ### Utilisation :
 
