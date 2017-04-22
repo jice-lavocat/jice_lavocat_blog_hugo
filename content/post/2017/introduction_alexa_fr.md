@@ -6,7 +6,7 @@ image = "/images/posts/2017/tutoriel_amazon_alexa/amazon-echo-featured.jpg"
 tags = ["amazon alexa", "voice programmation"]
 +++
 
-La vague d'intérêt pour Amazon Alexa arrive seulement en Europe depuis 2017 alors qu'elle a débuté en 2016 aux Etats-Unis. Dans cet article en Français, j'ai voulu vous donner quelques pistes pour commencer à coder et développer sur cette plateforme vocale.
+La vague d'intérêt pour Amazon Alexa arrive seulement en Europe depuis 2017 alors qu'elle a débuté en 2016 aux États-Unis. Dans cet article en Français, j'ai voulu vous donner quelques pistes pour commencer à coder et développer sur cette plateforme vocale.
 
 L'avènement du **Voice** est à prévoir pour d'ici quelques mois/années et se base principalement sur des avancées en Traitement Automatique des Langues (TAL, ou Natural Language Processing - NLP en Anglais) et sur la démocratisation du cloud computing.
 
@@ -18,9 +18,9 @@ Si vous avez quelques connaissances en programmation (Python, NodeJs ou Java) et
 
 ### Amazon Alexa - Amazon Echo
 
-Commençons par le commencement : quel est la différence entre Alexa et Echo ? Très simple, **Amazon Alexa** c'est l'algorithme de reconnaissance et d'intéraction vocale développé par la firme de *Jeff Bezos*, tandis que l'Amazon Echo est un des appareils qui permettent d'accéder à Alexa.
+Commençons par le commencement : quel est la différence entre Alexa et Echo ? Très simple, **Amazon Alexa** c'est l'algorithme de reconnaissance et d'interaction vocale développé par la firme de *Jeff Bezos*, tandis que l'Amazon Echo est un des appareils qui permettent d'accéder à Alexa.
 
-Amazon a ainsi construit plusieurs "terminaux" qui tirent parti de la puissance d'Alexa. Echo efut le premier mis sur le marché, et il est aussi le plus puissant car son architecture enregistre mieux les voix, même si elles sont émises d'une autre pièces. L'Amazon Dot et l'Amazon Tap sont deux autres produits de la gamme. Le premier est une version minimaliste de l'Echo, tandis que le Tap se positionne d'abord comme une enceinte bluetooth.
+Amazon a ainsi construit plusieurs "terminaux" qui tirent parti de la puissance d'Alexa. Echo fut le premier mis sur le marché, et il est aussi le plus puissant car son architecture enregistre mieux les voix, même si elles sont émises d'une autre pièces. L'Amazon Dot et l'Amazon Tap sont deux autres produits de la gamme. Le premier est une version minimaliste de l'Echo, tandis que le Tap se positionne d'abord comme une enceinte bluetooth.
 
 <img src="/images/posts/2017/tutoriel_amazon_alexa/Amazon-Echo.jpg">
 <br><center><i>L'Amazon Echo - Vu interne et externe</i></center>
@@ -38,7 +38,7 @@ L'application Alexa, de base, fournit un ensemble de fonctionnalités avancées 
 
 <img src="/images/posts/2017/tutoriel_amazon_alexa/alexa-logo.png">
 
-Ces fonctionnalités de base ne seraient rien sans les applications tierces que l'on peut créer et ajouter à la marketplace. Amazon les appelle **Skills** (compétences en Français) et la place de marché a dépassé le chiffre sybolique de 10 000 skills il y a quelques semaines. Cette place de marché, un peu à la manière de l'appstore Google ou iOS, permet aux développeurs de proposer leur création à tous les propriétaire d'un appareil compatible avec Alexa. On y trouve donc deux types d'applications : les indépendantes (les jeux, les utilitaires, ...) et les applications de marque (ecommerce, culture, Radio, ...).
+Ces fonctionnalités de base ne seraient rien sans les applications tierces que l'on peut créer et ajouter à la marketplace. Amazon les appelle **Skills** (compétences en Français) et la place de marché a dépassé le chiffre symbolique de 10 000 skills il y a quelques semaines. Cette place de marché, un peu à la manière de l'appstore Google ou iOS, permet aux développeurs de proposer leur création à tous les propriétaire d'un appareil compatible avec Alexa. On y trouve donc deux types d'applications : les indépendantes (les jeux, les utilitaires, ...) et les applications de marque (ecommerce, culture, Radio, ...).
 
 Cet article va vous permettre de coder votre première skill et de la mettre sur la marketplace. Vous verrez à quel point c'est facile et jouissif.
 
@@ -49,7 +49,7 @@ Le succès récent d'Alexa a poussé de nombreux constructeurs à sortir leur pr
 <img src="/images/posts/2017/tutoriel_amazon_alexa/google-home-lead.jpg">
 
 
-De nombreux constructeurs peuvent aussi intégrer directement l'algorithme Alexa dans leur objet connecté. C'est d'ailleurs une des forces d'Amazon qui tente de prendre de vitesse l'écosystème IoT (un peu à la manière d'Android qui a phagocyter les OS mobiles). Google a cependant pris les devants en rachetant en Septembre 2016 [Api.ai](https://api.ai/), un service tiers ui permettait d'implémenter facilement des compétences conversationnelles dans votre application/objet connecté.
+De nombreux constructeurs peuvent aussi intégrer directement l'algorithme Alexa dans leur objet connecté. C'est d'ailleurs une des forces d'Amazon qui tente de prendre de vitesse l'écosystème IoT (un peu à la manière d'Android qui a phagocyté les OS mobiles). Google a cependant pris les devants en rachetant en Septembre 2016 [Api.ai](https://api.ai/), un service tiers qui permettait d'implémenter facilement des compétences conversationnelles dans votre application/objet connecté.
 
 Bref, ça bouge beaucoup dans ce secteur. Il ne serait pas surprenant de voir arriver Apple ou Facebook dans la course un de ces jours. Facebook possède d'ailleurs le système [Wit.ai](https://wit.ai) pour la conception d'interfaces de type chatbots par texte.
 
@@ -58,7 +58,7 @@ Bref, ça bouge beaucoup dans ce secteur. Il ne serait pas surprenant de voir ar
 
 ### Interaction avec le système conversationnel
 
-Avant d'aborder concrètement le code (promis ça vient vite), je voulais présenter rapidement les concepts qui dirigent les applications vocales (Alexa ou Google Home). L'intéraction se fait en plusieurs étapes :
+Avant d'aborder concrètement le code (promis ça vient vite), je voulais présenter rapidement les concepts qui dirigent les applications vocales (Alexa ou Google Home). L'interaction se fait en plusieurs étapes :
 
 1. L'utilisateur parle dans sa langue
 - L'appareil enregistre et transfert l'audio sur le cloud vers Alexa
@@ -123,9 +123,9 @@ Le premier onglet va permettre de gérer les réglages de base de votre skill : 
 <img src="/images/posts/2017/tutoriel_amazon_alexa/new_skill_wizard.png">
 
 
-Un skill peut être de trois **types** différents : custom, smart home et flash briefing. Le plus général et le plus flexible est **Custom Interaction Model**. C'est ce type qui permettra à vos utilisateurs de poser des questions à Alexa. Le type Smart Home permet de contrôler des objets connectés ("allume la lumière", "change de chanson", "lance la cuisson du four"). Enfin, le dernier type sert aux sites de news pour retourner aux utilisateurs un bulletin flash (pas totallement certain, je n'ai pas approfondi).
+Un skill peut être de trois **types** différents : custom, smart home et flash briefing. Le plus général et le plus flexible est **Custom Interaction Model**. C'est ce type qui permettra à vos utilisateurs de poser des questions à Alexa. Le type Smart Home permet de contrôler des objets connectés ("allume la lumière", "change de chanson", "lance la cuisson du four"). Enfin, le dernier type sert aux sites de news pour retourner aux utilisateurs un bulletin flash (pas totalement certain, je n'ai pas approfondi).
 
-Pour le **language**, c'est évident. Sachez que seuls l'Anglais US et UK ainsi que l'Allemant sont actuellement disponibles. Pour le **nom**, pareil, c'est transparent.
+Pour le **langage**, c'est évident. Sachez que seuls l'Anglais US et UK ainsi que l’Allemand sont actuellement disponibles. Pour le **nom**, pareil, c'est transparent.
 
 Le **nom d'invocation** par contre est plus important. C'est l'expression que vos utilisateurs vont utiliser pour "lancer votre application". Ce nom doit obéir à un [ensemble de règles](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill) mises en place pour éviter le brand squatting et autres problèmes de copyright ou de conflit de commande avec le système core d'Alexa. Première règle, cette commande doit être en deux mots minimum (sauf marque clairement unique), les stop-word et prépositions ne comptent pas. La commande ne doit pas contenir de nom de personne ou de ville. etc. etc.
 
@@ -135,7 +135,7 @@ Plusieurs langues peuvent être inclues dans une même application. Mais vous le
 
 La partie la plus intéressante, pour les non techniques se situe ici. Vous pouvez faire intervenir ici vos enfants, votre designer, vos parents... Je n'ajoute pas de screenshots ici car l'interface est en train de changer à l'heure où j'écris ces lignes.
 
-L'idée ici est de convenir tout d'abord d'un **schéma d'intentions** qui liste l'ensemble des fonctions qui sont accessibles dans votre application. Si vous suivez le tutoriel de démarrage rapide d'Amazon vous allez créer deux fonctions (un *getter* - WhatsMyColorIntent - et un *setter* - MyColorIsIntent -); ces deux fonctions sont donc données dans un dictionnaire JSON.
+L'idée ici est de convenir tout d'abord d'un **schéma d'intentions** qui liste l'ensemble des fonctions qui sont accessibles dans votre application. Si vous suivez le [tutoriel de démarrage rapide d'Amazon](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) vous allez créer deux fonctions (un *getter* - WhatsMyColorIntent - et un *setter* - MyColorIsIntent -); ces deux fonctions sont donc données dans un dictionnaire JSON.
 
 ```
 {
@@ -208,13 +208,13 @@ Maintenant que votre modèle d'interaction est prêt, il faut relier votre appli
 
 ### Etape 2 - Création de la logique de votre application
 
-Pour ceux d'entre-vous qui ne connaissent pas Lambda, il s'agit d'un outil de l'écosystème AWS qui permet de lancer des tâches à la demande, sur les serveurs d'Amazon. On peut ainsi définir des triggers qui vont lancer l'execution d'un bout de code ("upload d'une image sur AWS S3 -> redimmensionnement d'une vignette"). Amazon Lambda n'était initiallement disponible qu'avec Node.JS mais à présent vous pouvez utiliser Python, Java ou C#.
+Pour ceux d'entre-vous qui ne connaissent pas Lambda, il s'agit d'un outil de l'écosystème AWS qui permet de lancer des tâches à la demande, sur les serveurs d'Amazon. On peut ainsi définir des triggers qui vont lancer l’exécution d'un bout de code ("upload d'une image sur AWS S3 -> redimensionnement d'une vignette"). Amazon Lambda n'était initialement disponible qu'avec Node.JS mais à présent vous pouvez utiliser Python, Java ou C#.
 
 Le [guide rapide](https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial) est très bien détaillé pour cet étape, et je vous propose de le suivre (step 1) pour la création du code de base.
 
-Une fois votre fonction lambda créé, vour pouvez passer un peu de temps pour comprendre le code. Je prendrai un peu plus de temps dans un prochain article pour le détailler. Cette introduction est déjà beaucoup plus longue que ce que je souhaitais.
+Une fois votre fonction lambda créé, vous pouvez passer un peu de temps pour comprendre le code. Je prendrai un peu plus de temps dans un prochain article pour le détailler. Cette introduction est déjà beaucoup plus longue que ce que je souhaitais.
 
-Ce code vie sur Lambda et est accessible via une addresse unique, l'**ARN** (voilà à quoi elle ressemble chez moi: `ARN - arn:aws:lambda:eu-west-1:309702694645:function:myColorSkill`).
+Ce code vie sur Lambda et est accessible via une adresse unique, l'**ARN** (voilà à quoi elle ressemble chez moi: `ARN - arn:aws:lambda:eu-west-1:309702694645:function:myColorSkill`).
 
 
 Il vous faut finalement revenir sur votre compte Amazon Developer et renseigner la dernière section de votre skill en donnant l'adresse ARN pour qu'Alexa appelle cette fonction Lambda au bon moment.
@@ -222,7 +222,7 @@ Il vous faut finalement revenir sur votre compte Amazon Developer et renseigner 
 ## Test et conclusion
 
 Si tout à bien marché jusqu'au bout, vous pourrez normalement tester votre fonction avec Echosim (rappelez-vous cet outil est relié à votre compte Amazon et donc votre skill, même en mode en test, vous est accessible).
-Vous devez d'abord lancer votre application dans Alexa, pour celà, dites : `Alexa, open Color Picker`. Votre application sera lancée et vous donnera l'indication pour l'utiliser.
+Vous devez d'abord lancer votre application dans Alexa, pour cela, dites : `Alexa, open Color Picker`. Votre application sera lancée et vous donnera l'indication pour l'utiliser.
 
 A vous de tester de modifier à l'envie.
 
