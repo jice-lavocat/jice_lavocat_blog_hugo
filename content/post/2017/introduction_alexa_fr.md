@@ -6,11 +6,13 @@ image = "/images/posts/2017/tutoriel_amazon_alexa/amazon-echo-featured.jpg"
 tags = ["amazon alexa", "voice programmation"]
 +++
 
-La vague d'intérêt pour Amazon Alexa arrive seulement en Europe depuis 2017 alors qu'elle a débuté en 2016 aux États-Unis. Dans cet article en Français, j'ai voulu vous donner quelques pistes pour commencer à coder et développer sur cette plateforme vocale.
+La vague d'intérêt pour Amazon Alexa arrive seulement en Europe depuis 2017 alors qu'elle a débuté en 2016 aux États-Unis. Dans cet article en Français, j'ai voulu vous donner quelques pistes pour commencer à coder et développer sur cette plateforme vocale. Ceci est donc la première partie d'une série sur comment coder une **application voice**.
 
 L'avènement du **Voice** est à prévoir pour d'ici quelques mois/années et se base principalement sur des avancées en Traitement Automatique des Langues (TAL, ou Natural Language Processing - NLP en Anglais) et sur la démocratisation du cloud computing.
 
-Si vous avez quelques connaissances en programmation (Python, NodeJs ou Java) et quelques connaissances du système [Amazon Lambda](../../2015/image-conversion-using-amazon-lambda-and-s3-in-node.js/), vous pouvez sauter les premiers paragraphes d'introduction et aller directement à la partie code.
+Si vous avez quelques connaissances en programmation (Python, NodeJs ou Java) et quelques connaissances du système [Amazon Lambda](../../2015/image-conversion-using-amazon-lambda-and-s3-in-node.js/), vous pouvez sauter les premiers paragraphes d'introduction et aller directement à la partie [Hello World avec Alexa]({{< ref "#hello-world-avec-alexa" >}}).
+
+Si vous n'avez pas les compétences mais souhaitez faire *créer une application voice par un freelance*, [faites moi signe](https://twitter.com/Jice_Lavocat).
 
 
 
@@ -225,6 +227,8 @@ Si tout à bien marché jusqu'au bout, vous pourrez normalement tester votre fon
 Vous devez d'abord lancer votre application dans Alexa, pour cela, dites : `Alexa, open Color Picker`. Votre application sera lancée et vous donnera l'indication pour l'utiliser.
 
 A vous de tester de modifier à l'envie.
+
+Dans une deuxième partie, je traiterai plus en détail la logique de l'application, celle qui route vos commandes vocales et renvoie un résultat. N'hésitez pas à vous [inscrire à ma newsletter](http://eepurl.com/Argdf) pour recevoir l'annonce de l'article.
 
 
 
