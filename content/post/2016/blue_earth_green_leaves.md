@@ -3,6 +3,7 @@ date = "2016-04-03"
 title = "Blue Planet, Green Leaves"
 image = "/images/posts/2016/blue_planet/the-blue-planet.jpg"
 tags = ["science", "colors", "light"]
+draft = true
 +++
 
 Our planet **Earth** is often called the **Blue Planet** due to the abundant water on its surface and/or the atmospheric hue. Most trees or plants on Earth have **green leaves**. Do you know that if we were living on a different plant, *water would still look blue, while plants might be red, yellow, purple or blue* instead of green ? In this essay I will explain the reason for these 2 colors.

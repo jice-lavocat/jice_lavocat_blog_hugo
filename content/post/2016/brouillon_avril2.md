@@ -3,6 +3,7 @@ date = "2016-04-15"
 title = "brouillon avril 2"
 image = "/images/posts/2016/blue_planet/the-blue-planet.jpg"
 tags = ["science", "colors", "light"]
+draft = true
 +++
 
 lazy = startup ideas
