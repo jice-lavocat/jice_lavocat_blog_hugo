@@ -1,7 +1,7 @@
 +++
 date = "2017-06-14"
 title = "Parse and use URL parameters in Google Tag Manager"
-image = "/images/posts/2017/elokenz/appetizer.png"
+image = "/images/posts/2017/gtm/gtm_custom_variable.png"
 tags = ["gtm", "google tag manager", "analytics"]
 +++
 
