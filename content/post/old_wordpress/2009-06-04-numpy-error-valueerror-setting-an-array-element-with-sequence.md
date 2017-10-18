@@ -39,7 +39,7 @@ tags:
 
 <p style="text-align: justify;">
   <p style="text-align: justify;">
-    Instead, here is the solution I found after 4 hours looking everywhere on the web&#8230; finding nothing. This is my own solution, so if helped you, I would be very glad {{<img src="http://localhost/oldblog/wp-includes/images/smilies/icon_biggrin.gif" alt=":-D" class="wp-smiley" >}}
+    Instead, here is the solution I found after 4 hours looking everywhere on the web&#8230; finding nothing. This is my own solution, so if helped you, I would be very glad :-D
   </p>
 
   <p style="text-align: justify;">
