@@ -33,7 +33,7 @@ Afin de trouver les sites de vos concurrents, plusieurs solutions existent. Les 
 </p>
 
 <p style="text-align: justify;">
-Enfin, de manière plus poussée, il est possible de <strong>retrouver un propriétaire de site grâce à ces pub adsense</strong> ou autre.  <a title="Reverse website ownership search" href="http://spyonweb.com/" target="_blank">SpyOnWeb</a> ne se base que sur Google Adsense, mais il est possible d&#8217;utiliser d&#8217;autres traces (si vous connaissez d&#8217;autres outils -> commentaire).
+Enfin, de manière plus poussée, il est possible de <strong>retrouver un propriétaire de site grâce à ses pub adsense</strong> ou autre.  <a title="Reverse website ownership search" href="http://spyonweb.com/" target="_blank">SpyOnWeb</a> ne se base que sur Google Adsense, mais il est possible d&#8217;utiliser d&#8217;autres traces (si vous connaissez d&#8217;autres outils -> commentaire).
 </p>
 
 <p style="text-align: justify;">
