@@ -15,7 +15,7 @@ I will teach you here how to do it step by step, but if you are just interested 
 
 
 
-## Explaination
+## Explanation
 
 The whole idea relies on **observing changes on Google Analytics real-time view**. One can look for change on the Visitor Count DOM element, and trigger a javascript event when it updates. The whole scenario can be played in your **browser's developper tab**. Here is the code to do that, explaination follows.
 
