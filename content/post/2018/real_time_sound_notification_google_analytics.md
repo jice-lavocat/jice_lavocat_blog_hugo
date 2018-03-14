@@ -3,8 +3,8 @@ date = "2018-01-17"
 title = "Google Analytics - Real-time sound notification on new visitors"
 url = "2018/google-analytics-real-time-sound-notification/"
 image = "/images/posts/2018/ga_play_sound/google_analytics_live_play_sound_alert.png"
-description = " In this post you'll find a bookmarklet that allows you to hear a sound notification whenever you have a new visitor showing up in your Real-Time Google Analytics view."
-tags = ["science", "colors", "light"]
+description = "In this post you'll find a bookmarklet that allows you to hear a sound notification whenever you have a new visitor showing up in your Real-Time Google Analytics view."
+tags = ["analytics", "bookmarklet", "growth"]
 +++
 
 Have you ever wanted **Google Analytics to play a sound when a new visitor hits your site**? Look no further, I have a small script for you.
