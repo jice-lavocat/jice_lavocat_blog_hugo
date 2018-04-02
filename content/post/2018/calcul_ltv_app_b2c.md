@@ -1,6 +1,6 @@
 +++
 date = "2018-03-14"
-title = "Calculer la LTV d'une app B2B"
+title = "Calculer la LTV d'une app B2C"
 url = "2018/calcul-ltv-app-b2c/"
 image = "/images/posts/2018/ltv/ltv_mobile_phone.png"
 description = " In this post you'll find a bookmarklet that allows you to hear a sound notification whenever you have a new visitor showing up in your Real-Time Google Analytics view."
