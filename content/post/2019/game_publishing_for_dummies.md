@@ -1,10 +1,10 @@
 +++
-date = "2019-07-10"
+date = "2019-07-21"
 title = "Game publishing for dummies"
 url = "2019/game_publishing_introduction/"
 image = "/images/posts/2019/game_publishers_dummies/game_panel.jpeg"
-description = " In this post you'll find a bookmarklet that allows you to hear a sound notification whenever you have a new visitor showing up in your Real-Time Google Analytics view."
-tags = ["mobile", "growth", "data", "analytics"]
+description = "Why on earth mobile games still use publishers to release their games and help them on the business side? We will cover some basic facts on this introduction on the topic."
+tags = ["games", "publishing",]
 +++
 
 Let me start with an unusual introduction. This blog post is not for the casual reader. My current goal is not to teach about something I've learnt in several years of practice. Instead, during the recent weeks, I became more and more curious about a trend that I have only found in the "arts" (books, movies, games).
