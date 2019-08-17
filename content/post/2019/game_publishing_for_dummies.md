@@ -62,7 +62,7 @@ Oh, I realize that forgot to explicit some specificities of the mobile industry.
 
 So, if you just put your game on the store, your only acquisition channel will be the "organic" one (people searching for keyword on the store). And believe me, even if do a lot of ASO (app-store optimization, it's more or less like SEO), the numbers won't allow you to have a big success overnight. You can still play with virality ("invite friends to get some virtual gold in our game") but this will get good result only if your game is addictive in the first place.
 
-So **what does a publisher do that game studios don't do in general**? Well, the first thing is that they have long-lasting relationship with programm-managers at app stores, and they can get their games "featured" on regular events. When an app is "featured", it will appear at the top of the charts for some days. And this, ... oh dear, it's like a moonshot for a game that is trying to acquire its first user. You'll get a bunch of organic installs (non paid but based on relationships). On the long term though, the publisher will probably spend much of its time doing paid acquisition. It will invest a lot, and it'll expect to see a good return on ad spend (ROAS) to justify the effort.
+So **what does a publisher do that game studios don't do in general**? Well, the first thing is that they have long-lasting relationship with programm-managers at app stores, and they can get their games "featured" on regular events. When an app is "featured", it will appear at the top of the charts for some days. And this, ... oh dear, it's like a moonshot for a game that is trying to acquire its first users. You'll get a bunch of organic installs (non paid but based on relationships). On the long term though, the publisher will probably spend much of its time doing paid acquisition. It will invest a lot, and it'll expect to see a good return on ad spend (ROAS) to justify the effort.
 
 Paid acquisition campaigns require continuous efforts: analysis, management, visual/video creations. You need at least **two distinct profiles** to deal with this activity: an artist who will create "creatives" used in ads, and a user acquisition (UA) manager who will handle the campaign creation, tracking, optimization.
 
@@ -76,11 +76,11 @@ OK, let's start with an obvious fact: partnership agreements are often mostly pr
 
 ### Cash/Financials
 
-Here, deals really vary from one to another. All depends on what is actually done by the publisher and done by the studio. A fairly large range of royalties can from 20% to 70%.
+Here, deals really vary from one to another. All depends on what is actually done by the publisher and done by the studio. A fairly large range of royalties exist, they can extend from 20% to 70%.
 
 The deal also depends on the product maturity when the deal is signed. Is the game in beta version? If it's the case, then there is a lot of risk in financing the latest stages and the deal will weight in favor of the publisher. Is the game already released and famous in Europe and looking for a publisher for Asia? Then the royalties will be much more modest, and calculated on a different set of metrics.
 
-Finally, one important part of the deal is about net/gross revenue. Often, publishers will only take account of the net revenue before calculating royalties. In net revenue, many charges can be applied. Almost always the platform commissions (iTunes and Play Store keep 30% of in-app purchases) will be accounted for. Very often, the marketing expenses will also be accounted for.
+Finally, one important part of the deal is about net/gross revenue. Often, publishers will only take account of the net revenue before calculating royalties. In net revenue, many charges can be applied. Almost always the platform commissions (iTunes and Play Store keep 30% of in-app purchases) will be accounted for. Very often, the marketing expenses will also be accounted for too.
 
 So, let's say that the deal is 50/50 net revshare and that commissions+marketing expenses are accounted for. Assume that the publisher invests 10K€ and that IAP (in-app purchases) generates 30K€ before platforms commissions. It is 21K€ after platform commissions. As 20% VAT applies, 16.8K€ is the net revenue. But if the marketing costs is removed from that, only 6.8K€ is left for revshare. This means that publisher and game studio will earn 3.4K€ net.
 
@@ -120,9 +120,20 @@ There are tons of game publishers out there... they are so many that they even a
 
 There are also a lot of resources that help developer to find "indie-friendly publishers": [directories](https://www.pocketgamer.biz/directory/), [lists](https://appmasters.com/mobile-game-publishers-list/), [leaderboards](https://www.metacritic.com/feature/game-publisher-rankings-for-2018-releases), and lots of [blog](https://ninichimusic.com/blog/16-indie-friendly-indie-game-publishers) [posts](https://instabug.com/blog/mobile-game-publishers/) ...
 
-What's important to keep in mind is that, very often, a publisher will be specialized in some given genre and platform. Conversely, some genres are more prone to publishing than others (this might be the subject of another blog post). For example, hyper casual games are [full of publishers](https://appgrowthsummit.com/these-5-publishers-are-dominating-the-hyper-casual-games-market/) ([Voodoo](https://www.voodoo.io/), [Ketchapp](http://www.ketchappgames.com/), [Kwalee](https://www.kwalee.com/), [Lion Studios](https://lionstudios.cc/), ...). Game studios are pretty small (2 people seem to be the norm) and games are developed in a few days. They are sent to the publishers who look at retention metrics to decide if they partner with the studio or not.
+What's important to keep in mind is that, very often, a publisher will be specialized in some given genre and platform. Conversely, some genres are more prone to publishing than others (this might be the subject of another blog post). For example, hyper casual games are [full of publishers](https://appgrowthsummit.com/these-5-publishers-are-dominating-the-hyper-casual-games-market/) ([Voodoo](https://www.voodoo.io/), [Ketchapp](http://www.ketchappgames.com/), [Kwalee](https://www.kwalee.com/), [Lion Studios](https://lionstudios.cc/), ...): game studios are pretty small (2 people seem to be the norm) and games are developed in a few days. They are sent to the publishers who look at retention metrics to decide if they partner with the studio or not.
 
 Hyper casual games are a speedy business. The faster you can create a game, the more you can iterate with publishers. The more games apply to publishers, the more picky they become. As CPI can go as low as $0.2 (sometimes even lower), the game needs some monetization via ads and good retention to prove profitable. Few games are selected, but when they are, publishers invest a lot in paid acquisition. They can test and iterate really fast, and kill a game after a couple of days if it finally doesn't meet expectations.
 
 
+## Next posts in the series
 
+My current goal is to setup a project to publish B2B SaaS applications. I'll probably have to look for one or two teammates, decide which apps I should approach and finally decide what the publishing tasks will be.
+
+I will try to share all my progress by blogging. The first important step for me, is to look for some team mates before getting a first partnership. So, if you liked this article and if you evolve in the **SaaS world** or in the **Publishing world**, please **help me to spread it**. One of your connection might be interested.
+
+So, let's jump into the writing of the following posts:
+
+* What a Saas Publishing company would look like?
+* Which SaaS apps should be published and which ones shouldn't?
+* What does a SaaS publisher do?
+* The first SaaS Publisher is live, check it out
