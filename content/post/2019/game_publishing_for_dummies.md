@@ -133,7 +133,8 @@ I will try to share all my progress by blogging. The first important step for me
 
 So, let's jump into the writing of the following posts:
 
-* What a Saas Publishing company would look like?
-* Which SaaS apps should be published and which ones shouldn't?
-* What does a SaaS publisher do?
-* The first SaaS Publisher is live, check it out
+1. **Game publishing for dummies** (you just read it)
+2. [What a Saas Publishing company would look like?](/2019/saas_publishing_company_profile/)
+3. Which SaaS apps should be published and which ones shouldn't?
+4. What does a SaaS publisher do?
+4. The first SaaS Publisher is live, check it out
