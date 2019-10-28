@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "World Hacks"
-BaseUrl= "http://jice.lavocat.name/blog/"
+BaseUrl= "https://jice.lavocat.name/blog/"
 LanguageCode= "fr-FR"
 Title= "World Hacks"
 paginate = 15
@@ -16,7 +16,7 @@ canonifyurls = true
   Description = "French/English essays about our Digital World, about Nature and Mind"
   cover = "images/coverCalvi.png"
   author = "Jean-Christophe Lavocat"
-  authorlocation = "Toulon, France"
+  authorlocation = "Aix en Provence, France"
   authorwebsite = "http://jice.lavocat.name"
   bio = "World citizen, often found in France. Currently trying to build a Startup named <a href='http://www.elokenz.com'>Elokenz</a> : a SaaS about Content Marketing and Social Media."
   logo = "images/logo.png"
@@ -24,7 +24,6 @@ canonifyurls = true
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   #RSSLink = "http://feeds.feedburner.com/jice_lavocat"
   githubName = "tanzaho"
-  googlePlusName = "+jice_lavocat"
   twitterName = "jice_lavocat"
   facebookName = "jean.christophe.gomez.lavocat"
   linkedinName = "9743130"
