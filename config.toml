@@ -18,7 +18,7 @@ canonifyurls = true
   author = "Jean-Christophe Lavocat"
   authorlocation = "Aix en Provence, France"
   authorwebsite = "http://jice.lavocat.name"
-  bio = "World citizen, often found in France. Currently trying to build a Startup named <a href='http://www.elokenz.com'>Elokenz</a> : a SaaS about Content Marketing and Social Media."
+  bio = "World citizen, often found in France. Currently trying to build a Startup named <a href='https://www.elokenz.com'>Elokenz</a> : a SaaS about Content Marketing and Social Media."
   logo = "images/logo.png"
   googleAnalyticsUserID = "UA-3492655-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
